@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-08-16T20:47:32+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Stark Effect in Hydrogen Atom</title><link href="http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html" rel="alternate" type="text/html" title="Stark Effect in Hydrogen Atom" /><published>2024-07-30T10:47:26+05:30</published><updated>2024-07-30T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html">&lt;p&gt;In the hydrogen atom, the energy levels are determined by the principal quantum number \(n\), and for a given \(n\), the energy is given by:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-08-16T21:14:51+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Stark Effect in Hydrogen Atom</title><link href="http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html" rel="alternate" type="text/html" title="Stark Effect in Hydrogen Atom" /><published>2024-07-30T10:47:26+05:30</published><updated>2024-07-30T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html">&lt;p&gt;In the hydrogen atom, the energy levels are determined by the principal quantum number \(n\), and for a given \(n\), the energy is given by:&lt;/p&gt;
 
 \[E_n^{(0)} = -\frac{13.6 \, \text{eV}}{n^2}\]
 
@@ -20,20 +20,13 @@
   &lt;li&gt;For \(l = 1\), \(m_l = -1, 0, 1\).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Thus, the \(n = 2\) level has the following four degenerate states:&lt;/p&gt;
+&lt;p&gt;Thus, the ( n = 2 ) level has the following four degenerate states:&lt;/p&gt;
+
 &lt;ol&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex&quot;&gt;|2,0,0\rangle \text{ (2s state)}&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex&quot;&gt;|2,1,0\rangle \text{ (2p state)}&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex&quot;&gt;|2,1,1\rangle \text{ (2p state)}&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex&quot;&gt;|2,1,-1\rangle \text{ (2p state)}&lt;/script&gt;
-  &lt;/li&gt;
+  &lt;li&gt;$ \ket{2,0,0}$ (2s state)&lt;/li&gt;
+  &lt;li&gt;$ \ket{2,1,0}$ (2p state)&lt;/li&gt;
+  &lt;li&gt;$ \ket{2,1,1}$ (2p state)&lt;/li&gt;
+  &lt;li&gt;$ \ket{2,1,-1}$ (2p state)&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;These states are degenerate in the absence of an external electric field. In presence of electric field they split as shown in figure given below:&lt;/p&gt;
@@ -68,31 +61,29 @@
   &lt;li&gt;\(\psi_{211}^{(0)}\), \(\psi_{210}^{(0)}\), \(\psi_{21-1}^{(0)}\) are the 2p states.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The matrix elements 
-&lt;script type=&quot;math/tex&quot;&gt;
-H&apos;_{ij} = \langle \psi_i^{(0)} | H&apos; | \psi_j^{(0)} \rangle &lt;/script&gt; are:&lt;/p&gt;
+&lt;p&gt;The matrix elements $H’_{ij} = \brakett{\psi_i^{(0)}}{H’}{\psi_j^{(0)}}$ are:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;script type=&quot;math/tex&quot;&gt; H&apos;_{11} = \langle \psi_{200}^{(0)} | e\mathcal{E}z | \psi_{200}^{(0)} \rangle = 0 \text{  (due to parity)}&lt;/script&gt;
+\[H&apos;_{11} = \brakett{\psi_{200}^{(0)}}{e\mathcal{E}z}{\psi_{200}^{(0)}} = 0\;\text{(due to parity)}\]
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;script type=&quot;math/tex&quot;&gt; H&apos;_{12} = \langle \psi_{200}^{(0)} | e\mathcal{E}z | \psi_{211}^{(0)} \rangle &lt;/script&gt;
+\[H&apos;_{12} = \brakett{\psi_{200}^{(0)}}{e\mathcal{E}z}{\psi_{211}^{(0)}}\]
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;script type=&quot;math/tex&quot;&gt; H&apos;_{13} = \langle \psi_{200}^{(0)} | e\mathcal{E}z | \psi_{210}^{(0)} \rangle &lt;/script&gt;
+\[H&apos;_{13} = \brakett{\psi_{200}^{(0)}}{e\mathcal{E}z}{\psi_{210}^{(0)}}\]
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;script type=&quot;math/tex&quot;&gt; H&apos;_{14} = \langle \psi_{200}^{(0)} | e\mathcal{E}z | \psi_{21-1}^{(0)} \rangle &lt;/script&gt;
+\[H&apos;_{14} = \brakett{\psi_{200}^{(0)}}{e\mathcal{E}z}{\psi_{21-1}^{(0)}}\]
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;script type=&quot;math/tex&quot;&gt; H&apos;_{22} = \langle \psi_{211}^{(0)} | e\mathcal{E}z | \psi_{211}^{(0)} \rangle &lt;/script&gt;
+\[H&apos;_{22} = \brakett{\psi_{211}^{(0)}}{e\mathcal{E}z}{\psi_{211}^{(0)}}\]
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;script type=&quot;math/tex&quot;&gt; H&apos;_{33} = \langle \psi_{210}^{(0)} | e\mathcal{E}z | \psi_{210}^{(0)} \rangle &lt;/script&gt;
+\[H&apos;_{33} = \brakett{\psi_{210}^{(0)}}{e\mathcal{E}z}{\psi_{210}^{(0)}}\]
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;script type=&quot;math/tex&quot;&gt; H&apos;_{44} = \langle \psi_{21-1}^{(0)} | e\mathcal{E}z | \psi_{21-1}^{(0)} \rangle &lt;/script&gt;
+\[H&apos;_{44} = \brakett{\psi_{21-1}^{(0)}}{e\mathcal{E}z}{\psi_{21-1}^{(0)}}\]
   &lt;/li&gt;
 &lt;/ol&gt;
 

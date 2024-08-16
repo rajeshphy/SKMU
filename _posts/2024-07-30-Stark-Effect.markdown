@@ -24,11 +24,12 @@ This level is four-fold degenerate because there are multiple quantum states wit
 - For $$ l = 0 $$, $$ m_l = 0 $$.
 - For $$ l = 1 $$, $$ m_l = -1, 0, 1 $$.
 
-Thus, the $$ n = 2 $$ level has the following four degenerate states:
-1. <script type="math/tex">|2,0,0\rangle \text{ (2s state)}</script> 
-2. <script type="math/tex">|2,1,0\rangle \text{ (2p state)}</script> 
-3. <script type="math/tex">|2,1,1\rangle \text{ (2p state)}</script> 
-4. <script type="math/tex">|2,1,-1\rangle \text{ (2p state)}</script> 
+Thus, the \( n = 2 \) level has the following four degenerate states:
+
+1. $ \ket{2,0,0}$ (2s state)
+2. $ \ket{2,1,0}$ (2p state)
+3. $ \ket{2,1,1}$ (2p state)
+4. $ \ket{2,1,-1}$ (2p state)
 
 These states are degenerate in the absence of an external electric field. In presence of electric field they split as shown in figure given below:
 
@@ -61,17 +62,15 @@ where:
 - $$ \psi_{200}^{(0)} $$ is the 2s state.
 - $$ \psi_{211}^{(0)} $$, $$ \psi_{210}^{(0)} $$, $$ \psi_{21-1}^{(0)} $$ are the 2p states.
 
-The matrix elements 
-<script type="math/tex">
-H'_{ij} = \langle \psi_i^{(0)} | H' | \psi_j^{(0)} \rangle </script> are:
+The matrix elements $H'_{ij} = \brakett{\psi_i^{(0)}}{H'}{\psi_j^{(0)}}$ are:
 
-1. <script type="math/tex"> H'_{11} = \langle \psi_{200}^{(0)} | e\mathcal{E}z | \psi_{200}^{(0)} \rangle = 0 \text{  (due to parity)}</script> 
-2. <script type="math/tex"> H'_{12} = \langle \psi_{200}^{(0)} | e\mathcal{E}z | \psi_{211}^{(0)} \rangle </script>
-3. <script type="math/tex"> H'_{13} = \langle \psi_{200}^{(0)} | e\mathcal{E}z | \psi_{210}^{(0)} \rangle </script>
-4. <script type="math/tex"> H'_{14} = \langle \psi_{200}^{(0)} | e\mathcal{E}z | \psi_{21-1}^{(0)} \rangle </script>
-5. <script type="math/tex"> H'_{22} = \langle \psi_{211}^{(0)} | e\mathcal{E}z | \psi_{211}^{(0)} \rangle </script>
-6. <script type="math/tex"> H'_{33} = \langle \psi_{210}^{(0)} | e\mathcal{E}z | \psi_{210}^{(0)} \rangle </script>
-7. <script type="math/tex"> H'_{44} = \langle \psi_{21-1}^{(0)} | e\mathcal{E}z | \psi_{21-1}^{(0)} \rangle </script>
+1. $$H'_{11} = \brakett{\psi_{200}^{(0)}}{e\mathcal{E}z}{\psi_{200}^{(0)}} = 0\;\text{(due to parity)}$$ 
+2. $$H'_{12} = \brakett{\psi_{200}^{(0)}}{e\mathcal{E}z}{\psi_{211}^{(0)}}$$
+3. $$H'_{13} = \brakett{\psi_{200}^{(0)}}{e\mathcal{E}z}{\psi_{210}^{(0)}}$$
+4. $$H'_{14} = \brakett{\psi_{200}^{(0)}}{e\mathcal{E}z}{\psi_{21-1}^{(0)}}$$
+5. $$H'_{22} = \brakett{\psi_{211}^{(0)}}{e\mathcal{E}z}{\psi_{211}^{(0)}}$$
+6. $$H'_{33} = \brakett{\psi_{210}^{(0)}}{e\mathcal{E}z}{\psi_{210}^{(0)}}$$
+7. $$H'_{44} = \brakett{\psi_{21-1}^{(0)}}{e\mathcal{E}z}{\psi_{21-1}^{(0)}}$$
 
 These elements need to be calculated. For simplicity, we consider the known spherical harmonics and radial functions.
 

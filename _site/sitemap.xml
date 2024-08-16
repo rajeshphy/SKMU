@@ -39,6 +39,9 @@
 <loc>http://localhost:4000/SKMU/posts/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/SKMU/page2/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/SKMU/assets/blog_files/genome-coverage-vis/complex_plot.pdf</loc>
 <lastmod>2024-08-16T20:07:42+05:30</lastmod>
 </url>

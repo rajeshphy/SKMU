@@ -27,7 +27,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2024-06-21T18:47:26+05:30" />
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/SKMU/lecture/2024/06/21/Laser.html"},"author":{"@type":"Person","name":"Rajesh Kumar"},"url":"http://localhost:4000/SKMU/lecture/2024/06/21/Laser.html","description":"``` Basic principles and different LASER’s: principles and working of Ruby Laser, He-Ne Laser, Solid state laser, semiconductor laser CO2 LASER and qualitative description of longitudinal and TE- LASER systems, Excimer LASER, Dye LASER, Roman LASER, Plasma recombination LASER.","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/SKMU/assets/icons/logo.png"},"name":"Rajesh Kumar"},"headline":"LASER","dateModified":"2024-06-21T18:47:26+05:30","datePublished":"2024-06-21T18:47:26+05:30","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Rajesh Kumar"},"url":"http://localhost:4000/SKMU/lecture/2024/06/21/Laser.html","description":"``` Basic principles and different LASER’s: principles and working of Ruby Laser, He-Ne Laser, Solid state laser, semiconductor laser CO2 LASER and qualitative description of longitudinal and TE- LASER systems, Excimer LASER, Dye LASER, Roman LASER, Plasma recombination LASER.","@type":"BlogPosting","headline":"LASER","dateModified":"2024-06-21T18:47:26+05:30","datePublished":"2024-06-21T18:47:26+05:30","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/SKMU/assets/icons/logo.png"},"name":"Rajesh Kumar"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/SKMU/lecture/2024/06/21/Laser.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -56,7 +56,13 @@
       tex: {
         inlineMath: [['$', '$'], ['\\(', '\\)']],
         displayMath: [['$$', '$$'], ['\\[', '\\]']],
-        processEscapes: true
+        processEscapes: true,
+        macros: {
+          bra: ["{\\langle #1 \\vert}", 1],
+          ket: ["{\\vert #1 \\rangle}", 1],
+          braket: ["{\\langle #1 \\vert #2 \\rangle}", 2],
+          brakett: ["{\\langle #1 \\vert #2 \\vert #3 \\rangle}", 3]
+        }
       },
       svg: {
         fontCache: 'global'

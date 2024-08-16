@@ -38,7 +38,13 @@
       tex: {
         inlineMath: [['$', '$'], ['\\(', '\\)']],
         displayMath: [['$$', '$$'], ['\\[', '\\]']],
-        processEscapes: true
+        processEscapes: true,
+        macros: {
+          bra: ["{\\langle #1 \\vert}", 1],
+          ket: ["{\\vert #1 \\rangle}", 1],
+          braket: ["{\\langle #1 \\vert #2 \\rangle}", 2],
+          brakett: ["{\\langle #1 \\vert #2 \\vert #3 \\rangle}", 3]
+        }
       },
       svg: {
         fontCache: 'global'
