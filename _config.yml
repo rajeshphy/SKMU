@@ -33,7 +33,7 @@ feed:
   path: https://rajeshphy.github.io/
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 8
+paginate: 7
 paginate_path: /page:num/
 
 # Exclude from processing.

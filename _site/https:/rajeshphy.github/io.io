@@ -1,41 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-08-16T20:37:22+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">*Additional Resources*</title><link href="http://localhost:4000/SKMU/lecture/2024/08/09/Additional-Resources.html" rel="alternate" type="text/html" title="*Additional Resources*" /><published>2024-08-09T10:47:26+05:30</published><updated>2024-08-09T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/08/09/Additional-Resources</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/08/09/Additional-Resources.html">&lt;p&gt;Supplementary resources for the course are provided below. These resources include textbooks, research papers, and other materials that may be of interest to students.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/None-Formulation-QM.pdf&quot;&gt;Nine Formulation Of Quantum Mechanics -Daniel F. Styer&lt;/a&gt;&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/QM-Postulates.pdf&quot;&gt;Postulates Of QM&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/Greens-Function.pdf&quot;&gt;Green’s Function - Erik M. Olsen&lt;/a&gt;&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;https://bingweb.binghamton.edu/~suzuki/Math-Physics/LN-14_Green_s_function.pdf&quot;&gt;Green’s Function Example&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/Scattering-MIT.pdf&quot;&gt;Scattering Theory - B.Zwiebach&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/QM-Variational.pdf&quot;&gt;Variational Principle&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/SKMU/assets/pdf/Math-Formulae.pdf&quot;&gt;Frequently Used Mathematical Formula&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/SKMU/assets/pdf/QM-Formulae.pdf&quot;&gt;Frequently Used Quantum Mechanics Formula&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/Statistical-Formulae.pdf&quot;&gt;Statistical Mechanics Formula&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/The-Cambridge-Handbook-of-Physics-Formulas.pd&quot;&gt;Handbook Of Physics Formulas&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="Additional-Resources" /><summary type="html">Supplementary resources for the course are provided below. These resources include textbooks, research papers, and other materials that may be of interest to students.</summary></entry><entry><title type="html">Stark Effect in Hydrogen Atom</title><link href="http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html" rel="alternate" type="text/html" title="Stark Effect in Hydrogen Atom" /><published>2024-07-30T10:47:26+05:30</published><updated>2024-07-30T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html">&lt;p&gt;In the hydrogen atom, the energy levels are determined by the principal quantum number \(n\), and for a given \(n\), the energy is given by:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-08-16T20:47:32+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Stark Effect in Hydrogen Atom</title><link href="http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html" rel="alternate" type="text/html" title="Stark Effect in Hydrogen Atom" /><published>2024-07-30T10:47:26+05:30</published><updated>2024-07-30T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html">&lt;p&gt;In the hydrogen atom, the energy levels are determined by the principal quantum number \(n\), and for a given \(n\), the energy is given by:&lt;/p&gt;
 
 \[E_n^{(0)} = -\frac{13.6 \, \text{eV}}{n^2}\]
 
@@ -1576,4 +1539,41 @@ This reduces to the Klein-Gordon equation, showing that our linear equation is c
   &lt;li&gt;\(\gamma^\mu\) are the gamma matrices, which ensure that the equation transforms correctly under Lorentz transformations.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;This is the Dirac equation, describing spin-1/2 particles in relativistic quantum mechanics.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Relativistic-QM," /><category term="Klein-Gordon-Equation," /><category term="Dirac-Equation" /><summary type="html">Below is the outline of the lecture on Relativistic Quantum Mechanics, covering the Klein–Gordon equation, Dirac equation, probabilities and current densities, magnetic moment and spin of the electron, and free particle solutions of the Dirac equation.</summary></entry></feed>
+&lt;p&gt;This is the Dirac equation, describing spin-1/2 particles in relativistic quantum mechanics.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Relativistic-QM," /><category term="Klein-Gordon-Equation," /><category term="Dirac-Equation" /><summary type="html">Below is the outline of the lecture on Relativistic Quantum Mechanics, covering the Klein–Gordon equation, Dirac equation, probabilities and current densities, magnetic moment and spin of the electron, and free particle solutions of the Dirac equation.</summary></entry><entry><title type="html">*Additional Resources*</title><link href="http://localhost:4000/SKMU/lecture/2024/05/09/Additional-Resources.html" rel="alternate" type="text/html" title="*Additional Resources*" /><published>2024-05-09T10:47:26+05:30</published><updated>2024-05-09T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/05/09/Additional-Resources</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/05/09/Additional-Resources.html">&lt;p&gt;Supplementary resources for the course are provided below. These resources include textbooks, research papers, and other materials that may be of interest to students.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/None-Formulation-QM.pdf&quot;&gt;Nine Formulation Of Quantum Mechanics -Daniel F. Styer&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/QM-Postulates.pdf&quot;&gt;Postulates Of QM&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/Greens-Function.pdf&quot;&gt;Green’s Function - Erik M. Olsen&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;https://bingweb.binghamton.edu/~suzuki/Math-Physics/LN-14_Green_s_function.pdf&quot;&gt;Green’s Function Example&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/Scattering-MIT.pdf&quot;&gt;Scattering Theory - B.Zwiebach&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/QM-Variational.pdf&quot;&gt;Variational Principle&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/SKMU/assets/pdf/Math-Formulae.pdf&quot;&gt;Frequently Used Mathematical Formula&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/SKMU/assets/pdf/QM-Formulae.pdf&quot;&gt;Frequently Used Quantum Mechanics Formula&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/Statistical-Formulae.pdf&quot;&gt;Statistical Mechanics Formula&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/The-Cambridge-Handbook-of-Physics-Formulas.pd&quot;&gt;Handbook Of Physics Formulas&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="Additional-Resources" /><summary type="html">Supplementary resources for the course are provided below. These resources include textbooks, research papers, and other materials that may be of interest to students.</summary></entry></feed>
