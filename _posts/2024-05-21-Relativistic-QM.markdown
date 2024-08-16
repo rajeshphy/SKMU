@@ -3,6 +3,7 @@ layout: post
 title:  "Relativistic Quantum Mechanics"
 date:   2024-05-21 18:47:26 +0530
 categories: lecture
+tags: Relativistic-QM, Klein-Gordon-Equation, Dirac-Equation
 ---
 
 Below is the outline of the lecture on Relativistic Quantum Mechanics, covering the Klein–Gordon equation, Dirac equation, probabilities and current densities, magnetic moment and spin of the electron, and free particle solutions of the Dirac equation.

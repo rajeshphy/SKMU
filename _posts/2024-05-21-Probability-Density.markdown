@@ -3,6 +3,7 @@ layout: post
 title:  "Derivations-QM: Current Density Conservation Equation"
 date:   2024-07-03 18:47:26 +0530
 categories: lecture
+tags: Dirac-Equation, Current-Density, Conservation-Equation
 ---
 
 The Dirac equation for a free particle is given by:

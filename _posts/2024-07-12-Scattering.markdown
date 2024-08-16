@@ -3,6 +3,7 @@ layout: post
 title:  "Scattering"
 date:   2024-07-12 10:47:26 +0530
 categories: lecture
+tags: Scattering, Quantum Mechanics, Partial Wave Analysis, Phase Shifts, Rutherford Scattering, Born Approximation
 ---
 
 Consider the Hamiltonian $H$ of the system, which is time-independent, given by

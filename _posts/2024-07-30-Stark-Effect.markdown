@@ -3,6 +3,7 @@ layout: post
 title:  "Stark Effect in Hydrogen Atom"
 date:   2024-07-30 10:47:26 +0530
 categories: lecture
+tags: quantum-mechanics hydrogen-atom stark-effect
 ---
 
 In the hydrogen atom, the energy levels are determined by the principal quantum number $$ n $$, and for a given $$ n $$, the energy is given by:

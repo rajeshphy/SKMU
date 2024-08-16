@@ -3,6 +3,7 @@ layout: post
 title:  "LASER"
 date:   2024-06-21 18:47:26 +0530
 categories: lecture
+tags: Laser, Solid State Laser, Gas Laser, Semiconductor Laser, Waveguides, Longitudinal LASER, TE-LASER, Excimer LASER, Dye LASER, Roman LASER, Plasma Recombination LASER
 ---
 
 

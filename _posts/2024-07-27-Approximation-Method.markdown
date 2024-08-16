@@ -3,6 +3,7 @@ layout: post
 title:  "Approximation Method"
 date:   2024-07-26 10:47:26 +0530
 categories: lecture
+tags: quantum-mechanics approximation-method perturbation-theory
 ---
 Perturbation theory is a powerful tool in quantum mechanics used to study systems where the Hamiltonian can be separated into a known part $$ H_0 $$ and a small perturbation $$ H' $$. The goal is to find approximate solutions to the Schrödinger equation for the full Hamiltonian $$ H = H_0 + H' $$ by treating the perturbation as a small correction to the known system.
 

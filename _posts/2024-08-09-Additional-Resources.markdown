@@ -3,6 +3,7 @@ layout: post
 title:  "*Additional Resources*"
 date:   2024-08-09 10:47:26 +0530
 categories: lecture
+tags: Additional-Resources
 ---
 Supplementary resources for the course are provided below. These resources include textbooks, research papers, and other materials that may be of interest to students.
 

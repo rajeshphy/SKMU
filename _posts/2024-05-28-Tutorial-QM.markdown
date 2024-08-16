@@ -3,6 +3,7 @@ layout: post
 title:  "Tutorial-QM"
 date:   2024-05-28 18:47:26 +0530
 categories: lecture
+tags: tutorial, relativistic-quantum-mechanics
 ---
 
 This tutorial covers Klein-Gordon and Dirac equations in quantum mechanics.

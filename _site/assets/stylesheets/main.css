@@ -788,3 +788,14 @@ body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .vi
   /* Hide the following elements on print ========================================================================== */
   .skip-links, .sidebar-toggle-wrapper, .sidebar, .title-area, .pager, .site-footer, .adsbygoogle { display: none !important; height: 1px; } }
 .mermaid { display: block; margin-left: auto; margin-right: auto; text-align: center; }
+
+.equation-container { overflow-x: auto; /* Allow horizontal scrolling */ -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */ }
+
+.equation { display: inline-block; /* Ensure equation is treated as block-level */ max-width: 100%; /* Ensure equation does not exceed container width */ white-space: nowrap; /* Prevent wrapping */ }
+
+@media only screen and (max-width: 600px) { .mermaid { width: 100%; padding: 0 10px; }
+  body { font-size: 16px; line-height: 1.5; }
+  .content { padding: 15px; }
+  .header, .footer { padding: 10px 15px; text-align: center; }
+  .equation-container { padding: 0 10px; /* Add padding to prevent clipping */ }
+  .equation { font-size: 14px; /* Optionally adjust font size for mobile */ } }
