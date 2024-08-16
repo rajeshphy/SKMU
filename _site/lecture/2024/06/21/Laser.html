@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<!--
+    Basically Basic Jekyll Theme 1.4.5
+    Copyright 2017-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes">
+
+  
+    
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>LASER | Rajesh Kumar</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="LASER" />
+<meta name="author" content="Rajesh Kumar" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="``` Basic principles and different LASER’s: principles and working of Ruby Laser, He-Ne Laser, Solid state laser, semiconductor laser CO2 LASER and qualitative description of longitudinal and TE- LASER systems, Excimer LASER, Dye LASER, Roman LASER, Plasma recombination LASER." />
+<meta property="og:description" content="``` Basic principles and different LASER’s: principles and working of Ruby Laser, He-Ne Laser, Solid state laser, semiconductor laser CO2 LASER and qualitative description of longitudinal and TE- LASER systems, Excimer LASER, Dye LASER, Roman LASER, Plasma recombination LASER." />
+<link rel="canonical" href="http://localhost:4000/SKMU/lecture/2024/06/21/Laser.html" />
+<meta property="og:url" content="http://localhost:4000/SKMU/lecture/2024/06/21/Laser.html" />
+<meta property="og:site_name" content="Rajesh Kumar" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-06-21T18:47:26+05:30" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/SKMU/lecture/2024/06/21/Laser.html"},"author":{"@type":"Person","name":"Rajesh Kumar"},"url":"http://localhost:4000/SKMU/lecture/2024/06/21/Laser.html","description":"``` Basic principles and different LASER’s: principles and working of Ruby Laser, He-Ne Laser, Solid state laser, semiconductor laser CO2 LASER and qualitative description of longitudinal and TE- LASER systems, Excimer LASER, Dye LASER, Roman LASER, Plasma recombination LASER.","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/SKMU/assets/icons/logo.png"},"name":"Rajesh Kumar"},"headline":"LASER","dateModified":"2024-06-21T18:47:26+05:30","datePublished":"2024-06-21T18:47:26+05:30","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+
+  <!-- Include Mermaid.js from a CDN -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+
+    <!-- Math JX -->
+    <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+    </script>
+  
+  <script type="text/javascript">
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+  </script>
+  
+
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="/SKMU/assets/stylesheets/main.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Radio+Canada+Big:400,400i,600,600i">
+  
+
+  
+    
+    <link rel="alternate" type="application/atom+xml" title="Rajesh Kumar" href="https://rajeshphy.github.io/">
+  
+  <meta name="google-site-verification" content="ONNy_6CkGORdDQ9whxpp_EIkMC_mXOohCfdkEK1zAM8" />
+</head>
+
+
+  <body class="layout--post laser">
+
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+
+    <div class="sidebar-toggle-wrapper">
+      
+        <button class="search-toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <title>Search</title>
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+      
+
+      <button class="toggle navicon-button larr" type="button">
+        <span class="toggle-inner">
+          <span class="sidebar-toggle-label visually-hidden">Menu</span>
+          <span class="navicon"></span>
+        </span>
+      </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <div class="inner">
+        <nav id="primary-nav" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul id="menu-main-navigation" class="menu">
+    <!-- Home link -->
+    <li class="menu-item">
+      <a href="/SKMU/" itemprop="url">
+        <span itemprop="name">Home</span>
+      </a>
+    </li>
+
+    <!-- site.pages links -->
+    
+    
+
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/SKMU/posts/" itemprop="url">
+            <span itemprop="name">Posts</span>
+          </a>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+        <ul class="contact-list">
+  
+    <li>
+      <a href="mailto:kr.rajesh.phy@gmail.com">
+        <span class="icon icon--email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="313.1 3.7 16 16"><path d="M318.5 8.9c0-.2.2-.4.4-.4h4.5c.2 0 .4.2.4.4s-.2.4-.4.4h-4.5c-.3 0-.4-.2-.4-.4zm.4 2.1h4.5c.2 0 .4-.2.4-.4s-.2-.4-.4-.4h-4.5c-.2 0-.4.2-.4.4s.1.4.4.4zm3.5 1.2c0-.2-.2-.4-.4-.4h-3.1c-.2 0-.4.2-.4.4s.2.4.4.4h3.1c.2.1.4-.1.4-.4zm-1.5-8.4l-1.7 1.4c-.2.1-.2.4 0 .6s.4.2.6 0l1.4-1.2 1.4 1.2c.2.1.4.1.6 0s.1-.4 0-.6l-1.7-1.4c-.3-.1-.5-.1-.6 0zm7.8 6.2c.1.1.1.2.1.3v7.9c0 .8-.7 1.5-1.5 1.5h-12.5c-.8 0-1.5-.7-1.5-1.5v-7.9c0-.1.1-.2.1-.3l1.6-1.3c.2-.1.4-.1.6 0s.1.4 0 .6l-1.2 1 1.8 1.3v-4c0-.6.5-1.1 1.1-1.1h7.5c.6 0 1.1.5 1.1 1.1v4l1.8-1.3-1.2-1c-.2-.1-.2-.4 0-.6s.4-.2.6 0l1.6 1.3zm-11.6 2.2l4 2.8 4-2.8V7.6c0-.1-.1-.2-.2-.2h-7.5c-.1 0-.2.1-.2.2v4.6zm10.9-1l-4.7 3.4 3.4 2.6c.2.1.2.4.1.6-.1.2-.4.2-.6.1l-3.6-2.8-1.2.8c-.1.1-.3.1-.5 0l-1.2-.8-3.6 2.8c-.2.1-.4.1-.6-.1-.1-.2-.1-.4.1-.6l3.4-2.6-4.7-3.4v7.1c0 .4.3.6.6.6h12.5c.4 0 .6-.3.6-.6v-7.1z"/></svg></span>
+        <span class="label">Email</span>
+      </a>
+    </li>
+  
+
+  
+
+  
+
+  <li>
+    
+      <a href="https://rajeshphy.github.io/" title="Atom Feed">
+        <span class="icon icon--rss"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194 11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0 13.806c0-1.21.983-2.195 2.194-2.195zM10.606 16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"/></svg></span>
+        <span class="label">Subscribe</span>
+      </a>
+    
+  </li>
+</ul>
+
+      </div>
+    </div>
+
+    <div class="canvas">
+      <div class="wrapper">
+        
+
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      
+        <p class="site-title">
+          <a href="/SKMU/">
+            <img src="/SKMU/assets/icons/logo.png" alt="" class="site-logo">
+            <span>Rajesh Kumar</span>
+          </a>
+        </p>
+      
+    </div>
+  </div>
+</header>
+
+        <div class="initial-content">
+          <header class="intro">
+  
+
+  <div class="inner">
+    <div class="intro-text">
+      <h1 id="page-title" class="intro-title">LASER
+</h1>
+      
+
+      
+        
+
+
+        <p class="entry-meta">
+          <span class="byline-item">by Rajesh Kumar</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2024-06-21T18:47:26+05:30">June 21, 2024</time></span> <span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="15 309.7 16 16"><g><path d="M23.9 315.1v3.6c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-3.6h1.8z"/><path d="M30.1 317.7c.5 3.9-2.3 7.5-6.2 7.9-3.9.5-7.5-2.3-7.9-6.2-.5-3.9 2.3-7.5 6.2-7.9v-1.8H24v1.8c1.1.1 2.7.7 3.5 1.4l1.3-1.3 1.3 1.3-1.3 1.3c.5.9 1.2 2.5 1.3 3.5zm-1.8.9c0-2.9-2.4-5.3-5.3-5.3s-5.3 2.4-5.3 5.3 2.4 5.3 5.3 5.3 5.3-2.3 5.3-5.3z"/></g></svg></span>13 min read</span>
+        </p>
+      
+
+      
+
+      
+    </div>
+  </div>
+</header>
+
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Basic principles and different LASER’s: principles and working of Ruby Laser, He-Ne Laser, Solid state laser, semiconductor laser CO2 LASER and qualitative description of longitudinal and TE- LASER systems, Excimer LASER, Dye LASER, Roman LASER, Plasma recombination LASER. 
+
+09 Lectures
+</code></pre></div></div>
+<h2 id="introduction-to-lasers"><span style="color:red">Introduction to LASERs</span></h2>
+<ul>
+  <li>A laser is defined as an optical device that generates an intense beam of light with high coherence and narrow spectral bandwidth. This is achieved through the process of stimulated emission, where an external energy source excites atoms or molecules to a higher energy state. When these excited atoms or molecules return to a lower energy state, they emit photons in phase, leading to the amplification of light. The term “laser” stands for Light Amplification by Stimulated Emission of Radiation, highlighting its fundamental mechanism of operation.</li>
+</ul>
+
+<p>There are two main mechanisms involved in the operation of a laser:</p>
+
+<ol>
+  <li>
+    <p>Population Inversion: This is the process where the number of atoms or molecules in an excited state is greater than the number in the ground state. This condition is essential for stimulated emission to occur and for the laser to function effectively.</p>
+  </li>
+  <li>
+    <p>Stimulated Emission: This is the process where an incoming photon interacts with an excited atom or molecule, causing it to emit a second photon with the same energy, phase, and direction as the incoming photon. This leads to the amplification of light and the generation of a coherent laser beam.</p>
+  </li>
+</ol>
+
+<p>Stimulated emission is the key process that distinguishes lasers from other light sources, such as incandescent bulbs or fluorescent lamps. It is different from <strong>spontaneous emission</strong>, where an atom or molecule emits a photon randomly and independently of external stimuli.</p>
+
+<h3 id="light-atom-interaction-process">Light-Atom Interaction Process</h3>
+<p>Three processes in which atoms interact with light are given in figure below:</p>
+
+<p><img src="/SKMU/assets/img/LASER/interaction-process.jpeg" alt="Interaction Process" class="my-custom-class" style="max-width:100%; height:auto;" /></p>
+<h3 id="population-inversion-process">Population Inversion Process</h3>
+<p>We need to create a non-equilibrium situation where more atoms are in a higher-energy state than in a lower-energy state, known as a population inversion. In this situation, the rate of energy radiation by stimulated emission can exceed the rate of absorption, making the system act as a net source of radiation with photon energy E. We achieve population inversion by starting with atoms that have the appropriate excited states.</p>
+
+<p>The energy-level diagram for such an atom includes a ground state and three excited states of energies E1, E2, and E3 as given in figure-a:</p>
+
+<p><img src="/SKMU/assets/img/LASER/pumping.jpeg" alt="Interaction Process" class="my-custom-class" style="max-width:100%; height:auto;" /></p>
+
+<p>A laser using a material with these energy levels is called a four-level laser. For laser action, the states with energies E1 and E3 must have short lifetimes of about 10⁻⁸ seconds, while the state with energy E2 must have a long lifetime of about 10⁻³ seconds. This long-lived metastable state can occur due to restrictions imposed by conservation of angular momentum that hinder photon emission. The metastable state is the one we aim to populate.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Metastable State: A state of an atom or molecule with a long lifetime due to restrictions on the allowed transitions to lower-energy states.
+</code></pre></div></div>
+<p>To produce a population inversion, we pump the material to excite the atoms from the ground state into the states of energies E1, E2, and E3 as given in figure-b. In a gas, this can be done by inserting two electrodes into the gas container. When a high voltage is applied to the electrodes, an electric discharge occurs, causing collisions between ionized atoms and electrons that excite the atoms to various energy states. Within about 10⁻⁸ seconds as shown in figure-c, the atoms excited to states E1 and E3 undergo spontaneous photon emission, leaving these states depopulated. Atoms accumulate in the metastable state with energy E2. Although the number of atoms in the metastable state is less than in the ground state, it is much greater than in the nearly unoccupied state of energy E1, resulting in a population inversion of state E2 relative to state E1. The levels E1 and E3 are essential: atoms undergoing spontaneous emission from the E3 level help populate the E2 level, and the presence of the E1 level enables the population inversion.</p>
+
+<p><img src="/SKMU/assets/img/LASER/after-pumping.jpeg" alt="Interaction Process" class="my-custom-class" style="max-width:100%; height:auto;" /></p>
+
+<hr />
+
+<h2 id="types-of-lasers"><span style="color:red">Types of LASERs</span></h2>
+
+<h2 id="1-solid-state-lasers">1. Solid State LASERs</h2>
+<p>Solid-state lasers use a solid material as the gain medium. This medium typically consists of a glass or crystalline host material doped with ions that provide the necessary energy states for lasing.</p>
+
+<h5 id="examples-of-solid-state-lasers">Examples of Solid-State Lasers</h5>
+
+<ul>
+  <li><strong>Ruby Laser</strong></li>
+  <li><strong>Nd:YAG Laser</strong></li>
+  <li><strong>Nd:Glass Laser</strong></li>
+</ul>
+
+<h4 id="ruby-laser">Ruby Laser</h4>
+<p>A ruby laser is a type of solid-state laser that uses a synthetic ruby crystal as its gain medium. The first ruby laser was constructed by Theodore H. Maiman in 1960.</p>
+
+<h4 id="construction">Construction</h4>
+
+<ul>
+  <li>The ruby rod, which is 4 cm long and 5 mm in diameter, serves as the laser medium.</li>
+  <li>Both ends of the rod are highly polished and parallel, with one end partially reflective and the other end fully reflective.</li>
+  <li>The rod is surrounded by a xenon flash tube, which provides the pumping energy to excite the chromium ions in the ruby.</li>
+</ul>
+
+<p><img src="/SKMU/assets/img/LASER/ruby.gif" alt="Interaction Process" class="my-custom-class" style="max-width:100%; height:auto;" /></p>
+<h3 id="working-principle">Working Principle</h3>
+
+<ol>
+  <li>The xenon flash tube emits a burst of light, which excites the chromium ions in the ruby rod to a higher energy state.</li>
+  <li>These ions then drop to a lower energy state (meta-stable state), where they remain for a relatively long time.</li>
+  <li>As more ions accumulate in this meta-stable state, a population inversion is achieved.</li>
+  <li>When an excited ion returns to its ground state, it emits a photon. This photon stimulates other excited ions to emit additional photons, leading to a cascade of stimulated emission.</li>
+  <li>The emitted photons are reflected back and forth between the two mirrors, amplifying the light with each pass until a coherent beam of light exits through the partially reflective mirror.</li>
+</ol>
+
+<h4 id="drawbacks">Drawbacks</h4>
+
+<ul>
+  <li>Requires high pumping power.</li>
+  <li>Low efficiency.</li>
+  <li>Operates in pulsed mode.</li>
+</ul>
+
+<h4 id="applications">Applications</h4>
+
+<ul>
+  <li>Optical photography.</li>
+  <li>Measurement of plasma properties.</li>
+  <li>Removal of skin melanin.</li>
+  <li>Holography.</li>
+</ul>
+
+<hr />
+
+<h2 id="2-gas-lasers">2. Gas LASERs</h2>
+<p>Gas lasers use a gas mixture as the gain medium to produce laser light. The gas mixture can consist of various combinations of noble gases, halogens, and metal vapors, depending on the desired output wavelength and power.</p>
+<h5 id="examples-of-gas-lasers">Examples of Gas Lasers</h5>
+<ul>
+  <li><strong>He-Ne Laser</strong></li>
+  <li><strong>CO2 Laser</strong></li>
+  <li><strong>Argon Ion Laser</strong></li>
+</ul>
+
+<h4 id="i-he-ne-laser">I. He-Ne Laser</h4>
+
+<p>The He-Ne laser is a gas laser that uses a mixture of helium and neon gases. It was the first continuous-wave (CW) laser and was developed by Ali Javan and his colleagues in 1960.</p>
+
+<h4 id="construction-1">Construction</h4>
+
+<ul>
+  <li>A discharge tube containing a mixture of helium and neon gases in the ratio of 10:1.</li>
+  <li>Mirrors are placed at both ends of the tube, with one fully reflective and the other partially reflective.</li>
+  <li>The typical length of the discharge tube is 80 cm with a diameter of 1 cm.</li>
+</ul>
+
+<p><img src="/SKMU/assets/img/LASER/He-Ne.png" alt="Interaction Process" class="my-custom-class" style="max-width:100%; height:auto;" /></p>
+<h3 id="working-principle-1">Working Principle</h3>
+
+<ol>
+  <li>An electric discharge excites the helium atoms to higher energy levels.</li>
+  <li>These excited helium atoms collide with neon atoms, transferring energy and exciting the neon atoms to higher energy states.</li>
+  <li>A population inversion is achieved between certain energy levels of the neon atoms.</li>
+  <li>The neon atoms emit photons when they return to a lower energy state, producing laser light.</li>
+  <li>The emitted photons are reflected between the mirrors, amplifying the light through stimulated emission until a coherent beam exits through the partially reflective mirror.</li>
+</ol>
+
+<h4 id="applications-1">Applications</h4>
+
+<ul>
+  <li>Holography.</li>
+  <li>Barcode scanning.</li>
+  <li>Laser printing.</li>
+  <li>Optical demonstrations in educational settings.</li>
+</ul>
+
+<h4 id="ii-co2-laser">II. CO2 LASER</h4>
+
+<p>The CO₂ laser is a type of gas laser that uses carbon dioxide (CO₂) as the gain medium. It is one of the most powerful and efficient types of lasers and is commonly used for industrial cutting, welding, and medical procedures.</p>
+
+<h4 id="construction-2">Construction</h4>
+
+<ol>
+  <li><strong>Discharge Tube:</strong> The CO₂ laser consists of a gas discharge tube filled with a mixture of carbon dioxide (CO₂), nitrogen (N₂), and helium (He). The typical ratio is CO₂:N₂:He = 1:1:8.</li>
+  <li><strong>Mirrors:</strong> Two mirrors are placed at the ends of the discharge tube, forming an optical resonator. One mirror is fully reflective, while the other is partially reflective, allowing some light to escape as the laser beam.</li>
+  <li><strong>Electrodes:</strong> Electrodes are placed along the discharge tube to create an electric field that excites the gas molecules.</li>
+  <li><strong>Cooling System:</strong> A cooling system is used to dissipate the heat generated during the laser operation.</li>
+</ol>
+
+<h4 id="working-principle-2">Working Principle</h4>
+
+<ol>
+  <li><strong>Excitation:</strong> When an electric current passes through the discharge tube, it excites the nitrogen molecules to a higher energy state.</li>
+  <li><strong>Energy Transfer:</strong> The excited nitrogen molecules collide with CO₂ molecules, transferring energy and exciting the CO₂ molecules to a higher energy state.</li>
+  <li><strong>Population Inversion:</strong> A population inversion is achieved between the higher energy state (E3) and the lower energy state (E1) of the CO₂ molecules.</li>
+  <li><strong>Stimulated Emission:</strong> CO₂ molecules in the higher energy state return to the lower energy state by emitting photons. These photons stimulate other excited CO₂ molecules to emit more photons of the same wavelength.</li>
+  <li><strong>Amplification:</strong> The emitted photons are reflected back and forth between the mirrors, amplifying the light through stimulated emission until a coherent beam of light exits through the partially reflective mirror.</li>
+</ol>
+
+<h4 id="key-characteristics">Key Characteristics</h4>
+
+<ul>
+  <li><strong>Wavelength:</strong> The CO₂ laser emits infrared light at a wavelength of 10.6 micrometers (µm).</li>
+  <li><strong>Efficiency:</strong> It has a high efficiency, typically around 10-20%.</li>
+  <li><strong>Power:</strong> Capable of producing continuous wave (CW) or pulsed laser beams with high power output, ranging from a few watts to several kilowatts.</li>
+</ul>
+
+<h4 id="applications-2">Applications</h4>
+
+<ul>
+  <li><strong>Industrial Cutting and Welding:</strong> The high power and precision of CO₂ lasers make them ideal for cutting and welding materials such as metals, plastics, and wood.</li>
+  <li><strong>Medical Procedures:</strong> CO₂ lasers are used in various medical applications, including surgery, dermatology, and dental procedures.</li>
+  <li><strong>Engraving and Marking:</strong> Used for engraving and marking on materials like glass, leather, and ceramics.</li>
+  <li><strong>Scientific Research:</strong> Employed in various scientific experiments and research applications due to their high power and stable output.</li>
+</ul>
+
+<hr />
+
+<h3 id="3-semiconductor-laser">3. Semiconductor Laser</h3>
+
+<p>Semiconductor lasers, also known as diode lasers, use semiconductor materials as the gain medium. These lasers are widely used due to their small size, efficiency, and ability to be directly modulated.</p>
+
+<h5 id="examples-of-semiconductor-lasers">Examples of Semiconductor Lasers</h5>
+
+<ul>
+  <li><strong>InP (Indium Phosphide) Laser</strong></li>
+  <li><strong>GaAs (Gallium Arsenide) Laser</strong></li>
+</ul>
+
+<h4 id="construction-3">Construction</h4>
+
+<p><img src="/SKMU/assets/img/LASER/semi-laser.png" alt="Interaction Process" class="my-custom-class" style="max-width:100%; height:auto;" /></p>
+
+<ol>
+  <li><strong>Active Region:</strong> The laser diode has a p-n junction as the active region where the lasing action occurs.</li>
+  <li><strong>Pumping Mechanism:</strong> Electrical current is injected into the p-n junction, causing electrons and holes to recombine and emit photons.</li>
+  <li><strong>Optical Cavity:</strong> The semiconductor material itself forms an optical cavity with reflective surfaces at the ends to provide feedback for the amplification of light.</li>
+</ol>
+
+<h3 id="working-principle-3">Working Principle</h3>
+
+<h5 id="1-structure-of-the-p-n-junction">1. Structure of the P-N Junction</h5>
+
+<p>A semiconductor laser consists of a p-type and an n-type semiconductor material joined together to form a p-n junction. When these two materials are joined, a depletion region is formed at the junction where no free charge carriers (electrons or holes) are present.</p>
+
+<h5 id="2-forward-biasing-the-p-n-junction">2. Forward Biasing the P-N Junction</h5>
+
+<p>When a forward voltage is applied across the p-n junction (positive voltage to the p-type material and negative to the n-type), electrons from the n-type material and holes from the p-type material are pushed towards the junction. This reduces the width of the depletion region and allows current to flow through the junction.</p>
+
+<h5 id="3-carrier-injection-and-recombination">3. Carrier Injection and Recombination</h5>
+
+<p>The applied forward voltage causes electrons to be injected into the conduction band of the p-type material and holes into the valence band of the n-type material. At the junction, electrons and holes recombine. This recombination releases energy in the form of photons (light). The process can be described in three steps:</p>
+
+<ol>
+  <li><strong>Carrier Injection:</strong> Electrons and holes are injected into the active region from the n-type and p-type materials, respectively.</li>
+  <li><strong>Recombination:</strong> In the active region, electrons recombine with holes. Each recombination event releases a photon with energy equal to the bandgap energy of the semiconductor material.</li>
+  <li><strong>Stimulated Emission:</strong> Some of the emitted photons stimulate other electrons to recombine with holes, producing additional photons. This chain reaction results in a significant amplification of light.</li>
+</ol>
+
+<h5 id="4-optical-feedback-and-resonance">4. Optical Feedback and Resonance</h5>
+
+<p>To sustain lasing action, the semiconductor laser has an optical cavity formed by cleaving the semiconductor crystal to create parallel, reflective end faces. These faces act as mirrors, reflecting photons back and forth through the active region. The cavity length is designed such that it supports standing wave patterns of specific wavelengths.</p>
+
+<ol>
+  <li><strong>Photon Reflection:</strong> Photons emitted due to recombination are reflected back and forth between the mirrors.</li>
+  <li><strong>Amplification:</strong> As photons travel through the active region, they stimulate further recombination events, resulting in the amplification of light.</li>
+  <li><strong>Coherent Light Emission:</strong> When the amplified light reaches a certain intensity, it escapes through the partially reflective mirror at one end of the cavity as a coherent laser beam.</li>
+</ol>
+
+<h5 id="5-threshold-condition">5. Threshold Condition</h5>
+
+<p>For lasing to occur, the gain (amplification) provided by stimulated emission must overcome the losses due to absorption, scattering, and reflection at the mirrors. This condition is known as the threshold condition. The current at which this occurs is called the threshold current.</p>
+
+<ol>
+  <li><strong>Below Threshold:</strong> Below the threshold current, spontaneous emission dominates, and the device behaves like an LED.</li>
+  <li><strong>Above Threshold:</strong> Above the threshold current, stimulated emission dominates, and the device produces coherent laser light.</li>
+</ol>
+
+<h4 id="key-characteristics-1">Key Characteristics</h4>
+
+<ul>
+  <li><strong>Direct Modulation:</strong> The output can be directly modulated by varying the current, making them suitable for telecommunications.</li>
+  <li><strong>Efficiency:</strong> High electrical-to-optical efficiency.</li>
+  <li><strong>Size:</strong> Compact and lightweight, allowing for integration into a variety of electronic devices.</li>
+</ul>
+
+<h4 id="applications-3">Applications</h4>
+
+<ul>
+  <li>Fiber optic communications.</li>
+  <li>Laser printers.</li>
+  <li>Barcode scanners.</li>
+  <li>Optical data storage (CDs, DVDs).</li>
+</ul>
+
+<hr />
+
+<h2 id="introduction-to-waveguides">Introduction to Waveguides</h2>
+
+<p>Waveguides are structures designed to guide electromagnetic waves from one point to another. They are utilized based on the desired operating frequency, power requirements, and acceptable transmission losses. Common types include coaxial cables, two-wire lines, microstrip lines, rectangular waveguides, and optical fibers as shown in figure below.</p>
+
+<p><img src="/SKMU/assets/img/LASER/waveguide.jpeg" alt="Interaction Process" class="my-custom-class" style="max-width:100%; height:auto;" /></p>
+
+<h3 id="longitudinal-transverse-decompositions">Longitudinal-Transverse Decompositions</h3>
+
+<p>To understand wave propagation in waveguides, we use solutions to Maxwell’s equations that describe the behavior of electric and magnetic fields along the guiding direction (z) and their confinement in the transverse directions (x, y).</p>
+
+<p>The electric and magnetic fields can be represented as:</p>
+
+\[E(x, y, z, t) = E(x, y) e^{j(\omega t - \beta z)}\]
+
+\[H(x, y, z, t) = H(x, y) e^{j(\omega t - \beta z)}\]
+
+<p>where \(\beta\) is the propagation wavenumber and \(\lambda_g = \frac{2\pi}{\beta}\) is the guide wavelength.</p>
+
+<h3 id="decomposition-of-fields">Decomposition of Fields</h3>
+
+<p>The fields can be decomposed into transverse and longitudinal components:</p>
+
+\[E(x, y) = E_T(x, y) + \hat{z}E_z(x, y)\]
+
+\[H(x, y) = H_T(x, y) + \hat{z}H_z(x, y)\]
+
+<p>Where the transverse electric field \(E_T(x, y)\) can be further decomposed into its x and y components:</p>
+
+\[E_T(x, y) = \hat{x}E_x(x, y) + \hat{y}E_y(x, y)\]
+
+<h3 id="classification-of-modes">Classification of Modes</h3>
+
+<p>Based on the longitudinal components \(E_z\) and \(H_z\), modes are classified as:</p>
+
+<ul>
+  <li><strong>TEM (Transverse Electric and Magnetic) Modes</strong>: \(E_z = 0\), \(H_z = 0\)</li>
+  <li><strong>TE (Transverse Electric) Modes</strong>: \(E_z = 0\), \(H_z \neq 0\)</li>
+  <li><strong>TM (Transverse Magnetic) Modes</strong>: \(E_z \neq 0\), \(H_z = 0\)</li>
+  <li><strong>Hybrid Modes</strong>: \(E_z \neq 0\), \(H_z \neq 0\)</li>
+</ul>
+
+<h2 id="advanced-laser-systems"><span style="color:red">Advanced LASER Systems</span></h2>
+
+<h3 id="longitudinal-laser-systems">Longitudinal LASER Systems</h3>
+
+<p>Longitudinal LASER systems operate by aligning the optical resonator (cavity) such that the light travels parallel to the cavity’s axis. In these systems, the gain medium is pumped to produce a population inversion, allowing for stimulated emission. The emitted photons travel back and forth between two mirrors at each end of the cavity, amplifying the light through successive passes. The longitudinal modes are determined by the cavity’s length and the refractive index of the gain medium, resulting in discrete frequency modes. These systems are critical for applications requiring high coherence and spectral purity, such as in spectroscopy and communication. Key parameters include the cavity length, the reflectivity of the mirrors, and the gain medium’s properties. Stability and alignment of the optical components are crucial for the effective operation of longitudinal LASER systems.</p>
+
+<h3 id="te-laser-systems">TE-LASER Systems</h3>
+
+<p>TE (Transverse Electric) LASER systems operate with the electric field component of the light oscillating perpendicular to the direction of propagation within the waveguide or resonator structure. These systems typically involve semiconductor materials and are used in diode lasers, where the active region is sandwiched between two cladding layers with differing refractive indices. This configuration confines the light within the active region and supports transverse electric modes. TE modes are characterized by having no electric field component in the direction of propagation (z-axis), which means the electric field lies entirely in the transverse plane (x, y). TE LASER systems are essential in applications requiring compact, efficient, and high-speed light sources, such as in optical communication, barcode scanning, and laser printing. Their design focuses on optimizing the waveguide structure, material composition, and junction properties to achieve desired performance.</p>
+
+<h2 id="specialized-laser-types"><span style="color:red">Specialized LASER Types</span></h2>
+
+<ol>
+  <li>Excimer LASER</li>
+  <li>Dye LASER</li>
+  <li>Roman LASER</li>
+  <li>Plasma Recombination LASER</li>
+</ol>
+
+      </div>
+      
+    </article>
+  </div>
+</main>
+
+        </div>
+
+        <div class="search-content">
+          <div class="inner">
+  <label class="visually-hidden" for="search">Site Search</label>
+        <input type="text" id="search" class="search-input" aria-describedby="results-count" tabindex="-1" placeholder="Enter your search term..." />
+        <div id="results" class="results"></div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="site-footer">
+  <div class="inner">
+    <div class="copyright">
+      
+        <p>&copy; 2024 Rajesh Kumar.</p>
+      
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async src="/SKMU/assets/javascripts/main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="http://localhost:4000/SKMU/assets/javascripts/lunr/lunr.min.js"></script>
+  <script src="http://localhost:4000/SKMU/assets/javascripts/lunr/lunr.store.js"></script>
+  <script>
+    var idx = lunr(function () {
+      
+      // the, the normal lunr index initialization
+      this.field('title')
+      this.field('excerpt')
+      this.field('categories')
+      this.field('tags')
+      this.ref('id')
+
+      this.pipeline.remove(lunr.trimmer)
+
+      // add documents to index
+      for (var item in store) {
+        this.add({
+          title: store[item].title,
+          excerpt: store[item].excerpt,
+          categories: store[item].categories,
+          tags: store[item].tags,
+          id: item
+        })
+      }
+    });
+
+    $(document).ready(function () {
+      $('input#search').on('keyup', function () {
+        var resultdiv = $('#results');
+        var query = $(this).val().toLowerCase();
+        var result =
+          idx.query(function (q) {
+            query.split(lunr.tokenizer.separator).forEach(function (term) {
+              q.term(term, { boost: 100 })
+              if (query.lastIndexOf(" ") != query.length - 1) {
+                q.term(term, { usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 })
+              }
+              if (term != "") {
+                q.term(term, { usePipeline: false, editDistance: 1, boost: 1 })
+              }
+            })
+          });
+        resultdiv.empty();
+        resultdiv.prepend('<p id="results-count" class="results-found">' + result.length + ' Result(s) found</p>');
+        for (var item in result) {
+          var ref = result[item].ref;
+          var searchitem =
+            '<article class="entry">' +
+              '<h3 class="entry-title">' +
+                '<a href="' + store[ref].url + '">' + store[ref].title + '</a>' +
+              '</h3>' +
+              '<div class="entry-excerpt">' +
+                '<p>' + store[ref].excerpt.split(" ").splice(0, 20).join(" ") + '...</p>' +
+              '</div>' +
+            '</article>';
+          resultdiv.append(searchitem);
+        }
+      });
+    });
+  </script>
+
+
+
+  </body>
+
+</html>

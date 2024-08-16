@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<!--
+    Basically Basic Jekyll Theme 1.4.5
+    Copyright 2017-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes">
+
+  
+    
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Derivations-QM: Current Density Conservation Equation | Rajesh Kumar</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Derivations-QM: Current Density Conservation Equation" />
+<meta name="author" content="Rajesh Kumar" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The Dirac equation for a free particle is given by:" />
+<meta property="og:description" content="The Dirac equation for a free particle is given by:" />
+<link rel="canonical" href="http://localhost:4000/SKMU/lecture/2024/07/03/Probability-Density.html" />
+<meta property="og:url" content="http://localhost:4000/SKMU/lecture/2024/07/03/Probability-Density.html" />
+<meta property="og:site_name" content="Rajesh Kumar" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-07-03T18:47:26+05:30" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/SKMU/lecture/2024/07/03/Probability-Density.html"},"author":{"@type":"Person","name":"Rajesh Kumar"},"url":"http://localhost:4000/SKMU/lecture/2024/07/03/Probability-Density.html","description":"The Dirac equation for a free particle is given by:","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/SKMU/assets/icons/logo.png"},"name":"Rajesh Kumar"},"headline":"Derivations-QM: Current Density Conservation Equation","dateModified":"2024-07-03T18:47:26+05:30","datePublished":"2024-07-03T18:47:26+05:30","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+
+  <!-- Include Mermaid.js from a CDN -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+
+    <!-- Math JX -->
+    <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+    </script>
+  
+  <script type="text/javascript">
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+  </script>
+  
+
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="/SKMU/assets/stylesheets/main.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Radio+Canada+Big:400,400i,600,600i">
+  
+
+  
+    
+    <link rel="alternate" type="application/atom+xml" title="Rajesh Kumar" href="https://rajeshphy.github.io/">
+  
+  <meta name="google-site-verification" content="ONNy_6CkGORdDQ9whxpp_EIkMC_mXOohCfdkEK1zAM8" />
+</head>
+
+
+  <body class="layout--post derivations-qm-current-density-conservation-equation">
+
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+
+    <div class="sidebar-toggle-wrapper">
+      
+        <button class="search-toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <title>Search</title>
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+      
+
+      <button class="toggle navicon-button larr" type="button">
+        <span class="toggle-inner">
+          <span class="sidebar-toggle-label visually-hidden">Menu</span>
+          <span class="navicon"></span>
+        </span>
+      </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <div class="inner">
+        <nav id="primary-nav" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul id="menu-main-navigation" class="menu">
+    <!-- Home link -->
+    <li class="menu-item">
+      <a href="/SKMU/" itemprop="url">
+        <span itemprop="name">Home</span>
+      </a>
+    </li>
+
+    <!-- site.pages links -->
+    
+    
+
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/SKMU/posts/" itemprop="url">
+            <span itemprop="name">Posts</span>
+          </a>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+        <ul class="contact-list">
+  
+    <li>
+      <a href="mailto:kr.rajesh.phy@gmail.com">
+        <span class="icon icon--email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="313.1 3.7 16 16"><path d="M318.5 8.9c0-.2.2-.4.4-.4h4.5c.2 0 .4.2.4.4s-.2.4-.4.4h-4.5c-.3 0-.4-.2-.4-.4zm.4 2.1h4.5c.2 0 .4-.2.4-.4s-.2-.4-.4-.4h-4.5c-.2 0-.4.2-.4.4s.1.4.4.4zm3.5 1.2c0-.2-.2-.4-.4-.4h-3.1c-.2 0-.4.2-.4.4s.2.4.4.4h3.1c.2.1.4-.1.4-.4zm-1.5-8.4l-1.7 1.4c-.2.1-.2.4 0 .6s.4.2.6 0l1.4-1.2 1.4 1.2c.2.1.4.1.6 0s.1-.4 0-.6l-1.7-1.4c-.3-.1-.5-.1-.6 0zm7.8 6.2c.1.1.1.2.1.3v7.9c0 .8-.7 1.5-1.5 1.5h-12.5c-.8 0-1.5-.7-1.5-1.5v-7.9c0-.1.1-.2.1-.3l1.6-1.3c.2-.1.4-.1.6 0s.1.4 0 .6l-1.2 1 1.8 1.3v-4c0-.6.5-1.1 1.1-1.1h7.5c.6 0 1.1.5 1.1 1.1v4l1.8-1.3-1.2-1c-.2-.1-.2-.4 0-.6s.4-.2.6 0l1.6 1.3zm-11.6 2.2l4 2.8 4-2.8V7.6c0-.1-.1-.2-.2-.2h-7.5c-.1 0-.2.1-.2.2v4.6zm10.9-1l-4.7 3.4 3.4 2.6c.2.1.2.4.1.6-.1.2-.4.2-.6.1l-3.6-2.8-1.2.8c-.1.1-.3.1-.5 0l-1.2-.8-3.6 2.8c-.2.1-.4.1-.6-.1-.1-.2-.1-.4.1-.6l3.4-2.6-4.7-3.4v7.1c0 .4.3.6.6.6h12.5c.4 0 .6-.3.6-.6v-7.1z"/></svg></span>
+        <span class="label">Email</span>
+      </a>
+    </li>
+  
+
+  
+
+  
+
+  <li>
+    
+      <a href="https://rajeshphy.github.io/" title="Atom Feed">
+        <span class="icon icon--rss"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194 11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0 13.806c0-1.21.983-2.195 2.194-2.195zM10.606 16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"/></svg></span>
+        <span class="label">Subscribe</span>
+      </a>
+    
+  </li>
+</ul>
+
+      </div>
+    </div>
+
+    <div class="canvas">
+      <div class="wrapper">
+        
+
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      
+        <p class="site-title">
+          <a href="/SKMU/">
+            <img src="/SKMU/assets/icons/logo.png" alt="" class="site-logo">
+            <span>Rajesh Kumar</span>
+          </a>
+        </p>
+      
+    </div>
+  </div>
+</header>
+
+        <div class="initial-content">
+          <header class="intro">
+  
+
+  <div class="inner">
+    <div class="intro-text">
+      <h1 id="page-title" class="intro-title">Derivations-QM: Current Density Conservation Equation
+</h1>
+      
+
+      
+        
+
+
+        <p class="entry-meta">
+          <span class="byline-item">by Rajesh Kumar</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2024-07-03T18:47:26+05:30">July 3, 2024</time></span> <span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="15 309.7 16 16"><g><path d="M23.9 315.1v3.6c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-3.6h1.8z"/><path d="M30.1 317.7c.5 3.9-2.3 7.5-6.2 7.9-3.9.5-7.5-2.3-7.9-6.2-.5-3.9 2.3-7.5 6.2-7.9v-1.8H24v1.8c1.1.1 2.7.7 3.5 1.4l1.3-1.3 1.3 1.3-1.3 1.3c.5.9 1.2 2.5 1.3 3.5zm-1.8.9c0-2.9-2.4-5.3-5.3-5.3s-5.3 2.4-5.3 5.3 2.4 5.3 5.3 5.3 5.3-2.3 5.3-5.3z"/></g></svg></span>4 min read</span>
+        </p>
+      
+
+      
+
+      
+    </div>
+  </div>
+</header>
+
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        <p>The Dirac equation for a free particle is given by:</p>
+
+\[(i \gamma^\mu \partial_\mu - m) \psi = 0\]
+
+<p>where \(\psi\) is the Dirac spinor, \(\gamma^\mu\) are the gamma matrices, \(\partial_\mu\) denotes the four-gradient, and \(m\) is the mass of the particle. The conjugate of the Dirac spinor \(\psi\) is denoted by \(\bar{\psi} = \psi^\dagger \gamma^0\).</p>
+
+<h2 id="step-by-step-derivation">Step-by-Step Derivation</h2>
+
+<ol>
+  <li>
+    <p><strong>Start with the Dirac Equation:</strong></p>
+
+\[(i \gamma^\mu \partial_\mu - m) \psi = 0\]
+  </li>
+  <li>
+    <p><strong>Multiply from the left by \(\bar{\psi}\):</strong></p>
+
+\[\bar{\psi} (i \gamma^\mu \partial_\mu - m) \psi = 0\]
+
+    <p>This expands to:</p>
+
+\[i \bar{\psi} \gamma^\mu \partial_\mu \psi - m \bar{\psi} \psi = 0\]
+  </li>
+  <li>
+    <p><strong>Take the Dirac conjugate of the Dirac equation:</strong></p>
+
+    <p>The Dirac conjugate of the Dirac equation is:</p>
+
+\[\psi^{\dagger} ( -i \overleftarrow{\partial_\mu} \gamma^{\mu\;\dagger} - m) = 0\]
+
+    <p>Here, \(\overleftarrow{\partial_\mu}\) indicates that the derivative acts to the left. Multiplying both sides by \(\gamma^0\) on R.H.S we get</p>
+
+\[\psi^{\dagger} ( -i \overleftarrow{\partial_t} \gamma^{0\;\dagger} -i \overleftarrow{\partial_k} \gamma^{k\;\dagger} - m)\gamma^0 = 0\]
+
+    <p>and using the property \(\gamma^{k \dagger}=-\gamma^{k}\) and \(\gamma^0 \gamma^k=\gamma^k\gamma^0\) and $k\neq0$ we get</p>
+
+\[\psi^{\dagger} ( -i \overleftarrow{\partial_t} \gamma^{0}\gamma^0 -i \overleftarrow{\partial_k} \gamma^0\gamma^{k} - m\gamma^0) = 0\]
+
+    <p>Now using \(\psi^{\dagger}\overleftarrow{\partial_t} \gamma^0=\partial_t\bar{\psi}\) we get</p>
+
+\[-i \partial_t\bar{\psi} \gamma^0 -i \partial_k\bar{\psi} \gamma^k - m\bar{\psi}  = 0\]
+
+    <p>In einstein summation form we get</p>
+
+\[-i \partial_\mu\bar{\psi} \;\gamma^\mu - m\bar{\psi}  = 0\]
+
+    <p>Multiplying by \(\psi\) on R.H.S and cancelling negative sign we get</p>
+
+\[i \partial_\mu\bar{\psi} \;\gamma^\mu\psi + m\bar{\psi}\psi  = 0\]
+  </li>
+  <li>
+    <p><strong>Combine the results:</strong></p>
+
+    <p>From steps 2 and 3, we have:</p>
+
+\[i \bar{\psi} \gamma^\mu \partial_\mu \psi = m \bar{\psi} \psi\]
+
+    <p>And:</p>
+
+\[i\partial_\mu \bar{\psi} \gamma^\mu \psi = - m \bar{\psi} \psi\]
+  </li>
+  <li>
+    <p><strong>Add the conjugate equation from the original:</strong></p>
+
+\[i \bar{\psi} \gamma^\mu \partial_\mu \psi + \partial_\mu \bar{\psi} \gamma^\mu \psi = 0\]
+
+    <p>This simplifies to:</p>
+
+\[i \partial_\mu (\bar{\psi} \gamma^\mu \psi) = 0\]
+  </li>
+  <li>
+    <p><strong>Define the current density \(j^\mu\):</strong></p>
+
+    <p>The current density \(j^\mu\) is defined as:</p>
+
+\[j^\mu = \bar{\psi} \gamma^\mu \psi\]
+
+    <p>Hence, the above equation becomes:</p>
+
+\[\partial_\mu j^\mu = 0\]
+  </li>
+</ol>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The current density conservation equation derived from the Dirac equation is:</p>
+
+\[\partial_\mu j^\mu = 0\]
+
+<p>This equation expresses the conservation of probability current in relativistic quantum mechanics. The four-current \(j^\mu = \bar{\psi} \gamma^\mu \psi\) is conserved, indicating that the total probability (or charge) is conserved in the system.</p>
+
+<hr />
+
+<h1 id="plane-wave-solution-of-dirac-equation">Plane Wave Solution of Dirac Equation</h1>
+
+<p>Sure, let’s start with the plane wave given by</p>
+
+\[\psi(x^\mu) = \begin{pmatrix} u_A \\ u_B \end{pmatrix} e^{-i p_\mu x^\mu}\]
+
+<p>where \(\begin{pmatrix} u_A \\ u_B \end{pmatrix}\) is a spinor, and \(p_\mu x^\mu = p^0 x^0 - \mathbf{p} \cdot \mathbf{x}\).</p>
+
+<p>and use Dirac equation to solve for the spinors \(u_A\), \(u_B\) and Energy \(E\). Here is step by step solution:</p>
+
+<ol>
+  <li>
+    <p><strong>Substitute the Plane Wave Solution</strong>:</p>
+
+    <p>Substitute \(\psi(x)\) into the Dirac equation:</p>
+
+\[(i \gamma^\mu \partial_\mu - m) \psi(x) = 0\]
+
+    <p>Applying the derivative \(\partial_\mu\):</p>
+
+\[\color{red}{\partial_\mu \psi(x) = -ip_\mu \begin{pmatrix} u_A \\ u_B \end{pmatrix} e^{-i p_\mu x^\mu}}\]
+
+    <p>Thus, the Dirac equation becomes:</p>
+
+\[\left[i \gamma^\mu (-ip_\mu) - m\right] \begin{pmatrix} u_A \\ u_B \end{pmatrix} e^{-i p_\mu x^\mu} = 0\]
+
+    <p>Simplifying, we get:</p>
+
+\[(\gamma^\mu p_\mu - m) \begin{pmatrix} u_A \\ u_B \end{pmatrix} = 0\]
+
+    <p>which is a Dirac equation in momentum space.</p>
+  </li>
+  <li>
+    <p><strong>Writing the Dirac Equation in Matrix Form</strong>:</p>
+
+    <p>The Dirac equation becomes:</p>
+
+\[\left( \gamma^0 p^0 - \gamma^i p^i - m \right) \begin{pmatrix} u_A \\ u_B \end{pmatrix} = 0\]
+
+    <p>Expanding the terms, we have:</p>
+
+\[\color{red}{ \left[ \begin{pmatrix}
+I &amp; 0 \\
+0 &amp; -I
+\end{pmatrix} p^0 - \begin{pmatrix}
+0 &amp; \sigma^i \\
+-\sigma^i &amp; 0
+\end{pmatrix} p^i - m \right] \begin{pmatrix} u_A \\ u_B \end{pmatrix} = 0 }\]
+
+    <p>where the gamma matrices are expanded with the form given by:</p>
+
+\[\gamma^0 = \begin{pmatrix}
+I &amp; 0 \\
+0 &amp; -I
+\end{pmatrix}, \quad \gamma^i = \begin{pmatrix}
+0 &amp; \sigma^i \\
+-\sigma^i &amp; 0
+\end{pmatrix}\]
+
+    <p>where \(I\) is the \(2 \times 2\) identity matrix, and \(\sigma^i\) (with \(i = 1, 2, 3\)) are the Pauli matrices:</p>
+
+\[\sigma^1 = \begin{pmatrix}
+0 &amp; 1 \\
+1 &amp; 0
+\end{pmatrix}, \quad \sigma^2 = \begin{pmatrix}
+0 &amp; -i \\
+i &amp; 0
+\end{pmatrix}, \quad \sigma^3 = \begin{pmatrix}
+1 &amp; 0 \\
+0 &amp; -1
+\end{pmatrix}\]
+  </li>
+  <li>
+    <p><strong>Substitute the Pauli spin matrices and Simplify</strong>:</p>
+
+    <p>On simplifying the above matrix we get:</p>
+
+\[\begin{pmatrix}
+ I(p^0-m) &amp; -\sigma^i p^i \\
+\sigma^i p^i &amp; - I(p^0+m)
+\end{pmatrix}  \begin{pmatrix} u_A \\ u_B \end{pmatrix}  = 0\]
+
+    <p>Or,</p>
+
+\[\begin{pmatrix}
+ I(E-m) &amp; -\sigma^i p^i \\
+\sigma^i p^i &amp; - I(E+m)
+\end{pmatrix}  \begin{pmatrix} u_A \\ u_B \end{pmatrix}  = 0\]
+
+    <p>Or,</p>
+
+\[\begin{pmatrix}
+E-m &amp; 0 &amp; -p_z &amp; -(p_x-ip_y) \\
+0 &amp; E-m &amp; -(p_x+ip_y) &amp; p_z\\
+p_z &amp; (p_x-ip_y)&amp;-(E+m)&amp;0\\
+(p_x+ip_y) &amp; -p_z &amp;0 &amp;-(E+m)
+\end{pmatrix}  \begin{pmatrix} u_A \\ u_B \end{pmatrix}  = 0\]
+  </li>
+</ol>
+
+<p>Here, the spinor \(\begin{pmatrix} u_A \\ u_B \end{pmatrix}\) can take four possible form; two for positive energy \(E=\sqrt{p^2+m^2}\) and two for negative energy \(E=-\sqrt{p^2+m^2}\) as:</p>
+
+<ol>
+  <li>
+    <p>For Positive energy:</p>
+
+\[u_1=N_1\begin{pmatrix} 1\\0 \\ A_1\\B_1 \end{pmatrix}\qquad u_2=N_2\begin{pmatrix} 0\\1 \\ A_2\\B_2 \end{pmatrix}\]
+
+    <p>where, \((A_1,\;B_1)\) and \((A_2,\;B_2)\) are \((\frac{p_z}{E+m} , \frac{p_x+i p_y}{E+m})\) and \((\frac{p_x-i p_y}{E+m} , \frac{-p_z}{E+m})\) respectively. \(N_i\) are normalization constant.</p>
+  </li>
+  <li>
+    <p>For Negative energy:</p>
+
+\[u_3=N_3\begin{pmatrix} A_3\\B_3 \\ 1\\0 \end{pmatrix}\qquad u_4=N_4\begin{pmatrix} A_4\\B_4 \\ 0\\1  \end{pmatrix}\]
+
+    <p>where, \((A_3,\;B_3)\) and \((A_4,\;B_4)\) are \((\frac{p_z}{E-m} , \frac{p_x+i p_y}{E-m})\) and \((\frac{p_x-i p_y}{E-m} , \frac{-p_z}{E-m})\) respectively.</p>
+  </li>
+</ol>
+
+<p>Therefore the eigenfunctions corresponding to positive energy states are:</p>
+
+\[\psi_1(x^\mu)=u_1e^{-ip_\mu x^\mu}\qquad \psi_2(x^\mu)=u_2e^{-ip_\mu x^\mu}\]
+
+<p>and for negative energy state the eigenfunctions are:</p>
+
+\[\psi_3(x^\mu)=u_3e^{ip_\mu x^\mu}\qquad \psi_4(x^\mu)=u_4e^{ip_\mu x^\mu}\]
+
+<h2 id="interpretation-of-negative-energy-states">Interpretation of negative energy states</h2>
+
+<p>To be continued …</p>
+
+      </div>
+      
+    </article>
+  </div>
+</main>
+
+        </div>
+
+        <div class="search-content">
+          <div class="inner">
+  <label class="visually-hidden" for="search">Site Search</label>
+        <input type="text" id="search" class="search-input" aria-describedby="results-count" tabindex="-1" placeholder="Enter your search term..." />
+        <div id="results" class="results"></div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="site-footer">
+  <div class="inner">
+    <div class="copyright">
+      
+        <p>&copy; 2024 Rajesh Kumar.</p>
+      
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async src="/SKMU/assets/javascripts/main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="http://localhost:4000/SKMU/assets/javascripts/lunr/lunr.min.js"></script>
+  <script src="http://localhost:4000/SKMU/assets/javascripts/lunr/lunr.store.js"></script>
+  <script>
+    var idx = lunr(function () {
+      
+      // the, the normal lunr index initialization
+      this.field('title')
+      this.field('excerpt')
+      this.field('categories')
+      this.field('tags')
+      this.ref('id')
+
+      this.pipeline.remove(lunr.trimmer)
+
+      // add documents to index
+      for (var item in store) {
+        this.add({
+          title: store[item].title,
+          excerpt: store[item].excerpt,
+          categories: store[item].categories,
+          tags: store[item].tags,
+          id: item
+        })
+      }
+    });
+
+    $(document).ready(function () {
+      $('input#search').on('keyup', function () {
+        var resultdiv = $('#results');
+        var query = $(this).val().toLowerCase();
+        var result =
+          idx.query(function (q) {
+            query.split(lunr.tokenizer.separator).forEach(function (term) {
+              q.term(term, { boost: 100 })
+              if (query.lastIndexOf(" ") != query.length - 1) {
+                q.term(term, { usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 })
+              }
+              if (term != "") {
+                q.term(term, { usePipeline: false, editDistance: 1, boost: 1 })
+              }
+            })
+          });
+        resultdiv.empty();
+        resultdiv.prepend('<p id="results-count" class="results-found">' + result.length + ' Result(s) found</p>');
+        for (var item in result) {
+          var ref = result[item].ref;
+          var searchitem =
+            '<article class="entry">' +
+              '<h3 class="entry-title">' +
+                '<a href="' + store[ref].url + '">' + store[ref].title + '</a>' +
+              '</h3>' +
+              '<div class="entry-excerpt">' +
+                '<p>' + store[ref].excerpt.split(" ").splice(0, 20).join(" ") + '...</p>' +
+              '</div>' +
+            '</article>';
+          resultdiv.append(searchitem);
+        }
+      });
+    });
+  </script>
+
+
+
+  </body>
+
+</html>

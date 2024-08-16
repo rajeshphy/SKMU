@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<!--
+    Basically Basic Jekyll Theme 1.4.5
+    Copyright 2017-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes">
+
+  
+    
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Approximation Method | Rajesh Kumar</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Approximation Method" />
+<meta name="author" content="Rajesh Kumar" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Perturbation theory is a powerful tool in quantum mechanics used to study systems where the Hamiltonian can be separated into a known part \(H_0\) and a small perturbation \(H&#39;\). The goal is to find approximate solutions to the Schrödinger equation for the full Hamiltonian \(H = H_0 + H&#39;\) by treating the perturbation as a small correction to the known system." />
+<meta property="og:description" content="Perturbation theory is a powerful tool in quantum mechanics used to study systems where the Hamiltonian can be separated into a known part \(H_0\) and a small perturbation \(H&#39;\). The goal is to find approximate solutions to the Schrödinger equation for the full Hamiltonian \(H = H_0 + H&#39;\) by treating the perturbation as a small correction to the known system." />
+<link rel="canonical" href="http://localhost:4000/SKMU/lecture/2024/07/26/Approximation-Method.html" />
+<meta property="og:url" content="http://localhost:4000/SKMU/lecture/2024/07/26/Approximation-Method.html" />
+<meta property="og:site_name" content="Rajesh Kumar" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-07-26T10:47:26+05:30" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/SKMU/lecture/2024/07/26/Approximation-Method.html"},"author":{"@type":"Person","name":"Rajesh Kumar"},"url":"http://localhost:4000/SKMU/lecture/2024/07/26/Approximation-Method.html","description":"Perturbation theory is a powerful tool in quantum mechanics used to study systems where the Hamiltonian can be separated into a known part \\(H_0\\) and a small perturbation \\(H&#39;\\). The goal is to find approximate solutions to the Schrödinger equation for the full Hamiltonian \\(H = H_0 + H&#39;\\) by treating the perturbation as a small correction to the known system.","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/SKMU/assets/icons/logo.png"},"name":"Rajesh Kumar"},"headline":"Approximation Method","dateModified":"2024-07-26T10:47:26+05:30","datePublished":"2024-07-26T10:47:26+05:30","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+
+  <!-- Include Mermaid.js from a CDN -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+
+    <!-- Math JX -->
+    <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+    </script>
+  
+  <script type="text/javascript">
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+  </script>
+  
+
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="/SKMU/assets/stylesheets/main.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Radio+Canada+Big:400,400i,600,600i">
+  
+
+  
+    
+    <link rel="alternate" type="application/atom+xml" title="Rajesh Kumar" href="https://rajeshphy.github.io/">
+  
+  <meta name="google-site-verification" content="ONNy_6CkGORdDQ9whxpp_EIkMC_mXOohCfdkEK1zAM8" />
+</head>
+
+
+  <body class="layout--post approximation-method">
+
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+
+    <div class="sidebar-toggle-wrapper">
+      
+        <button class="search-toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <title>Search</title>
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+      
+
+      <button class="toggle navicon-button larr" type="button">
+        <span class="toggle-inner">
+          <span class="sidebar-toggle-label visually-hidden">Menu</span>
+          <span class="navicon"></span>
+        </span>
+      </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <div class="inner">
+        <nav id="primary-nav" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul id="menu-main-navigation" class="menu">
+    <!-- Home link -->
+    <li class="menu-item">
+      <a href="/SKMU/" itemprop="url">
+        <span itemprop="name">Home</span>
+      </a>
+    </li>
+
+    <!-- site.pages links -->
+    
+    
+
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/SKMU/posts/" itemprop="url">
+            <span itemprop="name">Posts</span>
+          </a>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+        <ul class="contact-list">
+  
+    <li>
+      <a href="mailto:kr.rajesh.phy@gmail.com">
+        <span class="icon icon--email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="313.1 3.7 16 16"><path d="M318.5 8.9c0-.2.2-.4.4-.4h4.5c.2 0 .4.2.4.4s-.2.4-.4.4h-4.5c-.3 0-.4-.2-.4-.4zm.4 2.1h4.5c.2 0 .4-.2.4-.4s-.2-.4-.4-.4h-4.5c-.2 0-.4.2-.4.4s.1.4.4.4zm3.5 1.2c0-.2-.2-.4-.4-.4h-3.1c-.2 0-.4.2-.4.4s.2.4.4.4h3.1c.2.1.4-.1.4-.4zm-1.5-8.4l-1.7 1.4c-.2.1-.2.4 0 .6s.4.2.6 0l1.4-1.2 1.4 1.2c.2.1.4.1.6 0s.1-.4 0-.6l-1.7-1.4c-.3-.1-.5-.1-.6 0zm7.8 6.2c.1.1.1.2.1.3v7.9c0 .8-.7 1.5-1.5 1.5h-12.5c-.8 0-1.5-.7-1.5-1.5v-7.9c0-.1.1-.2.1-.3l1.6-1.3c.2-.1.4-.1.6 0s.1.4 0 .6l-1.2 1 1.8 1.3v-4c0-.6.5-1.1 1.1-1.1h7.5c.6 0 1.1.5 1.1 1.1v4l1.8-1.3-1.2-1c-.2-.1-.2-.4 0-.6s.4-.2.6 0l1.6 1.3zm-11.6 2.2l4 2.8 4-2.8V7.6c0-.1-.1-.2-.2-.2h-7.5c-.1 0-.2.1-.2.2v4.6zm10.9-1l-4.7 3.4 3.4 2.6c.2.1.2.4.1.6-.1.2-.4.2-.6.1l-3.6-2.8-1.2.8c-.1.1-.3.1-.5 0l-1.2-.8-3.6 2.8c-.2.1-.4.1-.6-.1-.1-.2-.1-.4.1-.6l3.4-2.6-4.7-3.4v7.1c0 .4.3.6.6.6h12.5c.4 0 .6-.3.6-.6v-7.1z"/></svg></span>
+        <span class="label">Email</span>
+      </a>
+    </li>
+  
+
+  
+
+  
+
+  <li>
+    
+      <a href="https://rajeshphy.github.io/" title="Atom Feed">
+        <span class="icon icon--rss"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194 11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0 13.806c0-1.21.983-2.195 2.194-2.195zM10.606 16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"/></svg></span>
+        <span class="label">Subscribe</span>
+      </a>
+    
+  </li>
+</ul>
+
+      </div>
+    </div>
+
+    <div class="canvas">
+      <div class="wrapper">
+        
+
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      
+        <p class="site-title">
+          <a href="/SKMU/">
+            <img src="/SKMU/assets/icons/logo.png" alt="" class="site-logo">
+            <span>Rajesh Kumar</span>
+          </a>
+        </p>
+      
+    </div>
+  </div>
+</header>
+
+        <div class="initial-content">
+          <header class="intro">
+  
+
+  <div class="inner">
+    <div class="intro-text">
+      <h1 id="page-title" class="intro-title">Approximation Method
+</h1>
+      
+
+      
+        
+
+
+        <p class="entry-meta">
+          <span class="byline-item">by Rajesh Kumar</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2024-07-26T10:47:26+05:30">July 26, 2024</time></span> <span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="15 309.7 16 16"><g><path d="M23.9 315.1v3.6c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-3.6h1.8z"/><path d="M30.1 317.7c.5 3.9-2.3 7.5-6.2 7.9-3.9.5-7.5-2.3-7.9-6.2-.5-3.9 2.3-7.5 6.2-7.9v-1.8H24v1.8c1.1.1 2.7.7 3.5 1.4l1.3-1.3 1.3 1.3-1.3 1.3c.5.9 1.2 2.5 1.3 3.5zm-1.8.9c0-2.9-2.4-5.3-5.3-5.3s-5.3 2.4-5.3 5.3 2.4 5.3 5.3 5.3 5.3-2.3 5.3-5.3z"/></g></svg></span>8 min read</span>
+        </p>
+      
+
+      
+
+      
+    </div>
+  </div>
+</header>
+
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        <p>Perturbation theory is a powerful tool in quantum mechanics used to study systems where the Hamiltonian can be separated into a known part \(H_0\) and a small perturbation \(H'\). The goal is to find approximate solutions to the Schrödinger equation for the full Hamiltonian \(H = H_0 + H'\) by treating the perturbation as a small correction to the known system.</p>
+
+<h3 id="time-independent-perturbation-theory-non-degenerate-case">Time Independent Perturbation Theory: Non-degenerate Case</h3>
+
+<p>Suppose we have a Hamiltonian</p>
+
+\[H = H_0 + \lambda H'\]
+
+<p>where \(\lambda\) is a small parameter. The Hamiltonian \(H_0\) is the unperturbed Hamiltonian whose eigenvalues and eigenfunctions are known say \(E_n^{(0)}\) and \(\psi_n^{(0)}\) respectively. The Hamiltonian \(H'\) is the perturbation to the Hamiltonian \(H_0\). Now the problem is <span style="color: red; font-weight: bold;">to find the eigenvalues and eigenfunctions of the Hamiltonian \(H\).</span></p>
+
+<ul>
+  <li>If the unperturbed Hamiltonian \(H_0\) is known, then the eigenvalues and eigenfunctions of \(H\) can be found by using perturbation theory.</li>
+  <li>The eigenvalues and eigenfunctions of \(H\) can be expanded in powers of \(\lambda\).</li>
+  <li>
+    <p>The eigenvalues of \(H\) are given by:</p>
+
+\[E_n = E_n^{(0)} + \lambda E_n^{(1)} + \lambda^2 E_n^{(2)} + \cdots\]
+
+    <p>where \(E_n^{(0)}\) are the eigenvalues of \(H_0\) and \(E_n^{(1)}\) are the first order corrections to the eigenvalues. Similarly, \(E_n^{(2)}\) are the second order corrections to the eigenvalues.</p>
+  </li>
+  <li>
+    <p>The eigenfunctions of \(H\) are given by:</p>
+
+\[\psi_n = \psi_n^{(0)} + \lambda \psi_n^{(1)} + \lambda^2 \psi_n^{(2)} + \cdots\]
+
+    <p>where \(\psi_n^{(0)}\) are the eigenfunctions of \(H_0\) and \(\psi_n^{(1)}\) are the first order corrections to the eigenfunctions. Similarly, \(\psi_n^{(2)}\) are the second order corrections to the eigenfunctions.</p>
+  </li>
+  <li>
+    <p>The first order correction to the eigenvalues is given by:</p>
+
+\[E_n^{(1)} = \int \psi_n^{(0)*} H' \psi_n^{(0)} \, d\tau\]
+
+    <p>One gets this by substituting the above expression for \(E_n\) into the Schrödinger equation and then projecting the equation onto \(\psi_n^{(0)}\). We will use the fact that</p>
+
+\[\int \psi_n^{(0)*} \psi_n \, d\tau = \int \psi_n^{(0)*} \psi_n^{(0)} \, d\tau = 1\]
+
+    <p>Expanding the Schrödinger equation gives</p>
+
+\[\begin{align}
+  \int \psi_n^{(0)*} (H_0 + \lambda H') \psi_n \, d\tau &amp;= E_n \int \psi_n^{(0)*} \psi_n \, d\tau\\
+  \int \psi_n^{(0)*} H_0 \psi_n \, d\tau + \lambda \int \psi_n^{(0)*} H' \psi_n \, d\tau &amp;= E_n \int \psi_n^{(0)*} \psi_n^{(0)} \, d\tau\\
+  E_n^{(0)} \int \psi_n^{(0)*} \psi_n \, d\tau + \lambda \int \psi_n^{(0)*} H' \psi_n \, d\tau &amp;= E_n \\
+  E_n^{(0)} \int \psi_n^{(0)*} \psi_n^{(0)} \, d\tau + \lambda \int \psi_n^{(0)*} H' \psi_n \, d\tau &amp;= E_n^{(0)}+ \lambda E_n^{(1)}+ \lambda^2 E_n^{(2)} + \cdots\\
+  E_n^{(0)}+ \lambda \int \psi_n^{(0)*} H' \psi_n \, d\tau &amp;= E_n^{(0)}+ \lambda E_n^{(1)}+ \lambda^2 E_n^{(2)} + \cdots\\
+  \lambda \int \psi_n^{(0)*} H' \psi_n \, d\tau &amp;= \lambda E_n^{(1)}+ \lambda^2 E_n^{(2)} + \cdots
+  \end{align}\]
+
+    <p>Expanding the perturbative term on L.H.S. of the above equation gives</p>
+
+\[\int \psi_n^{(0)*} H' \psi_n \, d\tau =\int \psi_n^{(0)*} H' \psi_n^{(0)} \, d\tau+ \lambda\int \psi_n^{(0)*} H' \psi_n^{(1)} \, d\tau+ \lambda^2\int \psi_n^{(0)*} H' \psi_n^{(2)} \, d\tau+ \cdots\]
+
+    <p>therefore the Schrödinger equation gives</p>
+
+    <p><span style="color: red; font-weight: bold;">\(\lambda\int \psi_n^{(0)*} H' \psi_n^{(0)} \, d\tau+ \lambda^2\int \psi_n^{(0)*} H' \psi_n^{(1)} \, d\tau+ \cdots=\lambda E_n^{(1)}+ \lambda^2 E_n^{(2)} + \cdots\)</span></p>
+
+    <p>we get first order corrections to the eigenvalues as</p>
+
+\[\boxed{E_n^{(1)} = \int \psi_n^{(0)*} H' \psi_n^{(0)} \, d\tau}\]
+
+    <p>First order correction can be calculated as the expression of the eigenfunction \(\psi_n^{(0)}\) is well known and the matrix element of \(H'\) can be calculated. The second order correction to the eigenvalues is given by:</p>
+
+\[\boxed{E_n^{(2)} = \int \psi_n^{(0)*} H' \psi_n^{(1)} \, d\tau}\]
+
+    <p>Here the first order correction to the eigenfunction is needed to calculate the second order correction to the eigenvalues.</p>
+  </li>
+  <li>
+    <p>The first order correction to the eigenfunctions is given by:</p>
+
+\[\psi_n^{(1)} = \sum_{m \neq n} \frac{\int\psi_m^{(0)*} H' \psi_n^{(0)}d\tau}{E_n^{(0)} - E_m^{(0)}}\psi_m^{(0)}\]
+
+    <p>The first order correction to the eigenfunction can be calculated by using the fact that the eigenfunctions of \(H_0\) are known and the matrix elements of \(H'\) can be calculated. The first order correction to the eigenfunction is calculated by projecting the Schrödinger equation onto the state \(\psi_m^{(0)}\) where \(m \neq n\).</p>
+  </li>
+</ul>
+
+<h3 id="time-independent-perturbation-theory-degenerate-case">Time Independent Perturbation Theory: Degenerate Case</h3>
+
+<p>In the degenerate case, we still have the Hamiltonian</p>
+
+\[H = H_0 + \lambda H'\]
+
+<p>where \(\lambda\) is a small parameter. The unperturbed Hamiltonian \(H_0\) has a set of degenerate eigenstates, meaning there are multiple eigenfunctions corresponding to the same eigenvalue \(E_n^{(0)}\).</p>
+
+<h4 id="problem-statement">Problem Statement</h4>
+<p><span style="color: red;">The problem is to find the eigenvalues and eigenfunctions of the perturbed Hamiltonian \(H\) when the unperturbed Hamiltonian \(H_0\) has degenerate eigenstates.</span></p>
+
+<h4 id="approach">Approach</h4>
+<p>For simplicity, assume that \(H_0\) has a degenerate eigenvalue \(E_n^{(0)}\) with \(g\) degenerate states \(\psi_{n,1}^{(0)}, \psi_{n,2}^{(0)}, \ldots, \psi_{n,g}^{(0)}\). We need to account for the mixing of these degenerate states due to the perturbation \(H'\).</p>
+
+<h4 id="eigenvalue-and-eigenfunction-expansions">Eigenvalue and Eigenfunction Expansions</h4>
+<p>The eigenvalues and eigenfunctions of \(H\) can still be expanded in powers of \(\lambda\):</p>
+
+\[E_n = E_n^{(0)} + \lambda E_n^{(1)} + \lambda^2 E_n^{(2)} + \cdots\]
+
+\[\psi_n = \psi_n^{(0)} + \lambda \psi_n^{(1)} + \lambda^2 \psi_n^{(2)} + \cdots\]
+
+<p>However, now \(\psi_n^{(0)}\) is a linear combination of the degenerate states:</p>
+
+\[\psi_n^{(0)} = \sum_{k=1}^{g} c_k \psi_{n,k}^{(0)}\]
+
+<h4 id="first-order-correction-to-the-eigenvalues">First Order Correction to the Eigenvalues</h4>
+<p>To find the first order correction to the eigenvalues, we solve the secular equation by considering the matrix elements of \(H'\) in the subspace of the degenerate states:</p>
+
+\[H'_{ij} = \langle \psi_{n,i}^{(0)} | H' | \psi_{n,j}^{(0)} \rangle\]
+
+<p>We need to solve the eigenvalue problem for the matrix \(H'\) restricted to the degenerate subspace:</p>
+
+\[\sum_{j=1}^{g} H'_{ij} c_j = E_n^{(1)} c_i\]
+
+<p>This is equivalent to finding the eigenvalues and eigenvectors of the matrix \(H'\) in the degenerate subspace. The eigenvalues of this matrix are the first order corrections \(E_n^{(1)}\).</p>
+
+<h4 id="first-order-correction-to-the-eigenfunctions">First Order Correction to the Eigenfunctions</h4>
+<p>Once the coefficients \(c_i\) are found by solving the secular equation, the first order correction to the eigenfunction \(\psi_n^{(0)}\) can be written as:</p>
+
+\[\psi_n^{(1)} = \sum_{m \neq n} \frac{\langle \psi_m^{(0)} | H' | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \psi_m^{(0)}\]
+
+<p>where \(\psi_n^{(0)} = \sum_{k=1}^{g} c_k \psi_{n,k}^{(0)}\).</p>
+
+<h4 id="summary">Summary</h4>
+<ol>
+  <li>
+    <p><strong>Solve the secular equation</strong> for the degenerate subspace:</p>
+
+\[\sum_{j=1}^{g} H'_{ij} c_j = E_n^{(1)} c_i\]
+  </li>
+  <li>
+    <p><strong>Find the first order correction to the eigenvalues</strong> by solving the eigenvalue problem for the matrix \(H'\) in the degenerate subspace.</p>
+  </li>
+  <li>
+    <p><strong>Compute the first order correction to the eigenfunctions</strong> using:</p>
+
+\[\psi_n^{(1)} = \sum_{m \neq n} \frac{\langle \psi_m^{(0)} | H' | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \psi_m^{(0)}\]
+
+    <p>with \(\psi_n^{(0)}\) expressed as a linear combination of the degenerate states.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h1 id="time-dependent-perturbation-theory">Time-Dependent Perturbation Theory</h1>
+
+<p>Time-Dependent Perturbation Theory is an essential tool in quantum mechanics used to study systems under the influence of a time-varying external force or potential. It provides a way to calculate the probabilities of transitions between different quantum states over time.</p>
+
+<h2 id="basic-concept">Basic Concept</h2>
+
+<p>Consider a quantum system described by a time-independent Hamiltonian \(\hat{H}_0\) with known eigenstates $ \ket{n} $ and corresponding energies \(E_n\):</p>
+
+\[\hat{H}_0 \ket{n} = E_n \ket{n}\]
+
+<p>When a time-dependent perturbation \(\hat{V}(t)\) is applied to the system, the total Hamiltonian becomes:</p>
+
+\[\hat{H}(t) = \hat{H}_0 + \hat{V}(t)\]
+
+<p>The perturbation \(\hat{V}(t)\) is assumed to be small, so it induces transitions between the eigenstates of \(\hat{H}_0\).</p>
+
+<h2 id="perturbation-expansion">Perturbation Expansion</h2>
+
+<p>The state of the system \(\ket{\Psi(t)}\) evolves according to the Schrödinger equation:</p>
+
+\[i\hbar \frac{\partial}{\partial t} \ket{\Psi(t)} = \hat{H}(t) \ket{\Psi(t)}\]
+
+<p>We express the state \(\ket{\Psi(t)}\) as a superposition of the unperturbed eigenstates:</p>
+
+\[\ket{\Psi(t)}= \sum_n c_n(t) e^{-iE_n t/\hbar}\ket{n}\]
+
+<p>Here, \(c_n(t)\) are the time-dependent coefficients that give the probability amplitude for the system to be in state \(\ket{n}\) at time \(t\).</p>
+
+<h2 id="first-order-approximation">First-Order Approximation</h2>
+
+<p>In the first-order approximation, the change in the coefficients \(c_n(t)\) is given by:</p>
+
+\[c_n^{(1)}(t) = -\frac{i}{\hbar} \int_{t_0}^{t} \langle n|\hat{V}(t')|\Psi(t')\rangle e^{iE_n t'/\hbar} dt'\]
+
+<p>If the system starts in state \(\ket{m}\) at \(t_0\), we have:</p>
+
+\[c_n^{(1)}(t) = -\frac{i}{\hbar} \int_{t_0}^{t} \bra{n}\hat{V}(t')\ket{m} e^{i(E_n-E_m)t'/\hbar} dt'\]
+
+<p>This integral allows us to calculate the probability of the system transitioning from state \(\ket{m}\) to state \(\ket{n}\) due to the perturbation.</p>
+
+<h2 id="transition-probability">Transition Probability</h2>
+
+<p>The probability of the system being found in state \(\ket{n}\) at time \(t\) is given by \(P_{m \to n}(t)\):</p>
+
+\[P_{m \to n}(t) = |c_n^{(1)}(t)|^2\]
+
+<p>For a sinusoidal perturbation of the form \(\hat{V}(t) = \hat{V}_0 \cos(\omega t)\), this expression can be further simplified, leading to well-known results such as Fermi’s Golden Rule for transition rates.</p>
+
+<hr />
+<h2 id="sudden-perturbation">Sudden Perturbation</h2>
+
+<p>In exploring time-dependent perturbation theory, we consider the case of fast or “sudden” perturbations. A perturbation is deemed sudden if the transition from one time-independent Hamiltonian \(\hat{H}_0\) to another \(\hat{H}'_0\) occurs over a time much shorter than any natural period of the system. In such cases, perturbation theory becomes irrelevant. If the system is initially in an eigenstate \(\ket{n}\) of \(\hat{H}_0\), its time evolution post-transition follows \(\hat{H}'_0\). The initial state can then be expressed as a sum over the eigenstates of \(\hat{H}'_0\):</p>
+
+\[\ket{n} = \sum_{n'} \ket{n'} \bra{n'} n \rangle\]
+
+<p>The key challenge is to ensure that the change is sudden enough, which is determined by estimating the actual time taken for the Hamiltonian to change and the periods of motion associated with the state \(\ket{n}\) and its transitions to neighboring states.</p>
+
+<h3 id="harmonic-perturbations-fermis-golden-rule">Harmonic Perturbations: Fermi’s Golden Rule</h3>
+
+<p>Consider a system prepared in an initial state \(\ket{i}\) that is perturbed by a periodic harmonic potential \(V(t) = V e^{-i\omega t}\), which is abruptly switched on at \(t = 0\). This scenario could represent an atom perturbed by an external oscillating electric field, like an incident light wave. We aim to determine the probability that at some later time \(t\), the system is found in state \(\ket{f}\).</p>
+
+<p>From first-order perturbation theory, the coefficient \(c^{(1)}_f(t)\) is given by:</p>
+
+\[c^{(1)}_f(t) = -\frac{i}{\hbar} \int_{0}^{t} dt' \bra{f} V \ket{i} e^{i(\omega_{fi} - \omega)t'} = -\frac{i}{\hbar} \bra{f} V \ket{i} \frac{e^{i(\omega_{fi} - \omega)t} - 1}{i(\omega_{fi} - \omega)}\]
+
+<p>The probability of the transition after time \(t\) is then:</p>
+
+\[P_{i \to f}(t) = \left| c^{(1)}_f(t) \right|^2 = \frac{1}{\hbar^2} \left| \bra{f} V \ket{i} \right|^2 \left( \frac{\sin((\omega_{fi} - \omega)t/2)}{(\omega_{fi} - \omega)/2} \right)^2\]
+
+<p>By setting \(\alpha = (\omega_{fi} - \omega)/2\), the probability becomes:</p>
+
+\[P_{i \to f}(t) = \frac{1}{\hbar^2} \left| \bra{f} V \ket{i} \right|^2 \frac{\sin^2(\alpha t)}{\alpha^2}\]
+
+<p>As \(t\) approaches infinity, the function asymptotes to a delta function \(\pi t \delta(\alpha)\) as shown in figure below, indicating that the likelihood of transition is proportional to the time elapsed. To obtain the transition rate, we divide by \(t\):</p>
+
+\[\boxed{
+R_{i \to f}(t) = \lim_{t \to \infty} \frac{P_{i \to f}(t)}{t} = \frac{2\pi}{\hbar^2} \left| \bra{f} V \ket{i} \right|^2 \delta(\omega_{fi} - \omega)}\]
+
+<p>This result is known as Fermi’s Golden Rule. Although named after Enrico Fermi, much of the foundational work was done by P.A.M. Dirac in an earlier study, who formulated a nearly identical equation involving a constant, the matrix element of the perturbation, and an energy difference.</p>
+
+<div style="text-align: center;">
+    <img src="/SKMU/assets/img/Quantum/dirac.png" alt="dirac delta" class="my-custom-class" style="max-width:50%; height:60%;" />
+</div>
+
+      </div>
+      
+    </article>
+  </div>
+</main>
+
+        </div>
+
+        <div class="search-content">
+          <div class="inner">
+  <label class="visually-hidden" for="search">Site Search</label>
+        <input type="text" id="search" class="search-input" aria-describedby="results-count" tabindex="-1" placeholder="Enter your search term..." />
+        <div id="results" class="results"></div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="site-footer">
+  <div class="inner">
+    <div class="copyright">
+      
+        <p>&copy; 2024 Rajesh Kumar.</p>
+      
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async src="/SKMU/assets/javascripts/main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="http://localhost:4000/SKMU/assets/javascripts/lunr/lunr.min.js"></script>
+  <script src="http://localhost:4000/SKMU/assets/javascripts/lunr/lunr.store.js"></script>
+  <script>
+    var idx = lunr(function () {
+      
+      // the, the normal lunr index initialization
+      this.field('title')
+      this.field('excerpt')
+      this.field('categories')
+      this.field('tags')
+      this.ref('id')
+
+      this.pipeline.remove(lunr.trimmer)
+
+      // add documents to index
+      for (var item in store) {
+        this.add({
+          title: store[item].title,
+          excerpt: store[item].excerpt,
+          categories: store[item].categories,
+          tags: store[item].tags,
+          id: item
+        })
+      }
+    });
+
+    $(document).ready(function () {
+      $('input#search').on('keyup', function () {
+        var resultdiv = $('#results');
+        var query = $(this).val().toLowerCase();
+        var result =
+          idx.query(function (q) {
+            query.split(lunr.tokenizer.separator).forEach(function (term) {
+              q.term(term, { boost: 100 })
+              if (query.lastIndexOf(" ") != query.length - 1) {
+                q.term(term, { usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 })
+              }
+              if (term != "") {
+                q.term(term, { usePipeline: false, editDistance: 1, boost: 1 })
+              }
+            })
+          });
+        resultdiv.empty();
+        resultdiv.prepend('<p id="results-count" class="results-found">' + result.length + ' Result(s) found</p>');
+        for (var item in result) {
+          var ref = result[item].ref;
+          var searchitem =
+            '<article class="entry">' +
+              '<h3 class="entry-title">' +
+                '<a href="' + store[ref].url + '">' + store[ref].title + '</a>' +
+              '</h3>' +
+              '<div class="entry-excerpt">' +
+                '<p>' + store[ref].excerpt.split(" ").splice(0, 20).join(" ") + '...</p>' +
+              '</div>' +
+            '</article>';
+          resultdiv.append(searchitem);
+        }
+      });
+    });
+  </script>
+
+
+
+  </body>
+
+</html>

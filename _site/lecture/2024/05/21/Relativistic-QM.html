@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<!--
+    Basically Basic Jekyll Theme 1.4.5
+    Copyright 2017-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes">
+
+  
+    
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Relativistic Quantum Mechanics | Rajesh Kumar</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Relativistic Quantum Mechanics" />
+<meta name="author" content="Rajesh Kumar" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Below is the outline of the lecture on Relativistic Quantum Mechanics, covering the Klein–Gordon equation, Dirac equation, probabilities and current densities, magnetic moment and spin of the electron, and free particle solutions of the Dirac equation." />
+<meta property="og:description" content="Below is the outline of the lecture on Relativistic Quantum Mechanics, covering the Klein–Gordon equation, Dirac equation, probabilities and current densities, magnetic moment and spin of the electron, and free particle solutions of the Dirac equation." />
+<link rel="canonical" href="http://localhost:4000/SKMU/lecture/2024/05/21/Relativistic-QM.html" />
+<meta property="og:url" content="http://localhost:4000/SKMU/lecture/2024/05/21/Relativistic-QM.html" />
+<meta property="og:site_name" content="Rajesh Kumar" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-05-21T18:47:26+05:30" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/SKMU/lecture/2024/05/21/Relativistic-QM.html"},"author":{"@type":"Person","name":"Rajesh Kumar"},"url":"http://localhost:4000/SKMU/lecture/2024/05/21/Relativistic-QM.html","description":"Below is the outline of the lecture on Relativistic Quantum Mechanics, covering the Klein–Gordon equation, Dirac equation, probabilities and current densities, magnetic moment and spin of the electron, and free particle solutions of the Dirac equation.","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/SKMU/assets/icons/logo.png"},"name":"Rajesh Kumar"},"headline":"Relativistic Quantum Mechanics","dateModified":"2024-05-21T18:47:26+05:30","datePublished":"2024-05-21T18:47:26+05:30","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+
+  <!-- Include Mermaid.js from a CDN -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+
+    <!-- Math JX -->
+    <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+    </script>
+  
+  <script type="text/javascript">
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+  </script>
+  
+
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="/SKMU/assets/stylesheets/main.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Radio+Canada+Big:400,400i,600,600i">
+  
+
+  
+    
+    <link rel="alternate" type="application/atom+xml" title="Rajesh Kumar" href="https://rajeshphy.github.io/">
+  
+  <meta name="google-site-verification" content="ONNy_6CkGORdDQ9whxpp_EIkMC_mXOohCfdkEK1zAM8" />
+</head>
+
+
+  <body class="layout--post relativistic-quantum-mechanics">
+
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+
+    <div class="sidebar-toggle-wrapper">
+      
+        <button class="search-toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <title>Search</title>
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+      
+
+      <button class="toggle navicon-button larr" type="button">
+        <span class="toggle-inner">
+          <span class="sidebar-toggle-label visually-hidden">Menu</span>
+          <span class="navicon"></span>
+        </span>
+      </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <div class="inner">
+        <nav id="primary-nav" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul id="menu-main-navigation" class="menu">
+    <!-- Home link -->
+    <li class="menu-item">
+      <a href="/SKMU/" itemprop="url">
+        <span itemprop="name">Home</span>
+      </a>
+    </li>
+
+    <!-- site.pages links -->
+    
+    
+
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/SKMU/posts/" itemprop="url">
+            <span itemprop="name">Posts</span>
+          </a>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+        <ul class="contact-list">
+  
+    <li>
+      <a href="mailto:kr.rajesh.phy@gmail.com">
+        <span class="icon icon--email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="313.1 3.7 16 16"><path d="M318.5 8.9c0-.2.2-.4.4-.4h4.5c.2 0 .4.2.4.4s-.2.4-.4.4h-4.5c-.3 0-.4-.2-.4-.4zm.4 2.1h4.5c.2 0 .4-.2.4-.4s-.2-.4-.4-.4h-4.5c-.2 0-.4.2-.4.4s.1.4.4.4zm3.5 1.2c0-.2-.2-.4-.4-.4h-3.1c-.2 0-.4.2-.4.4s.2.4.4.4h3.1c.2.1.4-.1.4-.4zm-1.5-8.4l-1.7 1.4c-.2.1-.2.4 0 .6s.4.2.6 0l1.4-1.2 1.4 1.2c.2.1.4.1.6 0s.1-.4 0-.6l-1.7-1.4c-.3-.1-.5-.1-.6 0zm7.8 6.2c.1.1.1.2.1.3v7.9c0 .8-.7 1.5-1.5 1.5h-12.5c-.8 0-1.5-.7-1.5-1.5v-7.9c0-.1.1-.2.1-.3l1.6-1.3c.2-.1.4-.1.6 0s.1.4 0 .6l-1.2 1 1.8 1.3v-4c0-.6.5-1.1 1.1-1.1h7.5c.6 0 1.1.5 1.1 1.1v4l1.8-1.3-1.2-1c-.2-.1-.2-.4 0-.6s.4-.2.6 0l1.6 1.3zm-11.6 2.2l4 2.8 4-2.8V7.6c0-.1-.1-.2-.2-.2h-7.5c-.1 0-.2.1-.2.2v4.6zm10.9-1l-4.7 3.4 3.4 2.6c.2.1.2.4.1.6-.1.2-.4.2-.6.1l-3.6-2.8-1.2.8c-.1.1-.3.1-.5 0l-1.2-.8-3.6 2.8c-.2.1-.4.1-.6-.1-.1-.2-.1-.4.1-.6l3.4-2.6-4.7-3.4v7.1c0 .4.3.6.6.6h12.5c.4 0 .6-.3.6-.6v-7.1z"/></svg></span>
+        <span class="label">Email</span>
+      </a>
+    </li>
+  
+
+  
+
+  
+
+  <li>
+    
+      <a href="https://rajeshphy.github.io/" title="Atom Feed">
+        <span class="icon icon--rss"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194 11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0 13.806c0-1.21.983-2.195 2.194-2.195zM10.606 16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"/></svg></span>
+        <span class="label">Subscribe</span>
+      </a>
+    
+  </li>
+</ul>
+
+      </div>
+    </div>
+
+    <div class="canvas">
+      <div class="wrapper">
+        
+
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      
+        <p class="site-title">
+          <a href="/SKMU/">
+            <img src="/SKMU/assets/icons/logo.png" alt="" class="site-logo">
+            <span>Rajesh Kumar</span>
+          </a>
+        </p>
+      
+    </div>
+  </div>
+</header>
+
+        <div class="initial-content">
+          <header class="intro">
+  
+
+  <div class="inner">
+    <div class="intro-text">
+      <h1 id="page-title" class="intro-title">Relativistic Quantum Mechanics
+</h1>
+      
+
+      
+        
+
+
+        <p class="entry-meta">
+          <span class="byline-item">by Rajesh Kumar</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2024-05-21T18:47:26+05:30">May 21, 2024</time></span> <span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="15 309.7 16 16"><g><path d="M23.9 315.1v3.6c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-3.6h1.8z"/><path d="M30.1 317.7c.5 3.9-2.3 7.5-6.2 7.9-3.9.5-7.5-2.3-7.9-6.2-.5-3.9 2.3-7.5 6.2-7.9v-1.8H24v1.8c1.1.1 2.7.7 3.5 1.4l1.3-1.3 1.3 1.3-1.3 1.3c.5.9 1.2 2.5 1.3 3.5zm-1.8.9c0-2.9-2.4-5.3-5.3-5.3s-5.3 2.4-5.3 5.3 2.4 5.3 5.3 5.3 5.3-2.3 5.3-5.3z"/></g></svg></span>5 min read</span>
+        </p>
+      
+
+      
+
+      
+    </div>
+  </div>
+</header>
+
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        <p>Below is the outline of the lecture on Relativistic Quantum Mechanics, covering the Klein–Gordon equation, Dirac equation, probabilities and current densities, magnetic moment and spin of the electron, and free particle solutions of the Dirac equation.</p>
+
+<h1 id="outline">Outline</h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Relativistic QM: Klein – Gordon equation and its merit and demerit, Dirac equation,
+probabilities and current densities, Magnetic moment and spin of electron, free particle
+solution of Dirac equation and interpretation of negative energy states. 15 Lectures  
+</code></pre></div></div>
+
+<h1 id="the-kleingordon-equation">The Klein–Gordon Equation</h1>
+
+<p>The Klein–Gordon equation is a relativistic wave equation for spin-zero particles. It is given by:</p>
+
+\[\left( \Box + \frac{m^2 c^2}{\hbar^2} \right) \psi = 0\]
+
+<p>where:</p>
+
+<ul>
+  <li>
+    <p>\(\Box\) (the d’Alembertian operator) is defined as:
+\(\Box = \nabla^2 - \frac{1}{c^2} \frac{\partial^2}{\partial t^2}\)</p>
+  </li>
+  <li>
+    <p>\(\nabla^2\) is the Laplace operator, which in three spatial dimensions is:</p>
+
+\[\nabla^2 = \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} + \frac{\partial^2}{\partial z^2}\]
+  </li>
+  <li>\(m\) is the mass of the particle.</li>
+  <li>\(c\) is the speed of light.</li>
+  <li>
+    <p>\(\hbar\) (h-bar) is the reduced Planck constant:</p>
+
+    <p>\(\hbar = \frac{h}{2\pi}\)
+where \(h\) is the Planck constant.</p>
+  </li>
+  <li>\(\psi\) is the wave function of the particle.</li>
+</ul>
+
+<h2 id="derivation-and-background">Derivation and Background</h2>
+
+<p>The Klein–Gordon equation arises from the relativistic energy-momentum relation:</p>
+
+\[E^2 = p^2 c^2 + m^2 c^2\]
+
+<p>By substituting the quantum mechanical operators for energy \(E\) and momentum \(p\):</p>
+
+\[E \rightarrow i\hbar \frac{\partial}{\partial t}, \quad \mathbf{p} \rightarrow -i\hbar \nabla\]
+
+<p>into the energy-momentum relation, we get:</p>
+
+\[\left( i\hbar \frac{\partial}{\partial t} \right)^2 = \left( -i\hbar \nabla \right)^2 c^2 + m^2 c^4\]
+
+<p>Simplifying this yields:</p>
+
+\[-\hbar^2 \frac{\partial^2}{\partial t^2} = -\hbar^2 c^2 \nabla^2 + m^2 c^4\]
+
+<p>Dividing through by \(-\hbar^2\):</p>
+
+\[\frac{\partial^2}{\partial t^2} - c^2 \nabla^2 + \frac{m^2 c^4}{\hbar^2} = 0\]
+
+<p>Rewriting in a more compact form using the d’Alembertian operator:</p>
+
+\[\left( \Box + \frac{m^2 c^2}{\hbar^2} \right) \psi = 0\]
+
+<h2 id="applications-and-significance">Applications and Significance</h2>
+
+<ul>
+  <li><strong>Quantum Field Theory:</strong> The Klein–Gordon equation is fundamental in quantum field theory for describing scalar fields and spin-zero particles such as pi-mesons (pions).</li>
+  <li><strong>Prediction of Antiparticles:</strong> The equation predicts the existence of antiparticles, as solutions can have both positive and negative energy.</li>
+  <li><strong>Historical Context:</strong> Independently discovered by Oskar Klein and Walter Gordon in 1926, the Klein–Gordon equation was one of the earliest attempts to formulate a relativistic wave equation.</li>
+</ul>
+
+<h2 id="limitations">Limitations</h2>
+<ol>
+  <li><strong>Negative Probability Density:</strong>
+    <ul>
+      <li>The probability density derived from the Klein-Gordon equation is not always positive-definite, complicating its interpretation as a physical probability distribution.</li>
+    </ul>
+  </li>
+  <li><strong>Inclusion of Negative Energy States:</strong>
+    <ul>
+      <li>The equation admits solutions with negative energy, which challenges the straightforward interpretation of these solutions within a single-particle framework.</li>
+    </ul>
+  </li>
+  <li><strong>Inadequate for Particles with Spin:</strong>
+    <ul>
+      <li>The Klein-Gordon equation does not account for spin, making it unsuitable for describing fermions, such as electrons, which have non-zero spin.</li>
+    </ul>
+  </li>
+  <li><strong>Unbounded Hamiltonian:</strong>
+    <ul>
+      <li>The Hamiltonian associated with the Klein-Gordon equation is not bounded from below, leading to stability issues and necessitating reinterpretation within the framework of quantum field theory.</li>
+    </ul>
+  </li>
+</ol>
+
+<h1 id="dirac-equation">Dirac Equation</h1>
+
+<p>The Dirac equation was formulated to address the limitations of the Klein-Gordon equation, specifically to describe spin-1/2 particles and to ensure positive-definite probability densities.</p>
+
+<h4 id="linearizing-the-klein-gordon-equation">Linearizing the Klein-Gordon Equation</h4>
+<p>The Klein-Gordon equation is given by:
+\(\left( \frac{\partial^2}{\partial t^2} - \nabla^2 + m^2 \right) \psi = 0\)</p>
+
+<p>To derive the Dirac equation, we seek a first-order differential equation in both space and time that would still be consistent with the principles of special relativity. We start with the assumption that the equation should be linear in the first derivatives:</p>
+
+\[\color{red}{ i \hbar \frac{\partial \psi}{\partial t} = \left( \alpha \cdot \mathbf{p} + \beta m \right) \psi }\]
+
+<p>Here, \(\alpha\) and \(\beta\) are matrices, and \(\mathbf{p} = -i \hbar \nabla\) is the momentum operator.</p>
+
+<h4 id="requirements-for-matrices">Requirements for Matrices</h4>
+<p>To ensure consistency with special relativity and the correct energy-momentum relation, we require that:</p>
+
+\[E^2 = \mathbf{p}^2 c^2 + m^2 c^4\]
+
+<p>Square both sides of our proposed equation and taking \(c=\hbar=1\)(natural units):</p>
+
+\[\left( i \frac{\partial}{\partial t} \right)^2 \psi = \left( \alpha \cdot \mathbf{p} + \beta m \right)^2 \psi\]
+
+<p>One common representation of dirac matrices \(\alpha,\;\beta\) is the Dirac-Pauli representation:</p>
+
+\[\beta = \gamma^0 = \begin{pmatrix} I &amp; 0 \\ 0 &amp; -I \end{pmatrix}\]
+
+\[\alpha_i = \gamma^0 \gamma^i\]
+
+<p>where \(\gamma^i\) are the Dirac gamma matrices.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Highlighted section below can be skipped, its just for verification</code></p>
+<div style="background-color: #f0f0f0; padding: 10px;">
+Expanding the right-hand side, we get:
+
+$$ - \hbar^2 \frac{\partial^2 \psi}{\partial t^2} = \left( \alpha_i p_i \alpha_j p_j + \alpha_i p_i \beta m + \beta m \alpha_j p_j + \beta^2 m^2 \right) \psi $$
+
+Using the commutation relations of the matrices \( \alpha \) and \( \beta\)
+
+$$ \alpha_i \alpha_j + \alpha_j \alpha_i = 2 \delta_{ij} I $$
+
+$$ \alpha_i \beta + \beta \alpha_i = 0 $$
+
+$$ \beta^2 = I $$
+
+Substituting these back, we get:
+
+$$ \left(  \frac{\partial^2}{\partial t^2} -  \nabla^2 + m^2 \right) \psi = 0 $$
+
+This reduces to the Klein-Gordon equation, showing that our linear equation is consistent.
+</div>
+
+<h4 id="the-dirac-equation">The Dirac Equation</h4>
+<p>Combining all these and in natural units (\(\hbar = c = 1\)), we get the Dirac equation in the form:</p>
+
+\[i \frac{\partial \psi}{\partial t} = \left( \boldsymbol{\alpha} \cdot \mathbf{p} + \beta m \right) \psi\]
+
+<p>Rearranging the equation we get</p>
+
+\[\left[i \frac{\partial }{\partial t} - \left( \boldsymbol{\alpha} \cdot \mathbf{p} + \beta m \right) \right]\psi=0\]
+
+<p>Multiplying both sides by \(\beta\) and using the relation \(\beta^2=I\) and \(\mathbf{p=-i\nabla}\) we get</p>
+
+\[\left[i \beta \frac{\partial }{\partial t} + \beta  i\boldsymbol{\alpha} \cdot \mathbf{\nabla} - \beta^2 m  \right]\psi=0\]
+
+<p>Replacing \(\beta^2\) by \(I\) and expanding \(\mathbf{\alpha\cdot\nabla}\) we get</p>
+
+\[\left[i \beta \frac{\partial }{\partial t} + i\beta \left(\alpha_x \frac{\partial}{\partial_x}+\alpha_y \frac{\partial}{\partial_y}+\alpha_z \frac{\partial}{\partial_z}\right) - m  \right]\psi=0\]
+
+<p>To express the Dirac equation in a covariant form, we introduce the gamma matrices \(\gamma^\mu\), where \(\mu = 0, 1, 2, 3\).</p>
+
+<p>In this notation, \(\gamma^0 = \beta\) and \(\gamma^j = \beta \alpha^j\) for \(j = 1, 2, 3\).</p>
+
+\[\begin{align*}\left[i \gamma^0\partial_0 + i \gamma^1\partial_1+i\gamma^2\partial_2+i\gamma^3\partial_3 - m  \right]\psi&amp;=0\end{align*}\]
+
+<p>The Dirac equation then can be written in a compact form, which is invariant under Lorentz transformations as:</p>
+
+\[(i \gamma^\mu \partial_\mu - m) \psi = 0\]
+
+<p>where:</p>
+<ul>
+  <li>\(\partial_\mu = \frac{\partial}{\partial x^\mu}\) is the four-gradient, with \(\partial_0 = \frac{\partial}{\partial t}\) and \(\partial_i = \frac{\partial}{\partial x^i}\) for spatial coordinates.</li>
+  <li>\(\gamma^\mu\) are the gamma matrices, which ensure that the equation transforms correctly under Lorentz transformations.</li>
+</ul>
+
+<p>This is the Dirac equation, describing spin-1/2 particles in relativistic quantum mechanics.</p>
+
+      </div>
+      
+    </article>
+  </div>
+</main>
+
+        </div>
+
+        <div class="search-content">
+          <div class="inner">
+  <label class="visually-hidden" for="search">Site Search</label>
+        <input type="text" id="search" class="search-input" aria-describedby="results-count" tabindex="-1" placeholder="Enter your search term..." />
+        <div id="results" class="results"></div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="site-footer">
+  <div class="inner">
+    <div class="copyright">
+      
+        <p>&copy; 2024 Rajesh Kumar.</p>
+      
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async src="/SKMU/assets/javascripts/main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="http://localhost:4000/SKMU/assets/javascripts/lunr/lunr.min.js"></script>
+  <script src="http://localhost:4000/SKMU/assets/javascripts/lunr/lunr.store.js"></script>
+  <script>
+    var idx = lunr(function () {
+      
+      // the, the normal lunr index initialization
+      this.field('title')
+      this.field('excerpt')
+      this.field('categories')
+      this.field('tags')
+      this.ref('id')
+
+      this.pipeline.remove(lunr.trimmer)
+
+      // add documents to index
+      for (var item in store) {
+        this.add({
+          title: store[item].title,
+          excerpt: store[item].excerpt,
+          categories: store[item].categories,
+          tags: store[item].tags,
+          id: item
+        })
+      }
+    });
+
+    $(document).ready(function () {
+      $('input#search').on('keyup', function () {
+        var resultdiv = $('#results');
+        var query = $(this).val().toLowerCase();
+        var result =
+          idx.query(function (q) {
+            query.split(lunr.tokenizer.separator).forEach(function (term) {
+              q.term(term, { boost: 100 })
+              if (query.lastIndexOf(" ") != query.length - 1) {
+                q.term(term, { usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 })
+              }
+              if (term != "") {
+                q.term(term, { usePipeline: false, editDistance: 1, boost: 1 })
+              }
+            })
+          });
+        resultdiv.empty();
+        resultdiv.prepend('<p id="results-count" class="results-found">' + result.length + ' Result(s) found</p>');
+        for (var item in result) {
+          var ref = result[item].ref;
+          var searchitem =
+            '<article class="entry">' +
+              '<h3 class="entry-title">' +
+                '<a href="' + store[ref].url + '">' + store[ref].title + '</a>' +
+              '</h3>' +
+              '<div class="entry-excerpt">' +
+                '<p>' + store[ref].excerpt.split(" ").splice(0, 20).join(" ") + '...</p>' +
+              '</div>' +
+            '</article>';
+          resultdiv.append(searchitem);
+        }
+      });
+    });
+  </script>
+
+
+
+  </body>
+
+</html>
