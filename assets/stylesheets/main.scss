@@ -16,3 +16,29 @@
     margin-right: auto;
     text-align: center;
   }
+
+
+// Responsive styling
+@media only screen and (max-width: 600px) {
+  .mermaid {
+      width: 100%;  // Adjust mermaid diagrams to fit the screen width
+      padding: 0 10px;  // Add some padding for better readability on small screens
+  }
+
+  body {
+      font-size: 16px;  // Adjust the font size for readability on mobile
+      line-height: 1.5; // Increase line-height for better spacing on small screens
+  }
+
+  // Example of adjusting the main content area
+  .content {
+      padding: 15px;
+  }
+
+  // Adjust any other elements that might need resizing or padding adjustments for mobile
+  .header,
+  .footer {
+      padding: 10px 15px;
+      text-align: center; // Center align header and footer content on mobile
+  }
+}
