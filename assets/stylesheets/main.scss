@@ -15,30 +15,48 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-  }
+}
 
+// Responsive styling for equations and content
+.equation-container {
+    overflow-x: auto; /* Allow horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+}
+
+.equation {
+    display: inline-block; /* Ensure equation is treated as block-level */
+    max-width: 100%; /* Ensure equation does not exceed container width */
+    white-space: nowrap; /* Prevent wrapping */
+}
 
 // Responsive styling
 @media only screen and (max-width: 600px) {
-  .mermaid {
-      width: 100%;  // Adjust mermaid diagrams to fit the screen width
-      padding: 0 10px;  // Add some padding for better readability on small screens
-  }
+    .mermaid {
+        width: 100%;
+        padding: 0 10px;
+    }
 
-  body {
-      font-size: 16px;  // Adjust the font size for readability on mobile
-      line-height: 1.5; // Increase line-height for better spacing on small screens
-  }
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+    }
 
-  // Example of adjusting the main content area
-  .content {
-      padding: 15px;
-  }
+    .content {
+        padding: 15px;
+    }
 
-  // Adjust any other elements that might need resizing or padding adjustments for mobile
-  .header,
-  .footer {
-      padding: 10px 15px;
-      text-align: center; // Center align header and footer content on mobile
-  }
+    .header,
+    .footer {
+        padding: 10px 15px;
+        text-align: center;
+    }
+
+    // Additional adjustments for equations on mobile
+    .equation-container {
+        padding: 0 10px; /* Add padding to prevent clipping */
+    }
+
+    .equation {
+        font-size: 14px; /* Optionally adjust font size for mobile */
+    }
 }
