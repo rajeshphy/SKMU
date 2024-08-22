@@ -25,4 +25,4 @@ Supplementary resources for the course are provided below. These resources inclu
 
 - [Statistical Mechanics Formula](/SKMU/assets/pdf/Statistical-Formulae.pdf)
 
-- [Handbook Of Physics Formulas](/SKMU/assets/pdf/The-Cambridge-Handbook-of-Physics-Formulas.pd)
+- [Handbook Of Physics Formulas](/SKMU/assets/pdf/The-Cambridge-Handbook-of-Physics-Formulas.pdf)
