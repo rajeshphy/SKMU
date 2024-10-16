@@ -21,6 +21,8 @@ Supplementary resources for the course are provided below. These resources inclu
 
 - **[Frequently Used Mathematical Formula](/SKMU/assets/pdf/Math-Formulae.pdf)**
 
+- **[Pauli Spin Matrices Relation](/SKMU/assets/pdf/Pauli-Dirac-Relation.pdf)**
+
 - **[Frequently Used Quantum Mechanics Formula](/SKMU/assets/pdf/QM-Formulae.pdf)**
 
 - [Statistical Mechanics Formula](/SKMU/assets/pdf/Statistical-Formulae.pdf)
