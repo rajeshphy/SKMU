@@ -25,16 +25,17 @@ Supplementary resources for the course are provided below. These resources inclu
 
 - **[Pauli Spin Matrices Relation](/SKMU/assets/pdf/Pauli-Dirac-Relation.pdf)**
 
-<!-- Fourier-Transform.pdf -->
-- [Fourier Transform](/SKMU/assets/pdf/Appendix/Fourier-Transform.pdf)
-<!-- Relativity-Proof.pdf -->
-- [Relativity Proof](/SKMU/assets/pdf/Appendix/Relativity-Proof.pdf)
-<!-- KE-Generalized-Coordinates.pdf -->
-- [Kinetic Energy in Generalized Coordinates](/SKMU/assets/pdf/Appendix/KE-Generalized-Coordinates.pdf)
-<!-- Vector-Tensor-Calculus.pdf -->
-- [Vector and Tensor Calculus](/SKMU/assets/pdf/Appendix/Vector-Tensor-Calculus.pdf)
-<!-- Numerical-Solution.pdf -->
-- [Numerical Solution](/SKMU/assets/pdf/Appendix/Numerical-Solution.pdf)
+- **Appendix**
+    <!-- Fourier-Transform.pdf -->
+    - [Fourier Transform](/SKMU/assets/pdf/Appendix/Fourier-Transform.pdf)
+    <!-- Relativity-Proof.pdf -->
+    - [Relativity Proof](/SKMU/assets/pdf/Appendix/Relativity-Proof.pdf)
+    <!-- KE-Generalized-Coordinates.pdf -->
+    - [Kinetic Energy in Generalized Coordinates](/SKMU/assets/pdf/Appendix/KE-Generalized-Coordinates.pdf)
+    <!-- Vector-Tensor-Calculus.pdf -->
+    - [Vector and Tensor Calculus](/SKMU/assets/pdf/Appendix/Vector-Tensor-Calculus.pdf)
+    <!-- Numerical-Solution.pdf -->
+    - [Numerical Solution](/SKMU/assets/pdf/Appendix/Numerical-Solution.pdf)
 
 
 - [Statistical Mechanics Formula](/SKMU/assets/pdf/Statistical-Formulae.pdf)
