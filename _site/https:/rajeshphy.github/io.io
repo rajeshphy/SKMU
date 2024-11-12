@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-09-04T15:18:05+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">LASER Rate Equation</title><link href="http://localhost:4000/SKMU/lecture/2024/09/04/Laser-Rate-Equation.html" rel="alternate" type="text/html" title="LASER Rate Equation" /><published>2024-09-04T10:47:26+05:30</published><updated>2024-09-04T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/09/04/Laser-Rate-Equation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/09/04/Laser-Rate-Equation.html">&lt;p&gt;&lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-12T08:26:17+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">PG-III Lecture Topics</title><link href="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html" rel="alternate" type="text/html" title="PG-III Lecture Topics" /><published>2024-11-12T06:47:26+05:30</published><updated>2024-11-12T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
+
+&lt;h3 id=&quot;phy-a-09-open-elective-basic-applied-physics&quot;&gt;PHY A-09: Open Elective: Basic Applied Physics&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Unit-1: Basic Electronics: Idea of intrinsic and extrinsic semiconductors, p-n junction diode, Zener diode, LED, BJT, FET with their applications, Elementary Boolean algebra, conversion of decimal numbers into binary numbers, Basic and Universal logic gates. [Lectures 20]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;phy-c--10-solid-state-physics-and-statistical-mechanics&quot;&gt;PHY C- 10: Solid State Physics and Statistical Mechanics&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;XXX&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;phy-c--11-nuclear-and-particle-physics--electronics---gener&quot;&gt;PHY C- 11: Nuclear and Particle Physics &amp;amp; Electronics - Gener&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Unit-2: Nuclear Reactions: Type of Nuclear Reactions, Q values and Threshold energy, Conservation laws,
+Direct and Compound Nuclear reaction Mechanisms, Compound Nucleus theory, Resonance Scattering, BREIT-Wigner one level formula.[ Lectures 10]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Unit-5: Elementary Particle Physics
+Introduction to Quark hypothesis, Quark model and Elementary particles (Hadrons and Leptons).
+Idea of Isospin and strangeness, Types of interactions. [Lectures 5]&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">LASER Rate Equation</title><link href="http://localhost:4000/SKMU/lecture/2024/09/04/Laser-Rate-Equation.html" rel="alternate" type="text/html" title="LASER Rate Equation" /><published>2024-09-04T10:47:26+05:30</published><updated>2024-09-04T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/09/04/Laser-Rate-Equation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/09/04/Laser-Rate-Equation.html">&lt;p&gt;&lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;rate-equations-for-a-three-level-laser-system&quot;&gt;Rate Equations for a Three-Level Laser System&lt;/h3&gt;
 
 &lt;p&gt;A three-level laser system operates using the principle of stimulated emission of radiation. The rate equations describe how the populations of various energy levels change under the influence of pumping and laser radiation. The goal is to achieve population inversion, which is necessary for laser action.&lt;/p&gt;
@@ -1703,9 +1726,24 @@ This reduces to the Klein-Gordon equation, showing that our linear equation is c
     &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/SKMU/assets/pdf/QM-Formulae.pdf&quot;&gt;Frequently Used Quantum Mechanics Formula&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/Statistical-Formulae.pdf&quot;&gt;Statistical Mechanics Formula&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/SKMU/assets/pdf/Pauli-Dirac-Relation.pdf&quot;&gt;Pauli Spin Matrices Relation&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Appendix&lt;/strong&gt;
+  &lt;!-- Fourier-Transform.pdf --&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/Appendix/Fourier-Transform.pdf&quot;&gt;Fourier Transform&lt;/a&gt;
+  &lt;!-- Relativity-Proof.pdf --&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/Appendix/Relativity-Proof.pdf&quot;&gt;Relativity Proof&lt;/a&gt;
+  &lt;!-- KE-Generalized-Coordinates.pdf --&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/Appendix/KE-Generalized-Coordinates.pdf&quot;&gt;Kinetic Energy in Generalized Coordinates&lt;/a&gt;
+  &lt;!-- Vector-Tensor-Calculus.pdf --&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/Appendix/Vector-Tensor-Calculus.pdf&quot;&gt;Vector and Tensor Calculus&lt;/a&gt;
+  &lt;!-- Numerical-Solution.pdf --&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/Appendix/Numerical-Solution.pdf&quot;&gt;Numerical Solution&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/The-Cambridge-Handbook-of-Physics-Formulas.pdf&quot;&gt;Handbook Of Physics Formulas&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/Statistical-Formulae.pdf&quot;&gt;Statistical Mechanics Formula&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/The-Cambridge-Handbook-of-Physics-Formulas.pdf&quot;&gt;Handbook Of Physics Formulas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="Additional-Resources" /><summary type="html">Supplementary resources for the course are provided below. These resources include textbooks, research papers, and other materials that may be of interest to students.</summary></entry></feed>

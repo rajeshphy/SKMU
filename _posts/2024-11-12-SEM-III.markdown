@@ -1,20 +1,20 @@
 ---
 layout: post
 title:  "PG-III Lecture Topics"
-date:   2024-11-12 10:47:26 +0530
+date:   2024-11-12 06:47:26 +0530
 categories: lecture
 tags: SEM-III
 ---
 
 <!-- <img src="/SKMU/assets/img/LASER/rate.png" alt="Interaction Process" class="my-custom-class" style="max-width:100%; height:auto;"> -->
 
-## PHY A-09: Open Elective: Basic Applied Physics
+### PHY A-09: Open Elective: Basic Applied Physics
 - Unit-1: Basic Electronics: Idea of intrinsic and extrinsic semiconductors, p-n junction diode, Zener diode, LED, BJT, FET with their applications, Elementary Boolean algebra, conversion of decimal numbers into binary numbers, Basic and Universal logic gates. [Lectures 20]
 
-## PHY C- 10 (Solid State Physics and Statistical Mechanics)
+### PHY C- 10: Solid State Physics and Statistical Mechanics
 - XXX
 
-## PHY C- 11 (Nuclear and Particle Physics & Electronics - Gener)
+### PHY C- 11: Nuclear and Particle Physics & Electronics - Gener
 - Unit-2: Nuclear Reactions: Type of Nuclear Reactions, Q values and Threshold energy, Conservation laws,
 Direct and Compound Nuclear reaction Mechanisms, Compound Nucleus theory, Resonance Scattering, BREIT-Wigner one level formula.[ Lectures 10]
 
