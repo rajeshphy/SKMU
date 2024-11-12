@@ -26,6 +26,27 @@ Idea of Isospin and strangeness, Types of interactions. [Lectures 5]
 
 ---
 
+## Why study particle Physics
+
+- Answer the following important question: The protons in any nucleus should strongly repel one another due to their charges of the same sign, so what is the nature of the force that holds the nucleus together?
+
+    (A) Gravitational force
+
+    (B) Electromagnetic force
+
+    (C) Weak nuclear force
+
+    (D) Strong nuclear force
+
+- What is the nature of the force that holds the nucleus together?
+
+- Are electron, proton and neutron the only elementary particles?
+
+- Which particle is responsible for mediating the electromagnetic force?
+
+
+---
+
 ## Competitive Exam Questions - GATE, NET, JEST, etc.
 
 - The semi-empirical mass formula for the binding energy of nucleus contains a surface

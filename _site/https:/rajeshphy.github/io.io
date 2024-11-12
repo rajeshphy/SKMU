@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-12T11:52:31+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">PG-III Lecture Topics</title><link href="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html" rel="alternate" type="text/html" title="PG-III Lecture Topics" /><published>2024-11-12T06:47:26+05:30</published><updated>2024-11-12T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-12T18:57:47+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">PG-III Lecture Topics</title><link href="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html" rel="alternate" type="text/html" title="PG-III Lecture Topics" /><published>2024-11-12T06:47:26+05:30</published><updated>2024-11-12T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
 
 &lt;h3 id=&quot;phy-a-09-open-elective-basic-applied-physics&quot;&gt;PHY A-09: Open Elective: Basic Applied Physics&lt;/h3&gt;
 &lt;ul&gt;
@@ -20,6 +20,33 @@ Direct and Compound Nuclear reaction Mechanisms, Compound Nucleus theory, Resona
     &lt;p&gt;Unit-5: Elementary Particle Physics
 Introduction to Quark hypothesis, Quark model and Elementary particles (Hadrons and Leptons).
 Idea of Isospin and strangeness, Types of interactions. [Lectures 5]&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;why-study-particle-physics&quot;&gt;Why study particle Physics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Answer the following important question: The protons in any nucleus should strongly repel one another due to their charges of the same sign, so what is the nature of the force that holds the nucleus together?&lt;/p&gt;
+
+    &lt;p&gt;(A) Gravitational force&lt;/p&gt;
+
+    &lt;p&gt;(B) Electromagnetic force&lt;/p&gt;
+
+    &lt;p&gt;(C) Weak nuclear force&lt;/p&gt;
+
+    &lt;p&gt;(D) Strong nuclear force&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the nature of the force that holds the nucleus together?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Are electron, proton and neutron the only elementary particles?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Which particle is responsible for mediating the electromagnetic force?&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1791,5 +1818,5 @@ This reduces to the Klein-Gordon equation, showing that our linear equation is c
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/The-Cambridge-Handbook-of-Physics-Formulas.pdf&quot;&gt;Handbook Of Physics Formulas&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/Particle-Physics.pdf&quot;&gt;Particle Physics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/Particle-PhysicsXX.pdf&quot;&gt;Particle Physics&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="Additional-Resources" /><summary type="html">Supplementary resources for the course are provided below. These resources include textbooks, research papers, and other materials that may be of interest to students.</summary></entry></feed>
