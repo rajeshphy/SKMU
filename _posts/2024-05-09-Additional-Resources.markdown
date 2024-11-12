@@ -42,4 +42,4 @@ Supplementary resources for the course are provided below. These resources inclu
 
 - [Handbook Of Physics Formulas](/SKMU/assets/pdf/The-Cambridge-Handbook-of-Physics-Formulas.pdf)
 
-- [Particle Physics](/SKMU/assets/pdf/Particle-PhysicsXX.pdf)
+- [Particle Physics](/SKMU/assets/pdf/Particle-Physics.pdfX)
