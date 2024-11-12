@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-12T11:41:58+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">PG-III Lecture Topics</title><link href="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html" rel="alternate" type="text/html" title="PG-III Lecture Topics" /><published>2024-11-12T06:47:26+05:30</published><updated>2024-11-12T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-12T11:52:31+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">PG-III Lecture Topics</title><link href="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html" rel="alternate" type="text/html" title="PG-III Lecture Topics" /><published>2024-11-12T06:47:26+05:30</published><updated>2024-11-12T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
 
 &lt;h3 id=&quot;phy-a-09-open-elective-basic-applied-physics&quot;&gt;PHY A-09: Open Elective: Basic Applied Physics&lt;/h3&gt;
 &lt;ul&gt;
@@ -32,13 +32,15 @@ Idea of Isospin and strangeness, Types of interactions. [Lectures 5]&lt;/p&gt;
     &lt;p&gt;The semi-empirical mass formula for the binding energy of nucleus contains a surface
 correction term. This term depends on the mass $A$ of the nucleus and is proportional to:&lt;/p&gt;
 
-    &lt;p&gt;(A) $A^{2/3}$&lt;/p&gt;
+    &lt;p&gt;(A) $A^{-\frac{1}{3}}$&lt;/p&gt;
 
-    &lt;p&gt;(B) $A^{1/3}$&lt;/p&gt;
+    &lt;p&gt;(B) $A^{\frac{1}{3}}$&lt;/p&gt;
 
-    &lt;p&gt;(C) $A^{1/2}$&lt;/p&gt;
+    &lt;p&gt;(C) $A^{\frac{2}{3}}$&lt;/p&gt;
 
     &lt;p&gt;(D) $A$&lt;/p&gt;
+
+    &lt;p&gt;Solution: (C)&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;In the $SU(3)$ quark model, the triplet of mesons $(\pi^+, \pi^0,\pi^-)$ has the Iso-spin $I$ and the Strangeness $S$ equal to:&lt;/p&gt;
@@ -50,6 +52,17 @@ correction term. This term depends on the mass $A$ of the nucleus and is proport
     &lt;p&gt;(C) $I=1, S=1$&lt;/p&gt;
 
     &lt;p&gt;(D) $I=0, S=1$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The deuteron has only one bound state with spin parity $1^+$, isospin $0$, and electric quadrupole moment $0.286 \, \text{efm}^2$. These data suggest that the nuclear forces are having:&lt;/p&gt;
+
+    &lt;p&gt;(A) only spin and isospin dependence&lt;/p&gt;
+
+    &lt;p&gt;(B) no spin dependence and no tensor components&lt;/p&gt;
+
+    &lt;p&gt;(C) spin dependence but no tensor components&lt;/p&gt;
+
+    &lt;p&gt;(D) spin dependence along with tensor components&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">LASER Rate Equation</title><link href="http://localhost:4000/SKMU/lecture/2024/09/04/Laser-Rate-Equation.html" rel="alternate" type="text/html" title="LASER Rate Equation" /><published>2024-09-04T10:47:26+05:30</published><updated>2024-09-04T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/09/04/Laser-Rate-Equation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/09/04/Laser-Rate-Equation.html">&lt;p&gt;&lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;rate-equations-for-a-three-level-laser-system&quot;&gt;Rate Equations for a Three-Level Laser System&lt;/h3&gt;
@@ -1775,5 +1788,8 @@ This reduces to the Klein-Gordon equation, showing that our linear equation is c
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/Statistical-Formulae.pdf&quot;&gt;Statistical Mechanics Formula&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/The-Cambridge-Handbook-of-Physics-Formulas.pdf&quot;&gt;Handbook Of Physics Formulas&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/The-Cambridge-Handbook-of-Physics-Formulas.pdf&quot;&gt;Handbook Of Physics Formulas&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/Particle-Physics.pdf&quot;&gt;Particle Physics&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="Additional-Resources" /><summary type="html">Supplementary resources for the course are provided below. These resources include textbooks, research papers, and other materials that may be of interest to students.</summary></entry></feed>
