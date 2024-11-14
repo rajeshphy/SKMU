@@ -1,4 +1,188 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-12T19:12:57+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">PG-III Lecture Topics</title><link href="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html" rel="alternate" type="text/html" title="PG-III Lecture Topics" /><published>2024-11-12T06:47:26+05:30</published><updated>2024-11-12T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-14T09:14:29+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Particle Physics Introduction</title><link href="http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics.html" rel="alternate" type="text/html" title="Particle Physics Introduction" /><published>2024-11-13T04:47:26+05:30</published><updated>2024-11-13T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics.html">&lt;style&gt;
+  .mermaid:nth-of-type(1) {
+      /* background-color: #A3C1DA; Light blue for the first div */
+      padding: 10px;
+      border-radius: 8px;
+  }
+  .mermaid:nth-of-type(2) {
+      background-color: #E1B0B0; /* Light red for the second div */
+      padding: 10px;
+      border-radius: 8px;
+  }
+  .mermaid:nth-of-type(3) {
+      /* background-color: #A9D3AB; Light green for the third div */
+      padding: 10px;
+      border-radius: 8px;
+  }
+  .mermaid:nth-of-type(4) {
+      background-color: #E7C29E; /* Light orange for the fourth div */
+      padding: 10px;
+      border-radius: 8px;
+  }
+&lt;/style&gt;
+
+&lt;!-- &lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
+
+&lt;div class=&quot;mermaid&quot;&gt;
+graph TD
+    A[The nucleus of atoms]
+    
+    A --&amp;gt; B[Electromagnetism initially thought to hold nucleus together]
+    B --&amp;gt; C[Rutherford&apos;s discovery of protons shows electromagnetism causes repulsion]
+&lt;/div&gt;
+
+&lt;div class=&quot;mermaid&quot;&gt;
+graph TD    
+    D[Hypothesis: Electrons might hold the nucleus together]
+    D --&amp;gt; E[Idea discarded, as electrons were only known subatomic particles at the time]
+&lt;/div&gt;
+
+&lt;div class=&quot;mermaid&quot;&gt;
+graph TD        
+    F[James Chadwick 1932: Discovery of neutrons]
+    F --&amp;gt; G[Nucleus contains both protons and neutrons]
+&lt;/div&gt;
+
+&lt;div class=&quot;mermaid&quot;&gt;
+graph TD       
+    H[Eugene Wigner 1933: Proposal of nuclear forces]
+    H --&amp;gt; I[Strong nuclear force binds nucleus together]
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;forces-in-the-nucleus&quot;&gt;Forces in the nucleus&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Strong Nuclear Force&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;This force binds protons to protons, protons to neutrons, and neutrons to neutrons, maintaining the integrity of the nucleus.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Weak Nuclear Force&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Responsible for &lt;strong&gt;beta decay&lt;/strong&gt;, where a neutron transforms into a proton, emitting an electron and a neutrino.&lt;/li&gt;
+      &lt;li&gt;The weak force is weaker than the strong force, which is why beta decay is common but requires much less energy than breaking the strong force to split the nucleus.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- 
+
+## Isospin Quantum Number
+
+- **Isospin (Isotopic Spin)**: 
+   - Proposed by **Heisenberg (1932)**, protons and neutrons are versions of the same particle distinguished by their isospin.
+   - Protons have &quot;clockwise&quot; isospin, and neutrons have &quot;anticlockwise&quot; isospin.
+   - The strong nuclear force acts identically on both protons and neutrons, exhibiting **isospin symmetry**.
+   - In contrast, the weak force does not respect this symmetry.
+
+- **Strangeness**:
+   - Isospin was later proven to be a real property, especially after the discovery of **strangeness** in the 1950s.
+
+---
+
+## Hideki Yukawa and Early Quantum Field Theory
+
+- **Yukawa&apos;s Theory (1935)**:
+   - The strong and weak forces must operate at short distances (smaller than the diameter of the atomic nucleus).
+   - He proposed that these forces are mediated by **mesons**, which are particles with mass (unlike photons, which mediate electromagnetic force).
+
+- **Meson Discovery**:
+   - **Yukawa&apos;s prediction**: Mesons would have a mass 200 times greater than that of an electron.
+   - **Anderson (1936)**: Discovered a new particle in cosmic radiation, later identified as not being Yukawa&apos;s meson, but an **electron-like particle** (muon).
+   - **Lattes (1947)**: Confirmed Yukawa&apos;s heavier meson, renamed **pi-meson** or **pion**, and showed that it decays into lighter particles (muons).
+
+- **Pion and Muon**:
+   - **Pion**: A meson composed of smaller particles.
+   - **Muon**: An elementary particle similar to the electron but more massive, no longer considered a type of meson.
+
+---
+
+## Strangeness Quantum Number
+
+- **K-meson or Kaon (1947)**: Discovered by **Rochester and Butler**. It decays slowly, leading to the idea that the strong nuclear force is involved in slowing the decay process.
+
+- **Strangeness**:
+   - In 1953, **Nishijima** and **Gell-Mann** proposed that strange particles (like the Kaon) possess an intrinsic property called **strangeness**, which was assigned a quantum number $ S $.
+
+- **Strangeness and Quarks**:
+   - All mesons, including strange particles, are composed of **quarks**, confirming the deeper structure of matter.
+
+--- --&gt;
+
+&lt;!-- &lt;!-- ## Flowchart Summary --&gt;
+
+&lt;h1 id=&quot;yukawas-meson-hypothesis&quot;&gt;Yukawa’s Meson Hypothesis&lt;/h1&gt;
+
+&lt;p&gt;In 1935, Hideki Yukawa proposed the existence of a new particle to mediate the strong nuclear force, similar to how photons mediate the electromagnetic force. This particle, later identified as the pion (π-meson), would account for the short-range nature of the nuclear force binding protons and neutrons in the atomic nucleus. Yukawa’s hypothesis revolutionized our understanding of nuclear interactions and provided a foundational step in particle physics.&lt;/p&gt;
+
+&lt;h2 id=&quot;heisenberg-uncertainty-principle-and-particle-mass-estimation&quot;&gt;Heisenberg Uncertainty Principle and Particle Mass Estimation&lt;/h2&gt;
+
+&lt;p&gt;Yukawa’s approach involved utilizing the &lt;strong&gt;Heisenberg Uncertainty Principle&lt;/strong&gt;, which states:&lt;/p&gt;
+
+&lt;p&gt;$
+\Delta E \cdot \Delta t \approx \hbar
+$&lt;/p&gt;
+
+&lt;p&gt;where $\Delta E$ is the energy uncertainty, $\Delta t$ is the time interval over which this uncertainty applies, and $\hbar$ is the reduced Planck’s constant. The energy-time uncertainty relationship suggests that a particle can temporarily “borrow” energy $\Delta E$ for a brief period $\Delta t$, creating a “virtual particle” that mediates interactions over short distances.&lt;/p&gt;
+
+&lt;p&gt;For a particle moving at nearly the speed of light, the time $\Delta t$ can be estimated based on the range of the strong nuclear force, roughly 1 fermi ($1 \ \text{fm} = 10^{-15} \ \text{m}$).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;problem-statement&quot;&gt;Problem Statement&lt;/h2&gt;
+&lt;p&gt;Given the range of the strong nuclear force as approximately 1 fermi ($10^{-15} \ \text{m}$), calculate the approximate mass of the pion assuming it moves at nearly the speed of light.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;Using the steps outlined below, calculate $\Delta t$, then find $\Delta E$ using the uncertainty principle, and finally convert this energy into the mass of the pion.&lt;/p&gt;
+
+&lt;h5 id=&quot;calculation-of-the-pion-mass&quot;&gt;Calculation of the Pion Mass&lt;/h5&gt;
+
+&lt;p&gt;To estimate the mass of the pion that carries the strong nuclear force, we can use the uncertainty principle and consider the approximate range of nuclear forces:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Step 1: Determine $\Delta t$&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Since the pion mediates the strong force over a distance $r \approx 1 \ \text{fm}$, we approximate $\Delta t$ as:&lt;/p&gt;
+
+    &lt;p&gt;$
+\Delta t \approx \frac{r}{c}
+$&lt;/p&gt;
+
+    &lt;p&gt;where $c$ is the speed of light.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Step 2: Calculate $\Delta E$&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;By the uncertainty principle, we have:&lt;/p&gt;
+
+    &lt;p&gt;$
+\Delta E \approx \frac{\hbar}{\Delta t} = \frac{\hbar c}{r}
+$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Step 3: Find the Mass of the Pion&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;This energy $\Delta E$ corresponds to the mass of the pion (or meson) using Einstein’s equation $E = mc^2$:&lt;/p&gt;
+
+    &lt;p&gt;$
+m_\pi \approx \frac{\Delta E}{c^2} = \frac{\hbar}{r c}
+$&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Substituting known values ($\hbar c \approx 197 \ \text{MeV fm}$, $r \approx 1 \ \text{fm}$):&lt;/p&gt;
+
+&lt;p&gt;$
+m_\pi \approx \frac{197 \ \text{MeV fm}}{1 \ \text{fm} \cdot c} \approx 197 \ \text{MeV}/c^2
+$&lt;/p&gt;
+
+&lt;p&gt;Thus, Yukawa predicted the mass of the pion to be approximately 200 times the mass of the electron, which aligns with the observed pion mass in nature.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">PG-III Lecture Topics</title><link href="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html" rel="alternate" type="text/html" title="PG-III Lecture Topics" /><published>2024-11-12T06:47:26+05:30</published><updated>2024-11-12T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
 
 &lt;h3 id=&quot;phy-a-09-open-elective-basic-applied-physics&quot;&gt;PHY A-09: Open Elective: Basic Applied Physics&lt;/h3&gt;
 &lt;ul&gt;
@@ -17,19 +201,19 @@
 Direct and Compound Nuclear reaction Mechanisms, Compound Nucleus theory, Resonance Scattering, BREIT-Wigner one level formula.[ Lectures 10]&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Unit-5: Elementary Particle Physics
-Introduction to Quark hypothesis, Quark model and Elementary particles (Hadrons and Leptons).
-Idea of Isospin and strangeness, Types of interactions. [Lectures 5]&lt;/p&gt;
+    &lt;p&gt;Unit-5: Elementary Particle Physics: Introduction to Quark hypothesis, Quark model and Elementary particles (Hadrons and Leptons). Idea of Isospin and strangeness, Types of interactions. [Lectures 5]&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;why-study-particle-physics&quot;&gt;Why study particle Physics&lt;/h2&gt;
+&lt;h3 id=&quot;why-study-particle-physics&quot;&gt;Why study particle Physics&lt;/h3&gt;
+
+&lt;p&gt;To answer the following important question:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Answer the following important question: The protons in any nucleus should strongly repel one another due to their charges of the same sign, so what is the nature of the force that holds the nucleus together?&lt;/p&gt;
+    &lt;p&gt;The protons in any nucleus should strongly repel one another due to their charges of the same sign, so what is the nature of the force that holds the nucleus together?&lt;/p&gt;
 
     &lt;p&gt;(A) Gravitational force&lt;/p&gt;
 
@@ -52,7 +236,7 @@ Idea of Isospin and strangeness, Types of interactions. [Lectures 5]&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;competitive-exam-questions---gate-net-jest-etc&quot;&gt;Competitive Exam Questions - GATE, NET, JEST, etc.&lt;/h2&gt;
+&lt;h3 id=&quot;competitive-exam-questions---gate-net-jest-etc&quot;&gt;Competitive Exam Questions - GATE, NET, JEST, etc.&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -1764,59 +1948,4 @@ This reduces to the Klein-Gordon equation, showing that our linear equation is c
   &lt;li&gt;\(\gamma^\mu\) are the gamma matrices, which ensure that the equation transforms correctly under Lorentz transformations.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;This is the Dirac equation, describing spin-1/2 particles in relativistic quantum mechanics.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Relativistic-QM," /><category term="Klein-Gordon-Equation," /><category term="Dirac-Equation" /><summary type="html">Below is the outline of the lecture on Relativistic Quantum Mechanics, covering the Klein–Gordon equation, Dirac equation, probabilities and current densities, magnetic moment and spin of the electron, and free particle solutions of the Dirac equation.</summary></entry><entry><title type="html">*Additional Resources*</title><link href="http://localhost:4000/SKMU/lecture/2024/05/09/Additional-Resources.html" rel="alternate" type="text/html" title="*Additional Resources*" /><published>2024-05-09T10:47:26+05:30</published><updated>2024-05-09T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/05/09/Additional-Resources</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/05/09/Additional-Resources.html">&lt;p&gt;Supplementary resources for the course are provided below. These resources include textbooks, research papers, and other materials that may be of interest to students.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/None-Formulation-QM.pdf&quot;&gt;Nine Formulation Of Quantum Mechanics -Daniel F. Styer&lt;/a&gt;&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/QM-Postulates.pdf&quot;&gt;Postulates Of QM&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/Greens-Function.pdf&quot;&gt;Green’s Function - Erik M. Olsen&lt;/a&gt;&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;https://bingweb.binghamton.edu/~suzuki/Math-Physics/LN-14_Green_s_function.pdf&quot;&gt;Green’s Function Example&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/Scattering-MIT.pdf&quot;&gt;Scattering Theory - B.Zwiebach&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/QM-Variational.pdf&quot;&gt;Variational Principle&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/SKMU/assets/pdf/Math-Formulae.pdf&quot;&gt;Frequently Used Mathematical Formula&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/SKMU/assets/pdf/QM-Formulae.pdf&quot;&gt;Frequently Used Quantum Mechanics Formula&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/SKMU/assets/pdf/Pauli-Dirac-Relation.pdf&quot;&gt;Pauli Spin Matrices Relation&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Appendix&lt;/strong&gt;
-  &lt;!-- Fourier-Transform.pdf --&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/Appendix/Fourier-Transform.pdf&quot;&gt;Fourier Transform&lt;/a&gt;
-  &lt;!-- Relativity-Proof.pdf --&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/Appendix/Relativity-Proof.pdf&quot;&gt;Relativity Proof&lt;/a&gt;
-  &lt;!-- KE-Generalized-Coordinates.pdf --&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/Appendix/KE-Generalized-Coordinates.pdf&quot;&gt;Kinetic Energy in Generalized Coordinates&lt;/a&gt;
-  &lt;!-- Vector-Tensor-Calculus.pdf --&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/Appendix/Vector-Tensor-Calculus.pdf&quot;&gt;Vector and Tensor Calculus&lt;/a&gt;
-  &lt;!-- Numerical-Solution.pdf --&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/Appendix/Numerical-Solution.pdf&quot;&gt;Numerical Solution&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/Statistical-Formulae.pdf&quot;&gt;Statistical Mechanics Formula&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;/SKMU/assets/pdf/The-Cambridge-Handbook-of-Physics-Formulas.pdf&quot;&gt;Handbook Of Physics Formulas&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/SKMU/assets/pdf/Particle-Physics.pdfX&quot;&gt;Particle Physics&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="Additional-Resources" /><summary type="html">Supplementary resources for the course are provided below. These resources include textbooks, research papers, and other materials that may be of interest to students.</summary></entry></feed>
+&lt;p&gt;This is the Dirac equation, describing spin-1/2 particles in relativistic quantum mechanics.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Relativistic-QM," /><category term="Klein-Gordon-Equation," /><category term="Dirac-Equation" /><summary type="html">Below is the outline of the lecture on Relativistic Quantum Mechanics, covering the Klein–Gordon equation, Dirac equation, probabilities and current densities, magnetic moment and spin of the electron, and free particle solutions of the Dirac equation.</summary></entry></feed>

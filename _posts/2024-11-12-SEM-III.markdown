@@ -18,17 +18,17 @@ tags: SEM-III
 - Unit-2: Nuclear Reactions: Type of Nuclear Reactions, Q values and Threshold energy, Conservation laws,
 Direct and Compound Nuclear reaction Mechanisms, Compound Nucleus theory, Resonance Scattering, BREIT-Wigner one level formula.[ Lectures 10]
 
-- Unit-5: Elementary Particle Physics
-Introduction to Quark hypothesis, Quark model and Elementary particles (Hadrons and Leptons).
-Idea of Isospin and strangeness, Types of interactions. [Lectures 5]
+- Unit-5: Elementary Particle Physics: Introduction to Quark hypothesis, Quark model and Elementary particles (Hadrons and Leptons). Idea of Isospin and strangeness, Types of interactions. [Lectures 5]
 
 
 
 ---
 
-## Why study particle Physics
+### Why study particle Physics
 
-- Answer the following important question: The protons in any nucleus should strongly repel one another due to their charges of the same sign, so what is the nature of the force that holds the nucleus together?
+To answer the following important question: 
+
+- The protons in any nucleus should strongly repel one another due to their charges of the same sign, so what is the nature of the force that holds the nucleus together?
 
     (A) Gravitational force
 
@@ -47,7 +47,7 @@ Idea of Isospin and strangeness, Types of interactions. [Lectures 5]
 
 ---
 
-## Competitive Exam Questions - GATE, NET, JEST, etc.
+### Competitive Exam Questions - GATE, NET, JEST, etc.
 
 - The semi-empirical mass formula for the binding energy of nucleus contains a surface
 correction term. This term depends on the mass $A$ of the nucleus and is proportional to:
