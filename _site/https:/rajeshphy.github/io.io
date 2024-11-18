@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-14T09:14:29+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Particle Physics Introduction</title><link href="http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics.html" rel="alternate" type="text/html" title="Particle Physics Introduction" /><published>2024-11-13T04:47:26+05:30</published><updated>2024-11-13T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics.html">&lt;style&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-18T11:41:40+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Particle Physics Introduction</title><link href="http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics.html" rel="alternate" type="text/html" title="Particle Physics Introduction" /><published>2024-11-13T04:47:26+05:30</published><updated>2024-11-13T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics.html">&lt;!-- &lt;style&gt;
   .mermaid:nth-of-type(1) {
       /* background-color: #A3C1DA; Light blue for the first div */
       padding: 10px;
@@ -19,34 +19,29 @@
       padding: 10px;
       border-radius: 8px;
   }
-&lt;/style&gt;
-
+&lt;/style&gt; --&gt;
 &lt;!-- &lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
 
 &lt;div class=&quot;mermaid&quot;&gt;
 graph TD
-    A[The nucleus of atoms]
-    
-    A --&amp;gt; B[Electromagnetism initially thought to hold nucleus together]
-    B --&amp;gt; C[Rutherford&apos;s discovery of protons shows electromagnetism causes repulsion]
-&lt;/div&gt;
+   A[1932: Constitents of Matter]
+   B(* Electrons, Protons and Neutrons)
+   C[1940: Experimental discovery of New Particles]
+   D(* High-energy collisions between known Particles)
+   E(* Characteristics: Very unstable, short-lived ranging from $10^{-6}$s to $10^{-23}$s)
+   F(* More that 300 particles discovered)
+   G[1960: Bwildered by large number of particles]
+   H(* Need for a new theory)
+   I(* Periodic Table can be explained by 3 particles: Protons, Neutrons and Electrons)
+   J(*  Is there a means of forming more than 300 subatomic particles from a small number of basic building blocks?)
+   
 
-&lt;div class=&quot;mermaid&quot;&gt;
-graph TD    
-    D[Hypothesis: Electrons might hold the nucleus together]
-    D --&amp;gt; E[Idea discarded, as electrons were only known subatomic particles at the time]
-&lt;/div&gt;
 
-&lt;div class=&quot;mermaid&quot;&gt;
-graph TD        
-    F[James Chadwick 1932: Discovery of neutrons]
-    F --&amp;gt; G[Nucleus contains both protons and neutrons]
-&lt;/div&gt;
 
-&lt;div class=&quot;mermaid&quot;&gt;
-graph TD       
-    H[Eugene Wigner 1933: Proposal of nuclear forces]
-    H --&amp;gt; I[Strong nuclear force binds nucleus together]
+   A --&amp;gt; B; B --&amp;gt; C; C --&amp;gt; D; D --&amp;gt; E; E --&amp;gt; F; F --&amp;gt; G; G --&amp;gt; H; H --&amp;gt; I; I --&amp;gt; J;
+   style A fill:#fff,stroke:#f00,stroke-width:2px,color:#f00;
+   style C fill:#fff,stroke:#f00,stroke-width:2px,color:#f00;
+   style G fill:#fff,stroke:#f00,stroke-width:2px,color:#f00;
 &lt;/div&gt;
 
 &lt;hr /&gt;

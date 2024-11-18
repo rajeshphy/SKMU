@@ -6,7 +6,7 @@ categories: lecture
 tags: SEM-III
 ---
 
-<style>
+<!-- <style>
   .mermaid:nth-of-type(1) {
       /* background-color: #A3C1DA; Light blue for the first div */
       padding: 10px;
@@ -27,36 +27,33 @@ tags: SEM-III
       padding: 10px;
       border-radius: 8px;
   }
-</style>
+</style> -->
 <!-- <img src="/SKMU/assets/img/LASER/rate.png" alt="Interaction Process" class="my-custom-class" style="max-width:100%; height:auto;"> -->
 
 <div class="mermaid">
 graph TD
-    A[The nucleus of atoms]
-    
-    A --> B[Electromagnetism initially thought to hold nucleus together]
-    B --> C[Rutherford's discovery of protons shows electromagnetism causes repulsion]
+   A[1932: Constitents of Matter]
+   B(* Electrons, Protons and Neutrons)
+   C[1940: Experimental discovery of New Particles]
+   D(* High-energy collisions between known Particles)
+   E(* Characteristics: Very unstable, short-lived ranging from $10^{-6}$s to $10^{-23}$s)
+   F(* More that 300 particles discovered)
+   G[1960: Bwildered by large number of particles]
+   H(* Need for a new theory)
+   I(* Periodic Table can be explained by 3 particles: Protons, Neutrons and Electrons)
+   J(*  Is there a means of forming more than 300 subatomic particles from a small number of basic building blocks?)
+   
+
+
+
+   A --> B; B --> C; C --> D; D --> E; E --> F; F --> G; G --> H; H --> I; I --> J;
+   style A fill:#fff,stroke:#f00,stroke-width:2px,color:#f00;
+   style C fill:#fff,stroke:#f00,stroke-width:2px,color:#f00;
+   style G fill:#fff,stroke:#f00,stroke-width:2px,color:#f00;
 </div>
 
-<div class="mermaid">
-graph TD    
-    D[Hypothesis: Electrons might hold the nucleus together]
-    D --> E[Idea discarded, as electrons were only known subatomic particles at the time]
-</div>
-
-<div class="mermaid">
-graph TD        
-    F[James Chadwick 1932: Discovery of neutrons]
-    F --> G[Nucleus contains both protons and neutrons]
-</div>
 
 
-
-<div class="mermaid">
-graph TD       
-    H[Eugene Wigner 1933: Proposal of nuclear forces]
-    H --> I[Strong nuclear force binds nucleus together]
-</div>
 
 ---
 
