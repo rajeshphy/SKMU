@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-18T11:41:40+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Particle Physics Introduction</title><link href="http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics.html" rel="alternate" type="text/html" title="Particle Physics Introduction" /><published>2024-11-13T04:47:26+05:30</published><updated>2024-11-13T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics.html">&lt;!-- &lt;style&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-18T11:51:15+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Particle Physics Introduction</title><link href="http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics.html" rel="alternate" type="text/html" title="Particle Physics Introduction" /><published>2024-11-13T04:47:26+05:30</published><updated>2024-11-13T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics.html">&lt;style&gt;
   .mermaid:nth-of-type(1) {
       /* background-color: #A3C1DA; Light blue for the first div */
       padding: 10px;
@@ -19,7 +19,8 @@
       padding: 10px;
       border-radius: 8px;
   }
-&lt;/style&gt; --&gt;
+&lt;/style&gt;
+
 &lt;!-- &lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
 
 &lt;div class=&quot;mermaid&quot;&gt;
@@ -45,7 +46,20 @@ graph TD
 &lt;/div&gt;
 
 &lt;hr /&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+graph TD
 
+A[Fundamental Forces of Nature]
+B(* Nuclear Force: Range $10^{-15}m$&lt;br /&gt; * Electromagnetic Force: Range $10^{-2}$ times&lt;br /&gt; * Weak Nuclear Force: Range $10^{-5}$ times&lt;br /&gt; * Gravitational Force: Range $10^{-39}$ times)
+
+C[In Modern Physics Interactions are mediated by Exchange Particles/Field Particles]
+
+
+A--&amp;gt;B--&amp;gt;C
+
+&lt;/div&gt;
+
+&lt;hr /&gt;
 &lt;h3 id=&quot;forces-in-the-nucleus&quot;&gt;Forces in the nucleus&lt;/h3&gt;
 
 &lt;ol&gt;

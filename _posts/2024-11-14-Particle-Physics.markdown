@@ -6,7 +6,7 @@ categories: lecture
 tags: SEM-III
 ---
 
-<!-- <style>
+<style>
   .mermaid:nth-of-type(1) {
       /* background-color: #A3C1DA; Light blue for the first div */
       padding: 10px;
@@ -27,7 +27,7 @@ tags: SEM-III
       padding: 10px;
       border-radius: 8px;
   }
-</style> -->
+</style>
 <!-- <img src="/SKMU/assets/img/LASER/rate.png" alt="Interaction Process" class="my-custom-class" style="max-width:100%; height:auto;"> -->
 
 <div class="mermaid">
@@ -52,11 +52,24 @@ graph TD
    style G fill:#fff,stroke:#f00,stroke-width:2px,color:#f00;
 </div>
 
+---
+<div class="mermaid">
+graph TD
+
+A[Fundamental Forces of Nature]
+B(* Nuclear Force: Range $10^{-15}m$<br> * Electromagnetic Force: Range $10^{-2}$ times<br> * Weak Nuclear Force: Range $10^{-5}$ times<br> * Gravitational Force: Range $10^{-39}$ times)
+
+C[In Modern Physics Interactions are mediated by Exchange Particles/Field Particles]
+
+
+A-->B-->C
+
+</div>
+
 
 
 
 ---
-
 ### Forces in the nucleus
 
 1. **Strong Nuclear Force**:
