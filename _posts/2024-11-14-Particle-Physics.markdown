@@ -57,7 +57,7 @@ graph TD
 graph TD
 
 A[Fundamental Forces of Nature]
-B(* Nuclear Force: Range $10^{-15}m$<br> * Electromagnetic Force: Range $10^{-2}$ times<br> * Weak Nuclear Force: Range $10^{-5}$ times<br> * Gravitational Force: Range $10^{-39}$ times)
+B(* Nuclear Force: Range $10^{-15}m$<br> * Electromagnetic Force: Strength $10^{-2}$ times<br> * Weak Nuclear Force: Strength $10^{-5}$ times<br> * Gravitational Force: Strength $10^{-39}$ times)
 
 C[In Modern Physics Interactions are mediated by Exchange Particles/Field Particles]
 
