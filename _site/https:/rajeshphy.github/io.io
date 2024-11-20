@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-20T20:07:46+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Particle Physics Introduction</title><link href="http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics.html" rel="alternate" type="text/html" title="Particle Physics Introduction" /><published>2024-11-13T04:47:26+05:30</published><updated>2024-11-13T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics.html">&lt;style&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-20T21:47:15+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Particle Classification</title><link href="http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification.html" rel="alternate" type="text/html" title="Particle Classification" /><published>2024-11-19T04:47:26+05:30</published><updated>2024-11-19T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification.html">&lt;p&gt;Japanese physicist Hideki Yukawa proposed in 1935 that the nuclear force is mediated by a new particle, a meson, whose exchange between nucleons causes the force. He predicted its mass to be about 200 times that of an electron, earning him a Nobel Prize in 1949. Because the new particle would have a mass between that of the electron and that of the proton, it was called a meson (from the Greek meso, “middle”)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; (Yukawa’s predicted particle is not the gluon as previously mentioned, which is massless and is today considered to be the field particle for the nuclear force.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In modern physics, particle interactions are explained through the exchange of field particles (or gauge bosons). These particles are emitted and absorbed by interacting particles, creating forces. The electromagnetic force is mediated by photons, the nuclear force by gluons, the weak force by W and Z bosons, and the gravitational force by gravitons. The interactions, their ranges, and relative strengths are summarized in the table below.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Interaction&lt;/th&gt;
+      &lt;th&gt;Relative Strength&lt;/th&gt;
+      &lt;th&gt;Range of Force&lt;/th&gt;
+      &lt;th&gt;Mediating Particle&lt;/th&gt;
+      &lt;th&gt;Mass of Field Particle (GeV/c²)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nuclear&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;Short (&amp;lt; 1 fm)&lt;/td&gt;
+      &lt;td&gt;Gluon&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Electromagnetic&lt;/td&gt;
+      &lt;td&gt;$10^{-2}$&lt;/td&gt;
+      &lt;td&gt;Infinite&lt;/td&gt;
+      &lt;td&gt;Photon&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Weak&lt;/td&gt;
+      &lt;td&gt;$10^{-5}$&lt;/td&gt;
+      &lt;td&gt;Short (&amp;lt; $10^{-3}$ fm)&lt;/td&gt;
+      &lt;td&gt;W⁺, W⁻, Z⁰ bosons&lt;/td&gt;
+      &lt;td&gt;80.4, 80.4, 91.2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gravitational&lt;/td&gt;
+      &lt;td&gt;$10^{-39}$&lt;/td&gt;
+      &lt;td&gt;Infinite&lt;/td&gt;
+      &lt;td&gt;Graviton&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;In efforts to substantiate Yukawa’s predictions, physicists began experimental searches for the meson. In 1937, Carl Anderson discovered a particle approximately 207 times the mass of electron, initially thought to be Yukawa’s meson. However, it interacted weakly with matter and was later identified as a muon, participating in weak and electromagnetic interactions. Yukawa’s prediction was validated in 1947 with the discovery of the pi meson (pion), which exists in three charge states: $\pi^+$, $\pi^-$, and $\pi^0$, with masses around $140 \, \text{MeV}/c^2$. Two muons exist $\mu^+$ and its antiparticle $\mu^-$. Both pions and muons are highly unstable and decay into lighter particles. For example, The $\pi^-$, which has a mean lifetime of $2.6 \times 10^{-8} \, \text{s}$, decays to a muon and an antineutrino:&lt;/p&gt;
+
+&lt;p&gt;$\pi^- \to \mu^- + \bar{\nu}$&lt;/p&gt;
+
+&lt;p&gt;The muon, with a mean lifetime of $2.2 \, \mu\text{s}$, subsequently decays into an electron, a neutrino, and an antineutrino:&lt;/p&gt;
+
+&lt;p&gt;$\mu^- \to e^- + \nu + \bar{\nu}$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;particle-classification&quot;&gt;Particle Classification&lt;/h1&gt;
+
+&lt;p&gt;We’ve learned about pions and muons. We have a growing list of particles(more than 300). Apart from field particles, all particles fall into two main groups: &lt;em&gt;hadrons&lt;/em&gt; and &lt;em&gt;leptons&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;hadrons&quot;&gt;Hadrons&lt;/h3&gt;
+&lt;p&gt;Particles that interact through the strong force (as well as through the other fundamental forces) are called hadrons. The two classes of hadrons, &lt;strong&gt;mesons and baryons&lt;/strong&gt;, are distinguished by their masses and spins.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mesons have zero or integer spin (0 or 1). Yukawa proposed their mass to lie between that of the electron and proton. While several mesons fall in this range, others with greater mass than the proton have also been discovered. Mesons eventually decay into electrons, positrons, neutrinos, and photons. The pions are the lightest known mesons.&lt;/li&gt;
+  &lt;li&gt;Baryons, the second class of hadrons, have masses equal to or greater than the proton mass, and their spin is always a half-integer value (1/2, 3/2, …). Protons and neutrons are examples of baryons, as are many others. Except for the proton, all baryons decay to produce a proton. It is now believed that hadrons are not elementary particles but are made up of more fundamental units called quarks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;leptons&quot;&gt;Leptons&lt;/h3&gt;
+&lt;p&gt;Leptons (from the Greek &lt;em&gt;leptos&lt;/em&gt;, meaning “small” or “light”) are particles that do not interact via the strong force. All leptons have spin 1/2. Unlike hadrons, which have size and structure, leptons are considered truly elementary, meaning they have no internal structure and are point-like.&lt;/p&gt;
+
+&lt;p&gt;The table below lists the known leptons and Hadrons along with their properties.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/SKMU/assets/pdf/particle_classification.png&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">Japanese physicist Hideki Yukawa proposed in 1935 that the nuclear force is mediated by a new particle, a meson, whose exchange between nucleons causes the force. He predicted its mass to be about 200 times that of an electron, earning him a Nobel Prize in 1949. Because the new particle would have a mass between that of the electron and that of the proton, it was called a meson (from the Greek meso, “middle”)</summary></entry><entry><title type="html">Particle Physics Introduction</title><link href="http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics.html" rel="alternate" type="text/html" title="Particle Physics Introduction" /><published>2024-11-13T04:47:26+05:30</published><updated>2024-11-13T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics.html">&lt;style&gt;
   .mermaid:nth-of-type(1) {
       /* background-color: #A3C1DA; Light blue for the first div */
       padding: 10px;
@@ -1776,185 +1852,4 @@ $$ E \approx \pm 0.715 \, \text{MeV} $$
 - **Positive Energy Solution ($$+0.715 \, \text{MeV}$$)**: This corresponds to the usual electron with positive energy, moving with a momentum of $$0.5 \, \text{MeV}/c$$.
 
 - **Negative Energy Solution ($$-0.715 \, \text{MeV}$$)**: In the context of the Dirac equation, this would correspond to a state in the Dirac sea. The physical interpretation, according to Dirac, is that this negative energy state is normally occupied. If this state is vacant, it appears as a positron with energy $$+0.715 \, \text{MeV}$$ and opposite charge to the electron.
---&gt;</content><author><name>Rajesh Kumar</name></author><category term="tutorial," /><category term="relativistic-quantum-mechanics" /><summary type="html">This tutorial covers Klein-Gordon and Dirac equations in quantum mechanics.</summary></entry><entry><title type="html">Relativistic Quantum Mechanics</title><link href="http://localhost:4000/SKMU/lecture/2024/05/21/Relativistic-QM.html" rel="alternate" type="text/html" title="Relativistic Quantum Mechanics" /><published>2024-05-21T18:47:26+05:30</published><updated>2024-05-21T18:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/05/21/Relativistic-QM</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/05/21/Relativistic-QM.html">&lt;p&gt;Below is the outline of the lecture on Relativistic Quantum Mechanics, covering the Klein–Gordon equation, Dirac equation, probabilities and current densities, magnetic moment and spin of the electron, and free particle solutions of the Dirac equation.&lt;/p&gt;
-
-&lt;h1 id=&quot;outline&quot;&gt;Outline&lt;/h1&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Relativistic QM: Klein – Gordon equation and its merit and demerit, Dirac equation,
-probabilities and current densities, Magnetic moment and spin of electron, free particle
-solution of Dirac equation and interpretation of negative energy states. 15 Lectures  
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;the-kleingordon-equation&quot;&gt;The Klein–Gordon Equation&lt;/h1&gt;
-
-&lt;p&gt;The Klein–Gordon equation is a relativistic wave equation for spin-zero particles. It is given by:&lt;/p&gt;
-
-\[\left( \Box + \frac{m^2 c^2}{\hbar^2} \right) \psi = 0\]
-
-&lt;p&gt;where:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;\(\Box\) (the d’Alembertian operator) is defined as:
-\(\Box = \nabla^2 - \frac{1}{c^2} \frac{\partial^2}{\partial t^2}\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;\(\nabla^2\) is the Laplace operator, which in three spatial dimensions is:&lt;/p&gt;
-
-\[\nabla^2 = \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} + \frac{\partial^2}{\partial z^2}\]
-  &lt;/li&gt;
-  &lt;li&gt;\(m\) is the mass of the particle.&lt;/li&gt;
-  &lt;li&gt;\(c\) is the speed of light.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;\(\hbar\) (h-bar) is the reduced Planck constant:&lt;/p&gt;
-
-    &lt;p&gt;\(\hbar = \frac{h}{2\pi}\)
-where \(h\) is the Planck constant.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;\(\psi\) is the wave function of the particle.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;derivation-and-background&quot;&gt;Derivation and Background&lt;/h2&gt;
-
-&lt;p&gt;The Klein–Gordon equation arises from the relativistic energy-momentum relation:&lt;/p&gt;
-
-\[E^2 = p^2 c^2 + m^2 c^2\]
-
-&lt;p&gt;By substituting the quantum mechanical operators for energy \(E\) and momentum \(p\):&lt;/p&gt;
-
-\[E \rightarrow i\hbar \frac{\partial}{\partial t}, \quad \mathbf{p} \rightarrow -i\hbar \nabla\]
-
-&lt;p&gt;into the energy-momentum relation, we get:&lt;/p&gt;
-
-\[\left( i\hbar \frac{\partial}{\partial t} \right)^2 = \left( -i\hbar \nabla \right)^2 c^2 + m^2 c^4\]
-
-&lt;p&gt;Simplifying this yields:&lt;/p&gt;
-
-\[-\hbar^2 \frac{\partial^2}{\partial t^2} = -\hbar^2 c^2 \nabla^2 + m^2 c^4\]
-
-&lt;p&gt;Dividing through by \(-\hbar^2\):&lt;/p&gt;
-
-\[\frac{\partial^2}{\partial t^2} - c^2 \nabla^2 + \frac{m^2 c^4}{\hbar^2} = 0\]
-
-&lt;p&gt;Rewriting in a more compact form using the d’Alembertian operator:&lt;/p&gt;
-
-\[\left( \Box + \frac{m^2 c^2}{\hbar^2} \right) \psi = 0\]
-
-&lt;h2 id=&quot;applications-and-significance&quot;&gt;Applications and Significance&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Quantum Field Theory:&lt;/strong&gt; The Klein–Gordon equation is fundamental in quantum field theory for describing scalar fields and spin-zero particles such as pi-mesons (pions).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Prediction of Antiparticles:&lt;/strong&gt; The equation predicts the existence of antiparticles, as solutions can have both positive and negative energy.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Historical Context:&lt;/strong&gt; Independently discovered by Oskar Klein and Walter Gordon in 1926, the Klein–Gordon equation was one of the earliest attempts to formulate a relativistic wave equation.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;limitations&quot;&gt;Limitations&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Negative Probability Density:&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;The probability density derived from the Klein-Gordon equation is not always positive-definite, complicating its interpretation as a physical probability distribution.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Inclusion of Negative Energy States:&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;The equation admits solutions with negative energy, which challenges the straightforward interpretation of these solutions within a single-particle framework.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Inadequate for Particles with Spin:&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;The Klein-Gordon equation does not account for spin, making it unsuitable for describing fermions, such as electrons, which have non-zero spin.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Unbounded Hamiltonian:&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;The Hamiltonian associated with the Klein-Gordon equation is not bounded from below, leading to stability issues and necessitating reinterpretation within the framework of quantum field theory.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;dirac-equation&quot;&gt;Dirac Equation&lt;/h1&gt;
-
-&lt;p&gt;The Dirac equation was formulated to address the limitations of the Klein-Gordon equation, specifically to describe spin-1/2 particles and to ensure positive-definite probability densities.&lt;/p&gt;
-
-&lt;h4 id=&quot;linearizing-the-klein-gordon-equation&quot;&gt;Linearizing the Klein-Gordon Equation&lt;/h4&gt;
-&lt;p&gt;The Klein-Gordon equation is given by:
-\(\left( \frac{\partial^2}{\partial t^2} - \nabla^2 + m^2 \right) \psi = 0\)&lt;/p&gt;
-
-&lt;p&gt;To derive the Dirac equation, we seek a first-order differential equation in both space and time that would still be consistent with the principles of special relativity. We start with the assumption that the equation should be linear in the first derivatives:&lt;/p&gt;
-
-\[\color{red}{ i \hbar \frac{\partial \psi}{\partial t} = \left( \alpha \cdot \mathbf{p} + \beta m \right) \psi }\]
-
-&lt;p&gt;Here, \(\alpha\) and \(\beta\) are matrices, and \(\mathbf{p} = -i \hbar \nabla\) is the momentum operator.&lt;/p&gt;
-
-&lt;h4 id=&quot;requirements-for-matrices&quot;&gt;Requirements for Matrices&lt;/h4&gt;
-&lt;p&gt;To ensure consistency with special relativity and the correct energy-momentum relation, we require that:&lt;/p&gt;
-
-\[E^2 = \mathbf{p}^2 c^2 + m^2 c^4\]
-
-&lt;p&gt;Square both sides of our proposed equation and taking \(c=\hbar=1\)(natural units):&lt;/p&gt;
-
-\[\left( i \frac{\partial}{\partial t} \right)^2 \psi = \left( \alpha \cdot \mathbf{p} + \beta m \right)^2 \psi\]
-
-&lt;p&gt;One common representation of dirac matrices \(\alpha,\;\beta\) is the Dirac-Pauli representation:&lt;/p&gt;
-
-\[\beta = \gamma^0 = \begin{pmatrix} I &amp;amp; 0 \\ 0 &amp;amp; -I \end{pmatrix}\]
-
-\[\alpha_i = \gamma^0 \gamma^i\]
-
-&lt;p&gt;where \(\gamma^i\) are the Dirac gamma matrices.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Highlighted section below can be skipped, its just for verification&lt;/code&gt;&lt;/p&gt;
-&lt;div style=&quot;background-color: #f0f0f0; padding: 10px;&quot;&gt;
-Expanding the right-hand side, we get:
-
-$$ - \hbar^2 \frac{\partial^2 \psi}{\partial t^2} = \left( \alpha_i p_i \alpha_j p_j + \alpha_i p_i \beta m + \beta m \alpha_j p_j + \beta^2 m^2 \right) \psi $$
-
-Using the commutation relations of the matrices \( \alpha \) and \( \beta\)
-
-$$ \alpha_i \alpha_j + \alpha_j \alpha_i = 2 \delta_{ij} I $$
-
-$$ \alpha_i \beta + \beta \alpha_i = 0 $$
-
-$$ \beta^2 = I $$
-
-Substituting these back, we get:
-
-$$ \left(  \frac{\partial^2}{\partial t^2} -  \nabla^2 + m^2 \right) \psi = 0 $$
-
-This reduces to the Klein-Gordon equation, showing that our linear equation is consistent.
-&lt;/div&gt;
-
-&lt;h4 id=&quot;the-dirac-equation&quot;&gt;The Dirac Equation&lt;/h4&gt;
-&lt;p&gt;Combining all these and in natural units (\(\hbar = c = 1\)), we get the Dirac equation in the form:&lt;/p&gt;
-
-\[i \frac{\partial \psi}{\partial t} = \left( \boldsymbol{\alpha} \cdot \mathbf{p} + \beta m \right) \psi\]
-
-&lt;p&gt;Rearranging the equation we get&lt;/p&gt;
-
-\[\left[i \frac{\partial }{\partial t} - \left( \boldsymbol{\alpha} \cdot \mathbf{p} + \beta m \right) \right]\psi=0\]
-
-&lt;p&gt;Multiplying both sides by \(\beta\) and using the relation \(\beta^2=I\) and \(\mathbf{p=-i\nabla}\) we get&lt;/p&gt;
-
-\[\left[i \beta \frac{\partial }{\partial t} + \beta  i\boldsymbol{\alpha} \cdot \mathbf{\nabla} - \beta^2 m  \right]\psi=0\]
-
-&lt;p&gt;Replacing \(\beta^2\) by \(I\) and expanding \(\mathbf{\alpha\cdot\nabla}\) we get&lt;/p&gt;
-
-\[\left[i \beta \frac{\partial }{\partial t} + i\beta \left(\alpha_x \frac{\partial}{\partial_x}+\alpha_y \frac{\partial}{\partial_y}+\alpha_z \frac{\partial}{\partial_z}\right) - m  \right]\psi=0\]
-
-&lt;p&gt;To express the Dirac equation in a covariant form, we introduce the gamma matrices \(\gamma^\mu\), where \(\mu = 0, 1, 2, 3\).&lt;/p&gt;
-
-&lt;p&gt;In this notation, \(\gamma^0 = \beta\) and \(\gamma^j = \beta \alpha^j\) for \(j = 1, 2, 3\).&lt;/p&gt;
-
-\[\begin{align*}\left[i \gamma^0\partial_0 + i \gamma^1\partial_1+i\gamma^2\partial_2+i\gamma^3\partial_3 - m  \right]\psi&amp;amp;=0\end{align*}\]
-
-&lt;p&gt;The Dirac equation then can be written in a compact form, which is invariant under Lorentz transformations as:&lt;/p&gt;
-
-\[(i \gamma^\mu \partial_\mu - m) \psi = 0\]
-
-&lt;p&gt;where:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;\(\partial_\mu = \frac{\partial}{\partial x^\mu}\) is the four-gradient, with \(\partial_0 = \frac{\partial}{\partial t}\) and \(\partial_i = \frac{\partial}{\partial x^i}\) for spatial coordinates.&lt;/li&gt;
-  &lt;li&gt;\(\gamma^\mu\) are the gamma matrices, which ensure that the equation transforms correctly under Lorentz transformations.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is the Dirac equation, describing spin-1/2 particles in relativistic quantum mechanics.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Relativistic-QM," /><category term="Klein-Gordon-Equation," /><category term="Dirac-Equation" /><summary type="html">Below is the outline of the lecture on Relativistic Quantum Mechanics, covering the Klein–Gordon equation, Dirac equation, probabilities and current densities, magnetic moment and spin of the electron, and free particle solutions of the Dirac equation.</summary></entry></feed>
+--&gt;</content><author><name>Rajesh Kumar</name></author><category term="tutorial," /><category term="relativistic-quantum-mechanics" /><summary type="html">This tutorial covers Klein-Gordon and Dirac equations in quantum mechanics.</summary></entry></feed>
