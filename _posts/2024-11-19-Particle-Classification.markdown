@@ -36,7 +36,9 @@ We've learned about pions and muons. We have a growing list of particles(more th
 ### Hadrons
 Particles that interact through the strong force (as well as through the other fundamental forces) are called hadrons. The two classes of hadrons, **mesons and baryons**, are distinguished by their masses and spins.
 - Mesons have zero or integer spin (0 or 1). Yukawa proposed their mass to lie between that of the electron and proton. While several mesons fall in this range, others with greater mass than the proton have also been discovered. Mesons eventually decay into electrons, positrons, neutrinos, and photons. The pions are the lightest known mesons. 
-- Baryons, the second class of hadrons, have masses equal to or greater than the proton mass, and their spin is always a half-integer value (1/2, 3/2, ...). Protons and neutrons are examples of baryons, as are many others. Except for the proton, all baryons decay to produce a proton. It is now believed that hadrons are not elementary particles but are made up of more fundamental units called quarks.
+- Baryons, the second class of hadrons, have masses equal to or greater than the proton mass, and their spin is always a half-integer value (1/2, 3/2, ...). Protons and neutrons are examples of baryons, as are many others. Except for the proton, all baryons decay to produce a proton. 
+
+It is now believed that hadrons are not elementary particles but are made up of more fundamental units called quarks.
 
 ### Leptons
 Leptons (from the Greek *leptos*, meaning “small” or “light”) are particles that do not interact via the strong force. All leptons have spin 1/2. Unlike hadrons, which have size and structure, leptons are considered truly elementary, meaning they have no internal structure and are point-like.
