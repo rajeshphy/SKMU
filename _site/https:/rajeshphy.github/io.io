@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-20T21:52:30+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Particle Classification</title><link href="http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification.html" rel="alternate" type="text/html" title="Particle Classification" /><published>2024-11-19T04:47:26+05:30</published><updated>2024-11-19T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification.html">&lt;p&gt;Japanese physicist Hideki Yukawa proposed in 1935 that the nuclear force is mediated by a new particle, a meson, whose exchange between nucleons causes the force. He predicted its mass to be about 200 times that of an electron, earning him a Nobel Prize in 1949. Because the new particle would have a mass between that of the electron and that of the proton, it was called a meson (from the Greek meso, “middle”)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-22T11:19:48+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/11/22/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-11-22T04:47:26+05:30</published><updated>2024-11-22T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/22/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/22/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At present, most solar cells are silicon-based, since this is the most mature technology. However, other materials are under active investigation and may supersede silicon in the long term. The electrical properties of semiconductors can be explained using two models, the bond and the band models.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;The bond model&lt;/strong&gt; uses the covalent bonds joining the silicon atoms to describe semiconductor behaviour. At low temperatures, silicon acts as an insulator because the bonds are intact. At high temperatures, some bonds break, allowing conduction through two processes:
+    &lt;ol&gt;
+      &lt;li&gt;Electrons from broken bonds are free to move.&lt;/li&gt;
+      &lt;li&gt;Electrons from neighboring bonds can move into the ‘hole’ created by the broken bond, causing the hole to propagate as if it had a positive charge.
+&lt;img src=&quot;/SKMU/assets/images/Electronics/Bond.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The band model&lt;/strong&gt; describes semiconductor behaviour in terms of the energy levels between valence and conduction bands. The electrons in covalent bonds have energies corresponding to those in the valence
+band. In the &lt;em&gt;conduction band&lt;/em&gt; the electrons are free. The &lt;em&gt;forbidden gap&lt;/em&gt; corresponds to the minimum energy needed to release an electron from a covalent bond to the conducting band where it can conduct a current. The &lt;em&gt;holes&lt;/em&gt; remaining conduct in the opposite direction in the valence band, as described for the bond model. 
+&lt;img src=&quot;/SKMU/assets/images/Electronics/Band.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;doping&quot;&gt;Doping&lt;/h2&gt;
+&lt;p&gt;It is possible to shift the balance of electrons and holes in a silicon crystal lattice by ‘doping’ it with other atoms. Atoms with one more valence electron than the semiconductor are used to produce ‘&lt;em&gt;n-type&lt;/em&gt;’ material. Atoms with one less valence electron result in ‘&lt;em&gt;p-type&lt;/em&gt;’ material.
+&lt;img src=&quot;/SKMU/assets/images/Electronics/Doping.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The digram below shows the classification of semiconductors based on doping.&lt;/p&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+graph TD
+    A[Semiconductors] --&amp;gt; B[Intrinsic Semiconductors]
+    A --&amp;gt; C[Extrinsic Semiconductors]
+    C --&amp;gt; D[n-type]
+    C --&amp;gt; E[p-type]
+    B --&amp;gt; F(Example: Sillicon, Germanium, etc.)
+    D --&amp;gt; G(Dopants: Phosphorus, Arsenic, etc.)
+    E --&amp;gt; H(Dopants: Boron, Aluminium, etc.)
+
+    style F fill:#d3f9d8,stroke:#009900,stroke-width:2px
+    style G fill:#d3f9d8,stroke:#009900,stroke-width:2px
+    style H fill:#d3f9d8,stroke:#009900,stroke-width:2px
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Intrinsic Semiconductors&lt;/strong&gt;: Pure semiconductors are called intrinsic semiconductors. They are made of silicon or germanium. They have equal numbers of electrons and holes.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Extrinsic Semiconductors&lt;/strong&gt;: Semiconductors doped with impurities are called extrinsic semiconductors. They are of two types: n-type and p-type.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors. Note: Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.</summary></entry><entry><title type="html">Particle Classification</title><link href="http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification.html" rel="alternate" type="text/html" title="Particle Classification" /><published>2024-11-19T04:47:26+05:30</published><updated>2024-11-19T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification.html">&lt;p&gt;Japanese physicist Hideki Yukawa proposed in 1935 that the nuclear force is mediated by a new particle, a meson, whose exchange between nucleons causes the force. He predicted its mass to be about 200 times that of an electron, earning him a Nobel Prize in 1949. Because the new particle would have a mass between that of the electron and that of the proton, it was called a meson (from the Greek meso, “middle”)&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; (Yukawa’s predicted particle is not the gluon as previously mentioned, which is massless and is today considered to be the field particle for the nuclear force.)&lt;/li&gt;
@@ -1626,232 +1672,4 @@ p_z &amp;amp; (p_x-ip_y)&amp;amp;-(E+m)&amp;amp;0\\
   &lt;li&gt;Dye LASER&lt;/li&gt;
   &lt;li&gt;Roman LASER&lt;/li&gt;
   &lt;li&gt;Plasma Recombination LASER&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="Laser," /><category term="Solid" /><category term="State" /><category term="Laser," /><category term="Gas" /><category term="Laser," /><category term="Semiconductor" /><category term="Laser," /><category term="Waveguides," /><category term="Longitudinal" /><category term="LASER," /><category term="TE-LASER," /><category term="Excimer" /><category term="LASER," /><category term="Dye" /><category term="LASER," /><category term="Roman" /><category term="LASER," /><category term="Plasma" /><category term="Recombination" /><category term="LASER" /><summary type="html">``` Basic principles and different LASER’s: principles and working of Ruby Laser, He-Ne Laser, Solid state laser, semiconductor laser CO2 LASER and qualitative description of longitudinal and TE- LASER systems, Excimer LASER, Dye LASER, Roman LASER, Plasma recombination LASER.</summary></entry><entry><title type="html">Tutorial-QM</title><link href="http://localhost:4000/SKMU/lecture/2024/05/28/Tutorial-QM.html" rel="alternate" type="text/html" title="Tutorial-QM" /><published>2024-05-28T18:47:26+05:30</published><updated>2024-05-28T18:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/05/28/Tutorial-QM</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/05/28/Tutorial-QM.html">&lt;p&gt;This tutorial covers Klein-Gordon and Dirac equations in quantum mechanics.&lt;/p&gt;
-
-&lt;h2 id=&quot;klein-gordon-equation&quot;&gt;Klein-Gordon Equation&lt;/h2&gt;
-
-&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
-&lt;p&gt;The Klein-Gordon equation is a relativistic wave equation for spin-0 particles. It is given by:
-\((\Box + m^2) \psi = 0\)
-where \(\Box\) is the d’Alembertian operator:
-\(\Box = \frac{\partial^2}{\partial t^2} - \nabla^2\)
-and \(m\) is the mass of the particle.&lt;/p&gt;
-
-&lt;h4 id=&quot;question-1-derive-the-klein-gordon-equation-from-the-relativistic-energy-momentum-relation&quot;&gt;Question 1: Derive the Klein-Gordon equation from the relativistic energy-momentum relation.&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;
-Start with the relativistic energy-momentum relation:
-\(E^2 = p^2c^2 + m^2c^4\)&lt;/p&gt;
-
-&lt;p&gt;Replace \(E\) with \(i\hbar \frac{\partial}{\partial t}\) and \(\vec{p}\) with \(-i\hbar \nabla\)&lt;/p&gt;
-
-&lt;p&gt;\((i\hbar \frac{\partial}{\partial t})^2 = (-i\hbar \nabla)^2 c^2 + m^2 c^4\)
-\(-\hbar^2 \frac{\partial^2}{\partial t^2} = -\hbar^2 c^2 \nabla^2 + m^2 c^4\)&lt;/p&gt;
-
-&lt;p&gt;Divide by \(-\hbar^2\)&lt;/p&gt;
-
-\[\frac{\partial^2}{\partial t^2} - c^2 \nabla^2 = \frac{m^2 c^4}{\hbar^2}\]
-
-&lt;p&gt;Set \(c = 1\) (natural units)&lt;/p&gt;
-
-\[\frac{\partial^2}{\partial t^2} - \nabla^2 = m^2\]
-
-&lt;p&gt;This is the Klein-Gordon equation:
-\((\Box + m^2) \psi = 0\)&lt;/p&gt;
-
-&lt;h4 id=&quot;question-2-find-the-plane-wave-solution-to-the-klein-gordon-equation-and-verify-it-satisfies-the-dispersion-equation-omega2--k2--m2&quot;&gt;Question 2: Find the plane wave solution to the Klein-Gordon equation and verify it satisfies the dispersion equation, \(\omega^2 = k^2 + m^2\).&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;
-Assume a plane wave solution of the form:
-\(\psi = e^{i(\vec{k} \cdot \vec{x} - \omega t)}\)&lt;/p&gt;
-
-&lt;p&gt;Compute the second time derivative:
-\(\frac{\partial^2 \psi}{\partial t^2} = -\omega^2 e^{i(\vec{k} \cdot \vec{x} - \omega t)}\)&lt;/p&gt;
-
-&lt;p&gt;Compute the Laplacian:
-\(\nabla^2 \psi = -k^2 e^{i(\vec{k} \cdot \vec{x} - \omega t)}\)&lt;/p&gt;
-
-&lt;p&gt;Substitute into the Klein-Gordon equation:
-\((\frac{\partial^2}{\partial t^2} - \nabla^2 + m^2) \psi = 0\)
-\((-\omega^2 + k^2 + m^2) e^{i(\vec{k} \cdot \vec{x} - \omega t)} = 0\)&lt;/p&gt;
-
-&lt;p&gt;Thus, the dispersion relation is:
-\(\omega^2 = k^2 + m^2\)&lt;/p&gt;
-
-&lt;h4 id=&quot;question-3-given-m--1--textgevc2-k--05--textgevc-find-omega-use-the-dispersion-relation-omega2--k2--m2&quot;&gt;Question 3: Given \(m = 1 \, \text{GeV}/c^2\), \(k = 0.5 \, \text{GeV}/c\), find \(\omega\). Use the dispersion relation \(\omega^2 = k^2 + m^2\).&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;
-Use the dispersion relation \(\omega^2 = k^2 + m^2\):
-\(\omega = \sqrt{k^2 + m^2}\)&lt;/p&gt;
-
-&lt;p&gt;Given \(m = 1 \, \text{GeV}/c^2\), \(k = 0.5 \, \text{GeV}/c\).&lt;/p&gt;
-
-&lt;p&gt;\(\omega = \sqrt{(0.5 \, \text{GeV}/c)^2 + (1 \, \text{GeV}/c^2)^2}\)
-\(\omega = \sqrt{0.25 + 1} \, \text{GeV}\)
-\(\omega = \sqrt{1.25} \, \text{GeV}\)
-\(\omega \approx 1.118 \, \text{GeV}\)&lt;/p&gt;
-
-&lt;h2 id=&quot;dirac-equation&quot;&gt;Dirac Equation&lt;/h2&gt;
-
-&lt;h3 id=&quot;introduction-1&quot;&gt;Introduction&lt;/h3&gt;
-&lt;p&gt;The Dirac equation is a relativistic wave equation for spin-1/2 particles, such as electrons. It is given by:
-\((i\gamma^\mu \partial_\mu - m) \psi = 0\)
-where \(\gamma^\mu\) are the gamma matrices.&lt;/p&gt;
-
-&lt;h4 id=&quot;question-4-derive-the-dirac-equation-from-the-linearization-of-the-klein-gordon-equation&quot;&gt;Question 4: Derive the Dirac equation from the linearization of the Klein-Gordon equation.&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The Dirac equation was formulated to address the limitations of the Klein-Gordon equation, specifically to describe spin-1/2 particles and to ensure positive-definite probability densities.&lt;/p&gt;
-
-&lt;h4 id=&quot;linearizing-the-klein-gordon-equation&quot;&gt;Linearizing the Klein-Gordon Equation&lt;/h4&gt;
-&lt;p&gt;The Klein-Gordon equation is given by:
-\(\left( \frac{\partial^2}{\partial t^2} - \nabla^2 + m^2 \right) \psi = 0\)&lt;/p&gt;
-
-&lt;p&gt;To derive the Dirac equation, we seek a first-order differential equation in both space and time that would still be consistent with the principles of special relativity. We start with the assumption that the equation should be linear in the first derivatives:&lt;/p&gt;
-
-\[\color{red}{ i \hbar \frac{\partial \psi}{\partial t} = \left( \alpha \cdot \mathbf{p} + \beta m \right) \psi }\]
-
-&lt;p&gt;Here, \(\alpha\) and \(\beta\) are matrices, and \(\mathbf{p} = -i \hbar \nabla\) is the momentum operator.&lt;/p&gt;
-
-&lt;h4 id=&quot;requirements-for-matrices&quot;&gt;Requirements for Matrices&lt;/h4&gt;
-&lt;p&gt;To ensure consistency with special relativity and the correct energy-momentum relation, we require that:&lt;/p&gt;
-
-\[E^2 = \mathbf{p}^2 c^2 + m^2 c^4\]
-
-&lt;p&gt;Square both sides of our proposed equation and taking \(c=\hbar=1\)(natural units):&lt;/p&gt;
-
-\[\left( i \frac{\partial}{\partial t} \right)^2 \psi = \left( \alpha \cdot \mathbf{p} + \beta m \right)^2 \psi\]
-
-&lt;p&gt;One common representation of dirac matrices \(\alpha,\;\beta\) is the Dirac-Pauli representation:&lt;/p&gt;
-
-\[\beta = \gamma^0 = \begin{pmatrix} I &amp;amp; 0 \\ 0 &amp;amp; -I \end{pmatrix}\]
-
-\[\alpha_i = \gamma^0 \gamma^i\]
-
-&lt;p&gt;where \(\gamma^i\) are the Dirac gamma matrices.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Highlighted section below can be skipped, its just for verification&lt;/code&gt;&lt;/p&gt;
-&lt;div style=&quot;background-color: #f0f0f0; padding: 10px;&quot;&gt;
-Expanding the right-hand side, we get:
-
-$$ - \hbar^2 \frac{\partial^2 \psi}{\partial t^2} = \left( \alpha_i p_i \alpha_j p_j + \alpha_i p_i \beta m + \beta m \alpha_j p_j + \beta^2 m^2 \right) \psi $$
-
-Using the commutation relations of the matrices \( \alpha \) and \( \beta\)
-
-$$ \alpha_i \alpha_j + \alpha_j \alpha_i = 2 \delta_{ij} I $$
-
-$$ \alpha_i \beta + \beta \alpha_i = 0 $$
-
-$$ \beta^2 = I $$
-
-Substituting these back, we get:
-
-$$ \left(  \frac{\partial^2}{\partial t^2} -  \nabla^2 + m^2 \right) \psi = 0 $$
-
-This reduces to the Klein-Gordon equation, showing that our linear equation is consistent.
-&lt;/div&gt;
-
-&lt;h4 id=&quot;the-dirac-equation&quot;&gt;The Dirac Equation&lt;/h4&gt;
-&lt;p&gt;Combining all these and in natural units (\(\hbar = c = 1\)), we get the Dirac equation in the form:&lt;/p&gt;
-
-\[i \frac{\partial \psi}{\partial t} = \left( \boldsymbol{\alpha} \cdot \mathbf{p} + \beta m \right) \psi\]
-
-&lt;p&gt;Rearranging the equation we get&lt;/p&gt;
-
-\[\left[i \frac{\partial }{\partial t} - \left( \boldsymbol{\alpha} \cdot \mathbf{p} + \beta m \right) \right]\psi=0\]
-
-&lt;p&gt;Multiplying both sides by \(\beta\) and using the relation \(\beta^2=I\) and \(\mathbf{p=-i\nabla}\) we get&lt;/p&gt;
-
-\[\left[i \beta \frac{\partial }{\partial t} + \beta  i\boldsymbol{\alpha} \cdot \mathbf{\nabla} - \beta^2 m  \right]\psi=0\]
-
-&lt;p&gt;Replacing \(\beta^2\) by \(I\) and expanding \(\mathbf{\alpha\cdot\nabla}\) we get&lt;/p&gt;
-
-\[\left[i \beta \frac{\partial }{\partial t} + i\beta \left(\alpha_x \frac{\partial}{\partial_x}+\alpha_y \frac{\partial}{\partial_y}+\alpha_z \frac{\partial}{\partial_z}\right) - m  \right]\psi=0\]
-
-&lt;p&gt;To express the Dirac equation in a covariant form, we introduce the gamma matrices \(\gamma^\mu\), where \(\mu = 0, 1, 2, 3\).&lt;/p&gt;
-
-&lt;p&gt;In this notation, \(\gamma^0 = \beta\) and \(\gamma^j = \beta \alpha^j\) for \(j = 1, 2, 3\).&lt;/p&gt;
-
-\[\begin{align*}\left[i \gamma^0\partial_0 + i \gamma^1\partial_1+i\gamma^2\partial_2+i\gamma^3\partial_3 - m  \right]\psi&amp;amp;=0\end{align*}\]
-
-&lt;p&gt;The Dirac equation then can be written in a compact form, which is invariant under Lorentz transformations as:&lt;/p&gt;
-
-\[(i \gamma^\mu \partial_\mu - m) \psi = 0\]
-
-&lt;p&gt;where:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;\(\partial_\mu = \frac{\partial}{\partial x^\mu}\) is the four-gradient, with \(\partial_0 = \frac{\partial}{\partial t}\) and \(\partial_i = \frac{\partial}{\partial x^i}\) for spatial coordinates.&lt;/li&gt;
-  &lt;li&gt;\(\gamma^\mu\) are the gamma matrices, which ensure that the equation transforms correctly under Lorentz transformations.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is the Dirac equation, describing spin-1/2 particles in relativistic quantum mechanics.&lt;/p&gt;
-
-&lt;h4 id=&quot;question-5-find-the-plane-wave-solution-to-the-dirac-equation-and-verify-it-satisfies-the-equation&quot;&gt;Question 5: Find the plane wave solution to the Dirac equation and verify it satisfies the equation.&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;
-Assume a plane wave solution of the form:
-\(\psi = u(p) e^{i(p \cdot x)}\)
-Substitute into the Dirac equation:
-\((i\gamma^\mu \partial_\mu - m) \psi = 0\)
-\((i\gamma^\mu p_\mu - m) u(p) e^{i(p \cdot x)} = 0\)
-This simplifies to:
-\((\gamma^\mu p_\mu - m) u(p) = 0\)
-Thus, \(u(p)\) is a spinor satisfying the Dirac equation:
-\((\gamma^\mu p_\mu - m) u(p) = 0\)&lt;/p&gt;
-&lt;h4 id=&quot;question-6-given-m--0511--textmevc2-electron-mass-p--e-0-0-p_z-find-the-energy-e-for-p_z--03--textmevc&quot;&gt;Question 6: Given \(m = 0.511 \, \text{MeV}/c^2\) (electron mass), \(p = (E, 0, 0, p_z)\), find the energy \(E\) for \(p_z = 0.3 \, \text{MeV}/c\).&lt;/h4&gt;
-
-&lt;!--
-**Solution:**
-Use the energy-momentum relation for the Dirac equation:
-$$ E^2 = p_z^2 + m^2 $$
-Given $$m = 0.511 \, \text{MeV}/c^2$$, $$p_z = 0.3 \, \text{MeV}/c$$:
-$$ E = \sqrt{p_z^2 + m^2} $$
-$$ E = \sqrt{(0.3 \, \text{MeV}/c)^2 + (0.511 \, \text{MeV}/c^2)^2} $$
-$$ E = \sqrt{0.09 + 0.261121} \, \text{MeV} $$
-$$ E = \sqrt{0.351121} \, \text{MeV} $$
-$$ E \approx 0.593 \, \text{MeV} $$
---&gt;
-
-&lt;h4 id=&quot;question-7-explain-the-physical-interpretation-of-negative-energy-solutions-in-the-context-of-the-dirac-equation-and-how-it-led-to-the-prediction-of-antimatter&quot;&gt;Question 7: Explain the physical interpretation of negative energy solutions in the context of the Dirac equation and how it led to the prediction of antimatter.&lt;/h4&gt;
-&lt;!--
-**Solution:**
-The Dirac equation is:
-$$ (i\gamma^\mu \partial_\mu - m) \psi = 0 $$
-
-When solving this equation for a free particle, we obtain energy solutions of the form:
-$$ E = \pm \sqrt{p^2 + m^2} $$
-
-The positive energy solutions ($$E = +\sqrt{p^2 + m^2}$$) correspond to particles, but the negative energy solutions ($$E = -\sqrt{p^2 + m^2}$$) initially posed a problem, as they seemed to imply the existence of states with negative energy.
-
-Dirac proposed that all negative energy states are filled in what he called the &quot;Dirac sea.&quot; According to this model, the Pauli exclusion principle prevents an electron from transitioning into a negative energy state because these states are already occupied. A &quot;hole&quot; in this sea of negative energy states would appear as a particle with positive charge and positive energy, which Dirac identified as the positron, the antiparticle of the electron.
-
-This interpretation led to the prediction of antimatter:
-- **Antiparticles:** For every particle, there exists a corresponding antiparticle with the same mass but opposite charge.
-- **Vacuum State:** The vacuum is the state in which all negative energy states are filled.
-- **Particle-Hole Theory:** A hole in the Dirac sea behaves like a particle with opposite charge, which is interpreted as an antiparticle.
-
-The discovery of the positron in 1932 by Carl Anderson confirmed Dirac&apos;s theory and the existence of antimatter.
---&gt;
-
-&lt;h4 id=&quot;question-8-consider-an-electron-with-mass-m--0511--textmevc2-calculate-the-energy-for-p--05--textmevc-and-discuss-both-the-positive-and-negative-energy-solutions&quot;&gt;Question 8: Consider an electron with mass \(m = 0.511 \, \text{MeV}/c^2\). Calculate the energy for \(p = 0.5 \, \text{MeV}/c\) and discuss both the positive and negative energy solutions.&lt;/h4&gt;
-
-&lt;!--
-**Solution:**
-The energy solutions for a particle with momentum $$p$$ are given by:
-$$ E = \pm \sqrt{p^2 + m^2} $$
-
-Given:
-- Mass of the electron, $$m = 0.511 \, \text{MeV}/c^2$$
-- Momentum, $$p = 0.5 \, \text{MeV}/c$$
-
-Calculate the energy:
-$$ E = \pm \sqrt{(0.5 \, \text{MeV}/c)^2 + (0.511 \, \text{MeV}/c^2)^2} $$
-$$ E = \pm \sqrt{0.25 + 0.261121} \, \text{MeV} $$
-$$ E = \pm \sqrt{0.511121} \, \text{MeV} $$
-$$ E \approx \pm 0.715 \, \text{MeV} $$
-
-- **Positive Energy Solution ($$+0.715 \, \text{MeV}$$)**: This corresponds to the usual electron with positive energy, moving with a momentum of $$0.5 \, \text{MeV}/c$$.
-
-- **Negative Energy Solution ($$-0.715 \, \text{MeV}$$)**: In the context of the Dirac equation, this would correspond to a state in the Dirac sea. The physical interpretation, according to Dirac, is that this negative energy state is normally occupied. If this state is vacant, it appears as a positron with energy $$+0.715 \, \text{MeV}$$ and opposite charge to the electron.
---&gt;</content><author><name>Rajesh Kumar</name></author><category term="tutorial," /><category term="relativistic-quantum-mechanics" /><summary type="html">This tutorial covers Klein-Gordon and Dirac equations in quantum mechanics.</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="Laser," /><category term="Solid" /><category term="State" /><category term="Laser," /><category term="Gas" /><category term="Laser," /><category term="Semiconductor" /><category term="Laser," /><category term="Waveguides," /><category term="Longitudinal" /><category term="LASER," /><category term="TE-LASER," /><category term="Excimer" /><category term="LASER," /><category term="Dye" /><category term="LASER," /><category term="Roman" /><category term="LASER," /><category term="Plasma" /><category term="Recombination" /><category term="LASER" /><summary type="html">``` Basic principles and different LASER’s: principles and working of Ruby Laser, He-Ne Laser, Solid state laser, semiconductor laser CO2 LASER and qualitative description of longitudinal and TE- LASER systems, Excimer LASER, Dye LASER, Roman LASER, Plasma recombination LASER.</summary></entry></feed>
