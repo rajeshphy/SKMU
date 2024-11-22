@@ -13,10 +13,12 @@ At present, most solar cells are silicon-based, since this is the most mature te
 - **The bond model** uses the covalent bonds joining the silicon atoms to describe semiconductor behaviour. At low temperatures, silicon acts as an insulator because the bonds are intact. At high temperatures, some bonds break, allowing conduction through two processes:
 1. Electrons from broken bonds are free to move.
 2. Electrons from neighboring bonds can move into the 'hole' created by the broken bond, causing the hole to propagate as if it had a positive charge.
+
 <img src="/SKMU/assets/images/Electronics/Bond.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:100%; height:auto;">
 
 - **The band model** describes semiconductor behaviour in terms of the energy levels between valence and conduction bands. The electrons in covalent bonds have energies corresponding to those in the valence
 band. In the *conduction band* the electrons are free. The *forbidden gap* corresponds to the minimum energy needed to release an electron from a covalent bond to the conducting band where it can conduct a current. The *holes* remaining conduct in the opposite direction in the valence band, as described for the bond model. 
+
 <img src="/SKMU/assets/images/Electronics/Band.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:100%; height:auto;">
 
 ---
