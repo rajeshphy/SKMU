@@ -1,55 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-22T11:46:41+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/11/22/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-11-22T04:47:26+05:30</published><updated>2024-11-22T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/22/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/22/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.&lt;/li&gt;
-&lt;/ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-25T07:46:27+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Particle Physics: Conservation Laws</title><link href="http://localhost:4000/SKMU/lecture/2024/11/25/Particle-Laws.html" rel="alternate" type="text/html" title="Particle Physics: Conservation Laws" /><published>2024-11-25T04:47:26+05:30</published><updated>2024-11-25T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/25/Particle-Laws</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/25/Particle-Laws.html">&lt;p&gt;The conservation laws of energy, momentum, and charge govern all processes. In particle physics, additional empirical conservation laws are also crucial. They are:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Conservation of baryon number&lt;/li&gt;
+  &lt;li&gt;Conservation of lepton number&lt;/li&gt;
+  &lt;li&gt;Conservation of strangeness&lt;/li&gt;
+  &lt;li&gt;Conservation of isospin&lt;/li&gt;
+  &lt;li&gt;Conservation of electric charge&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;At present, most solar cells are silicon-based, since this is the most mature technology. However, other materials are under active investigation and may supersede silicon in the long term. The electrical properties of semiconductors can be explained using two models, the bond and the band models.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;The bond model&lt;/strong&gt; uses the covalent bonds joining the silicon atoms to describe semiconductor behaviour. At low temperatures, silicon acts as an insulator because the bonds are intact. At high temperatures, some bonds break, allowing conduction through two processes:
-    &lt;ol&gt;
-      &lt;li&gt;Electrons from broken bonds are free to move.&lt;/li&gt;
-      &lt;li&gt;Electrons from neighboring bonds can move into the ‘hole’ created by the broken bond, causing the hole to propagate as if it had a positive charge.&lt;/li&gt;
-    &lt;/ol&gt;
+  &lt;li&gt;Experimental results show that whenever a baryon is created in a decay or nuclear
+reaction, an antibaryon is also created. This scheme can be quantified by assigning every particle a quantum number, the baryon number, as follows: $B=+1$ for
+all baryons, $B=-1$ for all antibaryons, and $B=0$ for all other particles.
+The law of conservation of baryon number states that
+    &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Whenever a nuclear reaction or decay occurs, the sum of the baryon numbers before the process must equal the sum of the baryon numbers after the process.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The conservation of lepton number is similar to the conservation of baryon number. The lepton number is defined as $L=+1$ for all leptons, $L=-1$ for all antileptons, and $L=0$ for all other particles. The law of conservation of lepton number states that
+    &lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Whenever a nuclear reaction or decay occurs, the sum of the lepton numbers before the process must equal the sum of the lepton numbers after the process.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;hr /&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/SKMU/assets/images/Electronics/Bond.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;assignments&quot;&gt;Assignments&lt;/h1&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;The band model&lt;/strong&gt; describes semiconductor behaviour in terms of the energy levels between valence and conduction bands. The electrons in covalent bonds have energies corresponding to those in the valence
-band. In the &lt;em&gt;conduction band&lt;/em&gt; the electrons are free. The &lt;em&gt;forbidden gap&lt;/em&gt; corresponds to the minimum energy needed to release an electron from a covalent bond to the conducting band where it can conduct a current. The &lt;em&gt;holes&lt;/em&gt; remaining conduct in the opposite direction in the valence band, as described for the bond model.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;ol&gt;
+  &lt;li&gt;Use the law of conservation of baryon number to determine whether each of the following reactions can occur:
+    &lt;ul&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + \pi^0$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + \pi^+$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + K^+$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + K^0$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + \bar{K}^0$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + \Lambda^0$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + \Sigma^+$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + \Sigma^0$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + \Sigma^-$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + \Xi^0$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + \Xi^-$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + \Omega^-$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + n + \bar{n}$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + n + \bar{\Lambda}^0$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + n + \bar{\Sigma}^0$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + n + \bar{\Xi}^0$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + n + \bar{\Omega}^-$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + n + \bar{n} + \bar{\Lambda}^0$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + n + \bar{n} + \bar{\Sigma}^0$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + n + \bar{n} + \bar{\Xi}^0$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + n + \bar{n} + \bar{\Omega}^-$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Now use Lepton number conservation to determine whether the following reactions can occur:
+    &lt;ul&gt;
+      &lt;li&gt;$\mu^- \rightarrow e^- + \bar{\nu_e} + \nu_{\mu}$&lt;/li&gt;
+      &lt;li&gt;$\pi^+ \rightarrow \mu^+ + \nu_{\mu}+ \nu_e $&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Each of the following reactions is forbidden. Determine what conservation laws are violated for each reaction.
+    &lt;ul&gt;
+      &lt;li&gt;$p + \bar{p} \rightarrow \mu^+ + e^-$&lt;/li&gt;
+      &lt;li&gt;$\pi^- + p \rightarrow p + \pi^+$&lt;/li&gt;
+      &lt;li&gt;$p + p \rightarrow p + p + n$&lt;/li&gt;
+      &lt;li&gt;$\gamma + p \rightarrow \eta + \pi^0$&lt;/li&gt;
+      &lt;li&gt;$\nu_e + p \rightarrow n + e^+$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;/SKMU/assets/images/Electronics/Band.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;doping&quot;&gt;Doping&lt;/h2&gt;
-&lt;p&gt;It is possible to shift the balance of electrons and holes in a silicon crystal lattice by ‘doping’ it with other atoms. Atoms with one more valence electron than the semiconductor are used to produce ‘&lt;em&gt;n-type&lt;/em&gt;’ material. Atoms with one less valence electron result in ‘&lt;em&gt;p-type&lt;/em&gt;’ material.
-&lt;img src=&quot;/SKMU/assets/images/Electronics/Doping.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The digram below shows the classification of semiconductors based on doping.&lt;/p&gt;
-&lt;div class=&quot;mermaid&quot;&gt;
-graph TD
-    A[Semiconductors] --&amp;gt; B[Intrinsic Semiconductors]
-    A --&amp;gt; C[Extrinsic Semiconductors]
-    C --&amp;gt; D[n-type]
-    C --&amp;gt; E[p-type]
-    B --&amp;gt; F(Example: Sillicon, Germanium, etc.)
-    D --&amp;gt; G(Dopants: Phosphorus, Arsenic, etc.)
-    E --&amp;gt; H(Dopants: Boron, Aluminium, etc.)
-
-    style F fill:#d3f9d8,stroke:#009900,stroke-width:2px
-    style G fill:#d3f9d8,stroke:#009900,stroke-width:2px
-    style H fill:#d3f9d8,stroke:#009900,stroke-width:2px
-&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Intrinsic Semiconductors&lt;/strong&gt;: Pure semiconductors are called intrinsic semiconductors. They are made of silicon or germanium. They have equal numbers of electrons and holes.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Extrinsic Semiconductors&lt;/strong&gt;: Semiconductors doped with impurities are called extrinsic semiconductors. They are of two types: n-type and p-type.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors. Note: Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.</summary></entry><entry><title type="html">Particle Classification</title><link href="http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification.html" rel="alternate" type="text/html" title="Particle Classification" /><published>2024-11-19T04:47:26+05:30</published><updated>2024-11-19T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification.html">&lt;p&gt;Japanese physicist Hideki Yukawa proposed in 1935 that the nuclear force is mediated by a new particle, a meson, whose exchange between nucleons causes the force. He predicted its mass to be about 200 times that of an electron, earning him a Nobel Prize in 1949. Because the new particle would have a mass between that of the electron and that of the proton, it was called a meson (from the Greek meso, “middle”)&lt;/p&gt;
+&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/question-1.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt;
+     --&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">The conservation laws of energy, momentum, and charge govern all processes. In particle physics, additional empirical conservation laws are also crucial. They are: Conservation of baryon number Conservation of lepton number Conservation of strangeness Conservation of isospin Conservation of electric charge</summary></entry><entry><title type="html">Particle Physics: Particle Classification</title><link href="http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification.html" rel="alternate" type="text/html" title="Particle Physics: Particle Classification" /><published>2024-11-19T04:47:26+05:30</published><updated>2024-11-19T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification.html">&lt;p&gt;Japanese physicist Hideki Yukawa proposed in 1935 that the nuclear force is mediated by a new particle, a meson, whose exchange between nucleons causes the force. He predicted its mass to be about 200 times that of an electron, earning him a Nobel Prize in 1949. Because the new particle would have a mass between that of the electron and that of the proton, it was called a meson (from the Greek meso, “middle”)&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; (Yukawa’s predicted particle is not the gluon as previously mentioned, which is massless and is today considered to be the field particle for the nuclear force.)&lt;/li&gt;
@@ -320,7 +339,58 @@ $&lt;/p&gt;
 m_\pi \approx \frac{197 \ \text{MeV fm}}{1 \ \text{fm} \cdot c} \approx 197 \ \text{MeV}/c^2
 $&lt;/p&gt;
 
-&lt;p&gt;Thus, Yukawa predicted the mass of the pion to be approximately 200 times the mass of the electron, which aligns with the observed pion mass in nature.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">PG-III Lecture Topics</title><link href="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html" rel="alternate" type="text/html" title="PG-III Lecture Topics" /><published>2024-11-12T06:47:26+05:30</published><updated>2024-11-12T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
+&lt;p&gt;Thus, Yukawa predicted the mass of the pion to be approximately 200 times the mass of the electron, which aligns with the observed pion mass in nature.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/11/12/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-11-12T08:47:26+05:30</published><updated>2024-11-12T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/12/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/12/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At present, most solar cells are silicon-based, since this is the most mature technology. However, other materials are under active investigation and may supersede silicon in the long term. The electrical properties of semiconductors can be explained using two models, the bond and the band models.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;The bond model&lt;/strong&gt; uses the covalent bonds joining the silicon atoms to describe semiconductor behaviour. At low temperatures, silicon acts as an insulator because the bonds are intact. At high temperatures, some bonds break, allowing conduction through two processes:
+    &lt;ol&gt;
+      &lt;li&gt;Electrons from broken bonds are free to move.&lt;/li&gt;
+      &lt;li&gt;Electrons from neighboring bonds can move into the ‘hole’ created by the broken bond, causing the hole to propagate as if it had a positive charge.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/SKMU/assets/images/Electronics/Bond.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;The band model&lt;/strong&gt; describes semiconductor behaviour in terms of the energy levels between valence and conduction bands. The electrons in covalent bonds have energies corresponding to those in the valence
+band. In the &lt;em&gt;conduction band&lt;/em&gt; the electrons are free. The &lt;em&gt;forbidden gap&lt;/em&gt; corresponds to the minimum energy needed to release an electron from a covalent bond to the conducting band where it can conduct a current. The &lt;em&gt;holes&lt;/em&gt; remaining conduct in the opposite direction in the valence band, as described for the bond model.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/SKMU/assets/images/Electronics/Band.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;doping&quot;&gt;Doping&lt;/h2&gt;
+&lt;p&gt;It is possible to shift the balance of electrons and holes in a silicon crystal lattice by ‘doping’ it with other atoms. Atoms with one more valence electron than the semiconductor are used to produce ‘&lt;em&gt;n-type&lt;/em&gt;’ material. Atoms with one less valence electron result in ‘&lt;em&gt;p-type&lt;/em&gt;’ material.
+&lt;img src=&quot;/SKMU/assets/images/Electronics/Doping.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The digram below shows the classification of semiconductors based on doping.&lt;/p&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+graph TD
+    A[Semiconductors] --&amp;gt; B[Intrinsic Semiconductors]
+    A --&amp;gt; C[Extrinsic Semiconductors]
+    C --&amp;gt; D[n-type]
+    C --&amp;gt; E[p-type]
+    B --&amp;gt; F(Example: Sillicon, Germanium, etc.)
+    D --&amp;gt; G(Dopants: Phosphorus, Arsenic, etc.)
+    E --&amp;gt; H(Dopants: Boron, Aluminium, etc.)
+
+    style F fill:#d3f9d8,stroke:#009900,stroke-width:2px
+    style G fill:#d3f9d8,stroke:#009900,stroke-width:2px
+    style H fill:#d3f9d8,stroke:#009900,stroke-width:2px
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Intrinsic Semiconductors&lt;/strong&gt;: Pure semiconductors are called intrinsic semiconductors. They are made of silicon or germanium. They have equal numbers of electrons and holes.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Extrinsic Semiconductors&lt;/strong&gt;: Semiconductors doped with impurities are called extrinsic semiconductors. They are of two types: n-type and p-type.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors. Note: Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.</summary></entry><entry><title type="html">PG-III Lecture Topics</title><link href="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html" rel="alternate" type="text/html" title="PG-III Lecture Topics" /><published>2024-11-12T06:47:26+05:30</published><updated>2024-11-12T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
 
 &lt;h3 id=&quot;phy-a-09-open-elective-basic-applied-physics&quot;&gt;PHY A-09: Open Elective: Basic Applied Physics&lt;/h3&gt;
 &lt;ul&gt;
@@ -1360,321 +1430,4 @@ p_z &amp;amp; (p_x-ip_y)&amp;amp;-(E+m)&amp;amp;0\\
 
 &lt;h2 id=&quot;interpretation-of-negative-energy-states&quot;&gt;Interpretation of negative energy states&lt;/h2&gt;
 
-&lt;p&gt;To be continued …&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Dirac-Equation," /><category term="Current-Density," /><category term="Conservation-Equation" /><summary type="html">The Dirac equation for a free particle is given by:</summary></entry><entry><title type="html">LASER</title><link href="http://localhost:4000/SKMU/lecture/2024/06/21/Laser.html" rel="alternate" type="text/html" title="LASER" /><published>2024-06-21T18:47:26+05:30</published><updated>2024-06-21T18:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/06/21/Laser</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/06/21/Laser.html">&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Basic principles and different LASER’s: principles and working of Ruby Laser, He-Ne Laser, Solid state laser, semiconductor laser CO2 LASER and qualitative description of longitudinal and TE- LASER systems, Excimer LASER, Dye LASER, Roman LASER, Plasma recombination LASER. 
-
-09 Lectures
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h2 id=&quot;introduction-to-lasers&quot;&gt;&lt;span style=&quot;color:red&quot;&gt;Introduction to LASERs&lt;/span&gt;&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;A laser is defined as an optical device that generates an intense beam of light with high coherence and narrow spectral bandwidth. This is achieved through the process of stimulated emission, where an external energy source excites atoms or molecules to a higher energy state. When these excited atoms or molecules return to a lower energy state, they emit photons in phase, leading to the amplification of light. The term “laser” stands for Light Amplification by Stimulated Emission of Radiation, highlighting its fundamental mechanism of operation.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There are two main mechanisms involved in the operation of a laser:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Population Inversion: This is the process where the number of atoms or molecules in an excited state is greater than the number in the ground state. This condition is essential for stimulated emission to occur and for the laser to function effectively.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Stimulated Emission: This is the process where an incoming photon interacts with an excited atom or molecule, causing it to emit a second photon with the same energy, phase, and direction as the incoming photon. This leads to the amplification of light and the generation of a coherent laser beam.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Stimulated emission is the key process that distinguishes lasers from other light sources, such as incandescent bulbs or fluorescent lamps. It is different from &lt;strong&gt;spontaneous emission&lt;/strong&gt;, where an atom or molecule emits a photon randomly and independently of external stimuli.&lt;/p&gt;
-
-&lt;h3 id=&quot;light-atom-interaction-process&quot;&gt;Light-Atom Interaction Process&lt;/h3&gt;
-&lt;p&gt;Three processes in which atoms interact with light are given in figure below:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/SKMU/assets/img/LASER/interaction-process.jpeg&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;population-inversion-process&quot;&gt;Population Inversion Process&lt;/h3&gt;
-&lt;p&gt;We need to create a non-equilibrium situation where more atoms are in a higher-energy state than in a lower-energy state, known as a population inversion. In this situation, the rate of energy radiation by stimulated emission can exceed the rate of absorption, making the system act as a net source of radiation with photon energy E. We achieve population inversion by starting with atoms that have the appropriate excited states.&lt;/p&gt;
-
-&lt;p&gt;The energy-level diagram for such an atom includes a ground state and three excited states of energies E1, E2, and E3 as given in figure-a:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/SKMU/assets/img/LASER/pumping.jpeg&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A laser using a material with these energy levels is called a four-level laser. For laser action, the states with energies E1 and E3 must have short lifetimes of about 10⁻⁸ seconds, while the state with energy E2 must have a long lifetime of about 10⁻³ seconds. This long-lived metastable state can occur due to restrictions imposed by conservation of angular momentum that hinder photon emission. The metastable state is the one we aim to populate.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Metastable State: A state of an atom or molecule with a long lifetime due to restrictions on the allowed transitions to lower-energy states.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;To produce a population inversion, we pump the material to excite the atoms from the ground state into the states of energies E1, E2, and E3 as given in figure-b. In a gas, this can be done by inserting two electrodes into the gas container. When a high voltage is applied to the electrodes, an electric discharge occurs, causing collisions between ionized atoms and electrons that excite the atoms to various energy states. Within about 10⁻⁸ seconds as shown in figure-c, the atoms excited to states E1 and E3 undergo spontaneous photon emission, leaving these states depopulated. Atoms accumulate in the metastable state with energy E2. Although the number of atoms in the metastable state is less than in the ground state, it is much greater than in the nearly unoccupied state of energy E1, resulting in a population inversion of state E2 relative to state E1. The levels E1 and E3 are essential: atoms undergoing spontaneous emission from the E3 level help populate the E2 level, and the presence of the E1 level enables the population inversion.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/SKMU/assets/img/LASER/after-pumping.jpeg&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;types-of-lasers&quot;&gt;&lt;span style=&quot;color:red&quot;&gt;Types of LASERs&lt;/span&gt;&lt;/h2&gt;
-
-&lt;h2 id=&quot;1-solid-state-lasers&quot;&gt;1. Solid State LASERs&lt;/h2&gt;
-&lt;p&gt;Solid-state lasers use a solid material as the gain medium. This medium typically consists of a glass or crystalline host material doped with ions that provide the necessary energy states for lasing.&lt;/p&gt;
-
-&lt;h5 id=&quot;examples-of-solid-state-lasers&quot;&gt;Examples of Solid-State Lasers&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ruby Laser&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Nd:YAG Laser&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Nd:Glass Laser&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;ruby-laser&quot;&gt;Ruby Laser&lt;/h4&gt;
-&lt;p&gt;A ruby laser is a type of solid-state laser that uses a synthetic ruby crystal as its gain medium. The first ruby laser was constructed by Theodore H. Maiman in 1960.&lt;/p&gt;
-
-&lt;h4 id=&quot;construction&quot;&gt;Construction&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The ruby rod, which is 4 cm long and 5 mm in diameter, serves as the laser medium.&lt;/li&gt;
-  &lt;li&gt;Both ends of the rod are highly polished and parallel, with one end partially reflective and the other end fully reflective.&lt;/li&gt;
-  &lt;li&gt;The rod is surrounded by a xenon flash tube, which provides the pumping energy to excite the chromium ions in the ruby.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/SKMU/assets/img/LASER/ruby.gif&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;working-principle&quot;&gt;Working Principle&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;The xenon flash tube emits a burst of light, which excites the chromium ions in the ruby rod to a higher energy state.&lt;/li&gt;
-  &lt;li&gt;These ions then drop to a lower energy state (meta-stable state), where they remain for a relatively long time.&lt;/li&gt;
-  &lt;li&gt;As more ions accumulate in this meta-stable state, a population inversion is achieved.&lt;/li&gt;
-  &lt;li&gt;When an excited ion returns to its ground state, it emits a photon. This photon stimulates other excited ions to emit additional photons, leading to a cascade of stimulated emission.&lt;/li&gt;
-  &lt;li&gt;The emitted photons are reflected back and forth between the two mirrors, amplifying the light with each pass until a coherent beam of light exits through the partially reflective mirror.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;drawbacks&quot;&gt;Drawbacks&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Requires high pumping power.&lt;/li&gt;
-  &lt;li&gt;Low efficiency.&lt;/li&gt;
-  &lt;li&gt;Operates in pulsed mode.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;applications&quot;&gt;Applications&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Optical photography.&lt;/li&gt;
-  &lt;li&gt;Measurement of plasma properties.&lt;/li&gt;
-  &lt;li&gt;Removal of skin melanin.&lt;/li&gt;
-  &lt;li&gt;Holography.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;2-gas-lasers&quot;&gt;2. Gas LASERs&lt;/h2&gt;
-&lt;p&gt;Gas lasers use a gas mixture as the gain medium to produce laser light. The gas mixture can consist of various combinations of noble gases, halogens, and metal vapors, depending on the desired output wavelength and power.&lt;/p&gt;
-&lt;h5 id=&quot;examples-of-gas-lasers&quot;&gt;Examples of Gas Lasers&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;He-Ne Laser&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;CO2 Laser&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Argon Ion Laser&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;i-he-ne-laser&quot;&gt;I. He-Ne Laser&lt;/h4&gt;
-
-&lt;p&gt;The He-Ne laser is a gas laser that uses a mixture of helium and neon gases. It was the first continuous-wave (CW) laser and was developed by Ali Javan and his colleagues in 1960.&lt;/p&gt;
-
-&lt;h4 id=&quot;construction-1&quot;&gt;Construction&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A discharge tube containing a mixture of helium and neon gases in the ratio of 10:1.&lt;/li&gt;
-  &lt;li&gt;Mirrors are placed at both ends of the tube, with one fully reflective and the other partially reflective.&lt;/li&gt;
-  &lt;li&gt;The typical length of the discharge tube is 80 cm with a diameter of 1 cm.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/SKMU/assets/img/LASER/He-Ne.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;working-principle-1&quot;&gt;Working Principle&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;An electric discharge excites the helium atoms to higher energy levels.&lt;/li&gt;
-  &lt;li&gt;These excited helium atoms collide with neon atoms, transferring energy and exciting the neon atoms to higher energy states.&lt;/li&gt;
-  &lt;li&gt;A population inversion is achieved between certain energy levels of the neon atoms.&lt;/li&gt;
-  &lt;li&gt;The neon atoms emit photons when they return to a lower energy state, producing laser light.&lt;/li&gt;
-  &lt;li&gt;The emitted photons are reflected between the mirrors, amplifying the light through stimulated emission until a coherent beam exits through the partially reflective mirror.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;applications-1&quot;&gt;Applications&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Holography.&lt;/li&gt;
-  &lt;li&gt;Barcode scanning.&lt;/li&gt;
-  &lt;li&gt;Laser printing.&lt;/li&gt;
-  &lt;li&gt;Optical demonstrations in educational settings.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;ii-co2-laser&quot;&gt;II. CO2 LASER&lt;/h4&gt;
-
-&lt;p&gt;The CO₂ laser is a type of gas laser that uses carbon dioxide (CO₂) as the gain medium. It is one of the most powerful and efficient types of lasers and is commonly used for industrial cutting, welding, and medical procedures.&lt;/p&gt;
-
-&lt;h4 id=&quot;construction-2&quot;&gt;Construction&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Discharge Tube:&lt;/strong&gt; The CO₂ laser consists of a gas discharge tube filled with a mixture of carbon dioxide (CO₂), nitrogen (N₂), and helium (He). The typical ratio is CO₂:N₂:He = 1:1:8.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Mirrors:&lt;/strong&gt; Two mirrors are placed at the ends of the discharge tube, forming an optical resonator. One mirror is fully reflective, while the other is partially reflective, allowing some light to escape as the laser beam.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Electrodes:&lt;/strong&gt; Electrodes are placed along the discharge tube to create an electric field that excites the gas molecules.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Cooling System:&lt;/strong&gt; A cooling system is used to dissipate the heat generated during the laser operation.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;working-principle-2&quot;&gt;Working Principle&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Excitation:&lt;/strong&gt; When an electric current passes through the discharge tube, it excites the nitrogen molecules to a higher energy state.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Energy Transfer:&lt;/strong&gt; The excited nitrogen molecules collide with CO₂ molecules, transferring energy and exciting the CO₂ molecules to a higher energy state.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Population Inversion:&lt;/strong&gt; A population inversion is achieved between the higher energy state (E3) and the lower energy state (E1) of the CO₂ molecules.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Stimulated Emission:&lt;/strong&gt; CO₂ molecules in the higher energy state return to the lower energy state by emitting photons. These photons stimulate other excited CO₂ molecules to emit more photons of the same wavelength.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Amplification:&lt;/strong&gt; The emitted photons are reflected back and forth between the mirrors, amplifying the light through stimulated emission until a coherent beam of light exits through the partially reflective mirror.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;key-characteristics&quot;&gt;Key Characteristics&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Wavelength:&lt;/strong&gt; The CO₂ laser emits infrared light at a wavelength of 10.6 micrometers (µm).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Efficiency:&lt;/strong&gt; It has a high efficiency, typically around 10-20%.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Power:&lt;/strong&gt; Capable of producing continuous wave (CW) or pulsed laser beams with high power output, ranging from a few watts to several kilowatts.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;applications-2&quot;&gt;Applications&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Industrial Cutting and Welding:&lt;/strong&gt; The high power and precision of CO₂ lasers make them ideal for cutting and welding materials such as metals, plastics, and wood.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Medical Procedures:&lt;/strong&gt; CO₂ lasers are used in various medical applications, including surgery, dermatology, and dental procedures.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Engraving and Marking:&lt;/strong&gt; Used for engraving and marking on materials like glass, leather, and ceramics.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Scientific Research:&lt;/strong&gt; Employed in various scientific experiments and research applications due to their high power and stable output.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;3-semiconductor-laser&quot;&gt;3. Semiconductor Laser&lt;/h3&gt;
-
-&lt;p&gt;Semiconductor lasers, also known as diode lasers, use semiconductor materials as the gain medium. These lasers are widely used due to their small size, efficiency, and ability to be directly modulated.&lt;/p&gt;
-
-&lt;h5 id=&quot;examples-of-semiconductor-lasers&quot;&gt;Examples of Semiconductor Lasers&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;InP (Indium Phosphide) Laser&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;GaAs (Gallium Arsenide) Laser&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;construction-3&quot;&gt;Construction&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;/SKMU/assets/img/LASER/semi-laser.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Active Region:&lt;/strong&gt; The laser diode has a p-n junction as the active region where the lasing action occurs.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Pumping Mechanism:&lt;/strong&gt; Electrical current is injected into the p-n junction, causing electrons and holes to recombine and emit photons.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Optical Cavity:&lt;/strong&gt; The semiconductor material itself forms an optical cavity with reflective surfaces at the ends to provide feedback for the amplification of light.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;working-principle-3&quot;&gt;Working Principle&lt;/h3&gt;
-
-&lt;h5 id=&quot;1-structure-of-the-p-n-junction&quot;&gt;1. Structure of the P-N Junction&lt;/h5&gt;
-
-&lt;p&gt;A semiconductor laser consists of a p-type and an n-type semiconductor material joined together to form a p-n junction. When these two materials are joined, a depletion region is formed at the junction where no free charge carriers (electrons or holes) are present.&lt;/p&gt;
-
-&lt;h5 id=&quot;2-forward-biasing-the-p-n-junction&quot;&gt;2. Forward Biasing the P-N Junction&lt;/h5&gt;
-
-&lt;p&gt;When a forward voltage is applied across the p-n junction (positive voltage to the p-type material and negative to the n-type), electrons from the n-type material and holes from the p-type material are pushed towards the junction. This reduces the width of the depletion region and allows current to flow through the junction.&lt;/p&gt;
-
-&lt;h5 id=&quot;3-carrier-injection-and-recombination&quot;&gt;3. Carrier Injection and Recombination&lt;/h5&gt;
-
-&lt;p&gt;The applied forward voltage causes electrons to be injected into the conduction band of the p-type material and holes into the valence band of the n-type material. At the junction, electrons and holes recombine. This recombination releases energy in the form of photons (light). The process can be described in three steps:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Carrier Injection:&lt;/strong&gt; Electrons and holes are injected into the active region from the n-type and p-type materials, respectively.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Recombination:&lt;/strong&gt; In the active region, electrons recombine with holes. Each recombination event releases a photon with energy equal to the bandgap energy of the semiconductor material.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Stimulated Emission:&lt;/strong&gt; Some of the emitted photons stimulate other electrons to recombine with holes, producing additional photons. This chain reaction results in a significant amplification of light.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h5 id=&quot;4-optical-feedback-and-resonance&quot;&gt;4. Optical Feedback and Resonance&lt;/h5&gt;
-
-&lt;p&gt;To sustain lasing action, the semiconductor laser has an optical cavity formed by cleaving the semiconductor crystal to create parallel, reflective end faces. These faces act as mirrors, reflecting photons back and forth through the active region. The cavity length is designed such that it supports standing wave patterns of specific wavelengths.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Photon Reflection:&lt;/strong&gt; Photons emitted due to recombination are reflected back and forth between the mirrors.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Amplification:&lt;/strong&gt; As photons travel through the active region, they stimulate further recombination events, resulting in the amplification of light.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Coherent Light Emission:&lt;/strong&gt; When the amplified light reaches a certain intensity, it escapes through the partially reflective mirror at one end of the cavity as a coherent laser beam.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h5 id=&quot;5-threshold-condition&quot;&gt;5. Threshold Condition&lt;/h5&gt;
-
-&lt;p&gt;For lasing to occur, the gain (amplification) provided by stimulated emission must overcome the losses due to absorption, scattering, and reflection at the mirrors. This condition is known as the threshold condition. The current at which this occurs is called the threshold current.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Below Threshold:&lt;/strong&gt; Below the threshold current, spontaneous emission dominates, and the device behaves like an LED.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Above Threshold:&lt;/strong&gt; Above the threshold current, stimulated emission dominates, and the device produces coherent laser light.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;key-characteristics-1&quot;&gt;Key Characteristics&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Direct Modulation:&lt;/strong&gt; The output can be directly modulated by varying the current, making them suitable for telecommunications.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Efficiency:&lt;/strong&gt; High electrical-to-optical efficiency.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Size:&lt;/strong&gt; Compact and lightweight, allowing for integration into a variety of electronic devices.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;applications-3&quot;&gt;Applications&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Fiber optic communications.&lt;/li&gt;
-  &lt;li&gt;Laser printers.&lt;/li&gt;
-  &lt;li&gt;Barcode scanners.&lt;/li&gt;
-  &lt;li&gt;Optical data storage (CDs, DVDs).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;introduction-to-waveguides&quot;&gt;Introduction to Waveguides&lt;/h2&gt;
-
-&lt;p&gt;Waveguides are structures designed to guide electromagnetic waves from one point to another. They are utilized based on the desired operating frequency, power requirements, and acceptable transmission losses. Common types include coaxial cables, two-wire lines, microstrip lines, rectangular waveguides, and optical fibers as shown in figure below.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/SKMU/assets/img/LASER/waveguide.jpeg&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;longitudinal-transverse-decompositions&quot;&gt;Longitudinal-Transverse Decompositions&lt;/h3&gt;
-
-&lt;p&gt;To understand wave propagation in waveguides, we use solutions to Maxwell’s equations that describe the behavior of electric and magnetic fields along the guiding direction (z) and their confinement in the transverse directions (x, y).&lt;/p&gt;
-
-&lt;p&gt;The electric and magnetic fields can be represented as:&lt;/p&gt;
-
-\[E(x, y, z, t) = E(x, y) e^{j(\omega t - \beta z)}\]
-
-\[H(x, y, z, t) = H(x, y) e^{j(\omega t - \beta z)}\]
-
-&lt;p&gt;where \(\beta\) is the propagation wavenumber and \(\lambda_g = \frac{2\pi}{\beta}\) is the guide wavelength.&lt;/p&gt;
-
-&lt;h3 id=&quot;decomposition-of-fields&quot;&gt;Decomposition of Fields&lt;/h3&gt;
-
-&lt;p&gt;The fields can be decomposed into transverse and longitudinal components:&lt;/p&gt;
-
-\[E(x, y) = E_T(x, y) + \hat{z}E_z(x, y)\]
-
-\[H(x, y) = H_T(x, y) + \hat{z}H_z(x, y)\]
-
-&lt;p&gt;Where the transverse electric field \(E_T(x, y)\) can be further decomposed into its x and y components:&lt;/p&gt;
-
-\[E_T(x, y) = \hat{x}E_x(x, y) + \hat{y}E_y(x, y)\]
-
-&lt;h3 id=&quot;classification-of-modes&quot;&gt;Classification of Modes&lt;/h3&gt;
-
-&lt;p&gt;Based on the longitudinal components \(E_z\) and \(H_z\), modes are classified as:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;TEM (Transverse Electric and Magnetic) Modes&lt;/strong&gt;: \(E_z = 0\), \(H_z = 0\)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;TE (Transverse Electric) Modes&lt;/strong&gt;: \(E_z = 0\), \(H_z \neq 0\)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;TM (Transverse Magnetic) Modes&lt;/strong&gt;: \(E_z \neq 0\), \(H_z = 0\)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Hybrid Modes&lt;/strong&gt;: \(E_z \neq 0\), \(H_z \neq 0\)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;advanced-laser-systems&quot;&gt;&lt;span style=&quot;color:red&quot;&gt;Advanced LASER Systems&lt;/span&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;longitudinal-laser-systems&quot;&gt;Longitudinal LASER Systems&lt;/h3&gt;
-
-&lt;p&gt;Longitudinal LASER systems operate by aligning the optical resonator (cavity) such that the light travels parallel to the cavity’s axis. In these systems, the gain medium is pumped to produce a population inversion, allowing for stimulated emission. The emitted photons travel back and forth between two mirrors at each end of the cavity, amplifying the light through successive passes. The longitudinal modes are determined by the cavity’s length and the refractive index of the gain medium, resulting in discrete frequency modes. These systems are critical for applications requiring high coherence and spectral purity, such as in spectroscopy and communication. Key parameters include the cavity length, the reflectivity of the mirrors, and the gain medium’s properties. Stability and alignment of the optical components are crucial for the effective operation of longitudinal LASER systems.&lt;/p&gt;
-
-&lt;h3 id=&quot;te-laser-systems&quot;&gt;TE-LASER Systems&lt;/h3&gt;
-
-&lt;p&gt;TE (Transverse Electric) LASER systems operate with the electric field component of the light oscillating perpendicular to the direction of propagation within the waveguide or resonator structure. These systems typically involve semiconductor materials and are used in diode lasers, where the active region is sandwiched between two cladding layers with differing refractive indices. This configuration confines the light within the active region and supports transverse electric modes. TE modes are characterized by having no electric field component in the direction of propagation (z-axis), which means the electric field lies entirely in the transverse plane (x, y). TE LASER systems are essential in applications requiring compact, efficient, and high-speed light sources, such as in optical communication, barcode scanning, and laser printing. Their design focuses on optimizing the waveguide structure, material composition, and junction properties to achieve desired performance.&lt;/p&gt;
-
-&lt;h2 id=&quot;specialized-laser-types&quot;&gt;&lt;span style=&quot;color:red&quot;&gt;Specialized LASER Types&lt;/span&gt;&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Excimer LASER&lt;/li&gt;
-  &lt;li&gt;Dye LASER&lt;/li&gt;
-  &lt;li&gt;Roman LASER&lt;/li&gt;
-  &lt;li&gt;Plasma Recombination LASER&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="Laser," /><category term="Solid" /><category term="State" /><category term="Laser," /><category term="Gas" /><category term="Laser," /><category term="Semiconductor" /><category term="Laser," /><category term="Waveguides," /><category term="Longitudinal" /><category term="LASER," /><category term="TE-LASER," /><category term="Excimer" /><category term="LASER," /><category term="Dye" /><category term="LASER," /><category term="Roman" /><category term="LASER," /><category term="Plasma" /><category term="Recombination" /><category term="LASER" /><summary type="html">``` Basic principles and different LASER’s: principles and working of Ruby Laser, He-Ne Laser, Solid state laser, semiconductor laser CO2 LASER and qualitative description of longitudinal and TE- LASER systems, Excimer LASER, Dye LASER, Roman LASER, Plasma recombination LASER.</summary></entry></feed>
+&lt;p&gt;To be continued …&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Dirac-Equation," /><category term="Current-Density," /><category term="Conservation-Equation" /><summary type="html">The Dirac equation for a free particle is given by:</summary></entry></feed>

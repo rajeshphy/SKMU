@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Basic Electronics: Semiconductors"
-date:   2024-11-22 04:47:26 +0530
+date:   2024-11-12 08:47:26 +0530
 categories: lecture
 tags: SEM-III
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Particle Classification"
+title:  "Particle Physics: Particle Classification"
 date:   2024-11-19 04:47:26 +0530
 categories: lecture
 tags: SEM-III
