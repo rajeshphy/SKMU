@@ -26,9 +26,8 @@ Whenever a nuclear reaction or decay occurs, the sum of the baryon numbers befor
 ```markdown
 Whenever a nuclear reaction or decay occurs, the sum of the lepton numbers before the process must equal the sum of the lepton numbers after the process.
 ```
----
 
-# Assignments
+### Assignments
 
 1. Use the law of conservation of baryon number to determine whether each of the following reactions can occur:
     - $p + p \rightarrow p + p + \pi^0$
@@ -79,8 +78,7 @@ strangeness states that
 ```markdown 
 In a nuclear reaction or decay that occurs via the strong force, strangeness is conserved; that is, the sum of the strangeness numbers before the process must equal the sum of the strangeness numbers after the process. In processes that occur via the weak interaction, strangeness may not be conserved.
 ```
----
-## Assignments
+### Assignments
 
 1. Whether this reaction can occur: $\pi^- + p \rightarrow p + K^0$ 
 
