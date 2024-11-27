@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-25T07:46:27+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Particle Physics: Conservation Laws</title><link href="http://localhost:4000/SKMU/lecture/2024/11/25/Particle-Laws.html" rel="alternate" type="text/html" title="Particle Physics: Conservation Laws" /><published>2024-11-25T04:47:26+05:30</published><updated>2024-11-25T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/25/Particle-Laws</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/25/Particle-Laws.html">&lt;p&gt;The conservation laws of energy, momentum, and charge govern all processes. In particle physics, additional empirical conservation laws are also crucial. They are:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-27T09:35:54+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Particle Physics: Conservation Laws</title><link href="http://localhost:4000/SKMU/lecture/2024/11/25/Particle-Laws.html" rel="alternate" type="text/html" title="Particle Physics: Conservation Laws" /><published>2024-11-25T04:47:26+05:30</published><updated>2024-11-25T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/25/Particle-Laws</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/25/Particle-Laws.html">&lt;p&gt;The conservation laws of energy, momentum, and charge govern all processes. In particle physics, additional empirical conservation laws are also crucial. They are:&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;Conservation of baryon number&lt;/li&gt;
   &lt;li&gt;Conservation of lepton number&lt;/li&gt;
@@ -28,24 +28,14 @@ The law of conservation of baryon number states that
   &lt;li&gt;Use the law of conservation of baryon number to determine whether each of the following reactions can occur:
     &lt;ul&gt;
       &lt;li&gt;$p + p \rightarrow p + p + \pi^0$&lt;/li&gt;
-      &lt;li&gt;$p + p \rightarrow p + p + \pi^+$&lt;/li&gt;
-      &lt;li&gt;$p + p \rightarrow p + p + K^+$&lt;/li&gt;
       &lt;li&gt;$p + p \rightarrow p + p + K^0$&lt;/li&gt;
       &lt;li&gt;$p + p \rightarrow p + p + \bar{K}^0$&lt;/li&gt;
       &lt;li&gt;$p + p \rightarrow p + p + \Lambda^0$&lt;/li&gt;
       &lt;li&gt;$p + p \rightarrow p + p + \Sigma^+$&lt;/li&gt;
-      &lt;li&gt;$p + p \rightarrow p + p + \Sigma^0$&lt;/li&gt;
-      &lt;li&gt;$p + p \rightarrow p + p + \Sigma^-$&lt;/li&gt;
       &lt;li&gt;$p + p \rightarrow p + p + \Xi^0$&lt;/li&gt;
       &lt;li&gt;$p + p \rightarrow p + p + \Xi^-$&lt;/li&gt;
       &lt;li&gt;$p + p \rightarrow p + p + \Omega^-$&lt;/li&gt;
       &lt;li&gt;$p + p \rightarrow p + p + n + \bar{n}$&lt;/li&gt;
-      &lt;li&gt;$p + p \rightarrow p + p + n + \bar{\Lambda}^0$&lt;/li&gt;
-      &lt;li&gt;$p + p \rightarrow p + p + n + \bar{\Sigma}^0$&lt;/li&gt;
-      &lt;li&gt;$p + p \rightarrow p + p + n + \bar{\Xi}^0$&lt;/li&gt;
-      &lt;li&gt;$p + p \rightarrow p + p + n + \bar{\Omega}^-$&lt;/li&gt;
-      &lt;li&gt;$p + p \rightarrow p + p + n + \bar{n} + \bar{\Lambda}^0$&lt;/li&gt;
-      &lt;li&gt;$p + p \rightarrow p + p + n + \bar{n} + \bar{\Sigma}^0$&lt;/li&gt;
       &lt;li&gt;$p + p \rightarrow p + p + n + \bar{n} + \bar{\Xi}^0$&lt;/li&gt;
       &lt;li&gt;$p + p \rightarrow p + p + n + \bar{n} + \bar{\Omega}^-$&lt;/li&gt;
     &lt;/ul&gt;
@@ -68,7 +58,49 @@ The law of conservation of baryon number states that
 &lt;/ol&gt;
 
 &lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/question-1.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt;
-     --&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">The conservation laws of energy, momentum, and charge govern all processes. In particle physics, additional empirical conservation laws are also crucial. They are: Conservation of baryon number Conservation of lepton number Conservation of strangeness Conservation of isospin Conservation of electric charge</summary></entry><entry><title type="html">Particle Physics: Particle Classification</title><link href="http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification.html" rel="alternate" type="text/html" title="Particle Physics: Particle Classification" /><published>2024-11-19T04:47:26+05:30</published><updated>2024-11-19T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification.html">&lt;p&gt;Japanese physicist Hideki Yukawa proposed in 1935 that the nuclear force is mediated by a new particle, a meson, whose exchange between nucleons causes the force. He predicted its mass to be about 200 times that of an electron, earning him a Nobel Prize in 1949. Because the new particle would have a mass between that of the electron and that of the proton, it was called a meson (from the Greek meso, “middle”)&lt;/p&gt;
+     --&gt;
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;strange-particles-and-strangeness&quot;&gt;Strange Particles and Strangeness&lt;/h1&gt;
+
+&lt;p&gt;Many particles discovered in the 1950s were produced by the interaction of
+pions with protons and neutrons in the atmosphere. A group of these—the
+kaon $k$, lambda $\Lambda$ and sigma $\Sigma$ particles—exhibited unusual properties
+both as they were created and as they decayed; hence, they were called strange
+particles.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;One unusual property of strange particles is that they are always produced in
+    pairs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For example, when a pion collides with a proton, a highly probable result is
+the production of two neutral strange particles:&lt;/p&gt;
+
+\[\pi^- + p \rightarrow \Lambda^0 + K^0\]
+
+&lt;ul&gt;
+  &lt;li&gt;The second peculiar feature of strange particles is that although they are produced in reactions involving the strong interaction at a high rate, they do not decay into particles that interact via the strong force at a high rate. Instead, they decay very slowly, which is characteristic of the weak interaction. Their half-lives are in the range $10^{-10}$ s to $10^{-8}$ s, whereas most other particles that interact via the strong force have much shorter lifetimes on the order of $10^{-23}$ s.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To explain these unusual properties of strange particles, a new quantum number S, called strangeness, was introduced, together with a conservation law. The production of strange particles in pairs is handled mathematically by assigning $S = +1$ to one of the particles, $S = -1$ to the other, and $S = 0$ to all non-strange particles. The law of conservation of 
+strangeness states that&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;In a nuclear reaction or decay that occurs via the strong force, strangeness is conserved; that is, the sum of the strangeness numbers before the process must equal the sum of the strangeness numbers after the process. In processes that occur via the weak interaction, strangeness may not be conserved.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;assignments-1&quot;&gt;Assignments&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Whether this reaction can occur: $\pi^- + p \rightarrow p + K^0$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use the law of strangeness conservation to determine whether the reaction $\pi^0+n\rightarrow K^++\Sigma^+$ occurs.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Show that the reaction $\pi^-+p\rightarrow \pi^-+\Sigma^+$ does not conserve strangeness.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">The conservation laws of energy, momentum, and charge govern all processes. In particle physics, additional empirical conservation laws are also crucial. They are: Conservation of baryon number Conservation of lepton number Conservation of strangeness Conservation of isospin Conservation of electric charge</summary></entry><entry><title type="html">Particle Physics: Particle Classification</title><link href="http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification.html" rel="alternate" type="text/html" title="Particle Physics: Particle Classification" /><published>2024-11-19T04:47:26+05:30</published><updated>2024-11-19T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/19/Particle-Classification.html">&lt;p&gt;Japanese physicist Hideki Yukawa proposed in 1935 that the nuclear force is mediated by a new particle, a meson, whose exchange between nucleons causes the force. He predicted its mass to be about 200 times that of an electron, earning him a Nobel Prize in 1949. Because the new particle would have a mass between that of the electron and that of the proton, it was called a meson (from the Greek meso, “middle”)&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; (Yukawa’s predicted particle is not the gluon as previously mentioned, which is massless and is today considered to be the field particle for the nuclear force.)&lt;/li&gt;

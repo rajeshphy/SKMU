@@ -30,24 +30,14 @@ Whenever a nuclear reaction or decay occurs, the sum of the lepton numbers befor
 
 1. Use the law of conservation of baryon number to determine whether each of the following reactions can occur:
     - $p + p \rightarrow p + p + \pi^0$
-    - $p + p \rightarrow p + p + \pi^+$
-    - $p + p \rightarrow p + p + K^+$
     - $p + p \rightarrow p + p + K^0$
     - $p + p \rightarrow p + p + \bar{K}^0$
     - $p + p \rightarrow p + p + \Lambda^0$
     - $p + p \rightarrow p + p + \Sigma^+$
-    - $p + p \rightarrow p + p + \Sigma^0$
-    - $p + p \rightarrow p + p + \Sigma^-$
     - $p + p \rightarrow p + p + \Xi^0$
     - $p + p \rightarrow p + p + \Xi^-$
     - $p + p \rightarrow p + p + \Omega^-$
     - $p + p \rightarrow p + p + n + \bar{n}$
-    - $p + p \rightarrow p + p + n + \bar{\Lambda}^0$
-    - $p + p \rightarrow p + p + n + \bar{\Sigma}^0$
-    - $p + p \rightarrow p + p + n + \bar{\Xi}^0$
-    - $p + p \rightarrow p + p + n + \bar{\Omega}^-$
-    - $p + p \rightarrow p + p + n + \bar{n} + \bar{\Lambda}^0$
-    - $p + p \rightarrow p + p + n + \bar{n} + \bar{\Sigma}^0$
     - $p + p \rightarrow p + p + n + \bar{n} + \bar{\Xi}^0$
     - $p + p \rightarrow p + p + n + \bar{n} + \bar{\Omega}^-$
 2. Now use Lepton number conservation to determine whether the following reactions can occur:
@@ -62,4 +52,36 @@ Whenever a nuclear reaction or decay occurs, the sum of the lepton numbers befor
 
 <!-- <img src="/SKMU/assets/images/Particle-Phy/question-1.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:100%; height:auto;">
      -->
+---
 
+# Strange Particles and Strangeness
+
+Many particles discovered in the 1950s were produced by the interaction of
+pions with protons and neutrons in the atmosphere. A group of these—the
+kaon $k$, lambda $\Lambda$ and sigma $\Sigma$ particles—exhibited unusual properties
+both as they were created and as they decayed; hence, they were called strange
+particles.
+-    One unusual property of strange particles is that they are always produced in
+    pairs. 
+
+For example, when a pion collides with a proton, a highly probable result is
+the production of two neutral strange particles:
+
+$$\pi^- + p \rightarrow \Lambda^0 + K^0$$
+
+- The second peculiar feature of strange particles is that although they are produced in reactions involving the strong interaction at a high rate, they do not decay into particles that interact via the strong force at a high rate. Instead, they decay very slowly, which is characteristic of the weak interaction. Their half-lives are in the range $10^{-10}$ s to $10^{-8}$ s, whereas most other particles that interact via the strong force have much shorter lifetimes on the order of $10^{-23}$ s.
+
+To explain these unusual properties of strange particles, a new quantum number S, called strangeness, was introduced, together with a conservation law. The production of strange particles in pairs is handled mathematically by assigning $S = +1$ to one of the particles, $S = -1$ to the other, and $S = 0$ to all non-strange particles. The law of conservation of 
+strangeness states that 
+
+```markdown 
+In a nuclear reaction or decay that occurs via the strong force, strangeness is conserved; that is, the sum of the strangeness numbers before the process must equal the sum of the strangeness numbers after the process. In processes that occur via the weak interaction, strangeness may not be conserved.
+```
+---
+## Assignments
+
+1. Whether this reaction can occur: $\pi^- + p \rightarrow p + K^0$ 
+
+2. Use the law of strangeness conservation to determine whether the reaction $\pi^0+n\rightarrow K^++\Sigma^+$ occurs.
+
+3. Show that the reaction $\pi^-+p\rightarrow \pi^-+\Sigma^+$ does not conserve strangeness.
