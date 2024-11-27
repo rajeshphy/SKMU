@@ -13,6 +13,8 @@ The conservation laws of energy, momentum, and charge govern all processes. In p
 4. Conservation of isospin
 5. Conservation of electric charge
 
+# Baryon Number and Lepton Number
+
 - Experimental results show that whenever a baryon is created in a decay or nuclear
 reaction, an antibaryon is also created. This scheme can be quantified by assigning every particle a quantum number, the baryon number, as follows: $B=+1$ for
 all baryons, $B=-1$ for all antibaryons, and $B=0$ for all other particles.
