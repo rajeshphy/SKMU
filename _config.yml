@@ -1,7 +1,7 @@
 lang: en-US
 title: Rajesh Kumar
 email: kr.rajesh.phy@gmail.com
-description: Theoretical Physicst
+description: Lecture Notes
 baseurl: "/SKMU" # the optional subpath of your site, e.g. "/blog"
 url:  # the base hostname & protocol for your site e.g. ""
 PAPERS-ORG: "" #For online it shold be blank ""
