@@ -1,4 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-30T13:00:02+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Theoretical Physicst</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Particle Physics: Conservation Laws</title><link href="http://localhost:4000/SKMU/lecture/2024/11/25/Particle-Laws.html" rel="alternate" type="text/html" title="Particle Physics: Conservation Laws" /><published>2024-11-25T04:47:26+05:30</published><updated>2024-11-25T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/25/Particle-Laws</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/25/Particle-Laws.html">&lt;p&gt;The conservation laws of energy, momentum, and charge govern all processes. In particle physics, additional empirical conservation laws are also crucial. They are:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-06T09:27:58+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-12-05T08:47:26+05:30</published><updated>2024-12-05T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At present, most solar cells are silicon-based, since this is the most mature technology. However, other materials are under active investigation and may supersede silicon in the long term. The electrical properties of semiconductors can be explained using two models, the bond and the band models.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;The bond model&lt;/strong&gt; uses the covalent bonds joining the silicon atoms to describe semiconductor behaviour. At low temperatures, silicon acts as an insulator because the bonds are intact. At high temperatures, some bonds break, allowing conduction through two processes:
+    &lt;ol&gt;
+      &lt;li&gt;Electrons from broken bonds are free to move.&lt;/li&gt;
+      &lt;li&gt;Electrons from neighboring bonds can move into the ‘hole’ created by the broken bond, causing the hole to propagate as if it had a positive charge.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/SKMU/assets/images/Electronics/Bond.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;The band model&lt;/strong&gt; describes semiconductor behaviour in terms of the energy levels between valence and conduction bands. The electrons in covalent bonds have energies corresponding to those in the valence
+band. In the &lt;em&gt;conduction band&lt;/em&gt; the electrons are free. The &lt;em&gt;forbidden gap&lt;/em&gt; corresponds to the minimum energy needed to release an electron from a covalent bond to the conducting band where it can conduct a current. The &lt;em&gt;holes&lt;/em&gt; remaining conduct in the opposite direction in the valence band, as described for the bond model.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/SKMU/assets/images/Electronics/Band.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;doping&quot;&gt;Doping&lt;/h2&gt;
+&lt;p&gt;It is possible to shift the balance of electrons and holes in a silicon crystal lattice by ‘doping’ it with other atoms. Atoms with one more valence electron than the semiconductor are used to produce ‘&lt;em&gt;n-type&lt;/em&gt;’ material. Atoms with one less valence electron result in ‘&lt;em&gt;p-type&lt;/em&gt;’ material.
+&lt;img src=&quot;/SKMU/assets/images/Electronics/Doping.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The digram below shows the classification of semiconductors based on doping.&lt;/p&gt;
+&lt;div class=&quot;mermaid&quot;&gt;
+graph TD
+    A[Semiconductors] --&amp;gt; B[Intrinsic Semiconductors]
+    A --&amp;gt; C[Extrinsic Semiconductors]
+    C --&amp;gt; D[n-type]
+    C --&amp;gt; E[p-type]
+    B --&amp;gt; F(Example: Sillicon, Germanium, etc.)
+    D --&amp;gt; G(Dopants: Phosphorus, Arsenic, etc.)
+    E --&amp;gt; H(Dopants: Boron, Aluminium, etc.)
+
+    style F fill:#d3f9d8,stroke:#009900,stroke-width:2px
+    style G fill:#d3f9d8,stroke:#009900,stroke-width:2px
+    style H fill:#d3f9d8,stroke:#009900,stroke-width:2px
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Intrinsic Semiconductors&lt;/strong&gt;: Pure semiconductors are called intrinsic semiconductors. They are made of silicon or germanium. They have equal numbers of electrons and holes.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Extrinsic Semiconductors&lt;/strong&gt;: Semiconductors doped with impurities are called extrinsic semiconductors. They are of two types: n-type and p-type.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;pn-junction&quot;&gt;PN Junction&lt;/h1&gt;
+
+&lt;p&gt;A &lt;em&gt;PN junction&lt;/em&gt; is formed by joining a p-type and an n-type semiconductor. The junction has a depletion region where the electrons and holes have combined, leaving behind immobile ions. The depletion region acts as an insulator, preventing current flow. When a voltage is applied across the junction, the depletion region narrows, allowing current to flow. The junction is used in diodes, transistors, and solar cells. Figure below shows the formation of a PN junction.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/SKMU/assets/images/Electronics/pnjunction.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:50%;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mechanism of Formation of PN Junction&lt;/strong&gt;: When a p-type semiconductor and an n-type semiconductor are brought into contact, electrons from the n-type region diffuse into the p-type region and recombine with holes. Similarly, holes from the p-type region diffuse into the n-type region and recombine with electrons. This diffusion process continues until a depletion region is formed at the junction, where no free charge carriers are present. The immobile ions left behind create an electric field that opposes further diffusion of charge carriers. This electric field establishes a built-in potential barrier that must be overcome for current to flow across the junction. When an external voltage is applied, it can either widen or narrow the depletion region, allowing or preventing current flow, respectively.&lt;/p&gt;
+
+&lt;p&gt;Based on the voltage applied, the PN junction can be classified into three modes of operation:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Forward Bias&lt;/strong&gt;: When the positive terminal of the battery is connected to the p-type region and the negative terminal to the n-type region, the depletion region narrows, allowing current to flow. This is the forward bias mode.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reverse Bias&lt;/strong&gt;: When the positive terminal of the battery is connected to the n-type region and the negative terminal to the p-type region, the depletion region widens, preventing current flow. This is the reverse bias mode.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Zero Bias&lt;/strong&gt;: When no external voltage is applied, the depletion region remains constant, and no current flows. This is the zero bias mode.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/SKMU/assets/images/Electronics/pnjunction-full.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:60%;&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;The operation of a junction as a diode is best understood in terms of the potential difference graph shown at the bottom of Figure-(a,b,c) above. When a voltage $\Delta V$ is applied to the junction such that the $p$-side is connected to the positive terminal of a voltage source (as shown in Figure-a), the internal potential difference $\Delta V_0$ across the junction decreases, as illustrated at the bottom of the figure. This decrease results in a current that increases exponentially with increasing forward voltage (or forward bias). In the case of reverse bias—where the $n$-side of the junction is connected to the positive terminal of a voltage source—the internal potential difference $\Delta V_0$ increases with increasing reverse bias, as shown in Figure-b. This increase leads to a very small reverse current that quickly reaches a saturation value, $I_0$. The current–voltage relationship for an ideal diode is given by the equation:&lt;/p&gt;
+
+&lt;p&gt;$I = I_0 \left(e^{\frac{e \Delta V}{k_B T}} - 1\right)$,&lt;/p&gt;
+
+&lt;p&gt;where the first $e$ is the base of the natural logarithm, the second $e$ represents the magnitude of the electron charge, $k_B$ is Boltzmann’s constant, and $T$ is the absolute temperature. Figure-c shows an $I$–$\Delta V$ plot characteristic of a real $p$–$n$ junction, demonstrating its one-way valve behavior.&lt;/p&gt;
+
+&lt;h2 id=&quot;exercise&quot;&gt;Exercise&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Estimate the band gap of the semiconductor in the infrared LED of a typical television remote control.
+&lt;strong&gt;Hint:&lt;/strong&gt; the wavelength of infrared light ranges from 700 nm to 1 mm.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors. Note: Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.</summary></entry><entry><title type="html">Particle Physics: Quarks</title><link href="http://localhost:4000/SKMU/lecture/2024/12/02/Particle-Quarks.html" rel="alternate" type="text/html" title="Particle Physics: Quarks" /><published>2024-12-02T04:47:26+05:30</published><updated>2024-12-02T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/02/Particle-Quarks</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/02/Particle-Quarks.html">&lt;p&gt;&lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Scientists use patterns in data to understand natural phenomena, such as differences in the specific heat of gases, ionization energy levels, and nuclear binding energy. One of the most significant examples is the periodic table, which explains the behavior of over 100 elements formed from just protons, neutrons, and electrons. Inspired by the periodic table, physicists have sought patterns to classify the hundreds of observed particles. Baryons with spin $\frac{1}{2}$ and spin-zero mesons, for instance, can be grouped based on properties like strangeness $\mathbf{S}$ and charge $\mathbf{Q}$. The Eightfold Way (Gell-Mann named the patterns the Eightfold Way after the Eightfold Path to nirvana in Buddhism), developed by Murray Gell-Mann and Yuval Ne’eman in 1961, is one such classification scheme.&lt;/p&gt;
+
+&lt;p&gt;The figure at the top shows the Eightfold Way classification for baryons on the left and mesons on the right. &lt;strong&gt;Is it possible that a small number of entities exist from which all these particles can be built?&lt;/strong&gt;. The existence of the strangeness–charge patterns of the eightfold way suggests that hadrons have substructure. Furthermore, hundreds of types of hadrons exist and many decay into other hadrons. In 1963, Gell-Mann and George Zweig independently proposed a model for the substructure of hadrons. According to their model, all hadrons are composed of two or three elementary constituents called quarks. The model has three types of quarks, designated by the symbols $u$, $d$, and $s$, that are given the arbitrary names &lt;strong&gt;up&lt;/strong&gt;, &lt;strong&gt;down&lt;/strong&gt;, and &lt;strong&gt;strange&lt;/strong&gt;. The figure below shows the quark compositions for mesons and baryons. The various types of quarks are called &lt;strong&gt;flavors&lt;/strong&gt;.&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Quark-composition.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:30%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;An unusual property of quarks is that they carry a fractional electric charge. The $u$, $d$, and $s$ quarks have charges of $\frac{2}{3}e$, $-\frac{1}{3}e$, and $-\frac{1}{3}e$, respectively, where $e$ is the elementary charge $1.602 × 10^{-19}\; C$. These and other properties of quarks and antiquarks are given in Table below.&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Quarks-table.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;The compositions of all hadrons known when Gell-Mann and Zweig presented their model can be completely specified by three simple rules:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A meson consists of one quark and one antiquark, giving it a baryon number of 0, as required.&lt;/li&gt;
+  &lt;li&gt;A baryon consists of three quarks.&lt;/li&gt;
+  &lt;li&gt;An antibaryon consists of three antiquarks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;charm-bottom-and-top-quarks&quot;&gt;Charm, Bottom, and Top Quarks&lt;/h3&gt;
+
+&lt;p&gt;The original quark model, which included the up, down, and strange quarks, encountered limitations when explaining certain experimental decay rates and particle properties. This led to the proposal of a fourth quark flavor, &lt;strong&gt;charm ($c$)&lt;/strong&gt;, in 1967. The charmed quark, like the up quark, carries a charge of $+\frac{2}{3}e$ but is distinguished by a quantum number called charm $C$, with the charmed quark having $C = +1$ and its antiquark having $C = -1$. Experimental evidence for the charm quark emerged in 1974 with the discovery of the $\psi$ meson ($c\bar{c}$), a particle significantly more massive and longer-lived than other mesons, leading to the Nobel Prize for Burton Richter and Samuel Ting in 1976.&lt;/p&gt;
+
+&lt;p&gt;In 1977, the discovery of a new heavy meson, the upsilon ($\Upsilon$), at Fermilab confirmed the existence of the &lt;strong&gt;bottom ($b$)&lt;/strong&gt; quark. The bottom quark has a charge of $-\frac{1}{3}e$ and is associated with the quantum number bottomness, analogous to charm. Finally, the &lt;strong&gt;top ($t$)&lt;/strong&gt; quark, the heaviest of all quarks with a mass of approximately $173 \ \text{GeV}/c^2$, was discovered in 1995 at Fermilab. The top quark also carries a charge of $+\frac{2}{3}e$. Together with their antiquarks, these flavors complete the six-quark model.&lt;/p&gt;
+
+&lt;p&gt;These quarks interact via the strong force, mediated by gluons, and are never observed in isolation due to confinement. Instead, they combine to form mesons (quark-antiquark pairs) and baryons (three-quark combinations). Quantum chromodynamics (QCD) describes their interactions, with color charge playing a crucial role in ensuring the stability and properties of hadrons.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Quarks have never been observed in isolation due to their confinement by the strong force, which increases with distance, similar to a stretched spring. Efforts to create a quark–gluon plasma, where quarks are liberated from protons and neutrons, have shown progress. In 2000, CERN reported evidence of such a plasma from lead nucleus collisions.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">Particle Physics: Conservation Laws</title><link href="http://localhost:4000/SKMU/lecture/2024/11/25/Particle-Laws.html" rel="alternate" type="text/html" title="Particle Physics: Conservation Laws" /><published>2024-11-25T04:47:26+05:30</published><updated>2024-11-25T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/25/Particle-Laws</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/25/Particle-Laws.html">&lt;p&gt;The conservation laws of energy, momentum, and charge govern all processes. In particle physics, additional empirical conservation laws are also crucial. They are:&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;Conservation of baryon number&lt;/li&gt;
   &lt;li&gt;Conservation of lepton number&lt;/li&gt;
@@ -371,58 +479,7 @@ $&lt;/p&gt;
 m_\pi \approx \frac{197 \ \text{MeV fm}}{1 \ \text{fm} \cdot c} \approx 197 \ \text{MeV}/c^2
 $&lt;/p&gt;
 
-&lt;p&gt;Thus, Yukawa predicted the mass of the pion to be approximately 200 times the mass of the electron, which aligns with the observed pion mass in nature.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/11/12/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-11-12T08:47:26+05:30</published><updated>2024-11-12T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/12/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/12/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;At present, most solar cells are silicon-based, since this is the most mature technology. However, other materials are under active investigation and may supersede silicon in the long term. The electrical properties of semiconductors can be explained using two models, the bond and the band models.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;The bond model&lt;/strong&gt; uses the covalent bonds joining the silicon atoms to describe semiconductor behaviour. At low temperatures, silicon acts as an insulator because the bonds are intact. At high temperatures, some bonds break, allowing conduction through two processes:
-    &lt;ol&gt;
-      &lt;li&gt;Electrons from broken bonds are free to move.&lt;/li&gt;
-      &lt;li&gt;Electrons from neighboring bonds can move into the ‘hole’ created by the broken bond, causing the hole to propagate as if it had a positive charge.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/SKMU/assets/images/Electronics/Bond.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;The band model&lt;/strong&gt; describes semiconductor behaviour in terms of the energy levels between valence and conduction bands. The electrons in covalent bonds have energies corresponding to those in the valence
-band. In the &lt;em&gt;conduction band&lt;/em&gt; the electrons are free. The &lt;em&gt;forbidden gap&lt;/em&gt; corresponds to the minimum energy needed to release an electron from a covalent bond to the conducting band where it can conduct a current. The &lt;em&gt;holes&lt;/em&gt; remaining conduct in the opposite direction in the valence band, as described for the bond model.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/SKMU/assets/images/Electronics/Band.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;doping&quot;&gt;Doping&lt;/h2&gt;
-&lt;p&gt;It is possible to shift the balance of electrons and holes in a silicon crystal lattice by ‘doping’ it with other atoms. Atoms with one more valence electron than the semiconductor are used to produce ‘&lt;em&gt;n-type&lt;/em&gt;’ material. Atoms with one less valence electron result in ‘&lt;em&gt;p-type&lt;/em&gt;’ material.
-&lt;img src=&quot;/SKMU/assets/images/Electronics/Doping.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The digram below shows the classification of semiconductors based on doping.&lt;/p&gt;
-&lt;div class=&quot;mermaid&quot;&gt;
-graph TD
-    A[Semiconductors] --&amp;gt; B[Intrinsic Semiconductors]
-    A --&amp;gt; C[Extrinsic Semiconductors]
-    C --&amp;gt; D[n-type]
-    C --&amp;gt; E[p-type]
-    B --&amp;gt; F(Example: Sillicon, Germanium, etc.)
-    D --&amp;gt; G(Dopants: Phosphorus, Arsenic, etc.)
-    E --&amp;gt; H(Dopants: Boron, Aluminium, etc.)
-
-    style F fill:#d3f9d8,stroke:#009900,stroke-width:2px
-    style G fill:#d3f9d8,stroke:#009900,stroke-width:2px
-    style H fill:#d3f9d8,stroke:#009900,stroke-width:2px
-&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Intrinsic Semiconductors&lt;/strong&gt;: Pure semiconductors are called intrinsic semiconductors. They are made of silicon or germanium. They have equal numbers of electrons and holes.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Extrinsic Semiconductors&lt;/strong&gt;: Semiconductors doped with impurities are called extrinsic semiconductors. They are of two types: n-type and p-type.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors. Note: Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.</summary></entry><entry><title type="html">PG-III Lecture Topics</title><link href="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html" rel="alternate" type="text/html" title="PG-III Lecture Topics" /><published>2024-11-12T06:47:26+05:30</published><updated>2024-11-12T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
+&lt;p&gt;Thus, Yukawa predicted the mass of the pion to be approximately 200 times the mass of the electron, which aligns with the observed pion mass in nature.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">PG-III Lecture Topics</title><link href="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html" rel="alternate" type="text/html" title="PG-III Lecture Topics" /><published>2024-11-12T06:47:26+05:30</published><updated>2024-11-12T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
 
 &lt;h3 id=&quot;phy-a-09-open-elective-basic-applied-physics&quot;&gt;PHY A-09: Open Elective: Basic Applied Physics&lt;/h3&gt;
 &lt;ul&gt;
@@ -1240,226 +1297,4 @@ r = |\mathbf{x}|
 
 &lt;p&gt;Therefore the differential scattering cross-section is given by&lt;/p&gt;
 
-\[\frac{d\sigma}{d\Omega}=\left| \frac{1}{k} \sum_{l=0}^\infty \;(2l+1)\;\sin \delta_l\;e^{i\delta_l}P_l(\cos \theta)\right|{}^2\]</content><author><name>Rajesh Kumar</name></author><category term="Scattering," /><category term="Quantum" /><category term="Mechanics," /><category term="Partial" /><category term="Wave" /><category term="Analysis," /><category term="Phase" /><category term="Shifts," /><category term="Rutherford" /><category term="Scattering," /><category term="Born" /><category term="Approximation" /><summary type="html">Consider the Hamiltonian $H$ of the system, which is time-independent, given by</summary></entry><entry><title type="html">Derivations-QM: Current Density Conservation Equation</title><link href="http://localhost:4000/SKMU/lecture/2024/07/03/Probability-Density.html" rel="alternate" type="text/html" title="Derivations-QM: Current Density Conservation Equation" /><published>2024-07-03T18:47:26+05:30</published><updated>2024-07-03T18:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/07/03/Probability-Density</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/07/03/Probability-Density.html">&lt;p&gt;The Dirac equation for a free particle is given by:&lt;/p&gt;
-
-\[(i \gamma^\mu \partial_\mu - m) \psi = 0\]
-
-&lt;p&gt;where \(\psi\) is the Dirac spinor, \(\gamma^\mu\) are the gamma matrices, \(\partial_\mu\) denotes the four-gradient, and \(m\) is the mass of the particle. The conjugate of the Dirac spinor \(\psi\) is denoted by \(\bar{\psi} = \psi^\dagger \gamma^0\).&lt;/p&gt;
-
-&lt;h2 id=&quot;step-by-step-derivation&quot;&gt;Step-by-Step Derivation&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Start with the Dirac Equation:&lt;/strong&gt;&lt;/p&gt;
-
-\[(i \gamma^\mu \partial_\mu - m) \psi = 0\]
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Multiply from the left by \(\bar{\psi}\):&lt;/strong&gt;&lt;/p&gt;
-
-\[\bar{\psi} (i \gamma^\mu \partial_\mu - m) \psi = 0\]
-
-    &lt;p&gt;This expands to:&lt;/p&gt;
-
-\[i \bar{\psi} \gamma^\mu \partial_\mu \psi - m \bar{\psi} \psi = 0\]
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Take the Dirac conjugate of the Dirac equation:&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;p&gt;The Dirac conjugate of the Dirac equation is:&lt;/p&gt;
-
-\[\psi^{\dagger} ( -i \overleftarrow{\partial_\mu} \gamma^{\mu\;\dagger} - m) = 0\]
-
-    &lt;p&gt;Here, \(\overleftarrow{\partial_\mu}\) indicates that the derivative acts to the left. Multiplying both sides by \(\gamma^0\) on R.H.S we get&lt;/p&gt;
-
-\[\psi^{\dagger} ( -i \overleftarrow{\partial_t} \gamma^{0\;\dagger} -i \overleftarrow{\partial_k} \gamma^{k\;\dagger} - m)\gamma^0 = 0\]
-
-    &lt;p&gt;and using the property \(\gamma^{k \dagger}=-\gamma^{k}\) and \(\gamma^0 \gamma^k=\gamma^k\gamma^0\) and $k\neq0$ we get&lt;/p&gt;
-
-\[\psi^{\dagger} ( -i \overleftarrow{\partial_t} \gamma^{0}\gamma^0 -i \overleftarrow{\partial_k} \gamma^0\gamma^{k} - m\gamma^0) = 0\]
-
-    &lt;p&gt;Now using \(\psi^{\dagger}\overleftarrow{\partial_t} \gamma^0=\partial_t\bar{\psi}\) we get&lt;/p&gt;
-
-\[-i \partial_t\bar{\psi} \gamma^0 -i \partial_k\bar{\psi} \gamma^k - m\bar{\psi}  = 0\]
-
-    &lt;p&gt;In einstein summation form we get&lt;/p&gt;
-
-\[-i \partial_\mu\bar{\psi} \;\gamma^\mu - m\bar{\psi}  = 0\]
-
-    &lt;p&gt;Multiplying by \(\psi\) on R.H.S and cancelling negative sign we get&lt;/p&gt;
-
-\[i \partial_\mu\bar{\psi} \;\gamma^\mu\psi + m\bar{\psi}\psi  = 0\]
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Combine the results:&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;p&gt;From steps 2 and 3, we have:&lt;/p&gt;
-
-\[i \bar{\psi} \gamma^\mu \partial_\mu \psi = m \bar{\psi} \psi\]
-
-    &lt;p&gt;And:&lt;/p&gt;
-
-\[i\partial_\mu \bar{\psi} \gamma^\mu \psi = - m \bar{\psi} \psi\]
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Add the conjugate equation from the original:&lt;/strong&gt;&lt;/p&gt;
-
-\[i \bar{\psi} \gamma^\mu \partial_\mu \psi + \partial_\mu \bar{\psi} \gamma^\mu \psi = 0\]
-
-    &lt;p&gt;This simplifies to:&lt;/p&gt;
-
-\[i \partial_\mu (\bar{\psi} \gamma^\mu \psi) = 0\]
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Define the current density \(j^\mu\):&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;p&gt;The current density \(j^\mu\) is defined as:&lt;/p&gt;
-
-\[j^\mu = \bar{\psi} \gamma^\mu \psi\]
-
-    &lt;p&gt;Hence, the above equation becomes:&lt;/p&gt;
-
-\[\partial_\mu j^\mu = 0\]
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;The current density conservation equation derived from the Dirac equation is:&lt;/p&gt;
-
-\[\partial_\mu j^\mu = 0\]
-
-&lt;p&gt;This equation expresses the conservation of probability current in relativistic quantum mechanics. The four-current \(j^\mu = \bar{\psi} \gamma^\mu \psi\) is conserved, indicating that the total probability (or charge) is conserved in the system.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;plane-wave-solution-of-dirac-equation&quot;&gt;Plane Wave Solution of Dirac Equation&lt;/h1&gt;
-
-&lt;p&gt;Sure, let’s start with the plane wave given by&lt;/p&gt;
-
-\[\psi(x^\mu) = \begin{pmatrix} u_A \\ u_B \end{pmatrix} e^{-i p_\mu x^\mu}\]
-
-&lt;p&gt;where \(\begin{pmatrix} u_A \\ u_B \end{pmatrix}\) is a spinor, and \(p_\mu x^\mu = p^0 x^0 - \mathbf{p} \cdot \mathbf{x}\).&lt;/p&gt;
-
-&lt;p&gt;and use Dirac equation to solve for the spinors \(u_A\), \(u_B\) and Energy \(E\). Here is step by step solution:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Substitute the Plane Wave Solution&lt;/strong&gt;:&lt;/p&gt;
-
-    &lt;p&gt;Substitute \(\psi(x)\) into the Dirac equation:&lt;/p&gt;
-
-\[(i \gamma^\mu \partial_\mu - m) \psi(x) = 0\]
-
-    &lt;p&gt;Applying the derivative \(\partial_\mu\):&lt;/p&gt;
-
-\[\color{red}{\partial_\mu \psi(x) = -ip_\mu \begin{pmatrix} u_A \\ u_B \end{pmatrix} e^{-i p_\mu x^\mu}}\]
-
-    &lt;p&gt;Thus, the Dirac equation becomes:&lt;/p&gt;
-
-\[\left[i \gamma^\mu (-ip_\mu) - m\right] \begin{pmatrix} u_A \\ u_B \end{pmatrix} e^{-i p_\mu x^\mu} = 0\]
-
-    &lt;p&gt;Simplifying, we get:&lt;/p&gt;
-
-\[(\gamma^\mu p_\mu - m) \begin{pmatrix} u_A \\ u_B \end{pmatrix} = 0\]
-
-    &lt;p&gt;which is a Dirac equation in momentum space.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Writing the Dirac Equation in Matrix Form&lt;/strong&gt;:&lt;/p&gt;
-
-    &lt;p&gt;The Dirac equation becomes:&lt;/p&gt;
-
-\[\left( \gamma^0 p^0 - \gamma^i p^i - m \right) \begin{pmatrix} u_A \\ u_B \end{pmatrix} = 0\]
-
-    &lt;p&gt;Expanding the terms, we have:&lt;/p&gt;
-
-\[\color{red}{ \left[ \begin{pmatrix}
-I &amp;amp; 0 \\
-0 &amp;amp; -I
-\end{pmatrix} p^0 - \begin{pmatrix}
-0 &amp;amp; \sigma^i \\
--\sigma^i &amp;amp; 0
-\end{pmatrix} p^i - m \right] \begin{pmatrix} u_A \\ u_B \end{pmatrix} = 0 }\]
-
-    &lt;p&gt;where the gamma matrices are expanded with the form given by:&lt;/p&gt;
-
-\[\gamma^0 = \begin{pmatrix}
-I &amp;amp; 0 \\
-0 &amp;amp; -I
-\end{pmatrix}, \quad \gamma^i = \begin{pmatrix}
-0 &amp;amp; \sigma^i \\
--\sigma^i &amp;amp; 0
-\end{pmatrix}\]
-
-    &lt;p&gt;where \(I\) is the \(2 \times 2\) identity matrix, and \(\sigma^i\) (with \(i = 1, 2, 3\)) are the Pauli matrices:&lt;/p&gt;
-
-\[\sigma^1 = \begin{pmatrix}
-0 &amp;amp; 1 \\
-1 &amp;amp; 0
-\end{pmatrix}, \quad \sigma^2 = \begin{pmatrix}
-0 &amp;amp; -i \\
-i &amp;amp; 0
-\end{pmatrix}, \quad \sigma^3 = \begin{pmatrix}
-1 &amp;amp; 0 \\
-0 &amp;amp; -1
-\end{pmatrix}\]
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Substitute the Pauli spin matrices and Simplify&lt;/strong&gt;:&lt;/p&gt;
-
-    &lt;p&gt;On simplifying the above matrix we get:&lt;/p&gt;
-
-\[\begin{pmatrix}
- I(p^0-m) &amp;amp; -\sigma^i p^i \\
-\sigma^i p^i &amp;amp; - I(p^0+m)
-\end{pmatrix}  \begin{pmatrix} u_A \\ u_B \end{pmatrix}  = 0\]
-
-    &lt;p&gt;Or,&lt;/p&gt;
-
-\[\begin{pmatrix}
- I(E-m) &amp;amp; -\sigma^i p^i \\
-\sigma^i p^i &amp;amp; - I(E+m)
-\end{pmatrix}  \begin{pmatrix} u_A \\ u_B \end{pmatrix}  = 0\]
-
-    &lt;p&gt;Or,&lt;/p&gt;
-
-\[\begin{pmatrix}
-E-m &amp;amp; 0 &amp;amp; -p_z &amp;amp; -(p_x-ip_y) \\
-0 &amp;amp; E-m &amp;amp; -(p_x+ip_y) &amp;amp; p_z\\
-p_z &amp;amp; (p_x-ip_y)&amp;amp;-(E+m)&amp;amp;0\\
-(p_x+ip_y) &amp;amp; -p_z &amp;amp;0 &amp;amp;-(E+m)
-\end{pmatrix}  \begin{pmatrix} u_A \\ u_B \end{pmatrix}  = 0\]
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Here, the spinor \(\begin{pmatrix} u_A \\ u_B \end{pmatrix}\) can take four possible form; two for positive energy \(E=\sqrt{p^2+m^2}\) and two for negative energy \(E=-\sqrt{p^2+m^2}\) as:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;For Positive energy:&lt;/p&gt;
-
-\[u_1=N_1\begin{pmatrix} 1\\0 \\ A_1\\B_1 \end{pmatrix}\qquad u_2=N_2\begin{pmatrix} 0\\1 \\ A_2\\B_2 \end{pmatrix}\]
-
-    &lt;p&gt;where, \((A_1,\;B_1)\) and \((A_2,\;B_2)\) are \((\frac{p_z}{E+m} , \frac{p_x+i p_y}{E+m})\) and \((\frac{p_x-i p_y}{E+m} , \frac{-p_z}{E+m})\) respectively. \(N_i\) are normalization constant.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;For Negative energy:&lt;/p&gt;
-
-\[u_3=N_3\begin{pmatrix} A_3\\B_3 \\ 1\\0 \end{pmatrix}\qquad u_4=N_4\begin{pmatrix} A_4\\B_4 \\ 0\\1  \end{pmatrix}\]
-
-    &lt;p&gt;where, \((A_3,\;B_3)\) and \((A_4,\;B_4)\) are \((\frac{p_z}{E-m} , \frac{p_x+i p_y}{E-m})\) and \((\frac{p_x-i p_y}{E-m} , \frac{-p_z}{E-m})\) respectively.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Therefore the eigenfunctions corresponding to positive energy states are:&lt;/p&gt;
-
-\[\psi_1(x^\mu)=u_1e^{-ip_\mu x^\mu}\qquad \psi_2(x^\mu)=u_2e^{-ip_\mu x^\mu}\]
-
-&lt;p&gt;and for negative energy state the eigenfunctions are:&lt;/p&gt;
-
-\[\psi_3(x^\mu)=u_3e^{ip_\mu x^\mu}\qquad \psi_4(x^\mu)=u_4e^{ip_\mu x^\mu}\]
-
-&lt;h2 id=&quot;interpretation-of-negative-energy-states&quot;&gt;Interpretation of negative energy states&lt;/h2&gt;
-
-&lt;p&gt;To be continued …&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Dirac-Equation," /><category term="Current-Density," /><category term="Conservation-Equation" /><summary type="html">The Dirac equation for a free particle is given by:</summary></entry></feed>
+\[\frac{d\sigma}{d\Omega}=\left| \frac{1}{k} \sum_{l=0}^\infty \;(2l+1)\;\sin \delta_l\;e^{i\delta_l}P_l(\cos \theta)\right|{}^2\]</content><author><name>Rajesh Kumar</name></author><category term="Scattering," /><category term="Quantum" /><category term="Mechanics," /><category term="Partial" /><category term="Wave" /><category term="Analysis," /><category term="Phase" /><category term="Shifts," /><category term="Rutherford" /><category term="Scattering," /><category term="Born" /><category term="Approximation" /><summary type="html">Consider the Hamiltonian $H$ of the system, which is time-independent, given by</summary></entry></feed>
