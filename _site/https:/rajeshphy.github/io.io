@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-10T09:46:13+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-10T10:48:35+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
 
 &lt;p&gt;The two general kinds of nuclear reactions are:&lt;/p&gt;
 &lt;ol&gt;
@@ -25,19 +25,55 @@
 &lt;/div&gt; --&gt;
 
 &lt;h3 id=&quot;q-value-of-nuclear-reaction&quot;&gt;Q-Value of Nuclear Reaction&lt;/h3&gt;
+
+&lt;p&gt;Nuclear reactions can occur when a target nucleus $X$ is bombarded by a particle $a$, resulting in a daughter nucleus $Y$ and an outgoing particle $b$:&lt;/p&gt;
+
+\[a + X \rightarrow Y + b\]
+
 &lt;p&gt;The &lt;strong&gt;reaction energy $Q$&lt;/strong&gt; in a nuclear reaction represents the difference between the initial and final rest energies of the participating nuclei. Mathematically, it is given by:&lt;/p&gt;
 
-\[Q = (M_a + M_X - M_Y - M_b)c^2\]
+\[Q = (M_a + M_X - M_b - M_Y)c^2\]
 
-&lt;p&gt;where $M_a$ and $M_b$ are the masses of the reactants, $M_X$ and $M_Y$ are the masses of the products, and $c$ is the speed of light.&lt;/p&gt;
+&lt;p&gt;where $M_a$ and $M_X$ are the masses of the reactants, $M_b$ and $M_Y$ are the masses of the products, and $c$ is the speed of light.&lt;/p&gt;
 
-&lt;p&gt;A positive $Q$-value indicates an &lt;strong&gt;exothermic reaction&lt;/strong&gt;, where energy is released. For example, in the reaction&lt;/p&gt;
+&lt;p&gt;A positive $Q$-value indicates an &lt;strong&gt;exothermic reaction&lt;/strong&gt;, where energy is released. For example, in the reaction:&lt;/p&gt;
 
-&lt;p&gt;\(\ce{^1H + ^7Li -&amp;gt; ^4He + ^4He}\) ,&lt;/p&gt;
+&lt;p&gt;\(\ce{^1_1H + ^7_3Li -&amp;gt; ^4_2He + ^4_2He}\) ,&lt;/p&gt;
 
 &lt;p&gt;the $Q$-value is $Q = 17.3 \, \mathrm{MeV}$. Such reactions often release energy in the form of kinetic energy of the products, making them energetically favorable.&lt;/p&gt;
 
-&lt;p&gt;Conversely, a negative $Q$-value corresponds to an &lt;strong&gt;endothermic reaction&lt;/strong&gt;, where energy must be supplied for the reaction to occur. For an endothermic reaction, the bombarding particle must have kinetic energy greater than the magnitude of $Q$. This minimum energy required to initiate the reaction is known as the &lt;strong&gt;threshold energy&lt;/strong&gt;, and it ensures conservation of momentum and energy in the isolated system.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-12-05T08:47:26+05:30</published><updated>2024-12-05T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
+&lt;p&gt;Conversely, a negative $Q$-value corresponds to an &lt;strong&gt;endothermic reaction&lt;/strong&gt;, where energy must be supplied for the reaction to occur. For an endothermic reaction, the bombarding particle must have kinetic energy greater than the magnitude of $Q$. This minimum energy required to initiate the reaction is known as the &lt;strong&gt;threshold energy&lt;/strong&gt;, and it ensures conservation of momentum and energy in the isolated system.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;problem-1-q-value-calculation-for-alpha-decay-of-226textra&quot;&gt;Problem 1: Q Value Calculation for Alpha Decay of $^{226}\text{Ra}$&lt;/h3&gt;
+
+&lt;p&gt;The $^{226}\text{Ra}$ nucleus undergoes alpha decay according to&lt;/p&gt;
+
+\[_{88}^{226}\text{Ra} \rightarrow _{86}^{222}\text{Rn} + _2^4\text{He}\]
+
+&lt;p&gt;Calculate the Q value for this process using the formula $Q = \left( M_{\text{initial}} - M_{\text{final}} \right)\times 3 931.494 MeV/u$. The masses are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;$226.025408 \, \text{u}$ for $_{88}^{226}\text{Ra}$&lt;/li&gt;
+  &lt;li&gt;$222.017576 \, \text{u}$ for $_{86}^{222}\text{Rn}$&lt;/li&gt;
+  &lt;li&gt;$4.002603 \, \text{u}$ for $_2^4\text{He}$.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;problem-2-energy-released-by-fission-of-100-kg-of-235textu&quot;&gt;Problem 2: Energy Released by Fission of 1.00 kg of $^{235}\text{U}$&lt;/h3&gt;
+
+&lt;p&gt;Calculate the energy released when 1.00 kg of $^{235}\text{U}$ undergoes fission, given that the disintegration energy per event is $Q = 208 \, \text{MeV}$.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Answer:&lt;/em&gt;     $5.33\times10^{26}MeV$&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;How much is this energy?&lt;/em&gt;  The energy released in the fission of 1 kg of $^{235}\text{U}$, if released slowly, is enough to keep a 100-W lightbulb operating for 30,000 years! If the available fission energy in 1 kg of $^{235}\text{U}$ were suddenly released, it would be equivalent to detonating about 20,000 tons of TNT.&lt;/p&gt;
+
+&lt;h3 id=&quot;problem-3-identifying-unknown-nuclides-and-particles&quot;&gt;Problem 3: Identifying Unknown Nuclides and Particles&lt;/h3&gt;
+
+&lt;p&gt;Identify the unknown nuclides and particles $X$ and $X’$ in the following nuclear reactions:&lt;/p&gt;
+
+&lt;p&gt;(a) $X + _2^4\text{He} \rightarrow _{12}^{24}\text{Mg} + _0^1\text{n}$&lt;br /&gt;
+(b) $ _{92}^{235}\text{U} + _0^1\text{n} \rightarrow _{38}^{90}\text{Sr} + X + 2( _0^1\text{n})$&lt;br /&gt;
+(c) $2( _1^1\text{H}) \rightarrow  _1^2\text{H} + X + X’$&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-12-05T08:47:26+05:30</published><updated>2024-12-05T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.&lt;/li&gt;
 &lt;/ul&gt;
