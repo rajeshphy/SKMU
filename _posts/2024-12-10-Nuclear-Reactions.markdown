@@ -17,7 +17,7 @@ In a nuclear decay reaction, also called radioactive decay, an unstable nucleus 
 <div style="text-align: center;">
     <img src="/SKMU/assets/images/Nuclear/n.png" alt="Transmutation" class="my-custom-class" style="max-width:90%; height:auto;">
 </div>
-There are six fundamentally different kinds of nuclear decay reactions, and each releases a different kind of particle or energy. The essential features of each reaction are shown in Fig-2. It can be seen from the above figure that the decay may or may not change the mass number $A$ and the atomic number $Z$ of the nucleus. 
+There are six fundamentally different kinds of nuclear decay reactions, and each releases a different kind of particle or energy. The essential features of each reaction are shown in Fig-2. The sixth kind is the spontaneous fission. It can be seen from the above figure that the decay may or may not change the mass number $A$ and the atomic number $Z$ of the nucleus. 
 
 
 <!-- <div style="text-align: center;">
