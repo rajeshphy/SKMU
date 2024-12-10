@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-10T12:21:50+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-10T23:37:54+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
 
 &lt;p&gt;The two general kinds of nuclear reactions are:&lt;/p&gt;
 &lt;ol&gt;
@@ -12,17 +12,6 @@
     &lt;img src=&quot;/SKMU/assets/images/Nuclear/n.png&quot; alt=&quot;Transmutation&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:90%; height:auto;&quot; /&gt;
 &lt;/div&gt;
 &lt;p&gt;There are six fundamentally different kinds of nuclear decay reactions, and each releases a different kind of particle or energy. The essential features of each reaction are shown in Fig-2. The sixth kind is the spontaneous fission. It can be seen from the above figure that the decay may or may not change the mass number $A$ and the atomic number $Z$ of the nucleus.&lt;/p&gt;
-
-&lt;!-- &lt;div style=&quot;text-align: center;&quot;&gt;
-    &lt;figure style=&quot;display: inline-block; margin: 10px; text-align: center;&quot;&gt;
-        &lt;img src=&quot;/SKMU/assets/images/Nuclear/n.png&quot; alt=&quot;Transmutation&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:25%; height:auto;&quot;&gt;
-        &lt;figcaption&gt;Transmutation&lt;/figcaption&gt;
-    &lt;/figure&gt;
-    &lt;figure style=&quot;display: inline-block; margin: 10px; text-align: center;&quot;&gt;
-        &lt;img src=&quot;/SKMU/assets/images/Nuclear/Decay.jpg&quot; alt=&quot;Decay&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:35%; height:auto;&quot;&gt;
-        &lt;figcaption&gt;Decay&lt;/figcaption&gt;
-    &lt;/figure&gt;
-&lt;/div&gt; --&gt;
 
 &lt;h3 id=&quot;q-value-of-nuclear-reaction&quot;&gt;Q-Value of Nuclear Reaction&lt;/h3&gt;
 
@@ -73,7 +62,72 @@
 
 &lt;p&gt;(a) $X + _2^4\text{He} \rightarrow _{12}^{24}\text{Mg} + _0^1\text{n}$&lt;br /&gt;
 (b) $ _{92}^{235}\text{U} + _0^1\text{n} \rightarrow _{38}^{90}\text{Sr} + X + 2( _0^1\text{n})$&lt;br /&gt;
-(c) $2( _1^1\text{H}) \rightarrow  _1^2\text{H} + X + X’$&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-12-05T08:47:26+05:30</published><updated>2024-12-05T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
+(c) $2( _1^1\text{H}) \rightarrow  _1^2\text{H} + X + X’$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;another-form-of-classification-of-nuclear-reactions&quot;&gt;Another form of classification of nuclear reactions&lt;/h2&gt;
+
+&lt;p&gt;Here we discuss Blatt and Weisskopf’s classification which focuses on the quantum mechanical mechanisms of nuclear reactions and is more specific, while the general categories of &lt;em&gt;decay and transmutation&lt;/em&gt; provide a broader classification based on the reaction outcome.&lt;/p&gt;
+
+&lt;p&gt;A typical nuclear reaction is represented as:&lt;/p&gt;
+
+\[a + X \rightarrow Y + b\]
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;a&lt;/strong&gt;: Accelerated projectile.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;X&lt;/strong&gt;: Target (usually stationary).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Y&lt;/strong&gt; and &lt;strong&gt;b&lt;/strong&gt;: Reaction products, where Y is typically a heavy particle and b is a light particle that can be detected.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;b&lt;/strong&gt; can also be a gamma ray (γ), in which case the reaction is called &lt;strong&gt;radiative capture&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;If &lt;strong&gt;a&lt;/strong&gt; is a gamma ray, the reaction is called &lt;strong&gt;nuclear photoeffect&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Reactions can be written in a more compact form, e.g., &lt;strong&gt;(a, n)&lt;/strong&gt; or &lt;strong&gt;(n, γ)&lt;/strong&gt;, which helps in classifying reactions with similar properties.&lt;/p&gt;
+
+&lt;h2 id=&quot;types-of-reactions&quot;&gt;Types of Reactions&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Scattering Reactions
+    &lt;ul&gt;
+      &lt;li&gt;Occur when incident and outgoing particles are the same.
+        &lt;ul&gt;
+          &lt;li&gt;&lt;strong&gt;Elastic scattering&lt;/strong&gt;: When Y and b are in their ground states.&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;Inelastic scattering&lt;/strong&gt;: When Y or b is in an excited state and decays by emitting gamma rays.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Knockout Reactions
+    &lt;ul&gt;
+      &lt;li&gt;Involve the ejection of a nucleon, resulting in three particles in the final state.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Transfer Reactions
+    &lt;ul&gt;
+      &lt;li&gt;Involve the transfer of one or two nucleons between the projectile and the target.
+        &lt;ul&gt;
+          &lt;li&gt;Example: A deuteron incoming and turning into a proton or neutron, adding a nucleon to the target X to form Y.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Direct Reactions
+    &lt;ul&gt;
+      &lt;li&gt;Only a few nucleons participate, with others remaining as passive spectators.&lt;/li&gt;
+      &lt;li&gt;These reactions can probe the shell structure of nuclei, potentially exciting many states of Y.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Compound Nucleus Mechanism
+    &lt;ul&gt;
+      &lt;li&gt;Involves a brief merging of incoming and target nuclei, leading to a complete sharing of energy before the nucleon is ejected.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Resonance Reactions
+    &lt;ul&gt;
+      &lt;li&gt;In these reactions, the incoming particle forms a quasibound state before the outgoing particle is ejected.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-12-05T08:47:26+05:30</published><updated>2024-12-05T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.&lt;/li&gt;
 &lt;/ul&gt;

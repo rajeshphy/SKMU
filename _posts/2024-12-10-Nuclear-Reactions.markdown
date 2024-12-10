@@ -19,18 +19,6 @@ In a nuclear decay reaction, also called radioactive decay, an unstable nucleus 
 </div>
 There are six fundamentally different kinds of nuclear decay reactions, and each releases a different kind of particle or energy. The essential features of each reaction are shown in Fig-2. The sixth kind is the spontaneous fission. It can be seen from the above figure that the decay may or may not change the mass number $A$ and the atomic number $Z$ of the nucleus. 
 
-
-<!-- <div style="text-align: center;">
-    <figure style="display: inline-block; margin: 10px; text-align: center;">
-        <img src="/SKMU/assets/images/Nuclear/n.png" alt="Transmutation" class="my-custom-class" style="max-width:25%; height:auto;">
-        <figcaption>Transmutation</figcaption>
-    </figure>
-    <figure style="display: inline-block; margin: 10px; text-align: center;">
-        <img src="/SKMU/assets/images/Nuclear/Decay.jpg" alt="Decay" class="my-custom-class" style="max-width:35%; height:auto;">
-        <figcaption>Decay</figcaption>
-    </figure>
-</div> -->
-
 ### Q-Value of Nuclear Reaction
 
 Nuclear reactions can occur when a target nucleus $X$ is bombarded by a particle $a$, resulting in a daughter nucleus $Y$ and an outgoing particle $b$:  
@@ -84,3 +72,48 @@ Identify the unknown nuclides and particles $X$ and $X'$ in the following nuclea
 (a) $X + _2^4\text{He} \rightarrow _{12}^{24}\text{Mg} + _0^1\text{n}$  
 (b) $ _{92}^{235}\text{U} + _0^1\text{n} \rightarrow _{38}^{90}\text{Sr} + X + 2( _0^1\text{n})$  
 (c) $2( _1^1\text{H}) \rightarrow  _1^2\text{H} + X + X'$
+
+---
+
+
+## Another form of classification of nuclear reactions
+
+Here we discuss Blatt and Weisskopf’s classification which focuses on the quantum mechanical mechanisms of nuclear reactions and is more specific, while the general categories of *decay and transmutation* provide a broader classification based on the reaction outcome.
+
+A typical nuclear reaction is represented as:
+
+$$a + X \rightarrow Y + b$$
+
+- **a**: Accelerated projectile.
+- **X**: Target (usually stationary).
+- **Y** and **b**: Reaction products, where Y is typically a heavy particle and b is a light particle that can be detected.
+- **b** can also be a gamma ray (γ), in which case the reaction is called **radiative capture**.
+- If **a** is a gamma ray, the reaction is called **nuclear photoeffect**.
+
+
+Reactions can be written in a more compact form, e.g., **(a, n)** or **(n, γ)**, which helps in classifying reactions with similar properties.
+
+## Types of Reactions
+
+1. Scattering Reactions
+- Occur when incident and outgoing particles are the same.
+  - **Elastic scattering**: When Y and b are in their ground states.
+  - **Inelastic scattering**: When Y or b is in an excited state and decays by emitting gamma rays.
+
+2. Knockout Reactions
+- Involve the ejection of a nucleon, resulting in three particles in the final state.
+
+3. Transfer Reactions
+- Involve the transfer of one or two nucleons between the projectile and the target.
+  - Example: A deuteron incoming and turning into a proton or neutron, adding a nucleon to the target X to form Y.
+
+4. Direct Reactions
+- Only a few nucleons participate, with others remaining as passive spectators.
+- These reactions can probe the shell structure of nuclei, potentially exciting many states of Y.
+
+5. Compound Nucleus Mechanism
+- Involves a brief merging of incoming and target nuclei, leading to a complete sharing of energy before the nucleon is ejected.
+
+6. Resonance Reactions
+- In these reactions, the incoming particle forms a quasibound state before the outgoing particle is ejected.
+
