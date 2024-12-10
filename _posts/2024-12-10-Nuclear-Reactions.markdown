@@ -63,7 +63,7 @@ $$
 _{88}^{226}\text{Ra} \rightarrow _{86}^{222}\text{Rn} + _2^4\text{He}
 $$
 
-Calculate the Q value for this process using the formula $Q = \left( M_{\text{initial}} - M_{\text{final}} \right)\times 3 931.494 MeV/u$. The masses are:
+Calculate the Q value for this process using the formula $Q = \left( M_{\text{initial}} - M_{\text{final}} \right)\times 931.494 MeV/u$. The masses are:
 - $226.025408 \, \text{u}$ for $_{88}^{226}\text{Ra}$
 - $222.017576 \, \text{u}$ for $_{86}^{222}\text{Rn}$
 - $4.002603 \, \text{u}$ for $_2^4\text{He}$.
