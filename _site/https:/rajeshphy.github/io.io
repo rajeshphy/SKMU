@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-06T09:27:58+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-12-05T08:47:26+05:30</published><updated>2024-12-05T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-10T09:46:13+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
+
+&lt;p&gt;The two general kinds of nuclear reactions are:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Nuclear Decay&lt;/li&gt;
+  &lt;li&gt;Nuclear Transmutation&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In a nuclear decay reaction, also called radioactive decay, an unstable nucleus emits radiation and transforms into the nucleus of one or more other elements. This process happens spontaneously due to the imbalance of forces within the nucleus, such as an excess of protons or neutrons, or an unfavorable energy configuration. The resulting daughter nuclei have a lower mass and are lower in energy (more stable) than the parent nucleus that decayed. In contrast, in a nuclear transmutation reaction, a nucleus of one element is bombarded with a small particle or another nucleus, and the bombarded nucleus is transformed into a more massive nucleus than the starting nucleus.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/SKMU/assets/images/Nuclear/n.png&quot; alt=&quot;Transmutation&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:90%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;It can be seen from the above figure that the decay may or may not change the mass number $A$ and the atomic number $Z$ of the nucleus.&lt;/p&gt;
+
+&lt;!-- &lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;figure style=&quot;display: inline-block; margin: 10px; text-align: center;&quot;&gt;
+        &lt;img src=&quot;/SKMU/assets/images/Nuclear/n.png&quot; alt=&quot;Transmutation&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:25%; height:auto;&quot;&gt;
+        &lt;figcaption&gt;Transmutation&lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure style=&quot;display: inline-block; margin: 10px; text-align: center;&quot;&gt;
+        &lt;img src=&quot;/SKMU/assets/images/Nuclear/Decay.jpg&quot; alt=&quot;Decay&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:35%; height:auto;&quot;&gt;
+        &lt;figcaption&gt;Decay&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt; --&gt;
+
+&lt;h3 id=&quot;q-value-of-nuclear-reaction&quot;&gt;Q-Value of Nuclear Reaction&lt;/h3&gt;
+&lt;p&gt;The &lt;strong&gt;reaction energy $Q$&lt;/strong&gt; in a nuclear reaction represents the difference between the initial and final rest energies of the participating nuclei. Mathematically, it is given by:&lt;/p&gt;
+
+\[Q = (M_a + M_X - M_Y - M_b)c^2\]
+
+&lt;p&gt;where $M_a$ and $M_b$ are the masses of the reactants, $M_X$ and $M_Y$ are the masses of the products, and $c$ is the speed of light.&lt;/p&gt;
+
+&lt;p&gt;A positive $Q$-value indicates an &lt;strong&gt;exothermic reaction&lt;/strong&gt;, where energy is released. For example, in the reaction&lt;/p&gt;
+
+&lt;p&gt;\(\ce{^1H + ^7Li -&amp;gt; ^4He + ^4He}\) ,&lt;/p&gt;
+
+&lt;p&gt;the $Q$-value is $Q = 17.3 \, \mathrm{MeV}$. Such reactions often release energy in the form of kinetic energy of the products, making them energetically favorable.&lt;/p&gt;
+
+&lt;p&gt;Conversely, a negative $Q$-value corresponds to an &lt;strong&gt;endothermic reaction&lt;/strong&gt;, where energy must be supplied for the reaction to occur. For an endothermic reaction, the bombarding particle must have kinetic energy greater than the magnitude of $Q$. This minimum energy required to initiate the reaction is known as the &lt;strong&gt;threshold energy&lt;/strong&gt;, and it ensures conservation of momentum and energy in the isolated system.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-12-05T08:47:26+05:30</published><updated>2024-12-05T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.&lt;/li&gt;
 &lt;/ul&gt;
@@ -1125,176 +1164,4 @@ R_{i \to f}(t) = \lim_{t \to \infty} \frac{P_{i \to f}(t)}{t} = \frac{2\pi}{\hba
 
 &lt;div style=&quot;text-align: center;&quot;&gt;
     &lt;img src=&quot;/SKMU/assets/img/Quantum/dirac.png&quot; alt=&quot;dirac delta&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:50%; height:60%;&quot; /&gt;
-&lt;/div&gt;</content><author><name>Rajesh Kumar</name></author><category term="quantum-mechanics" /><category term="approximation-method" /><category term="perturbation-theory" /><summary type="html">Perturbation theory is a powerful tool in quantum mechanics used to study systems where the Hamiltonian can be separated into a known part \(H_0\) and a small perturbation \(H&apos;\). The goal is to find approximate solutions to the Schrödinger equation for the full Hamiltonian \(H = H_0 + H&apos;\) by treating the perturbation as a small correction to the known system.</summary></entry><entry><title type="html">Scattering</title><link href="http://localhost:4000/SKMU/lecture/2024/07/12/Scattering.html" rel="alternate" type="text/html" title="Scattering" /><published>2024-07-12T10:47:26+05:30</published><updated>2024-07-12T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/07/12/Scattering</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/07/12/Scattering.html">&lt;p&gt;Consider the Hamiltonian $H$ of the system, which is time-independent, given by&lt;/p&gt;
-
-\[H=H_o+H_1\]
-
-&lt;p&gt;where, \(H_0\) is the Hamiltonian of a free particle with eigenfunction&lt;/p&gt;
-
-\[\phi(\mathbf{x})=e^{i\mathbf{k\cdot x}}\]
-
-&lt;p&gt;and \(H_1\) is the scattering source.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/SKMU/assets/img/Quantum/Scattering.jpeg&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The Schrödinger equation for the system at point \(\mathbf{x}\) is given by&lt;/p&gt;
-
-\[H\psi(\mathbf{x})=E\psi(\mathbf{x})\]
-
-&lt;p&gt;where, \(E\) is the energy of the system and considering the scattering to be elastic the energy of the system is conserved. Therefore \(E\) is same as the energy possessed by the incident plane wave with wavevector \(k\) before scattering. The Schrödinger equation therefore reduces to&lt;/p&gt;
-
-\[\begin{align}(H_o+H_1)\psi(\mathbf{x})&amp;amp;=E\psi(\mathbf{x})\\\left(-\frac{\hbar^2}{2m}\nabla^2+H_1\right)\psi(\mathbf{x})&amp;amp;=\frac{\hbar^2 k^2}{2m}\psi(\mathbf{x})\\ \left(-\nabla^2+V\right)\psi(\mathbf{x})&amp;amp;=k^2\psi(\mathbf{x}) \qquad \text{Dividing throughout by }\hbar^2/2m \\ \left(\nabla^2+k^2\right)\psi(\mathbf{x})&amp;amp;=V(\mathbf{x})\psi(\mathbf{x}) \qquad \text{where, } V(\mathbf{x})=2mH_1/\hbar^2\end{align}\]
-
-&lt;p&gt;The above equation is the Helmholtz equation and the green’s function for the Helmholtz equation is given by&lt;/p&gt;
-
-\[G(\mathbf{x},\mathbf{x&apos;})=-\frac{1}{4\pi}\frac{e^{ik&apos;|\mathbf{x}-\mathbf{x&apos;}|}}{|\mathbf{x}-\mathbf{x&apos;}|}\]
-
-&lt;p&gt;The solution to the Helmholtz equation is given by&lt;/p&gt;
-
-\[\begin{align} \psi(\mathbf{x})&amp;amp;=-\frac{1}{4\pi}\int d^3x&apos; G(\mathbf{x},\mathbf{x&apos;})V(\mathbf{x&apos;})\psi(\mathbf{x&apos;})\\
-&amp;amp;= -\frac{1}{4\pi}\int d^3x&apos; \frac{e^{ik&apos;|\mathbf{x}-\mathbf{x&apos;}|}}{|\mathbf{x}-\mathbf{x&apos;}|}V(\mathbf{x&apos;})\psi(\mathbf{x&apos;})\end{align}\]
-
-&lt;p&gt;We add a term \(\phi(\mathbf{x})\) to the above equation to account for the incident wave. The distance \(\|\mathbf{x}-\mathbf{x&apos;}\|\) for large distance from the scattering source is approximated to \((x-\mathbf{\hat{n}\cdot x&apos;})=(r-x&apos;\cos \alpha)\), where \(\mathbf{\hat{n}}\) is the unit vector in the direction of \(\mathbf{x}\). The denominator will be approximated by \(r\).&lt;/p&gt;
-
-\[\begin{align}\psi(\mathbf{x})&amp;amp;=\phi(x)-\frac{1}{4\pi}\int d^3x&apos; \frac{e^{ik&apos;(r-x&apos;\cos\alpha)}}{r}V(\mathbf{x&apos;})\psi(\mathbf{x&apos;})\\
-&amp;amp;=\phi(x)-\left[\frac{1}{4\pi}\int d^3x&apos; e^{-ik&apos; x&apos;\cos \alpha}\;V(\mathbf{x&apos;})\psi(\mathbf{x&apos;})\right]\frac{e^{ik&apos;r}}{r}\end{align}\]
-
-&lt;p&gt;Since the collision is elastic so the scattered wave has the same energy as the incident wave and therefore the magnitude of &lt;script type=&quot;math/tex&quot;&gt;|\mathbf{k}|=|\mathbf{k&apos;}|=k&lt;/script&gt;. Therefore the solution to the Helmholtz equation is given by&lt;/p&gt;
-
-\[\begin{align} \psi(\mathbf{x})&amp;amp;=\phi(\mathbf{x})+f(\mathbf{k&apos;,k})\frac{e^{ikr}}{r}\\ f(\mathbf{k&apos;,k})&amp;amp;=-\frac{1}{4\pi}\int d^3x&apos; e^{-ik&apos; x&apos;\cos \alpha}V(\mathbf{x&apos;})\psi(\mathbf{x&apos;})\end{align}\]
-
-&lt;p&gt;The function \(f(\mathbf{k&apos;,k})\) is called the scattering amplitude. The differential scattering cross-section is given by&lt;/p&gt;
-
-\[\frac{d\sigma}{d\Omega}=|f(\mathbf{k&apos;,k})|{}^2\]
-
-&lt;p&gt;The total scattering cross-section is given by&lt;/p&gt;
-
-\[\sigma_{\text{total}}=\int |f(\mathbf{k&apos;,k})|^2 d\Omega\]
-
-&lt;h2 id=&quot;born-approximation&quot;&gt;Born Approximation&lt;/h2&gt;
-
-&lt;p&gt;The Born approximation is a method used to solve the scattering amplitude, \(f(\mathbf{k&apos;,k})\), for a given small potential \(V(\mathbf{x})\) by approximating the wavefunction \(\psi(\mathbf{x})\) with the incident wavefunction \(\phi(\mathbf{x})\) as&lt;/p&gt;
-
-\[\begin{align} f(\mathbf{k&apos;,k})&amp;amp;=-\frac{1}{4\pi}\int d^3x&apos; e^{-ik&apos; x&apos;\cos \alpha}V(\mathbf{x&apos;})\phi(\mathbf{x&apos;})\\
-&amp;amp;= -\frac{1}{4\pi}\int d^3x&apos; e^{-i\mathbf{k&apos;\cdot x&apos;}}V(\mathbf{x&apos;})e^{i\mathbf{k\cdot x&apos;}}\\
-&amp;amp;=-\frac{1}{4\pi}\int d^3x&apos; e^{i\mathbf{(k-k&apos;)\cdot x&apos;}}V(\mathbf{x&apos;})\end{align}\]
-
-&lt;h3 id=&quot;scattering-amplitude-fkk-simplification-for-a-spherically-symmetric-potential&quot;&gt;Scattering Amplitude \(f(k&apos;,k)\) simplification for a Spherically Symmetric Potential&lt;/h3&gt;
-
-&lt;p&gt;Consider a spherically symmetric potential \(V(\mathbf{x})=V(r)\), where &lt;script type=&quot;math/tex&quot;&gt;
-r = |\mathbf{x}|
-&lt;/script&gt;. The integration of scattering amplitude can be simplified by choosing a new \(z\)-axis along the direction of the vector \(\mathbf{q=k-k&apos;}\), so that \(\mathbf{(k-k&apos;)\cdot x&apos;}=q r&apos; \cos \theta&apos;\), where &lt;script type=&quot;math/tex&quot;&gt;r&apos;=|\mathbf{x&apos;}|&lt;/script&gt;.&lt;/p&gt;
-
-\[\begin{align} f(k&apos;,k)&amp;amp;=-\frac{1}{4\pi}\int d^3x&apos; e^{i\mathbf{(k-k&apos;)\cdot x&apos;}}V(\mathbf{x&apos;})\\
-&amp;amp;=-\frac{1}{4\pi}\int_0^\infty dr&apos; r&apos;^2 \int_0^\pi d\theta&apos; \sin \theta&apos; \int_0^{2\pi} d\phi&apos; e^{iqr&apos;\cos \theta&apos;}V(r&apos;)\\
-&amp;amp;=-\frac{1}{4\pi}\int_0^\infty dr&apos; r&apos;^2 \int_0^\pi d\theta&apos; \sin \theta&apos;e^{iqr&apos;\cos \theta&apos;} \int_0^{2\pi} d\phi&apos; V(r&apos;)\\
-&amp;amp;=-\frac{1}{4\pi}\int_0^\infty dr&apos; r&apos;^2 \int_0^\pi d\theta&apos; \sin \theta&apos;e^{iqr&apos;\cos \theta&apos;}\cdot 2\pi\cdot V(r&apos;)\\
-&amp;amp;=-\frac{1}{4\pi}\int_0^\infty dr&apos; r&apos;^2 \cdot 2\frac{\sin qr&apos;}{qr&apos;}\cdot 2\pi\cdot V(r&apos;)\\
-&amp;amp;=-\int_0^\infty dr&apos; r&apos;^2 \frac{\sin qr&apos;}{qr&apos;} V(r&apos;)\\
-&amp;amp;=-\frac{1}{q}\int_0^\infty r&apos;\sin qr&apos;V(r&apos;)dr&apos;
-\end{align}\]
-
-&lt;p&gt;The value of \(q\) in terms of wavevector \(k\) and \(k&apos;\) is given by&lt;/p&gt;
-
-\[q=2k\cos\frac{\theta}{2}\]
-
-&lt;p&gt;as depicted in figure below.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/SKMU/assets/img/Quantum/Scattering-Angle.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Therefore the scattering amplitude for a spherically symmetric potential obtained by replacing \(V(r)\) with \(\frac{2m}{\hbar^2}H_1\) is given by&lt;/p&gt;
-
-\[f(k&apos;,k)=-\frac{2m}{\hbar^2q}\int_0^\infty r&apos;\sin qr&apos;H_1dr&apos;\]
-
-&lt;h3 id=&quot;scattering-by-a-soft-sphere&quot;&gt;Scattering by a soft sphere&lt;/h3&gt;
-
-&lt;p&gt;Consider a soft sphere potential given by&lt;/p&gt;
-
-\[H_1=\begin{cases} V_0 &amp;amp; \text{for } r&amp;lt;R\\ 0 &amp;amp; \text{for } r&amp;gt;R \end{cases}\]
-
-&lt;p&gt;here the constant \(V_0\) is finite as Born approximation is valid for small potentials. The scattering amplitude for the soft sphere potential is given by&lt;/p&gt;
-
-\[\begin{align}f(k&apos;,k)&amp;amp;=-\frac{2m}{\hbar^2q}\int_0^R r&apos;\sin qr&apos;V_0dr&apos;\\
-&amp;amp;=-\frac{2mV_0}{\hbar^2q}\int_0^R r&apos;\sin qr&apos;dr&apos;\\
-&amp;amp;= -\frac{2mV_0}{\hbar^2q}\left[\frac{\sin (q R)-q R \cos (q R)}{q^2}\right]\\
-&amp;amp;= \frac{2mV_0}{\hbar^2q^3}\left[q R \cos (q R)-\sin (q R)\right]\end{align}\]
-
-&lt;hr /&gt;
-&lt;h1 id=&quot;rutherford-scattering&quot;&gt;Rutherford Scattering&lt;/h1&gt;
-
-&lt;p&gt;The static screened Coulomb potential of an atomic nucleus (also called Yukawa potential) has the form&lt;/p&gt;
-
-\[H_1=\beta \frac{e^{-\mu r}}{r}\]
-
-&lt;p&gt;where, \(\beta\) is the strength of the potential, \(\mu\) is the range of the potential and \(r\) is the distance from the nucleus. The scattering amplitude for the Rutherford scattering under Born approximation is given by&lt;/p&gt;
-
-\[\begin{align}f(k&apos;,k)&amp;amp;=-\frac{2m}{\hbar^2q}\int_0^\infty r&apos;\sin qr&apos;\beta \frac{e^{-\mu r&apos;}}{r&apos;}dr&apos;\\
-&amp;amp;=-\frac{2m\beta}{\hbar^2q}\int_0^\infty \sin qr&apos; e^{-\mu r&apos;}dr&apos;\\
-&amp;amp;= -\frac{2m\beta}{\hbar^2q}\left[\frac{q}{\mu ^2+q^2}\right]\\
-&amp;amp;= -\frac{2m\beta}{\hbar^2}\frac{1}{\mu ^2+q^2}\end{align}\]
-
-&lt;p&gt;The differential scattering cross-section for Rutherford scattering is given in the limit \(\mu \rightarrow 0\) as&lt;/p&gt;
-
-\[\frac{d\sigma}{d\Omega}=\left(\frac{2m\beta}{\hbar^2q^2}\right)^2\]
-
-&lt;p&gt;We can replace \(q\) in terms of \(k\) as \(q=2k\sin \frac{\theta}{2}\), where \(\theta\) is the scattering angle. Therefore the differential scattering cross-section for Rutherford scattering is given by&lt;/p&gt;
-
-\[\frac{d\sigma}{d\Omega}=\left(\frac{m\beta}{\hbar^2}\right)^2\frac{1}{4k^4\sin^4\frac{\theta}{2}}\]
-
-&lt;p&gt;Since the kinetic energy of the incident particle is \(E=\frac{\hbar^2 k^2}{2m}\), the differential scattering cross-section can be written in terms of the kinetic energy as&lt;/p&gt;
-
-\[\frac{d\sigma}{d\Omega}=\left(\frac{\beta}{4E}\right)^2\frac{1}{\sin^4\frac{\theta}{2}}\]
-
-&lt;p&gt;Which is the Rutherford scattering formula as derived by Rutherford in 1911 classically.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h1 id=&quot;partial-wave-analysis-and-phase-shifts&quot;&gt;Partial Wave Analysis and Phase Shifts&lt;/h1&gt;
-
-&lt;p&gt;The incident plane wave&lt;/p&gt;
-
-\[\phi(\mathbf{x})=e^{i\mathbf{k\cdot x}}\]
-
-&lt;p&gt;can be expanded in terms of spherical harmonics \(Y_{lm}(\theta,\phi)\) as&lt;/p&gt;
-
-\[\begin{align}e^{i\mathbf{k\cdot x}}&amp;amp;=\sum_{l=0}^\infty \sum_{m=-l}^l C_{lm}\; j_l(kr)Y_{lm}(\theta,\phi)\end{align}\]
-
-&lt;p&gt;where, \(j_l(kr)\) is the spherical Bessel function of the first kind and \(C_{lm}\) is the constant. Since a plane wave is symmetric in \(\phi\) coordinate and therefore it is independent of \(m\), further at large distances from the scattering source, the behavior of the spherical Bessel function is approximated as&lt;/p&gt;
-
-\[\begin{align}j_l(kr)&amp;amp;\approx \frac{\sin(kr-l\pi/2)}{kr}\\
-&amp;amp;=\frac{1}{2ikr}\left[e^{i(kr-l\pi/2)}-e^{-i(kr-l\pi/2)}\right]
-\end{align}\]
-
-&lt;p&gt;therefore the incident plane wave can be written as&lt;/p&gt;
-
-\[\begin{align}e^{i\mathbf{k\cdot x}}&amp;amp;=\sum_{l=0}^\infty C_l \; j_l(kr)P_l(\cos \theta)\\
-&amp;amp;=\sum_{l=0}^\infty\;C_l\; j_l(kr)P_l(\cos \theta)\\&amp;amp;=\frac{1}{2ik}\sum_{l=0}^\infty \;C_l\left[\frac{e^{i(kr-l\pi/2)}}{r}-\frac{e^{-i(kr-l\pi/2)}}{r}\right]P_l(\cos \theta)
-\end{align}\]
-
-&lt;p&gt;where, \(P_l(\cos \theta)\) is the Legendre polynomial of degree \(l\) and \(C_l=(2l+1)\;i^l\).&lt;/p&gt;
-
-&lt;p&gt;The scattering wavefunction \(\psi(\mathbf{x})\) can then rewritten in terms of summation of partial waves as&lt;/p&gt;
-
-\[\begin{align}\psi(\mathbf{x})&amp;amp;= \psi(\mathbf{x})\\
-&amp;amp;=e^{i\mathbf{k\cdot x}}+f(\mathbf{k&apos;,k})\frac{e^{ikr}}{r}\\
-&amp;amp;=\frac{1}{2ik}\sum_{l=0}^\infty \;C_l\left[\frac{e^{i(kr-l\pi/2)}}{r}-\frac{e^{-i(kr-l\pi/2)}}{r}\right]P_l(\cos \theta)+ f(\mathbf{k&apos;,k})\frac{e^{ikr}}{r}\\
-\end{align}\]
-
-&lt;p&gt;We will use the fact that the amplitude of incoming wave is the same as the amplitude of outgoing wave at large distances from the scattering source. Therefore the above equation can be written as summation over two terms by doing phase shifts of outgoing waves inside the summation to incorporate the outgoing term \(f(\mathbf{k&apos;,k})\frac{e^{ikr}}{r}\) as&lt;/p&gt;
-
-\[\begin{align}\psi(\mathbf{x})&amp;amp;=\frac{1}{2ik}\sum_{l=0}^\infty \;C_l\left[\frac{e^{i(kr-l\pi/2)+2i\delta_l}}{r}-\frac{e^{-i(kr-l\pi/2)}}{r}\right]P_l(\cos \theta)\\
-&amp;amp;=\frac{1}{2ik}\sum_{l=0}^\infty \;C_l\left[\frac{e^{ikr}}{r}e^{i(2\delta_l-l\pi/2)}-\frac{e^{-i(kr-l\pi/2)}}{r}\right]P_l(\cos \theta)\\
-&amp;amp;=\frac{1}{2ik}\sum_{l=0}^\infty \;C_l\left[\frac{e^{ikr}}{r}(-i)^le^{i2\delta_l}-\frac{e^{-i(kr-l\pi/2)}}{r}\right]P_l(\cos \theta)\\
-\end{align}\]
-
-&lt;p&gt;where, \(\delta_l\) is the phase shift for the \(l\)-th partial wave. The scattering amplitude \(f(\mathbf{k&apos;,k})=f(\theta)\) can therefore be calculated from two successive results by comparing the factor of \(\frac{e^{ikr}}{r}\) as&lt;/p&gt;
-
-\[\begin{align}f(\theta)&amp;amp;= \frac{1}{2ik}\sum_{l=0}^\infty \;C_l\;(-i)^l\left[e^{i2\delta_l}-1\right]P_l(\cos \theta)\\
-&amp;amp;= \frac{1}{k}\sum_{l=0}^\infty \;C_l\;(-i)^l\;\frac{e^{i2\delta_l}-1}{2i}P_l(\cos \theta)\\
-&amp;amp;= \frac{1}{k}\sum_{l=0}^\infty \;C_l\;(-i)^l\;\sin \delta_l\;e^{i\delta_l}P_l(\cos \theta)\\
-&amp;amp;=\frac{1}{k}\sum_{l=0}^\infty \;(2l+1)\;(-i)^{2l}\;\sin \delta_l\;e^{i\delta_l}P_l(\cos \theta)\\
-&amp;amp;=\frac{1}{k}\sum_{l=0}^\infty \;(2l+1)\;\sin \delta_l\;e^{i\delta_l}P_l(\cos \theta)\\
-\end{align}\]
-
-&lt;p&gt;Therefore the differential scattering cross-section is given by&lt;/p&gt;
-
-\[\frac{d\sigma}{d\Omega}=\left| \frac{1}{k} \sum_{l=0}^\infty \;(2l+1)\;\sin \delta_l\;e^{i\delta_l}P_l(\cos \theta)\right|{}^2\]</content><author><name>Rajesh Kumar</name></author><category term="Scattering," /><category term="Quantum" /><category term="Mechanics," /><category term="Partial" /><category term="Wave" /><category term="Analysis," /><category term="Phase" /><category term="Shifts," /><category term="Rutherford" /><category term="Scattering," /><category term="Born" /><category term="Approximation" /><summary type="html">Consider the Hamiltonian $H$ of the system, which is time-independent, given by</summary></entry></feed>
+&lt;/div&gt;</content><author><name>Rajesh Kumar</name></author><category term="quantum-mechanics" /><category term="approximation-method" /><category term="perturbation-theory" /><summary type="html">Perturbation theory is a powerful tool in quantum mechanics used to study systems where the Hamiltonian can be separated into a known part \(H_0\) and a small perturbation \(H&apos;\). The goal is to find approximate solutions to the Schrödinger equation for the full Hamiltonian \(H = H_0 + H&apos;\) by treating the perturbation as a small correction to the known system.</summary></entry></feed>
