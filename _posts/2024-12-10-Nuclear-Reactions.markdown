@@ -87,11 +87,7 @@ $$a + X \rightarrow Y + b$$
 - **a**: Accelerated projectile.
 - **X**: Target (usually stationary).
 - **Y** and **b**: Reaction products, where Y is typically a heavy particle and b is a light particle that can be detected.
-- **b** can also be a gamma ray (γ), in which case the reaction is called **radiative capture**.
-- If **a** is a gamma ray, the reaction is called **nuclear photoeffect**.
 
-
-Reactions can be written in a more compact form, e.g., **(a, n)** or **(n, γ)**, which helps in classifying reactions with similar properties.
 
 ## Types of Reactions
 
@@ -117,3 +113,8 @@ Reactions can be written in a more compact form, e.g., **(a, n)** or **(n, γ)**
 6. Resonance Reactions
 - In these reactions, the incoming particle forms a quasibound state before the outgoing particle is ejected.
 
+7. Radiative Capture
+- If **b** is a gamma ray, in which case the reaction is called **radiative capture**.
+
+8. Nuclear Photoeffect
+- If **a** is a gamma ray, the reaction is called **nuclear photoeffect**.

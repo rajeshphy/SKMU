@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-11T09:07:31+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-11T09:11:02+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
 
 &lt;p&gt;The two general kinds of nuclear reactions are:&lt;/p&gt;
 &lt;ol&gt;
@@ -78,11 +78,7 @@
   &lt;li&gt;&lt;strong&gt;a&lt;/strong&gt;: Accelerated projectile.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;X&lt;/strong&gt;: Target (usually stationary).&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Y&lt;/strong&gt; and &lt;strong&gt;b&lt;/strong&gt;: Reaction products, where Y is typically a heavy particle and b is a light particle that can be detected.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;b&lt;/strong&gt; can also be a gamma ray (γ), in which case the reaction is called &lt;strong&gt;radiative capture&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;If &lt;strong&gt;a&lt;/strong&gt; is a gamma ray, the reaction is called &lt;strong&gt;nuclear photoeffect&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;Reactions can be written in a more compact form, e.g., &lt;strong&gt;(a, n)&lt;/strong&gt; or &lt;strong&gt;(n, γ)&lt;/strong&gt;, which helps in classifying reactions with similar properties.&lt;/p&gt;
 
 &lt;h2 id=&quot;types-of-reactions&quot;&gt;Types of Reactions&lt;/h2&gt;
 
@@ -125,6 +121,16 @@
   &lt;li&gt;Resonance Reactions
     &lt;ul&gt;
       &lt;li&gt;In these reactions, the incoming particle forms a quasibound state before the outgoing particle is ejected.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Radiative Capture
+    &lt;ul&gt;
+      &lt;li&gt;If &lt;strong&gt;b&lt;/strong&gt; is a gamma ray, in which case the reaction is called &lt;strong&gt;radiative capture&lt;/strong&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Nuclear Photoeffect
+    &lt;ul&gt;
+      &lt;li&gt;If &lt;strong&gt;a&lt;/strong&gt; is a gamma ray, the reaction is called &lt;strong&gt;nuclear photoeffect&lt;/strong&gt;.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-12-05T08:47:26+05:30</published><updated>2024-12-05T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
