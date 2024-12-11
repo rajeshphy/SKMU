@@ -76,9 +76,9 @@ Identify the unknown nuclides and particles $X$ and $X'$ in the following nuclea
 ---
 
 
-## Another form of classification of nuclear reactions
+## Classifications of Nuclear Reactions: Blatt, Weisskopf, and Krane
 
-Here we discuss Kenneth S. Krane’s classification which focuses on the quantum mechanical mechanisms of nuclear reactions and is more specific, while the general categories of *decay and transmutation* provide a broader classification based on the reaction outcome.
+Here we discuss Kenneth Blatt, Weisskopf, and Krane classification which is more specific approach compared to the broader categories of *decay and transmutation* based on reaction outcomes.
 
 A typical nuclear reaction is represented as:
 
