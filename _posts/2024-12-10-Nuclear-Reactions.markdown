@@ -96,7 +96,7 @@ $$a + X \rightarrow Y + b$$
     - **Elastic scattering**: When Y and b are in their ground states. The nucleus does not react to this collision in any way. The video below shows an example of elastic scattering.
   
     <div style="text-align: center;">
-        <video controls style="width: 50%;">
+        <video controls style="width: 80%;">
             <source src="/SKMU/assets/images/Nuclear/elastic-scattering.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -104,7 +104,7 @@ $$a + X \rightarrow Y + b$$
 
     - **Inelastic scattering**: When Y or b is in an excited state and decays by emitting gamma rays. After collision with a nucleus, the neutron might transfer part of its kinetic energy. The neutron is slowed down, the nucleus is excited by this excess energy and must release it by the emission of a photon or possibly by another change. If the amount of transferred energy is large enough, the nucleus might disintegrate. The video below shows an example of inelastic scattering.
     <div style="text-align: center;">
-        <video controls style="width: 50%;">
+        <video controls style="width: 80%;">
             <source src="/SKMU/assets/images/Nuclear/inelastic-scattering.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -114,7 +114,7 @@ $$a + X \rightarrow Y + b$$
 - If **b** is a gamma ray, in which case the reaction is called **radiative capture**. 
  - During radiative capture, an incident neutron enters the target nucleus forming a compound nucleus and at the same time transferring all its energy to the nucleus. The nucleus is excited by this additional energy and must release it by emitting a photon, or possibly by another type of change. The video below shows an example of radiative capture.
     <div style="text-align: center;">
-        <video controls style="width: 50%;">
+        <video controls style="width: 80%;">
             <source src="/SKMU/assets/images/Nuclear/radiative-capture.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -141,7 +141,7 @@ $$a + X \rightarrow Y + b$$
 
     - The compound nucleus is formed when the projectile and target nuclei merge, and the nucleon is ejected after the compound nucleus has had time to equilibrate. Video below shows an example of the compound nucleus mechanism.
     <div style="text-align: center;">
-    <video controls style="width: 50%;">
+    <video controls style="width: 80%;">
         <source src="/SKMU/assets/images/Nuclear/fission.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>

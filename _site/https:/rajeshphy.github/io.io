@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-11T10:32:05+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-11T10:36:56+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
 
 &lt;p&gt;The two general kinds of nuclear reactions are:&lt;/p&gt;
 &lt;ol&gt;
@@ -92,7 +92,7 @@
     &lt;/ul&gt;
 
     &lt;div style=&quot;text-align: center;&quot;&gt;
-     &lt;video controls=&quot;&quot; style=&quot;width: 50%;&quot;&gt;
+     &lt;video controls=&quot;&quot; style=&quot;width: 80%;&quot;&gt;
          &lt;source src=&quot;/SKMU/assets/images/Nuclear/elastic-scattering.mp4&quot; type=&quot;video/mp4&quot; /&gt;
          Your browser does not support the video tag.
      &lt;/video&gt;
@@ -102,7 +102,7 @@
       &lt;li&gt;&lt;strong&gt;Inelastic scattering&lt;/strong&gt;: When Y or b is in an excited state and decays by emitting gamma rays. After collision with a nucleus, the neutron might transfer part of its kinetic energy. The neutron is slowed down, the nucleus is excited by this excess energy and must release it by the emission of a photon or possibly by another change. If the amount of transferred energy is large enough, the nucleus might disintegrate. The video below shows an example of inelastic scattering.&lt;/li&gt;
     &lt;/ul&gt;
     &lt;div style=&quot;text-align: center;&quot;&gt;
-     &lt;video controls=&quot;&quot; style=&quot;width: 50%;&quot;&gt;
+     &lt;video controls=&quot;&quot; style=&quot;width: 80%;&quot;&gt;
          &lt;source src=&quot;/SKMU/assets/images/Nuclear/inelastic-scattering.mp4&quot; type=&quot;video/mp4&quot; /&gt;
          Your browser does not support the video tag.
      &lt;/video&gt;
@@ -114,7 +114,7 @@
       &lt;li&gt;During radiative capture, an incident neutron enters the target nucleus forming a compound nucleus and at the same time transferring all its energy to the nucleus. The nucleus is excited by this additional energy and must release it by emitting a photon, or possibly by another type of change. The video below shows an example of radiative capture.&lt;/li&gt;
     &lt;/ul&gt;
     &lt;div style=&quot;text-align: center;&quot;&gt;
-     &lt;video controls=&quot;&quot; style=&quot;width: 50%;&quot;&gt;
+     &lt;video controls=&quot;&quot; style=&quot;width: 80%;&quot;&gt;
          &lt;source src=&quot;/SKMU/assets/images/Nuclear/radiative-capture.mp4&quot; type=&quot;video/mp4&quot; /&gt;
          Your browser does not support the video tag.
      &lt;/video&gt;
@@ -147,7 +147,7 @@
       &lt;li&gt;The compound nucleus is formed when the projectile and target nuclei merge, and the nucleon is ejected after the compound nucleus has had time to equilibrate. Video below shows an example of the compound nucleus mechanism.&lt;/li&gt;
     &lt;/ul&gt;
     &lt;div style=&quot;text-align: center;&quot;&gt;
- &lt;video controls=&quot;&quot; style=&quot;width: 50%;&quot;&gt;
+ &lt;video controls=&quot;&quot; style=&quot;width: 80%;&quot;&gt;
      &lt;source src=&quot;/SKMU/assets/images/Nuclear/fission.mp4&quot; type=&quot;video/mp4&quot; /&gt;
      Your browser does not support the video tag.
  &lt;/video&gt;
