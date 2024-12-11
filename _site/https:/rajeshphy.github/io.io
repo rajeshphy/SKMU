@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-11T09:11:02+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-11T09:43:34+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
 
 &lt;p&gt;The two general kinds of nuclear reactions are:&lt;/p&gt;
 &lt;ol&gt;
@@ -87,12 +87,31 @@
     &lt;ul&gt;
       &lt;li&gt;Occur when incident and outgoing particles are the same.
         &lt;ul&gt;
-          &lt;li&gt;&lt;strong&gt;Elastic scattering&lt;/strong&gt;: When Y and b are in their ground states.&lt;/li&gt;
-          &lt;li&gt;&lt;strong&gt;Inelastic scattering&lt;/strong&gt;: When Y or b is in an excited state and decays by emitting gamma rays.&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;Elastic scattering&lt;/strong&gt;: When Y and b are in their ground states. The nucleus does not react to this collision in any way. The video below shows an example of elastic scattering.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+&lt;/ol&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;video controls=&quot;&quot; style=&quot;width: 50%;&quot;&gt;
+        &lt;source src=&quot;/SKMU/assets/images/Nuclear/elastic-scattering.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+        Your browser does not support the video tag.
+    &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Inelastic scattering&lt;/strong&gt;: When Y or b is in an excited state and decays by emitting gamma rays. After collision with a nucleus, the neutron might transfer part of its kinetic energy. The neutron is slowed down, the nucleus is excited by this excess energy and must release it by the emission of a photon or possibly by another change. If the amount of transferred energy is large enough, the nucleus might disintegrate. The video below shows an example of inelastic scattering.
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;video controls=&quot;&quot; style=&quot;width: 50%;&quot;&gt;
+        &lt;source src=&quot;/SKMU/assets/images/Nuclear/inelastic-scattering.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+        Your browser does not support the video tag.
+    &lt;/video&gt;
+&lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
   &lt;li&gt;Knockout Reactions
     &lt;ul&gt;
       &lt;li&gt;Involve the ejection of a nucleon, resulting in three particles in the final state.&lt;/li&gt;
@@ -133,7 +152,63 @@
       &lt;li&gt;If &lt;strong&gt;a&lt;/strong&gt; is a gamma ray, the reaction is called &lt;strong&gt;nuclear photoeffect&lt;/strong&gt;.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-12-05T08:47:26+05:30</published><updated>2024-12-05T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;assignments&quot;&gt;Assignments&lt;/h1&gt;
+
+&lt;p&gt;Identify the type of reaction in each of the following nuclear reactions:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- 
+1. **Scattering Reactions**  
+   - **Elastic scattering**:  
+     When \( Y \) and \( b \) are in their ground states.  
+     Example:  
+     $$ p + \ce{^14N} \to p + \ce{^14N} $$  
+
+   - **Inelastic scattering**:  
+     When \( Y \) or \( b \) is in an excited state.  
+     Example:  
+     $$ p + \ce{^12C} \to p + \ce{^12C^*} $$  
+
+2. **Knockout Reactions**  
+   Involve the ejection of a nucleon, resulting in three particles in the final state.  
+   Example:  
+   $$ d + \ce{^12C} \to p + n + \ce{^12C} $$  
+
+3. **Transfer Reactions**  
+   Involve the transfer of one or two nucleons between the projectile and the target.  
+   Example:  
+   $$ d + \ce{^14N} \to p + \ce{^15N} $$  
+
+4. **Direct Reactions**  
+   Only a few nucleons participate, with others remaining as passive spectators.  
+   Example:  
+   $$ p + \ce{^16O} \to d + \ce{^15O} $$  
+
+5. **Compound Nucleus Mechanism**  
+   Involves a brief merging of incoming and target nuclei.  
+   Example:  
+   $$ n + \ce{^235U} \to \ce{^236U^*} \to \ce{^92Kr} + \ce{^141Ba} + 3n $$  
+
+6. **Resonance Reactions**  
+   The incoming particle forms a quasibound state before the outgoing particle is ejected.  
+   Example:  
+   $$ p + \ce{^15N} \to \ce{^16O^*} \to \alpha + \ce{^{12}C} $$  
+
+7. **Radiative Capture**  
+   When \( b \) is a gamma ray, the reaction is called radiative capture.  
+   Example:  
+   $$ p + \ce{^12C} \to \ce{^13N} + \gamma $$  
+
+8. **Nuclear Photoeffect**  
+   When \( a \) is a gamma ray, the reaction is called nuclear photoeffect.  
+   Example:  
+   $$ \gamma + \ce{^16O} \to n + \ce{^15O} $$ --&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-12-05T08:47:26+05:30</published><updated>2024-12-05T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.&lt;/li&gt;
 &lt;/ul&gt;
