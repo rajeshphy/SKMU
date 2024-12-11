@@ -93,15 +93,16 @@ $$a + X \rightarrow Y + b$$
 
 1. Scattering Reactions
 - Occur when incident and outgoing particles are the same.
-  - **Elastic scattering**: When Y and b are in their ground states. The nucleus does not react to this collision in any way. The video below shows an example of elastic scattering.
-  <div style="text-align: center;">
-    <video controls style="width: 50%;">
-        <source src="/SKMU/assets/images/Nuclear/elastic-scattering.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</div>
+    - **Elastic scattering**: When Y and b are in their ground states. The nucleus does not react to this collision in any way. The video below shows an example of elastic scattering.
+  
+    <div style="text-align: center;">
+        <video controls style="width: 50%;">
+            <source src="/SKMU/assets/images/Nuclear/elastic-scattering.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 
-  - **Inelastic scattering**: When Y or b is in an excited state and decays by emitting gamma rays. After collision with a nucleus, the neutron might transfer part of its kinetic energy. The neutron is slowed down, the nucleus is excited by this excess energy and must release it by the emission of a photon or possibly by another change. If the amount of transferred energy is large enough, the nucleus might disintegrate. The video below shows an example of inelastic scattering.
+    - **Inelastic scattering**: When Y or b is in an excited state and decays by emitting gamma rays. After collision with a nucleus, the neutron might transfer part of its kinetic energy. The neutron is slowed down, the nucleus is excited by this excess energy and must release it by the emission of a photon or possibly by another change. If the amount of transferred energy is large enough, the nucleus might disintegrate. The video below shows an example of inelastic scattering.
     <div style="text-align: center;">
         <video controls style="width: 50%;">
             <source src="/SKMU/assets/images/Nuclear/inelastic-scattering.mp4" type="video/mp4">
@@ -109,35 +110,66 @@ $$a + X \rightarrow Y + b$$
         </video>
     </div>
 
-2. Knockout Reactions
-- Involve the ejection of a nucleon, resulting in three particles in the final state.
+2. Radiative Capture
+- If **b** is a gamma ray, in which case the reaction is called **radiative capture**. 
+ - During radiative capture, an incident neutron enters the target nucleus forming a compound nucleus and at the same time transferring all its energy to the nucleus. The nucleus is excited by this additional energy and must release it by emitting a photon, or possibly by another type of change. The video below shows an example of radiative capture.
+    <div style="text-align: center;">
+        <video controls style="width: 50%;">
+            <source src="/SKMU/assets/images/Nuclear/radiative-capture.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 
-3. Transfer Reactions
-- Involve the transfer of one or two nucleons between the projectile and the target.
-  - Example: A deuteron incoming and turning into a proton or neutron, adding a nucleon to the target X to form Y.
+3. Nuclear Photoeffect
+- If **a** is a gamma ray, the reaction is called **nuclear photoeffect**.
+
 
 4. Direct Reactions
-- Only a few nucleons participate, with others remaining as passive spectators.
-- These reactions can probe the shell structure of nuclei, potentially exciting many states of Y.
+- Only a few nucleons participate, with others remaining as passive spectators. Direct reactions happen on the surface rather than in the volume of interacting nuclei.
+- Projectile and target are within the range of nuclear forces for the very short time allowing for an interaction of a single nucleon only. These type of reactions are called the direct reactions.
+- Direct reactions are well described as a one-step transition from the initial state in the entrance to the final state in the exit channel.
+- Direct reactions include: stripping, pick-up, and knockout reactions.
 
-5. Compound Nucleus Mechanism
+
+
+5. Compound Nucleus Reaction
 - Involves a brief merging of incoming and target nuclei, leading to a complete sharing of energy before the nucleon is ejected.
+- Characteristics:
+    - The direct reactions involve a single-nucleon interaction and are fast. In contrast, compound nucleus reaction involve many nucleon-nucleon interactions, in fact very many so these collisions lead to a complete thermal equilibrium (equal energy partition between nucleons) inside the compound nucleus.
+    - Since energy equilibration require time, the compound nucleus reaction are significantly slower than direct reactions.
+    - The compound system releases energy by emission of neutrons, protons, $\alpha$ particles and $\gamma$-rays, but has a lifetime on the order of $10^{-19} s$. This time may seem short but it is $~$ 1000 times longer than the characteristic time for direct reactions.
 
-6. Resonance Reactions
+    - The compound nucleus is formed when the projectile and target nuclei merge, and the nucleon is ejected after the compound nucleus has had time to equilibrate. Video below shows an example of the compound nucleus mechanism.
+    <div style="text-align: center;">
+    <video controls style="width: 50%;">
+        <source src="/SKMU/assets/images/Nuclear/fission.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    </div>
+
+6. Transfer Reactions
+- Involve the transfer of one or two nucleons between the projectile and the target.
+    - Example: A deuteron incoming and turning into a proton or neutron, adding a nucleon to the target X to form Y.
+
+7. Resonance Reactions
 - In these reactions, the incoming particle forms a quasibound state before the outgoing particle is ejected.
 
-7. Radiative Capture
-- If **b** is a gamma ray, in which case the reaction is called **radiative capture**.
 
-8. Nuclear Photoeffect
-- If **a** is a gamma ray, the reaction is called **nuclear photoeffect**.
+
 
 ---
 # Assignments
 
-Identify the type of reaction in each of the following nuclear reactions:
+Identify the type of reaction:
+1. $ n + \ce{^235U} \to \ce{^236U^*} \to \ce{^92Kr} + \ce{^141Ba} + 3n $
 
-1. 
+2. $ n + \ce{^10B} \to \ce{^11B} + \gamma $
+
+3. $ n + \ce{^10B} \to \ce{^11B} + \gamma $
+
+4. $ d + \ce{^14N} \to p + \ce{^15N} $
+
+5. $ p + \ce{^15N} \to \ce{^16O^*} \to \alpha + \ce{^{12}C} $
 
 
 <!-- 

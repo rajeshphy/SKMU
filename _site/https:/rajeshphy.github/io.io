@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-11T09:43:34+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-11T10:32:05+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
 
 &lt;p&gt;The two general kinds of nuclear reactions are:&lt;/p&gt;
 &lt;ol&gt;
@@ -85,56 +85,80 @@
 &lt;ol&gt;
   &lt;li&gt;Scattering Reactions
     &lt;ul&gt;
-      &lt;li&gt;Occur when incident and outgoing particles are the same.
-        &lt;ul&gt;
-          &lt;li&gt;&lt;strong&gt;Elastic scattering&lt;/strong&gt;: When Y and b are in their ground states. The nucleus does not react to this collision in any way. The video below shows an example of elastic scattering.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+      &lt;li&gt;Occur when incident and outgoing particles are the same.&lt;/li&gt;
     &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-&lt;div style=&quot;text-align: center;&quot;&gt;
-    &lt;video controls=&quot;&quot; style=&quot;width: 50%;&quot;&gt;
-        &lt;source src=&quot;/SKMU/assets/images/Nuclear/elastic-scattering.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-        Your browser does not support the video tag.
-    &lt;/video&gt;
-&lt;/div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Elastic scattering&lt;/strong&gt;: When Y and b are in their ground states. The nucleus does not react to this collision in any way. The video below shows an example of elastic scattering.&lt;/li&gt;
+    &lt;/ul&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Inelastic scattering&lt;/strong&gt;: When Y or b is in an excited state and decays by emitting gamma rays. After collision with a nucleus, the neutron might transfer part of its kinetic energy. The neutron is slowed down, the nucleus is excited by this excess energy and must release it by the emission of a photon or possibly by another change. If the amount of transferred energy is large enough, the nucleus might disintegrate. The video below shows an example of inelastic scattering.
     &lt;div style=&quot;text-align: center;&quot;&gt;
-    &lt;video controls=&quot;&quot; style=&quot;width: 50%;&quot;&gt;
-        &lt;source src=&quot;/SKMU/assets/images/Nuclear/inelastic-scattering.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-        Your browser does not support the video tag.
-    &lt;/video&gt;
-&lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+     &lt;video controls=&quot;&quot; style=&quot;width: 50%;&quot;&gt;
+         &lt;source src=&quot;/SKMU/assets/images/Nuclear/elastic-scattering.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+         Your browser does not support the video tag.
+     &lt;/video&gt;
+ &lt;/div&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Knockout Reactions
     &lt;ul&gt;
-      &lt;li&gt;Involve the ejection of a nucleon, resulting in three particles in the final state.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Inelastic scattering&lt;/strong&gt;: When Y or b is in an excited state and decays by emitting gamma rays. After collision with a nucleus, the neutron might transfer part of its kinetic energy. The neutron is slowed down, the nucleus is excited by this excess energy and must release it by the emission of a photon or possibly by another change. If the amount of transferred energy is large enough, the nucleus might disintegrate. The video below shows an example of inelastic scattering.&lt;/li&gt;
     &lt;/ul&gt;
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+     &lt;video controls=&quot;&quot; style=&quot;width: 50%;&quot;&gt;
+         &lt;source src=&quot;/SKMU/assets/images/Nuclear/inelastic-scattering.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+         Your browser does not support the video tag.
+     &lt;/video&gt;
+ &lt;/div&gt;
   &lt;/li&gt;
-  &lt;li&gt;Transfer Reactions
+  &lt;li&gt;Radiative Capture
     &lt;ul&gt;
-      &lt;li&gt;Involve the transfer of one or two nucleons between the projectile and the target.
-        &lt;ul&gt;
-          &lt;li&gt;Example: A deuteron incoming and turning into a proton or neutron, adding a nucleon to the target X to form Y.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+      &lt;li&gt;If &lt;strong&gt;b&lt;/strong&gt; is a gamma ray, in which case the reaction is called &lt;strong&gt;radiative capture&lt;/strong&gt;.&lt;/li&gt;
+      &lt;li&gt;During radiative capture, an incident neutron enters the target nucleus forming a compound nucleus and at the same time transferring all its energy to the nucleus. The nucleus is excited by this additional energy and must release it by emitting a photon, or possibly by another type of change. The video below shows an example of radiative capture.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+     &lt;video controls=&quot;&quot; style=&quot;width: 50%;&quot;&gt;
+         &lt;source src=&quot;/SKMU/assets/images/Nuclear/radiative-capture.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+         Your browser does not support the video tag.
+     &lt;/video&gt;
+ &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Nuclear Photoeffect
+    &lt;ul&gt;
+      &lt;li&gt;If &lt;strong&gt;a&lt;/strong&gt; is a gamma ray, the reaction is called &lt;strong&gt;nuclear photoeffect&lt;/strong&gt;.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Direct Reactions
     &lt;ul&gt;
-      &lt;li&gt;Only a few nucleons participate, with others remaining as passive spectators.&lt;/li&gt;
-      &lt;li&gt;These reactions can probe the shell structure of nuclei, potentially exciting many states of Y.&lt;/li&gt;
+      &lt;li&gt;Only a few nucleons participate, with others remaining as passive spectators. Direct reactions happen on the surface rather than in the volume of interacting nuclei.&lt;/li&gt;
+      &lt;li&gt;Projectile and target are within the range of nuclear forces for the very short time allowing for an interaction of a single nucleon only. These type of reactions are called the direct reactions.&lt;/li&gt;
+      &lt;li&gt;Direct reactions are well described as a one-step transition from the initial state in the entrance to the final state in the exit channel.&lt;/li&gt;
+      &lt;li&gt;Direct reactions include: stripping, pick-up, and knockout reactions.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Compound Nucleus Mechanism
+  &lt;li&gt;Compound Nucleus Reaction
     &lt;ul&gt;
       &lt;li&gt;Involves a brief merging of incoming and target nuclei, leading to a complete sharing of energy before the nucleon is ejected.&lt;/li&gt;
+      &lt;li&gt;Characteristics:&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ul&gt;
+      &lt;li&gt;The direct reactions involve a single-nucleon interaction and are fast. In contrast, compound nucleus reaction involve many nucleon-nucleon interactions, in fact very many so these collisions lead to a complete thermal equilibrium (equal energy partition between nucleons) inside the compound nucleus.&lt;/li&gt;
+      &lt;li&gt;Since energy equilibration require time, the compound nucleus reaction are significantly slower than direct reactions.&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The compound system releases energy by emission of neutrons, protons, $\alpha$ particles and $\gamma$-rays, but has a lifetime on the order of $10^{-19} s$. This time may seem short but it is $~$ 1000 times longer than the characteristic time for direct reactions.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;The compound nucleus is formed when the projectile and target nuclei merge, and the nucleon is ejected after the compound nucleus has had time to equilibrate. Video below shows an example of the compound nucleus mechanism.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+ &lt;video controls=&quot;&quot; style=&quot;width: 50%;&quot;&gt;
+     &lt;source src=&quot;/SKMU/assets/images/Nuclear/fission.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+     Your browser does not support the video tag.
+ &lt;/video&gt;
+ &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Transfer Reactions
+    &lt;ul&gt;
+      &lt;li&gt;Involve the transfer of one or two nucleons between the projectile and the target.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Example: A deuteron incoming and turning into a proton or neutron, adding a nucleon to the target X to form Y.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Resonance Reactions
@@ -142,25 +166,28 @@
       &lt;li&gt;In these reactions, the incoming particle forms a quasibound state before the outgoing particle is ejected.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Radiative Capture
-    &lt;ul&gt;
-      &lt;li&gt;If &lt;strong&gt;b&lt;/strong&gt; is a gamma ray, in which case the reaction is called &lt;strong&gt;radiative capture&lt;/strong&gt;.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Nuclear Photoeffect
-    &lt;ul&gt;
-      &lt;li&gt;If &lt;strong&gt;a&lt;/strong&gt; is a gamma ray, the reaction is called &lt;strong&gt;nuclear photoeffect&lt;/strong&gt;.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;hr /&gt;
 &lt;h1 id=&quot;assignments&quot;&gt;Assignments&lt;/h1&gt;
 
-&lt;p&gt;Identify the type of reaction in each of the following nuclear reactions:&lt;/p&gt;
-
+&lt;p&gt;Identify the type of reaction:&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$ n + \ce{^235U} \to \ce{^236U^*} \to \ce{^92Kr} + \ce{^141Ba} + 3n $&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$ n + \ce{^10B} \to \ce{^11B} + \gamma $&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$ n + \ce{^10B} \to \ce{^11B} + \gamma $&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$ d + \ce{^14N} \to p + \ce{^15N} $&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$ p + \ce{^15N} \to \ce{^16O^*} \to \alpha + \ce{^{12}C} $&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;!-- 
