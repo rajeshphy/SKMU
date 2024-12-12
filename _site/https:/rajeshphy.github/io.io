@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-11T10:36:56+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-12T11:33:00+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
 
 &lt;p&gt;The two general kinds of nuclear reactions are:&lt;/p&gt;
 &lt;ol&gt;
@@ -190,52 +190,125 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;!-- 
-1. **Scattering Reactions**  
-   - **Elastic scattering**:  
-     When \( Y \) and \( b \) are in their ground states.  
-     Example:  
-     $$ p + \ce{^14N} \to p + \ce{^14N} $$  
+&lt;hr /&gt;
 
-   - **Inelastic scattering**:  
-     When \( Y \) or \( b \) is in an excited state.  
-     Example:  
-     $$ p + \ce{^12C} \to p + \ce{^12C^*} $$  
+&lt;h1 id=&quot;compound-nucleus-reactions&quot;&gt;Compound-Nucleus Reactions&lt;/h1&gt;
 
-2. **Knockout Reactions**  
-   Involve the ejection of a nucleon, resulting in three particles in the final state.  
-   Example:  
-   $$ d + \ce{^12C} \to p + n + \ce{^12C} $$  
+&lt;ul&gt;
+  &lt;li&gt;When an incident particle enters a target nucleus with an impact parameter smaller than the nuclear radius, it interacts with one of the nucleons, possibly through scattering.
+    &lt;ul&gt;
+      &lt;li&gt;The recoiling nucleon and incident particle lose energy in successive collisions.&lt;/li&gt;
+      &lt;li&gt;The energy is distributed among the nucleons, with a small probability for a nucleon to gain enough energy to escape, akin to molecules evaporating from a hot liquid.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-3. **Transfer Reactions**  
-   Involve the transfer of one or two nucleons between the projectile and the target.  
-   Example:  
-   $$ d + \ce{^14N} \to p + \ce{^15N} $$  
+&lt;h5 id=&quot;symbolic-representation&quot;&gt;Symbolic Representation&lt;/h5&gt;
+&lt;p&gt;The reaction can be written as:&lt;br /&gt;
+\(a + X \to C^* \to Y + b\)&lt;br /&gt;
+where \(C^*\) is the compound nucleus.&lt;/p&gt;
 
-4. **Direct Reactions**  
-   Only a few nucleons participate, with others remaining as passive spectators.  
-   Example:  
-   $$ p + \ce{^16O} \to d + \ce{^15O} $$  
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Two-Step Process:&lt;/strong&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Formation of the compound nucleus.&lt;/li&gt;
+      &lt;li&gt;Subsequent decay of the compound nucleus.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Key Assumption:&lt;/strong&gt;&lt;br /&gt;
+The relative probability for decay into specific final products is &lt;strong&gt;independent of the formation process&lt;/strong&gt;.
+    &lt;ul&gt;
+      &lt;li&gt;Decay probability depends only on the total energy, governed by statistical rules.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-5. **Compound Nucleus Mechanism**  
-   Involves a brief merging of incoming and target nuclei.  
-   Example:  
-   $$ n + \ce{^235U} \to \ce{^236U^*} \to \ce{^92Kr} + \ce{^141Ba} + 3n $$  
+&lt;hr /&gt;
 
-6. **Resonance Reactions**  
-   The incoming particle forms a quasibound state before the outgoing particle is ejected.  
-   Example:  
-   $$ p + \ce{^15N} \to \ce{^16O^*} \to \alpha + \ce{^{12}C} $$  
+&lt;h5 id=&quot;example&quot;&gt;Example&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&quot;/SKMU/assets/images/Nuclear/Compound-nuclear.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The compound nucleus \(^{64}\text{Zn}^*\) can be formed by:
+    &lt;ul&gt;
+      &lt;li&gt;
+\[p + ^{63}\text{Cu}\]
+      &lt;/li&gt;
+      &lt;li&gt;
+\[\alpha + ^{60}\text{Ni}\]
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Possible decay pathways include:
+    &lt;ul&gt;
+      &lt;li&gt;
+\[^{63}\text{Zn} + n\]
+      &lt;/li&gt;
+      &lt;li&gt;
+\[^{62}\text{Zn} + 2n\]
+      &lt;/li&gt;
+      &lt;li&gt;
+\[^{62}\text{Cu} + p + n\]
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cross-section comparison:&lt;br /&gt;
+If the model holds, reactions like \(^{63}\text{Cu}(p,n)^{63}\text{Zn}\) and \(^{60}\text{Ni}(\alpha,n)^{63}\text{Zn}\) have similar relative cross-sections at incident energies providing the same excitation energy to \(^{64}\text{Zn}^*\).
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Observation:&lt;/strong&gt; Experimental data (Figure-1) supports this model, showing agreement across cross-sections.&lt;/li&gt;
+    &lt;/ul&gt;
 
-7. **Radiative Capture**  
-   When \( b \) is a gamma ray, the reaction is called radiative capture.  
-   Example:  
-   $$ p + \ce{^12C} \to \ce{^13N} + \gamma $$  
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+          &lt;img src=&quot;/SKMU/assets/images/Nuclear/Compound-nuclear-cross.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;
+          &lt;figcaption&gt;Figure-Cross&lt;/figcaption&gt;
+  &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-8. **Nuclear Photoeffect**  
-   When \( a \) is a gamma ray, the reaction is called nuclear photoeffect.  
-   Example:  
-   $$ \gamma + \ce{^16O} \to n + \ce{^15O} $$ --&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-12-05T08:47:26+05:30</published><updated>2024-12-05T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;conditions-for-the-model&quot;&gt;Conditions for the Model&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Works best at &lt;strong&gt;low incident energies&lt;/strong&gt; (\(10-20\ \text{MeV}\)) where the projectile is unlikely to escape intact.&lt;/li&gt;
+  &lt;li&gt;Suitable for &lt;strong&gt;medium-weight and heavy nuclei&lt;/strong&gt;, where the nucleus can absorb the incident energy.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;angular-distribution&quot;&gt;Angular Distribution&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Due to random nucleon interactions, emitted particles generally exhibit isotropic angular distribution.
+    &lt;ul&gt;
+      &lt;li&gt;Exception: For heavy ions with significant angular momentum transfer, particles may emit preferentially at \(0^\circ\) and \(180^\circ\).&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div style=&quot;text-align: center;&quot;&gt;
+          &lt;img src=&quot;/SKMU/assets/images/Nuclear/Compound-nuclear-angular.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;
+          &lt;figcaption&gt;Figure-Cross&lt;/figcaption&gt;
+  &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;energy-dependence&quot;&gt;Energy Dependence&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;The “evaporation” analogy holds:
+    &lt;ul&gt;
+      &lt;li&gt;Higher energy leads to more particle emissions.&lt;/li&gt;
+      &lt;li&gt;Cross-section for reactions \((a,xn)\) shows Gaussian-like behavior:
+        &lt;ul&gt;
+          &lt;li&gt;Increases to a maximum.&lt;/li&gt;
+          &lt;li&gt;Decreases as higher energy promotes additional particle emissions.&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;div style=&quot;text-align: center;&quot;&gt;
+        &lt;img src=&quot;/SKMU/assets/images/Nuclear/Compound-nuclear-energy.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;
+        &lt;figcaption&gt;Figure-Cross&lt;/figcaption&gt;
+&lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-12-05T08:47:26+05:30</published><updated>2024-12-05T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.&lt;/li&gt;
 &lt;/ul&gt;

@@ -171,50 +171,80 @@ Identify the type of reaction:
 
 5. $ p + \ce{^15N} \to \ce{^16O^*} \to \alpha + \ce{^{12}C} $
 
+---
 
-<!-- 
-1. **Scattering Reactions**  
-   - **Elastic scattering**:  
-     When \( Y \) and \( b \) are in their ground states.  
-     Example:  
-     $$ p + \ce{^14N} \to p + \ce{^14N} $$  
 
-   - **Inelastic scattering**:  
-     When \( Y \) or \( b \) is in an excited state.  
-     Example:  
-     $$ p + \ce{^12C} \to p + \ce{^12C^*} $$  
+# Compound-Nucleus Reactions
 
-2. **Knockout Reactions**  
-   Involve the ejection of a nucleon, resulting in three particles in the final state.  
-   Example:  
-   $$ d + \ce{^12C} \to p + n + \ce{^12C} $$  
+- When an incident particle enters a target nucleus with an impact parameter smaller than the nuclear radius, it interacts with one of the nucleons, possibly through scattering.  
+  - The recoiling nucleon and incident particle lose energy in successive collisions.  
+  - The energy is distributed among the nucleons, with a small probability for a nucleon to gain enough energy to escape, akin to molecules evaporating from a hot liquid.
 
-3. **Transfer Reactions**  
-   Involve the transfer of one or two nucleons between the projectile and the target.  
-   Example:  
-   $$ d + \ce{^14N} \to p + \ce{^15N} $$  
+##### Symbolic Representation
+The reaction can be written as:  
+$$ 
+a + X \to C^* \to Y + b 
+$$  
+where $$ C^* $$ is the compound nucleus.
 
-4. **Direct Reactions**  
-   Only a few nucleons participate, with others remaining as passive spectators.  
-   Example:  
-   $$ p + \ce{^16O} \to d + \ce{^15O} $$  
+- **Two-Step Process:**
+  1. Formation of the compound nucleus.
+  2. Subsequent decay of the compound nucleus.
 
-5. **Compound Nucleus Mechanism**  
-   Involves a brief merging of incoming and target nuclei.  
-   Example:  
-   $$ n + \ce{^235U} \to \ce{^236U^*} \to \ce{^92Kr} + \ce{^141Ba} + 3n $$  
+- **Key Assumption:**  
+  The relative probability for decay into specific final products is **independent of the formation process**.  
+  - Decay probability depends only on the total energy, governed by statistical rules.
 
-6. **Resonance Reactions**  
-   The incoming particle forms a quasibound state before the outgoing particle is ejected.  
-   Example:  
-   $$ p + \ce{^15N} \to \ce{^16O^*} \to \alpha + \ce{^{12}C} $$  
+---
 
-7. **Radiative Capture**  
-   When \( b \) is a gamma ray, the reaction is called radiative capture.  
-   Example:  
-   $$ p + \ce{^12C} \to \ce{^13N} + \gamma $$  
+##### Example
+<img src="/SKMU/assets/images/Nuclear/Compound-nuclear.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:100%; height:auto;">
+- The compound nucleus $$ ^{64}\text{Zn}^* $$ can be formed by:
+  - $$ p + ^{63}\text{Cu} $$  
+  - $$ \alpha + ^{60}\text{Ni} $$
+- Possible decay pathways include:
+  - $$ ^{63}\text{Zn} + n $$  
+  - $$ ^{62}\text{Zn} + 2n $$  
+  - $$ ^{62}\text{Cu} + p + n $$
 
-8. **Nuclear Photoeffect**  
-   When \( a \) is a gamma ray, the reaction is called nuclear photoeffect.  
-   Example:  
-   $$ \gamma + \ce{^16O} \to n + \ce{^15O} $$ -->
+- Cross-section comparison:  
+If the model holds, reactions like $$ ^{63}\text{Cu}(p,n)^{63}\text{Zn} $$ and $$ ^{60}\text{Ni}(\alpha,n)^{63}\text{Zn} $$ have similar relative cross-sections at incident energies providing the same excitation energy to $$ ^{64}\text{Zn}^* $$.  
+    - **Observation:** Experimental data (Figure-1) supports this model, showing agreement across cross-sections.
+    
+    <div style="text-align: center;">
+            <img src="/SKMU/assets/images/Nuclear/Compound-nuclear-cross.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:100%; height:auto;">
+            <figcaption>Figure-Cross</figcaption>
+    </div>
+  
+
+---
+
+##### Conditions for the Model
+- Works best at **low incident energies** ($$10-20\ \text{MeV}$$) where the projectile is unlikely to escape intact.
+- Suitable for **medium-weight and heavy nuclei**, where the nucleus can absorb the incident energy.
+
+---
+
+##### Angular Distribution
+- Due to random nucleon interactions, emitted particles generally exhibit isotropic angular distribution.  
+  - Exception: For heavy ions with significant angular momentum transfer, particles may emit preferentially at $$ 0^\circ $$ and $$ 180^\circ $$.
+
+   <div style="text-align: center;">
+            <img src="/SKMU/assets/images/Nuclear/Compound-nuclear-angular.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:100%; height:auto;">
+            <figcaption>Figure-Cross</figcaption>
+    </div>
+
+
+---
+
+##### Energy Dependence
+- The "evaporation" analogy holds:  
+  - Higher energy leads to more particle emissions.  
+  - Cross-section for reactions $$ (a,xn) $$ shows Gaussian-like behavior:  
+    - Increases to a maximum.  
+    - Decreases as higher energy promotes additional particle emissions.
+
+     <div style="text-align: center;">
+            <img src="/SKMU/assets/images/Nuclear/Compound-nuclear-energy.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:100%; height:auto;">
+            <figcaption>Figure-Cross</figcaption>
+    </div>
