@@ -7,7 +7,7 @@ tags: SEM-III
 ---
 
 <!-- <img src="/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:100%; height:auto;"> -->
-
+<!-- 
 The two general kinds of nuclear reactions are:
 1. Nuclear Decay
 2. Nuclear Transmutation
@@ -17,7 +17,7 @@ In a nuclear decay reaction, also called radioactive decay, an unstable nucleus 
 <div style="text-align: center;">
     <img src="/SKMU/assets/images/Nuclear/n.png" alt="Transmutation" class="my-custom-class" style="max-width:90%; height:auto;">
 </div>
-There are six fundamentally different kinds of nuclear decay reactions, and each releases a different kind of particle or energy. The essential features of each reaction are shown in Fig-2. The sixth kind is the spontaneous fission. It can be seen from the above figure that the decay may or may not change the mass number $A$ and the atomic number $Z$ of the nucleus. 
+There are six fundamentally different kinds of nuclear decay reactions, and each releases a different kind of particle or energy. The essential features of each reaction are shown in Fig-2. The sixth kind is the spontaneous fission. It can be seen from the above figure that the decay may or may not change the mass number $A$ and the atomic number $Z$ of the nucleus.  -->
 
 ### Q-Value of Nuclear Reaction
 
@@ -185,7 +185,8 @@ The reaction can be written as:
 $$ 
 a + X \to C^* \to Y + b 
 $$  
-where $$ C^* $$ is the compound nucleus.
+where $$ C^* $$ is the compound nucleus. In compact form, the reaction is represented as:
+$$ X(a,b)Y $$
 
 - **Two-Step Process:**
   1. Formation of the compound nucleus.
@@ -212,30 +213,26 @@ If the model holds, reactions like $$ ^{63}\text{Cu}(p,n)^{63}\text{Zn} $$ and $
     - **Observation:** Experimental data (Figure-1) supports this model, showing agreement across cross-sections.
     
     <div style="text-align: center;">
-            <img src="/SKMU/assets/images/Nuclear/Compound-nuclear-cross.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:100%; height:auto;">
-            <figcaption>Figure-Cross</figcaption>
+            <img src="/SKMU/assets/images/Nuclear/Compound-nuclear-cross.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:60%; height:auto;">
+            <figcaption>Figure-1: Cross-sections for different reactions leading to the compound nucleus $^{64}\text{Zn}$ show very similar characteristics, consistent with the basic assumptions of the compound nucleus model. Source: S. N. Goshal, Phys. Rev. 80, 939 (1950).</figcaption>
     </div>
   
 
 ---
 
-##### Conditions for the Model
+##### Conditions for the Model and Characteristics
 - Works best at **low incident energies** ($$10-20\ \text{MeV}$$) where the projectile is unlikely to escape intact.
 - Suitable for **medium-weight and heavy nuclei**, where the nucleus can absorb the incident energy.
 
----
 
 ##### Angular Distribution
 - Due to random nucleon interactions, emitted particles generally exhibit isotropic angular distribution.  
   - Exception: For heavy ions with significant angular momentum transfer, particles may emit preferentially at $$ 0^\circ $$ and $$ 180^\circ $$.
 
    <div style="text-align: center;">
-            <img src="/SKMU/assets/images/Nuclear/Compound-nuclear-angular.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:100%; height:auto;">
-            <figcaption>Figure-Cross</figcaption>
+            <img src="/SKMU/assets/images/Nuclear/Compound-nuclear-angular.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:80%; height:auto;">
+            <figcaption>Figure-2: The curve marked NC shows the contribution from compound-nucleus formation to the cross-section of the reaction: $^{25}\text{Mg}(p,p)^{25}\text{Mg}.$ The curve marked ID shows the contribution from direct reactions. The direct part exhibits a strong angular dependence, while the compound-nucleus part shows little angular dependence.  Source: A. Gallmann et al., Nucl. Phys. 88, 654 (1966).</figcaption>
     </div>
-
-
----
 
 ##### Energy Dependence
 - The "evaporation" analogy holds:  
@@ -246,5 +243,6 @@ If the model holds, reactions like $$ ^{63}\text{Cu}(p,n)^{63}\text{Zn} $$ and $
 
      <div style="text-align: center;">
             <img src="/SKMU/assets/images/Nuclear/Compound-nuclear-energy.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:100%; height:auto;">
-            <figcaption>Figure-Cross</figcaption>
+            <figcaption>Figure-3: At higher incident energies, it is more likely that additional neu-trons will “evaporate” from the compound nucleus.
+            </figcaption>
     </div>

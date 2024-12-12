@@ -1,17 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-12T11:33:00+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-12T12:45:39+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
+&lt;!-- 
+The two general kinds of nuclear reactions are:
+1. Nuclear Decay
+2. Nuclear Transmutation
 
-&lt;p&gt;The two general kinds of nuclear reactions are:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Nuclear Decay&lt;/li&gt;
-  &lt;li&gt;Nuclear Transmutation&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;In a nuclear decay reaction, also called radioactive decay, an unstable nucleus emits radiation and transforms into the nucleus of one or more other elements. This process happens spontaneously due to the imbalance of forces within the nucleus, such as an excess of protons or neutrons, or an unfavorable energy configuration. The resulting daughter nuclei have a lower mass and are lower in energy (more stable) than the parent nucleus that decayed. In contrast, in a nuclear transmutation reaction, a nucleus of one element is bombarded with a small particle or another nucleus, and the bombarded nucleus is transformed into a more massive nucleus than the starting nucleus.&lt;/p&gt;
+In a nuclear decay reaction, also called radioactive decay, an unstable nucleus emits radiation and transforms into the nucleus of one or more other elements. This process happens spontaneously due to the imbalance of forces within the nucleus, such as an excess of protons or neutrons, or an unfavorable energy configuration. The resulting daughter nuclei have a lower mass and are lower in energy (more stable) than the parent nucleus that decayed. In contrast, in a nuclear transmutation reaction, a nucleus of one element is bombarded with a small particle or another nucleus, and the bombarded nucleus is transformed into a more massive nucleus than the starting nucleus.
 
 &lt;div style=&quot;text-align: center;&quot;&gt;
-    &lt;img src=&quot;/SKMU/assets/images/Nuclear/n.png&quot; alt=&quot;Transmutation&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:90%; height:auto;&quot; /&gt;
+    &lt;img src=&quot;/SKMU/assets/images/Nuclear/n.png&quot; alt=&quot;Transmutation&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:90%; height:auto;&quot;&gt;
 &lt;/div&gt;
-&lt;p&gt;There are six fundamentally different kinds of nuclear decay reactions, and each releases a different kind of particle or energy. The essential features of each reaction are shown in Fig-2. The sixth kind is the spontaneous fission. It can be seen from the above figure that the decay may or may not change the mass number $A$ and the atomic number $Z$ of the nucleus.&lt;/p&gt;
+There are six fundamentally different kinds of nuclear decay reactions, and each releases a different kind of particle or energy. The essential features of each reaction are shown in Fig-2. The sixth kind is the spontaneous fission. It can be seen from the above figure that the decay may or may not change the mass number $A$ and the atomic number $Z$ of the nucleus.  --&gt;
 
 &lt;h3 id=&quot;q-value-of-nuclear-reaction&quot;&gt;Q-Value of Nuclear Reaction&lt;/h3&gt;
 
@@ -206,7 +204,8 @@
 &lt;h5 id=&quot;symbolic-representation&quot;&gt;Symbolic Representation&lt;/h5&gt;
 &lt;p&gt;The reaction can be written as:&lt;br /&gt;
 \(a + X \to C^* \to Y + b\)&lt;br /&gt;
-where \(C^*\) is the compound nucleus.&lt;/p&gt;
+where \(C^*\) is the compound nucleus. In compact form, the reaction is represented as:
+\(X(a,b)Y\)&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Two-Step Process:&lt;/strong&gt;
@@ -258,21 +257,19 @@ If the model holds, reactions like \(^{63}\text{Cu}(p,n)^{63}\text{Zn}\) and \(^
     &lt;/ul&gt;
 
     &lt;div style=&quot;text-align: center;&quot;&gt;
-          &lt;img src=&quot;/SKMU/assets/images/Nuclear/Compound-nuclear-cross.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;
-          &lt;figcaption&gt;Figure-Cross&lt;/figcaption&gt;
+          &lt;img src=&quot;/SKMU/assets/images/Nuclear/Compound-nuclear-cross.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+          &lt;figcaption&gt;Figure-1: Cross-sections for different reactions leading to the compound nucleus $^{64}\text{Zn}$ show very similar characteristics, consistent with the basic assumptions of the compound nucleus model. Source: S. N. Goshal, Phys. Rev. 80, 939 (1950).&lt;/figcaption&gt;
   &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
-&lt;h5 id=&quot;conditions-for-the-model&quot;&gt;Conditions for the Model&lt;/h5&gt;
+&lt;h5 id=&quot;conditions-for-the-model-and-characteristics&quot;&gt;Conditions for the Model and Characteristics&lt;/h5&gt;
 &lt;ul&gt;
   &lt;li&gt;Works best at &lt;strong&gt;low incident energies&lt;/strong&gt; (\(10-20\ \text{MeV}\)) where the projectile is unlikely to escape intact.&lt;/li&gt;
   &lt;li&gt;Suitable for &lt;strong&gt;medium-weight and heavy nuclei&lt;/strong&gt;, where the nucleus can absorb the incident energy.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;hr /&gt;
 
 &lt;h5 id=&quot;angular-distribution&quot;&gt;Angular Distribution&lt;/h5&gt;
 &lt;ul&gt;
@@ -282,13 +279,11 @@ If the model holds, reactions like \(^{63}\text{Cu}(p,n)^{63}\text{Zn}\) and \(^
     &lt;/ul&gt;
 
     &lt;div style=&quot;text-align: center;&quot;&gt;
-          &lt;img src=&quot;/SKMU/assets/images/Nuclear/Compound-nuclear-angular.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;
-          &lt;figcaption&gt;Figure-Cross&lt;/figcaption&gt;
+          &lt;img src=&quot;/SKMU/assets/images/Nuclear/Compound-nuclear-angular.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:auto;&quot; /&gt;
+          &lt;figcaption&gt;Figure-2: The curve marked NC shows the contribution from compound-nucleus formation to the cross-section of the reaction: $^{25}\text{Mg}(p,p)^{25}\text{Mg}.$ The curve marked ID shows the contribution from direct reactions. The direct part exhibits a strong angular dependence, while the compound-nucleus part shows little angular dependence.  Source: A. Gallmann et al., Nucl. Phys. 88, 654 (1966).&lt;/figcaption&gt;
   &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;hr /&gt;
 
 &lt;h5 id=&quot;energy-dependence&quot;&gt;Energy Dependence&lt;/h5&gt;
 &lt;ul&gt;
@@ -303,12 +298,13 @@ If the model holds, reactions like \(^{63}\text{Cu}(p,n)^{63}\text{Zn}\) and \(^
 
         &lt;div style=&quot;text-align: center;&quot;&gt;
         &lt;img src=&quot;/SKMU/assets/images/Nuclear/Compound-nuclear-energy.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;
-        &lt;figcaption&gt;Figure-Cross&lt;/figcaption&gt;
+        &lt;figcaption&gt;Figure-3: At higher incident energies, it is more likely that additional neu-trons will “evaporate” from the compound nucleus.
+        &lt;/figcaption&gt;
 &lt;/div&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-12-05T08:47:26+05:30</published><updated>2024-12-05T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">&amp;lt;!– The two general kinds of nuclear reactions are: Nuclear Decay Nuclear Transmutation</summary></entry><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-12-05T08:47:26+05:30</published><updated>2024-12-05T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.&lt;/li&gt;
 &lt;/ul&gt;
