@@ -6,19 +6,6 @@ categories: lecture
 tags: SEM-III
 ---
 
-<!-- <img src="/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:100%; height:auto;"> -->
-<!-- 
-The two general kinds of nuclear reactions are:
-1. Nuclear Decay
-2. Nuclear Transmutation
-
-In a nuclear decay reaction, also called radioactive decay, an unstable nucleus emits radiation and transforms into the nucleus of one or more other elements. This process happens spontaneously due to the imbalance of forces within the nucleus, such as an excess of protons or neutrons, or an unfavorable energy configuration. The resulting daughter nuclei have a lower mass and are lower in energy (more stable) than the parent nucleus that decayed. In contrast, in a nuclear transmutation reaction, a nucleus of one element is bombarded with a small particle or another nucleus, and the bombarded nucleus is transformed into a more massive nucleus than the starting nucleus.
-
-<div style="text-align: center;">
-    <img src="/SKMU/assets/images/Nuclear/n.png" alt="Transmutation" class="my-custom-class" style="max-width:90%; height:auto;">
-</div>
-There are six fundamentally different kinds of nuclear decay reactions, and each releases a different kind of particle or energy. The essential features of each reaction are shown in Fig-2. The sixth kind is the spontaneous fission. It can be seen from the above figure that the decay may or may not change the mass number $A$ and the atomic number $Z$ of the nucleus.  -->
-
 ### Q-Value of Nuclear Reaction
 
 Nuclear reactions can occur when a target nucleus $X$ is bombarded by a particle $a$, resulting in a daughter nucleus $Y$ and an outgoing particle $b$:  
@@ -214,7 +201,9 @@ If the model holds, reactions like $$ ^{63}\text{Cu}(p,n)^{63}\text{Zn} $$ and $
     
     <div style="text-align: center;">
             <img src="/SKMU/assets/images/Nuclear/Compound-nuclear-cross.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:60%; height:auto;">
-            <figcaption>Figure-1: Cross-sections for different reactions leading to the compound nucleus $^{64}\text{Zn}$ show very similar characteristics, consistent with the basic assumptions of the compound nucleus model. Source: S. N. Goshal, Phys. Rev. 80, 939 (1950).</figcaption>
+            <figcaption>Figure-1:Experimental cross sections for $(p,e)$, $(p, 2N)$, $(p, pn)$ reactions on $Cu^{63}$ and for $(\alpha, n)$, $(n, 2e)$, $(\alpha, pe)$ reactions on $Ni^{60}$ are plotted against $E_{p}$ and $E_{\alpha}$, respectively. 
+            The scale of $E_{p}$ has been shifted by 7 MeV with respect to the scale of $E_{\alpha}$. Source: S. N. Goshal, Phys. Rev. 80, 939 (1950).
+            </figcaption>
     </div>
   
 
