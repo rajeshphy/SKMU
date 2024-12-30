@@ -21,6 +21,8 @@ Supplementary resources for the course are provided below. These resources inclu
 
 - [Experimental Verification Of Compound Nuclear Reaction SN Ghoshal](/SKMU/assets/pdf/Experimental-Compound-Nuclear-Reaction-SN-Ghoshal.pdf)
 
+- [Nuclear Reactions](/SKMU/assets/pdf/Nuclear-Reactions.pdf)
+
 - **[Frequently Used Mathematical Formula](/SKMU/assets/pdf/Math-Formulae.pdf)**
 
 - **[Frequently Used Quantum Mechanics Formula](/SKMU/assets/pdf/QM-Formulae.pdf)**
