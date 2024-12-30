@@ -201,7 +201,7 @@ If the model holds, reactions like $$ ^{63}\text{Cu}(p,n)^{63}\text{Zn} $$ and $
     
     <div style="text-align: center;">
             <img src="/SKMU/assets/images/Nuclear/Compound-nuclear-cross.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:60%; height:auto;">
-            <figcaption>Figure-1:Experimental cross sections for $(p,e)$, $(p, 2N)$, $(p, pn)$ reactions on $Cu^{63}$ and for $(\alpha, n)$, $(n, 2e)$, $(\alpha, pe)$ reactions on $Ni^{60}$ are plotted against $E_{p}$ and $E_{\alpha}$, respectively. 
+            <figcaption>Figure-1:Experimental cross sections for $(p,n)$, $(p, 2n)$, $(p, pn)$ reactions on $Cu^{63}$ and for $(\alpha, n)$, $(n, 2n)$, $(\alpha, pn)$ reactions on $Ni^{60}$ are plotted against $E_{p}$ and $E_{\alpha}$, respectively. 
             The scale of $E_{p}$ has been shifted by 7 MeV with respect to the scale of $E_{\alpha}$. Source: S. N. Goshal, Phys. Rev. 80, 939 (1950).
             </figcaption>
     </div>
