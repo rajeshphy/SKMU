@@ -65,6 +65,10 @@
 <lastmod>2024-12-10T04:47:26+05:30</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html</loc>
+<lastmod>2025-01-01T06:47:26+05:30</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/SKMU/</loc>
 </url>
 <url>
@@ -72,6 +76,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/SKMU/page2/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/SKMU/page3/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/SKMU/assets/blog_files/genome-coverage-vis/complex_plot.pdf</loc>
@@ -102,6 +109,10 @@
 <lastmod>2024-11-22T11:44:40+05:30</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/SKMU/assets/pdf/Experimental-Compound-Nuclear-Reaction-SN-Ghoshal.pdf</loc>
+<lastmod>2024-12-12T09:43:11+05:30</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/SKMU/assets/pdf/Greens-Function.pdf</loc>
 <lastmod>2024-08-16T20:07:42+05:30</lastmod>
 </url>
@@ -112,6 +123,10 @@
 <url>
 <loc>http://localhost:4000/SKMU/assets/pdf/None-Formulation-QM.pdf</loc>
 <lastmod>2024-08-16T20:07:42+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/SKMU/assets/pdf/Nuclear-Reactions.pdf</loc>
+<lastmod>2024-12-12T09:25:04+05:30</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/SKMU/assets/pdf/Particle-Physics.pdf</loc>

@@ -1,19 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-12T12:45:39+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
-&lt;!-- 
-The two general kinds of nuclear reactions are:
-1. Nuclear Decay
-2. Nuclear Transmutation
-
-In a nuclear decay reaction, also called radioactive decay, an unstable nucleus emits radiation and transforms into the nucleus of one or more other elements. This process happens spontaneously due to the imbalance of forces within the nucleus, such as an excess of protons or neutrons, or an unfavorable energy configuration. The resulting daughter nuclei have a lower mass and are lower in energy (more stable) than the parent nucleus that decayed. In contrast, in a nuclear transmutation reaction, a nucleus of one element is bombarded with a small particle or another nucleus, and the bombarded nucleus is transformed into a more massive nucleus than the starting nucleus.
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-    &lt;img src=&quot;/SKMU/assets/images/Nuclear/n.png&quot; alt=&quot;Transmutation&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:90%; height:auto;&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-01T11:53:06+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Scattering Revisited</title><link href="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html" rel="alternate" type="text/html" title="Scattering Revisited" /><published>2025-01-01T06:47:26+05:30</published><updated>2025-01-01T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html">&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/images/Scattering/breit.jpg&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:20%; height:auto;&quot; /&gt;
 &lt;/div&gt;
-There are six fundamentally different kinds of nuclear decay reactions, and each releases a different kind of particle or energy. The essential features of each reaction are shown in Fig-2. The sixth kind is the spontaneous fission. It can be seen from the above figure that the decay may or may not change the mass number $A$ and the atomic number $Z$ of the nucleus.  --&gt;
+&lt;p&gt;In this lecture, we will start by revisiting the basics of quantum scattering, focusing on partial wave analysis and phase shifts. The graph at the top illustrates the Breit-Wigner resonance curve, which we will discuss in detail after exploring resonance scattering and its role in energy-dependent cross-sections.&lt;/p&gt;
 
-&lt;h3 id=&quot;q-value-of-nuclear-reaction&quot;&gt;Q-Value of Nuclear Reaction&lt;/h3&gt;
-
-&lt;p&gt;Nuclear reactions can occur when a target nucleus $X$ is bombarded by a particle $a$, resulting in a daughter nucleus $Y$ and an outgoing particle $b$:&lt;/p&gt;
+&lt;h1 id=&quot;scattering&quot;&gt;Scattering&lt;/h1&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">In this lecture, we will start by revisiting the basics of quantum scattering, focusing on partial wave analysis and phase shifts. The graph at the top illustrates the Breit-Wigner resonance curve, which we will discuss in detail after exploring resonance scattering and its role in energy-dependent cross-sections.</summary></entry><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;p&gt;Nuclear reactions can occur when a target nucleus $X$ is bombarded by a particle $a$, resulting in a daughter nucleus $Y$ and an outgoing particle $b$:&lt;/p&gt;
 
 \[a + X \rightarrow Y + b\]
 
@@ -258,7 +248,9 @@ If the model holds, reactions like \(^{63}\text{Cu}(p,n)^{63}\text{Zn}\) and \(^
 
     &lt;div style=&quot;text-align: center;&quot;&gt;
           &lt;img src=&quot;/SKMU/assets/images/Nuclear/Compound-nuclear-cross.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
-          &lt;figcaption&gt;Figure-1: Cross-sections for different reactions leading to the compound nucleus $^{64}\text{Zn}$ show very similar characteristics, consistent with the basic assumptions of the compound nucleus model. Source: S. N. Goshal, Phys. Rev. 80, 939 (1950).&lt;/figcaption&gt;
+          &lt;figcaption&gt;Figure-1:Experimental cross sections for $(p,n)$, $(p, 2n)$, $(p, pn)$ reactions on $Cu^{63}$ and for $(\alpha, n)$, $(n, 2n)$, $(\alpha, pn)$ reactions on $Ni^{60}$ are plotted against $E_{p}$ and $E_{\alpha}$, respectively. 
+          The scale of $E_{p}$ has been shifted by 7 MeV with respect to the scale of $E_{\alpha}$. Source: S. N. Goshal, Phys. Rev. 80, 939 (1950).
+          &lt;/figcaption&gt;
   &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -304,7 +296,7 @@ If the model holds, reactions like \(^{63}\text{Cu}(p,n)^{63}\text{Zn}\) and \(^
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">&amp;lt;!– The two general kinds of nuclear reactions are: Nuclear Decay Nuclear Transmutation</summary></entry><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-12-05T08:47:26+05:30</published><updated>2024-12-05T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">Nuclear reactions can occur when a target nucleus $X$ is bombarded by a particle $a$, resulting in a daughter nucleus $Y$ and an outgoing particle $b$:</summary></entry><entry><title type="html">Basic Electronics: Semiconductors</title><link href="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html" rel="alternate" type="text/html" title="Basic Electronics: Semiconductors" /><published>2024-12-05T08:47:26+05:30</published><updated>2024-12-05T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/05/Electronics-Semiconductors.html">&lt;p&gt;In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.&lt;/li&gt;
 &lt;/ul&gt;
@@ -1211,224 +1203,4 @@ H&apos;_{41} &amp;amp; H&apos;_{42} &amp;amp; H&apos;_{43} &amp;amp; H&apos;_{44
 
 &lt;ul&gt;
   &lt;li&gt;Here, \(L_{1}^{3} \left(\frac{2r}{2a_0}\right) = \frac{r}{a_0}\)&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="quantum-mechanics" /><category term="hydrogen-atom" /><category term="stark-effect" /><summary type="html">In the hydrogen atom, the energy levels are determined by the principal quantum number \(n\), and for a given \(n\), the energy is given by:</summary></entry><entry><title type="html">Approximation Method</title><link href="http://localhost:4000/SKMU/lecture/2024/07/26/Approximation-Method.html" rel="alternate" type="text/html" title="Approximation Method" /><published>2024-07-26T10:47:26+05:30</published><updated>2024-07-26T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/07/26/Approximation-Method</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/07/26/Approximation-Method.html">&lt;p&gt;Perturbation theory is a powerful tool in quantum mechanics used to study systems where the Hamiltonian can be separated into a known part \(H_0\) and a small perturbation \(H&apos;\). The goal is to find approximate solutions to the Schrödinger equation for the full Hamiltonian \(H = H_0 + H&apos;\) by treating the perturbation as a small correction to the known system.&lt;/p&gt;
-
-&lt;h3 id=&quot;time-independent-perturbation-theory-non-degenerate-case&quot;&gt;Time Independent Perturbation Theory: Non-degenerate Case&lt;/h3&gt;
-
-&lt;p&gt;Suppose we have a Hamiltonian&lt;/p&gt;
-
-\[H = H_0 + \lambda H&apos;\]
-
-&lt;p&gt;where \(\lambda\) is a small parameter. The Hamiltonian \(H_0\) is the unperturbed Hamiltonian whose eigenvalues and eigenfunctions are known say \(E_n^{(0)}\) and \(\psi_n^{(0)}\) respectively. The Hamiltonian \(H&apos;\) is the perturbation to the Hamiltonian \(H_0\). Now the problem is &lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;to find the eigenvalues and eigenfunctions of the Hamiltonian \(H\).&lt;/span&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;If the unperturbed Hamiltonian \(H_0\) is known, then the eigenvalues and eigenfunctions of \(H\) can be found by using perturbation theory.&lt;/li&gt;
-  &lt;li&gt;The eigenvalues and eigenfunctions of \(H\) can be expanded in powers of \(\lambda\).&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The eigenvalues of \(H\) are given by:&lt;/p&gt;
-
-\[E_n = E_n^{(0)} + \lambda E_n^{(1)} + \lambda^2 E_n^{(2)} + \cdots\]
-
-    &lt;p&gt;where \(E_n^{(0)}\) are the eigenvalues of \(H_0\) and \(E_n^{(1)}\) are the first order corrections to the eigenvalues. Similarly, \(E_n^{(2)}\) are the second order corrections to the eigenvalues.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The eigenfunctions of \(H\) are given by:&lt;/p&gt;
-
-\[\psi_n = \psi_n^{(0)} + \lambda \psi_n^{(1)} + \lambda^2 \psi_n^{(2)} + \cdots\]
-
-    &lt;p&gt;where \(\psi_n^{(0)}\) are the eigenfunctions of \(H_0\) and \(\psi_n^{(1)}\) are the first order corrections to the eigenfunctions. Similarly, \(\psi_n^{(2)}\) are the second order corrections to the eigenfunctions.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The first order correction to the eigenvalues is given by:&lt;/p&gt;
-
-\[E_n^{(1)} = \int \psi_n^{(0)*} H&apos; \psi_n^{(0)} \, d\tau\]
-
-    &lt;p&gt;One gets this by substituting the above expression for \(E_n\) into the Schrödinger equation and then projecting the equation onto \(\psi_n^{(0)}\). We will use the fact that&lt;/p&gt;
-
-\[\int \psi_n^{(0)*} \psi_n \, d\tau = \int \psi_n^{(0)*} \psi_n^{(0)} \, d\tau = 1\]
-
-    &lt;p&gt;Expanding the Schrödinger equation gives&lt;/p&gt;
-
-\[\begin{align}
-  \int \psi_n^{(0)*} (H_0 + \lambda H&apos;) \psi_n \, d\tau &amp;amp;= E_n \int \psi_n^{(0)*} \psi_n \, d\tau\\
-  \int \psi_n^{(0)*} H_0 \psi_n \, d\tau + \lambda \int \psi_n^{(0)*} H&apos; \psi_n \, d\tau &amp;amp;= E_n \int \psi_n^{(0)*} \psi_n^{(0)} \, d\tau\\
-  E_n^{(0)} \int \psi_n^{(0)*} \psi_n \, d\tau + \lambda \int \psi_n^{(0)*} H&apos; \psi_n \, d\tau &amp;amp;= E_n \\
-  E_n^{(0)} \int \psi_n^{(0)*} \psi_n^{(0)} \, d\tau + \lambda \int \psi_n^{(0)*} H&apos; \psi_n \, d\tau &amp;amp;= E_n^{(0)}+ \lambda E_n^{(1)}+ \lambda^2 E_n^{(2)} + \cdots\\
-  E_n^{(0)}+ \lambda \int \psi_n^{(0)*} H&apos; \psi_n \, d\tau &amp;amp;= E_n^{(0)}+ \lambda E_n^{(1)}+ \lambda^2 E_n^{(2)} + \cdots\\
-  \lambda \int \psi_n^{(0)*} H&apos; \psi_n \, d\tau &amp;amp;= \lambda E_n^{(1)}+ \lambda^2 E_n^{(2)} + \cdots
-  \end{align}\]
-
-    &lt;p&gt;Expanding the perturbative term on L.H.S. of the above equation gives&lt;/p&gt;
-
-\[\int \psi_n^{(0)*} H&apos; \psi_n \, d\tau =\int \psi_n^{(0)*} H&apos; \psi_n^{(0)} \, d\tau+ \lambda\int \psi_n^{(0)*} H&apos; \psi_n^{(1)} \, d\tau+ \lambda^2\int \psi_n^{(0)*} H&apos; \psi_n^{(2)} \, d\tau+ \cdots\]
-
-    &lt;p&gt;therefore the Schrödinger equation gives&lt;/p&gt;
-
-    &lt;p&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;\(\lambda\int \psi_n^{(0)*} H&apos; \psi_n^{(0)} \, d\tau+ \lambda^2\int \psi_n^{(0)*} H&apos; \psi_n^{(1)} \, d\tau+ \cdots=\lambda E_n^{(1)}+ \lambda^2 E_n^{(2)} + \cdots\)&lt;/span&gt;&lt;/p&gt;
-
-    &lt;p&gt;we get first order corrections to the eigenvalues as&lt;/p&gt;
-
-\[\boxed{E_n^{(1)} = \int \psi_n^{(0)*} H&apos; \psi_n^{(0)} \, d\tau}\]
-
-    &lt;p&gt;First order correction can be calculated as the expression of the eigenfunction \(\psi_n^{(0)}\) is well known and the matrix element of \(H&apos;\) can be calculated. The second order correction to the eigenvalues is given by:&lt;/p&gt;
-
-\[\boxed{E_n^{(2)} = \int \psi_n^{(0)*} H&apos; \psi_n^{(1)} \, d\tau}\]
-
-    &lt;p&gt;Here the first order correction to the eigenfunction is needed to calculate the second order correction to the eigenvalues.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The first order correction to the eigenfunctions is given by:&lt;/p&gt;
-
-\[\psi_n^{(1)} = \sum_{m \neq n} \frac{\int\psi_m^{(0)*} H&apos; \psi_n^{(0)}d\tau}{E_n^{(0)} - E_m^{(0)}}\psi_m^{(0)}\]
-
-    &lt;p&gt;The first order correction to the eigenfunction can be calculated by using the fact that the eigenfunctions of \(H_0\) are known and the matrix elements of \(H&apos;\) can be calculated. The first order correction to the eigenfunction is calculated by projecting the Schrödinger equation onto the state \(\psi_m^{(0)}\) where \(m \neq n\).&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;time-independent-perturbation-theory-degenerate-case&quot;&gt;Time Independent Perturbation Theory: Degenerate Case&lt;/h3&gt;
-
-&lt;p&gt;In the degenerate case, we still have the Hamiltonian&lt;/p&gt;
-
-\[H = H_0 + \lambda H&apos;\]
-
-&lt;p&gt;where \(\lambda\) is a small parameter. The unperturbed Hamiltonian \(H_0\) has a set of degenerate eigenstates, meaning there are multiple eigenfunctions corresponding to the same eigenvalue \(E_n^{(0)}\).&lt;/p&gt;
-
-&lt;h4 id=&quot;problem-statement&quot;&gt;Problem Statement&lt;/h4&gt;
-&lt;p&gt;&lt;span style=&quot;color: red;&quot;&gt;The problem is to find the eigenvalues and eigenfunctions of the perturbed Hamiltonian \(H\) when the unperturbed Hamiltonian \(H_0\) has degenerate eigenstates.&lt;/span&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;approach&quot;&gt;Approach&lt;/h4&gt;
-&lt;p&gt;For simplicity, assume that \(H_0\) has a degenerate eigenvalue \(E_n^{(0)}\) with \(g\) degenerate states \(\psi_{n,1}^{(0)}, \psi_{n,2}^{(0)}, \ldots, \psi_{n,g}^{(0)}\). We need to account for the mixing of these degenerate states due to the perturbation \(H&apos;\).&lt;/p&gt;
-
-&lt;h4 id=&quot;eigenvalue-and-eigenfunction-expansions&quot;&gt;Eigenvalue and Eigenfunction Expansions&lt;/h4&gt;
-&lt;p&gt;The eigenvalues and eigenfunctions of \(H\) can still be expanded in powers of \(\lambda\):&lt;/p&gt;
-
-\[E_n = E_n^{(0)} + \lambda E_n^{(1)} + \lambda^2 E_n^{(2)} + \cdots\]
-
-\[\psi_n = \psi_n^{(0)} + \lambda \psi_n^{(1)} + \lambda^2 \psi_n^{(2)} + \cdots\]
-
-&lt;p&gt;However, now \(\psi_n^{(0)}\) is a linear combination of the degenerate states:&lt;/p&gt;
-
-\[\psi_n^{(0)} = \sum_{k=1}^{g} c_k \psi_{n,k}^{(0)}\]
-
-&lt;h4 id=&quot;first-order-correction-to-the-eigenvalues&quot;&gt;First Order Correction to the Eigenvalues&lt;/h4&gt;
-&lt;p&gt;To find the first order correction to the eigenvalues, we solve the secular equation by considering the matrix elements of \(H&apos;\) in the subspace of the degenerate states:&lt;/p&gt;
-
-\[H&apos;_{ij} = \langle \psi_{n,i}^{(0)} | H&apos; | \psi_{n,j}^{(0)} \rangle\]
-
-&lt;p&gt;We need to solve the eigenvalue problem for the matrix \(H&apos;\) restricted to the degenerate subspace:&lt;/p&gt;
-
-\[\sum_{j=1}^{g} H&apos;_{ij} c_j = E_n^{(1)} c_i\]
-
-&lt;p&gt;This is equivalent to finding the eigenvalues and eigenvectors of the matrix \(H&apos;\) in the degenerate subspace. The eigenvalues of this matrix are the first order corrections \(E_n^{(1)}\).&lt;/p&gt;
-
-&lt;h4 id=&quot;first-order-correction-to-the-eigenfunctions&quot;&gt;First Order Correction to the Eigenfunctions&lt;/h4&gt;
-&lt;p&gt;Once the coefficients \(c_i\) are found by solving the secular equation, the first order correction to the eigenfunction \(\psi_n^{(0)}\) can be written as:&lt;/p&gt;
-
-\[\psi_n^{(1)} = \sum_{m \neq n} \frac{\langle \psi_m^{(0)} | H&apos; | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \psi_m^{(0)}\]
-
-&lt;p&gt;where \(\psi_n^{(0)} = \sum_{k=1}^{g} c_k \psi_{n,k}^{(0)}\).&lt;/p&gt;
-
-&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Solve the secular equation&lt;/strong&gt; for the degenerate subspace:&lt;/p&gt;
-
-\[\sum_{j=1}^{g} H&apos;_{ij} c_j = E_n^{(1)} c_i\]
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Find the first order correction to the eigenvalues&lt;/strong&gt; by solving the eigenvalue problem for the matrix \(H&apos;\) in the degenerate subspace.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Compute the first order correction to the eigenfunctions&lt;/strong&gt; using:&lt;/p&gt;
-
-\[\psi_n^{(1)} = \sum_{m \neq n} \frac{\langle \psi_m^{(0)} | H&apos; | \psi_n^{(0)} \rangle}{E_n^{(0)} - E_m^{(0)}} \psi_m^{(0)}\]
-
-    &lt;p&gt;with \(\psi_n^{(0)}\) expressed as a linear combination of the degenerate states.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;time-dependent-perturbation-theory&quot;&gt;Time-Dependent Perturbation Theory&lt;/h1&gt;
-
-&lt;p&gt;Time-Dependent Perturbation Theory is an essential tool in quantum mechanics used to study systems under the influence of a time-varying external force or potential. It provides a way to calculate the probabilities of transitions between different quantum states over time.&lt;/p&gt;
-
-&lt;h2 id=&quot;basic-concept&quot;&gt;Basic Concept&lt;/h2&gt;
-
-&lt;p&gt;Consider a quantum system described by a time-independent Hamiltonian \(\hat{H}_0\) with known eigenstates $ \ket{n} $ and corresponding energies \(E_n\):&lt;/p&gt;
-
-\[\hat{H}_0 \ket{n} = E_n \ket{n}\]
-
-&lt;p&gt;When a time-dependent perturbation \(\hat{V}(t)\) is applied to the system, the total Hamiltonian becomes:&lt;/p&gt;
-
-\[\hat{H}(t) = \hat{H}_0 + \hat{V}(t)\]
-
-&lt;p&gt;The perturbation \(\hat{V}(t)\) is assumed to be small, so it induces transitions between the eigenstates of \(\hat{H}_0\).&lt;/p&gt;
-
-&lt;h2 id=&quot;perturbation-expansion&quot;&gt;Perturbation Expansion&lt;/h2&gt;
-
-&lt;p&gt;The state of the system \(\ket{\Psi(t)}\) evolves according to the Schrödinger equation:&lt;/p&gt;
-
-\[i\hbar \frac{\partial}{\partial t} \ket{\Psi(t)} = \hat{H}(t) \ket{\Psi(t)}\]
-
-&lt;p&gt;We express the state \(\ket{\Psi(t)}\) as a superposition of the unperturbed eigenstates:&lt;/p&gt;
-
-\[\ket{\Psi(t)}= \sum_n c_n(t) e^{-iE_n t/\hbar}\ket{n}\]
-
-&lt;p&gt;Here, \(c_n(t)\) are the time-dependent coefficients that give the probability amplitude for the system to be in state \(\ket{n}\) at time \(t\).&lt;/p&gt;
-
-&lt;h2 id=&quot;first-order-approximation&quot;&gt;First-Order Approximation&lt;/h2&gt;
-
-&lt;p&gt;In the first-order approximation, the change in the coefficients \(c_n(t)\) is given by:&lt;/p&gt;
-
-\[c_n^{(1)}(t) = -\frac{i}{\hbar} \int_{t_0}^{t} \langle n|\hat{V}(t&apos;)|\Psi(t&apos;)\rangle e^{iE_n t&apos;/\hbar} dt&apos;\]
-
-&lt;p&gt;If the system starts in state \(\ket{m}\) at \(t_0\), we have:&lt;/p&gt;
-
-\[c_n^{(1)}(t) = -\frac{i}{\hbar} \int_{t_0}^{t} \bra{n}\hat{V}(t&apos;)\ket{m} e^{i(E_n-E_m)t&apos;/\hbar} dt&apos;\]
-
-&lt;p&gt;This integral allows us to calculate the probability of the system transitioning from state \(\ket{m}\) to state \(\ket{n}\) due to the perturbation.&lt;/p&gt;
-
-&lt;h2 id=&quot;transition-probability&quot;&gt;Transition Probability&lt;/h2&gt;
-
-&lt;p&gt;The probability of the system being found in state \(\ket{n}\) at time \(t\) is given by \(P_{m \to n}(t)\):&lt;/p&gt;
-
-\[P_{m \to n}(t) = |c_n^{(1)}(t)|^2\]
-
-&lt;p&gt;For a sinusoidal perturbation of the form \(\hat{V}(t) = \hat{V}_0 \cos(\omega t)\), this expression can be further simplified, leading to well-known results such as Fermi’s Golden Rule for transition rates.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;sudden-perturbation&quot;&gt;Sudden Perturbation&lt;/h2&gt;
-
-&lt;p&gt;In exploring time-dependent perturbation theory, we consider the case of fast or “sudden” perturbations. A perturbation is deemed sudden if the transition from one time-independent Hamiltonian \(\hat{H}_0\) to another \(\hat{H}&apos;_0\) occurs over a time much shorter than any natural period of the system. In such cases, perturbation theory becomes irrelevant. If the system is initially in an eigenstate \(\ket{n}\) of \(\hat{H}_0\), its time evolution post-transition follows \(\hat{H}&apos;_0\). The initial state can then be expressed as a sum over the eigenstates of \(\hat{H}&apos;_0\):&lt;/p&gt;
-
-\[\ket{n} = \sum_{n&apos;} \ket{n&apos;} \bra{n&apos;} n \rangle\]
-
-&lt;p&gt;The key challenge is to ensure that the change is sudden enough, which is determined by estimating the actual time taken for the Hamiltonian to change and the periods of motion associated with the state \(\ket{n}\) and its transitions to neighboring states.&lt;/p&gt;
-
-&lt;h3 id=&quot;harmonic-perturbations-fermis-golden-rule&quot;&gt;Harmonic Perturbations: Fermi’s Golden Rule&lt;/h3&gt;
-
-&lt;p&gt;Consider a system prepared in an initial state \(\ket{i}\) that is perturbed by a periodic harmonic potential \(V(t) = V e^{-i\omega t}\), which is abruptly switched on at \(t = 0\). This scenario could represent an atom perturbed by an external oscillating electric field, like an incident light wave. We aim to determine the probability that at some later time \(t\), the system is found in state \(\ket{f}\).&lt;/p&gt;
-
-&lt;p&gt;From first-order perturbation theory, the coefficient \(c^{(1)}_f(t)\) is given by:&lt;/p&gt;
-
-\[c^{(1)}_f(t) = -\frac{i}{\hbar} \int_{0}^{t} dt&apos; \bra{f} V \ket{i} e^{i(\omega_{fi} - \omega)t&apos;} = -\frac{i}{\hbar} \bra{f} V \ket{i} \frac{e^{i(\omega_{fi} - \omega)t} - 1}{i(\omega_{fi} - \omega)}\]
-
-&lt;p&gt;The probability of the transition after time \(t\) is then:&lt;/p&gt;
-
-\[P_{i \to f}(t) = \left| c^{(1)}_f(t) \right|^2 = \frac{1}{\hbar^2} \left| \bra{f} V \ket{i} \right|^2 \left( \frac{\sin((\omega_{fi} - \omega)t/2)}{(\omega_{fi} - \omega)/2} \right)^2\]
-
-&lt;p&gt;By setting \(\alpha = (\omega_{fi} - \omega)/2\), the probability becomes:&lt;/p&gt;
-
-\[P_{i \to f}(t) = \frac{1}{\hbar^2} \left| \bra{f} V \ket{i} \right|^2 \frac{\sin^2(\alpha t)}{\alpha^2}\]
-
-&lt;p&gt;As \(t\) approaches infinity, the function asymptotes to a delta function \(\pi t \delta(\alpha)\) as shown in figure below, indicating that the likelihood of transition is proportional to the time elapsed. To obtain the transition rate, we divide by \(t\):&lt;/p&gt;
-
-\[\boxed{
-R_{i \to f}(t) = \lim_{t \to \infty} \frac{P_{i \to f}(t)}{t} = \frac{2\pi}{\hbar^2} \left| \bra{f} V \ket{i} \right|^2 \delta(\omega_{fi} - \omega)}\]
-
-&lt;p&gt;This result is known as Fermi’s Golden Rule. Although named after Enrico Fermi, much of the foundational work was done by P.A.M. Dirac in an earlier study, who formulated a nearly identical equation involving a constant, the matrix element of the perturbation, and an energy difference.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-    &lt;img src=&quot;/SKMU/assets/img/Quantum/dirac.png&quot; alt=&quot;dirac delta&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:50%; height:60%;&quot; /&gt;
-&lt;/div&gt;</content><author><name>Rajesh Kumar</name></author><category term="quantum-mechanics" /><category term="approximation-method" /><category term="perturbation-theory" /><summary type="html">Perturbation theory is a powerful tool in quantum mechanics used to study systems where the Hamiltonian can be separated into a known part \(H_0\) and a small perturbation \(H&apos;\). The goal is to find approximate solutions to the Schrödinger equation for the full Hamiltonian \(H = H_0 + H&apos;\) by treating the perturbation as a small correction to the known system.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="quantum-mechanics" /><category term="hydrogen-atom" /><category term="stark-effect" /><summary type="html">In the hydrogen atom, the energy levels are determined by the principal quantum number \(n\), and for a given \(n\), the energy is given by:</summary></entry></feed>

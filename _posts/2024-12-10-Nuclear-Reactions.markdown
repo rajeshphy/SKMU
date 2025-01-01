@@ -6,8 +6,6 @@ categories: lecture
 tags: SEM-III
 ---
 
-### Q-Value of Nuclear Reaction
-
 Nuclear reactions can occur when a target nucleus $X$ is bombarded by a particle $a$, resulting in a daughter nucleus $Y$ and an outgoing particle $b$:  
 
 $$
