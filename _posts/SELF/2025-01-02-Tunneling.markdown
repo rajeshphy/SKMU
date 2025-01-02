@@ -5,7 +5,7 @@ date:   2025-01-02 06:47:26 +0530
 categories: lecture
 tags: SELF
 ---
-The potential $U(x)$ in
+
 <div style="text-align: center;">
   <img src="/SKMU/assets/images/Scattering/tunneling0.jpg" 
        alt="Scattering" 
