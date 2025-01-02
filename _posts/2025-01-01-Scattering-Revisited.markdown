@@ -95,10 +95,10 @@ Here, $\delta_l$ are phase shifts from scattering.
 
 ---
 
-
-
-
 # Nuclear Reactions: Revisited
+
+Here, we introduce Direct and Compound nuclear reactions to contrast them with Resonance Reactions, which serve as an intermediate between the two.
+
 
 ## 1. Direct Reactions
 Direct reactions occur when the incident particle interacts with the nucleus over a short time, leading to a direct transition between nuclear states. These reactions are characterized by their fast nature and relatively low probability of occurrence.
@@ -174,6 +174,13 @@ This is the Breit-Wigner resonance formula for a particle with lifetime $\tau = 
 $$
 \sigma_\text{el}^l = \frac{4\pi}{k^2} (2l + 1) \frac{\Gamma^2 / 4}{(E - E_r)^2 + \Gamma^2 / 4}.
 $$
+
+The Breit-Wigner formula is a fundamental expression in nuclear and particle physics, describing the resonant scattering cross-section as a function of energy. It is particularly useful in characterizing systems where a temporary intermediate state, or resonance, dominates the interaction. The formula peaks at the resonance energy $ E_r $, where the cross-section is maximized, and its shape is governed by the resonance width $ \Gamma $, also known as the full width at half maximum (FWHM). This width is inversely proportional to the lifetime of the resonance, providing insights into its stability. The prefactor $ (2l + 1) $ accounts for the contribution of angular momentum $ l $, reflecting the degeneracy of the resonant state. The denominator, $ (E - E_r)^2 + \Gamma^2 / 4 $, determines the characteristic Lorentzian shape of the curve, indicating how the cross-section decreases as energy deviates from $ E_r $. The wave number $ k $ in the prefactor links the cross-section to the momentum of the incoming particle. Widely applicable in areas such as nuclear reactions, particle decay, and quantum scattering, the Breit-Wigner formula provides a quantitative framework to analyze resonant phenomena and extract physical parameters like resonance energy, width, and angular momentum.
+
+
+
+
+
 
 
 
