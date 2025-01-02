@@ -1,9 +1,191 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-01T11:53:06+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Scattering Revisited</title><link href="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html" rel="alternate" type="text/html" title="Scattering Revisited" /><published>2025-01-01T06:47:26+05:30</published><updated>2025-01-01T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html">&lt;div style=&quot;text-align: center;&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-02T11:06:03+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Scattering Revisited</title><link href="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html" rel="alternate" type="text/html" title="Scattering Revisited" /><published>2025-01-01T06:47:26+05:30</published><updated>2025-01-01T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html">&lt;div style=&quot;text-align: center;&quot;&gt;
   &lt;img src=&quot;/SKMU/assets/images/Scattering/breit.jpg&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:20%; height:auto;&quot; /&gt;
 &lt;/div&gt;
 &lt;p&gt;In this lecture, we will start by revisiting the basics of quantum scattering, focusing on partial wave analysis and phase shifts. The graph at the top illustrates the Breit-Wigner resonance curve, which we will discuss in detail after exploring resonance scattering and its role in energy-dependent cross-sections.&lt;/p&gt;
 
-&lt;h1 id=&quot;scattering&quot;&gt;Scattering&lt;/h1&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">In this lecture, we will start by revisiting the basics of quantum scattering, focusing on partial wave analysis and phase shifts. The graph at the top illustrates the Breit-Wigner resonance curve, which we will discuss in detail after exploring resonance scattering and its role in energy-dependent cross-sections.</summary></entry><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;p&gt;Nuclear reactions can occur when a target nucleus $X$ is bombarded by a particle $a$, resulting in a daughter nucleus $Y$ and an outgoing particle $b$:&lt;/p&gt;
+&lt;h1 id=&quot;scattering-cross-section&quot;&gt;Scattering Cross-Section&lt;/h1&gt;
+
+&lt;p&gt;The one-dimensional Schrödinger equation for a particle of mass $m$ in a potential $V(x)$ is:&lt;/p&gt;
+
+\[-\frac{\hbar^2}{2m} \frac{d^2\psi}{dx^2} + V(x)\psi = E\psi.\]
+
+&lt;p&gt;The general solution is:&lt;/p&gt;
+
+\[\psi(x) = \begin{cases} 
+Ae^{ikx} + Be^{-ikx}, &amp;amp; E &amp;gt; V \ (\text{plane waves}), \\
+C e^{-\lambda x}, &amp;amp; E &amp;lt; V \ (\text{exponential decay}),
+\end{cases}\]
+
+&lt;p&gt;where $k = \sqrt{2m(E - V) / \hbar^2}$ and $\lambda = \sqrt{2m(V - E) / \hbar^2}$.&lt;/p&gt;
+
+&lt;h2 id=&quot;bound-states&quot;&gt;Bound States&lt;/h2&gt;
+&lt;p&gt;Bound states occur for $E &amp;lt; V$, where wavefunctions decay exponentially:&lt;/p&gt;
+
+\[\psi(x) \sim e^{-\lambda |x|}, \quad E = V - \frac{\hbar^2 \lambda^2}{2m}.\]
+
+&lt;p&gt;Such states have discrete energy levels, a hallmark of quantum systems.&lt;/p&gt;
+
+&lt;h2 id=&quot;scattering-states&quot;&gt;Scattering States&lt;/h2&gt;
+&lt;p&gt;Scattering states arise when $E &amp;gt; V$, allowing free motion:&lt;/p&gt;
+
+\[\psi(x) \sim e^{\pm ikx}.\]
+
+&lt;p&gt;The energy relation is $E = V + \frac{\hbar^2 k^2}{2m}$.&lt;/p&gt;
+
+&lt;h3 id=&quot;scattering-cross-section-1&quot;&gt;Scattering Cross-Section&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/SKMU/assets/img/Quantum/Scattering.jpeg&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For the scattering potential $V(\mathbf{x})$, the total wavefunction at point $p$ is sum of plane wave and spherical wave modulated by factor $f$ due to scattering and is given by:&lt;/p&gt;
+
+\[\psi(\mathbf{x}) = e^{i\mathbf{k \cdot x}} + f(\mathbf{k&apos;,k}) \frac{e^{ikr}}{r}, \text{and}\;r=|\mathbf{x}|\]
+
+&lt;p&gt;where $f(\mathbf{k’,k})$ is the scattering amplitude:&lt;/p&gt;
+
+\[f(\mathbf{k&apos;,k}) = -\frac{1}{4\pi} \int d^3x&apos; e^{-i\mathbf{k&apos; \cdot x&apos;}} V(\mathbf{x&apos;}) \psi(\mathbf{x&apos;}).\]
+
+&lt;p&gt;The &lt;strong&gt;differential cross-section&lt;/strong&gt; is:&lt;/p&gt;
+
+\[\frac{d\sigma}{d\Omega} = |f(\mathbf{k&apos;,k})|^2.\]
+
+&lt;p&gt;The &lt;strong&gt;total cross-section&lt;/strong&gt; integrates over all angles:&lt;/p&gt;
+
+\[\sigma_{\text{total}} = \int \frac{d\sigma}{d\Omega} \, d\Omega.\]
+
+&lt;h3 id=&quot;partial-wave-analysis&quot;&gt;Partial Wave Analysis&lt;/h3&gt;
+&lt;p&gt;Expanding the incident wave in spherical harmonics $Y_{lm}(\theta, \phi)$:&lt;/p&gt;
+
+\[\phi(\mathbf{x}) = e^{i\mathbf{k \cdot x}} = \sum_{l=0}^\infty (2l+1) i^l j_l(kr) P_l(\cos\theta).\]
+
+&lt;p&gt;The differential cross-section becomes:&lt;/p&gt;
+
+\[\frac{d\sigma}{d\Omega} = \left| \frac{1}{k} \sum_{l=0}^\infty (2l+1) e^{i\delta_l} \sin\delta_l P_l(\cos\theta) \right|^2.\]
+
+&lt;p&gt;Here, $\delta_l$ are phase shifts from scattering.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;nuclear-reactions-revisited&quot;&gt;Nuclear Reactions: Revisited&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-direct-reactions&quot;&gt;1. Direct Reactions&lt;/h2&gt;
+&lt;p&gt;Direct reactions occur when the incident particle interacts with the nucleus over a short time, leading to a direct transition between nuclear states. These reactions are characterized by their fast nature and relatively low probability of occurrence.&lt;/p&gt;
+
+&lt;h3 id=&quot;key-features&quot;&gt;Key Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Short interaction time&lt;/strong&gt;: The process occurs quickly, typically within $10^{-22}$ seconds.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Small energy transfer&lt;/strong&gt;: The incident particle imparts minimal energy to the nucleus.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Types of direct reactions&lt;/strong&gt;: Elastic scattering, inelastic scattering, transfer reactions, and knockout reactions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-compound-nucleus-reactions&quot;&gt;2. Compound Nucleus Reactions&lt;/h2&gt;
+&lt;p&gt;Compound nucleus reactions occur when the incident particle is fully absorbed by the target nucleus, forming an intermediate, highly excited state. This intermediate state, known as the &lt;strong&gt;compound nucleus&lt;/strong&gt;, subsequently decays into a final configuration.&lt;/p&gt;
+
+&lt;h3 id=&quot;key-features-1&quot;&gt;Key Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Formation&lt;/strong&gt;: The compound nucleus is a short-lived, highly excited state, existing for a relatively long timescale ($10^{-16}$ to $10^{-14}$ seconds) compared to direct reactions.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Statistical nature&lt;/strong&gt;: The decay channels exhibit a statistical distribution as the compound nucleus loses all memory of the entrance channel’s specific properties.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Decay mechanism&lt;/strong&gt;: The decay of the compound nucleus mimics evaporation, where the emitted particle behaves like a droplet evaporating from a heated liquid. The energy distribution of the emitted particles reflects the thermal excitation of the compound nucleus.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Angular distribution&lt;/strong&gt;: The angular distribution of emitted particles is typically flat, reflecting the random nature of the decay process and the lack of memory of the entrance channel’s directionality.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Two-step process&lt;/strong&gt;: The formation and decay of the compound nucleus are independent processes. The compound nucleus achieves equilibrium before decaying, and the final state is uncorrelated with the entrance channel parameters.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3-resonance-reactions&quot;&gt;3. Resonance Reactions&lt;/h2&gt;
+
+&lt;p&gt;Resonance reactions lie between the extremes of direct reactions and compound nucleus reactions. They involve discrete, quasibound nuclear states in the energy spectrum.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Resonance states&lt;/strong&gt;: Quasibound states with lifetimes long enough to form distinct energy levels, but still unstable against decay.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;High cross-section&lt;/strong&gt;: Resonances exhibit a significantly increased probability of interaction at specific energies.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;formation-of-resonances&quot;&gt;Formation of Resonances&lt;/h4&gt;
+&lt;p&gt;The nuclear potential seen by the incident particle can be approximated by a square-well potential. The wavefunctions inside and outside the well must match smoothly. This matching varies with the incident particle’s energy, leading to the formation of resonances at specific energies. The energy at which the cross-section reaches a maximum is called &lt;strong&gt;Resonance energy ($E_r$)&lt;/strong&gt;. The measure of width of peak shown at the top figure is the &lt;strong&gt;Resonance width ($\Gamma$)&lt;/strong&gt;, which is a measure of the energy uncertainty of a quasibound state, which is inversely proportional to its lifetime ($\tau$), as given by $\tau = \hbar / \Gamma$.&lt;/p&gt;
+
+&lt;h4 id=&quot;phase-shift-analysis&quot;&gt;Phase Shift Analysis&lt;/h4&gt;
+&lt;p&gt;The phase shift $\delta$ of the scattering wavefunction is crucial for understanding resonances:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A resonance occurs when the phase shift $\delta$ passes through $\pi / 2$.&lt;/li&gt;
+  &lt;li&gt;Near a resonance, the phase shift can be expanded as:
+\(\cot \delta_l = \frac{E - E_r}{\Gamma / 2}\)
+where $l$ denotes the partial wave contributing to the resonance.
+    &lt;h5 id=&quot;detailed-calculations&quot;&gt;Detailed Calculations:&lt;/h5&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The cross section for pure elastic scattering for the $l$th partial wave is&lt;/p&gt;
+
+\[\sigma_\text{el}^l=\int_{\Omega}\frac{d\sigma}{d\Omega}d\Omega = \frac{4\pi}{k^2} (2l + 1) \sin^2 \delta_l = \frac{4\pi}{k^2} (2l + 1) \frac{1}{1 + \cot^2 \delta_l}.\]
+
+&lt;p&gt;This has a maximum when $\delta_l = \pi/2$. For a spinless (there is no intrinsic spin angular momentum) beam and target, the phase can only depend on the invariant mass of the system, i.e., $\delta_l = \delta_l(E)$, where $E = \sqrt{s}$ and $s = (p_1 + p_2)^2$ is the square of the total four-momentum of the system, so the maximum will occur at some energy $E_r$, and we can make an expansion&lt;/p&gt;
+
+\[\sigma_\text{el}^l = \frac{4\pi}{k^2} (2l + 1) \frac{1}{1 + \left[ \cot \delta_l(E_r) + (E - E_r) \left( \frac{d \cot \delta_l(E)}{dE} \right)_{E = E_r} + \dots \right]^2}.\]
+
+&lt;p&gt;In lowest order, noting that $\cot \delta_l(E_r)=0$ we have&lt;/p&gt;
+
+\[\sigma_\text{el}^l = \frac{4\pi}{k^2} (2l + 1) \frac{1}{1 + \left[\frac{ 2(E - E_r) }{\Gamma}\right]^2},\]
+
+&lt;p&gt;where&lt;/p&gt;
+
+\[\frac{2}{\Gamma} \equiv -\left( \frac{d \cot \delta_l(E)}{dE} \right)_{E = E_r}.\]
+
+&lt;p&gt;This is the Breit-Wigner resonance formula for a particle with lifetime $\tau = 1/\Gamma$:&lt;/p&gt;
+
+\[\sigma_\text{el}^l = \frac{4\pi}{k^2} (2l + 1) \frac{\Gamma^2 / 4}{(E - E_r)^2 + \Gamma^2 / 4}.\]
+
+&lt;h3 id=&quot;comparison-of-reaction-mechanisms&quot;&gt;Comparison of Reaction Mechanisms&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Property&lt;/th&gt;
+      &lt;th&gt;Direct Reactions&lt;/th&gt;
+      &lt;th&gt;Compound Nucleus Reactions&lt;/th&gt;
+      &lt;th&gt;Resonance Reactions&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Interaction time&lt;/td&gt;
+      &lt;td&gt;Very short&lt;/td&gt;
+      &lt;td&gt;Relatively long&lt;/td&gt;
+      &lt;td&gt;Intermediate&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Energy transfer&lt;/td&gt;
+      &lt;td&gt;Small&lt;/td&gt;
+      &lt;td&gt;Large&lt;/td&gt;
+      &lt;td&gt;Moderate&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cross-section behavior&lt;/td&gt;
+      &lt;td&gt;Smooth&lt;/td&gt;
+      &lt;td&gt;Statistical distribution&lt;/td&gt;
+      &lt;td&gt;Sharp peaks at resonances&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Reaction mechanism memory&lt;/td&gt;
+      &lt;td&gt;Retained&lt;/td&gt;
+      &lt;td&gt;Lost&lt;/td&gt;
+      &lt;td&gt;Partially retained&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;applications-of-resonance-reactions&quot;&gt;Applications of Resonance Reactions&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Nuclear astrophysics&lt;/strong&gt;: Understanding stellar nucleosynthesis through resonances in light nuclei.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nuclear structure studies&lt;/strong&gt;: Probing the energy levels and widths of quasibound states.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reactor physics&lt;/strong&gt;: Utilizing resonance capture in nuclear fuels to control neutron flux.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">In this lecture, we will start by revisiting the basics of quantum scattering, focusing on partial wave analysis and phase shifts. The graph at the top illustrates the Breit-Wigner resonance curve, which we will discuss in detail after exploring resonance scattering and its role in energy-dependent cross-sections.</summary></entry><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;p&gt;Nuclear reactions can occur when a target nucleus $X$ is bombarded by a particle $a$, resulting in a daughter nucleus $Y$ and an outgoing particle $b$:&lt;/p&gt;
 
 \[a + X \rightarrow Y + b\]
 
