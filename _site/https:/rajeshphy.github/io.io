@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-02T11:19:21+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Scattering Revisited</title><link href="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html" rel="alternate" type="text/html" title="Scattering Revisited" /><published>2025-01-01T06:47:26+05:30</published><updated>2025-01-01T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html">&lt;div style=&quot;text-align: center;&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-02T22:11:21+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Quantum Tunneling</title><link href="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html" rel="alternate" type="text/html" title="Quantum Tunneling" /><published>2025-01-02T06:47:26+05:30</published><updated>2025-01-02T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html">&lt;p&gt;The potential $U(x)$ in&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/images/Scattering/tunneling0.jpg&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:40%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;The potential in the three regions are defined by&lt;/p&gt;
+
+\[\begin{equation} 
+U(x) = 
+\begin{cases} 
+0, &amp;amp; \mbox{when } x &amp;lt; 0 \\[4pt] U_0, &amp;amp; \mbox{when } 0 \leq x \leq L \\[4pt] 0, &amp;amp; \mbox{when } x &amp;gt; L 
+\end{cases} \label{PIBPotential}
+\end{equation}\]
+
+&lt;p&gt;The potential $U(x)$ in ($\ref{PIBPotential}$) satisfy the Schrödinger equation&lt;/p&gt;
+
+\[\begin{equation}\label{PIBSchrodinger} 
+-\frac{\hbar^2}{2m} \frac{d^2\psi}{dx^2} + U(x)\psi = E\psi
+\end{equation}\]
+
+&lt;p&gt;Since the particle energy is $E$ and is less than $U_0$ in region-II therefore the solution of ($\ref{PIBSchrodinger}$) is exponentially decaying. The solution of ($\ref{PIBSchrodinger}$) in region-I and region-III are given by plane waves as particle energy is greater than the potential energy in these regions. We expect the solution to be of the form given in figure below:&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/images/Scattering/tunneling.jpg&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:40%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We write the general solution of ($\ref{PIBSchrodinger}$) in region-I, region-II and region-III as&lt;/p&gt;
+
+\[\begin{equation}
+\psi(x) =
+\begin{cases}
+Ae^{ikx} + Be^{-ikx}, &amp;amp; \mbox{when } x &amp;lt; 0 \\
+Ce^{\lambda x} + De^{-\lambda x}, &amp;amp; \mbox{when } 0 \leq x \leq L \\
+Fe^{ikx} + Ge^{-ikx}, &amp;amp; \mbox{when } x &amp;gt; L
+\end{cases} \label{PIBGeneralSolution}
+\end{equation}\]
+
+&lt;p&gt;where $k = \sqrt{\frac{2mE}{\hbar^2}}$ and $\lambda = \sqrt{\frac{2m(U_0-E)}{\hbar^2}}$ . The coefficient $G$ in region III is zero as there is no incident wave from right side. The continuity of wave function and its derivative at $x = 0$ and $x = L$ gives the following equations&lt;/p&gt;
+
+\[\begin{equation}
+\begin{aligned}
+A + B &amp;amp; = C + D, \\
+ik(A - B) &amp;amp; = \lambda(C - D), \quad \text{Derivative}\\
+Ce^{\lambda L} + De^{-\lambda L} &amp;amp; = Fe^{ikL}, \\
+\lambda(Ce^{\lambda L} - De^{-\lambda L}) &amp;amp; = ik Fe^{ikL} \quad \text{Derivative}
+\end{aligned} \label{PIBContinuity}
+\end{equation}\]
+
+&lt;p&gt;We have four equations ($\ref{PIBContinuity}$) and five unknowns $A$, $B$, $C$, $D$ and $F$. But the quantity of our interest is the transmission coefficient $ T = (\frac{F}{A})^2 $ and therefore $\frac{F}{A}$ is the quantity of interest. We therefore divide each equation by $A$ and get the ratio coefficients in terms of $A$ as&lt;/p&gt;
+
+&lt;p&gt;\(\begin{equation}
+\begin{aligned}
+1 + \frac{B}{A} &amp;amp; = \frac{C}{A} + \frac{D}{A}, \\
+ik(1 - \frac{B}{A}) &amp;amp; = \lambda(\frac{C}{A} - \frac{D}{A}), \\
+\frac{C}{A}e^{\lambda L} + \frac{D}{A}e^{-\lambda L} &amp;amp; = \frac{F}{A}e^{ikL}, \\
+\lambda(\frac{C}{A}e^{\lambda L} - \frac{D}{A}e^{-\lambda L}) &amp;amp; = ik \frac{F}{A}e^{ikL}
+\end{aligned} \label{PIBContinuityRatio}
+\end{equation}\)
+Solving for $\frac{F}{A}$ we get
+\(\begin{equation}
+\frac{F}{A} = \frac{  e^{-i k L}}{\cosh (\lambda  L)+\frac{i}{2}(\frac{\lambda}{k}-\frac{k}{\lambda}) \sinh (\lambda  L)} \label{PIBTransmission}
+\end{equation}\)
+The transmission coefficient $T$ is given by
+\(\begin{equation}
+T = \frac{ 1}{\cosh^2 (\lambda  L)+\frac{1}{4}(\frac{\lambda}{k}-\frac{k}{\lambda})^2 \sinh^2 (\lambda  L)} \label{PIBTransmissionCoefficient}
+\end{equation}\)
+Similarly the reflection coefficient $R$ is given by
+\(\begin{equation}
+R = (\frac{B}{A})^2 =\frac{1}{\frac{4 k^2 \lambda ^2 \text{csch}^2(\lambda  L)}{\left(k^2+\lambda ^2\right)^2}+1} \label{PIBReflectionCoefficient}
+\end{equation}\)
+One can check that $T + R = 1$ as expected. The Transmission and Reflection coefficient is plotted as a function of $k$ in the figure below keeping the unknown to unity:&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/images/Scattering/R-T.jpeg&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:70%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;Similarly the Transmission and Reflection coefficient is plotted as a function of $\lambda$ in the figure below:&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/images/Scattering/R-T-lam.jpeg&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:70%; height:auto;&quot; /&gt;
+&lt;/div&gt;</content><author><name>Rajesh Kumar</name></author><category term="SELF" /><summary type="html">The potential $U(x)$ in The potential in the three regions are defined by</summary></entry><entry><title type="html">Scattering Revisited</title><link href="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html" rel="alternate" type="text/html" title="Scattering Revisited" /><published>2025-01-01T06:47:26+05:30</published><updated>2025-01-01T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html">&lt;div style=&quot;text-align: center;&quot;&gt;
   &lt;img src=&quot;/SKMU/assets/images/Scattering/breit.jpg&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:40%; height:auto;&quot; /&gt;
 &lt;/div&gt;
 &lt;p&gt;In this lecture, we will start by revisiting the basics of quantum scattering, focusing on partial wave analysis and phase shifts. The graph at the top illustrates the Breit-Wigner resonance curve, which we will discuss in detail after exploring resonance scattering and its role in energy-dependent cross-sections.&lt;/p&gt;
@@ -1197,196 +1272,4 @@ $&lt;/p&gt;
 W_{p,\text{min}} = \frac{T_{32} T_{21}}{T_{32} - T_{21}}
 $&lt;/p&gt;
 
-&lt;p&gt;For population inversion to occur, the actual pumping rate $W_p$ must be greater than $W_{p,\text{min}}$.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="LASER" /><category term="Rate" /><category term="Equation" /><summary type="html">Rate Equations for a Three-Level Laser System</summary></entry><entry><title type="html">Stark Effect in Hydrogen Atom</title><link href="http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html" rel="alternate" type="text/html" title="Stark Effect in Hydrogen Atom" /><published>2024-07-30T10:47:26+05:30</published><updated>2024-07-30T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html">&lt;p&gt;In the hydrogen atom, the energy levels are determined by the principal quantum number \(n\), and for a given \(n\), the energy is given by:&lt;/p&gt;
-
-\[E_n^{(0)} = -\frac{13.6 \, \text{eV}}{n^2}\]
-
-&lt;p&gt;For \(n = 2\), the energy level is:&lt;/p&gt;
-
-\[E_2^{(0)} = -\frac{13.6 \, \text{eV}}{4} = -3.4 \, \text{eV}\]
-
-&lt;p&gt;This level is four-fold degenerate because there are multiple quantum states with the same energy. The states are specified by the quantum numbers \(n\), \(l\), and \(m_l\), where:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;\(n\) is the principal quantum number,&lt;/li&gt;
-  &lt;li&gt;\(l\) is the orbital angular momentum quantum number, which can take values from \(0\) to \(n-1\),&lt;/li&gt;
-  &lt;li&gt;\(m_l\) is the magnetic quantum number, which can take values from \(-l\) to \(l\).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;For \(n = 2.\)&lt;/strong&gt;  \(l\) can be \(0\) (s-orbital) or \(1\) (p-orbital):&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;For \(l = 0\), \(m_l = 0\).&lt;/li&gt;
-  &lt;li&gt;For \(l = 1\), \(m_l = -1, 0, 1\).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thus, the ( n = 2 ) level has the following four degenerate states:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;$ \ket{2,0,0}$ (2s state)&lt;/li&gt;
-  &lt;li&gt;$ \ket{2,1,0}$ (2p state)&lt;/li&gt;
-  &lt;li&gt;$ \ket{2,1,1}$ (2p state)&lt;/li&gt;
-  &lt;li&gt;$ \ket{2,1,-1}$ (2p state)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;These states are degenerate in the absence of an external electric field. In presence of electric field they split as shown in figure given below:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/SKMU/assets/img/Quantum/stark.png&quot; alt=&quot;degenerate&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;perturbation-the-stark-effect&quot;&gt;Perturbation: The Stark Effect&lt;/h4&gt;
-
-&lt;p&gt;When an external electric field \(\mathcal{E}\) is applied along the \(z\)-axis, the Hamiltonian is perturbed:&lt;/p&gt;
-
-\[H = H_0 + \lambda H&apos;\]
-
-&lt;p&gt;where \(H_0\) is the unperturbed Hamiltonian, \(\lambda\) is a small parameter, and \(H&apos;\) is the perturbation due to the electric field. The perturbation Hamiltonian \(H&apos;\) is:&lt;/p&gt;
-
-\[H&apos; = e\mathcal{E}z\]
-
-&lt;p&gt;In spherical coordinates, \(z = r\cos\theta\), so:&lt;/p&gt;
-
-\[H&apos; = e\mathcal{E}r\cos\theta\]
-
-&lt;p&gt;The task is to find the first-order corrections to the energy levels and eigenfunctions due to this perturbation.&lt;/p&gt;
-
-&lt;h4 id=&quot;matrix-elements-of-the-perturbation&quot;&gt;Matrix Elements of the Perturbation&lt;/h4&gt;
-
-&lt;p&gt;To find the corrections, we need to calculate the matrix elements of \(H&apos;\) in the subspace of the degenerate states. The degenerate states for \(n = 2\) are:&lt;/p&gt;
-
-\[\psi_{200}^{(0)}, \, \psi_{211}^{(0)}, \, \psi_{210}^{(0)}, \, \psi_{21-1}^{(0)}\]
-
-&lt;p&gt;where:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;\(\psi_{200}^{(0)}\) is the 2s state.&lt;/li&gt;
-  &lt;li&gt;\(\psi_{211}^{(0)}\), \(\psi_{210}^{(0)}\), \(\psi_{21-1}^{(0)}\) are the 2p states.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The matrix elements $H’_{ij} = \brakett{\psi_i^{(0)}}{H’}{\psi_j^{(0)}}$ are:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-\[H&apos;_{11} = \brakett{\psi_{200}^{(0)}}{e\mathcal{E}z}{\psi_{200}^{(0)}} = 0\;\text{(due to parity)}\]
-  &lt;/li&gt;
-  &lt;li&gt;
-\[H&apos;_{12} = \brakett{\psi_{200}^{(0)}}{e\mathcal{E}z}{\psi_{211}^{(0)}}\]
-  &lt;/li&gt;
-  &lt;li&gt;
-\[H&apos;_{13} = \brakett{\psi_{200}^{(0)}}{e\mathcal{E}z}{\psi_{210}^{(0)}}\]
-  &lt;/li&gt;
-  &lt;li&gt;
-\[H&apos;_{14} = \brakett{\psi_{200}^{(0)}}{e\mathcal{E}z}{\psi_{21-1}^{(0)}}\]
-  &lt;/li&gt;
-  &lt;li&gt;
-\[H&apos;_{22} = \brakett{\psi_{211}^{(0)}}{e\mathcal{E}z}{\psi_{211}^{(0)}}\]
-  &lt;/li&gt;
-  &lt;li&gt;
-\[H&apos;_{33} = \brakett{\psi_{210}^{(0)}}{e\mathcal{E}z}{\psi_{210}^{(0)}}\]
-  &lt;/li&gt;
-  &lt;li&gt;
-\[H&apos;_{44} = \brakett{\psi_{21-1}^{(0)}}{e\mathcal{E}z}{\psi_{21-1}^{(0)}}\]
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;These elements need to be calculated. For simplicity, we consider the known spherical harmonics and radial functions.&lt;/p&gt;
-
-&lt;h4 id=&quot;calculating-matrix-elements&quot;&gt;Calculating Matrix Elements&lt;/h4&gt;
-
-&lt;p&gt;The matrix elements for the 2s and 2p states involve the radial part \(R_{nl}\) and the angular part \(Y_{lm}\).&lt;/p&gt;
-
-&lt;p&gt;For \(n = 2\):&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Radial Part&lt;/strong&gt;:
-    &lt;ul&gt;
-      &lt;li&gt;\(R_{20}(r)\) for 2s state&lt;/li&gt;
-      &lt;li&gt;\(R_{21}(r)\) for 2p states&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Angular Part&lt;/strong&gt;:
-    &lt;ul&gt;
-      &lt;li&gt;\(Y_{00}\) for \(l = 0, m = 0\)&lt;/li&gt;
-      &lt;li&gt;\(Y_{1m}\) for \(l = 1, m = -1, 0, 1\)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;For the Stark effect, the relevant spherical harmonics are:&lt;/p&gt;
-
-\[Y_1^0 = \sqrt{\frac{3}{4\pi}} \cos\theta\]
-
-\[Y_1^{\pm1} = \mp\sqrt{\frac{3}{8\pi}} \sin\theta e^{\pm i\phi}\]
-
-&lt;h4 id=&quot;non-zero-matrix-elements&quot;&gt;Non-Zero Matrix Elements&lt;/h4&gt;
-
-&lt;p&gt;Using these, we find the non-zero matrix elements:&lt;/p&gt;
-
-\[H&apos;_{13} = \langle \psi_{200}^{(0)} | e\mathcal{E}z | \psi_{210}^{(0)} \rangle = e\mathcal{E} \langle 200 | r\cos\theta | 210 \rangle\]
-
-&lt;p&gt;The radial part can be computed as:&lt;/p&gt;
-
-\[\int_0^\infty r^3 R_{20} R_{21} \, dr\]
-
-&lt;p&gt;And the angular part:&lt;/p&gt;
-
-\[\int Y_{00} \cos\theta Y_{10} \, d\Omega\]
-
-&lt;p&gt;Combining these gives:&lt;/p&gt;
-
-\[H&apos;_{13} = e\mathcal{E} \left( \frac{3a_0}{2\sqrt{2}} \right) \sqrt{\frac{3}{4\pi}} \int_0^\infty r^3 R_{20} R_{21} \, dr\]
-
-&lt;h4 id=&quot;solving-the-secular-equation&quot;&gt;Solving the Secular Equation&lt;/h4&gt;
-
-&lt;p&gt;We construct the perturbation matrix \(H&apos;\) in the subspace of the \(n = 2\) states and solve the secular equation:&lt;/p&gt;
-
-\[\begin{vmatrix}
-H&apos;_{11} - E^{(1)} &amp;amp; H&apos;_{12} &amp;amp; H&apos;_{13} &amp;amp; H&apos;_{14} \\
-H&apos;_{21} &amp;amp; H&apos;_{22} - E^{(1)} &amp;amp; H&apos;_{23} &amp;amp; H&apos;_{24} \\
-H&apos;_{31} &amp;amp; H&apos;_{32} &amp;amp; H&apos;_{33} - E^{(1)} &amp;amp; H&apos;_{34} \\
-H&apos;_{41} &amp;amp; H&apos;_{42} &amp;amp; H&apos;_{43} &amp;amp; H&apos;_{44} - E^{(1)}
-\end{vmatrix} = 0\]
-
-&lt;p&gt;Since only \(H&apos;_{13}=\;H&apos;_{31}=-3e \mathcal{E} a_0\) term is non-zero therefore we have&lt;/p&gt;
-
-\[\begin{vmatrix}
- - E^{(1)} &amp;amp; 0 &amp;amp; -3e \mathcal{E} a_0 &amp;amp; 0 \\
-0 &amp;amp;  - E^{(1)} &amp;amp; 0 &amp;amp; 0 \\
--3e \mathcal{E} a_0 &amp;amp; 0 &amp;amp;  - E^{(1)} &amp;amp; 0 \\
-0 &amp;amp; 0 &amp;amp; 0 &amp;amp;  - E^{(1)}
-\end{vmatrix} = 0\]
-
-&lt;p&gt;where \(a_0\) is the Bohr radius. Given the symmetry and properties of the hydrogen atom, we find that the first-order energy corrections \(E_{2,m}^{(1)}\) are:&lt;/p&gt;
-
-\[E_{2,m}^{(1)} = \pm 3e \mathcal{E} a_0\]
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;An external electric field lifts the degeneracy of the \(n = 2\) level in the hydrogen atom, splitting it into distinct energy levels.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h3 id=&quot;additional-material&quot;&gt;Additional Material&lt;/h3&gt;
-
-&lt;p&gt;In the hydrogen atom, the radial wave functions \(R_{nl}(r)\) are solutions to the radial part of the Schrödinger equation. For the hydrogen atom, the radial wave functions are given by:&lt;/p&gt;
-
-\[R_{nl}(r) = \sqrt{\frac{(n-l-1)!}{2n(n+l)!}} \left(\frac{2r}{na_0}\right)^l e^{-r/na_0} L_{n-l-1}^{2l+1} \left(\frac{2r}{na_0}\right)\]
-
-&lt;p&gt;where \(L_{n-l-1}^{2l+1}\) are the associated Laguerre polynomials, \(a_0\) is the Bohr radius, and \(n\) and \(l\) are the principal and orbital angular momentum quantum numbers, respectively.&lt;/p&gt;
-
-&lt;h3 id=&quot;radial-wave-functions-for-n--2&quot;&gt;Radial Wave Functions for \(n = 2\)&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;For \(n = 2\), \(l = 0\) (2s state):&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-\[R_{20}(r) = \sqrt{\frac{1}{4a_0^3}} \left(1 - \frac{r}{2a_0}\right) e^{-r/2a_0}\]
-
-&lt;ul&gt;
-  &lt;li&gt;Here, \(L_{1}^{1} \left(\frac{2r}{2a_0}\right) = 1 - \frac{r}{2a_0}\)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;For \(n = 2\), \(l = 1\) (2p state):&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-\[R_{21}(r) = \sqrt{\frac{1}{24a_0^3}} \left(\frac{r}{a_0}\right) e^{-r/2a_0}\]
-
-&lt;ul&gt;
-  &lt;li&gt;Here, \(L_{1}^{3} \left(\frac{2r}{2a_0}\right) = \frac{r}{a_0}\)&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="quantum-mechanics" /><category term="hydrogen-atom" /><category term="stark-effect" /><summary type="html">In the hydrogen atom, the energy levels are determined by the principal quantum number \(n\), and for a given \(n\), the energy is given by:</summary></entry></feed>
+&lt;p&gt;For population inversion to occur, the actual pumping rate $W_p$ must be greater than $W_{p,\text{min}}$.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="LASER" /><category term="Rate" /><category term="Equation" /><summary type="html">Rate Equations for a Three-Level Laser System</summary></entry></feed>
