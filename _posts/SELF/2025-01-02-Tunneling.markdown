@@ -105,4 +105,14 @@ The Transmission and Reflection coefficient is plotted as a function of $E$ in t
        style="width:70%; height:auto;">
 </div>
 
+**Observations:**
 
+1. The Transmission coefficient increases with an increase in $E$, while it decreases with an increase in $U$ and $L$. This behavior is consistent with the tunneling phenomena, where higher energy ($E$) increases the likelihood of transmission, and higher potential barrier ($U$) or width ($L$) suppresses it.
+
+2. The wave function is exponentially decaying in region-II (inside the barrier) and takes the form of a plane wave in region-I (before the barrier) and region-III (after the barrier).
+
+3. In region-I and region-III, the wave function is oscillatory and normalizable over finite spatial intervals. However, for extended or infinite domains, non-normalizable wavefunctions are encountered due to the scattering nature of the problem. Potentials of this type can give rise to quasi-bound states, characterized by resonances rather than bound energy levels.
+
+4. In Quasi-Bound states, the probability density is not defined globally due to non-normalizability. Instead, the probability current is used to describe the behavior of the system. The probability current is conserved across all three regions, ensuring the continuity of physical observables.
+
+5. The conservation of probability current leads to the derivation of reflection and transmission coefficients, providing quantitative measures of how the wave interacts with the potential barrier.

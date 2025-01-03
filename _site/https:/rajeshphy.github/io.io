@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-03T06:33:31+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Quantum Tunneling</title><link href="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html" rel="alternate" type="text/html" title="Quantum Tunneling" /><published>2025-01-02T06:47:26+05:30</published><updated>2025-01-02T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html">&lt;div style=&quot;text-align: center;&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-03T06:50:28+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Quantum Tunneling</title><link href="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html" rel="alternate" type="text/html" title="Quantum Tunneling" /><published>2025-01-02T06:47:26+05:30</published><updated>2025-01-02T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html">&lt;div style=&quot;text-align: center;&quot;&gt;
   &lt;img src=&quot;/SKMU/assets/images/Scattering/tunneling0.jpg&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:40%; height:auto;&quot; /&gt;
 &lt;/div&gt;
 &lt;p&gt;The potential in the three regions are defined by&lt;/p&gt;
@@ -80,7 +80,27 @@ The Transmission and Reflection coefficient is plotted as a function of $U$ in t
 &lt;p&gt;The Transmission and Reflection coefficient is plotted as a function of $E$ in the figure below keeping $\hbar^2=2m,\;U=2$ and $L=1$:&lt;/p&gt;
 &lt;div style=&quot;text-align: center;&quot;&gt;
   &lt;img src=&quot;/SKMU/assets/images/Scattering/R-T-E.jpeg&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:70%; height:auto;&quot; /&gt;
-&lt;/div&gt;</content><author><name>Rajesh Kumar</name></author><category term="SELF" /><summary type="html">The potential in the three regions are defined by</summary></entry><entry><title type="html">Scattering Revisited</title><link href="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html" rel="alternate" type="text/html" title="Scattering Revisited" /><published>2025-01-01T06:47:26+05:30</published><updated>2025-01-01T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html">&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Observations:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Transmission coefficient increases with an increase in $E$, while it decreases with an increase in $U$ and $L$. This behavior is consistent with the tunneling phenomena, where higher energy ($E$) increases the likelihood of transmission, and higher potential barrier ($U$) or width ($L$) suppresses it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The wave function is exponentially decaying in region-II (inside the barrier) and takes the form of a plane wave in region-I (before the barrier) and region-III (after the barrier).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In region-I and region-III, the wave function is oscillatory and normalizable over finite spatial intervals. However, for extended or infinite domains, non-normalizable wavefunctions are encountered due to the scattering nature of the problem. Potentials of this type can give rise to quasi-bound states, characterized by resonances rather than bound energy levels.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In Quasi-Bound states, the probability density is not defined globally due to non-normalizability. Instead, the probability current is used to describe the behavior of the system. The probability current is conserved across all three regions, ensuring the continuity of physical observables.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The conservation of probability current leads to the derivation of reflection and transmission coefficients, providing quantitative measures of how the wave interacts with the potential barrier.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SELF" /><summary type="html">The potential in the three regions are defined by</summary></entry><entry><title type="html">Scattering Revisited</title><link href="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html" rel="alternate" type="text/html" title="Scattering Revisited" /><published>2025-01-01T06:47:26+05:30</published><updated>2025-01-01T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html">&lt;div style=&quot;text-align: center;&quot;&gt;
   &lt;img src=&quot;/SKMU/assets/images/Scattering/breit.jpg&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:40%; height:auto;&quot; /&gt;
 &lt;/div&gt;
 &lt;p&gt;In this lecture, we will start by revisiting the basics of quantum scattering, focusing on partial wave analysis and phase shifts. The graph at the top illustrates the Breit-Wigner resonance curve, which we will discuss in detail after exploring resonance scattering and its role in energy-dependent cross-sections.&lt;/p&gt;
