@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-03T07:10:35+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Quantum Tunneling</title><link href="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html" rel="alternate" type="text/html" title="Quantum Tunneling" /><published>2025-01-02T06:47:26+05:30</published><updated>2025-01-02T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html">&lt;div style=&quot;text-align: center;&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-03T07:52:42+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Quantum Tunneling</title><link href="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html" rel="alternate" type="text/html" title="Quantum Tunneling" /><published>2025-01-02T06:47:26+05:30</published><updated>2025-01-02T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html">&lt;div style=&quot;text-align: center;&quot;&gt;
   &lt;img src=&quot;/SKMU/assets/images/Scattering/tunneling0.jpg&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:40%; height:auto;&quot; /&gt;
 &lt;/div&gt;
 &lt;p&gt;The potential in the three regions are defined by&lt;/p&gt;
@@ -112,7 +112,50 @@ The Transmission and Reflection coefficient is plotted as a function of $U$ in t
   &lt;li&gt;&lt;strong&gt;Superposition of waves&lt;/strong&gt;: The wave function is a combination of an &lt;strong&gt;incident wave&lt;/strong&gt; (approaching the potential), a &lt;strong&gt;reflected wave&lt;/strong&gt; (bouncing back), and a &lt;strong&gt;transmitted wave&lt;/strong&gt; (continuing beyond the potential).&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Continuity across boundaries&lt;/strong&gt;: The wave function and its derivative remain smooth and continuous at the boundaries of the potential, ensuring accurate computation of reflection and transmission probabilities.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Oscillatory, non-normalizable solutions&lt;/strong&gt;: The wave functions oscillate and cannot be normalized, so &lt;strong&gt;flux conservation through probability current&lt;/strong&gt; is used to describe the system’s behavior.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SELF" /><summary type="html">The potential in the three regions are defined by</summary></entry><entry><title type="html">Scattering Revisited</title><link href="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html" rel="alternate" type="text/html" title="Scattering Revisited" /><published>2025-01-01T06:47:26+05:30</published><updated>2025-01-01T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html">&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;rosen-morse-potential&quot;&gt;Rosen-Morse Potential&lt;/h3&gt;
+
+&lt;p&gt;The &lt;strong&gt;Rosen-Morse potential&lt;/strong&gt; is a model potential in quantum mechanics given by:&lt;/p&gt;
+
+\[V(x) = -V_0 \, \text{sech}^2(x) + \lambda \, \tanh(x),\]
+
+&lt;p&gt;where $ V_0 $ represents the depth of the potential, and $ \lambda $ introduces an asymmetry in the potential. This potential is widely used because it is exactly solvable and provides insights into both &lt;strong&gt;bound states&lt;/strong&gt; and &lt;strong&gt;scattering states&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;bound-states&quot;&gt;Bound States&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;For specific energy levels less than the asymptotic value of the potential, $ E &amp;lt; 0 $, the particle remains localized within the potential well.&lt;/li&gt;
+  &lt;li&gt;The wave functions for bound states are normalizable and decay exponentially outside the well, indicating confinement.&lt;/li&gt;
+  &lt;li&gt;The discrete energy spectrum of bound states depends on the parameters $ V_0 $ and $ \lambda $, reflecting the depth and asymmetry of the well.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As an example consider the symmetric Rosen-Morse potential with $ V_0 = 12 $ and $ \lambda = 0 $. The potential has the following shape as shown in figure below:&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/images/Scattering/RM.jpeg&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;The energy and bound state wave functions are
+\(\begin{equation}
+\begin{aligned}
+E_0 &amp;amp; = -9, &amp;amp; \psi_0(x) &amp;amp; = \sqrt{\frac{15}{16}} \, \text{sech}^3(x), \\
+E_1 &amp;amp; = -4, &amp;amp; \psi_1(x) &amp;amp; = \sqrt{\frac{15}{4}} \, \text{sech}^2(x) \, \text{tanh}(x), \\
+E_2 &amp;amp; = -1, &amp;amp; \psi_2(x) &amp;amp; = \sqrt{\frac{3}{16}} \, \text{sech}(x) \, \left( 5 \, \text{tanh}^2(x) - 1 \right).
+\end{aligned} \label{RosenMorseBound}
+\end{equation}\)
+There are only three bound states for the symmetric Rosen-Morse potential. The wave functions are normalized to unity and exhibit exponential decay outside the potential well as shown in figure below. For energy levels beyond the potential asymptote, the particle transitions to scattering states.&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/images/Scattering/RMW.jpeg&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;scattering-states&quot;&gt;Scattering States&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;When the particle’s energy exceeds the potential asymptote, $ E &amp;gt; 0 $, it transitions to a scattering regime.&lt;/li&gt;
+  &lt;li&gt;In scattering states, the wave function describes a free particle that interacts with the potential but is not confined.&lt;/li&gt;
+  &lt;li&gt;The wave function exhibits oscillatory behavior, representing incident, reflected, and transmitted waves.&lt;/li&gt;
+  &lt;li&gt;The reflection and transmission coefficients depend on $ V_0 $, $ \lambda $, and the particle’s energy, showing how the potential influences scattering behavior.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;physical-significance&quot;&gt;Physical Significance&lt;/h4&gt;
+&lt;p&gt;The Rosen-Morse potential is significant because it demonstrates the coexistence of bound and scattering states in a single potential framework. Bound states represent localized solutions, while scattering states describe delocalized solutions, highlighting the dual nature of quantum systems depending on the energy of the particle relative to the potential landscape.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SELF" /><summary type="html">The potential in the three regions are defined by</summary></entry><entry><title type="html">Scattering Revisited</title><link href="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html" rel="alternate" type="text/html" title="Scattering Revisited" /><published>2025-01-01T06:47:26+05:30</published><updated>2025-01-01T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html">&lt;div style=&quot;text-align: center;&quot;&gt;
   &lt;img src=&quot;/SKMU/assets/images/Scattering/breit.jpg&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:40%; height:auto;&quot; /&gt;
 &lt;/div&gt;
 &lt;p&gt;In this lecture, we will start by revisiting the basics of quantum scattering, focusing on partial wave analysis and phase shifts. The graph at the top illustrates the Breit-Wigner resonance curve, which we will discuss in detail after exploring resonance scattering and its role in energy-dependent cross-sections.&lt;/p&gt;

@@ -126,3 +126,52 @@ Key characteristics of scattering problems include:
 - **Superposition of waves**: The wave function is a combination of an **incident wave** (approaching the potential), a **reflected wave** (bouncing back), and a **transmitted wave** (continuing beyond the potential). 
 - **Continuity across boundaries**: The wave function and its derivative remain smooth and continuous at the boundaries of the potential, ensuring accurate computation of reflection and transmission probabilities. 
 - **Oscillatory, non-normalizable solutions**: The wave functions oscillate and cannot be normalized, so **flux conservation through probability current** is used to describe the system's behavior.
+
+### Rosen-Morse Potential
+
+The **Rosen-Morse potential** is a model potential in quantum mechanics given by:
+
+$$
+V(x) = -V_0 \, \text{sech}^2(x) + \lambda \, \tanh(x),
+$$
+
+where $ V_0 $ represents the depth of the potential, and $ \lambda $ introduces an asymmetry in the potential. This potential is widely used because it is exactly solvable and provides insights into both **bound states** and **scattering states**.
+
+#### Bound States
+- For specific energy levels less than the asymptotic value of the potential, $ E < 0 $, the particle remains localized within the potential well.
+- The wave functions for bound states are normalizable and decay exponentially outside the well, indicating confinement.
+- The discrete energy spectrum of bound states depends on the parameters $ V_0 $ and $ \lambda $, reflecting the depth and asymmetry of the well.
+
+As an example consider the symmetric Rosen-Morse potential with $ V_0 = 12 $ and $ \lambda = 0 $. The potential has the following shape as shown in figure below:
+<div style="text-align: center;">
+  <img src="/SKMU/assets/images/Scattering/RM.jpeg" 
+       alt="Scattering" 
+       class="my-custom-class" 
+       style="width:60%; height:auto;">
+</div>
+The energy and bound state wave functions are
+$$\begin{equation}
+\begin{aligned}
+E_0 & = -9, & \psi_0(x) & = \sqrt{\frac{15}{16}} \, \text{sech}^3(x), \\
+E_1 & = -4, & \psi_1(x) & = \sqrt{\frac{15}{4}} \, \text{sech}^2(x) \, \text{tanh}(x), \\
+E_2 & = -1, & \psi_2(x) & = \sqrt{\frac{3}{16}} \, \text{sech}(x) \, \left( 5 \, \text{tanh}^2(x) - 1 \right).
+\end{aligned} \label{RosenMorseBound}
+\end{equation}$$
+There are only three bound states for the symmetric Rosen-Morse potential. The wave functions are normalized to unity and exhibit exponential decay outside the potential well as shown in figure below. For energy levels beyond the potential asymptote, the particle transitions to scattering states.
+<div style="text-align: center;">
+  <img src="/SKMU/assets/images/Scattering/RMW.jpeg" 
+       alt="Scattering" 
+       class="my-custom-class" 
+       style="width:60%; height:auto;">
+</div>
+
+
+
+#### Scattering States
+- When the particle's energy exceeds the potential asymptote, $ E > 0 $, it transitions to a scattering regime.
+- In scattering states, the wave function describes a free particle that interacts with the potential but is not confined.
+- The wave function exhibits oscillatory behavior, representing incident, reflected, and transmitted waves.
+- The reflection and transmission coefficients depend on $ V_0 $, $ \lambda $, and the particle's energy, showing how the potential influences scattering behavior.
+
+#### Physical Significance
+The Rosen-Morse potential is significant because it demonstrates the coexistence of bound and scattering states in a single potential framework. Bound states represent localized solutions, while scattering states describe delocalized solutions, highlighting the dual nature of quantum systems depending on the energy of the particle relative to the potential landscape.
