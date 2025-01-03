@@ -127,6 +127,8 @@ Key characteristics of scattering problems include:
 - **Continuity across boundaries**: The wave function and its derivative remain smooth and continuous at the boundaries of the potential, ensuring accurate computation of reflection and transmission probabilities. 
 - **Oscillatory, non-normalizable solutions**: The wave functions oscillate and cannot be normalized, so **flux conservation through probability current** is used to describe the system's behavior.
 
+---
+
 ### Rosen-Morse Potential
 
 The **Rosen-Morse potential** is a model potential in quantum mechanics given by:
