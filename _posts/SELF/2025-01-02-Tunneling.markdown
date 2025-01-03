@@ -57,7 +57,7 @@ Ce^{\lambda L} + De^{-\lambda L} & = Fe^{ikL}, \\
 \end{aligned} \label{PIBContinuity}
 \end{equation}$$
 
-We have four equations ($\ref{PIBContinuity}$) and five unknowns $A$, $B$, $C$, $D$ and $F$. But the quantity of our interest is the transmission coefficient $ T = (\frac{F}{A})^2 $ and therefore $\frac{F}{A}$ is the quantity of interest. We therefore divide each equation by $A$ and get the ratio coefficients in terms of $A$ as
+We have four equations ($\ref{PIBContinuity}$) and five unknowns $A$, $B$, $C$, $D$ and $F$. But the quantity of our interest is the transmission coefficient $ T $ and therefore $\frac{F}{A}$ is the quantity of interest. We therefore divide each equation by $A$ and get the ratio coefficients in terms of $A$ as
 
 $$\begin{equation}
 \begin{aligned}
@@ -73,22 +73,33 @@ $$\begin{equation}
 \end{equation}$$
 The transmission coefficient $T$ is given by
 $$\begin{equation}
-T = \frac{ 1}{\cosh^2 (\lambda  L)+\frac{1}{4}(\frac{\lambda}{k}-\frac{k}{\lambda})^2 \sinh^2 (\lambda  L)} \label{PIBTransmissionCoefficient}
+T=|\frac{F}{A}|^2 = \frac{ 1}{\cosh^2 (\lambda  L)+\frac{1}{4}(\frac{\lambda}{k}-\frac{k}{\lambda})^2 \sinh^2 (\lambda  L)} \label{PIBTransmissionCoefficient}
 \end{equation}$$
 Similarly the reflection coefficient $R$ is given by
 $$\begin{equation}
-R = (\frac{B}{A})^2 =\frac{1}{\frac{4 k^2 \lambda ^2 \text{csch}^2(\lambda  L)}{\left(k^2+\lambda ^2\right)^2}+1} \label{PIBReflectionCoefficient}
+R = |\frac{B}{A}|^2 =\frac{1}{\frac{4 k^2 \lambda ^2 \text{csch}^2(\lambda  L)}{\left(k^2+\lambda ^2\right)^2}+1} \label{PIBReflectionCoefficient}
 \end{equation}$$
-One can check that $T + R = 1$ as expected. The Transmission and Reflection coefficient is plotted as a function of $k$ in the figure below keeping the unknown to unity:
+One can check that $T + R = 1$ as expected. The Transmission coefficient can be represented as a function of $U$ and $E$ as
+$$\begin{equation}
+T = \frac{1}{1+\frac{U^2}{8 (E^2-U^2)}\left(1- \cosh \left(2  L \sqrt{\frac{2m (U-E)}{\hbar ^2}}\right)\right)}\label{PIBT}
+\end{equation}$$
+The Transmission and Reflection coefficient is plotted as a function of $U$ in the figure below keeping $\hbar^2=2m,\;L=1$ and $E=0.1$:
 <div style="text-align: center;">
-  <img src="/SKMU/assets/images/Scattering/R-T.jpeg" 
+  <img src="/SKMU/assets/images/Scattering/R-T-U.jpeg" 
        alt="Scattering" 
        class="my-custom-class" 
        style="width:70%; height:auto;">
 </div>
-Similarly the Transmission and Reflection coefficient is plotted as a function of $\lambda$ in the figure below:
+Similarly the Transmission and Reflection coefficient is plotted as a function of $L$ in the figure below keeping $\hbar^2=2m,\;U=2$ and $E=1$:
 <div style="text-align: center;">
-  <img src="/SKMU/assets/images/Scattering/R-T-lam.jpeg" 
+  <img src="/SKMU/assets/images/Scattering/R-T-L.jpeg" 
+       alt="Scattering" 
+       class="my-custom-class" 
+       style="width:70%; height:auto;">
+</div>
+The Transmission and Reflection coefficient is plotted as a function of $E$ in the figure below keeping $\hbar^2=2m,\;U=2$ and $L=1$:
+<div style="text-align: center;">
+  <img src="/SKMU/assets/images/Scattering/R-T-E.jpeg" 
        alt="Scattering" 
        class="my-custom-class" 
        style="width:70%; height:auto;">
