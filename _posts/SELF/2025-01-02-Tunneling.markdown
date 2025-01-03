@@ -116,3 +116,13 @@ The Transmission and Reflection coefficient is plotted as a function of $E$ in t
 4. In Quasi-Bound states, the probability density is not defined globally due to non-normalizability. Instead, the probability current is used to describe the behavior of the system. The probability current is conserved across all three regions, ensuring the continuity of physical observables.
 
 5. The conservation of probability current leads to the derivation of reflection and transmission coefficients, providing quantitative measures of how the wave interacts with the potential barrier.
+
+#### Scattering Problems:
+
+In quantum mechanics, the scattering nature of a problem involves the interaction of a particle (or wave) with a potential barrier, resulting in partial reflection and transmission. Unlike bound state problems, where particles are confined, scattering problems describe particles free to move before and after encountering the potential. These problems feature wave functions that extend to infinity and are not square-integrable, requiring flux conservation for analysis. 
+
+Key characteristics of scattering problems include: 
+- **Unbounded domains**: The wave functions extend infinitely in space and cannot be normalized to unity, unlike bound states. 
+- **Superposition of waves**: The wave function is a combination of an **incident wave** (approaching the potential), a **reflected wave** (bouncing back), and a **transmitted wave** (continuing beyond the potential). 
+- **Continuity across boundaries**: The wave function and its derivative remain smooth and continuous at the boundaries of the potential, ensuring accurate computation of reflection and transmission probabilities. 
+- **Oscillatory, non-normalizable solutions**: The wave functions oscillate and cannot be normalized, so **flux conservation through probability current** is used to describe the system's behavior.
