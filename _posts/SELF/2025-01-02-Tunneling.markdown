@@ -6,6 +6,14 @@ categories: lecture
 tags: SELF
 ---
 
+In this article we will study:
+
+	•	Overview of quantum tunneling and its significance.
+	
+    •	Applications in nuclear potentials and resonant-tunneling diodes.
+	
+    •	Exploration of scattering problems with Rosen-Morse potential.
+
 <div style="text-align: center;">
   <img src="/SKMU/assets/images/Scattering/tunneling0.jpg" 
        alt="Scattering" 
@@ -116,6 +124,35 @@ The Transmission and Reflection coefficient is plotted as a function of $E$ in t
 4. In Quasi-Bound states, the probability density is not defined globally due to non-normalizability. Instead, the probability current is used to describe the behavior of the system. The probability current is conserved across all three regions, ensuring the continuity of physical observables.
 
 5. The conservation of probability current leads to the derivation of reflection and transmission coefficients, providing quantitative measures of how the wave interacts with the potential barrier.
+
+### Few Quasi-Bound Potentials that exhibit Tunneling
+
+
+##### Nuclear Potential Model: Attractive and Repulsive Interactions
+
+The nuclear potential is modeled to represent the interactions between nucleons (protons and neutrons) within an atomic nucleus. The attractive nuclear force between nucleons is depicted by a negative potential well, which holds the nucleons together. This attractive force is short-range, meaning it becomes effective only within the confines of the nucleus. Outside the nucleus, the electrostatic repulsion between protons (due to their positive charge) dominates, represented by a $\frac{1}{r}$ potential, which increases as the distance between particles increases. This electrostatic repulsion counteracts the attractive nuclear force at larger distances, ensuring that the nucleons are confined to the nucleus but still experience repulsion as they move further apart.
+<div style="text-align: center;">
+  <img src="/SKMU/assets/images/Scattering/Nuclear.jpg" 
+       alt="Scattering" 
+       class="my-custom-class" 
+       style="width:20%; height:20%;">
+</div>
+**Tunneling phenomena:** An alpha particle can be emitted or absorbed through quantum tunneling. When the nucleus has enough energy to overcome the potential barrier created by the electrostatic repulsion, the alpha particle (comprising two protons and two neutrons) can escape the nucleus. This process, known as alpha decay, is facilitated by tunneling through the potential barrier, despite the particle's energy being lower than the barrier height. Conversely, an alpha particle can also be absorbed by the nucleus if the incoming particle’s energy and the potential conditions align, leading to an increase in the nucleus's energy state.
+
+
+##### Resonant-Tunneling Diode and Quantum Dot Mechanism:
+<div style="text-align: center;">
+  <img src="/SKMU/assets/images/Scattering/diode.jpg" 
+       alt="Resonant-Tunneling Diode" 
+       class="my-custom-class" 
+       style="width:80%; height:auto;">
+  <p><strong>Resonant-Tunneling Diode:</strong> (a) A gallium arsenide quantum dot embedded in aluminum arsenide. (b) A potential well with two barriers and no voltage bias, where electron energies in aluminum arsenide do not align with the quantum dot's energy levels, preventing tunneling. (c) The potential well with an applied voltage bias, aligning the electron energies in the dot and aluminum arsenide, enabling tunneling through the dot.</p>
+</div>
+In resonant tunneling devices, quantum dots act as potential wells with quantized energy levels for electrons. These dots are embedded in semiconductor materials, where potential barriers exist at the dot boundaries. Electrons outside the dot cannot tunnel through unless their energy matches the quantized energy level inside the dot. This alignment occurs when an external voltage bias lowers one of the barriers, allowing tunneling to occur. As the bias is increased further, alignment is lost and tunneling stops. When the bias is adjusted to match the next energy level, tunneling resumes. This energy-dependent tunneling is the key mechanism in resonant-tunneling diodes, enabling high-speed switching in nano-electronic devices.
+
+
+
+---
 
 #### Scattering Problems:
 
