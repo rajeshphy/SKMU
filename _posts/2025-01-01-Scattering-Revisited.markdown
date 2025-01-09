@@ -201,3 +201,55 @@ The Breit-Wigner formula is a fundamental expression in nuclear and particle phy
 - **Reactor physics**: Utilizing resonance capture in nuclear fuels to control neutron flux.
 
 ---
+
+# Difference Between Lorentzian and Gaussian Curve
+
+#### **1. Mathematical Form**
+- **Gaussian Curve**:
+  $$ G(x) = A e^{-\frac{(x - x_0)^2}{2\sigma^2}} $$
+  - $A$: Amplitude (peak height).
+  - $x_0$: Center (mean of the distribution).
+  - $\sigma$: Standard deviation (width of the curve).
+
+- **Lorentzian Curve**:
+  $$ L(x) = \frac{A}{\pi} \frac{\gamma}{(x - x_0)^2 + \gamma^2} $$
+  - $A$: Amplitude.
+  - $x_0$: Center (position of the peak).
+  - $\gamma$: Half-width at half-maximum (HWHM).
+
+
+#### **2. Shape**
+- **Gaussian**:
+  - Symmetric bell-shaped curve.
+  - Decays rapidly as $x$ moves away from $x_0$ (exponential decay).
+  - Width determined by $\sigma$; tails are narrow.
+
+- **Lorentzian**:
+  - Symmetric, but has broader and longer tails compared to Gaussian.
+  - Decays more slowly (as $1/x^2$) far from the peak.
+  - Width determined by $\gamma$.
+
+
+
+#### **3. Applications**
+- **Gaussian**:
+  - Common in statistics for describing normal distributions.
+  - Used in signal processing, optics, and quantum mechanics (e.g., wave packets).
+  - Describes random noise and natural phenomena.
+
+- **Lorentzian**:
+  - Used to model resonance phenomena in physics (e.g., spectral lines, nuclear magnetic resonance).
+  - Represents the shape of a resonance peak where damping is significant.
+  - Describes systems with a sharp central peak and long-range influence.
+
+
+
+#### **4. Key Differences**
+
+| Feature           | Gaussian Curve                      | Lorentzian Curve                  |
+|--------------------|-------------------------------------|------------------------------------|
+| **Decay Rate**     | Rapid (exponential decay).         | Slow (power-law decay).           |
+| **Tails**          | Narrow, negligible at far distances. | Broad, significant far from the center. |
+| **Peak Shape**     | Rounded.                           | Sharper and taller.               |
+| **Normalization**  | Normalized over all space.         | Peak is proportional to $1/\pi\gamma$. |
+| **Example Uses**   | Random processes, noise, diffusion. | Resonance, spectroscopy, optics.  |

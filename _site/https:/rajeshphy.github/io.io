@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-03T08:27:48+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Quantum Tunneling</title><link href="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html" rel="alternate" type="text/html" title="Quantum Tunneling" /><published>2025-01-02T06:47:26+05:30</published><updated>2025-01-02T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html">&lt;p&gt;In this article we will study:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-09T11:32:30+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Quantum Tunneling</title><link href="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html" rel="alternate" type="text/html" title="Quantum Tunneling" /><published>2025-01-02T06:47:26+05:30</published><updated>2025-01-02T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html">&lt;p&gt;In this article we will study:&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;•	Overview of quantum tunneling and its significance.
 
@@ -376,7 +376,104 @@ where $l$ denotes the partial wave contributing to the resonance.
   &lt;li&gt;&lt;strong&gt;Reactor physics&lt;/strong&gt;: Utilizing resonance capture in nuclear fuels to control neutron flux.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">In this lecture, we will start by revisiting the basics of quantum scattering, focusing on partial wave analysis and phase shifts. The graph at the top illustrates the Breit-Wigner resonance curve, which we will discuss in detail after exploring resonance scattering and its role in energy-dependent cross-sections.</summary></entry><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;p&gt;Nuclear reactions can occur when a target nucleus $X$ is bombarded by a particle $a$, resulting in a daughter nucleus $Y$ and an outgoing particle $b$:&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;difference-between-lorentzian-and-gaussian-curve&quot;&gt;Difference Between Lorentzian and Gaussian Curve&lt;/h1&gt;
+
+&lt;h4 id=&quot;1-mathematical-form&quot;&gt;&lt;strong&gt;1. Mathematical Form&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Gaussian Curve&lt;/strong&gt;:
+\(G(x) = A e^{-\frac{(x - x_0)^2}{2\sigma^2}}\)
+    &lt;ul&gt;
+      &lt;li&gt;$A$: Amplitude (peak height).&lt;/li&gt;
+      &lt;li&gt;$x_0$: Center (mean of the distribution).&lt;/li&gt;
+      &lt;li&gt;$\sigma$: Standard deviation (width of the curve).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Lorentzian Curve&lt;/strong&gt;:
+\(L(x) = \frac{A}{\pi} \frac{\gamma}{(x - x_0)^2 + \gamma^2}\)
+    &lt;ul&gt;
+      &lt;li&gt;$A$: Amplitude.&lt;/li&gt;
+      &lt;li&gt;$x_0$: Center (position of the peak).&lt;/li&gt;
+      &lt;li&gt;$\gamma$: Half-width at half-maximum (HWHM).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;2-shape&quot;&gt;&lt;strong&gt;2. Shape&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Gaussian&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Symmetric bell-shaped curve.&lt;/li&gt;
+      &lt;li&gt;Decays rapidly as $x$ moves away from $x_0$ (exponential decay).&lt;/li&gt;
+      &lt;li&gt;Width determined by $\sigma$; tails are narrow.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Lorentzian&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Symmetric, but has broader and longer tails compared to Gaussian.&lt;/li&gt;
+      &lt;li&gt;Decays more slowly (as $1/x^2$) far from the peak.&lt;/li&gt;
+      &lt;li&gt;Width determined by $\gamma$.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;3-applications&quot;&gt;&lt;strong&gt;3. Applications&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Gaussian&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Common in statistics for describing normal distributions.&lt;/li&gt;
+      &lt;li&gt;Used in signal processing, optics, and quantum mechanics (e.g., wave packets).&lt;/li&gt;
+      &lt;li&gt;Describes random noise and natural phenomena.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Lorentzian&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Used to model resonance phenomena in physics (e.g., spectral lines, nuclear magnetic resonance).&lt;/li&gt;
+      &lt;li&gt;Represents the shape of a resonance peak where damping is significant.&lt;/li&gt;
+      &lt;li&gt;Describes systems with a sharp central peak and long-range influence.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;4-key-differences&quot;&gt;&lt;strong&gt;4. Key Differences&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Feature&lt;/th&gt;
+      &lt;th&gt;Gaussian Curve&lt;/th&gt;
+      &lt;th&gt;Lorentzian Curve&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Decay Rate&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Rapid (exponential decay).&lt;/td&gt;
+      &lt;td&gt;Slow (power-law decay).&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Tails&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Narrow, negligible at far distances.&lt;/td&gt;
+      &lt;td&gt;Broad, significant far from the center.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Peak Shape&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Rounded.&lt;/td&gt;
+      &lt;td&gt;Sharper and taller.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Normalization&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Normalized over all space.&lt;/td&gt;
+      &lt;td&gt;Peak is proportional to $1/\pi\gamma$.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Example Uses&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Random processes, noise, diffusion.&lt;/td&gt;
+      &lt;td&gt;Resonance, spectroscopy, optics.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">In this lecture, we will start by revisiting the basics of quantum scattering, focusing on partial wave analysis and phase shifts. The graph at the top illustrates the Breit-Wigner resonance curve, which we will discuss in detail after exploring resonance scattering and its role in energy-dependent cross-sections.</summary></entry><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;p&gt;Nuclear reactions can occur when a target nucleus $X$ is bombarded by a particle $a$, resulting in a daughter nucleus $Y$ and an outgoing particle $b$:&lt;/p&gt;
 
 \[a + X \rightarrow Y + b\]
 
