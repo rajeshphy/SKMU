@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-09T11:32:30+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Quantum Tunneling</title><link href="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html" rel="alternate" type="text/html" title="Quantum Tunneling" /><published>2025-01-02T06:47:26+05:30</published><updated>2025-01-02T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html">&lt;p&gt;In this article we will study:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-10T08:10:49+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Assignment-I</title><link href="http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I.html" rel="alternate" type="text/html" title="Assignment-I" /><published>2025-01-10T05:47:26+05:30</published><updated>2025-01-10T05:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I.html">&lt;h3 id=&quot;instructions&quot;&gt;Instructions:&lt;/h3&gt;
+&lt;p&gt;Explain how complex physical expressions can simplify to exponential decay through Taylor series or other approximations. Provide detailed derivations for the following cases.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-taylor-series-expansion&quot;&gt;1. Taylor Series Expansion&lt;/h3&gt;
+&lt;p&gt;The Breit-Wigner formula for the scattering cross-section is:&lt;br /&gt;
+\(\sigma(E) = \frac{\sigma_0}{(E - E_0)^2 + \frac{\Gamma^2}{4}}.\)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Perform a &lt;strong&gt;Taylor series expansion&lt;/strong&gt; of the denominator, $(E - E_0)^2 + \frac{\Gamma^2}{4}$, about $E = E_0$.&lt;/li&gt;
+  &lt;li&gt;Simplify the formula for $\sigma(E)$ using the first-order approximation of the Taylor series.&lt;/li&gt;
+  &lt;li&gt;Discuss the physical meaning of this approximation and its region of validity.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;2-quadratic-approximation&quot;&gt;2. Quadratic Approximation&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Near $E = E_0$, let $x = E - E_0$. Using this substitution, rewrite the Breit-Wigner formula in terms of $x$.&lt;/li&gt;
+  &lt;li&gt;Use a &lt;strong&gt;quadratic approximation&lt;/strong&gt; for the denominator to simplify the formula for small values of $x$.&lt;/li&gt;
+  &lt;li&gt;Compare this result to the Taylor-expanded form from &lt;strong&gt;Question 1&lt;/strong&gt;, and explain the role of the quadratic term in describing the resonance peak.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;3-validity-of-the-exponential-form&quot;&gt;3. Validity of the Exponential Form&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Show that for small deviations $x = E - E_0$, the simplified Breit-Wigner formula can be approximated as:&lt;br /&gt;
+\(\sigma(E) \approx \frac{4\sigma_0}{\Gamma^2} e^{-\frac{4x^2}{\Gamma^2}}.\)&lt;/li&gt;
+  &lt;li&gt;Analyze the &lt;strong&gt;validity of this exponential form&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Under what conditions (e.g., relative values of $x$, $\Gamma$) is the exponential approximation valid?&lt;/li&gt;
+      &lt;li&gt;When does this form break down, and what does this imply about the resonance behavior at larger deviations from $E_0$?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;(Optional for advanced students) Plot the original Breit-Wigner formula and the exponential approximation for a few values of $\Gamma$ to visualize their differences.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;4-harmonic-oscillator-perturbed-by-a-complex-potential&quot;&gt;4. Harmonic Oscillator Perturbed by a Complex Potential&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Formula:&lt;/strong&gt;&lt;br /&gt;
+The wavefunction for a harmonic oscillator perturbed by a complex potential $V(x) = V_0 e^{-x^2}$ satisfies the Schrödinger equation:&lt;br /&gt;
+\(-\frac{\hbar^2}{2m} \frac{d^2\psi}{dx^2} + (\frac{1}{2}m\omega^2 x^2  + V_0 e^{-x^2}) \psi = E \psi.\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Approximate Near $x = 0$ and solve the Schrödinger equation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Due Date:&lt;/strong&gt;&lt;br /&gt;
+Submit your solutions by the next class meeting.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">Instructions: Explain how complex physical expressions can simplify to exponential decay through Taylor series or other approximations. Provide detailed derivations for the following cases.</summary></entry><entry><title type="html">Quantum Tunneling</title><link href="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html" rel="alternate" type="text/html" title="Quantum Tunneling" /><published>2025-01-02T06:47:26+05:30</published><updated>2025-01-02T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/02/Tunneling.html">&lt;p&gt;In this article we will study:&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;•	Overview of quantum tunneling and its significance.
 
@@ -1340,145 +1384,4 @@ correction term. This term depends on the mass $A$ of the nucleus and is proport
 
     &lt;p&gt;(D) spin dependence along with tensor components&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">LASER Rate Equation</title><link href="http://localhost:4000/SKMU/lecture/2024/09/04/Laser-Rate-Equation.html" rel="alternate" type="text/html" title="LASER Rate Equation" /><published>2024-09-04T10:47:26+05:30</published><updated>2024-09-04T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/09/04/Laser-Rate-Equation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/09/04/Laser-Rate-Equation.html">&lt;p&gt;&lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;rate-equations-for-a-three-level-laser-system&quot;&gt;Rate Equations for a Three-Level Laser System&lt;/h3&gt;
-
-&lt;p&gt;A three-level laser system operates using the principle of stimulated emission of radiation. The rate equations describe how the populations of various energy levels change under the influence of pumping and laser radiation. The goal is to achieve population inversion, which is necessary for laser action.&lt;/p&gt;
-
-&lt;h4 id=&quot;the-three-level-system&quot;&gt;The Three-Level System&lt;/h4&gt;
-
-&lt;p&gt;In a three-level laser system, atoms or molecules transition between three distinct energy levels:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Ground State (Level 1, $E_1$)&lt;/strong&gt;: The initial state with the population $N_1$.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Excited State (Level 3, $E_3$)&lt;/strong&gt;: The state to which atoms are pumped from the ground state, with the population $N_3$.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Metastable State (Level 2, $E_2$)&lt;/strong&gt;: A relatively stable excited state where population inversion occurs, with the population $N_2$.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Pumping Transition (1 → 3)&lt;/strong&gt;: Atoms are pumped from the ground state (1) to the excited state (3).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Lasing Transition (2 → 1)&lt;/strong&gt;: Atoms transition from the metastable state (2) to the ground state (1), emitting laser radiation.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Rapid Decay (3 → 2)&lt;/strong&gt;: Atoms in state (3) quickly decay to state (2) through nonradiative processes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;rate-equations&quot;&gt;Rate Equations&lt;/h4&gt;
-
-&lt;p&gt;Let $N_1$, $N_2$, and $N_3$ be the populations of levels 1, 2, and 3, respectively. The total number of atoms per unit volume is:&lt;/p&gt;
-
-&lt;p&gt;$
-N = N_1 + N_2 + N_3
-$&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Population Rate of Level 3 (Excited State):&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;$
-\frac{dN_3}{dt} = W_p (N_1 - N_3) - N_3 T_{32}
-$&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$W_p N_1$ represents the rate of induced absorption for the 1 → 3 transition.&lt;/li&gt;
-  &lt;li&gt;$W_p N_3$ represents the rate of stimulated emission for the 3 → 1 transition.&lt;/li&gt;
-  &lt;li&gt;$T_{32} = A_{32} + S_{32}$ is the total relaxation rate from level 3 to level 2, where:
-    &lt;ul&gt;
-      &lt;li&gt;$A_{32}$ is the Einstein A coefficient for spontaneous emission.&lt;/li&gt;
-      &lt;li&gt;$S_{32}$ is the nonradiative transition rate.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Population Rate of Level 2 (Metastable State):&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;$
-\frac{dN_2}{dt} = W_l (N_1 - N_2) + N_3 T_{32} - N_2 T_{21}
-$&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$W_l (N_1 - N_2)$ represents the stimulated transitions between levels 1 and 2 (2 → 1 lasing).&lt;/li&gt;
-  &lt;li&gt;$N_3 T_{32}$ represents the spontaneous transitions from level 3 to level 2.&lt;/li&gt;
-  &lt;li&gt;$N_2 T_{21}$ represents the spontaneous transitions from level 2 to level 1.&lt;/li&gt;
-  &lt;li&gt;$W_l$ is proportional to the Einstein B coefficient $B_{21}$ and the energy density of the lasing transition.&lt;/li&gt;
-  &lt;li&gt;$T_{21} \approx A_{21}$ represents the spontaneous relaxation rate from level 2 to level 1.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Population Rate of Level 1 (Ground State):&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;$
-\frac{dN_1}{dt} = W_p (N_3 - N_1) + W_l (N_2 - N_1) + N_2 T_{21}
-$&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$W_p (N_3 - N_1)$ represents the net stimulated transitions between levels 1 and 3.&lt;/li&gt;
-  &lt;li&gt;$W_l (N_2 - N_1)$ represents the stimulated transitions between levels 1 and 2.&lt;/li&gt;
-  &lt;li&gt;$N_2 T_{21}$ represents the spontaneous transitions from level 2 to level 1.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Conservation of Population:&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;$
-\frac{dN_1}{dt} + \frac{dN_2}{dt} + \frac{dN_3}{dt} = 0
-$&lt;/p&gt;
-
-&lt;p&gt;Equations (2), (4), and (5) are referred to as the &lt;strong&gt;rate equations&lt;/strong&gt; for a three-level laser system.&lt;/p&gt;
-
-&lt;h4 id=&quot;steady-state-solutions&quot;&gt;Steady-State Solutions&lt;/h4&gt;
-
-&lt;p&gt;At steady state, the time derivatives of the populations are zero:&lt;/p&gt;
-
-&lt;p&gt;$
-\frac{dN_1}{dt} = 0, \quad \frac{dN_2}{dt} = 0, \quad \frac{dN_3}{dt} = 0
-$&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;For Level 3:&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;$
-N_3 = \frac{W_p}{W_p + T_{32}} N_1
-$&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;For Level 2:&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;$
-N_2 = \frac{W_l + \frac{T_{32} W_p}{W_p + T_{32}}}{W_l + T_{21}} N_1
-$&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Population Difference Between Levels 2 and 1:&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;$
-\frac{N_2 - N_1}{N} = \frac{W_p (T_{32} - T_{21}) - T_{32} T_{21}}{3W_p W_l + 2W_p T_{21} + 2T_{32} W_l + T_{32} W_p + T_{32} T_{21}}
-$&lt;/p&gt;
-
-&lt;h4 id=&quot;condition-for-population-inversion&quot;&gt;Condition for Population Inversion&lt;/h4&gt;
-
-&lt;p&gt;To achieve population inversion between levels 2 and 1 ($N_2 &amp;gt; N_1$), a necessary condition is:&lt;/p&gt;
-
-&lt;p&gt;$
-T_{32} &amp;gt; T_{21}
-$&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The relaxation rate from level 3 to level 2 must be greater than that from level 2 to level 1.&lt;/li&gt;
-  &lt;li&gt;The lifetime of level 3 must be shorter than that of level 2.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;minimum-pumping-rate-for-population-inversion&quot;&gt;Minimum Pumping Rate for Population Inversion&lt;/h4&gt;
-
-&lt;p&gt;A minimum pumping rate $W_p$ is required to maintain population inversion:&lt;/p&gt;
-
-&lt;p&gt;$
-W_{p,\text{min}} = \frac{T_{32} T_{21}}{T_{32} - T_{21}}
-$&lt;/p&gt;
-
-&lt;p&gt;For population inversion to occur, the actual pumping rate $W_p$ must be greater than $W_{p,\text{min}}$.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="LASER" /><category term="Rate" /><category term="Equation" /><summary type="html">Rate Equations for a Three-Level Laser System</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry></feed>
