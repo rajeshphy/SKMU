@@ -1,4 +1,367 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-10T08:10:49+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Assignment-I</title><link href="http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I.html" rel="alternate" type="text/html" title="Assignment-I" /><published>2025-01-10T05:47:26+05:30</published><updated>2025-01-10T05:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I.html">&lt;h3 id=&quot;instructions&quot;&gt;Instructions:&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-02-18T11:08:56+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Particle Physics: Isospin</title><link href="http://localhost:4000/SKMU/lecture/2025/02/18/Isospin.html" rel="alternate" type="text/html" title="Particle Physics: Isospin" /><published>2025-02-18T04:47:26+05:30</published><updated>2025-02-18T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/02/18/Isospin</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/02/18/Isospin.html">&lt;h2 id=&quot;1-the-concept-of-isospin&quot;&gt;1. The Concept of Isospin&lt;/h2&gt;
+
+&lt;p&gt;Isospin is a quantum number that describes the symmetry between particles with similar properties but different electric charges. It was first proposed by Werner Heisenberg in 1932 to explain the near-degeneracy of protons and neutrons. These particles, collectively called nucleons, were found to behave similarly under the strong nuclear force, suggesting an underlying symmetry.&lt;/p&gt;
+
+&lt;p&gt;Isospin is represented by two quantum numbers:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Total Isospin ($ I $)&lt;/strong&gt;: This can take integer or half-integer values (e.g., $ 0, \frac{1}{2}, 1, \frac{3}{2} $).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Third Component of Isospin ($ I_3 $)&lt;/strong&gt;: This represents the projection of isospin along a chosen axis and can take values from $ -I $ to $ +I $ in integer steps.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Protons and neutrons form an isospin doublet with $ I = \frac{1}{2} $. The proton has $ I_3 = +\frac{1}{2} $, and the neutron has $ I_3 = -\frac{1}{2} $.&lt;/li&gt;
+  &lt;li&gt;Pions ($ \pi^+, \pi^0, \pi^- $) form an isospin triplet with $ I = 1 $ and $ I_3 = +1, 0, -1 $, respectively.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;isospin-symmetry&quot;&gt;Isospin Symmetry&lt;/h3&gt;
+&lt;p&gt;Isospin symmetry arises from the charge independence of the strong interaction. This means that the strong force between two protons ($ pp $), two neutrons ($ nn $), or a proton and a neutron ($ np $) is nearly identical. However, this symmetry is approximate and is broken by:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The electromagnetic interaction, which differentiates between charged and neutral particles.&lt;/li&gt;
+  &lt;li&gt;The small mass difference between up ($ u $) and down ($ d $) quarks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;table-isospin-and-electric-charge-of-quarks-and-antiquarks&quot;&gt;Table: Isospin and Electric Charge of Quarks and Antiquarks&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Particle&lt;/th&gt;
+      &lt;th&gt;Symbol&lt;/th&gt;
+      &lt;th&gt;Isospin ($ I $)&lt;/th&gt;
+      &lt;th&gt;$ I_3 $&lt;/th&gt;
+      &lt;th&gt;Charge ($ Q $)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Quarks&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Up quark&lt;/td&gt;
+      &lt;td&gt;$ u $&lt;/td&gt;
+      &lt;td&gt;$ \frac{1}{2} $&lt;/td&gt;
+      &lt;td&gt;$ +\frac{1}{2} $&lt;/td&gt;
+      &lt;td&gt;$ +\frac{2}{3} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Down quark&lt;/td&gt;
+      &lt;td&gt;$ d $&lt;/td&gt;
+      &lt;td&gt;$ \frac{1}{2} $&lt;/td&gt;
+      &lt;td&gt;$ -\frac{1}{2} $&lt;/td&gt;
+      &lt;td&gt;$ -\frac{1}{3} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Strange quark&lt;/td&gt;
+      &lt;td&gt;$ s $&lt;/td&gt;
+      &lt;td&gt;$ 0 $&lt;/td&gt;
+      &lt;td&gt;$ 0 $&lt;/td&gt;
+      &lt;td&gt;$ -\frac{1}{3} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Charm quark&lt;/td&gt;
+      &lt;td&gt;$ c $&lt;/td&gt;
+      &lt;td&gt;$ 0 $&lt;/td&gt;
+      &lt;td&gt;$ 0 $&lt;/td&gt;
+      &lt;td&gt;$ +\frac{2}{3} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bottom quark&lt;/td&gt;
+      &lt;td&gt;$ b $&lt;/td&gt;
+      &lt;td&gt;$ 0 $&lt;/td&gt;
+      &lt;td&gt;$ 0 $&lt;/td&gt;
+      &lt;td&gt;$ -\frac{1}{3} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Top quark&lt;/td&gt;
+      &lt;td&gt;$ t $&lt;/td&gt;
+      &lt;td&gt;$ 0 $&lt;/td&gt;
+      &lt;td&gt;$ 0 $&lt;/td&gt;
+      &lt;td&gt;$ +\frac{2}{3} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Antiquarks&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Up antiquark&lt;/td&gt;
+      &lt;td&gt;$ \bar{u} $&lt;/td&gt;
+      &lt;td&gt;$ \frac{1}{2} $&lt;/td&gt;
+      &lt;td&gt;$ -\frac{1}{2} $&lt;/td&gt;
+      &lt;td&gt;$ -\frac{2}{3} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Down antiquark&lt;/td&gt;
+      &lt;td&gt;$ \bar{d} $&lt;/td&gt;
+      &lt;td&gt;$ \frac{1}{2} $&lt;/td&gt;
+      &lt;td&gt;$ +\frac{1}{2} $&lt;/td&gt;
+      &lt;td&gt;$ +\frac{1}{3} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Strange antiquark&lt;/td&gt;
+      &lt;td&gt;$ \bar{s} $&lt;/td&gt;
+      &lt;td&gt;$ 0 $&lt;/td&gt;
+      &lt;td&gt;$ 0 $&lt;/td&gt;
+      &lt;td&gt;$ +\frac{1}{3} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Charm antiquark&lt;/td&gt;
+      &lt;td&gt;$ \bar{c} $&lt;/td&gt;
+      &lt;td&gt;$ 0 $&lt;/td&gt;
+      &lt;td&gt;$ 0 $&lt;/td&gt;
+      &lt;td&gt;$ -\frac{2}{3} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bottom antiquark&lt;/td&gt;
+      &lt;td&gt;$ \bar{b} $&lt;/td&gt;
+      &lt;td&gt;$ 0 $&lt;/td&gt;
+      &lt;td&gt;$ 0 $&lt;/td&gt;
+      &lt;td&gt;$ +\frac{1}{3} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Top antiquark&lt;/td&gt;
+      &lt;td&gt;$ \bar{t} $&lt;/td&gt;
+      &lt;td&gt;$ 0 $&lt;/td&gt;
+      &lt;td&gt;$ 0 $&lt;/td&gt;
+      &lt;td&gt;$ -\frac{2}{3} $&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;2-isospin-in-quarks-and-hadrons&quot;&gt;2. Isospin in Quarks and Hadrons&lt;/h2&gt;
+
+&lt;h3 id=&quot;quark-level&quot;&gt;Quark Level&lt;/h3&gt;
+&lt;p&gt;At the quark level, isospin is primarily associated with the up ($ u $) and down ($ d $) quarks, which form an &lt;strong&gt;isospin doublet&lt;/strong&gt;. This doublet structure arises because the up and down quarks have nearly identical masses and interact similarly under the strong force, despite their different electric charges. The isospin properties of these quarks are as follows:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Up Quark ($ u $)&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Isospin $ I = \frac{1}{2} $.&lt;/li&gt;
+      &lt;li&gt;Third component $ I_3 = +\frac{1}{2} $.&lt;/li&gt;
+      &lt;li&gt;Electric charge $ Q = +\frac{2}{3} $.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Down Quark ($ d $)&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Isospin $ I = \frac{1}{2} $.&lt;/li&gt;
+      &lt;li&gt;Third component $ I_3 = -\frac{1}{2} $.&lt;/li&gt;
+      &lt;li&gt;Electric charge $ Q = -\frac{1}{3} $.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The remaining quarks—strange ($ s $), charm ($ c $), bottom ($ b $), and top ($ t $) do not participate in isospin symmetry and has $ I = 0 $.&lt;/p&gt;
+
+&lt;h3 id=&quot;hadrons&quot;&gt;Hadrons&lt;/h3&gt;
+&lt;p&gt;Hadrons are particles made of quarks and are classified into two main categories: &lt;strong&gt;mesons&lt;/strong&gt; (quark-antiquark pairs) and &lt;strong&gt;baryons&lt;/strong&gt; (three-quark states). The isospin properties of hadrons depend on the isospin of their constituent quarks.&lt;/p&gt;
+
+&lt;h4 id=&quot;mesons&quot;&gt;Mesons&lt;/h4&gt;
+&lt;p&gt;Mesons are quark-antiquark pairs and can form isospin singlets, doublets, or triplets depending on the quark content. Examples include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Pions ($ \pi^+, \pi^0, \pi^- $)&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;These form an &lt;strong&gt;isospin triplet&lt;/strong&gt; ($ I = 1 $) with $ I_3 = +1, 0, -1 $, respectively.&lt;/li&gt;
+      &lt;li&gt;Quark content:
+        &lt;ul&gt;
+          &lt;li&gt;$ \pi^+ = u\bar{d} $.&lt;/li&gt;
+          &lt;li&gt;$ \pi^0 = \frac{1}{\sqrt{2}}(u\bar{u} - d\bar{d}) $.&lt;/li&gt;
+          &lt;li&gt;$ \pi^- = d\bar{u} $.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Eta Meson ($ \eta^0 $)&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;This is an &lt;strong&gt;isospin singlet&lt;/strong&gt; ($ I = 0 $).&lt;/li&gt;
+      &lt;li&gt;Quark content: $ \eta^0 $ is a mixture of $ u\bar{u} $, $ d\bar{d} $, and $ s\bar{s} $.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;baryons&quot;&gt;Baryons&lt;/h4&gt;
+&lt;p&gt;Baryons are three-quark states and can form isospin singlets, doublets, or triplets. Examples include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Nucleons ($ p, n $)&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;These form an &lt;strong&gt;isospin doublet&lt;/strong&gt; ($ I = \frac{1}{2} $) with $ I_3 = +\frac{1}{2} $ for the proton and $ I_3 = -\frac{1}{2} $ for the neutron.&lt;/li&gt;
+      &lt;li&gt;Quark content:
+        &lt;ul&gt;
+          &lt;li&gt;Proton ($ p $) = $ uud $.&lt;/li&gt;
+          &lt;li&gt;Neutron ($ n $) = $ udd $.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Delta Baryons ($ \Delta^{++}, \Delta^+, \Delta^0, \Delta^- $)&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;These form an &lt;strong&gt;isospin quartet&lt;/strong&gt; ($ I = \frac{3}{2} $) with $ I_3 = +\frac{3}{2}, +\frac{1}{2}, -\frac{1}{2}, -\frac{3}{2} $, respectively.&lt;/li&gt;
+      &lt;li&gt;Quark content:
+        &lt;ul&gt;
+          &lt;li&gt;$ \Delta^{++} = uuu $.&lt;/li&gt;
+          &lt;li&gt;$ \Delta^+ = uud $.&lt;/li&gt;
+          &lt;li&gt;$ \Delta^0 = udd $.&lt;/li&gt;
+          &lt;li&gt;$ \Delta^- = ddd $.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;strange-hadrons&quot;&gt;Strange Hadrons&lt;/h4&gt;
+&lt;p&gt;Hadrons containing strange quarks ($ s $) also exhibit isospin properties, but the strange quark itself does not contribute to isospin. Examples include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Kaons ($ K^+, K^0 $)&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;These form an &lt;strong&gt;isospin doublet&lt;/strong&gt; ($ I = \frac{1}{2} $) with $ I_3 = +\frac{1}{2} $ for $ K^+ $ and $ I_3 = -\frac{1}{2} $ for $ K^0 $.&lt;/li&gt;
+      &lt;li&gt;Quark content:
+        &lt;ul&gt;
+          &lt;li&gt;$ K^+ = u\bar{s} $.&lt;/li&gt;
+          &lt;li&gt;$ K^0 = d\bar{s} $.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Lambda Baryon ($ \Lambda^0 $)&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;This is an &lt;strong&gt;isospin singlet&lt;/strong&gt; ($ I = 0 $).&lt;/li&gt;
+      &lt;li&gt;Quark content: $ \Lambda^0 = uds $.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3-conservation-of-isospin&quot;&gt;3. Conservation of Isospin&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Strong Interactions&lt;/strong&gt;
+Isospin is conserved in strong interactions. This means that the total isospin $ I $ and its third component $ I_3 $ remain unchanged during processes like particle collisions or decays mediated by the strong force.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Electromagnetic and Weak Interactions&lt;/strong&gt;
+Isospin conservation breaks down in electromagnetic and weak interactions:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Electromagnetic interactions violate total isospin $ I $ but conserve $ I_3 $.&lt;/li&gt;
+      &lt;li&gt;Weak interactions violate both $ I $ and $ I_3 $. For example, in beta decay ($ n \rightarrow p + e^- + \bar{\nu}_e $), the isospin changes by $ \Delta I = \frac{1}{2} $.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;4-examples-of-isospin&quot;&gt;4. Examples of Isospin&lt;/h2&gt;
+
+&lt;h3 id=&quot;example-1-pion-nucleon-scattering--pi--p-rightarrow-pi--p-&quot;&gt;Example 1: Pion-Nucleon Scattering ($ \pi^+ + p \rightarrow \pi^+ + p $)&lt;/h3&gt;
+&lt;h4 id=&quot;problem&quot;&gt;Problem:&lt;/h4&gt;
+&lt;p&gt;Analyze the isospin conservation in the scattering process $ \pi^+ + p \rightarrow \pi^+ + p $.&lt;/p&gt;
+
+&lt;h4 id=&quot;solution&quot;&gt;Solution:&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Initial State&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;$ \pi^+ $: $ I = 1 $, $ I_3 = +1 $.&lt;/li&gt;
+      &lt;li&gt;$ p $: $ I = \frac{1}{2} $, $ I_3 = +\frac{1}{2} $.&lt;/li&gt;
+      &lt;li&gt;Total initial isospin: $ I_{\text{initial}} = \frac{3}{2} $ or $ \frac{1}{2} $.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Final State&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;$ \pi^+ $: $ I = 1 $, $ I_3 = +1 $.&lt;/li&gt;
+      &lt;li&gt;$ p $: $ I = \frac{1}{2} $, $ I_3 = +\frac{1}{2} $.&lt;/li&gt;
+      &lt;li&gt;Total final isospin: $ I_{\text{final}} = \frac{3}{2} $ or $ \frac{1}{2} $.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Isospin is conserved ($ I_{\text{initial}} = I_{\text{final}} $), and the process is allowed in strong interactions.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;example-2-forbidden-decay--sigma-rightarrow-p--eta0-&quot;&gt;Example 2: Forbidden Decay ($ \Sigma^+ \rightarrow p + \eta^0 $)&lt;/h3&gt;
+&lt;h4 id=&quot;problem-1&quot;&gt;Problem:&lt;/h4&gt;
+&lt;p&gt;Explain why the decay $ \Sigma^+ \rightarrow p + \eta^0 $ is forbidden.&lt;/p&gt;
+
+&lt;h4 id=&quot;solution-1&quot;&gt;Solution:&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Initial State&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;$ \Sigma^+ $: $ I = 1 $, $ I_3 = +1 $.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Final State&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;$ p $: $ I = \frac{1}{2} $, $ I_3 = +\frac{1}{2} $.&lt;/li&gt;
+      &lt;li&gt;$ \eta^0 $: $ I = 0 $, $ I_3 = 0 $.&lt;/li&gt;
+      &lt;li&gt;Total final isospin: $ I_{\text{final}} = \frac{1}{2} $.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Isospin is not conserved ($ I_{\text{initial}} = 1 \neq I_{\text{final}} = \frac{1}{2} $), so the decay is forbidden in strong interactions.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;example-3-beta-decay--n-rightarrow-p--e---barnu_e-&quot;&gt;Example 3: Beta Decay ($ n \rightarrow p + e^- + \bar{\nu}_e $)&lt;/h3&gt;
+&lt;h4 id=&quot;problem-2&quot;&gt;Problem:&lt;/h4&gt;
+&lt;p&gt;Analyze the isospin change in the beta decay process $ n \rightarrow p + e^- + \bar{\nu}_e $.&lt;/p&gt;
+
+&lt;h4 id=&quot;solution-2&quot;&gt;Solution:&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Initial State&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;$ n $: $ I = \frac{1}{2} $, $ I_3 = -\frac{1}{2} $.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Final State&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;$ p $: $ I = \frac{1}{2} $, $ I_3 = +\frac{1}{2} $.&lt;/li&gt;
+      &lt;li&gt;$ e^- $ and $ \bar{\nu}_e $: These are leptons and do not contribute to isospin.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;The isospin changes by $ \Delta I_3 = +1 $, which is allowed in weak interactions.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;5-applications-of-isospin&quot;&gt;5. Applications of Isospin&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Classification of Hadrons&lt;/strong&gt;
+Isospin helps classify hadrons into multiplets based on their symmetry properties. For example:
+    &lt;ul&gt;
+      &lt;li&gt;Nucleons ($ p, n $) form an isospin doublet.&lt;/li&gt;
+      &lt;li&gt;Pions ($ \pi^+, \pi^0, \pi^- $) form an isospin triplet.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Strong Interaction Dynamics&lt;/strong&gt;
+Isospin conservation is used to predict the outcomes of strong interaction processes, such as particle scattering and decays.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Connection to Other Quantum Numbers&lt;/strong&gt;
+The Gell-Mann–Nishijima formula connects isospin to other quantum numbers:
+\(Q = I_3 + \frac{B + S}{2},\)
+where $ Q $ is the electric charge, $ B $ is the baryon number, and $ S $ is the strangeness.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">1. The Concept of Isospin</summary></entry><entry><title type="html">Assignment-I</title><link href="http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I.html" rel="alternate" type="text/html" title="Assignment-I" /><published>2025-01-10T05:47:26+05:30</published><updated>2025-01-10T05:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I.html">&lt;h3 id=&quot;instructions&quot;&gt;Instructions:&lt;/h3&gt;
 &lt;p&gt;Explain how complex physical expressions can simplify to exponential decay through Taylor series or other approximations. Provide detailed derivations for the following cases.&lt;/p&gt;
 
 &lt;h3 id=&quot;1-taylor-series-expansion&quot;&gt;1. Taylor Series Expansion&lt;/h3&gt;
@@ -1291,97 +1654,4 @@ $&lt;/p&gt;
 m_\pi \approx \frac{197 \ \text{MeV fm}}{1 \ \text{fm} \cdot c} \approx 197 \ \text{MeV}/c^2
 $&lt;/p&gt;
 
-&lt;p&gt;Thus, Yukawa predicted the mass of the pion to be approximately 200 times the mass of the electron, which aligns with the observed pion mass in nature.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry><entry><title type="html">PG-III Lecture Topics</title><link href="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html" rel="alternate" type="text/html" title="PG-III Lecture Topics" /><published>2024-11-12T06:47:26+05:30</published><updated>2024-11-12T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/12/SEM-III.html">&lt;!-- &lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
-
-&lt;h3 id=&quot;phy-a-09-open-elective-basic-applied-physics&quot;&gt;PHY A-09: Open Elective: Basic Applied Physics&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Unit-1: Basic Electronics: Idea of intrinsic and extrinsic semiconductors, p-n junction diode, Zener diode, LED, BJT, FET with their applications, Elementary Boolean algebra, conversion of decimal numbers into binary numbers, Basic and Universal logic gates. [Lectures 20]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;phy-c--10-solid-state-physics-and-statistical-mechanics&quot;&gt;PHY C- 10: Solid State Physics and Statistical Mechanics&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;XXX&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;phy-c--11-nuclear-and-particle-physics--electronics&quot;&gt;PHY C- 11: Nuclear and Particle Physics &amp;amp; Electronics&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Unit-2: Nuclear Reactions: Type of Nuclear Reactions, Q values and Threshold energy, Conservation laws,
-Direct and Compound Nuclear reaction Mechanisms, Compound Nucleus theory, Resonance Scattering, BREIT-Wigner one level formula.[ Lectures 10]&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Unit-5: Elementary Particle Physics: Introduction to Quark hypothesis, Quark model and Elementary particles (Hadrons and Leptons). Idea of Isospin and strangeness, Types of interactions. [Lectures 5]&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;why-study-particle-physics&quot;&gt;Why study particle Physics&lt;/h3&gt;
-
-&lt;p&gt;To answer the following important question:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;The protons in any nucleus should strongly repel one another due to their charges of the same sign, so what is the nature of the force that holds the nucleus together?&lt;/p&gt;
-
-    &lt;p&gt;(A) Gravitational force&lt;/p&gt;
-
-    &lt;p&gt;(B) Electromagnetic force&lt;/p&gt;
-
-    &lt;p&gt;(C) Weak nuclear force&lt;/p&gt;
-
-    &lt;p&gt;(D) Strong nuclear force&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the nature of the force that holds the nucleus together?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Are electron, proton and neutron the only elementary particles?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Which particle is responsible for mediating the electromagnetic force?&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;competitive-exam-questions---gate-net-jest-etc&quot;&gt;Competitive Exam Questions - GATE, NET, JEST, etc.&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;The semi-empirical mass formula for the binding energy of nucleus contains a surface
-correction term. This term depends on the mass $A$ of the nucleus and is proportional to:&lt;/p&gt;
-
-    &lt;p&gt;(A) $A^{-\frac{1}{3}}$&lt;/p&gt;
-
-    &lt;p&gt;(B) $A^{\frac{1}{3}}$&lt;/p&gt;
-
-    &lt;p&gt;(C) $A^{\frac{2}{3}}$&lt;/p&gt;
-
-    &lt;p&gt;(D) $A$&lt;/p&gt;
-
-    &lt;p&gt;Solution: (C)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;In the $SU(3)$ quark model, the triplet of mesons $(\pi^+, \pi^0,\pi^-)$ has the Iso-spin $I$ and the Strangeness $S$ equal to:&lt;/p&gt;
-
-    &lt;p&gt;(A) $I=1, S=0$&lt;/p&gt;
-
-    &lt;p&gt;(B) $I=0, S=0$&lt;/p&gt;
-
-    &lt;p&gt;(C) $I=1, S=1$&lt;/p&gt;
-
-    &lt;p&gt;(D) $I=0, S=1$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The deuteron has only one bound state with spin parity $1^+$, isospin $0$, and electric quadrupole moment $0.286 \, \text{efm}^2$. These data suggest that the nuclear forces are having:&lt;/p&gt;
-
-    &lt;p&gt;(A) only spin and isospin dependence&lt;/p&gt;
-
-    &lt;p&gt;(B) no spin dependence and no tensor components&lt;/p&gt;
-
-    &lt;p&gt;(C) spin dependence but no tensor components&lt;/p&gt;
-
-    &lt;p&gt;(D) spin dependence along with tensor components&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;Thus, Yukawa predicted the mass of the pion to be approximately 200 times the mass of the electron, which aligns with the observed pion mass in nature.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry></feed>
