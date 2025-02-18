@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "Particle Physics: Isospin"
+title: "The Concept of Isospin"
 date: 2025-02-18 04:47:26 +0530
 categories: lecture
 tags: SEM-III
 ---
-
-## 1. The Concept of Isospin
 
 Isospin is a quantum number that describes the symmetry between particles with similar properties but different electric charges. It was first proposed by Werner Heisenberg in 1932 to explain the near-degeneracy of protons and neutrons. These particles, collectively called nucleons, were found to behave similarly under the strong nuclear force, suggesting an underlying symmetry.
 
@@ -45,7 +43,7 @@ Isospin symmetry arises from the charge independence of the strong interaction. 
 | Top antiquark    | $ \bar{t} $ | $ 0 $            | $ 0 $                     | $ -\frac{2}{3} $        |
 
 ---
-## 2. Isospin in Quarks and Hadrons
+## Isospin in Quarks and Hadrons
 
 ###  Quark Level
 At the quark level, isospin is primarily associated with the up ($ u $) and down ($ d $) quarks, which form an **isospin doublet**. This doublet structure arises because the up and down quarks have nearly identical masses and interact similarly under the strong force, despite their different electric charges. The isospin properties of these quarks are as follows:
@@ -104,7 +102,7 @@ Hadrons containing strange quarks ($ s $) also exhibit isospin properties, but t
 
 ---
 
-## 3. Conservation of Isospin
+## Conservation of Isospin
 
 - **Strong Interactions**
 Isospin is conserved in strong interactions. This means that the total isospin $ I $ and its third component $ I_3 $ remain unchanged during processes like particle collisions or decays mediated by the strong force.
@@ -116,7 +114,7 @@ Isospin conservation breaks down in electromagnetic and weak interactions:
 
 ---
 
-## 4. Examples of Isospin
+##  Examples of Isospin
 
 ###   Example 1: Pion-Nucleon Scattering ($ \pi^+ + p \rightarrow \pi^+ + p $)
 #### Problem:
@@ -173,7 +171,7 @@ Analyze the isospin change in the beta decay process $ n \rightarrow p + e^- + \
 
 ---
 
-## 5. Applications of Isospin
+##  Applications of Isospin
 
 - **Classification of Hadrons**
 Isospin helps classify hadrons into multiplets based on their symmetry properties. For example:

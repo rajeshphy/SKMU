@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-02-18T11:08:56+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Particle Physics: Isospin</title><link href="http://localhost:4000/SKMU/lecture/2025/02/18/Isospin.html" rel="alternate" type="text/html" title="Particle Physics: Isospin" /><published>2025-02-18T04:47:26+05:30</published><updated>2025-02-18T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/02/18/Isospin</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/02/18/Isospin.html">&lt;h2 id=&quot;1-the-concept-of-isospin&quot;&gt;1. The Concept of Isospin&lt;/h2&gt;
-
-&lt;p&gt;Isospin is a quantum number that describes the symmetry between particles with similar properties but different electric charges. It was first proposed by Werner Heisenberg in 1932 to explain the near-degeneracy of protons and neutrons. These particles, collectively called nucleons, were found to behave similarly under the strong nuclear force, suggesting an underlying symmetry.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-02-18T11:11:59+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">The Concept of Isospin</title><link href="http://localhost:4000/SKMU/lecture/2025/02/18/Isospin.html" rel="alternate" type="text/html" title="The Concept of Isospin" /><published>2025-02-18T04:47:26+05:30</published><updated>2025-02-18T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/02/18/Isospin</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/02/18/Isospin.html">&lt;p&gt;Isospin is a quantum number that describes the symmetry between particles with similar properties but different electric charges. It was first proposed by Werner Heisenberg in 1932 to explain the near-degeneracy of protons and neutrons. These particles, collectively called nucleons, were found to behave similarly under the strong nuclear force, suggesting an underlying symmetry.&lt;/p&gt;
 
 &lt;p&gt;Isospin is represented by two quantum numbers:&lt;/p&gt;
 &lt;ul&gt;
@@ -138,7 +136,7 @@
 &lt;/table&gt;
 
 &lt;hr /&gt;
-&lt;h2 id=&quot;2-isospin-in-quarks-and-hadrons&quot;&gt;2. Isospin in Quarks and Hadrons&lt;/h2&gt;
+&lt;h2 id=&quot;isospin-in-quarks-and-hadrons&quot;&gt;Isospin in Quarks and Hadrons&lt;/h2&gt;
 
 &lt;h3 id=&quot;quark-level&quot;&gt;Quark Level&lt;/h3&gt;
 &lt;p&gt;At the quark level, isospin is primarily associated with the up ($ u $) and down ($ d $) quarks, which form an &lt;strong&gt;isospin doublet&lt;/strong&gt;. This doublet structure arises because the up and down quarks have nearly identical masses and interact similarly under the strong force, despite their different electric charges. The isospin properties of these quarks are as follows:&lt;/p&gt;
@@ -240,7 +238,7 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;3-conservation-of-isospin&quot;&gt;3. Conservation of Isospin&lt;/h2&gt;
+&lt;h2 id=&quot;conservation-of-isospin&quot;&gt;Conservation of Isospin&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -259,7 +257,7 @@ Isospin conservation breaks down in electromagnetic and weak interactions:&lt;/p
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;4-examples-of-isospin&quot;&gt;4. Examples of Isospin&lt;/h2&gt;
+&lt;h2 id=&quot;examples-of-isospin&quot;&gt;Examples of Isospin&lt;/h2&gt;
 
 &lt;h3 id=&quot;example-1-pion-nucleon-scattering--pi--p-rightarrow-pi--p-&quot;&gt;Example 1: Pion-Nucleon Scattering ($ \pi^+ + p \rightarrow \pi^+ + p $)&lt;/h3&gt;
 &lt;h4 id=&quot;problem&quot;&gt;Problem:&lt;/h4&gt;
@@ -343,7 +341,7 @@ Isospin conservation breaks down in electromagnetic and weak interactions:&lt;/p
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;5-applications-of-isospin&quot;&gt;5. Applications of Isospin&lt;/h2&gt;
+&lt;h2 id=&quot;applications-of-isospin&quot;&gt;Applications of Isospin&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Classification of Hadrons&lt;/strong&gt;
@@ -361,7 +359,7 @@ Isospin conservation is used to predict the outcomes of strong interaction proce
 The Gell-Mann–Nishijima formula connects isospin to other quantum numbers:
 \(Q = I_3 + \frac{B + S}{2},\)
 where $ Q $ is the electric charge, $ B $ is the baryon number, and $ S $ is the strangeness.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">1. The Concept of Isospin</summary></entry><entry><title type="html">Assignment-I</title><link href="http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I.html" rel="alternate" type="text/html" title="Assignment-I" /><published>2025-01-10T05:47:26+05:30</published><updated>2025-01-10T05:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I.html">&lt;h3 id=&quot;instructions&quot;&gt;Instructions:&lt;/h3&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">Isospin is a quantum number that describes the symmetry between particles with similar properties but different electric charges. It was first proposed by Werner Heisenberg in 1932 to explain the near-degeneracy of protons and neutrons. These particles, collectively called nucleons, were found to behave similarly under the strong nuclear force, suggesting an underlying symmetry.</summary></entry><entry><title type="html">Assignment-I</title><link href="http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I.html" rel="alternate" type="text/html" title="Assignment-I" /><published>2025-01-10T05:47:26+05:30</published><updated>2025-01-10T05:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I.html">&lt;h3 id=&quot;instructions&quot;&gt;Instructions:&lt;/h3&gt;
 &lt;p&gt;Explain how complex physical expressions can simplify to exponential decay through Taylor series or other approximations. Provide detailed derivations for the following cases.&lt;/p&gt;
 
 &lt;h3 id=&quot;1-taylor-series-expansion&quot;&gt;1. Taylor Series Expansion&lt;/h3&gt;
