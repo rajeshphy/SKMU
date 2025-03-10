@@ -1,0 +1,98 @@
+---
+layout: post
+title:  "Python"
+date:   2025-03-10 08:47:26 +0530
+categories: lecture
+tags: SEM-I
+---
+
+Python is a high-level, interpreted programming language that is widely used in scientific computing, numerical analysis, and data analysis. It provides a simple syntax and extensive libraries that make it an excellent choice for physicists.
+
+### Features of Python
+- **Easy to Learn**: Simple and readable syntax.
+- **Interpreted**: No need for compilation; executed line by line.
+- **Dynamic Typing**: No need to specify variable types.
+- **Extensive Libraries**: SciPy, NumPy, Matplotlib, SymPy for scientific computing.
+- **Cross-Platform**: Runs on Windows, Linux, and macOS.
+
+### Writing and Running Python Code
+Python code can be written in:
+- Interactive Python Shell (REPL)
+- Jupyter Notebooks
+- Python Scripts (`.py` files)
+- Integrated Development Environments (IDEs) like PyCharm, VS Code
+
+Example:
+```python
+print("Hello, Physics!")
+```
+
+## Data Structures in Python
+Data structures are essential for efficient data manipulation and computational physics problems. The basic ones include:
+
+### Arrays
+Arrays store multiple values in a single variable. In Python, NumPy is commonly used for array operations.
+
+Example:
+```python
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+```
+
+### Strings
+Strings are sequences of characters used for storing textual information.
+
+Example:
+```python
+text = "Quantum Mechanics"
+print(text[0])  # Output: Q
+print(text[0:7])  # Output: Quantum
+```
+
+### Integer and Floating Point Arithmetic
+Python supports various arithmetic operations for integer and floating-point numbers.
+
+Example:
+```python
+a = 5  # Integer
+b = 3.14  # Floating point
+c = a + b
+print(c)  # Output: 8.14
+```
+
+### Basic Operations with NumPy
+```python
+import numpy as np
+A = np.array([[1, 2], [3, 4]])
+B = np.array([[5, 6], [7, 8]])
+C = A + B  # Matrix Addition
+D = A @ B  # Matrix Multiplication
+print(C)
+print(D)
+```
+
+## Applications in Physics
+- **Solving Equations**: SymPy library for symbolic computation.
+- **Simulating Physical Systems**: SciPy and NumPy for numerical simulations.
+- **Data Visualization**: Matplotlib for plotting graphs of experimental data.
+
+Example (Plotting a function):
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+plt.plot(x, y)
+plt.xlabel("Time")
+plt.ylabel("Amplitude")
+plt.title("Sine Wave")
+plt.show()
+```
+
+## Summary
+- Python is a versatile language for computational physics.
+- Arrays, strings, and arithmetic operations are fundamental for scientific computing.
+- Libraries like NumPy, SciPy, and Matplotlib enhance Python’s functionality in physics research and data analysis.
+

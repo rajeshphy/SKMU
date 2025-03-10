@@ -1,4 +1,227 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-02-18T11:11:59+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">The Concept of Isospin</title><link href="http://localhost:4000/SKMU/lecture/2025/02/18/Isospin.html" rel="alternate" type="text/html" title="The Concept of Isospin" /><published>2025-02-18T04:47:26+05:30</published><updated>2025-02-18T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/02/18/Isospin</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/02/18/Isospin.html">&lt;p&gt;Isospin is a quantum number that describes the symmetry between particles with similar properties but different electric charges. It was first proposed by Werner Heisenberg in 1932 to explain the near-degeneracy of protons and neutrons. These particles, collectively called nucleons, were found to behave similarly under the strong nuclear force, suggesting an underlying symmetry.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-02-28T11:21:47+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Basic Electronics: Boolean Algebra</title><link href="http://localhost:4000/SKMU/lecture/2025/02/28/Elective-Electronics.html" rel="alternate" type="text/html" title="Basic Electronics: Boolean Algebra" /><published>2025-02-28T08:47:26+05:30</published><updated>2025-02-28T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/02/28/Elective-Electronics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/02/28/Elective-Electronics.html">&lt;p&gt;Boolean algebra is a mathematical structure used to perform operations on binary variables (0s and 1s). It is fundamental in digital logic design and computer science.&lt;/p&gt;
+
+&lt;h2 id=&quot;basic-boolean-operations&quot;&gt;Basic Boolean Operations&lt;/h2&gt;
+&lt;p&gt;Boolean algebra consists of three primary operations:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;AND Operation (⋅)&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Symbol: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A ⋅ B&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A AND B&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Truth Table:&lt;/p&gt;
+
+        &lt;table&gt;
+          &lt;thead&gt;
+            &lt;tr&gt;
+              &lt;th&gt;A&lt;/th&gt;
+              &lt;th&gt;B&lt;/th&gt;
+              &lt;th&gt;A ⋅ B&lt;/th&gt;
+            &lt;/tr&gt;
+          &lt;/thead&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;0&lt;/td&gt;
+              &lt;td&gt;0&lt;/td&gt;
+              &lt;td&gt;0&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;0&lt;/td&gt;
+              &lt;td&gt;1&lt;/td&gt;
+              &lt;td&gt;0&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;1&lt;/td&gt;
+              &lt;td&gt;0&lt;/td&gt;
+              &lt;td&gt;0&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;1&lt;/td&gt;
+              &lt;td&gt;1&lt;/td&gt;
+              &lt;td&gt;1&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;OR Operation (+)&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Symbol: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A + B&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A OR B&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Truth Table:&lt;/p&gt;
+
+        &lt;table&gt;
+          &lt;thead&gt;
+            &lt;tr&gt;
+              &lt;th&gt;A&lt;/th&gt;
+              &lt;th&gt;B&lt;/th&gt;
+              &lt;th&gt;A + B&lt;/th&gt;
+            &lt;/tr&gt;
+          &lt;/thead&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;0&lt;/td&gt;
+              &lt;td&gt;0&lt;/td&gt;
+              &lt;td&gt;0&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;0&lt;/td&gt;
+              &lt;td&gt;1&lt;/td&gt;
+              &lt;td&gt;1&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;1&lt;/td&gt;
+              &lt;td&gt;0&lt;/td&gt;
+              &lt;td&gt;1&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;1&lt;/td&gt;
+              &lt;td&gt;1&lt;/td&gt;
+              &lt;td&gt;1&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;NOT Operation (¯)&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Symbol: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ā&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOT A&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Truth Table:&lt;/p&gt;
+
+        &lt;table&gt;
+          &lt;thead&gt;
+            &lt;tr&gt;
+              &lt;th&gt;A&lt;/th&gt;
+              &lt;th&gt;Ā&lt;/th&gt;
+            &lt;/tr&gt;
+          &lt;/thead&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;0&lt;/td&gt;
+              &lt;td&gt;1&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;1&lt;/td&gt;
+              &lt;td&gt;0&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;boolean-identities&quot;&gt;Boolean Identities&lt;/h2&gt;
+&lt;p&gt;Boolean algebra follows several important identities:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Identity Laws:&lt;/strong&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A + 0 = A&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A ⋅ 1 = A&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Null Laws:&lt;/strong&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A + 1 = 1&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A ⋅ 0 = 0&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Idempotent Laws:&lt;/strong&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A + A = A&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A ⋅ A = A&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Complement Laws:&lt;/strong&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A + Ā = 1&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A ⋅ Ā = 0&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Distributive Laws:&lt;/strong&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A ⋅ (B + C) = A ⋅ B + A ⋅ C&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Absorption Laws:&lt;/strong&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A + (A ⋅ B) = A&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A ⋅ (A + B) = A&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;conversion-of-decimal-numbers-into-binary-numbers&quot;&gt;Conversion of Decimal Numbers into Binary Numbers&lt;/h1&gt;
+
+&lt;p&gt;Converting a decimal number to binary involves dividing the number by 2 repeatedly and recording the remainders.&lt;/p&gt;
+
+&lt;h3 id=&quot;steps-to-convert-decimal-to-binary&quot;&gt;Steps to Convert Decimal to Binary:&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Divide&lt;/strong&gt; the decimal number by 2.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Record&lt;/strong&gt; the remainder (0 or 1).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Repeat&lt;/strong&gt; the process with the quotient.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reverse&lt;/strong&gt; the sequence of remainders to obtain the binary number.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;example-1-convert-13-to-binary&quot;&gt;Example 1: Convert 13 to Binary&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;13 ÷ 2 = 6, remainder &lt;strong&gt;1&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;6 ÷ 2 = 3, remainder &lt;strong&gt;0&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;3 ÷ 2 = 1, remainder &lt;strong&gt;1&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;1 ÷ 2 = 0, remainder &lt;strong&gt;1&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Read from bottom to top: &lt;strong&gt;1101&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;example-2-convert-25-to-binary&quot;&gt;Example 2: Convert 25 to Binary&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;25 ÷ 2 = 12, remainder &lt;strong&gt;1&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;12 ÷ 2 = 6, remainder &lt;strong&gt;0&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;6 ÷ 2 = 3, remainder &lt;strong&gt;0&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;3 ÷ 2 = 1, remainder &lt;strong&gt;1&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;1 ÷ 2 = 0, remainder &lt;strong&gt;1&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Read from bottom to top: &lt;strong&gt;11001&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;shortcut-binary-of-small-decimal-numbers&quot;&gt;Shortcut: Binary of Small Decimal Numbers&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Decimal&lt;/th&gt;
+      &lt;th&gt;Binary&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;100&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;101&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;110&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;111&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;1000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;1001&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;1010&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;These concepts are essential for understanding digital logic design and computer arithmetic.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">Boolean algebra is a mathematical structure used to perform operations on binary variables (0s and 1s). It is fundamental in digital logic design and computer science.</summary></entry><entry><title type="html">The Concept of Isospin</title><link href="http://localhost:4000/SKMU/lecture/2025/02/18/Isospin.html" rel="alternate" type="text/html" title="The Concept of Isospin" /><published>2025-02-18T04:47:26+05:30</published><updated>2025-02-18T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/02/18/Isospin</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/02/18/Isospin.html">&lt;p&gt;Isospin is a quantum number that describes the symmetry between particles with similar properties but different electric charges. It was first proposed by Werner Heisenberg in 1932 to explain the near-degeneracy of protons and neutrons. These particles, collectively called nucleons, were found to behave similarly under the strong nuclear force, suggesting an underlying symmetry.&lt;/p&gt;
 
 &lt;p&gt;Isospin is represented by two quantum numbers:&lt;/p&gt;
 &lt;ul&gt;
@@ -1459,197 +1682,4 @@ strangeness states that&lt;/p&gt;
 
 &lt;p&gt;The table below lists the known leptons and Hadrons along with their properties.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/SKMU/assets/pdf/particle_classification.png&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">Japanese physicist Hideki Yukawa proposed in 1935 that the nuclear force is mediated by a new particle, a meson, whose exchange between nucleons causes the force. He predicted its mass to be about 200 times that of an electron, earning him a Nobel Prize in 1949. Because the new particle would have a mass between that of the electron and that of the proton, it was called a meson (from the Greek meso, “middle”)</summary></entry><entry><title type="html">Particle Physics Introduction</title><link href="http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics.html" rel="alternate" type="text/html" title="Particle Physics Introduction" /><published>2024-11-13T04:47:26+05:30</published><updated>2024-11-13T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/11/13/Particle-Physics.html">&lt;style&gt;
-  .mermaid:nth-of-type(1) {
-      /* background-color: #A3C1DA; Light blue for the first div */
-      padding: 10px;
-      border-radius: 8px;
-  }
-  .mermaid:nth-of-type(2) {
-      background-color: #E1B0B0; /* Light red for the second div */
-      padding: 10px;
-      border-radius: 8px;
-  }
-  .mermaid:nth-of-type(3) {
-      /* background-color: #A9D3AB; Light green for the third div */
-      padding: 10px;
-      border-radius: 8px;
-  }
-  .mermaid:nth-of-type(4) {
-      background-color: #E7C29E; /* Light orange for the fourth div */
-      padding: 10px;
-      border-radius: 8px;
-  }
-&lt;/style&gt;
-
-&lt;!-- &lt;img src=&quot;/SKMU/assets/img/LASER/rate.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot;&gt; --&gt;
-
-&lt;div class=&quot;mermaid&quot;&gt;
-graph TD
-   A[1932: Constitents of Matter]
-   B(* Electrons, Protons and Neutrons)
-   C[1940: Experimental discovery of New Particles]
-   D(* High-energy collisions between known Particles)
-   E(* Characteristics: Very unstable, short-lived ranging from $10^{-6}$s to $10^{-23}$s)
-   F(* More that 300 particles discovered)
-   G[1960: Bwildered by large number of particles]
-   H(* Need for a new theory)
-   I(* Periodic Table can be explained by 3 particles: Protons, Neutrons and Electrons)
-   J(*  Is there a means of forming more than 300 subatomic particles from a small number of basic building blocks?)
-   
-
-
-
-   A --&amp;gt; B; B --&amp;gt; C; C --&amp;gt; D; D --&amp;gt; E; E --&amp;gt; F; F --&amp;gt; G; G --&amp;gt; H; H --&amp;gt; I; I --&amp;gt; J;
-   style A fill:#fff,stroke:#f00,stroke-width:2px,color:#f00;
-   style C fill:#fff,stroke:#f00,stroke-width:2px,color:#f00;
-   style G fill:#fff,stroke:#f00,stroke-width:2px,color:#f00;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;div class=&quot;mermaid&quot;&gt;
-graph TD
-
-A[Fundamental Forces of Nature]
-B(* Nuclear Force: Range $10^{-15}m$&lt;br /&gt; * Electromagnetic Force: Strength $10^{-2}$ times&lt;br /&gt; * Weak Nuclear Force: Strength $10^{-5}$ times&lt;br /&gt; * Gravitational Force: Strength $10^{-39}$ times)
-
-C[In Modern Physics Interactions are mediated by Exchange Particles/Field Particles]
-
-
-A--&amp;gt;B--&amp;gt;C
-
-&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;h3 id=&quot;forces-in-the-nucleus&quot;&gt;Forces in the nucleus&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Strong Nuclear Force&lt;/strong&gt;:
-    &lt;ul&gt;
-      &lt;li&gt;This force binds protons to protons, protons to neutrons, and neutrons to neutrons, maintaining the integrity of the nucleus.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Weak Nuclear Force&lt;/strong&gt;:
-    &lt;ul&gt;
-      &lt;li&gt;Responsible for &lt;strong&gt;beta decay&lt;/strong&gt;, where a neutron transforms into a proton, emitting an electron and a neutrino.&lt;/li&gt;
-      &lt;li&gt;The weak force is weaker than the strong force, which is why beta decay is common but requires much less energy than breaking the strong force to split the nucleus.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;!-- 
-
-## Isospin Quantum Number
-
-- **Isospin (Isotopic Spin)**: 
-   - Proposed by **Heisenberg (1932)**, protons and neutrons are versions of the same particle distinguished by their isospin.
-   - Protons have &quot;clockwise&quot; isospin, and neutrons have &quot;anticlockwise&quot; isospin.
-   - The strong nuclear force acts identically on both protons and neutrons, exhibiting **isospin symmetry**.
-   - In contrast, the weak force does not respect this symmetry.
-
-- **Strangeness**:
-   - Isospin was later proven to be a real property, especially after the discovery of **strangeness** in the 1950s.
-
----
-
-## Hideki Yukawa and Early Quantum Field Theory
-
-- **Yukawa&apos;s Theory (1935)**:
-   - The strong and weak forces must operate at short distances (smaller than the diameter of the atomic nucleus).
-   - He proposed that these forces are mediated by **mesons**, which are particles with mass (unlike photons, which mediate electromagnetic force).
-
-- **Meson Discovery**:
-   - **Yukawa&apos;s prediction**: Mesons would have a mass 200 times greater than that of an electron.
-   - **Anderson (1936)**: Discovered a new particle in cosmic radiation, later identified as not being Yukawa&apos;s meson, but an **electron-like particle** (muon).
-   - **Lattes (1947)**: Confirmed Yukawa&apos;s heavier meson, renamed **pi-meson** or **pion**, and showed that it decays into lighter particles (muons).
-
-- **Pion and Muon**:
-   - **Pion**: A meson composed of smaller particles.
-   - **Muon**: An elementary particle similar to the electron but more massive, no longer considered a type of meson.
-
----
-
-## Strangeness Quantum Number
-
-- **K-meson or Kaon (1947)**: Discovered by **Rochester and Butler**. It decays slowly, leading to the idea that the strong nuclear force is involved in slowing the decay process.
-
-- **Strangeness**:
-   - In 1953, **Nishijima** and **Gell-Mann** proposed that strange particles (like the Kaon) possess an intrinsic property called **strangeness**, which was assigned a quantum number $ S $.
-
-- **Strangeness and Quarks**:
-   - All mesons, including strange particles, are composed of **quarks**, confirming the deeper structure of matter.
-
---- --&gt;
-
-&lt;!-- &lt;!-- ## Flowchart Summary --&gt;
-
-&lt;h1 id=&quot;yukawas-meson-hypothesis&quot;&gt;Yukawa’s Meson Hypothesis&lt;/h1&gt;
-
-&lt;p&gt;In 1935, Hideki Yukawa proposed the existence of a new particle to mediate the strong nuclear force, similar to how photons mediate the electromagnetic force. This particle, later identified as the pion (π-meson), would account for the short-range nature of the nuclear force binding protons and neutrons in the atomic nucleus. Yukawa’s hypothesis revolutionized our understanding of nuclear interactions and provided a foundational step in particle physics.&lt;/p&gt;
-
-&lt;h2 id=&quot;heisenberg-uncertainty-principle-and-particle-mass-estimation&quot;&gt;Heisenberg Uncertainty Principle and Particle Mass Estimation&lt;/h2&gt;
-
-&lt;p&gt;Yukawa’s approach involved utilizing the &lt;strong&gt;Heisenberg Uncertainty Principle&lt;/strong&gt;, which states:&lt;/p&gt;
-
-&lt;p&gt;$
-\Delta E \cdot \Delta t \approx \hbar
-$&lt;/p&gt;
-
-&lt;p&gt;where $\Delta E$ is the energy uncertainty, $\Delta t$ is the time interval over which this uncertainty applies, and $\hbar$ is the reduced Planck’s constant. The energy-time uncertainty relationship suggests that a particle can temporarily “borrow” energy $\Delta E$ for a brief period $\Delta t$, creating a “virtual particle” that mediates interactions over short distances.&lt;/p&gt;
-
-&lt;p&gt;For a particle moving at nearly the speed of light, the time $\Delta t$ can be estimated based on the range of the strong nuclear force, roughly 1 fermi ($1 \ \text{fm} = 10^{-15} \ \text{m}$).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;problem-statement&quot;&gt;Problem Statement&lt;/h2&gt;
-&lt;p&gt;Given the range of the strong nuclear force as approximately 1 fermi ($10^{-15} \ \text{m}$), calculate the approximate mass of the pion assuming it moves at nearly the speed of light.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;Using the steps outlined below, calculate $\Delta t$, then find $\Delta E$ using the uncertainty principle, and finally convert this energy into the mass of the pion.&lt;/p&gt;
-
-&lt;h5 id=&quot;calculation-of-the-pion-mass&quot;&gt;Calculation of the Pion Mass&lt;/h5&gt;
-
-&lt;p&gt;To estimate the mass of the pion that carries the strong nuclear force, we can use the uncertainty principle and consider the approximate range of nuclear forces:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Step 1: Determine $\Delta t$&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;p&gt;Since the pion mediates the strong force over a distance $r \approx 1 \ \text{fm}$, we approximate $\Delta t$ as:&lt;/p&gt;
-
-    &lt;p&gt;$
-\Delta t \approx \frac{r}{c}
-$&lt;/p&gt;
-
-    &lt;p&gt;where $c$ is the speed of light.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Step 2: Calculate $\Delta E$&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;p&gt;By the uncertainty principle, we have:&lt;/p&gt;
-
-    &lt;p&gt;$
-\Delta E \approx \frac{\hbar}{\Delta t} = \frac{\hbar c}{r}
-$&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Step 3: Find the Mass of the Pion&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;p&gt;This energy $\Delta E$ corresponds to the mass of the pion (or meson) using Einstein’s equation $E = mc^2$:&lt;/p&gt;
-
-    &lt;p&gt;$
-m_\pi \approx \frac{\Delta E}{c^2} = \frac{\hbar}{r c}
-$&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Substituting known values ($\hbar c \approx 197 \ \text{MeV fm}$, $r \approx 1 \ \text{fm}$):&lt;/p&gt;
-
-&lt;p&gt;$
-m_\pi \approx \frac{197 \ \text{MeV fm}}{1 \ \text{fm} \cdot c} \approx 197 \ \text{MeV}/c^2
-$&lt;/p&gt;
-
-&lt;p&gt;Thus, Yukawa predicted the mass of the pion to be approximately 200 times the mass of the electron, which aligns with the observed pion mass in nature.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/SKMU/assets/pdf/particle_classification.png&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">Japanese physicist Hideki Yukawa proposed in 1935 that the nuclear force is mediated by a new particle, a meson, whose exchange between nucleons causes the force. He predicted its mass to be about 200 times that of an electron, earning him a Nobel Prize in 1949. Because the new particle would have a mass between that of the electron and that of the proton, it was called a meson (from the Greek meso, “middle”)</summary></entry></feed>
