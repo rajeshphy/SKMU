@@ -1,0 +1,306 @@
+---
+layout: post
+title:  "Python-Data Structures and Arithmetic"
+date:   2025-03-11 08:47:26 +0530
+categories: lecture
+tags: SEM-I
+---
+
+Contents that will be covered here:
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Arrays](#arrays)
+   - [Definition](#definition)
+   - [Creating Arrays](#creating-arrays)
+   - [Accessing Elements](#accessing-elements)
+   - [Modifying Elements](#modifying-elements)
+   - [Common Operations](#common-operations)
+   - [Problems](#array-problems)
+3. [Strings](#strings)
+   - [Definition](#definition-1)
+   - [Creating Strings](#creating-strings)
+   - [Accessing Characters](#accessing-characters)
+   - [String Methods](#string-methods)
+   - [String Formatting](#string-formatting)
+   - [Problems](#string-problems)
+4. [Integer and Floating Point Arithmetic](#integer-and-floating-point-arithmetic)
+   - [Basic Arithmetic Operations](#basic-arithmetic-operations)
+   - [Type Conversion](#type-conversion)
+   - [Precision and Rounding](#precision-and-rounding)
+   - [Mathematical Functions](#mathematical-functions)
+   - [Problems](#arithmetic-problems)
+
+---
+
+## Introduction
+
+Python is a versatile programming language that supports various data structures and arithmetic operations. Understanding these fundamental concepts is crucial for effective programming. This note covers arrays, strings, and integer/floating-point arithmetic in Python, along with problems to solve for practice.
+
+---
+
+## Arrays
+
+### Definition
+
+An array is a collection of items stored at contiguous memory locations. In Python, arrays can be created using the `array` module or more commonly using lists.
+
+### Creating Arrays
+
+```python
+import array as arr
+
+# Creating an array of integers
+int_array = arr.array('i', [1, 2, 3, 4, 5])
+
+# Creating a list (more common in Python)
+list_array = [1, 2, 3, 4, 5]
+```
+
+### Accessing Elements
+
+Elements in an array can be accessed using their index.
+
+```python
+# Accessing the first element
+first_element = int_array[0]  # Output: 1
+
+# Accessing the last element
+last_element = list_array[-1]  # Output: 5
+```
+
+### Modifying Elements
+
+Elements in an array can be modified by assigning a new value to a specific index.
+
+```python
+# Modifying the second element
+int_array[1] = 10  # Array becomes [1, 10, 3, 4, 5]
+```
+
+### Common Operations
+
+- **Length of Array**: `len(int_array)`
+- **Appending Elements**: `int_array.append(6)`
+- **Removing Elements**: `int_array.remove(3)`
+- **Slicing**: `sub_array = list_array[1:4]`
+
+### Problems
+
+#### Problem 1: Find the Sum of All Elements in an Array
+Write a Python program to calculate the sum of all elements in an array.
+
+```python
+# Solution
+arr = [10, 20, 30, 40, 50]
+total = sum(arr)
+print("Sum of array elements:", total)
+```
+
+**Output:**
+```
+Sum of array elements: 150
+```
+
+#### Problem 2: Find the Largest Element in an Array
+Write a Python program to find the largest element in an array.
+
+```python
+# Solution
+arr = [34, 12, 89, 5, 67]
+max_element = max(arr)
+print("Largest element in the array:", max_element)
+```
+
+**Output:**
+```
+Largest element in the array: 89
+```
+
+---
+
+## Strings
+
+### Definition
+
+A string is a sequence of characters. In Python, strings are immutable, meaning they cannot be changed after they are created.
+
+### Creating Strings
+
+```python
+# Creating a string
+my_string = "Hello, World!"
+```
+
+### Accessing Characters
+
+Characters in a string can be accessed using their index.
+
+```python
+# Accessing the first character
+first_char = my_string[0]  # Output: 'H'
+
+# Accessing the last character
+last_char = my_string[-1]  # Output: '!'
+```
+
+### String Methods
+
+Python provides numerous built-in methods to manipulate strings.
+
+- **Lowercase**: `my_string.lower()`
+- **Uppercase**: `my_string.upper()`
+- **Replace**: `my_string.replace("World", "Python")`
+- **Split**: `my_string.split(",")`
+- **Strip**: `my_string.strip()`
+
+### String Formatting
+
+String formatting allows you to create dynamic strings.
+
+```python
+# Using f-strings (Python 3.6+)
+name = "Alice"
+greeting = f"Hello, {name}!"
+
+# Using format() method
+greeting = "Hello, {}!".format(name)
+```
+
+### Problems
+
+#### Problem 1: Reverse a String
+Write a Python program to reverse a string.
+
+```python
+# Solution
+my_string = "Python"
+reversed_string = my_string[::-1]
+print("Reversed string:", reversed_string)
+```
+
+**Output:**
+```
+Reversed string: nohtyP
+```
+
+#### Problem 2: Count the Number of Vowels in a String
+Write a Python program to count the number of vowels in a string.
+
+```python
+# Solution
+my_string = "Hello, World!"
+vowels = "aeiouAEIOU"
+count = sum(1 for char in my_string if char in vowels)
+print("Number of vowels:", count)
+```
+
+**Output:**
+```
+Number of vowels: 3
+```
+
+---
+
+## Integer and Floating Point Arithmetic
+
+### Basic Arithmetic Operations
+
+Python supports basic arithmetic operations like addition, subtraction, multiplication, and division.
+
+```python
+# Addition
+sum_result = 5 + 3  # Output: 8
+
+# Subtraction
+diff_result = 5 - 3  # Output: 2
+
+# Multiplication
+prod_result = 5 * 3  # Output: 15
+
+# Division
+div_result = 5 / 3  # Output: 1.6666666666666667
+
+# Integer Division
+int_div_result = 5 // 3  # Output: 1
+
+# Modulus
+mod_result = 5 % 3  # Output: 2
+
+# Exponentiation
+exp_result = 5 ** 3  # Output: 125
+```
+
+### Type Conversion
+
+You can convert between integers and floats using type conversion.
+
+```python
+# Integer to Float
+float_num = float(5)  # Output: 5.0
+
+# Float to Integer
+int_num = int(5.7)  # Output: 5
+```
+
+### Precision and Rounding
+
+Floating-point numbers can be rounded to a specified number of decimal places.
+
+```python
+# Rounding to 2 decimal places
+rounded_num = round(5.6789, 2)  # Output: 5.68
+```
+
+### Mathematical Functions
+
+Python's `math` module provides various mathematical functions.
+
+```python
+import math
+
+# Square root
+sqrt_result = math.sqrt(16)  # Output: 4.0
+
+# Power
+pow_result = math.pow(2, 3)  # Output: 8.0
+
+# Logarithm
+log_result = math.log(100, 10)  # Output: 2.0
+
+# Trigonometric functions
+sin_result = math.sin(math.pi / 2)  # Output: 1.0
+```
+
+### Problems
+
+#### Problem 1: Calculate the Area of a Circle
+Write a Python program to calculate the area of a circle given its radius.
+
+```python
+# Solution
+import math
+radius = 5
+area = math.pi * (radius ** 2)
+print("Area of the circle:", round(area, 2))
+```
+
+**Output:**
+```
+Area of the circle: 78.54
+```
+
+#### Problem 2: Convert Temperature from Celsius to Fahrenheit
+Write a Python program to convert a temperature from Celsius to Fahrenheit.
+
+```python
+# Solution
+celsius = 25
+fahrenheit = (celsius * 9/5) + 32
+print("Temperature in Fahrenheit:", fahrenheit)
+```
+
+**Output:**
+```
+Temperature in Fahrenheit: 77.0
+```
