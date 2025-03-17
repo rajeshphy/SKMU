@@ -1,513 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-03-11T09:47:56+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Python-Data Structures and Arithmetic</title><link href="http://localhost:4000/SKMU/lecture/2025/03/11/python-II.html" rel="alternate" type="text/html" title="Python-Data Structures and Arithmetic" /><published>2025-03-11T08:47:26+05:30</published><updated>2025-03-11T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/11/python-II</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/11/python-II.html">&lt;p&gt;Contents that will be covered here:&lt;/p&gt;
-
-&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#arrays&quot;&gt;Arrays&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#definition&quot;&gt;Definition&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#creating-arrays&quot;&gt;Creating Arrays&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#accessing-elements&quot;&gt;Accessing Elements&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#modifying-elements&quot;&gt;Modifying Elements&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#common-operations&quot;&gt;Common Operations&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#array-problems&quot;&gt;Problems&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#strings&quot;&gt;Strings&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#definition-1&quot;&gt;Definition&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#creating-strings&quot;&gt;Creating Strings&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#accessing-characters&quot;&gt;Accessing Characters&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#string-methods&quot;&gt;String Methods&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#string-formatting&quot;&gt;String Formatting&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#string-problems&quot;&gt;Problems&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#integer-and-floating-point-arithmetic&quot;&gt;Integer and Floating Point Arithmetic&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#basic-arithmetic-operations&quot;&gt;Basic Arithmetic Operations&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#type-conversion&quot;&gt;Type Conversion&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#precision-and-rounding&quot;&gt;Precision and Rounding&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#mathematical-functions&quot;&gt;Mathematical Functions&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#arithmetic-problems&quot;&gt;Problems&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;Python is a versatile programming language that supports various data structures and arithmetic operations. Understanding these fundamental concepts is crucial for effective programming. This note covers arrays, strings, and integer/floating-point arithmetic in Python, along with problems to solve for practice.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;arrays&quot;&gt;Arrays&lt;/h2&gt;
-
-&lt;h3 id=&quot;definition&quot;&gt;Definition&lt;/h3&gt;
-
-&lt;p&gt;An array is a collection of items stored at contiguous memory locations. In Python, arrays can be created using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;array&lt;/code&gt; module or more commonly using lists.&lt;/p&gt;
-
-&lt;h3 id=&quot;creating-arrays&quot;&gt;Creating Arrays&lt;/h3&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# Creating an array of integers
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;int_array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;i&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# Creating a list (more common in Python)
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;list_array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;accessing-elements&quot;&gt;Accessing Elements&lt;/h3&gt;
-
-&lt;p&gt;Elements in an array can be accessed using their index.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Accessing the first element
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;first_element&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;int_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 1
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Accessing the last element
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;last_element&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;modifying-elements&quot;&gt;Modifying Elements&lt;/h3&gt;
-
-&lt;p&gt;Elements in an array can be modified by assigning a new value to a specific index.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Modifying the second element
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;int_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Array becomes [1, 10, 3, 4, 5]
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;common-operations&quot;&gt;Common Operations&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Length of Array&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;len(int_array)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Appending Elements&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;int_array.append(6)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Removing Elements&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;int_array.remove(3)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Slicing&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sub_array = list_array[1:4]&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;problems&quot;&gt;Problems&lt;/h3&gt;
-
-&lt;h4 id=&quot;problem-1-find-the-sum-of-all-elements-in-an-array&quot;&gt;Problem 1: Find the Sum of All Elements in an Array&lt;/h4&gt;
-&lt;p&gt;Write a Python program to calculate the sum of all elements in an array.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Solution
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;total&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Sum of array elements:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;total&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Sum of array elements: 150
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;problem-2-find-the-largest-element-in-an-array&quot;&gt;Problem 2: Find the Largest Element in an Array&lt;/h4&gt;
-&lt;p&gt;Write a Python program to find the largest element in an array.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Solution
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;34&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;89&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;67&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;max_element&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Largest element in the array:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;max_element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Largest element in the array: 89
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;strings&quot;&gt;Strings&lt;/h2&gt;
-
-&lt;h3 id=&quot;definition-1&quot;&gt;Definition&lt;/h3&gt;
-
-&lt;p&gt;A string is a sequence of characters. In Python, strings are immutable, meaning they cannot be changed after they are created.&lt;/p&gt;
-
-&lt;h3 id=&quot;creating-strings&quot;&gt;Creating Strings&lt;/h3&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Creating a string
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;my_string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;accessing-characters&quot;&gt;Accessing Characters&lt;/h3&gt;
-
-&lt;p&gt;Characters in a string can be accessed using their index.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Accessing the first character
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;first_char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: &apos;H&apos;
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Accessing the last character
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;last_char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: &apos;!&apos;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;string-methods&quot;&gt;String Methods&lt;/h3&gt;
-
-&lt;p&gt;Python provides numerous built-in methods to manipulate strings.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Lowercase&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;my_string.lower()&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Uppercase&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;my_string.upper()&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Replace&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;my_string.replace(&quot;World&quot;, &quot;Python&quot;)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Split&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;my_string.split(&quot;,&quot;)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Strip&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;my_string.strip()&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;string-formatting&quot;&gt;String Formatting&lt;/h3&gt;
-
-&lt;p&gt;String formatting allows you to create dynamic strings.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Using f-strings (Python 3.6+)
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Alice&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;greeting&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;f&quot;Hello, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;!&quot;&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# Using format() method
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;greeting&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello, {}!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;problems-1&quot;&gt;Problems&lt;/h3&gt;
-
-&lt;h4 id=&quot;problem-1-reverse-a-string&quot;&gt;Problem 1: Reverse a String&lt;/h4&gt;
-&lt;p&gt;Write a Python program to reverse a string.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Solution
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;my_string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Python&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;reversed_string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[::&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Reversed string:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reversed_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Reversed string: nohtyP
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;problem-2-count-the-number-of-vowels-in-a-string&quot;&gt;Problem 2: Count the Number of Vowels in a String&lt;/h4&gt;
-&lt;p&gt;Write a Python program to count the number of vowels in a string.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Solution
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;my_string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;vowels&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;aeiouAEIOU&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my_string&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vowels&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Number of vowels:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Number of vowels: 3
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;integer-and-floating-point-arithmetic&quot;&gt;Integer and Floating Point Arithmetic&lt;/h2&gt;
-
-&lt;h3 id=&quot;basic-arithmetic-operations&quot;&gt;Basic Arithmetic Operations&lt;/h3&gt;
-
-&lt;p&gt;Python supports basic arithmetic operations like addition, subtraction, multiplication, and division.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Addition
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sum_result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 8
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Subtraction
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;diff_result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 2
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Multiplication
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prod_result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 15
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Division
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;div_result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 1.6666666666666667
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Integer Division
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;int_div_result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 1
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Modulus
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mod_result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 2
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Exponentiation
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exp_result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 125
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;type-conversion&quot;&gt;Type Conversion&lt;/h3&gt;
-
-&lt;p&gt;You can convert between integers and floats using type conversion.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Integer to Float
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;float_num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 5.0
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Float to Integer
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;int_num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;5.7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;precision-and-rounding&quot;&gt;Precision and Rounding&lt;/h3&gt;
-
-&lt;p&gt;Floating-point numbers can be rounded to a specified number of decimal places.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Rounding to 2 decimal places
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rounded_num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;5.6789&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 5.68
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;mathematical-functions&quot;&gt;Mathematical Functions&lt;/h3&gt;
-
-&lt;p&gt;Python’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;math&lt;/code&gt; module provides various mathematical functions.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# Square root
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sqrt_result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 4.0
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Power
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pow_result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;pow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 8.0
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Logarithm
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log_result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 2.0
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Trigonometric functions
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sin_result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 1.0
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;problems-2&quot;&gt;Problems&lt;/h3&gt;
-
-&lt;h4 id=&quot;problem-1-calculate-the-area-of-a-circle&quot;&gt;Problem 1: Calculate the Area of a Circle&lt;/h4&gt;
-&lt;p&gt;Write a Python program to calculate the area of a circle given its radius.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Solution
-&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;math&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;radius&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;area&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;radius&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Area of the circle:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;area&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Area of the circle: 78.54
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;problem-2-convert-temperature-from-celsius-to-fahrenheit&quot;&gt;Problem 2: Convert Temperature from Celsius to Fahrenheit&lt;/h4&gt;
-&lt;p&gt;Write a Python program to convert a temperature from Celsius to Fahrenheit.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Solution
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;celsius&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;fahrenheit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;celsius&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Temperature in Fahrenheit:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fahrenheit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Temperature in Fahrenheit: 77.0
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Contents that will be covered here:</summary></entry><entry><title type="html">Python-Object Oriented Programming Language</title><link href="http://localhost:4000/SKMU/lecture/2025/03/11/python-I.html" rel="alternate" type="text/html" title="Python-Object Oriented Programming Language" /><published>2025-03-11T06:47:26+05:30</published><updated>2025-03-11T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/11/python-I</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/11/python-I.html">&lt;p&gt;Following topics will be covered here:&lt;/p&gt;
-
-&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#introduction-to-object-oriented-programming&quot;&gt;Introduction to Object-Oriented Programming&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#key-concepts-of-oop&quot;&gt;Key Concepts of OOP&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#classes-and-objects&quot;&gt;Classes and Objects&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#attributes-and-methods&quot;&gt;Attributes and Methods&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#encapsulation&quot;&gt;Encapsulation&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#inheritance&quot;&gt;Inheritance&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#polymorphism&quot;&gt;Polymorphism&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#basic-syntax-for-oop-in-python&quot;&gt;Basic Syntax for OOP in Python&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#defining-a-class&quot;&gt;Defining a Class&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#creating-objects&quot;&gt;Creating Objects&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#adding-attributes-and-methods&quot;&gt;Adding Attributes and Methods&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#constructor-method&quot;&gt;Constructor Method (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;__init__&lt;/code&gt;)&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#inheritance-in-python&quot;&gt;Inheritance in Python&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#polymorphism-in-python&quot;&gt;Polymorphism in Python&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#writing-your-first-oop-program&quot;&gt;Writing Your First OOP Program&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;introduction-to-object-oriented-programming&quot;&gt;Introduction to Object-Oriented Programming&lt;/h2&gt;
-
-&lt;p&gt;Object-Oriented Programming (OOP) is a programming paradigm that organizes software design around &lt;strong&gt;objects&lt;/strong&gt; rather than functions and logic. An object is a self-contained unit that consists of:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Attributes (Data)&lt;/strong&gt;: Properties or characteristics of the object.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Methods (Functions)&lt;/strong&gt;: Actions or behaviors the object can perform.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;OOP is based on four key principles:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Encapsulation&lt;/strong&gt;: Bundling data and methods that operate on the data within a single unit (class).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Inheritance&lt;/strong&gt;: Creating new classes (child classes) from existing ones (parent classes) to reuse code.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Polymorphism&lt;/strong&gt;: Allowing objects of different classes to be treated as objects of a common superclass.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Abstraction&lt;/strong&gt;: Hiding complex implementation details and exposing only essential features.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Python is an object-oriented language, meaning it supports OOP principles natively.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;key-concepts-of-oop&quot;&gt;Key Concepts of OOP&lt;/h2&gt;
-
-&lt;h3 id=&quot;classes-and-objects&quot;&gt;Classes and Objects&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;A &lt;strong&gt;class&lt;/strong&gt; is a blueprint for creating objects. It defines the structure and behavior of objects.&lt;/li&gt;
-  &lt;li&gt;An &lt;strong&gt;object&lt;/strong&gt; is an instance of a class. It represents a specific entity based on the class definition.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Example:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Class: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Car&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Objects: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;car1&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;car2&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;car3&lt;/code&gt; (each representing a specific car).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;attributes-and-methods&quot;&gt;Attributes and Methods&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Attributes&lt;/strong&gt;: Variables that belong to an object (e.g., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;color&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;model&lt;/code&gt; for a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Car&lt;/code&gt; object).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Methods&lt;/strong&gt;: Functions that belong to an object (e.g., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;start_engine()&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stop_engine()&lt;/code&gt; for a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Car&lt;/code&gt; object).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;encapsulation&quot;&gt;Encapsulation&lt;/h3&gt;
-&lt;p&gt;Encapsulation ensures that an object’s internal state is hidden from the outside world. This is achieved using &lt;strong&gt;access modifiers&lt;/strong&gt; like:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Public&lt;/strong&gt;: Accessible from anywhere.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Private&lt;/strong&gt;: Accessible only within the class (denoted by a double underscore &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;__&lt;/code&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;inheritance&quot;&gt;Inheritance&lt;/h3&gt;
-&lt;p&gt;Inheritance allows a class (child class) to inherit attributes and methods from another class (parent class). This promotes code reuse and modularity.&lt;/p&gt;
-
-&lt;h3 id=&quot;polymorphism&quot;&gt;Polymorphism&lt;/h3&gt;
-&lt;p&gt;Polymorphism allows objects of different classes to be treated as objects of a common superclass. For example, a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Dog&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Cat&lt;/code&gt; class can both inherit from an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Animal&lt;/code&gt; class and override a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;speak()&lt;/code&gt; method.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;basic-syntax-for-oop-in-python&quot;&gt;Basic Syntax for OOP in Python&lt;/h2&gt;
-
-&lt;h3 id=&quot;defining-a-class&quot;&gt;Defining a Class&lt;/h3&gt;
-&lt;p&gt;Use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt; keyword to define a class.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Car&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Empty class
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;creating-objects&quot;&gt;Creating Objects&lt;/h3&gt;
-&lt;p&gt;Objects are created by calling the class as if it were a function.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;car1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Car&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Create an object of the Car class
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;car2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Car&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Create another object
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;adding-attributes-and-methods&quot;&gt;Adding Attributes and Methods&lt;/h3&gt;
-&lt;p&gt;Attributes and methods are defined inside the class.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Car&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# Attribute
-&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;red&quot;&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;# Method
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;start_engine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Engine started!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;self&lt;/code&gt; refers to the current object and is used to access its attributes and methods.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Example:&lt;/p&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;car1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Car&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;car1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: red
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;car1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start_engine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: Engine started!
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;constructor-method-__init__&quot;&gt;Constructor Method (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;__init__&lt;/code&gt;)&lt;/h3&gt;
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;__init__&lt;/code&gt; method is a special method called when an object is created. It is used to initialize attributes.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Car&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;color&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;start_engine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;f&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;s engine started!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Example:&lt;/p&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;car1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Car&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;blue&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Tesla Model S&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;car1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: blue
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;car1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start_engine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: Tesla Model S&apos;s engine started!
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;inheritance-in-python&quot;&gt;Inheritance in Python&lt;/h3&gt;
-&lt;p&gt;Use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class ChildClass(ParentClass)&lt;/code&gt; syntax to create a child class.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Vehicle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;describe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;f&quot;This is a &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Car&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Vehicle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;nb&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Call the parent class constructor
-&lt;/span&gt;        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;start_engine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;f&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;s engine started!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Example:&lt;/p&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;car1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Car&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;car&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Tesla Model S&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;car1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;describe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: This is a car.
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;car1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start_engine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: Tesla Model S&apos;s engine started!
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;polymorphism-in-python&quot;&gt;Polymorphism in Python&lt;/h3&gt;
-&lt;p&gt;Polymorphism allows methods to behave differently based on the object.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;speak&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Abstract method
-&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Dog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;speak&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Woof!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;speak&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Meow!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Example:&lt;/p&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;animals&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Dog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()]&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;animal&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;animals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;animal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;speak&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: Woof! Meow!
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;writing-your-first-oop-program&quot;&gt;Writing Your First OOP Program&lt;/h2&gt;
-
-&lt;p&gt;Let’s create a simple program to model a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BankAccount&lt;/code&gt; class.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BankAccount&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;account_holder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;balance&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;account_holder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;account_holder&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;balance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;balance&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;deposit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;amount&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;balance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;amount&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;f&quot;Deposited $&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;amount&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;. New balance: $&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;balance&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;withdraw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;amount&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;amount&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;balance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Insufficient funds!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;balance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;amount&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;f&quot;Withdrew $&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;amount&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;. New balance: $&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;balance&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;display_balance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;f&quot;Account holder: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;account_holder&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;, Balance: $&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;balance&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Example Usage:&lt;/p&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;account1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;BankAccount&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Alice&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;account1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deposit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: Deposited $500. New balance: $1500
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;account1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;withdraw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: Withdrew $200. New balance: $1300
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;account1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;display_balance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: Account holder: Alice, Balance: $1300
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Following topics will be covered here:</summary></entry><entry><title type="html">Python-Introduction</title><link href="http://localhost:4000/SKMU/lecture/2025/03/10/python.html" rel="alternate" type="text/html" title="Python-Introduction" /><published>2025-03-10T08:47:26+05:30</published><updated>2025-03-10T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/10/python</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/10/python.html">&lt;h1 id=&quot;introduction-to-python-programming&quot;&gt;Introduction to Python Programming&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-03-17T13:49:01+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Python-Introduction</title><link href="http://localhost:4000/SKMU/lecture/2025/03/10/python.html" rel="alternate" type="text/html" title="Python-Introduction" /><published>2025-03-10T08:47:26+05:30</published><updated>2025-03-10T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/10/python</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/10/python.html">&lt;h1 id=&quot;introduction-to-python-programming&quot;&gt;Introduction to Python Programming&lt;/h1&gt;
 
 &lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
 &lt;ol&gt;
@@ -725,7 +216,79 @@
 Enter the second number: 5
 Sum: 15.0
 Product: 50.0
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Introduction to Python Programming</summary></entry><entry><title type="html">Basic Electronics: Boolean Algebra</title><link href="http://localhost:4000/SKMU/lecture/2025/02/28/Elective-Electronics.html" rel="alternate" type="text/html" title="Basic Electronics: Boolean Algebra" /><published>2025-02-28T08:47:26+05:30</published><updated>2025-02-28T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/02/28/Elective-Electronics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/02/28/Elective-Electronics.html">&lt;p&gt;Boolean algebra is a mathematical structure used to perform operations on binary variables (0s and 1s). It is fundamental in digital logic design and computer science.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Introduction to Python Programming</summary></entry><entry><title type="html">Computer Basics</title><link href="http://localhost:4000/SKMU/lecture/2025/03/09/computer-basics.html" rel="alternate" type="text/html" title="Computer Basics" /><published>2025-03-09T08:47:26+05:30</published><updated>2025-03-09T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/09/computer-basics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/09/computer-basics.html">&lt;p&gt;The &lt;strong&gt;Command Prompt&lt;/strong&gt; (cmd.exe) is a command-line interpreter in Windows that allows users to execute commands, run scripts, and perform administrative tasks.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-open-command-prompt&quot;&gt;How to Open Command Prompt&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Using Start Menu&lt;/strong&gt;: Search for “Command Prompt” in the Start menu.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Using Run Dialog&lt;/strong&gt;: Press &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Win + R&lt;/code&gt;, type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cmd&lt;/code&gt;, and press Enter.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Using File Explorer&lt;/strong&gt;: Navigate to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:\Windows\System32\cmd.exe&lt;/code&gt; and double-click.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Using Power User Menu&lt;/strong&gt;: Press &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Win + X&lt;/code&gt; and select “Command Prompt” or “Terminal”.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;basic-commands&quot;&gt;Basic Commands&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-navigation-commands&quot;&gt;1. Navigation Commands&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dir&lt;/code&gt; – Lists files and directories in the current folder.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd &amp;lt;directory&amp;gt;&lt;/code&gt; – Changes the directory.
+    &lt;ul&gt;
+      &lt;li&gt;Example: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd Documents&lt;/code&gt; moves to the Documents folder.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd ..&lt;/code&gt; – Moves up one directory level.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd \&lt;/code&gt; – Moves to the root directory.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-file-and-folder-operations&quot;&gt;2. File and Folder Operations&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mkdir &amp;lt;folder_name&amp;gt;&lt;/code&gt; – Creates a new folder.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rmdir &amp;lt;folder_name&amp;gt;&lt;/code&gt; – Deletes an empty folder.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;del &amp;lt;file_name&amp;gt;&lt;/code&gt; – Deletes a file.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;copy &amp;lt;source&amp;gt; &amp;lt;destination&amp;gt;&lt;/code&gt; – Copies a file.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;move &amp;lt;source&amp;gt; &amp;lt;destination&amp;gt;&lt;/code&gt; – Moves or renames a file.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-system-information-commands&quot;&gt;3. System Information Commands&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;echo %USERNAME%&lt;/code&gt; – Displays the current username.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systeminfo&lt;/code&gt; – Shows system details.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ipconfig&lt;/code&gt; – Displays network configuration.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tasklist&lt;/code&gt; – Lists currently running processes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-network-commands&quot;&gt;4. Network Commands&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ping &amp;lt;website&amp;gt;&lt;/code&gt; – Checks network connectivity.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ipconfig /all&lt;/code&gt; – Shows detailed network configuration.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;netstat&lt;/code&gt; – Displays active network connections.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;5-process-and-task-management&quot;&gt;5. Process and Task Management&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tasklist&lt;/code&gt; – Displays active processes.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;taskkill /IM &amp;lt;process_name&amp;gt; /F&lt;/code&gt; – Forces termination of a process.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;shutdown /s /t 60&lt;/code&gt; – Schedules system shutdown in 60 seconds.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;6-advanced-commands&quot;&gt;6. Advanced Commands&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cls&lt;/code&gt; – Clears the screen.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;echo &amp;lt;message&amp;gt;&lt;/code&gt; – Displays a message.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type &amp;lt;file_name&amp;gt;&lt;/code&gt; – Displays the content of a text file.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;find &quot;text&quot; &amp;lt;file&amp;gt;&lt;/code&gt; – Searches for a string in a file.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;help&lt;/code&gt; – Lists available commands.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;running-batch-files&quot;&gt;Running Batch Files&lt;/h2&gt;
+&lt;p&gt;Batch files (.bat) contain a sequence of commands. To run a batch file:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Open Notepad and enter commands.&lt;/li&gt;
+  &lt;li&gt;Save the file with a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.bat&lt;/code&gt; extension.&lt;/li&gt;
+  &lt;li&gt;Double-click the file to execute it.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The Windows Command Prompt is a powerful tool for managing files, executing scripts, and performing administrative tasks efficiently. Mastering basic commands can greatly enhance productivity and troubleshooting capabilities.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">The Command Prompt (cmd.exe) is a command-line interpreter in Windows that allows users to execute commands, run scripts, and perform administrative tasks.</summary></entry><entry><title type="html">Basic Electronics: Boolean Algebra</title><link href="http://localhost:4000/SKMU/lecture/2025/02/28/Elective-Electronics.html" rel="alternate" type="text/html" title="Basic Electronics: Boolean Algebra" /><published>2025-02-28T08:47:26+05:30</published><updated>2025-02-28T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/02/28/Elective-Electronics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/02/28/Elective-Electronics.html">&lt;p&gt;Boolean algebra is a mathematical structure used to perform operations on binary variables (0s and 1s). It is fundamental in digital logic design and computer science.&lt;/p&gt;
 
 &lt;h2 id=&quot;basic-boolean-operations&quot;&gt;Basic Boolean Operations&lt;/h2&gt;
 &lt;p&gt;Boolean algebra consists of three primary operations:&lt;/p&gt;
@@ -2202,4 +1765,31 @@ graph TD
 &lt;ol&gt;
   &lt;li&gt;Estimate the band gap of the semiconductor in the infrared LED of a typical television remote control.
 &lt;strong&gt;Hint:&lt;/strong&gt; the wavelength of infrared light ranges from 700 nm to 1 mm.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors. Note: Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors. Note: Semiconductors are materials that act as insulators at low temperatures, but as conductors when energy or heat is available.</summary></entry><entry><title type="html">Particle Physics: Quarks</title><link href="http://localhost:4000/SKMU/lecture/2024/12/02/Particle-Quarks.html" rel="alternate" type="text/html" title="Particle Physics: Quarks" /><published>2024-12-02T04:47:26+05:30</published><updated>2024-12-02T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/02/Particle-Quarks</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/02/Particle-Quarks.html">&lt;p&gt;&lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Scientists use patterns in data to understand natural phenomena, such as differences in the specific heat of gases, ionization energy levels, and nuclear binding energy. One of the most significant examples is the periodic table, which explains the behavior of over 100 elements formed from just protons, neutrons, and electrons. Inspired by the periodic table, physicists have sought patterns to classify the hundreds of observed particles. Baryons with spin $\frac{1}{2}$ and spin-zero mesons, for instance, can be grouped based on properties like strangeness $\mathbf{S}$ and charge $\mathbf{Q}$. The Eightfold Way (Gell-Mann named the patterns the Eightfold Way after the Eightfold Path to nirvana in Buddhism), developed by Murray Gell-Mann and Yuval Ne’eman in 1961, is one such classification scheme.&lt;/p&gt;
+
+&lt;p&gt;The figure at the top shows the Eightfold Way classification for baryons on the left and mesons on the right. &lt;strong&gt;Is it possible that a small number of entities exist from which all these particles can be built?&lt;/strong&gt;. The existence of the strangeness–charge patterns of the eightfold way suggests that hadrons have substructure. Furthermore, hundreds of types of hadrons exist and many decay into other hadrons. In 1963, Gell-Mann and George Zweig independently proposed a model for the substructure of hadrons. According to their model, all hadrons are composed of two or three elementary constituents called quarks. The model has three types of quarks, designated by the symbols $u$, $d$, and $s$, that are given the arbitrary names &lt;strong&gt;up&lt;/strong&gt;, &lt;strong&gt;down&lt;/strong&gt;, and &lt;strong&gt;strange&lt;/strong&gt;. The figure below shows the quark compositions for mesons and baryons. The various types of quarks are called &lt;strong&gt;flavors&lt;/strong&gt;.&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Quark-composition.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:30%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;An unusual property of quarks is that they carry a fractional electric charge. The $u$, $d$, and $s$ quarks have charges of $\frac{2}{3}e$, $-\frac{1}{3}e$, and $-\frac{1}{3}e$, respectively, where $e$ is the elementary charge $1.602 × 10^{-19}\; C$. These and other properties of quarks and antiquarks are given in Table below.&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/SKMU/assets/images/Particle-Phy/Quarks-table.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;The compositions of all hadrons known when Gell-Mann and Zweig presented their model can be completely specified by three simple rules:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A meson consists of one quark and one antiquark, giving it a baryon number of 0, as required.&lt;/li&gt;
+  &lt;li&gt;A baryon consists of three quarks.&lt;/li&gt;
+  &lt;li&gt;An antibaryon consists of three antiquarks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;charm-bottom-and-top-quarks&quot;&gt;Charm, Bottom, and Top Quarks&lt;/h3&gt;
+
+&lt;p&gt;The original quark model, which included the up, down, and strange quarks, encountered limitations when explaining certain experimental decay rates and particle properties. This led to the proposal of a fourth quark flavor, &lt;strong&gt;charm ($c$)&lt;/strong&gt;, in 1967. The charmed quark, like the up quark, carries a charge of $+\frac{2}{3}e$ but is distinguished by a quantum number called charm $C$, with the charmed quark having $C = +1$ and its antiquark having $C = -1$. Experimental evidence for the charm quark emerged in 1974 with the discovery of the $\psi$ meson ($c\bar{c}$), a particle significantly more massive and longer-lived than other mesons, leading to the Nobel Prize for Burton Richter and Samuel Ting in 1976.&lt;/p&gt;
+
+&lt;p&gt;In 1977, the discovery of a new heavy meson, the upsilon ($\Upsilon$), at Fermilab confirmed the existence of the &lt;strong&gt;bottom ($b$)&lt;/strong&gt; quark. The bottom quark has a charge of $-\frac{1}{3}e$ and is associated with the quantum number bottomness, analogous to charm. Finally, the &lt;strong&gt;top ($t$)&lt;/strong&gt; quark, the heaviest of all quarks with a mass of approximately $173 \ \text{GeV}/c^2$, was discovered in 1995 at Fermilab. The top quark also carries a charge of $+\frac{2}{3}e$. Together with their antiquarks, these flavors complete the six-quark model.&lt;/p&gt;
+
+&lt;p&gt;These quarks interact via the strong force, mediated by gluons, and are never observed in isolation due to confinement. Instead, they combine to form mesons (quark-antiquark pairs) and baryons (three-quark combinations). Quantum chromodynamics (QCD) describes their interactions, with color charge playing a crucial role in ensuring the stability and properties of hadrons.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Quarks have never been observed in isolation due to their confinement by the strong force, which increases with distance, similar to a stretched spring. Efforts to create a quark–gluon plasma, where quarks are liberated from protons and neutrons, have shown progress. In 2000, CERN reported evidence of such a plasma from lead nucleus collisions.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html"></summary></entry></feed>
