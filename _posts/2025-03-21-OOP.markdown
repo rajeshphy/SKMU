@@ -1,0 +1,178 @@
+---
+layout: post
+title:  "IV. Python: Object-Oriented Programming"
+date:   2025-03-21 07:47:26 +0530
+categories: lecture
+tags: SEM-I
+---
+
+
+Object-Oriented Programming (OOP) is a programming style that organizes code into **objects**, which store data and perform actions. This method makes programs **more structured, reusable, and secure**. The four main concepts of OOP are:
+
+1. **Encapsulation** → Keeps data safe inside objects.
+2. **Abstraction** → Hides unnecessary details.
+3. **Inheritance** → Allows new objects to get features from existing ones.
+4. **Polymorphism** → Allows objects to behave in different ways.
+
+---
+
+## Understanding **class**, **def**, and `self` in Python
+Before learning about OOP, we must understand three key concepts:
+
+### **1. What is a `class`?**
+A `class` is a way to **group related information and actions together**. It defines what an object will have (data) and what it can do (functions).
+
+```python
+class Car:
+    pass  # An empty class for now
+```
+This creates a **Car** class, but it doesn't do anything yet.
+
+### **2. What is a `def`?**
+A `def` is used to define a **function** inside a class. Functions inside a class are called **methods** because they describe actions an object can perform.
+
+```python
+class Car:
+    def start(self):
+        print("Car is starting...")
+```
+Here, `start(self)` is a **method** inside the `Car` class. When we call this method, it prints `"Car is starting..."`.
+
+### **3. Role of `self` in a Class**
+The keyword `self` is used in **every method of a class** to refer to the **current object**. It allows us to access and modify object properties.
+
+```python
+class Car:
+    def __init__(self, brand):
+        self.brand = brand  # `self.brand` stores the brand name
+
+    def display_brand(self):
+        print(f"Car brand: {self.brand}")
+
+my_car = Car("Toyota")
+my_car.display_brand()  # Outputs: Car brand: Toyota
+```
+### **Key Takeaways about `self`:**
+- `self` **refers to the current instance** of the class.
+- It **must be the first parameter** of any method in the class.
+- Without `self`, methods **cannot access object properties**.
+
+Now that we understand `class`, `def`, and `self`, let's explore OOP principles in Python.
+
+---
+
+## 1. Encapsulation: Keeping Data Safe
+Encapsulation is the practice of **hiding internal details** of a class and allowing controlled access to its data. This is done using **private variables** (prefixed with `__`).
+
+```python
+import numpy as np
+
+class DataStorage:
+    def __init__(self, data):
+        self.__data = np.array(data)  # Private variable
+
+    def get_mean(self):
+        return np.mean(self.__data)
+
+# Creating an object
+data_obj = DataStorage([1, 2, 3, 4, 5])
+print("Mean:", data_obj.get_mean())
+```
+### **Detailed Explanation of Code:**
+- `import numpy as np`: Imports the NumPy library and assigns it the alias `np`.
+- `class DataStorage:`: Defines a new class named `DataStorage`.
+- `def __init__(self, data):`: This is the constructor method that initializes an object with data.
+- `self.__data = np.array(data)`: Converts input data into a NumPy array and stores it as a private variable.
+- `def get_mean(self):`: Defines a method that calculates and returns the mean of the stored data.
+- `data_obj = DataStorage([1, 2, 3, 4, 5])`: Creates an object of `DataStorage` with a list of numbers.
+- `print("Mean:", data_obj.get_mean())`: Calls the method to get the mean and prints it.
+
+### **Key Takeaways:**
+- Private variables **cannot be accessed directly**.
+- Controlled access ensures **data security**.
+
+---
+
+## 2. Abstraction: Hiding Details
+Abstraction means **hiding complex implementation details** and showing only the necessary parts.
+
+```python
+import matplotlib.pyplot as plt
+
+class Plotter:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def create_plot(self):
+        plt.plot(self.x, self.y, marker='o')
+        plt.xlabel("X-axis")
+        plt.ylabel("Y-axis")
+        plt.title("Simple Line Plot")
+        plt.show()
+
+# Creating object and plotting
+graph = Plotter([1, 2, 3, 4], [10, 20, 25, 30])
+graph.create_plot()
+```
+### **Key Takeaways:**
+- Users only call `create_plot()` without worrying about internal logic.
+- Complexity is **hidden** inside the class.
+
+---
+
+## 3. Inheritance: Reusing Code
+Inheritance allows a new class to **reuse the properties and methods** of an existing class.
+
+```python
+import numpy as np
+
+class MathOperations:
+    def mean(self, data):
+        return np.mean(data)
+
+class ExtendedMathOperations(MathOperations):
+    def std_dev(self, data):
+        return np.std(data)
+
+# Creating object
+math_obj = ExtendedMathOperations()
+data = [10, 20, 30, 40]
+print("Mean:", math_obj.mean(data))
+print("Standard Deviation:", math_obj.std_dev(data))
+```
+### **Key Takeaways:**
+- `ExtendedMathOperations` **inherits** from `MathOperations`.
+- It **reuses** the `mean()` method and adds a new `std_dev()` method.
+
+---
+
+## 4. Polymorphism: Same Method, Different Behavior
+Polymorphism allows **the same method name to have different implementations**.
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+class Plotter:
+    def plot(self, x, y):
+        plt.plot(x, y)
+        plt.show()
+
+class ScatterPlotter(Plotter):
+    def plot(self, x, y):
+        plt.scatter(x, y, color='r')
+        plt.show()
+
+# Creating objects
+line_plot = Plotter()
+scatter_plot = ScatterPlotter()
+x = np.array([1, 2, 3, 4])
+y = np.array([10, 15, 25, 30])
+
+line_plot.plot(x, y)  # Line plot
+scatter_plot.plot(x, y)  # Scatter plot
+```
+### **Key Takeaways:**
+- The `plot()` method behaves **differently** for `Plotter` and `ScatterPlotter`.
+- This makes the code more **flexible**.

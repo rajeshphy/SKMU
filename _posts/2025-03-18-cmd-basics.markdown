@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Basics of Command Prompt"
+title:  "I. Windows: Basics of Command Prompt"
 date:   2025-03-18 07:47:26 +0530
 categories: lecture
 tags: SEM-I
