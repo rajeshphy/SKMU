@@ -181,3 +181,470 @@ print("x and y:", x and y)  # Output: False
 a += 5
 print("Updated a:", a)  # Output: 15
 ```
+
+---
+
+## **Functions**  
+
+**Definition**  
+A function is a reusable block of code that performs a specific task. Functions help in modular programming by breaking a large program into smaller, manageable sections.  
+
+---
+
+**Explanation**  
+- Functions allow code reusability and improve readability.  
+- Python provides **built-in functions** (e.g., `len()`, `print()`) and supports **user-defined functions**.  
+- Functions are defined using the `def` keyword and can accept **parameters** and return **values**.  
+- A function runs only when it is **called**.  
+
+**Types of Functions:**  
+1. **Built-in Functions** – Predefined in Python (`print()`, `len()`, `sum()`, etc.).  
+2. **User-Defined Functions** – Created by the programmer using `def`.  
+3. **Lambda Functions** – Anonymous, single-expression functions using `lambda`.  
+
+---
+
+**Function Syntax**  
+```python
+def function_name(parameters):
+    """Function Docstring (Optional)"""
+    # Function body
+    return result  # Optional
+```
+**Types of Functions:**  
+
+1. **Built-in Functions** – Predefined in Python (`print()`, `len()`, `sum()`, etc.).  
+2. **User-Defined Functions** – Created by the programmer using `def`.  
+3. **Lambda Functions** – Anonymous, single-expression functions using `lambda`.  
+
+---
+**Coding Examples**
+
+**1. User-Defined Function**
+```python
+def greet(name):
+    """This function prints a greeting message."""
+    return f"Hello, {name}!"
+
+print(greet("Alice"))  # Output: Hello, Alice!
+```
+
+**2. Function with Multiple Parameters**
+```python
+def add_numbers(a, b):
+    """Returns the sum of two numbers."""
+    return a + b
+
+print(add_numbers(5, 10))  # Output: 15
+```
+
+**3. Function with Default Arguments**
+```python
+def power(base, exponent=2):
+    """Returns base raised to exponent (default is square)."""
+    return base ** exponent
+
+print(power(3))      # Output: 9 (3^2)
+print(power(2, 3))   # Output: 8 (2^3)
+```
+
+**4. Lambda Function (Anonymous Function)**
+```python
+square = lambda x: x ** 2
+print(square(4))  # Output: 16
+```
+
+**5. Function Returning Multiple Values**
+```python
+def arithmetic_operations(a, b):
+    """Returns multiple arithmetic results."""
+    return a + b, a - b, a * b, a / b
+
+sum_, diff, prod, quot = arithmetic_operations(10, 2)
+print(sum_, diff, prod, quot)  # Output: 12 8 20 5.0
+```
+
+ **Key Points to Remember**
+
+✔ Use functions to avoid repetition and make code modular.  
+✔ Functions can have default arguments, making them more flexible.  
+✔ Lambda functions are useful for short, one-time operations.  
+✔ A function can return multiple values as a tuple.  
+
+**Workout Questions**  
+1. Define a function in Python. What are its advantages?  
+2. What is the difference between a user-defined function and a lambda function?  
+3. Discuss the role of parameters and return values in functions with examples.  
+4. Write a Python function that takes two numbers as input and returns their sum, difference, and product.  
+
+---
+
+# **Control Flow: Conditionals and Loops**
+
+### **1. Conditionals (if-else statements)**
+Conditional statements allow decision-making in a program.
+
+**Syntax:**
+
+```python
+def check_number(num):
+    if num > 0:
+        return "Positive"
+    elif num < 0:
+        return "Negative"
+    else:
+        return "Zero"
+
+print(check_number(5))   # Output: Positive
+print(check_number(-3))  # Output: Negative
+print(check_number(0))   # Output: Zero
+```
+
+---
+
+### **2. Loops**
+
+Loops allow repeated execution of code blocks.
+
+**a. While Loop**
+
+A `while` loop runs as long as a condition remains `True`.
+
+**Syntax:**
+
+```python
+count = 1
+while count <= 5:
+    print("Count:", count)
+    count += 1
+```
+**Output:**
+```
+Count: 1
+Count: 2
+Count: 3
+Count: 4
+Count: 5
+```
+
+---
+
+**b. For Loop**
+
+A `for` loop is used to iterate over a sequence (list, tuple, string, etc.).
+
+**Syntax:**
+
+```python
+for i in range(1, 6):
+    print("Iteration:", i)
+```
+**Output:**
+```
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+```
+
+---
+
+### **3. Loop Control Statements**
+
+Loop control statements modify loop behavior.
+
+**a. Break Statement**
+
+Exits the loop prematurely when a condition is met.
+```python
+for num in range(1, 10):
+    if num == 5:
+        break
+    print(num)
+```
+**Output:**
+```
+1
+2
+3
+4
+```
+
+**b. Continue Statement**
+
+Skips the current iteration and moves to the next.
+```python
+for num in range(1, 6):
+    if num == 3:
+        continue
+    print(num)
+```
+**Output:**
+```
+1
+2
+4
+5
+```
+
+**c. Pass Statement**
+
+A placeholder for future code, does nothing when executed.
+```python
+for i in range(5):
+    if i == 2:
+        pass  # Placeholder for future logic
+    else:
+        print(i)
+```
+
+---
+
+**Key Points to Remember**
+
+✔ `if-else` statements allow conditional execution.  
+✔ `while` loops run while a condition holds true.  
+✔ `for` loops iterate over sequences or ranges.  
+✔ `break`, `continue`, and `pass` modify loop behavior.  
+
+
+**Workout Questions**
+
+1. What is the difference between `while` and `for` loops in Python?
+2. Explain how loop control statements (`break`, `continue`, `pass`) work with examples.
+3. Write a Python program to print all even numbers from 1 to 20 using a `for` loop.
+4. Create a `while` loop that prints numbers from 10 to 1 in descending order.
+
+---
+
+# **Input/Output Operations with Files**
+
+### **1. Introduction to File Handling**
+File handling in Python allows reading from and writing to files. The built-in `open()` function is used to work with files.
+
+
+### **2. Opening a File**
+
+**Syntax:**
+```python
+file = open("filename.txt", "mode")
+```
+**Modes:**
+- `"r"` – Read (default, file must exist)
+- `"w"` – Write (creates a new file or overwrites existing content)
+- `"a"` – Append (adds content to the end of the file)
+- `"x"` – Create (fails if file already exists)
+- `"b"` – Binary mode (e.g., images, PDFs)
+- `"t"` – Text mode (default)
+
+
+### **3. Reading from a File**
+**Using `read()` Method**
+
+```python
+with open("example.txt", "r") as file:
+    content = file.read()
+    print(content)
+```
+**Using `readline()` and `readlines()` Methods**
+
+```python
+with open("example.txt", "r") as file:
+    line = file.readline()  # Reads one line
+    print(line)
+    
+    all_lines = file.readlines()  # Reads all lines as a list
+    print(all_lines)
+```
+
+
+
+### **4. Writing to a File**
+
+**Using `write()` Method**
+
+```python
+with open("example.txt", "w") as file:
+    file.write("Hello, World!\n")
+```
+**Using `writelines()` Method**
+```python
+lines = ["First line\n", "Second line\n"]
+with open("example.txt", "w") as file:
+    file.writelines(lines)
+```
+
+
+### **5. Appending to a File**
+```python
+with open("example.txt", "a") as file:
+    file.write("This is an appended line.\n")
+```
+
+
+### **6. Working with Binary Files**
+```python
+with open("image.jpg", "rb") as file:
+    data = file.read()
+```
+
+```python
+with open("copy.jpg", "wb") as file:
+    file.write(data)
+```
+
+### **7. Closing a File**
+Although using `with open()` is recommended as it automatically closes the file, you can manually close a file using:
+```python
+file = open("example.txt", "r")
+file.close()
+```
+
+### **8. Exception Handling in File Operations**
+```python
+try:
+    with open("nonexistent.txt", "r") as file:
+        content = file.read()
+except FileNotFoundError:
+    print("File not found!")
+```
+
+
+**Key Points to Remember**
+
+✔ Use `with open()` to handle files safely.  
+✔ Choose the correct file mode (`r`, `w`, `a`, `x`).  
+✔ Use `read()`, `readline()`, or `readlines()` for reading.  
+✔ Use `write()` or `writelines()` for writing.  
+✔ Handle exceptions using `try-except` to avoid runtime errors.  
+
+**Workout Questions**
+
+1. What is the difference between `r`, `w`, and `a` file modes in Python?
+2. Explain the advantage of using `with open()` for file handling.
+3. Write a Python program to read a file and count the number of words in it.
+4. Write a Python program to copy the contents of one file to another.
+
+---
+
+# **Data Analysis: Plotting, Data Fitting, and Analyzing Large Datasets**
+
+### **1. Introduction to Data Analysis**
+Data analysis involves examining, visualizing, and modeling data to extract useful insights. Python provides powerful libraries for this, such as `matplotlib`, `numpy`, `pandas`, and `scipy`.
+
+### **2. Plotting Data**
+
+**Using Matplotlib for Visualization**
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Sample data
+t = np.linspace(0, 10, 100)
+y = np.sin(t)
+
+# Plotting the data
+plt.plot(t, y, label="sin(t)", color='b')
+plt.xlabel("Time")
+plt.ylabel("Amplitude")
+plt.title("Sine Wave")
+plt.legend()
+plt.grid()
+plt.show()
+```
+**Types of Plots:**
+
+- **Line Plot:** `plt.plot(x, y)`
+- **Scatter Plot:** `plt.scatter(x, y)`
+- **Histogram:** `plt.hist(data, bins=10)`
+- **Bar Chart:** `plt.bar(categories, values)`
+
+
+### **3. Data Fitting**
+Fitting data helps model relationships between variables using functions.
+
+**Linear Fit Using NumPy**
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Sample data
+x = np.array([1, 2, 3, 4, 5])
+y = np.array([2.2, 2.8, 3.6, 4.5, 5.1])
+
+# Linear fit
+coeffs = np.polyfit(x, y, 1)  # 1st-degree polynomial (linear)
+fit_line = np.poly1d(coeffs)
+
+# Plot
+plt.scatter(x, y, label="Data")
+plt.plot(x, fit_line(x), label="Best Fit", color='r')
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.legend()
+plt.show()
+```
+
+**Nonlinear Fit Using SciPy**
+```python
+from scipy.optimize import curve_fit
+
+def model(x, a, b):
+    return a * np.exp(b * x)
+
+params, _ = curve_fit(model, x, y)
+```
+
+
+### **4. Analyzing Large Datasets**
+
+**Using Pandas for Data Handling**
+```python
+import pandas as pd
+
+# Loading data from a CSV file
+df = pd.read_csv("data.csv")
+
+# Display basic information
+print(df.info())
+print(df.describe())
+```
+
+**Filtering and Aggregation**
+```python
+# Filtering data
+df_filtered = df[df['column_name'] > threshold]
+
+# Aggregation
+mean_value = df['column_name'].mean()
+```
+
+**Handling Missing Data**
+```python
+# Checking for missing values
+print(df.isnull().sum())
+
+# Filling missing values
+df.fillna(value, inplace=True)
+```
+
+
+**Key Points to Remember**
+
+✔ Use `matplotlib` for visualization (line, scatter, bar, histogram).  
+✔ Use `numpy` for numerical computations and data fitting.  
+✔ Use `pandas` for handling large datasets efficiently.  
+✔ Use `scipy.optimize` for nonlinear data fitting.  
+✔ Preprocess data by handling missing values and filtering.  
+
+
+**Workout Questions**
+
+1. What is the role of `matplotlib` in data visualization?
+2. Explain how to fit a linear model to data using NumPy.
+3. Write a Python program to read a large dataset and compute the mean and median of a column.
+4. How do you handle missing data in a dataset using Pandas?
+
+
+
