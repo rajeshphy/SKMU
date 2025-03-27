@@ -1,4 +1,360 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-03-21T12:48:38+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">IV. Python: Object-Oriented Programming</title><link href="http://localhost:4000/SKMU/lecture/2025/03/21/OOP.html" rel="alternate" type="text/html" title="IV. Python: Object-Oriented Programming" /><published>2025-03-21T07:47:26+05:30</published><updated>2025-03-21T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/21/OOP</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/21/OOP.html">&lt;p&gt;Object-Oriented Programming (OOP) is a programming style that organizes code into &lt;strong&gt;objects&lt;/strong&gt;, which store data and perform actions. This method makes programs &lt;strong&gt;more structured, reusable, and secure&lt;/strong&gt;. The four main concepts of OOP are:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-03-27T12:19:38+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">IV. Python: Course Contents</title><link href="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html" rel="alternate" type="text/html" title="IV. Python: Course Contents" /><published>2025-03-26T07:47:26+05:30</published><updated>2025-03-26T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/26/Python</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html">&lt;p&gt;Here we will discuss each of course contents in detail.&lt;/p&gt;
+
+&lt;h2 id=&quot;arrays&quot;&gt;&lt;strong&gt;Arrays&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Definition&lt;/strong&gt;&lt;br /&gt;
+An array is a collection of elements of the same type stored at contiguous memory locations.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Explanation&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Arrays in Python are implemented using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;numpy.array&lt;/code&gt; module.&lt;/li&gt;
+  &lt;li&gt;Lists are dynamic, whereas &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;numpy&lt;/code&gt; arrays provide better performance for numerical operations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Coding Example&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Array elements:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;strings&quot;&gt;&lt;strong&gt;Strings&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Definition&lt;/strong&gt;&lt;br /&gt;
+A string is a sequence of characters enclosed within single (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;&lt;/code&gt;), double (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;&lt;/code&gt;) or triple quotes (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;&apos;&apos;&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;&quot;&quot;&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Explanation&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Strings in Python are &lt;strong&gt;immutable&lt;/strong&gt; (cannot be modified after creation).&lt;/li&gt;
+  &lt;li&gt;Common operations on strings include:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Concatenation&lt;/strong&gt;: Joining two or more strings.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Slicing&lt;/strong&gt;: Extracting a portion of a string.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Iteration&lt;/strong&gt;: Looping through string characters.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Formatting&lt;/strong&gt;: Using placeholders for dynamic content.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Coding Example&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Python Programming&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: Python
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;upper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Converts to uppercase
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; is fun!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# String concatenation
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;integer-and-floating-point-arithmetic&quot;&gt;&lt;strong&gt;Integer and Floating Point Arithmetic&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Definition&lt;/strong&gt;&lt;br /&gt;
+Integer (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;int&lt;/code&gt;) and floating-point (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;float&lt;/code&gt;) arithmetic involve performing mathematical operations on numerical data types.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Explanation&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Integers (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;int&lt;/code&gt;)&lt;/strong&gt; are whole numbers without decimals, e.g., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-5&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1000&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Floating-point numbers (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;float&lt;/code&gt;)&lt;/strong&gt; are numbers with decimals, e.g., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.14&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-2.5&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.001&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Python supports &lt;strong&gt;automatic type conversion&lt;/strong&gt; between integers and floats.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Common arithmetic operations include&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Addition (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+&lt;/code&gt;)&lt;/strong&gt; – Adds two numbers.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Subtraction (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-&lt;/code&gt;)&lt;/strong&gt; – Subtracts one number from another.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Multiplication (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt;)&lt;/strong&gt; – Multiplies two numbers.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Division (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/&lt;/code&gt;)&lt;/strong&gt; – Returns a floating-point quotient.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Floor Division (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;//&lt;/code&gt;)&lt;/strong&gt; – Returns the quotient without the decimal part.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Modulus (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;%&lt;/code&gt;)&lt;/strong&gt; – Returns the remainder of a division.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Exponentiation (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;**&lt;/code&gt;)&lt;/strong&gt; – Raises a number to a power.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Coding Example&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# Output: 19 (Addition)
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# Output: 11 (Subtraction)
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# Output: 60 (Multiplication)
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# Output: 3.75 (Floating-point division)
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 3 (Floor division)
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# Output: 3 (Modulus - remainder of division)
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 50625 (Exponentiation: 15^4)
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;operators-and-expressions&quot;&gt;&lt;strong&gt;Operators and Expressions&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Definition&lt;/strong&gt;&lt;br /&gt;
+Operators are symbols that perform operations on variables and values. An expression is a combination of values, variables, and operators that produces a result.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Explanation&lt;/strong&gt;&lt;br /&gt;
+Python supports different types of operators:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Arithmetic Operators&lt;/strong&gt;&lt;br /&gt;
+Perform basic mathematical operations.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Operator&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+      &lt;th&gt;Example (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a = 10, b = 3&lt;/code&gt;)&lt;/th&gt;
+      &lt;th&gt;Output&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Addition&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a + b&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;13&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Subtraction&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a - b&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;7&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Multiplication&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a * b&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;30&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Division&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a / b&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.333&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;//&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Floor Division&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a // b&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;%&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Modulus&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a % b&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;**&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Exponentiation&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a ** b&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1000&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Comparison Operators&lt;/strong&gt;&lt;br /&gt;
+Compare two values and return &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;True&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;False&lt;/code&gt;.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Operator&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+      &lt;th&gt;Example (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a = 10, b = 3&lt;/code&gt;)&lt;/th&gt;
+      &lt;th&gt;Output&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;==&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Equal to&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a == b&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;False&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;!=&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Not equal to&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a != b&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;True&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Greater than&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a &amp;gt; b&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;True&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Less than&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a &amp;lt; b&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;False&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt;=&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Greater than or equal to&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a &amp;gt;= b&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;True&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;=&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Less than or equal to&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a &amp;lt;= b&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;False&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Logical Operators&lt;/strong&gt;&lt;br /&gt;
+Used to combine multiple conditions.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Operator&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+      &lt;th&gt;Example (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x = True, y = False&lt;/code&gt;)&lt;/th&gt;
+      &lt;th&gt;Output&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;and&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Returns &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;True&lt;/code&gt; if both conditions are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;True&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x and y&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;False&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;or&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Returns &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;True&lt;/code&gt; if at least one condition is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;True&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x or y&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;True&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;not&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Reverses the result&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;not x&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;False&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Assignment Operators&lt;/strong&gt;&lt;br /&gt;
+Used to assign values to variables.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Operator&lt;/th&gt;
+      &lt;th&gt;Example&lt;/th&gt;
+      &lt;th&gt;Equivalent To&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;=&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a = 10&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a = 10&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+=&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a += 5&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a = a + 5&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-=&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a -= 2&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a = a - 2&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*=&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a *= 3&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a = a * 3&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/=&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a /= 2&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a = a / 2&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;//=&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a //= 2&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a = a // 2&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;%=&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a %= 2&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a = a % 2&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;**=&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a **= 2&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a = a ** 2&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Bitwise Operators&lt;/strong&gt;&lt;br /&gt;
+Perform operations on binary numbers.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Operator&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+      &lt;th&gt;Example (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a = 5, b = 3&lt;/code&gt;)&lt;/th&gt;
+      &lt;th&gt;Output&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;amp;&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;AND operation&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a &amp;amp; b&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;|&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;OR operation&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a | b&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;7&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;^&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;XOR operation&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a ^ b&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;NOT operation&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~a&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-6&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;&amp;lt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Left Shift&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a &amp;lt;&amp;lt; 1&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Right Shift&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a &amp;gt;&amp;gt; 1&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Coding Example&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Arithmetic Operations
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Addition:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 13
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Floor Division:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 3
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Comparison
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Is a greater than b?&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: True
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Logical Operations
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;x and y:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: False
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Assignment
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Updated a:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Output: 15
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Here we will discuss each of course contents in detail.</summary></entry><entry><title type="html">IV. Python: Object-Oriented Programming</title><link href="http://localhost:4000/SKMU/lecture/2025/03/21/OOP.html" rel="alternate" type="text/html" title="IV. Python: Object-Oriented Programming" /><published>2025-03-21T07:47:26+05:30</published><updated>2025-03-21T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/21/OOP</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/21/OOP.html">&lt;p&gt;Object-Oriented Programming (OOP) is a programming style that organizes code into &lt;strong&gt;objects&lt;/strong&gt;, which store data and perform actions. This method makes programs &lt;strong&gt;more structured, reusable, and secure&lt;/strong&gt;. The four main concepts of OOP are:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;&lt;strong&gt;Encapsulation&lt;/strong&gt; → Keeps data safe inside objects.&lt;/li&gt;
@@ -1781,297 +2137,4 @@ where $l$ denotes the partial wave contributing to the resonance.
       &lt;td&gt;Resonance, spectroscopy, optics.&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">In this lecture, we will start by revisiting the basics of quantum scattering, focusing on partial wave analysis and phase shifts. The graph at the top illustrates the Breit-Wigner resonance curve, which we will discuss in detail after exploring resonance scattering and its role in energy-dependent cross-sections.</summary></entry><entry><title type="html">Nuclear Reactions</title><link href="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html" rel="alternate" type="text/html" title="Nuclear Reactions" /><published>2024-12-10T04:47:26+05:30</published><updated>2024-12-10T04:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html">&lt;p&gt;Nuclear reactions can occur when a target nucleus $X$ is bombarded by a particle $a$, resulting in a daughter nucleus $Y$ and an outgoing particle $b$:&lt;/p&gt;
-
-\[a + X \rightarrow Y + b\]
-
-&lt;p&gt;The &lt;strong&gt;reaction energy $Q$&lt;/strong&gt; in a nuclear reaction represents the difference between the initial and final rest energies of the participating nuclei. Mathematically, it is given by:&lt;/p&gt;
-
-\[Q = (M_a + M_X - M_b - M_Y)c^2\]
-
-&lt;p&gt;where $M_a$ and $M_X$ are the masses of the reactants, $M_b$ and $M_Y$ are the masses of the products, and $c$ is the speed of light.&lt;/p&gt;
-
-&lt;p&gt;A positive $Q$-value indicates an &lt;strong&gt;exothermic reaction&lt;/strong&gt;, where energy is released. For example, in the reaction:&lt;/p&gt;
-
-&lt;p&gt;\(\ce{^1_1H + ^7_3Li -&amp;gt; ^4_2He + ^4_2He}\) ,&lt;/p&gt;
-
-&lt;p&gt;the $Q$-value is $Q = 17.3 \, \mathrm{MeV}$. Such reactions often release energy in the form of kinetic energy of the products, making them energetically favorable.&lt;/p&gt;
-
-&lt;p&gt;Conversely, a negative $Q$-value corresponds to an &lt;strong&gt;endothermic reaction&lt;/strong&gt;, where energy must be supplied for the reaction to occur. For an endothermic reaction, the bombarding particle must have kinetic energy greater than the magnitude of $Q$. This minimum energy required to initiate the reaction is known as the &lt;strong&gt;threshold energy&lt;/strong&gt;, and it ensures conservation of momentum and energy in the isolated system.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;problem-1-q-value-calculation-for-alpha-decay-of-226textra&quot;&gt;Problem 1: Q Value Calculation for Alpha Decay of $^{226}\text{Ra}$&lt;/h3&gt;
-
-&lt;p&gt;The $^{226}\text{Ra}$ nucleus undergoes alpha decay according to&lt;/p&gt;
-
-\[_{88}^{226}\text{Ra} \rightarrow _{86}^{222}\text{Rn} + _2^4\text{He}\]
-
-&lt;p&gt;Calculate the Q value for this process using the formula $Q = \left( M_{\text{initial}} - M_{\text{final}} \right)\times 931.494 MeV/u$. The masses are:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;$226.025408 \, \text{u}$ for $_{88}^{226}\text{Ra}$&lt;/li&gt;
-  &lt;li&gt;$222.017576 \, \text{u}$ for $_{86}^{222}\text{Rn}$&lt;/li&gt;
-  &lt;li&gt;$4.002603 \, \text{u}$ for $_2^4\text{He}$.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;problem-2-energy-released-by-fission-of-100-kg-of-235textu&quot;&gt;Problem 2: Energy Released by Fission of 1.00 kg of $^{235}\text{U}$&lt;/h3&gt;
-
-&lt;p&gt;Calculate the energy released when 1.00 kg of $^{235}\text{U}$ undergoes fission, given that the disintegration energy per event is $Q = 208 \, \text{MeV}$.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Answer:&lt;/em&gt;     $5.33\times10^{26}MeV$&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;How much is this energy?&lt;/em&gt;  The energy released in the fission of 1 kg of $^{235}\text{U}$, if released slowly, is enough to keep a 100-W lightbulb operating for 30,000 years! If the available fission energy in 1 kg of $^{235}\text{U}$ were suddenly released, it would be equivalent to detonating about 20,000 tons of TNT.&lt;/p&gt;
-
-&lt;h3 id=&quot;problem-3-identifying-unknown-nuclides-and-particles&quot;&gt;Problem 3: Identifying Unknown Nuclides and Particles&lt;/h3&gt;
-
-&lt;p&gt;Identify the unknown nuclides and particles $X$ and $X’$ in the following nuclear reactions:&lt;/p&gt;
-
-&lt;p&gt;(a) $X + _2^4\text{He} \rightarrow _{12}^{24}\text{Mg} + _0^1\text{n}$&lt;br /&gt;
-(b) $ _{92}^{235}\text{U} + _0^1\text{n} \rightarrow _{38}^{90}\text{Sr} + X + 2( _0^1\text{n})$&lt;br /&gt;
-(c) $2( _1^1\text{H}) \rightarrow  _1^2\text{H} + X + X’$&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;classifications-of-nuclear-reactions-blatt-weisskopf-and-krane&quot;&gt;Classifications of Nuclear Reactions: Blatt, Weisskopf, and Krane&lt;/h2&gt;
-
-&lt;p&gt;Here we discuss Kenneth Blatt, Weisskopf, and Krane classification which is more specific approach compared to the broader categories of &lt;em&gt;decay and transmutation&lt;/em&gt; based on reaction outcomes.&lt;/p&gt;
-
-&lt;p&gt;A typical nuclear reaction is represented as:&lt;/p&gt;
-
-\[a + X \rightarrow Y + b\]
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;a&lt;/strong&gt;: Accelerated projectile.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;X&lt;/strong&gt;: Target (usually stationary).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Y&lt;/strong&gt; and &lt;strong&gt;b&lt;/strong&gt;: Reaction products, where Y is typically a heavy particle and b is a light particle that can be detected.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;types-of-reactions&quot;&gt;Types of Reactions&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Scattering Reactions
-    &lt;ul&gt;
-      &lt;li&gt;Occur when incident and outgoing particles are the same.&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;Elastic scattering&lt;/strong&gt;: When Y and b are in their ground states. The nucleus does not react to this collision in any way. The video below shows an example of elastic scattering.&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;div style=&quot;text-align: center;&quot;&gt;
-     &lt;video controls=&quot;&quot; style=&quot;width: 80%;&quot;&gt;
-         &lt;source src=&quot;/SKMU/assets/images/Nuclear/elastic-scattering.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-         Your browser does not support the video tag.
-     &lt;/video&gt;
- &lt;/div&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;Inelastic scattering&lt;/strong&gt;: When Y or b is in an excited state and decays by emitting gamma rays. After collision with a nucleus, the neutron might transfer part of its kinetic energy. The neutron is slowed down, the nucleus is excited by this excess energy and must release it by the emission of a photon or possibly by another change. If the amount of transferred energy is large enough, the nucleus might disintegrate. The video below shows an example of inelastic scattering.&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;div style=&quot;text-align: center;&quot;&gt;
-     &lt;video controls=&quot;&quot; style=&quot;width: 80%;&quot;&gt;
-         &lt;source src=&quot;/SKMU/assets/images/Nuclear/inelastic-scattering.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-         Your browser does not support the video tag.
-     &lt;/video&gt;
- &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Radiative Capture
-    &lt;ul&gt;
-      &lt;li&gt;If &lt;strong&gt;b&lt;/strong&gt; is a gamma ray, in which case the reaction is called &lt;strong&gt;radiative capture&lt;/strong&gt;.&lt;/li&gt;
-      &lt;li&gt;During radiative capture, an incident neutron enters the target nucleus forming a compound nucleus and at the same time transferring all its energy to the nucleus. The nucleus is excited by this additional energy and must release it by emitting a photon, or possibly by another type of change. The video below shows an example of radiative capture.&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;div style=&quot;text-align: center;&quot;&gt;
-     &lt;video controls=&quot;&quot; style=&quot;width: 80%;&quot;&gt;
-         &lt;source src=&quot;/SKMU/assets/images/Nuclear/radiative-capture.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-         Your browser does not support the video tag.
-     &lt;/video&gt;
- &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Nuclear Photoeffect
-    &lt;ul&gt;
-      &lt;li&gt;If &lt;strong&gt;a&lt;/strong&gt; is a gamma ray, the reaction is called &lt;strong&gt;nuclear photoeffect&lt;/strong&gt;.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Direct Reactions
-    &lt;ul&gt;
-      &lt;li&gt;Only a few nucleons participate, with others remaining as passive spectators. Direct reactions happen on the surface rather than in the volume of interacting nuclei.&lt;/li&gt;
-      &lt;li&gt;Projectile and target are within the range of nuclear forces for the very short time allowing for an interaction of a single nucleon only. These type of reactions are called the direct reactions.&lt;/li&gt;
-      &lt;li&gt;Direct reactions are well described as a one-step transition from the initial state in the entrance to the final state in the exit channel.&lt;/li&gt;
-      &lt;li&gt;Direct reactions include: stripping, pick-up, and knockout reactions.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Compound Nucleus Reaction
-    &lt;ul&gt;
-      &lt;li&gt;Involves a brief merging of incoming and target nuclei, leading to a complete sharing of energy before the nucleon is ejected.&lt;/li&gt;
-      &lt;li&gt;Characteristics:&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;ul&gt;
-      &lt;li&gt;The direct reactions involve a single-nucleon interaction and are fast. In contrast, compound nucleus reaction involve many nucleon-nucleon interactions, in fact very many so these collisions lead to a complete thermal equilibrium (equal energy partition between nucleons) inside the compound nucleus.&lt;/li&gt;
-      &lt;li&gt;Since energy equilibration require time, the compound nucleus reaction are significantly slower than direct reactions.&lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;The compound system releases energy by emission of neutrons, protons, $\alpha$ particles and $\gamma$-rays, but has a lifetime on the order of $10^{-19} s$. This time may seem short but it is $~$ 1000 times longer than the characteristic time for direct reactions.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;The compound nucleus is formed when the projectile and target nuclei merge, and the nucleon is ejected after the compound nucleus has had time to equilibrate. Video below shows an example of the compound nucleus mechanism.&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;div style=&quot;text-align: center;&quot;&gt;
- &lt;video controls=&quot;&quot; style=&quot;width: 80%;&quot;&gt;
-     &lt;source src=&quot;/SKMU/assets/images/Nuclear/fission.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-     Your browser does not support the video tag.
- &lt;/video&gt;
- &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Transfer Reactions
-    &lt;ul&gt;
-      &lt;li&gt;Involve the transfer of one or two nucleons between the projectile and the target.&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Example: A deuteron incoming and turning into a proton or neutron, adding a nucleon to the target X to form Y.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Resonance Reactions
-    &lt;ul&gt;
-      &lt;li&gt;In these reactions, the incoming particle forms a quasibound state before the outgoing particle is ejected.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-&lt;h1 id=&quot;assignments&quot;&gt;Assignments&lt;/h1&gt;
-
-&lt;p&gt;Identify the type of reaction:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;$ n + \ce{^235U} \to \ce{^236U^*} \to \ce{^92Kr} + \ce{^141Ba} + 3n $&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$ n + \ce{^10B} \to \ce{^11B} + \gamma $&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$ n + \ce{^10B} \to \ce{^11B} + \gamma $&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$ d + \ce{^14N} \to p + \ce{^15N} $&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;$ p + \ce{^15N} \to \ce{^16O^*} \to \alpha + \ce{^{12}C} $&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;compound-nucleus-reactions&quot;&gt;Compound-Nucleus Reactions&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;When an incident particle enters a target nucleus with an impact parameter smaller than the nuclear radius, it interacts with one of the nucleons, possibly through scattering.
-    &lt;ul&gt;
-      &lt;li&gt;The recoiling nucleon and incident particle lose energy in successive collisions.&lt;/li&gt;
-      &lt;li&gt;The energy is distributed among the nucleons, with a small probability for a nucleon to gain enough energy to escape, akin to molecules evaporating from a hot liquid.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;symbolic-representation&quot;&gt;Symbolic Representation&lt;/h5&gt;
-&lt;p&gt;The reaction can be written as:&lt;br /&gt;
-\(a + X \to C^* \to Y + b\)&lt;br /&gt;
-where \(C^*\) is the compound nucleus. In compact form, the reaction is represented as:
-\(X(a,b)Y\)&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Two-Step Process:&lt;/strong&gt;
-    &lt;ol&gt;
-      &lt;li&gt;Formation of the compound nucleus.&lt;/li&gt;
-      &lt;li&gt;Subsequent decay of the compound nucleus.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Key Assumption:&lt;/strong&gt;&lt;br /&gt;
-The relative probability for decay into specific final products is &lt;strong&gt;independent of the formation process&lt;/strong&gt;.
-    &lt;ul&gt;
-      &lt;li&gt;Decay probability depends only on the total energy, governed by statistical rules.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h5 id=&quot;example&quot;&gt;Example&lt;/h5&gt;
-&lt;p&gt;&lt;img src=&quot;/SKMU/assets/images/Nuclear/Compound-nuclear.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The compound nucleus \(^{64}\text{Zn}^*\) can be formed by:
-    &lt;ul&gt;
-      &lt;li&gt;
-\[p + ^{63}\text{Cu}\]
-      &lt;/li&gt;
-      &lt;li&gt;
-\[\alpha + ^{60}\text{Ni}\]
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Possible decay pathways include:
-    &lt;ul&gt;
-      &lt;li&gt;
-\[^{63}\text{Zn} + n\]
-      &lt;/li&gt;
-      &lt;li&gt;
-\[^{62}\text{Zn} + 2n\]
-      &lt;/li&gt;
-      &lt;li&gt;
-\[^{62}\text{Cu} + p + n\]
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Cross-section comparison:&lt;br /&gt;
-If the model holds, reactions like \(^{63}\text{Cu}(p,n)^{63}\text{Zn}\) and \(^{60}\text{Ni}(\alpha,n)^{63}\text{Zn}\) have similar relative cross-sections at incident energies providing the same excitation energy to \(^{64}\text{Zn}^*\).
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;Observation:&lt;/strong&gt; Experimental data (Figure-1) supports this model, showing agreement across cross-sections.&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;div style=&quot;text-align: center;&quot;&gt;
-          &lt;img src=&quot;/SKMU/assets/images/Nuclear/Compound-nuclear-cross.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
-          &lt;figcaption&gt;Figure-1:Experimental cross sections for $(p,n)$, $(p, 2n)$, $(p, pn)$ reactions on $Cu^{63}$ and for $(\alpha, n)$, $(n, 2n)$, $(\alpha, pn)$ reactions on $Ni^{60}$ are plotted against $E_{p}$ and $E_{\alpha}$, respectively. 
-          The scale of $E_{p}$ has been shifted by 7 MeV with respect to the scale of $E_{\alpha}$. Source: S. N. Goshal, Phys. Rev. 80, 939 (1950).
-          &lt;/figcaption&gt;
-  &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h5 id=&quot;conditions-for-the-model-and-characteristics&quot;&gt;Conditions for the Model and Characteristics&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Works best at &lt;strong&gt;low incident energies&lt;/strong&gt; (\(10-20\ \text{MeV}\)) where the projectile is unlikely to escape intact.&lt;/li&gt;
-  &lt;li&gt;Suitable for &lt;strong&gt;medium-weight and heavy nuclei&lt;/strong&gt;, where the nucleus can absorb the incident energy.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;angular-distribution&quot;&gt;Angular Distribution&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Due to random nucleon interactions, emitted particles generally exhibit isotropic angular distribution.
-    &lt;ul&gt;
-      &lt;li&gt;Exception: For heavy ions with significant angular momentum transfer, particles may emit preferentially at \(0^\circ\) and \(180^\circ\).&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;div style=&quot;text-align: center;&quot;&gt;
-          &lt;img src=&quot;/SKMU/assets/images/Nuclear/Compound-nuclear-angular.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:auto;&quot; /&gt;
-          &lt;figcaption&gt;Figure-2: The curve marked NC shows the contribution from compound-nucleus formation to the cross-section of the reaction: $^{25}\text{Mg}(p,p)^{25}\text{Mg}.$ The curve marked ID shows the contribution from direct reactions. The direct part exhibits a strong angular dependence, while the compound-nucleus part shows little angular dependence.  Source: A. Gallmann et al., Nucl. Phys. 88, 654 (1966).&lt;/figcaption&gt;
-  &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;energy-dependence&quot;&gt;Energy Dependence&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;The “evaporation” analogy holds:
-    &lt;ul&gt;
-      &lt;li&gt;Higher energy leads to more particle emissions.&lt;/li&gt;
-      &lt;li&gt;Cross-section for reactions \((a,xn)\) shows Gaussian-like behavior:
-        &lt;ul&gt;
-          &lt;li&gt;Increases to a maximum.&lt;/li&gt;
-          &lt;li&gt;Decreases as higher energy promotes additional particle emissions.&lt;/li&gt;
-        &lt;/ul&gt;
-
-        &lt;div style=&quot;text-align: center;&quot;&gt;
-        &lt;img src=&quot;/SKMU/assets/images/Nuclear/Compound-nuclear-energy.jpeg&quot; alt=&quot;Particle Classification&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;
-        &lt;figcaption&gt;Figure-3: At higher incident energies, it is more likely that additional neu-trons will “evaporate” from the compound nucleus.
-        &lt;/figcaption&gt;
-&lt;/div&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">Nuclear reactions can occur when a target nucleus $X$ is bombarded by a particle $a$, resulting in a daughter nucleus $Y$ and an outgoing particle $b$:</summary></entry></feed>
+&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">In this lecture, we will start by revisiting the basics of quantum scattering, focusing on partial wave analysis and phase shifts. The graph at the top illustrates the Breit-Wigner resonance curve, which we will discuss in detail after exploring resonance scattering and its role in energy-dependent cross-sections.</summary></entry></feed>
