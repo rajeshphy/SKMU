@@ -6,7 +6,18 @@ categories: lecture
 tags: SEM-I
 ---
 
-Here we will discuss each of course contents in detail.
+🚀 **Hands-on Practice:** Practice coding by clicking on link below:
+
+<div align="center">
+  <a href="https://onecompiler.com/python">
+    <img src="https://img.shields.io/badge/Try%20Python%20Online-Run%20Now-blue?style=for-the-badge&logo=python" alt="Run Python Code" width="250">
+  </a>
+</div>
+<br>
+
+---
+
+Here we will discuss each of the course contents in detail.  
 
 
 ## **Arrays**  
