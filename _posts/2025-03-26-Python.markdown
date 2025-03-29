@@ -6,7 +6,7 @@ categories: lecture
 tags: SEM-I
 ---
 
-🚀 **Hands-on Practice:** Practice coding by clicking on link below:
+🚀 **Hands-on Practice:** Practice coding by clicking on button below:
 
 <div align="center">
   <a href="https://onecompiler.com/python">
