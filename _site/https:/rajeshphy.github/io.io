@@ -1,4 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-03-29T16:16:06+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">V. Python: Course Contents</title><link href="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html" rel="alternate" type="text/html" title="V. Python: Course Contents" /><published>2025-03-26T07:47:26+05:30</published><updated>2025-03-26T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/26/Python</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html">&lt;p&gt;🚀 &lt;strong&gt;Hands-on Practice:&lt;/strong&gt; Practice coding by clicking on button below:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-04T10:59:19+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Classical Mechanics</title><link href="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html" rel="alternate" type="text/html" title="Classical Mechanics" /><published>2025-04-03T07:47:26+05:30</published><updated>2025-04-03T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html">&lt;h2 id=&quot;dalemberts-principle-lagranges-equation-and-its-simple-applications&quot;&gt;D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-dalemberts-principle&quot;&gt;1. D’Alembert’s Principle&lt;/h3&gt;
+
+&lt;p&gt;D’Alembert’s principle is a fundamental concept in classical mechanics that provides an alternative formulation of Newton’s second law by incorporating the concept of virtual work. It states that the sum of the differences between the applied forces and the inertial forces (also called the generalized forces) acting on a system in equilibrium is zero when projected along any virtual displacement.&lt;/p&gt;
+
+&lt;h4 id=&quot;11-mathematical-formulation&quot;&gt;1.1 Mathematical Formulation&lt;/h4&gt;
+
+&lt;p&gt;Consider a system of \(N\) particles, where each particle has mass \(m_i\), position vector \(\mathbf{r}_i\), and is subject to an external force \(\mathbf{F}_i\). Newton’s second law states:&lt;/p&gt;
+
+\[m_i \ddot{\mathbf{r}}_i = \mathbf{F}_i\]
+
+&lt;p&gt;D’Alembert’s principle introduces the concept of &lt;strong&gt;inertial force&lt;/strong&gt;:&lt;/p&gt;
+
+\[\mathbf{F}_i - m_i \ddot{\mathbf{r}}_i = 0\]
+
+&lt;p&gt;For an infinitesimal virtual displacement \(\delta \mathbf{r}_i\), the principle states:&lt;/p&gt;
+
+\[\sum_{i=1}^{N} (\mathbf{F}_i - m_i \ddot{\mathbf{r}}_i) \cdot \delta \mathbf{r}_i = 0\]
+
+&lt;p&gt;Since the constraint forces do no virtual work (ideal constraints), we are left with only generalized forces:&lt;/p&gt;
+
+\[\sum_{i=1}^{N} (\mathbf{F}_i^{(a)} - m_i \ddot{\mathbf{r}}_i) \cdot \delta \mathbf{r}_i = 0\]
+
+&lt;p&gt;where \(\mathbf{F}_i^{(a)}\) represents the applied forces excluding constraint forces.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-lagranges-equation&quot;&gt;2. Lagrange’s Equation&lt;/h3&gt;
+
+&lt;p&gt;Lagrange’s equation is derived using D’Alembert’s principle and is particularly useful in dealing with systems having constraints.&lt;/p&gt;
+
+&lt;h4 id=&quot;21-generalized-coordinates&quot;&gt;2.1 Generalized Coordinates&lt;/h4&gt;
+
+&lt;p&gt;A system with \(N\) particles and \(k\) constraint equations can be described using a reduced set of &lt;strong&gt;generalized coordinates&lt;/strong&gt;:&lt;/p&gt;
+
+\[q_1, q_2, \dots, q_n, \quad n = 3N - k\]
+
+&lt;p&gt;The relationship between Cartesian coordinates and generalized coordinates is given by:&lt;/p&gt;
+
+\[\mathbf{r}_i = \mathbf{r}_i(q_1, q_2, ..., q_n, t)\]
+
+&lt;p&gt;The virtual displacement then transforms as:&lt;/p&gt;
+
+\[\delta \mathbf{r}_i = \sum_{j=1}^{n} \frac{\partial \mathbf{r}_i}{\partial q_j} \delta q_j\]
+
+&lt;p&gt;Using these transformations, D’Alembert’s principle can be rewritten in terms of generalized coordinates.&lt;/p&gt;
+
+&lt;h4 id=&quot;22-derivation-of-lagranges-equation&quot;&gt;2.2 Derivation of Lagrange’s Equation&lt;/h4&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;a href=&quot;/SKMU/assets/pdf/Lagrange.pdf&quot; target=&quot;_blank&quot;&gt;
+    &lt;button style=&quot;padding: 6px 12px; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer;&quot;&gt;
+      📄 Click here for derivation
+    &lt;/button&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-simple-applications-of-lagranges-equations&quot;&gt;3. Simple Applications of Lagrange’s Equations&lt;/h3&gt;
+
+&lt;h4 id=&quot;31-simple-pendulum&quot;&gt;3.1 Simple Pendulum&lt;/h4&gt;
+
+&lt;p&gt;A simple pendulum consists of a mass \(m\) attached to a string of length \(l\). The generalized coordinate is the angular displacement \(\theta\).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Kinetic Energy:
+\(T = \frac{1}{2} m (l^2 \dot{\theta}^2)\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Potential Energy:
+\(V = -mgl \cos \theta\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Lagrangian:
+\(L = T - V = \frac{1}{2} m l^2 \dot{\theta}^2 + mgl \cos \theta\)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Applying Lagrange’s equation:&lt;/p&gt;
+
+\[\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{\theta}} \right) - \frac{\partial L}{\partial \theta} = 0\]
+
+\[\frac{d}{dt} (m l^2 \dot{\theta}) + mgl \sin \theta = 0\]
+
+&lt;p&gt;which simplifies to:&lt;/p&gt;
+
+\[\ddot{\theta} + \frac{g}{l} \sin \theta = 0\]
+
+&lt;h4 id=&quot;32-bead-on-a-rotating-hoop&quot;&gt;3.2 Bead on a Rotating Hoop&lt;/h4&gt;
+
+&lt;p&gt;A bead of mass \(m\) moves on a hoop of radius \(R\) that rotates with a constant angular velocity \(\omega\).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Generalized coordinate: \(\theta\) (angle of displacement on the hoop)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Kinetic Energy:
+\(T = \frac{1}{2} m (R^2 \dot{\theta}^2 + \omega^2 R^2 \sin^2 \theta)\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Potential Energy:
+\(V = -mgR \cos \theta\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lagrangian:
+\(L = \frac{1}{2} m (R^2 \dot{\theta}^2 + \omega^2 R^2 \sin^2 \theta) + mgR \cos \theta\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Applying Lagrange’s equation:&lt;/p&gt;
+
+\[\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{\theta}} \right) - \frac{\partial L}{\partial \theta} = 0\]
+
+\[mR^2 \ddot{\theta} - m R^2 \omega^2 \sin \theta \cos \theta + mgR \sin \theta = 0\]
+
+&lt;p&gt;which governs the motion of the bead on the rotating hoop.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications</summary></entry><entry><title type="html">V. Python: Course Contents</title><link href="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html" rel="alternate" type="text/html" title="V. Python: Course Contents" /><published>2025-03-26T07:47:26+05:30</published><updated>2025-03-26T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/26/Python</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html">&lt;p&gt;🚀 &lt;strong&gt;Hands-on Practice:&lt;/strong&gt; Practice coding by clicking on button below:&lt;/p&gt;
 
 &lt;div align=&quot;center&quot;&gt;
   &lt;a href=&quot;https://onecompiler.com/python&quot;&gt;
@@ -2298,292 +2410,4 @@ There are only three bound states for the symmetric Rosen-Morse potential. The w
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;physical-significance&quot;&gt;Physical Significance&lt;/h4&gt;
-&lt;p&gt;The Rosen-Morse potential is significant because it demonstrates the coexistence of bound and scattering states in a single potential framework. Bound states represent localized solutions, while scattering states describe delocalized solutions, highlighting the dual nature of quantum systems depending on the energy of the particle relative to the potential landscape.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SELF" /><summary type="html">In this article we will study:</summary></entry><entry><title type="html">Scattering Revisited</title><link href="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html" rel="alternate" type="text/html" title="Scattering Revisited" /><published>2025-01-01T06:47:26+05:30</published><updated>2025-01-01T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/01/Scattering-Revisited.html">&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/images/Scattering/breit.jpg&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:40%; height:auto;&quot; /&gt;
-&lt;/div&gt;
-&lt;p&gt;In this lecture, we will start by revisiting the basics of quantum scattering, focusing on partial wave analysis and phase shifts. The graph at the top illustrates the Breit-Wigner resonance curve, which we will discuss in detail after exploring resonance scattering and its role in energy-dependent cross-sections.&lt;/p&gt;
-
-&lt;h1 id=&quot;scattering-cross-section&quot;&gt;Scattering Cross-Section&lt;/h1&gt;
-
-&lt;p&gt;The one-dimensional Schrödinger equation for a particle of mass $m$ in a potential $V(x)$ is:&lt;/p&gt;
-
-\[-\frac{\hbar^2}{2m} \frac{d^2\psi}{dx^2} + V(x)\psi = E\psi.\]
-
-&lt;p&gt;The general solution is:&lt;/p&gt;
-
-\[\psi(x) = \begin{cases} 
-Ae^{ikx} + Be^{-ikx}, &amp;amp; E &amp;gt; V \ (\text{plane waves}), \\
-C e^{-\lambda x}, &amp;amp; E &amp;lt; V \ (\text{exponential decay}),
-\end{cases}\]
-
-&lt;p&gt;where $k = \sqrt{2m(E - V) / \hbar^2}$ and $\lambda = \sqrt{2m(V - E) / \hbar^2}$.&lt;/p&gt;
-
-&lt;h2 id=&quot;bound-states&quot;&gt;Bound States&lt;/h2&gt;
-&lt;p&gt;Bound states occur for $E &amp;lt; V$, where wavefunctions decay exponentially:&lt;/p&gt;
-
-\[\psi(x) \sim e^{-\lambda |x|}, \quad E = V - \frac{\hbar^2 \lambda^2}{2m}.\]
-
-&lt;p&gt;Such states have discrete energy levels, a hallmark of quantum systems.&lt;/p&gt;
-
-&lt;h2 id=&quot;scattering-states&quot;&gt;Scattering States&lt;/h2&gt;
-&lt;p&gt;Scattering states arise when $E &amp;gt; V$, allowing free motion:&lt;/p&gt;
-
-\[\psi(x) \sim e^{\pm ikx}.\]
-
-&lt;p&gt;The energy relation is $E = V + \frac{\hbar^2 k^2}{2m}$.&lt;/p&gt;
-
-&lt;h3 id=&quot;scattering-cross-section-1&quot;&gt;Scattering Cross-Section&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/SKMU/assets/img/Quantum/Scattering.jpeg&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For the scattering potential $V(\mathbf{x})$, the total wavefunction at point $p$ is sum of plane wave and spherical wave modulated by factor $f$ due to scattering and is given by:&lt;/p&gt;
-
-\[\psi(\mathbf{x}) = e^{i\mathbf{k \cdot x}} + f(\mathbf{k&apos;,k}) \frac{e^{ikr}}{r}, \text{and}\;r=|\mathbf{x}|\]
-
-&lt;p&gt;where $f(\mathbf{k’,k})$ is the scattering amplitude:&lt;/p&gt;
-
-\[f(\mathbf{k&apos;,k}) = -\frac{1}{4\pi} \int d^3x&apos; e^{-i\mathbf{k&apos; \cdot x&apos;}} V(\mathbf{x&apos;}) \psi(\mathbf{x&apos;}).\]
-
-&lt;p&gt;The &lt;strong&gt;differential cross-section&lt;/strong&gt; is:&lt;/p&gt;
-
-\[\frac{d\sigma}{d\Omega} = |f(\mathbf{k&apos;,k})|^2.\]
-
-&lt;p&gt;The &lt;strong&gt;total cross-section&lt;/strong&gt; integrates over all angles:&lt;/p&gt;
-
-\[\sigma_{\text{total}} = \int \frac{d\sigma}{d\Omega} \, d\Omega.\]
-
-&lt;h3 id=&quot;partial-wave-analysis&quot;&gt;Partial Wave Analysis&lt;/h3&gt;
-&lt;p&gt;Expanding the incident wave in spherical harmonics $Y_{lm}(\theta, \phi)$:&lt;/p&gt;
-
-\[\phi(\mathbf{x}) = e^{i\mathbf{k \cdot x}} = \sum_{l=0}^\infty (2l+1) i^l j_l(kr) P_l(\cos\theta).\]
-
-&lt;p&gt;The differential cross-section becomes:&lt;/p&gt;
-
-\[\frac{d\sigma}{d\Omega} = \left| \frac{1}{k} \sum_{l=0}^\infty (2l+1) e^{i\delta_l} \sin\delta_l P_l(\cos\theta) \right|^2.\]
-
-&lt;p&gt;Here, $\delta_l$ are phase shifts from scattering.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;nuclear-reactions-revisited&quot;&gt;Nuclear Reactions: Revisited&lt;/h1&gt;
-
-&lt;p&gt;Here, we introduce Direct and Compound nuclear reactions to contrast them with Resonance Reactions, which serve as an intermediate between the two.&lt;/p&gt;
-
-&lt;h2 id=&quot;1-direct-reactions&quot;&gt;1. Direct Reactions&lt;/h2&gt;
-&lt;p&gt;Direct reactions occur when the incident particle interacts with the nucleus over a short time, leading to a direct transition between nuclear states. These reactions are characterized by their fast nature and relatively low probability of occurrence.&lt;/p&gt;
-
-&lt;h3 id=&quot;key-features&quot;&gt;Key Features&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Short interaction time&lt;/strong&gt;: The process occurs quickly, typically within $10^{-22}$ seconds.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Small energy transfer&lt;/strong&gt;: The incident particle imparts minimal energy to the nucleus.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Types of direct reactions&lt;/strong&gt;: Elastic scattering, inelastic scattering, transfer reactions, and knockout reactions.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;2-compound-nucleus-reactions&quot;&gt;2. Compound Nucleus Reactions&lt;/h2&gt;
-&lt;p&gt;Compound nucleus reactions occur when the incident particle is fully absorbed by the target nucleus, forming an intermediate, highly excited state. This intermediate state, known as the &lt;strong&gt;compound nucleus&lt;/strong&gt;, subsequently decays into a final configuration.&lt;/p&gt;
-
-&lt;h3 id=&quot;key-features-1&quot;&gt;Key Features&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Formation&lt;/strong&gt;: The compound nucleus is a short-lived, highly excited state, existing for a relatively long timescale ($10^{-16}$ to $10^{-14}$ seconds) compared to direct reactions.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Statistical nature&lt;/strong&gt;: The decay channels exhibit a statistical distribution as the compound nucleus loses all memory of the entrance channel’s specific properties.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;Decay mechanism&lt;/strong&gt;: The decay of the compound nucleus mimics evaporation, where the emitted particle behaves like a droplet evaporating from a heated liquid. The energy distribution of the emitted particles reflects the thermal excitation of the compound nucleus.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Angular distribution&lt;/strong&gt;: The angular distribution of emitted particles is typically flat, reflecting the random nature of the decay process and the lack of memory of the entrance channel’s directionality.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Two-step process&lt;/strong&gt;: The formation and decay of the compound nucleus are independent processes. The compound nucleus achieves equilibrium before decaying, and the final state is uncorrelated with the entrance channel parameters.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;3-resonance-reactions&quot;&gt;3. Resonance Reactions&lt;/h2&gt;
-
-&lt;p&gt;Resonance reactions lie between the extremes of direct reactions and compound nucleus reactions. They involve discrete, quasibound nuclear states in the energy spectrum.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Resonance states&lt;/strong&gt;: Quasibound states with lifetimes long enough to form distinct energy levels, but still unstable against decay.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;High cross-section&lt;/strong&gt;: Resonances exhibit a significantly increased probability of interaction at specific energies.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;formation-of-resonances&quot;&gt;Formation of Resonances&lt;/h4&gt;
-&lt;p&gt;The nuclear potential seen by the incident particle can be approximated by a square-well potential. The wavefunctions inside and outside the well must match smoothly. This matching varies with the incident particle’s energy, leading to the formation of resonances at specific energies. The energy at which the cross-section reaches a maximum is called &lt;strong&gt;Resonance energy ($E_r$)&lt;/strong&gt;. The measure of width of peak shown at the top figure is the &lt;strong&gt;Resonance width ($\Gamma$)&lt;/strong&gt;, which is a measure of the energy uncertainty of a quasibound state, which is inversely proportional to its lifetime ($\tau$), as given by $\tau = \hbar / \Gamma$.&lt;/p&gt;
-
-&lt;h4 id=&quot;phase-shift-analysis&quot;&gt;Phase Shift Analysis&lt;/h4&gt;
-&lt;p&gt;The phase shift $\delta$ of the scattering wavefunction is crucial for understanding resonances:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;A resonance occurs when the phase shift $\delta$ passes through $\pi / 2$.&lt;/li&gt;
-  &lt;li&gt;Near a resonance, the phase shift can be expanded as:
-\(\cot \delta_l = \frac{E - E_r}{\Gamma / 2}\)
-where $l$ denotes the partial wave contributing to the resonance.
-    &lt;h5 id=&quot;detailed-calculations&quot;&gt;Detailed Calculations:&lt;/h5&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The cross section for pure elastic scattering for the $l$th partial wave is&lt;/p&gt;
-
-\[\sigma_\text{el}^l=\int_{\Omega}\frac{d\sigma}{d\Omega}d\Omega = \frac{4\pi}{k^2} (2l + 1) \sin^2 \delta_l = \frac{4\pi}{k^2} (2l + 1) \frac{1}{1 + \cot^2 \delta_l}.\]
-
-&lt;p&gt;This has a maximum when $\delta_l = \pi/2$. For a spinless (there is no intrinsic spin angular momentum) beam and target, the phase can only depend on the invariant mass of the system, i.e., $\delta_l = \delta_l(E)$, where $E = \sqrt{s}$ and $s = (p_1 + p_2)^2$ is the square of the total four-momentum of the system, so the maximum will occur at some energy $E_r$, and we can make an expansion&lt;/p&gt;
-
-\[\sigma_\text{el}^l = \frac{4\pi}{k^2} (2l + 1) \frac{1}{1 + \left[ \cot \delta_l(E_r) + (E - E_r) \left( \frac{d \cot \delta_l(E)}{dE} \right)_{E = E_r} + \dots \right]^2}.\]
-
-&lt;p&gt;In lowest order, noting that $\cot \delta_l(E_r)=0$ we have&lt;/p&gt;
-
-\[\sigma_\text{el}^l = \frac{4\pi}{k^2} (2l + 1) \frac{1}{1 + \left[\frac{ 2(E - E_r) }{\Gamma}\right]^2},\]
-
-&lt;p&gt;where&lt;/p&gt;
-
-\[\frac{2}{\Gamma} \equiv -\left( \frac{d \cot \delta_l(E)}{dE} \right)_{E = E_r}.\]
-
-&lt;p&gt;This is the Breit-Wigner resonance formula for a particle with lifetime $\tau = 1/\Gamma$:&lt;/p&gt;
-
-\[\sigma_\text{el}^l = \frac{4\pi}{k^2} (2l + 1) \frac{\Gamma^2 / 4}{(E - E_r)^2 + \Gamma^2 / 4}.\]
-
-&lt;p&gt;The Breit-Wigner formula is a fundamental expression in nuclear and particle physics, describing the resonant scattering cross-section as a function of energy. It is particularly useful in characterizing systems where a temporary intermediate state, or resonance, dominates the interaction. The formula peaks at the resonance energy $ E_r $, where the cross-section is maximized, and its shape is governed by the resonance width $ \Gamma $, also known as the full width at half maximum (FWHM). This width is inversely proportional to the lifetime of the resonance, providing insights into its stability. The prefactor $ (2l + 1) $ accounts for the contribution of angular momentum $ l $, reflecting the degeneracy of the resonant state. The denominator, $ (E - E_r)^2 + \Gamma^2 / 4 $, determines the characteristic Lorentzian shape of the curve, indicating how the cross-section decreases as energy deviates from $ E_r $. The wave number $ k $ in the prefactor links the cross-section to the momentum of the incoming particle. Widely applicable in areas such as nuclear reactions, particle decay, and quantum scattering, the Breit-Wigner formula provides a quantitative framework to analyze resonant phenomena and extract physical parameters like resonance energy, width, and angular momentum.&lt;/p&gt;
-
-&lt;h3 id=&quot;comparison-of-reaction-mechanisms&quot;&gt;Comparison of Reaction Mechanisms&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Property&lt;/th&gt;
-      &lt;th&gt;Direct Reactions&lt;/th&gt;
-      &lt;th&gt;Compound Nucleus Reactions&lt;/th&gt;
-      &lt;th&gt;Resonance Reactions&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Interaction time&lt;/td&gt;
-      &lt;td&gt;Very short&lt;/td&gt;
-      &lt;td&gt;Relatively long&lt;/td&gt;
-      &lt;td&gt;Intermediate&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Energy transfer&lt;/td&gt;
-      &lt;td&gt;Small&lt;/td&gt;
-      &lt;td&gt;Large&lt;/td&gt;
-      &lt;td&gt;Moderate&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Cross-section behavior&lt;/td&gt;
-      &lt;td&gt;Smooth&lt;/td&gt;
-      &lt;td&gt;Statistical distribution&lt;/td&gt;
-      &lt;td&gt;Sharp peaks at resonances&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Reaction mechanism memory&lt;/td&gt;
-      &lt;td&gt;Retained&lt;/td&gt;
-      &lt;td&gt;Lost&lt;/td&gt;
-      &lt;td&gt;Partially retained&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h4 id=&quot;applications-of-resonance-reactions&quot;&gt;Applications of Resonance Reactions&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Nuclear astrophysics&lt;/strong&gt;: Understanding stellar nucleosynthesis through resonances in light nuclei.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Nuclear structure studies&lt;/strong&gt;: Probing the energy levels and widths of quasibound states.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Reactor physics&lt;/strong&gt;: Utilizing resonance capture in nuclear fuels to control neutron flux.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;difference-between-lorentzian-and-gaussian-curve&quot;&gt;Difference Between Lorentzian and Gaussian Curve&lt;/h1&gt;
-
-&lt;h4 id=&quot;1-mathematical-form&quot;&gt;&lt;strong&gt;1. Mathematical Form&lt;/strong&gt;&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Gaussian Curve&lt;/strong&gt;:
-\(G(x) = A e^{-\frac{(x - x_0)^2}{2\sigma^2}}\)
-    &lt;ul&gt;
-      &lt;li&gt;$A$: Amplitude (peak height).&lt;/li&gt;
-      &lt;li&gt;$x_0$: Center (mean of the distribution).&lt;/li&gt;
-      &lt;li&gt;$\sigma$: Standard deviation (width of the curve).&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Lorentzian Curve&lt;/strong&gt;:
-\(L(x) = \frac{A}{\pi} \frac{\gamma}{(x - x_0)^2 + \gamma^2}\)
-    &lt;ul&gt;
-      &lt;li&gt;$A$: Amplitude.&lt;/li&gt;
-      &lt;li&gt;$x_0$: Center (position of the peak).&lt;/li&gt;
-      &lt;li&gt;$\gamma$: Half-width at half-maximum (HWHM).&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;2-shape&quot;&gt;&lt;strong&gt;2. Shape&lt;/strong&gt;&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Gaussian&lt;/strong&gt;:
-    &lt;ul&gt;
-      &lt;li&gt;Symmetric bell-shaped curve.&lt;/li&gt;
-      &lt;li&gt;Decays rapidly as $x$ moves away from $x_0$ (exponential decay).&lt;/li&gt;
-      &lt;li&gt;Width determined by $\sigma$; tails are narrow.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Lorentzian&lt;/strong&gt;:
-    &lt;ul&gt;
-      &lt;li&gt;Symmetric, but has broader and longer tails compared to Gaussian.&lt;/li&gt;
-      &lt;li&gt;Decays more slowly (as $1/x^2$) far from the peak.&lt;/li&gt;
-      &lt;li&gt;Width determined by $\gamma$.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;3-applications&quot;&gt;&lt;strong&gt;3. Applications&lt;/strong&gt;&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Gaussian&lt;/strong&gt;:
-    &lt;ul&gt;
-      &lt;li&gt;Common in statistics for describing normal distributions.&lt;/li&gt;
-      &lt;li&gt;Used in signal processing, optics, and quantum mechanics (e.g., wave packets).&lt;/li&gt;
-      &lt;li&gt;Describes random noise and natural phenomena.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Lorentzian&lt;/strong&gt;:
-    &lt;ul&gt;
-      &lt;li&gt;Used to model resonance phenomena in physics (e.g., spectral lines, nuclear magnetic resonance).&lt;/li&gt;
-      &lt;li&gt;Represents the shape of a resonance peak where damping is significant.&lt;/li&gt;
-      &lt;li&gt;Describes systems with a sharp central peak and long-range influence.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;4-key-differences&quot;&gt;&lt;strong&gt;4. Key Differences&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Feature&lt;/th&gt;
-      &lt;th&gt;Gaussian Curve&lt;/th&gt;
-      &lt;th&gt;Lorentzian Curve&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Decay Rate&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Rapid (exponential decay).&lt;/td&gt;
-      &lt;td&gt;Slow (power-law decay).&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Tails&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Narrow, negligible at far distances.&lt;/td&gt;
-      &lt;td&gt;Broad, significant far from the center.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Peak Shape&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Rounded.&lt;/td&gt;
-      &lt;td&gt;Sharper and taller.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Normalization&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Normalized over all space.&lt;/td&gt;
-      &lt;td&gt;Peak is proportional to $1/\pi\gamma$.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Example Uses&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Random processes, noise, diffusion.&lt;/td&gt;
-      &lt;td&gt;Resonance, spectroscopy, optics.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">In this lecture, we will start by revisiting the basics of quantum scattering, focusing on partial wave analysis and phase shifts. The graph at the top illustrates the Breit-Wigner resonance curve, which we will discuss in detail after exploring resonance scattering and its role in energy-dependent cross-sections.</summary></entry></feed>
+&lt;p&gt;The Rosen-Morse potential is significant because it demonstrates the coexistence of bound and scattering states in a single potential framework. Bound states represent localized solutions, while scattering states describe delocalized solutions, highlighting the dual nature of quantum systems depending on the energy of the particle relative to the potential landscape.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SELF" /><summary type="html">In this article we will study:</summary></entry></feed>
