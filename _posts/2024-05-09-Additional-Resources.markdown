@@ -5,6 +5,10 @@ date:   2024-05-09 10:47:26 +0530
 categories: lecture
 tags: Additional-Resources
 ---
+
+[PG Sem-I](/SKMU/assets/Syllabus/msc-I.pdf)
+
+---
 Supplementary resources for the course are provided below. These resources include textbooks, research papers, and other materials that may be of interest to students.
 
 - [Nine Formulation Of Quantum Mechanics -Daniel F. Styer](/SKMU/assets/pdf/None-Formulation-QM.pdf)
@@ -49,4 +53,5 @@ Supplementary resources for the course are provided below. These resources inclu
 - [Handbook Of Physics Formulas](/SKMU/assets/pdf/The-Cambridge-Handbook-of-Physics-Formulas.pdf)
 
 - [Particle Physics](/SKMU/assets/pdf/Particle-Physics.pdfX)
+
 
