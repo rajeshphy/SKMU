@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-09T14:15:09+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Classical Mechanics</title><link href="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html" rel="alternate" type="text/html" title="Classical Mechanics" /><published>2025-04-03T07:47:26+05:30</published><updated>2025-04-03T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html">&lt;h2 id=&quot;dalemberts-principle-lagranges-equation-and-its-simple-applications&quot;&gt;D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-09T15:01:15+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Classical Mechanics</title><link href="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html" rel="alternate" type="text/html" title="Classical Mechanics" /><published>2025-04-03T07:47:26+05:30</published><updated>2025-04-03T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html">&lt;h2 id=&quot;dalemberts-principle-lagranges-equation-and-its-simple-applications&quot;&gt;D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications&lt;/h2&gt;
 
 &lt;h4 id=&quot;1-dalemberts-principle&quot;&gt;1. D’Alembert’s Principle&lt;/h4&gt;
 
@@ -1689,193 +1689,264 @@ Iteration: 5
     &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python hello.py
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Python is a high-level, interpreted programming language known for its simplicity and readability. It is widely used in various domains such as web development, data science, artificial intelligence, automation, and more. Python’s syntax is designed to be easy to learn, making it an excellent choice for beginners.</summary></entry><entry><title type="html">II. Evolution of Programming</title><link href="http://localhost:4000/SKMU/lecture/2025/03/19/evolution.html" rel="alternate" type="text/html" title="II. Evolution of Programming" /><published>2025-03-19T07:47:26+05:30</published><updated>2025-03-19T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/19/evolution</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/19/evolution.html">&lt;p&gt;Programming is like giving step-by-step instructions to a computer to perform a task. Over time, different methods have been developed to make programming easier and more organized. These methods include:&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Python is a high-level, interpreted programming language known for its simplicity and readability. It is widely used in various domains such as web development, data science, artificial intelligence, automation, and more. Python’s syntax is designed to be easy to learn, making it an excellent choice for beginners.</summary></entry><entry><title type="html">II. Evolution of Programming</title><link href="http://localhost:4000/SKMU/lecture/2025/03/19/evolution.html" rel="alternate" type="text/html" title="II. Evolution of Programming" /><published>2025-03-19T07:47:26+05:30</published><updated>2025-03-19T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/19/evolution</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/19/evolution.html">&lt;blockquote&gt;
+  &lt;p&gt;“Programming is the art of instructing machines in the language of logic and creativity.”&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Procedural Programming&lt;/strong&gt; – Writing code as a list of instructions.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Structured Programming&lt;/strong&gt; – Organizing code using loops and conditions.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Modular Programming&lt;/strong&gt; – Dividing the program into smaller parts (modules).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Object-Oriented Programming (OOP)&lt;/strong&gt; – Organizing code around real-world objects.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Let’s understand these one by one.&lt;/p&gt;
+&lt;p&gt;Programming lies at the heart of modern technology. From smartphones to scientific simulations, programming tells machines what to do. But how did it evolve, and what do you need to understand about its present and future?&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;1-procedural-programming-step-by-step-instructions&quot;&gt;&lt;strong&gt;1. Procedural Programming (Step-by-Step Instructions)&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;1-what-is-programming&quot;&gt;1. What is Programming?&lt;/h2&gt;
+&lt;p&gt;Programming is the process of writing instructions for a computer to perform specific tasks. Think of it as giving step-by-step directions to a highly obedient machine.&lt;/p&gt;
 
-&lt;h3 id=&quot;what-is-it&quot;&gt;&lt;strong&gt;What is it?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Procedural programming follows a &lt;strong&gt;top-down approach&lt;/strong&gt;, where a program is written as a sequence of instructions that run from start to finish.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-does-it-work&quot;&gt;&lt;strong&gt;How does it work?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Today, programming powers:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;The program is divided into &lt;strong&gt;functions&lt;/strong&gt; (blocks of code that perform specific tasks).&lt;/li&gt;
-  &lt;li&gt;Data and functions are &lt;strong&gt;kept separate&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;Focus is on &lt;strong&gt;how the task is done&lt;/strong&gt; rather than the data being used.&lt;/li&gt;
+  &lt;li&gt;Mobile apps and websites&lt;/li&gt;
+  &lt;li&gt;Scientific simulations&lt;/li&gt;
+  &lt;li&gt;Artificial Intelligence (AI)&lt;/li&gt;
+  &lt;li&gt;Cloud platforms and IoT devices&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;example-making-tea-recipe-as-a-program&quot;&gt;&lt;strong&gt;Example (Making Tea Recipe as a Program)&lt;/strong&gt;&lt;/h3&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. Boil water.
-2. Add tea leaves.
-3. Add milk and sugar.
-4. Stir and serve.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;advantages&quot;&gt;&lt;strong&gt;Advantages:&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;✔ Simple and easy to write.&lt;br /&gt;
-✔ Works well for small programs.&lt;br /&gt;
-✔ Uses less memory.&lt;/p&gt;
-
-&lt;h3 id=&quot;disadvantages&quot;&gt;&lt;strong&gt;Disadvantages:&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;✘ Difficult to manage large programs.&lt;br /&gt;
-✘ If data changes, functions need to be updated separately.&lt;/p&gt;
-
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;2-structured-programming-using-blocks-for-clarity&quot;&gt;&lt;strong&gt;2. Structured Programming (Using Blocks for Clarity)&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;2-why-programming-evolves&quot;&gt;2. Why Programming Evolves&lt;/h2&gt;
 
-&lt;h3 id=&quot;what-is-it-1&quot;&gt;&lt;strong&gt;What is it?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Structured programming improves procedural programming by organizing code into &lt;strong&gt;blocks&lt;/strong&gt; using loops and conditions.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-does-it-work-1&quot;&gt;&lt;strong&gt;How does it work?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Like languages evolve for better expression, programming evolves to:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Uses &lt;strong&gt;loops&lt;/strong&gt; (repeat actions) and &lt;strong&gt;if-else conditions&lt;/strong&gt; (make decisions).&lt;/li&gt;
-  &lt;li&gt;No use of &lt;strong&gt;goto statements&lt;/strong&gt; (which cause confusion).&lt;/li&gt;
-  &lt;li&gt;More readable and easier to manage.&lt;/li&gt;
+  &lt;li&gt;Solve complex problems efficiently&lt;/li&gt;
+  &lt;li&gt;Make development faster and error-free&lt;/li&gt;
+  &lt;li&gt;Use modern hardware like multi-core processors&lt;/li&gt;
+  &lt;li&gt;Support AI, data science, robotics, and more&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;example-decision-making-in-structured-programming&quot;&gt;&lt;strong&gt;Example (Decision Making in Structured Programming)&lt;/strong&gt;&lt;/h3&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;If the water is boiling:
-   Add tea leaves.
-Else:
-   Wait for the water to boil.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;advantages-1&quot;&gt;&lt;strong&gt;Advantages:&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;✔ Easy to understand and debug.&lt;br /&gt;
-✔ Reduces errors and makes code cleaner.&lt;br /&gt;
-✔ Works well for medium-sized programs.&lt;/p&gt;
-
-&lt;h3 id=&quot;disadvantages-1&quot;&gt;&lt;strong&gt;Disadvantages:&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;✘ Still lacks proper data organization.&lt;br /&gt;
-✘ Harder to manage large applications.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;3-modular-programming-breaking-code-into-small-parts&quot;&gt;&lt;strong&gt;3. Modular Programming (Breaking Code into Small Parts)&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;what-is-it-2&quot;&gt;&lt;strong&gt;What is it?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Modular programming takes structured programming further by dividing a program into &lt;strong&gt;independent modules&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-does-it-work-2&quot;&gt;&lt;strong&gt;How does it work?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;It aligns with global standards such as:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Each &lt;strong&gt;module&lt;/strong&gt; is responsible for a specific task.&lt;/li&gt;
-  &lt;li&gt;Modules can be &lt;strong&gt;reused&lt;/strong&gt; in different programs.&lt;/li&gt;
-  &lt;li&gt;Data related to a module is stored within it.&lt;/li&gt;
+  &lt;li&gt;IEEE/ISO Software Engineering standards&lt;/li&gt;
+  &lt;li&gt;Free Software Foundation and Open Source movements&lt;/li&gt;
+  &lt;li&gt;Industry-specific guidelines (e.g., NASA coding standards)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;example-making-a-meal-using-modules&quot;&gt;&lt;strong&gt;Example (Making a Meal Using Modules)&lt;/strong&gt;&lt;/h3&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Module 1: Make Tea
-Module 2: Make Sandwich
-Module 3: Serve the Meal
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr /&gt;
 
-&lt;h3 id=&quot;advantages-2&quot;&gt;&lt;strong&gt;Advantages:&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;✔ Easier to manage and organize large programs.&lt;br /&gt;
-✔ Promotes code &lt;strong&gt;reusability&lt;/strong&gt;.&lt;br /&gt;
-✔ Reduces repetition of code.&lt;/p&gt;
+&lt;h2 id=&quot;3-key-milestones-in-programming&quot;&gt;3. Key Milestones in Programming&lt;/h2&gt;
 
-&lt;h3 id=&quot;disadvantages-2&quot;&gt;&lt;strong&gt;Disadvantages:&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;✘ Requires careful planning.&lt;br /&gt;
-✘ Managing dependencies between modules can be difficult.&lt;/p&gt;
+&lt;h3 id=&quot;-procedural-programming&quot;&gt;🧱 Procedural Programming&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;How it works:&lt;/strong&gt; Instructions are given step-by-step like a recipe.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; C, BASIC, Fortran&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use Cases:&lt;/strong&gt; Early operating systems, calculators&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;4-object-oriented-programming-oop--the-latest-approach&quot;&gt;&lt;strong&gt;4. Object-Oriented Programming (OOP) – The Latest Approach&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;-structured-programming&quot;&gt;📚 Structured Programming&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Why it improved things:&lt;/strong&gt;
+Introduced logic controls (loops, conditionals) and removed confusing instructions like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;goto&lt;/code&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;what-is-it-3&quot;&gt;&lt;strong&gt;What is it?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;OOP organizes programs around &lt;strong&gt;objects&lt;/strong&gt; (things) rather than actions. It is based on &lt;strong&gt;real-world concepts&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; C, ALGOL, Ada&lt;/p&gt;
 
-&lt;h3 id=&quot;how-does-it-work-3&quot;&gt;&lt;strong&gt;How does it work?&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Encapsulation&lt;/strong&gt;: Keeps data safe inside objects.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Abstraction&lt;/strong&gt;: Hides unnecessary details.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Inheritance&lt;/strong&gt;: Lets new objects inherit properties from old ones.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Polymorphism&lt;/strong&gt;: Allows objects to behave in different ways.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;example-oop-in-simple-terms--car-as-an-object&quot;&gt;&lt;strong&gt;Example (OOP in Simple Terms – Car as an Object)&lt;/strong&gt;&lt;/h3&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Car Object:
-  - Properties: Color, Brand, Speed
-  - Actions: Drive, Brake, Honk
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;advantages-3&quot;&gt;&lt;strong&gt;Advantages:&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;✔ Best for &lt;strong&gt;large and complex&lt;/strong&gt; programs.&lt;br /&gt;
-✔ Promotes &lt;strong&gt;reusability and security&lt;/strong&gt;.&lt;br /&gt;
-✔ Makes programming more like the &lt;strong&gt;real world&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;disadvantages-3&quot;&gt;&lt;strong&gt;Disadvantages:&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;✘ Takes time to learn.&lt;br /&gt;
-✘ Uses more memory.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Use Cases:&lt;/strong&gt; System-level programming, early simulations&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;comparison-table&quot;&gt;&lt;strong&gt;Comparison Table&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;-modular-programming&quot;&gt;🔧 Modular Programming&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;What changed:&lt;/strong&gt;
+Code was divided into smaller pieces or “modules”. Each module does one job.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Modula-2, Python (modules), Java&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use Cases:&lt;/strong&gt; Libraries, medium-to-large apps&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-object-oriented-programming-oop&quot;&gt;🧱 Object-Oriented Programming (OOP)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Core idea:&lt;/strong&gt; Model software after the real world using “objects” (data + behavior).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pillars:&lt;/strong&gt; Encapsulation, Inheritance, Polymorphism, Abstraction&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Java, Python, C++, Swift&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use Cases:&lt;/strong&gt; Web applications, GUIs, simulations, games&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-functional-programming&quot;&gt;🧠 Functional Programming&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;New concept:&lt;/strong&gt; No side effects. Think mathematically. Functions = logic.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Haskell, Scala, Elixir&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use Cases:&lt;/strong&gt; Concurrent systems, AI, blockchain&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-declarative-programming&quot;&gt;📜 Declarative Programming&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Idea:&lt;/strong&gt; Just say &lt;em&gt;what&lt;/em&gt; you want, not &lt;em&gt;how&lt;/em&gt; to do it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; SQL (databases), HTML/CSS (web design), Prolog (logic)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use Cases:&lt;/strong&gt; Web pages, queries, automation tools&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-parallel--concurrent-programming&quot;&gt;🚀 Parallel &amp;amp; Concurrent Programming&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Why it’s needed:&lt;/strong&gt;
+Modern CPUs have many cores. Parallelism uses them all efficiently.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tools:&lt;/strong&gt; OpenMP, CUDA, Go, Rust, Erlang&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use Cases:&lt;/strong&gt; Simulations, video rendering, server handling&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;4-tools-for-scientists-and-engineers&quot;&gt;4. Tools for Scientists and Engineers&lt;/h2&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Feature&lt;/th&gt;
-      &lt;th&gt;Procedural&lt;/th&gt;
-      &lt;th&gt;Structured&lt;/th&gt;
-      &lt;th&gt;Modular&lt;/th&gt;
-      &lt;th&gt;Object-Oriented&lt;/th&gt;
+      &lt;th&gt;Tool&lt;/th&gt;
+      &lt;th&gt;Type&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Concept&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Step-by-step execution&lt;/td&gt;
-      &lt;td&gt;Uses loops and conditions&lt;/td&gt;
-      &lt;td&gt;Uses independent modules&lt;/td&gt;
-      &lt;td&gt;Uses objects&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;MATLAB&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Commercial&lt;/td&gt;
+      &lt;td&gt;Widely used for matrix math, signal processing&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Code Reusability&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Low&lt;/td&gt;
-      &lt;td&gt;Moderate&lt;/td&gt;
-      &lt;td&gt;High&lt;/td&gt;
-      &lt;td&gt;Very High&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Mathematica&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Commercial&lt;/td&gt;
+      &lt;td&gt;Symbolic algebra, calculus, advanced visualization&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Data Handling&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Separate from functions&lt;/td&gt;
-      &lt;td&gt;Still separate&lt;/td&gt;
-      &lt;td&gt;Kept inside modules&lt;/td&gt;
-      &lt;td&gt;Kept inside objects&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Maple&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Commercial&lt;/td&gt;
+      &lt;td&gt;Algebra-focused symbolic computing&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Best For&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Small programs&lt;/td&gt;
-      &lt;td&gt;Medium-sized programs&lt;/td&gt;
-      &lt;td&gt;Large programs&lt;/td&gt;
-      &lt;td&gt;Very large and complex applications&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Mathcad&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Commercial&lt;/td&gt;
+      &lt;td&gt;Engineering-focused documentation and math&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;GNU Octave&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Open-source&lt;/td&gt;
+      &lt;td&gt;Free MATLAB alternative&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;SageMath&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Open-source&lt;/td&gt;
+      &lt;td&gt;Python-based, combines many math tools&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Scilab&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Open-source&lt;/td&gt;
+      &lt;td&gt;Engineering math and visualization&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;These tools are used in academia, research labs, and engineering industries.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;5-modern-general-purpose-programming-languages&quot;&gt;5. Modern General-Purpose Programming Languages&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Language&lt;/th&gt;
+      &lt;th&gt;Best For&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Python&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Data science, education, AI&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Mojo&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;AI model development at scale&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Julia&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Fast numerical/scientific computing&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Rust&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Safe systems programming&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Go&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Scalable network services&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Swift&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;iOS/macOS development&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Kotlin&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Android &amp;amp; multiplatform apps&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Dart&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Cross-platform UI (via Flutter)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;R&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Data analysis &amp;amp; visualization&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;TypeScript&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Safe JavaScript for large apps&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;conclusion&quot;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Procedural Programming&lt;/strong&gt; is good for small tasks like calculators.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Structured Programming&lt;/strong&gt; makes code clearer using loops and conditions.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Modular Programming&lt;/strong&gt; is useful for big projects with reusable parts.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Object-Oriented Programming (OOP)&lt;/strong&gt; is the best for real-world applications like &lt;strong&gt;mobile apps, games, and web applications&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&quot;6-how-to-choose-a-programming-language&quot;&gt;6. How to Choose a Programming Language&lt;/h2&gt;
 
-&lt;p&gt;Thus, &lt;strong&gt;OOP is the latest and most powerful approach&lt;/strong&gt; used in modern software development!&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Programming is like giving step-by-step instructions to a computer to perform a task. Over time, different methods have been developed to make programming easier and more organized. These methods include:</summary></entry><entry><title type="html">I. Windows: Basics of Command Prompt</title><link href="http://localhost:4000/SKMU/lecture/2025/03/18/cmd-basics.html" rel="alternate" type="text/html" title="I. Windows: Basics of Command Prompt" /><published>2025-03-18T07:47:26+05:30</published><updated>2025-03-18T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/18/cmd-basics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/18/cmd-basics.html">&lt;p&gt;The &lt;strong&gt;Command Prompt&lt;/strong&gt; (cmd.exe) is a command-line interpreter in Windows that allows users to execute commands, run scripts, and perform administrative tasks.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Goal&lt;/th&gt;
+      &lt;th&gt;Recommended Tools/Languages&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Education &amp;amp; Basics&lt;/td&gt;
+      &lt;td&gt;Python, Scratch, BASIC&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Web Development&lt;/td&gt;
+      &lt;td&gt;HTML, CSS, JavaScript, TypeScript&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Data Science &amp;amp; AI&lt;/td&gt;
+      &lt;td&gt;Python, Mojo, R, Julia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scientific Simulations&lt;/td&gt;
+      &lt;td&gt;Julia, MATLAB, Mathematica&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Mobile App Development&lt;/td&gt;
+      &lt;td&gt;Kotlin (Android), Swift (iOS), Dart (Flutter)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Systems Programming&lt;/td&gt;
+      &lt;td&gt;Rust, C, C++&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scripting &amp;amp; Automation&lt;/td&gt;
+      &lt;td&gt;Python, Bash, PowerShell&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">“Programming is the art of instructing machines in the language of logic and creativity.”</summary></entry><entry><title type="html">I. Windows: Basics of Command Prompt</title><link href="http://localhost:4000/SKMU/lecture/2025/03/18/cmd-basics.html" rel="alternate" type="text/html" title="I. Windows: Basics of Command Prompt" /><published>2025-03-18T07:47:26+05:30</published><updated>2025-03-18T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/18/cmd-basics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/18/cmd-basics.html">&lt;p&gt;The &lt;strong&gt;Command Prompt&lt;/strong&gt; (cmd.exe) is a command-line interpreter in Windows that allows users to execute commands, run scripts, and perform administrative tasks.&lt;/p&gt;
 
 &lt;h2 id=&quot;how-to-open-command-prompt&quot;&gt;How to Open Command Prompt&lt;/h2&gt;
 &lt;ol&gt;
