@@ -8,11 +8,11 @@ tags: SEM-I
 
 ## D'Alembert's Principle, Lagrange's Equation and Its Simple Applications
 
-### 1. D'Alembert's Principle
+#### 1. D'Alembert's Principle
 
 D'Alembert's principle is a fundamental concept in classical mechanics that provides an alternative formulation of Newton's second law by incorporating the concept of virtual work. It states that the sum of the differences between the applied forces and the inertial forces (also called the generalized forces) acting on a system in equilibrium is zero when projected along any virtual displacement.
 
-#### 1.1 Mathematical Formulation
+##### 1.1 Mathematical Formulation
 
 Consider a system of $$ N $$ particles, where each particle has mass $$ m_i $$, position vector $$ \mathbf{r}_i $$, and is subject to an external force $$ \mathbf{F}_i $$. Newton’s second law states:
 
@@ -32,11 +32,11 @@ $$ \sum_{i=1}^{N} (\mathbf{F}_i^{(a)} - m_i \ddot{\mathbf{r}}_i) \cdot \delta \m
 
 where $$ \mathbf{F}_i^{(a)} $$ represents the applied forces excluding constraint forces.
 
-### 2. Lagrange’s Equation
+#### 2. Lagrange’s Equation
 
 Lagrange’s equation is derived using D'Alembert’s principle and is particularly useful in dealing with systems having constraints.
 
-#### 2.1 Generalized Coordinates
+##### 2.1 Generalized Coordinates
 
 A system with $$ N $$ particles and $$ k $$ constraint equations can be described using a reduced set of **generalized coordinates**:
 
@@ -52,7 +52,7 @@ $$ \delta \mathbf{r}_i = \sum_{j=1}^{n} \frac{\partial \mathbf{r}_i}{\partial q_
 
 Using these transformations, D’Alembert’s principle can be rewritten in terms of generalized coordinates.
 
-#### 2.2 Derivation of Lagrange’s Equation
+##### 2.2 Derivation of Lagrange’s Equation
 
 <div style="text-align: center;">
   <a href="/SKMU/assets/pdf/Lagrange.pdf" target="_blank">
@@ -63,9 +63,9 @@ Using these transformations, D’Alembert’s principle can be rewritten in term
 </div>
 <br>
 
-### 3. Simple Applications of Lagrange’s Equations
+#### 3. Simple Applications of Lagrange’s Equations
 
-#### 3.1 Simple Pendulum
+##### 3.1 Simple Pendulum
 
 A simple pendulum consists of a mass $$ m $$ attached to a string of length $$ l $$. The generalized coordinate is the angular displacement $$ \theta $$.
 
@@ -77,13 +77,13 @@ A simple pendulum consists of a mass $$ m $$ attached to a string of length $$ l
 </div>
 
 
-#### 🔹 Coordinates
+##### 🔹 Coordinates
 Use angle $$ \theta $$ as generalized coordinate.
 
 - Position: $$ x = \ell \sin \theta, \quad y = -\ell \cos \theta $$
 - Velocity: $$ v^2 = \ell^2 \dot{\theta}^2 $$
 
-#### 🔹 Energy
+##### 🔹 Energy
 
 
 - Kinetic Energy:
@@ -93,7 +93,7 @@ Use angle $$ \theta $$ as generalized coordinate.
   $$ V = -mgl \cos \theta $$
 
 
-#### 🔹 Lagrangian
+##### 🔹 Lagrangian
 
 $$
 L = T - V = \frac{1}{2} m \ell^2 \dot{\theta}^2 - m g \ell (1 - \cos \theta)
@@ -111,7 +111,7 @@ $$
 \Rightarrow \boxed{ \ddot{\theta} + \frac{g}{\ell} \sin \theta = 0 }
 $$
 
-#### 3.2 Bead on a Rotating Hoop
+##### 3.2 Bead on a Rotating Hoop
 
 A bead of mass $$ m $$ moves on a hoop of radius $$ R $$ that rotates with a constant angular velocity $$ \omega $$.
 
@@ -152,7 +152,7 @@ which governs the motion of the bead on the rotating hoop.
 
 Hamilton’s principle is a reformulation of classical mechanics that provides a powerful and elegant approach to deriving the equations of motion. It is also known as the **principle of stationary action**.
 
-### 🔹 Statement of Hamilton’s Principle
+#### 🔹 Statement of Hamilton’s Principle
 
 > The actual path taken by a physical system between two configurations at fixed times $$ t_1 $$ and $$ t_2 $$ is such that the **action integral** is **stationary** (usually a minimum).
 
@@ -169,7 +169,7 @@ $$
 
 The calculus of variations deals with finding functions that make a **functional** stationary.
 
-### 🔹 2.1 Functional Form
+#### 🔹 2.1 Functional Form
 
 A functional is an integral of the form:
 $$
@@ -177,7 +177,7 @@ J[y] = \int_{x_1}^{x_2} f(y, y', x)\, dx
 $$
 The goal is to find the function $$ y(x) $$ such that $$ J[y] $$ is stationary.
 
-### 🔹 2.2 Euler-Lagrange Equation (Core Result)
+#### 🔹 2.2 Euler-Lagrange Equation (Core Result)
 
 If $$ y(x) $$ gives an extremum to $$ J[y] $$, then it must satisfy:
 $$
@@ -186,7 +186,7 @@ $$
 
 ---
 
-### 🧠 Example 1: Shortest Path Between Two Points
+#### 🧠 Example 1: Shortest Path Between Two Points
 
 Let’s find the shortest path between two points $$ A(x_1, y_1) $$ and $$ B(x_2, y_2) $$.
 
@@ -222,7 +222,7 @@ $$
 
 ## 📘 3. Deriving Lagrange's Equation Using Hamilton's Principle
 
-### 🔹 3.1 Setup
+#### 🔹 3.1 Setup
 
 Let the system have $$ n $$ generalized coordinates $$ q_1, q_2, ..., q_n $$. The Lagrangian is $$ L(q_i, \dot{q}_i, t) $$.
 
@@ -258,16 +258,279 @@ $$
 
 Since $$ \delta q_i $$ are arbitrary, for $$ \delta S = 0 $$, the integrand must vanish:
 
-### ✅ Final Result: **Lagrange’s Equations**
+#### ✅ Final Result: **Lagrange’s Equations**
 $$
 \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}_i} \right) - \frac{\partial L}{\partial q_i} = 0, \quad i = 1, 2, \dots, n
 $$
 
 ---
+---
+# Conservation Theorems, Symmetry, Hamilton’s Equations, and Least Action Principle
+
+---
+---
+
+## 📘 1. Conservation Theorems and Symmetry Properties
+
+In Lagrangian and Hamiltonian mechanics, **symmetries** of a system lead to corresponding **conservation laws**.
+
+This deep connection is formally stated in **Noether’s theorem**.
+
+
+#### 🔹 1.1 Noether’s Theorem (Statement)
+
+> If the Lagrangian is invariant under a continuous transformation, there exists a corresponding conserved quantity.
+
+#### 🔹 1.2 Common Symmetries and Conservation Laws
+
+| Symmetry Type              | Conserved Quantity        |
+|----------------------------|---------------------------|
+| Time translation invariance| Energy                    |
+| Spatial translation        | Linear momentum           |
+| Rotational invariance      | Angular momentum          |
+
+#### 🧠 Example: Particle in Central Force Field
+
+Let a particle move under a central potential $$ V(r) $$.
+
+- Lagrangian: $$ L = \frac{1}{2} m (\dot{r}^2 + r^2 \dot{\theta}^2) - V(r) $$
+- $$ \theta $$ is cyclic: $$ \partial L / \partial \theta = 0 $$
+- ⇒ Angular momentum $$ p_\theta = \frac{\partial L}{\partial \dot{\theta}} = m r^2 \dot{\theta} $$ is **conserved**
+
+
+## 📘 2. Hamilton’s Equations of Motion
+
+Hamiltonian formulation is an alternative to Lagrangian mechanics and is especially useful in advanced physics.
+
+
+
+#### 🔹 2.1 Definition of the Hamiltonian
+
+For a system with Lagrangian $$ L(q_i, \dot{q}_i, t) $$, define the **generalized momenta**:
+$$
+p_i = \frac{\partial L}{\partial \dot{q}_i}
+$$
+
+Then the **Hamiltonian** is:
+$$
+H(q_i, p_i, t) = \sum_i p_i \dot{q}_i - L
+$$
+
+
+#### 🔹 2.2 Hamilton's Canonical Equations
+
+From the total differential $$ dH $$, we get:
+
+$$
+\boxed{
+\begin{aligned}
+\dot{q}_i &= \frac{\partial H}{\partial p_i} \\
+\dot{p}_i &= -\frac{\partial H}{\partial q_i}
+\end{aligned}
+}
+$$
+
+These are **Hamilton’s equations of motion**.
+
+
+#### 🧠 Example: Simple Harmonic Oscillator
+
+Lagrangian:
+$$
+L = \frac{1}{2} m \dot{x}^2 - \frac{1}{2} k x^2
+$$
+
+Generalized momentum:
+$$
+p = \frac{\partial L}{\partial \dot{x}} = m \dot{x}
+\Rightarrow \dot{x} = \frac{p}{m}
+$$
+
+Hamiltonian:
+$$
+H = p \dot{x} - L = \frac{p^2}{2m} + \frac{1}{2} k x^2
+$$
+
+Hamilton’s equations:
+$$
+\dot{x} = \frac{\partial H}{\partial p} = \frac{p}{m}, \quad
+\dot{p} = -\frac{\partial H}{\partial x} = -k x
+$$
+
+⇒ Same equations as from Newton’s second law.
+
+
+
+## 📘 3. Principle of Least Action
+
+#### 🔹 3.1 What is Action?
+
+Action is defined as:
+$$
+S = \int_{t_1}^{t_2} L(q_i, \dot{q}_i, t) \, dt
+$$
+
+#### 🔹 3.2 Principle of Least Action
+
+> The path taken by the system between two points in configuration space is the one that **minimizes** (or makes stationary) the action $$ S $$.
+
+This principle is equivalent to Hamilton’s principle:
+$$
+\delta S = 0
+$$
+
+It leads directly to the **Euler-Lagrange equations**, i.e., **Lagrange’s equations**:
+$$
+\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}_i} \right) - \frac{\partial L}{\partial q_i} = 0
+$$
+
+
+## 🧠 Example: Free Particle in One Dimension
+
+- Lagrangian: $$ L = \frac{1}{2} m \dot{x}^2 $$
+- Action: $$ S = \int_{t_1}^{t_2} \frac{1}{2} m \dot{x}^2 \, dt $$
+
+Using the calculus of variations, the path that minimizes $$ S $$ satisfies:
+$$
+\frac{d}{dt} \left( m \dot{x} \right) = 0 \Rightarrow \ddot{x} = 0
+\Rightarrow x(t) = At + B
+$$
+
+✅ The path is a straight line — consistent with Newton’s first law.
+
+
+## 📘 4. Take Home Message
+
+| Concept                    | Key Idea                                                        |
+|---------------------------|------------------------------------------------------------------|
+| Noether's Theorem         | Symmetries ⇒ Conservation laws                                   |
+| Hamilton's Equations      | 1st-order equations in $$ q_i, p_i $$; derived from Hamiltonian  |
+| Principle of Least Action | System follows path that makes action stationary                |
+
+---
+
+#### 🔍 Difference between Hamilton’s Principle and Principle of Least Action
+
+| Aspect                        | Hamilton’s Principle                                       | Principle of Least Action                              |
+|------------------------------|------------------------------------------------------------|--------------------------------------------------------|
+| 🔹 Definition                | States that the action integral is **stationary** (δS = 0) | States that action is **minimized** (least possible S) |
+| 🔹 Type of extremum         | Can be **minimum, maximum, or saddle point**              | Specifically implies a **minimum**                    |
+| 🔹 Generality                | More general – applies even when action is not minimum     | Special case of Hamilton’s principle                  |
+| 🔹 Mathematical Formulation | $$ \delta S = 0 $$                                         | $$ S = \min \int L \, dt $$                            |
+| 🔹 Physical Use             | Used to derive Lagrange’s equations                        | Used primarily in heuristic arguments                 |
+
+✅ **Note**: In most practical physical systems, the action is **minimized**, so the two are often used interchangeably. However, **Hamilton’s principle is more general**.
+
+---
+---
+
+# Hamilton–Jacobi Equation and Application to Harmonic Oscillator
+
+---
+
+## 🔹 1. Introduction to Hamilton–Jacobi Theory
+
+Hamilton–Jacobi theory provides a powerful **analytical method** for solving mechanical problems. It reformulates classical mechanics into a **first-order partial differential equation (PDE)**.
+
+
+## 🔹 2. The Hamilton–Jacobi Equation
+
+Given a Hamiltonian $$ H(q_i, p_i, t) $$, the **Hamilton–Jacobi equation (HJE)** is:
+
+$$
+\boxed{
+H \left(q_i, \frac{\partial S}{\partial q_i}, t \right) + \frac{\partial S}{\partial t} = 0
+}
+$$
+
+Here, $$ S(q_i, \alpha_i, t) $$ is called **Hamilton’s principal function**, and $$ \alpha_i $$ are constants of integration.
+
+For time-independent Hamiltonians, we use **Hamilton’s characteristic function** $$ W(q_i, \alpha_i) $$:
+
+$$
+\boxed{
+H \left(q_i, \frac{\partial W}{\partial q_i} \right) = E
+}
+$$
+
+
+## 🔹 3. Why Use HJE?
+
+- Converts the problem of solving $$ 2n $$ ODEs to solving **one PDE**.
+- Particularly useful for systems with **cyclic coordinates**.
+- A bridge to **quantum mechanics** (via Schrödinger equation).
+
+
+## 🧠 4. Example: 1D Harmonic Oscillator
+
+**Given:**
+Mass $$ m $$, spring constant $$ k $$, natural frequency $$ \omega = \sqrt{k/m} $$
+
+**Hamiltonian**:
+$$
+H = \frac{p^2}{2m} + \frac{1}{2} k q^2
+$$
+
+
+#### 🔹 Step 1: Setup the Hamilton–Jacobi Equation
+
+Let $$ S(q, t) $$ be Hamilton's principal function.
+
+The HJE becomes:
+$$
+\frac{1}{2m} \left( \frac{\partial S}{\partial q} \right)^2 + \frac{1}{2} k q^2 + \frac{\partial S}{\partial t} = 0
+$$
+
+
+#### 🔹 Step 2: Separation of Variables
+
+Assume:
+$$
+S(q, t) = W(q) - Et
+$$
+
+Substitute into HJE:
+$$
+\frac{1}{2m} \left( \frac{dW}{dq} \right)^2 + \frac{1}{2} k q^2 = E
+$$
+
+
+#### 🔹 Step 3: Solve for $$ W(q) $$
+
+$$
+\left( \frac{dW}{dq} \right)^2 = 2m \left(E - \frac{1}{2} k q^2 \right)
+\Rightarrow
+\frac{dW}{dq} = \sqrt{2m \left(E - \frac{1}{2} k q^2 \right)}
+$$
+
+Integrating:
+$$
+W(q) = \int \sqrt{2m \left(E - \frac{1}{2} k q^2 \right)} \, dq
+$$
+
+This is a **standard integral**:
+$$
+W(q) = \frac{m \omega}{2} \left( q \sqrt{A^2 - q^2} + A^2 \sin^{-1}\left( \frac{q}{A} \right) \right), \quad \text{where } A = \sqrt{\frac{2E}{k}}
+$$
+
+
+#### 🔹 Step 4: Use Action-Angle Variables
+
+Define the **action**:
+$$
+J = \oint p \, dq = \oint \sqrt{2m \left(E - \frac{1}{2} k q^2 \right)} \, dq = 2\pi \frac{E}{\omega}
+\Rightarrow E = \omega J
+$$
+
+This leads to **quantization** in old quantum theory and gives the energy in terms of the action variable.
+
+
+
 
 ## 📎 References
 
-- Goldstein, H., Poole, C., & Safko, J. (2002). *Classical Mechanics*.
-- Landau, L. D., & Lifshitz, E. M. (1976). *Mechanics*.
+- H. Goldstein, *Classical Mechanics*, 3rd Edition
+- V.I. Arnold, *Mathematical Methods of Classical Mechanics*
+- L.D. Landau and E.M. Lifshitz, *Mechanics*
 
----
+

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-09T12:32:41+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Classical Mechanics</title><link href="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html" rel="alternate" type="text/html" title="Classical Mechanics" /><published>2025-04-03T07:47:26+05:30</published><updated>2025-04-03T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html">&lt;h2 id=&quot;dalemberts-principle-lagranges-equation-and-its-simple-applications&quot;&gt;D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-09T12:55:15+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Classical Mechanics</title><link href="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html" rel="alternate" type="text/html" title="Classical Mechanics" /><published>2025-04-03T07:47:26+05:30</published><updated>2025-04-03T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html">&lt;h2 id=&quot;dalemberts-principle-lagranges-equation-and-its-simple-applications&quot;&gt;D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications&lt;/h2&gt;
 
-&lt;h3 id=&quot;1-dalemberts-principle&quot;&gt;1. D’Alembert’s Principle&lt;/h3&gt;
+&lt;h4 id=&quot;1-dalemberts-principle&quot;&gt;1. D’Alembert’s Principle&lt;/h4&gt;
 
 &lt;p&gt;D’Alembert’s principle is a fundamental concept in classical mechanics that provides an alternative formulation of Newton’s second law by incorporating the concept of virtual work. It states that the sum of the differences between the applied forces and the inertial forces (also called the generalized forces) acting on a system in equilibrium is zero when projected along any virtual displacement.&lt;/p&gt;
 
-&lt;h4 id=&quot;11-mathematical-formulation&quot;&gt;1.1 Mathematical Formulation&lt;/h4&gt;
+&lt;h5 id=&quot;11-mathematical-formulation&quot;&gt;1.1 Mathematical Formulation&lt;/h5&gt;
 
 &lt;p&gt;Consider a system of \(N\) particles, where each particle has mass \(m_i\), position vector \(\mathbf{r}_i\), and is subject to an external force \(\mathbf{F}_i\). Newton’s second law states:&lt;/p&gt;
 
@@ -24,11 +24,11 @@
 
 &lt;p&gt;where \(\mathbf{F}_i^{(a)}\) represents the applied forces excluding constraint forces.&lt;/p&gt;
 
-&lt;h3 id=&quot;2-lagranges-equation&quot;&gt;2. Lagrange’s Equation&lt;/h3&gt;
+&lt;h4 id=&quot;2-lagranges-equation&quot;&gt;2. Lagrange’s Equation&lt;/h4&gt;
 
 &lt;p&gt;Lagrange’s equation is derived using D’Alembert’s principle and is particularly useful in dealing with systems having constraints.&lt;/p&gt;
 
-&lt;h4 id=&quot;21-generalized-coordinates&quot;&gt;2.1 Generalized Coordinates&lt;/h4&gt;
+&lt;h5 id=&quot;21-generalized-coordinates&quot;&gt;2.1 Generalized Coordinates&lt;/h5&gt;
 
 &lt;p&gt;A system with \(N\) particles and \(k\) constraint equations can be described using a reduced set of &lt;strong&gt;generalized coordinates&lt;/strong&gt;:&lt;/p&gt;
 
@@ -44,7 +44,7 @@
 
 &lt;p&gt;Using these transformations, D’Alembert’s principle can be rewritten in terms of generalized coordinates.&lt;/p&gt;
 
-&lt;h4 id=&quot;22-derivation-of-lagranges-equation&quot;&gt;2.2 Derivation of Lagrange’s Equation&lt;/h4&gt;
+&lt;h5 id=&quot;22-derivation-of-lagranges-equation&quot;&gt;2.2 Derivation of Lagrange’s Equation&lt;/h5&gt;
 
 &lt;div style=&quot;text-align: center;&quot;&gt;
   &lt;a href=&quot;/SKMU/assets/pdf/Lagrange.pdf&quot; target=&quot;_blank&quot;&gt;
@@ -55,9 +55,9 @@
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;3-simple-applications-of-lagranges-equations&quot;&gt;3. Simple Applications of Lagrange’s Equations&lt;/h3&gt;
+&lt;h4 id=&quot;3-simple-applications-of-lagranges-equations&quot;&gt;3. Simple Applications of Lagrange’s Equations&lt;/h4&gt;
 
-&lt;h4 id=&quot;31-simple-pendulum&quot;&gt;3.1 Simple Pendulum&lt;/h4&gt;
+&lt;h5 id=&quot;31-simple-pendulum&quot;&gt;3.1 Simple Pendulum&lt;/h5&gt;
 
 &lt;p&gt;A simple pendulum consists of a mass \(m\) attached to a string of length \(l\). The generalized coordinate is the angular displacement \(\theta\).&lt;/p&gt;
 
@@ -65,7 +65,7 @@
   &lt;img src=&quot;/SKMU/assets/images/Lecture/pendulum.png&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:40%; height:auto;&quot; /&gt;
 &lt;/div&gt;
 
-&lt;h4 id=&quot;-coordinates&quot;&gt;🔹 Coordinates&lt;/h4&gt;
+&lt;h5 id=&quot;-coordinates&quot;&gt;🔹 Coordinates&lt;/h5&gt;
 &lt;p&gt;Use angle \(\theta\) as generalized coordinate.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -73,7 +73,7 @@
   &lt;li&gt;Velocity: \(v^2 = \ell^2 \dot{\theta}^2\)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;-energy&quot;&gt;🔹 Energy&lt;/h4&gt;
+&lt;h5 id=&quot;-energy&quot;&gt;🔹 Energy&lt;/h5&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -86,7 +86,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;-lagrangian&quot;&gt;🔹 Lagrangian&lt;/h4&gt;
+&lt;h5 id=&quot;-lagrangian&quot;&gt;🔹 Lagrangian&lt;/h5&gt;
 
 \[L = T - V = \frac{1}{2} m \ell^2 \dot{\theta}^2 - m g \ell (1 - \cos \theta)\]
 
@@ -98,7 +98,7 @@
 \[\Rightarrow \frac{d}{dt} (m \ell^2 \dot{\theta}) + m g \ell \sin \theta = 0
 \Rightarrow \boxed{ \ddot{\theta} + \frac{g}{\ell} \sin \theta = 0 }\]
 
-&lt;h4 id=&quot;32-bead-on-a-rotating-hoop&quot;&gt;3.2 Bead on a Rotating Hoop&lt;/h4&gt;
+&lt;h5 id=&quot;32-bead-on-a-rotating-hoop&quot;&gt;3.2 Bead on a Rotating Hoop&lt;/h5&gt;
 
 &lt;p&gt;A bead of mass \(m\) moves on a hoop of radius \(R\) that rotates with a constant angular velocity \(\omega\).&lt;/p&gt;
 
@@ -139,7 +139,7 @@
 
 &lt;p&gt;Hamilton’s principle is a reformulation of classical mechanics that provides a powerful and elegant approach to deriving the equations of motion. It is also known as the &lt;strong&gt;principle of stationary action&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;-statement-of-hamiltons-principle&quot;&gt;🔹 Statement of Hamilton’s Principle&lt;/h3&gt;
+&lt;h4 id=&quot;-statement-of-hamiltons-principle&quot;&gt;🔹 Statement of Hamilton’s Principle&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;The actual path taken by a physical system between two configurations at fixed times \(t_1\) and \(t_2\) is such that the &lt;strong&gt;action integral&lt;/strong&gt; is &lt;strong&gt;stationary&lt;/strong&gt; (usually a minimum).&lt;/p&gt;
@@ -157,20 +157,20 @@
 
 &lt;p&gt;The calculus of variations deals with finding functions that make a &lt;strong&gt;functional&lt;/strong&gt; stationary.&lt;/p&gt;
 
-&lt;h3 id=&quot;-21-functional-form&quot;&gt;🔹 2.1 Functional Form&lt;/h3&gt;
+&lt;h4 id=&quot;-21-functional-form&quot;&gt;🔹 2.1 Functional Form&lt;/h4&gt;
 
 &lt;p&gt;A functional is an integral of the form:
 \(J[y] = \int_{x_1}^{x_2} f(y, y&apos;, x)\, dx\)
 The goal is to find the function \(y(x)\) such that \(J[y]\) is stationary.&lt;/p&gt;
 
-&lt;h3 id=&quot;-22-euler-lagrange-equation-core-result&quot;&gt;🔹 2.2 Euler-Lagrange Equation (Core Result)&lt;/h3&gt;
+&lt;h4 id=&quot;-22-euler-lagrange-equation-core-result&quot;&gt;🔹 2.2 Euler-Lagrange Equation (Core Result)&lt;/h4&gt;
 
 &lt;p&gt;If \(y(x)\) gives an extremum to \(J[y]\), then it must satisfy:
 \(\frac{d}{dx} \left( \frac{\partial f}{\partial y&apos;} \right) - \frac{\partial f}{\partial y} = 0\)&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;-example-1-shortest-path-between-two-points&quot;&gt;🧠 Example 1: Shortest Path Between Two Points&lt;/h3&gt;
+&lt;h4 id=&quot;-example-1-shortest-path-between-two-points&quot;&gt;🧠 Example 1: Shortest Path Between Two Points&lt;/h4&gt;
 
 &lt;p&gt;Let’s find the shortest path between two points \(A(x_1, y_1)\) and \(B(x_2, y_2)\).&lt;/p&gt;
 
@@ -197,7 +197,7 @@ The goal is to find the function \(y(x)\) such that \(J[y]\) is stationary.&lt;/
 
 &lt;h2 id=&quot;-3-deriving-lagranges-equation-using-hamiltons-principle&quot;&gt;📘 3. Deriving Lagrange’s Equation Using Hamilton’s Principle&lt;/h2&gt;
 
-&lt;h3 id=&quot;-31-setup&quot;&gt;🔹 3.1 Setup&lt;/h3&gt;
+&lt;h4 id=&quot;-31-setup&quot;&gt;🔹 3.1 Setup&lt;/h4&gt;
 
 &lt;p&gt;Let the system have \(n\) generalized coordinates \(q_1, q_2, ..., q_n\). The Lagrangian is \(L(q_i, \dot{q}_i, t)\).&lt;/p&gt;
 
@@ -223,19 +223,291 @@ The goal is to find the function \(y(x)\) such that \(J[y]\) is stationary.&lt;/
 
 &lt;p&gt;Since \(\delta q_i\) are arbitrary, for \(\delta S = 0\), the integrand must vanish:&lt;/p&gt;
 
-&lt;h3 id=&quot;-final-result-lagranges-equations&quot;&gt;✅ Final Result: &lt;strong&gt;Lagrange’s Equations&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4 id=&quot;-final-result-lagranges-equations&quot;&gt;✅ Final Result: &lt;strong&gt;Lagrange’s Equations&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;\(\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}_i} \right) - \frac{\partial L}{\partial q_i} = 0, \quad i = 1, 2, \dots, n\)&lt;/p&gt;
 
 &lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h1 id=&quot;conservation-theorems-symmetry-hamiltons-equations-and-least-action-principle&quot;&gt;Conservation Theorems, Symmetry, Hamilton’s Equations, and Least Action Principle&lt;/h1&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-1-conservation-theorems-and-symmetry-properties&quot;&gt;📘 1. Conservation Theorems and Symmetry Properties&lt;/h2&gt;
+
+&lt;p&gt;In Lagrangian and Hamiltonian mechanics, &lt;strong&gt;symmetries&lt;/strong&gt; of a system lead to corresponding &lt;strong&gt;conservation laws&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This deep connection is formally stated in &lt;strong&gt;Noether’s theorem&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;-11-noethers-theorem-statement&quot;&gt;🔹 1.1 Noether’s Theorem (Statement)&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If the Lagrangian is invariant under a continuous transformation, there exists a corresponding conserved quantity.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;-12-common-symmetries-and-conservation-laws&quot;&gt;🔹 1.2 Common Symmetries and Conservation Laws&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Symmetry Type&lt;/th&gt;
+      &lt;th&gt;Conserved Quantity&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Time translation invariance&lt;/td&gt;
+      &lt;td&gt;Energy&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spatial translation&lt;/td&gt;
+      &lt;td&gt;Linear momentum&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Rotational invariance&lt;/td&gt;
+      &lt;td&gt;Angular momentum&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;-example-particle-in-central-force-field&quot;&gt;🧠 Example: Particle in Central Force Field&lt;/h4&gt;
+
+&lt;p&gt;Let a particle move under a central potential \(V(r)\).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lagrangian: \(L = \frac{1}{2} m (\dot{r}^2 + r^2 \dot{\theta}^2) - V(r)\)&lt;/li&gt;
+  &lt;li&gt;\(\theta\) is cyclic: \(\partial L / \partial \theta = 0\)&lt;/li&gt;
+  &lt;li&gt;⇒ Angular momentum \(p_\theta = \frac{\partial L}{\partial \dot{\theta}} = m r^2 \dot{\theta}\) is &lt;strong&gt;conserved&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;-2-hamiltons-equations-of-motion&quot;&gt;📘 2. Hamilton’s Equations of Motion&lt;/h2&gt;
+
+&lt;p&gt;Hamiltonian formulation is an alternative to Lagrangian mechanics and is especially useful in advanced physics.&lt;/p&gt;
+
+&lt;h4 id=&quot;-21-definition-of-the-hamiltonian&quot;&gt;🔹 2.1 Definition of the Hamiltonian&lt;/h4&gt;
+
+&lt;p&gt;For a system with Lagrangian \(L(q_i, \dot{q}_i, t)\), define the &lt;strong&gt;generalized momenta&lt;/strong&gt;:
+\(p_i = \frac{\partial L}{\partial \dot{q}_i}\)&lt;/p&gt;
+
+&lt;p&gt;Then the &lt;strong&gt;Hamiltonian&lt;/strong&gt; is:
+\(H(q_i, p_i, t) = \sum_i p_i \dot{q}_i - L\)&lt;/p&gt;
+
+&lt;h4 id=&quot;-22-hamiltons-canonical-equations&quot;&gt;🔹 2.2 Hamilton’s Canonical Equations&lt;/h4&gt;
+
+&lt;p&gt;From the total differential \(dH\), we get:&lt;/p&gt;
+
+\[\boxed{
+\begin{aligned}
+\dot{q}_i &amp;amp;= \frac{\partial H}{\partial p_i} \\
+\dot{p}_i &amp;amp;= -\frac{\partial H}{\partial q_i}
+\end{aligned}
+}\]
+
+&lt;p&gt;These are &lt;strong&gt;Hamilton’s equations of motion&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;-example-simple-harmonic-oscillator&quot;&gt;🧠 Example: Simple Harmonic Oscillator&lt;/h4&gt;
+
+&lt;p&gt;Lagrangian:
+\(L = \frac{1}{2} m \dot{x}^2 - \frac{1}{2} k x^2\)&lt;/p&gt;
+
+&lt;p&gt;Generalized momentum:
+\(p = \frac{\partial L}{\partial \dot{x}} = m \dot{x}
+\Rightarrow \dot{x} = \frac{p}{m}\)&lt;/p&gt;
+
+&lt;p&gt;Hamiltonian:
+\(H = p \dot{x} - L = \frac{p^2}{2m} + \frac{1}{2} k x^2\)&lt;/p&gt;
+
+&lt;p&gt;Hamilton’s equations:
+\(\dot{x} = \frac{\partial H}{\partial p} = \frac{p}{m}, \quad
+\dot{p} = -\frac{\partial H}{\partial x} = -k x\)&lt;/p&gt;
+
+&lt;p&gt;⇒ Same equations as from Newton’s second law.&lt;/p&gt;
+
+&lt;h2 id=&quot;-3-principle-of-least-action&quot;&gt;📘 3. Principle of Least Action&lt;/h2&gt;
+
+&lt;h4 id=&quot;-31-what-is-action&quot;&gt;🔹 3.1 What is Action?&lt;/h4&gt;
+
+&lt;p&gt;Action is defined as:
+\(S = \int_{t_1}^{t_2} L(q_i, \dot{q}_i, t) \, dt\)&lt;/p&gt;
+
+&lt;h4 id=&quot;-32-principle-of-least-action&quot;&gt;🔹 3.2 Principle of Least Action&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The path taken by the system between two points in configuration space is the one that &lt;strong&gt;minimizes&lt;/strong&gt; (or makes stationary) the action \(S\).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This principle is equivalent to Hamilton’s principle:
+\(\delta S = 0\)&lt;/p&gt;
+
+&lt;p&gt;It leads directly to the &lt;strong&gt;Euler-Lagrange equations&lt;/strong&gt;, i.e., &lt;strong&gt;Lagrange’s equations&lt;/strong&gt;:
+\(\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}_i} \right) - \frac{\partial L}{\partial q_i} = 0\)&lt;/p&gt;
+
+&lt;h2 id=&quot;-example-free-particle-in-one-dimension&quot;&gt;🧠 Example: Free Particle in One Dimension&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lagrangian: \(L = \frac{1}{2} m \dot{x}^2\)&lt;/li&gt;
+  &lt;li&gt;Action: \(S = \int_{t_1}^{t_2} \frac{1}{2} m \dot{x}^2 \, dt\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Using the calculus of variations, the path that minimizes \(S\) satisfies:
+\(\frac{d}{dt} \left( m \dot{x} \right) = 0 \Rightarrow \ddot{x} = 0
+\Rightarrow x(t) = At + B\)&lt;/p&gt;
+
+&lt;p&gt;✅ The path is a straight line — consistent with Newton’s first law.&lt;/p&gt;
+
+&lt;h2 id=&quot;-4-take-home-message&quot;&gt;📘 4. Take Home Message&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Concept&lt;/th&gt;
+      &lt;th&gt;Key Idea&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Noether’s Theorem&lt;/td&gt;
+      &lt;td&gt;Symmetries ⇒ Conservation laws&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Hamilton’s Equations&lt;/td&gt;
+      &lt;td&gt;1st-order equations in \(q_i, p_i\); derived from Hamiltonian&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Principle of Least Action&lt;/td&gt;
+      &lt;td&gt;System follows path that makes action stationary&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;-difference-between-hamiltons-principle-and-principle-of-least-action&quot;&gt;🔍 Difference between Hamilton’s Principle and Principle of Least Action&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Aspect&lt;/th&gt;
+      &lt;th&gt;Hamilton’s Principle&lt;/th&gt;
+      &lt;th&gt;Principle of Least Action&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;🔹 Definition&lt;/td&gt;
+      &lt;td&gt;States that the action integral is &lt;strong&gt;stationary&lt;/strong&gt; (δS = 0)&lt;/td&gt;
+      &lt;td&gt;States that action is &lt;strong&gt;minimized&lt;/strong&gt; (least possible S)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;🔹 Type of extremum&lt;/td&gt;
+      &lt;td&gt;Can be &lt;strong&gt;minimum, maximum, or saddle point&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Specifically implies a &lt;strong&gt;minimum&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;🔹 Generality&lt;/td&gt;
+      &lt;td&gt;More general – applies even when action is not minimum&lt;/td&gt;
+      &lt;td&gt;Special case of Hamilton’s principle&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;🔹 Mathematical Formulation&lt;/td&gt;
+      &lt;td&gt;\(\delta S = 0\)&lt;/td&gt;
+      &lt;td&gt;\(S = \min \int L \, dt\)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;🔹 Physical Use&lt;/td&gt;
+      &lt;td&gt;Used to derive Lagrange’s equations&lt;/td&gt;
+      &lt;td&gt;Used primarily in heuristic arguments&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;✅ &lt;strong&gt;Note&lt;/strong&gt;: In most practical physical systems, the action is &lt;strong&gt;minimized&lt;/strong&gt;, so the two are often used interchangeably. However, &lt;strong&gt;Hamilton’s principle is more general&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;hamiltonjacobi-equation-and-application-to-harmonic-oscillator&quot;&gt;Hamilton–Jacobi Equation and Application to Harmonic Oscillator&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-1-introduction-to-hamiltonjacobi-theory&quot;&gt;🔹 1. Introduction to Hamilton–Jacobi Theory&lt;/h2&gt;
+
+&lt;p&gt;Hamilton–Jacobi theory provides a powerful &lt;strong&gt;analytical method&lt;/strong&gt; for solving mechanical problems. It reformulates classical mechanics into a &lt;strong&gt;first-order partial differential equation (PDE)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;-2-the-hamiltonjacobi-equation&quot;&gt;🔹 2. The Hamilton–Jacobi Equation&lt;/h2&gt;
+
+&lt;p&gt;Given a Hamiltonian \(H(q_i, p_i, t)\), the &lt;strong&gt;Hamilton–Jacobi equation (HJE)&lt;/strong&gt; is:&lt;/p&gt;
+
+\[\boxed{
+H \left(q_i, \frac{\partial S}{\partial q_i}, t \right) + \frac{\partial S}{\partial t} = 0
+}\]
+
+&lt;p&gt;Here, \(S(q_i, \alpha_i, t)\) is called &lt;strong&gt;Hamilton’s principal function&lt;/strong&gt;, and \(\alpha_i\) are constants of integration.&lt;/p&gt;
+
+&lt;p&gt;For time-independent Hamiltonians, we use &lt;strong&gt;Hamilton’s characteristic function&lt;/strong&gt; \(W(q_i, \alpha_i)\):&lt;/p&gt;
+
+\[\boxed{
+H \left(q_i, \frac{\partial W}{\partial q_i} \right) = E
+}\]
+
+&lt;h2 id=&quot;-3-why-use-hje&quot;&gt;🔹 3. Why Use HJE?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Converts the problem of solving \(2n\) ODEs to solving &lt;strong&gt;one PDE&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Particularly useful for systems with &lt;strong&gt;cyclic coordinates&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;A bridge to &lt;strong&gt;quantum mechanics&lt;/strong&gt; (via Schrödinger equation).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;-4-example-1d-harmonic-oscillator&quot;&gt;🧠 4. Example: 1D Harmonic Oscillator&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Given:&lt;/strong&gt;
+Mass \(m\), spring constant \(k\), natural frequency \(\omega = \sqrt{k/m}\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hamiltonian&lt;/strong&gt;:
+\(H = \frac{p^2}{2m} + \frac{1}{2} k q^2\)&lt;/p&gt;
+
+&lt;h4 id=&quot;-step-1-setup-the-hamiltonjacobi-equation&quot;&gt;🔹 Step 1: Setup the Hamilton–Jacobi Equation&lt;/h4&gt;
+
+&lt;p&gt;Let \(S(q, t)\) be Hamilton’s principal function.&lt;/p&gt;
+
+&lt;p&gt;The HJE becomes:
+\(\frac{1}{2m} \left( \frac{\partial S}{\partial q} \right)^2 + \frac{1}{2} k q^2 + \frac{\partial S}{\partial t} = 0\)&lt;/p&gt;
+
+&lt;h4 id=&quot;-step-2-separation-of-variables&quot;&gt;🔹 Step 2: Separation of Variables&lt;/h4&gt;
+
+&lt;p&gt;Assume:
+\(S(q, t) = W(q) - Et\)&lt;/p&gt;
+
+&lt;p&gt;Substitute into HJE:
+\(\frac{1}{2m} \left( \frac{dW}{dq} \right)^2 + \frac{1}{2} k q^2 = E\)&lt;/p&gt;
+
+&lt;h4 id=&quot;-step-3-solve-for-wq&quot;&gt;🔹 Step 3: Solve for \(W(q)\)&lt;/h4&gt;
+
+\[\left( \frac{dW}{dq} \right)^2 = 2m \left(E - \frac{1}{2} k q^2 \right)
+\Rightarrow
+\frac{dW}{dq} = \sqrt{2m \left(E - \frac{1}{2} k q^2 \right)}\]
+
+&lt;p&gt;Integrating:
+\(W(q) = \int \sqrt{2m \left(E - \frac{1}{2} k q^2 \right)} \, dq\)&lt;/p&gt;
+
+&lt;p&gt;This is a &lt;strong&gt;standard integral&lt;/strong&gt;:
+\(W(q) = \frac{m \omega}{2} \left( q \sqrt{A^2 - q^2} + A^2 \sin^{-1}\left( \frac{q}{A} \right) \right), \quad \text{where } A = \sqrt{\frac{2E}{k}}\)&lt;/p&gt;
+
+&lt;h4 id=&quot;-step-4-use-action-angle-variables&quot;&gt;🔹 Step 4: Use Action-Angle Variables&lt;/h4&gt;
+
+&lt;p&gt;Define the &lt;strong&gt;action&lt;/strong&gt;:
+\(J = \oint p \, dq = \oint \sqrt{2m \left(E - \frac{1}{2} k q^2 \right)} \, dq = 2\pi \frac{E}{\omega}
+\Rightarrow E = \omega J\)&lt;/p&gt;
+
+&lt;p&gt;This leads to &lt;strong&gt;quantization&lt;/strong&gt; in old quantum theory and gives the energy in terms of the action variable.&lt;/p&gt;
 
 &lt;h2 id=&quot;-references&quot;&gt;📎 References&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Goldstein, H., Poole, C., &amp;amp; Safko, J. (2002). &lt;em&gt;Classical Mechanics&lt;/em&gt;.&lt;/li&gt;
-  &lt;li&gt;Landau, L. D., &amp;amp; Lifshitz, E. M. (1976). &lt;em&gt;Mechanics&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications</summary></entry><entry><title type="html">V. Python: Course Contents</title><link href="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html" rel="alternate" type="text/html" title="V. Python: Course Contents" /><published>2025-03-26T07:47:26+05:30</published><updated>2025-03-26T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/26/Python</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html">&lt;p&gt;🚀 &lt;strong&gt;Hands-on Practice:&lt;/strong&gt; Practice coding by clicking on button below:&lt;/p&gt;
+  &lt;li&gt;H. Goldstein, &lt;em&gt;Classical Mechanics&lt;/em&gt;, 3rd Edition&lt;/li&gt;
+  &lt;li&gt;V.I. Arnold, &lt;em&gt;Mathematical Methods of Classical Mechanics&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;L.D. Landau and E.M. Lifshitz, &lt;em&gt;Mechanics&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications</summary></entry><entry><title type="html">V. Python: Course Contents</title><link href="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html" rel="alternate" type="text/html" title="V. Python: Course Contents" /><published>2025-03-26T07:47:26+05:30</published><updated>2025-03-26T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/26/Python</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html">&lt;p&gt;🚀 &lt;strong&gt;Hands-on Practice:&lt;/strong&gt; Practice coding by clicking on button below:&lt;/p&gt;
 
 &lt;div align=&quot;center&quot;&gt;
   &lt;a href=&quot;https://onecompiler.com/python&quot;&gt;
