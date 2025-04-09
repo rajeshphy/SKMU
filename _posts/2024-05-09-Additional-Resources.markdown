@@ -6,7 +6,7 @@ categories: lecture
 tags: Additional-Resources
 ---
 
-[PG Sem-I](/SKMU/assets/Syllabus/msc-I.pdf)
+[PG Physics Syllabus](/SKMU/assets/Syllabus/msc-I.pdf)
 
 ---
 Supplementary resources for the course are provided below. These resources include textbooks, research papers, and other materials that may be of interest to students.
