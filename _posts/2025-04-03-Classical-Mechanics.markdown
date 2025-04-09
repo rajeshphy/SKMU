@@ -69,28 +69,58 @@ Using these transformations, D’Alembert’s principle can be rewritten in term
 
 A simple pendulum consists of a mass $$ m $$ attached to a string of length $$ l $$. The generalized coordinate is the angular displacement $$ \theta $$.
 
+<div style="text-align: center;">
+  <img src="/SKMU/assets/images/Lecture/pendulum.png" 
+       alt="Scattering" 
+       class="my-custom-class" 
+       style="width:40%; height:auto;">
+</div>
+
+
+#### 🔹 Coordinates
+Use angle $$ \theta $$ as generalized coordinate.
+
+- Position: $$ x = \ell \sin \theta, \quad y = -\ell \cos \theta $$
+- Velocity: $$ v^2 = \ell^2 \dot{\theta}^2 $$
+
+#### 🔹 Energy
+
+
 - Kinetic Energy:
   $$ T = \frac{1}{2} m (l^2 \dot{\theta}^2) $$
 
 - Potential Energy:
   $$ V = -mgl \cos \theta $$
 
-- Lagrangian:
-  $$ L = T - V = \frac{1}{2} m l^2 \dot{\theta}^2 + mgl \cos \theta $$
 
-Applying Lagrange’s equation:
+#### 🔹 Lagrangian
 
-$$ \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{\theta}} \right) - \frac{\partial L}{\partial \theta} = 0 $$
+$$
+L = T - V = \frac{1}{2} m \ell^2 \dot{\theta}^2 - m g \ell (1 - \cos \theta)
+$$
 
-$$ \frac{d}{dt} (m l^2 \dot{\theta}) + mgl \sin \theta = 0 $$
+Apply Lagrange’s equation:
 
-which simplifies to:
+$$
+\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{\theta}} \right) 
+- \frac{\partial L}{\partial \theta} = 0
+$$
 
-$$ \ddot{\theta} + \frac{g}{l} \sin \theta = 0 $$
+$$
+\Rightarrow \frac{d}{dt} (m \ell^2 \dot{\theta}) + m g \ell \sin \theta = 0
+\Rightarrow \boxed{ \ddot{\theta} + \frac{g}{\ell} \sin \theta = 0 }
+$$
 
 #### 3.2 Bead on a Rotating Hoop
 
 A bead of mass $$ m $$ moves on a hoop of radius $$ R $$ that rotates with a constant angular velocity $$ \omega $$.
+
+<div style="text-align: center;">
+  <img src="/SKMU/assets/images/Lecture/rotating-hoop.png" 
+       alt="Scattering" 
+       class="my-custom-class" 
+       style="width:40%; height:auto;">
+</div>
 
 - Generalized coordinate: $$ \theta $$ (angle of displacement on the hoop)
 - Kinetic Energy:
@@ -109,3 +139,135 @@ $$ \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{\theta}} \right) - \frac{
 $$ mR^2 \ddot{\theta} - m R^2 \omega^2 \sin \theta \cos \theta + mgR \sin \theta = 0 $$
 
 which governs the motion of the bead on the rotating hoop.
+
+---
+---
+# Hamilton’s Principle and Calculus of Variations
+
+
+---
+---
+
+## 📘 1. Introduction to Hamilton’s Principle
+
+Hamilton’s principle is a reformulation of classical mechanics that provides a powerful and elegant approach to deriving the equations of motion. It is also known as the **principle of stationary action**.
+
+### 🔹 Statement of Hamilton’s Principle
+
+> The actual path taken by a physical system between two configurations at fixed times $$ t_1 $$ and $$ t_2 $$ is such that the **action integral** is **stationary** (usually a minimum).
+
+Mathematically,
+$$
+\delta S = 0, \quad \text{where} \quad S = \int_{t_1}^{t_2} L(q_i, \dot{q}_i, t) \, dt
+$$
+- $$ L $$ is the Lagrangian: $$ L = T - V $$
+- $$ S $$ is called the **action**
+- $$ \delta S = 0 $$ implies a stationary value (not necessarily minimum)
+
+
+## 📘 2. Techniques of the Calculus of Variations
+
+The calculus of variations deals with finding functions that make a **functional** stationary.
+
+### 🔹 2.1 Functional Form
+
+A functional is an integral of the form:
+$$
+J[y] = \int_{x_1}^{x_2} f(y, y', x)\, dx
+$$
+The goal is to find the function $$ y(x) $$ such that $$ J[y] $$ is stationary.
+
+### 🔹 2.2 Euler-Lagrange Equation (Core Result)
+
+If $$ y(x) $$ gives an extremum to $$ J[y] $$, then it must satisfy:
+$$
+\frac{d}{dx} \left( \frac{\partial f}{\partial y'} \right) - \frac{\partial f}{\partial y} = 0
+$$
+
+---
+
+### 🧠 Example 1: Shortest Path Between Two Points
+
+Let’s find the shortest path between two points $$ A(x_1, y_1) $$ and $$ B(x_2, y_2) $$.
+
+<div style="text-align: center;">
+  <img src="/SKMU/assets/images/Lecture/brachistrone.png" 
+       alt="Scattering" 
+       class="my-custom-class" 
+       style="width:40%; height:auto;">
+</div>
+
+**Functional:**
+$$
+J[y] = \int_{x_1}^{x_2} \sqrt{1 + (y')^2} \, dx
+$$
+
+Apply Euler-Lagrange:
+
+Let $$ f = \sqrt{1 + (y')^2} $$, then:
+$$
+\frac{\partial f}{\partial y} = 0,\quad \frac{\partial f}{\partial y'} = \frac{y'}{\sqrt{1 + (y')^2}}
+$$
+
+Now,
+$$
+\frac{d}{dx} \left( \frac{y'}{\sqrt{1 + (y')^2}} \right) = 0
+\Rightarrow \frac{y'}{\sqrt{1 + (y')^2}} = C
+\Rightarrow y' = \text{constant} \Rightarrow y = mx + c
+$$
+
+✅ The result is a straight line — confirming that the shortest path is a straight line.
+
+---
+
+## 📘 3. Deriving Lagrange's Equation Using Hamilton's Principle
+
+### 🔹 3.1 Setup
+
+Let the system have $$ n $$ generalized coordinates $$ q_1, q_2, ..., q_n $$. The Lagrangian is $$ L(q_i, \dot{q}_i, t) $$.
+
+The action is:
+$$
+S = \int_{t_1}^{t_2} L(q_i, \dot{q}_i, t) \, dt
+$$
+
+We vary the path $$ q_i(t) \to q_i(t) + \delta q_i(t) $$ with fixed endpoints:
+$$
+\delta q_i(t_1) = \delta q_i(t_2) = 0
+$$
+
+We compute the variation:
+$$
+\delta S = \int_{t_1}^{t_2} \left( \sum_i \frac{\partial L}{\partial q_i} \delta q_i + \frac{\partial L}{\partial \dot{q}_i} \delta \dot{q}_i \right) dt
+$$
+
+Using $$ \delta \dot{q}_i = \frac{d}{dt}(\delta q_i) $$, and integration by parts:
+
+$$
+\int_{t_1}^{t_2} \frac{\partial L}{\partial \dot{q}_i} \frac{d}{dt}(\delta q_i) \, dt = 
+\left. \frac{\partial L}{\partial \dot{q}_i} \delta q_i \right|_{t_1}^{t_2} 
+- \int_{t_1}^{t_2} \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}_i} \right) \delta q_i \, dt
+$$
+
+Since $$ \delta q_i(t_1) = \delta q_i(t_2) = 0 $$, the boundary term vanishes.
+
+Thus:
+$$
+\delta S = \int_{t_1}^{t_2} \sum_i \left( \frac{\partial L}{\partial q_i} - \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}_i} \right) \right) \delta q_i \, dt
+$$
+
+Since $$ \delta q_i $$ are arbitrary, for $$ \delta S = 0 $$, the integrand must vanish:
+
+### ✅ Final Result: **Lagrange’s Equations**
+$$
+\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}_i} \right) - \frac{\partial L}{\partial q_i} = 0, \quad i = 1, 2, \dots, n
+$$
+
+---
+
+## 📎 References
+
+- Goldstein, H., Poole, C., & Safko, J. (2002). *Classical Mechanics*.
+- Landau, L. D., & Lifshitz, E. M. (1976). *Mechanics*.
+
+---

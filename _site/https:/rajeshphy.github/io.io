@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-04T10:59:19+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Classical Mechanics</title><link href="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html" rel="alternate" type="text/html" title="Classical Mechanics" /><published>2025-04-03T07:47:26+05:30</published><updated>2025-04-03T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html">&lt;h2 id=&quot;dalemberts-principle-lagranges-equation-and-its-simple-applications&quot;&gt;D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-09T12:32:41+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Classical Mechanics</title><link href="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html" rel="alternate" type="text/html" title="Classical Mechanics" /><published>2025-04-03T07:47:26+05:30</published><updated>2025-04-03T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html">&lt;h2 id=&quot;dalemberts-principle-lagranges-equation-and-its-simple-applications&quot;&gt;D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications&lt;/h2&gt;
 
 &lt;h3 id=&quot;1-dalemberts-principle&quot;&gt;1. D’Alembert’s Principle&lt;/h3&gt;
 
@@ -61,6 +61,20 @@
 
 &lt;p&gt;A simple pendulum consists of a mass \(m\) attached to a string of length \(l\). The generalized coordinate is the angular displacement \(\theta\).&lt;/p&gt;
 
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/images/Lecture/pendulum.png&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:40%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;-coordinates&quot;&gt;🔹 Coordinates&lt;/h4&gt;
+&lt;p&gt;Use angle \(\theta\) as generalized coordinate.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Position: \(x = \ell \sin \theta, \quad y = -\ell \cos \theta\)&lt;/li&gt;
+  &lt;li&gt;Velocity: \(v^2 = \ell^2 \dot{\theta}^2\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;-energy&quot;&gt;🔹 Energy&lt;/h4&gt;
+
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Kinetic Energy:
@@ -70,25 +84,27 @@
     &lt;p&gt;Potential Energy:
 \(V = -mgl \cos \theta\)&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Lagrangian:
-\(L = T - V = \frac{1}{2} m l^2 \dot{\theta}^2 + mgl \cos \theta\)&lt;/p&gt;
-  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Applying Lagrange’s equation:&lt;/p&gt;
+&lt;h4 id=&quot;-lagrangian&quot;&gt;🔹 Lagrangian&lt;/h4&gt;
 
-\[\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{\theta}} \right) - \frac{\partial L}{\partial \theta} = 0\]
+\[L = T - V = \frac{1}{2} m \ell^2 \dot{\theta}^2 - m g \ell (1 - \cos \theta)\]
 
-\[\frac{d}{dt} (m l^2 \dot{\theta}) + mgl \sin \theta = 0\]
+&lt;p&gt;Apply Lagrange’s equation:&lt;/p&gt;
 
-&lt;p&gt;which simplifies to:&lt;/p&gt;
+\[\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{\theta}} \right) 
+- \frac{\partial L}{\partial \theta} = 0\]
 
-\[\ddot{\theta} + \frac{g}{l} \sin \theta = 0\]
+\[\Rightarrow \frac{d}{dt} (m \ell^2 \dot{\theta}) + m g \ell \sin \theta = 0
+\Rightarrow \boxed{ \ddot{\theta} + \frac{g}{\ell} \sin \theta = 0 }\]
 
 &lt;h4 id=&quot;32-bead-on-a-rotating-hoop&quot;&gt;3.2 Bead on a Rotating Hoop&lt;/h4&gt;
 
 &lt;p&gt;A bead of mass \(m\) moves on a hoop of radius \(R\) that rotates with a constant angular velocity \(\omega\).&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/images/Lecture/rotating-hoop.png&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:40%; height:auto;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Generalized coordinate: \(\theta\) (angle of displacement on the hoop)&lt;/li&gt;
@@ -110,7 +126,116 @@
 
 \[mR^2 \ddot{\theta} - m R^2 \omega^2 \sin \theta \cos \theta + mgR \sin \theta = 0\]
 
-&lt;p&gt;which governs the motion of the bead on the rotating hoop.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications</summary></entry><entry><title type="html">V. Python: Course Contents</title><link href="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html" rel="alternate" type="text/html" title="V. Python: Course Contents" /><published>2025-03-26T07:47:26+05:30</published><updated>2025-03-26T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/26/Python</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html">&lt;p&gt;🚀 &lt;strong&gt;Hands-on Practice:&lt;/strong&gt; Practice coding by clicking on button below:&lt;/p&gt;
+&lt;p&gt;which governs the motion of the bead on the rotating hoop.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h1 id=&quot;hamiltons-principle-and-calculus-of-variations&quot;&gt;Hamilton’s Principle and Calculus of Variations&lt;/h1&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-1-introduction-to-hamiltons-principle&quot;&gt;📘 1. Introduction to Hamilton’s Principle&lt;/h2&gt;
+
+&lt;p&gt;Hamilton’s principle is a reformulation of classical mechanics that provides a powerful and elegant approach to deriving the equations of motion. It is also known as the &lt;strong&gt;principle of stationary action&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;-statement-of-hamiltons-principle&quot;&gt;🔹 Statement of Hamilton’s Principle&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The actual path taken by a physical system between two configurations at fixed times \(t_1\) and \(t_2\) is such that the &lt;strong&gt;action integral&lt;/strong&gt; is &lt;strong&gt;stationary&lt;/strong&gt; (usually a minimum).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Mathematically,
+\(\delta S = 0, \quad \text{where} \quad S = \int_{t_1}^{t_2} L(q_i, \dot{q}_i, t) \, dt\)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;\(L\) is the Lagrangian: \(L = T - V\)&lt;/li&gt;
+  &lt;li&gt;\(S\) is called the &lt;strong&gt;action&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;\(\delta S = 0\) implies a stationary value (not necessarily minimum)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;-2-techniques-of-the-calculus-of-variations&quot;&gt;📘 2. Techniques of the Calculus of Variations&lt;/h2&gt;
+
+&lt;p&gt;The calculus of variations deals with finding functions that make a &lt;strong&gt;functional&lt;/strong&gt; stationary.&lt;/p&gt;
+
+&lt;h3 id=&quot;-21-functional-form&quot;&gt;🔹 2.1 Functional Form&lt;/h3&gt;
+
+&lt;p&gt;A functional is an integral of the form:
+\(J[y] = \int_{x_1}^{x_2} f(y, y&apos;, x)\, dx\)
+The goal is to find the function \(y(x)\) such that \(J[y]\) is stationary.&lt;/p&gt;
+
+&lt;h3 id=&quot;-22-euler-lagrange-equation-core-result&quot;&gt;🔹 2.2 Euler-Lagrange Equation (Core Result)&lt;/h3&gt;
+
+&lt;p&gt;If \(y(x)\) gives an extremum to \(J[y]\), then it must satisfy:
+\(\frac{d}{dx} \left( \frac{\partial f}{\partial y&apos;} \right) - \frac{\partial f}{\partial y} = 0\)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-example-1-shortest-path-between-two-points&quot;&gt;🧠 Example 1: Shortest Path Between Two Points&lt;/h3&gt;
+
+&lt;p&gt;Let’s find the shortest path between two points \(A(x_1, y_1)\) and \(B(x_2, y_2)\).&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/images/Lecture/brachistrone.png&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:40%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Functional:&lt;/strong&gt;
+\(J[y] = \int_{x_1}^{x_2} \sqrt{1 + (y&apos;)^2} \, dx\)&lt;/p&gt;
+
+&lt;p&gt;Apply Euler-Lagrange:&lt;/p&gt;
+
+&lt;p&gt;Let \(f = \sqrt{1 + (y&apos;)^2}\), then:
+\(\frac{\partial f}{\partial y} = 0,\quad \frac{\partial f}{\partial y&apos;} = \frac{y&apos;}{\sqrt{1 + (y&apos;)^2}}\)&lt;/p&gt;
+
+&lt;p&gt;Now,
+\(\frac{d}{dx} \left( \frac{y&apos;}{\sqrt{1 + (y&apos;)^2}} \right) = 0
+\Rightarrow \frac{y&apos;}{\sqrt{1 + (y&apos;)^2}} = C
+\Rightarrow y&apos; = \text{constant} \Rightarrow y = mx + c\)&lt;/p&gt;
+
+&lt;p&gt;✅ The result is a straight line — confirming that the shortest path is a straight line.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-3-deriving-lagranges-equation-using-hamiltons-principle&quot;&gt;📘 3. Deriving Lagrange’s Equation Using Hamilton’s Principle&lt;/h2&gt;
+
+&lt;h3 id=&quot;-31-setup&quot;&gt;🔹 3.1 Setup&lt;/h3&gt;
+
+&lt;p&gt;Let the system have \(n\) generalized coordinates \(q_1, q_2, ..., q_n\). The Lagrangian is \(L(q_i, \dot{q}_i, t)\).&lt;/p&gt;
+
+&lt;p&gt;The action is:
+\(S = \int_{t_1}^{t_2} L(q_i, \dot{q}_i, t) \, dt\)&lt;/p&gt;
+
+&lt;p&gt;We vary the path \(q_i(t) \to q_i(t) + \delta q_i(t)\) with fixed endpoints:
+\(\delta q_i(t_1) = \delta q_i(t_2) = 0\)&lt;/p&gt;
+
+&lt;p&gt;We compute the variation:
+\(\delta S = \int_{t_1}^{t_2} \left( \sum_i \frac{\partial L}{\partial q_i} \delta q_i + \frac{\partial L}{\partial \dot{q}_i} \delta \dot{q}_i \right) dt\)&lt;/p&gt;
+
+&lt;p&gt;Using \(\delta \dot{q}_i = \frac{d}{dt}(\delta q_i)\), and integration by parts:&lt;/p&gt;
+
+\[\int_{t_1}^{t_2} \frac{\partial L}{\partial \dot{q}_i} \frac{d}{dt}(\delta q_i) \, dt = 
+\left. \frac{\partial L}{\partial \dot{q}_i} \delta q_i \right|_{t_1}^{t_2} 
+- \int_{t_1}^{t_2} \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}_i} \right) \delta q_i \, dt\]
+
+&lt;p&gt;Since \(\delta q_i(t_1) = \delta q_i(t_2) = 0\), the boundary term vanishes.&lt;/p&gt;
+
+&lt;p&gt;Thus:
+\(\delta S = \int_{t_1}^{t_2} \sum_i \left( \frac{\partial L}{\partial q_i} - \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}_i} \right) \right) \delta q_i \, dt\)&lt;/p&gt;
+
+&lt;p&gt;Since \(\delta q_i\) are arbitrary, for \(\delta S = 0\), the integrand must vanish:&lt;/p&gt;
+
+&lt;h3 id=&quot;-final-result-lagranges-equations&quot;&gt;✅ Final Result: &lt;strong&gt;Lagrange’s Equations&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;\(\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}_i} \right) - \frac{\partial L}{\partial q_i} = 0, \quad i = 1, 2, \dots, n\)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-references&quot;&gt;📎 References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Goldstein, H., Poole, C., &amp;amp; Safko, J. (2002). &lt;em&gt;Classical Mechanics&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Landau, L. D., &amp;amp; Lifshitz, E. M. (1976). &lt;em&gt;Mechanics&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications</summary></entry><entry><title type="html">V. Python: Course Contents</title><link href="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html" rel="alternate" type="text/html" title="V. Python: Course Contents" /><published>2025-03-26T07:47:26+05:30</published><updated>2025-03-26T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/26/Python</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html">&lt;p&gt;🚀 &lt;strong&gt;Hands-on Practice:&lt;/strong&gt; Practice coding by clicking on button below:&lt;/p&gt;
 
 &lt;div align=&quot;center&quot;&gt;
   &lt;a href=&quot;https://onecompiler.com/python&quot;&gt;
