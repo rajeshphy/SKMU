@@ -424,7 +424,7 @@ $$
 ---
 ---
 
-# Hamilton–Jacobi Equation and Application to Harmonic Oscillator
+# Hamilton–Jacobi Equation
 
 ---
 
@@ -527,10 +527,135 @@ This leads to **quantization** in old quantum theory and gives the energy in ter
 
 
 
+
+---
+---
+# 📘 Canonical Transformations and Poisson Brackets
+
+---
+
+## 🔹 1. Canonical Transformations
+
+A **canonical transformation** is a change of phase space coordinates:
+$$
+(q_i, p_i) \rightarrow (Q_i, P_i)
+$$
+that preserves the **form of Hamilton’s equations**.
+
+#### 🔸 Motivation:
+Canonical transformations simplify problems by preserving the structure of Hamilton’s mechanics, particularly the **symplectic structure**.
+
+> **symplectic structure**: ensures that **Hamilton’s equations remain invariant under canonical transformations** and that the **phase space volume is conserved** over time (Liouville’s theorem).  
+>
+> In short, the symplectic structure guarantees that Hamiltonian dynamics are **area-preserving, reversible**, and fully determined by the geometry of phase space.
+
+
+
+#### 🔸 Condition:
+The transformation is canonical if:
+
+$$
+\sum_i p_i \, dq_i - H \, dt = \sum_i P_i \, dQ_i - K \, dt + dF
+$$
+
+where $$ F $$ is a **generating function** and $$ K $$ is the new Hamiltonian.
+
+
+
+## 🔹 2. Generating Functions
+
+Canonical transformations can be generated using a **generating function** $$ F $$, which can be expressed in four common types:
+
+| Type | Generating Function | Transformation Relations |
+|------|---------------------|---------------------------|
+| $$ F_1(q, Q, t) $$ | $$ F_1 $$ | $$ p = \partial F_1 / \partial q $$, $$ P = -\partial F_1 / \partial Q $$ |
+| $$ F_2(q, P, t) $$ | $$ F_2 $$ | $$ p = \partial F_2 / \partial q $$, $$ Q = \partial F_2 / \partial P $$ |
+| $$ F_3(p, Q, t) $$ | $$ F_3 $$ | $$ q = -\partial F_3 / \partial p $$, $$ P = -\partial F_3 / \partial Q $$ |
+| $$ F_4(p, P, t) $$ | $$ F_4 $$ | $$ q = -\partial F_4 / \partial p $$, $$ Q = \partial F_4 / \partial P $$ |
+
+✅ These functions allow us to generate transformations that maintain canonical structure.
+
+
+## 🔹 3. Infinitesimal Canonical Transformations
+
+An **infinitesimal canonical transformation** is a small transformation parameterized by $$ \epsilon $$:
+
+$$
+Q_i = q_i + \epsilon \frac{\partial G}{\partial p_i}, \quad
+P_i = p_i - \epsilon \frac{\partial G}{\partial q_i}
+$$
+
+where $$ G(q, p) $$ is the **generator** of the transformation.
+
+These generators are crucial in understanding **symmetries** and **conserved quantities** (via Noether’s theorem).
+
+
+
+## 🔹 4. Poisson Brackets
+
+The **Poisson bracket** between two functions $$ f(q, p, t) $$ and $$ g(q, p, t) $$ is defined as:
+
+$$
+\{f, g\} = \sum_i \left( \frac{\partial f}{\partial q_i} \frac{\partial g}{\partial p_i} - \frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q_i} \right)
+$$
+
+### 🔸 Properties:
+
+1. **Antisymmetry**: $$ \{f, g\} = -\{g, f\} $$
+2. **Linearity**: $$ \{af + bg, h\} = a\{f, h\} + b\{g, h\} $$
+3. **Leibniz Rule**: $$ \{fg, h\} = f\{g, h\} + g\{f, h\} $$
+4. **Jacobi Identity**: $$ \{f, \{g, h\}\} + \{g, \{h, f\}\} + \{h, \{f, g\}\} = 0 $$
+
+
+
+## 🔹 5. Fundamental Poisson Brackets
+
+$$
+\{q_i, q_j\} = 0, \quad \{p_i, p_j\} = 0, \quad \{q_i, p_j\} = \delta_{ij}
+$$
+
+These relations mirror the canonical commutation relations in quantum mechanics.
+
+
+
+## 🔹 6. Poisson’s Theorems
+
+Let $$ f(q, p, t) $$ and $$ g(q, p, t) $$ be any two functions in phase space:
+
+#### 🔸 Theorem 1: Time Evolution
+$$
+\frac{df}{dt} = \{f, H\} + \frac{\partial f}{\partial t}
+$$
+
+This is the classical version of **Heisenberg's equation of motion**.
+
+#### 🔸 Theorem 2: Invariance under Canonical Transformation
+Poisson brackets are **invariant under canonical transformations**:
+$$
+\{f, g\}_{(q, p)} = \{f, g\}_{(Q, P)}
+$$
+
+This invariance confirms that canonical transformations preserve physical laws.
+
+
+
+## 🧠 Example: Angular Momentum Components
+
+For a particle in 3D space, angular momentum $$ \vec{L} = \vec{r} \times \vec{p} $$. The components obey:
+
+$$
+\{L_x, L_y\} = L_z, \quad \{L_y, L_z\} = L_x, \quad \{L_z, L_x\} = L_y
+$$
+
+This shows that angular momentum components generate **rotational transformations**.
+
+
+
+
 ## 📎 References
 
-- H. Goldstein, *Classical Mechanics*, 3rd Edition
+- H. Goldstein, *Classical Mechanics*, 3rd Edition  
+- L.D. Landau & E.M. Lifshitz, *Mechanics*  
 - V.I. Arnold, *Mathematical Methods of Classical Mechanics*
-- L.D. Landau and E.M. Lifshitz, *Mechanics*
 
-
+---

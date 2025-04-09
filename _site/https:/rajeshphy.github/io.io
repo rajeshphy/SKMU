@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-09T12:55:15+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Classical Mechanics</title><link href="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html" rel="alternate" type="text/html" title="Classical Mechanics" /><published>2025-04-03T07:47:26+05:30</published><updated>2025-04-03T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html">&lt;h2 id=&quot;dalemberts-principle-lagranges-equation-and-its-simple-applications&quot;&gt;D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-09T14:15:09+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Classical Mechanics</title><link href="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html" rel="alternate" type="text/html" title="Classical Mechanics" /><published>2025-04-03T07:47:26+05:30</published><updated>2025-04-03T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html">&lt;h2 id=&quot;dalemberts-principle-lagranges-equation-and-its-simple-applications&quot;&gt;D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications&lt;/h2&gt;
 
 &lt;h4 id=&quot;1-dalemberts-principle&quot;&gt;1. D’Alembert’s Principle&lt;/h4&gt;
 
@@ -426,7 +426,7 @@ The goal is to find the function \(y(x)\) such that \(J[y]\) is stationary.&lt;/
 &lt;hr /&gt;
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;hamiltonjacobi-equation-and-application-to-harmonic-oscillator&quot;&gt;Hamilton–Jacobi Equation and Application to Harmonic Oscillator&lt;/h1&gt;
+&lt;h1 id=&quot;hamiltonjacobi-equation&quot;&gt;Hamilton–Jacobi Equation&lt;/h1&gt;
 
 &lt;hr /&gt;
 
@@ -501,13 +501,136 @@ Mass \(m\), spring constant \(k\), natural frequency \(\omega = \sqrt{k/m}\)&lt;
 
 &lt;p&gt;This leads to &lt;strong&gt;quantization&lt;/strong&gt; in old quantum theory and gives the energy in terms of the action variable.&lt;/p&gt;
 
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;h1 id=&quot;-canonical-transformations-and-poisson-brackets&quot;&gt;📘 Canonical Transformations and Poisson Brackets&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-1-canonical-transformations&quot;&gt;🔹 1. Canonical Transformations&lt;/h2&gt;
+
+&lt;p&gt;A &lt;strong&gt;canonical transformation&lt;/strong&gt; is a change of phase space coordinates:
+\((q_i, p_i) \rightarrow (Q_i, P_i)\)
+that preserves the &lt;strong&gt;form of Hamilton’s equations&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;-motivation&quot;&gt;🔸 Motivation:&lt;/h4&gt;
+&lt;p&gt;Canonical transformations simplify problems by preserving the structure of Hamilton’s mechanics, particularly the &lt;strong&gt;symplectic structure&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;symplectic structure&lt;/strong&gt;: ensures that &lt;strong&gt;Hamilton’s equations remain invariant under canonical transformations&lt;/strong&gt; and that the &lt;strong&gt;phase space volume is conserved&lt;/strong&gt; over time (Liouville’s theorem).&lt;/p&gt;
+
+  &lt;p&gt;In short, the symplectic structure guarantees that Hamiltonian dynamics are &lt;strong&gt;area-preserving, reversible&lt;/strong&gt;, and fully determined by the geometry of phase space.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;-condition&quot;&gt;🔸 Condition:&lt;/h4&gt;
+&lt;p&gt;The transformation is canonical if:&lt;/p&gt;
+
+\[\sum_i p_i \, dq_i - H \, dt = \sum_i P_i \, dQ_i - K \, dt + dF\]
+
+&lt;p&gt;where \(F\) is a &lt;strong&gt;generating function&lt;/strong&gt; and \(K\) is the new Hamiltonian.&lt;/p&gt;
+
+&lt;h2 id=&quot;-2-generating-functions&quot;&gt;🔹 2. Generating Functions&lt;/h2&gt;
+
+&lt;p&gt;Canonical transformations can be generated using a &lt;strong&gt;generating function&lt;/strong&gt; \(F\), which can be expressed in four common types:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Type&lt;/th&gt;
+      &lt;th&gt;Generating Function&lt;/th&gt;
+      &lt;th&gt;Transformation Relations&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;\(F_1(q, Q, t)\)&lt;/td&gt;
+      &lt;td&gt;\(F_1\)&lt;/td&gt;
+      &lt;td&gt;\(p = \partial F_1 / \partial q\), \(P = -\partial F_1 / \partial Q\)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;\(F_2(q, P, t)\)&lt;/td&gt;
+      &lt;td&gt;\(F_2\)&lt;/td&gt;
+      &lt;td&gt;\(p = \partial F_2 / \partial q\), \(Q = \partial F_2 / \partial P\)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;\(F_3(p, Q, t)\)&lt;/td&gt;
+      &lt;td&gt;\(F_3\)&lt;/td&gt;
+      &lt;td&gt;\(q = -\partial F_3 / \partial p\), \(P = -\partial F_3 / \partial Q\)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;\(F_4(p, P, t)\)&lt;/td&gt;
+      &lt;td&gt;\(F_4\)&lt;/td&gt;
+      &lt;td&gt;\(q = -\partial F_4 / \partial p\), \(Q = \partial F_4 / \partial P\)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;✅ These functions allow us to generate transformations that maintain canonical structure.&lt;/p&gt;
+
+&lt;h2 id=&quot;-3-infinitesimal-canonical-transformations&quot;&gt;🔹 3. Infinitesimal Canonical Transformations&lt;/h2&gt;
+
+&lt;p&gt;An &lt;strong&gt;infinitesimal canonical transformation&lt;/strong&gt; is a small transformation parameterized by \(\epsilon\):&lt;/p&gt;
+
+\[Q_i = q_i + \epsilon \frac{\partial G}{\partial p_i}, \quad
+P_i = p_i - \epsilon \frac{\partial G}{\partial q_i}\]
+
+&lt;p&gt;where \(G(q, p)\) is the &lt;strong&gt;generator&lt;/strong&gt; of the transformation.&lt;/p&gt;
+
+&lt;p&gt;These generators are crucial in understanding &lt;strong&gt;symmetries&lt;/strong&gt; and &lt;strong&gt;conserved quantities&lt;/strong&gt; (via Noether’s theorem).&lt;/p&gt;
+
+&lt;h2 id=&quot;-4-poisson-brackets&quot;&gt;🔹 4. Poisson Brackets&lt;/h2&gt;
+
+&lt;p&gt;The &lt;strong&gt;Poisson bracket&lt;/strong&gt; between two functions \(f(q, p, t)\) and \(g(q, p, t)\) is defined as:&lt;/p&gt;
+
+\[\{f, g\} = \sum_i \left( \frac{\partial f}{\partial q_i} \frac{\partial g}{\partial p_i} - \frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q_i} \right)\]
+
+&lt;h3 id=&quot;-properties&quot;&gt;🔸 Properties:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Antisymmetry&lt;/strong&gt;: \(\{f, g\} = -\{g, f\}\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Linearity&lt;/strong&gt;: \(\{af + bg, h\} = a\{f, h\} + b\{g, h\}\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Leibniz Rule&lt;/strong&gt;: \(\{fg, h\} = f\{g, h\} + g\{f, h\}\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jacobi Identity&lt;/strong&gt;: \(\{f, \{g, h\}\} + \{g, \{h, f\}\} + \{h, \{f, g\}\} = 0\)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;-5-fundamental-poisson-brackets&quot;&gt;🔹 5. Fundamental Poisson Brackets&lt;/h2&gt;
+
+\[\{q_i, q_j\} = 0, \quad \{p_i, p_j\} = 0, \quad \{q_i, p_j\} = \delta_{ij}\]
+
+&lt;p&gt;These relations mirror the canonical commutation relations in quantum mechanics.&lt;/p&gt;
+
+&lt;h2 id=&quot;-6-poissons-theorems&quot;&gt;🔹 6. Poisson’s Theorems&lt;/h2&gt;
+
+&lt;p&gt;Let \(f(q, p, t)\) and \(g(q, p, t)\) be any two functions in phase space:&lt;/p&gt;
+
+&lt;h4 id=&quot;-theorem-1-time-evolution&quot;&gt;🔸 Theorem 1: Time Evolution&lt;/h4&gt;
+&lt;p&gt;\(\frac{df}{dt} = \{f, H\} + \frac{\partial f}{\partial t}\)&lt;/p&gt;
+
+&lt;p&gt;This is the classical version of &lt;strong&gt;Heisenberg’s equation of motion&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;-theorem-2-invariance-under-canonical-transformation&quot;&gt;🔸 Theorem 2: Invariance under Canonical Transformation&lt;/h4&gt;
+&lt;p&gt;Poisson brackets are &lt;strong&gt;invariant under canonical transformations&lt;/strong&gt;:
+\(\{f, g\}_{(q, p)} = \{f, g\}_{(Q, P)}\)&lt;/p&gt;
+
+&lt;p&gt;This invariance confirms that canonical transformations preserve physical laws.&lt;/p&gt;
+
+&lt;h2 id=&quot;-example-angular-momentum-components&quot;&gt;🧠 Example: Angular Momentum Components&lt;/h2&gt;
+
+&lt;p&gt;For a particle in 3D space, angular momentum \(\vec{L} = \vec{r} \times \vec{p}\). The components obey:&lt;/p&gt;
+
+\[\{L_x, L_y\} = L_z, \quad \{L_y, L_z\} = L_x, \quad \{L_z, L_x\} = L_y\]
+
+&lt;p&gt;This shows that angular momentum components generate &lt;strong&gt;rotational transformations&lt;/strong&gt;.&lt;/p&gt;
+
 &lt;h2 id=&quot;-references&quot;&gt;📎 References&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;H. Goldstein, &lt;em&gt;Classical Mechanics&lt;/em&gt;, 3rd Edition&lt;/li&gt;
+  &lt;li&gt;L.D. Landau &amp;amp; E.M. Lifshitz, &lt;em&gt;Mechanics&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;V.I. Arnold, &lt;em&gt;Mathematical Methods of Classical Mechanics&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;L.D. Landau and E.M. Lifshitz, &lt;em&gt;Mechanics&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications</summary></entry><entry><title type="html">V. Python: Course Contents</title><link href="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html" rel="alternate" type="text/html" title="V. Python: Course Contents" /><published>2025-03-26T07:47:26+05:30</published><updated>2025-03-26T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/26/Python</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html">&lt;p&gt;🚀 &lt;strong&gt;Hands-on Practice:&lt;/strong&gt; Practice coding by clicking on button below:&lt;/p&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications</summary></entry><entry><title type="html">V. Python: Course Contents</title><link href="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html" rel="alternate" type="text/html" title="V. Python: Course Contents" /><published>2025-03-26T07:47:26+05:30</published><updated>2025-03-26T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/26/Python</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/26/Python.html">&lt;p&gt;🚀 &lt;strong&gt;Hands-on Practice:&lt;/strong&gt; Practice coding by clicking on button below:&lt;/p&gt;
 
 &lt;div align=&quot;center&quot;&gt;
   &lt;a href=&quot;https://onecompiler.com/python&quot;&gt;
