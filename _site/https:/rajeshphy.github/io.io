@@ -1,572 +1,249 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-13T07:20:13+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Science</title><link href="http://localhost:4000/SKMU/lecture/2025/04/13/Science.html" rel="alternate" type="text/html" title="Science" /><published>2025-04-13T06:47:26+05:30</published><updated>2025-04-13T06:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/13/Science</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/13/Science.html">&lt;h2 id=&quot;1-what-is-science&quot;&gt;1. What is Science?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-15T08:36:11+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Dissertation-Heat Equation</title><link href="http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-Heat.html" rel="alternate" type="text/html" title="Dissertation-Heat Equation" /><published>2025-04-15T08:27:26+05:30</published><updated>2025-04-15T08:27:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-Heat</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-Heat.html">&lt;h1 id=&quot;simulation-of-the-heat-equation-in-a-rectangular-room&quot;&gt;Simulation of the Heat Equation in a Rectangular Room&lt;/h1&gt;
 
-&lt;h3 id=&quot;-origin-and-meaning&quot;&gt;🔹 Origin and Meaning&lt;/h3&gt;
+&lt;h2 id=&quot;1-introduction&quot;&gt;1. Introduction&lt;/h2&gt;
 
-&lt;p&gt;The word &lt;em&gt;science&lt;/em&gt; comes from the Latin &lt;em&gt;scientia&lt;/em&gt;, meaning &lt;strong&gt;knowledge&lt;/strong&gt;. But science is not just any knowledge — it is:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Systematized, evidence-based, and testable knowledge about the natural and social world.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;The &lt;strong&gt;heat equation&lt;/strong&gt; is a fundamental partial differential equation (PDE) in physics that models how heat spreads over time in a given medium. When applied to a &lt;strong&gt;rectangular room&lt;/strong&gt;, the domain becomes a two-dimensional Cartesian plane with fixed boundaries.&lt;/p&gt;
 
-&lt;h3 id=&quot;-science-as-a-method&quot;&gt;🔹 Science as a Method&lt;/h3&gt;
-
-&lt;p&gt;Science is a systematic approach to discovering truths about the natural world. It follows a logical sequence often known as the &lt;strong&gt;Scientific Method&lt;/strong&gt;, which includes:&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;-i-observation&quot;&gt;🔍 i. Observation&lt;/h4&gt;
-&lt;p&gt;Careful, systematic noting of phenomena using our senses or instruments.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;🧠 &lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Galileo observed that the period of a swinging chandelier was independent of amplitude — leading to the study of pendulum motion.&lt;/li&gt;
-    &lt;li&gt;Tycho Brahe recorded planetary positions with great precision, paving the way for Kepler’s Laws.&lt;/li&gt;
-    &lt;li&gt;Newton saw an apple fall and connected it to celestial motion — inspiring his idea of universal gravitation.&lt;/li&gt;
-    &lt;li&gt;Observing a rainbow led Newton and others to study refraction and dispersion of light.&lt;/li&gt;
-    &lt;li&gt;Roentgen noticed fluorescence from a cathode ray tube — leading to the discovery of X-rays.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;-ii-hypothesis-formulation&quot;&gt;🤔 ii. Hypothesis Formulation&lt;/h4&gt;
-&lt;p&gt;A hypothesis is a tentative, testable statement that proposes a possible explanation.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;🧠 &lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Newton hypothesized that the same force causing apples to fall keeps the Moon in orbit.&lt;/li&gt;
-    &lt;li&gt;Einstein hypothesized that the laws of physics are the same in all inertial frames, and that light speed is constant — leading to special relativity.&lt;/li&gt;
-    &lt;li&gt;Pasteur hypothesized that microorganisms cause fermentation — disproving spontaneous generation.&lt;/li&gt;
-    &lt;li&gt;Dirac hypothesized the existence of antimatter through mathematical formulations before it was observed.&lt;/li&gt;
-    &lt;li&gt;Higgs hypothesized the existence of a particle that gives mass to others — the Higgs boson.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;-iii-experimentation&quot;&gt;🧪 iii. Experimentation&lt;/h4&gt;
-&lt;p&gt;Hypotheses are tested through structured, repeatable experiments under controlled conditions.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;🧠 &lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Cavendish’s torsion balance measured gravitational attraction, yielding the value of \(G\).&lt;/li&gt;
-    &lt;li&gt;Millikan’s oil drop experiment determined the charge of an electron.&lt;/li&gt;
-    &lt;li&gt;Michelson-Morley’s experiment disproved the existence of the luminiferous aether.&lt;/li&gt;
-    &lt;li&gt;Rutherford’s gold foil experiment led to the discovery of the atomic nucleus.&lt;/li&gt;
-    &lt;li&gt;Fizeau measured the speed of light using rotating toothed wheels.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;-iv-analysis&quot;&gt;📊 iv. Analysis&lt;/h4&gt;
-&lt;p&gt;Experimental results are analyzed using logic and mathematics to determine patterns, errors, or significance.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;🧠 &lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Kepler analyzed Brahe’s data to formulate the laws of planetary motion.&lt;/li&gt;
-    &lt;li&gt;Fourier analyzed heat conduction and developed the basis for Fourier series.&lt;/li&gt;
-    &lt;li&gt;Planck’s analysis of black-body radiation introduced the quantum hypothesis.&lt;/li&gt;
-    &lt;li&gt;Hubble analyzed redshifts and distances of galaxies — concluding the universe is expanding.&lt;/li&gt;
-    &lt;li&gt;Statistical analysis of LHC data led to confirmation of the Higgs boson in 2012.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;-v-theory-building&quot;&gt;📖 v. Theory Building&lt;/h4&gt;
-&lt;p&gt;Validated hypotheses and results are synthesized into broader, predictive frameworks — called theories.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;🧠 &lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Newton’s Laws formed the foundation of &lt;strong&gt;Classical Mechanics&lt;/strong&gt;.&lt;/li&gt;
-    &lt;li&gt;Maxwell developed &lt;strong&gt;Electromagnetic Theory&lt;/strong&gt;, unifying electricity and magnetism.&lt;/li&gt;
-    &lt;li&gt;Darwin proposed the &lt;strong&gt;Theory of Evolution&lt;/strong&gt; based on biological data and fossil evidence.&lt;/li&gt;
-    &lt;li&gt;Einstein’s &lt;strong&gt;General Theory of Relativity&lt;/strong&gt; redefined gravity as spacetime curvature.&lt;/li&gt;
-    &lt;li&gt;Quantum Mechanics unified Planck’s, Bohr’s, and Schrödinger’s ideas into a consistent framework explaining atomic behavior.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-science-is-dynamic-and-self-correcting&quot;&gt;🔄 Science is Dynamic and Self-Correcting&lt;/h3&gt;
-
-&lt;p&gt;Science is never final. Theories are constantly tested and refined. Errors are corrected as new data and techniques become available.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;🧠 &lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Newtonian physics was revised by Einstein’s relativity at high velocities and strong gravities.&lt;/li&gt;
-    &lt;li&gt;Bohr’s atomic model gave way to quantum mechanics and the Schrödinger equation.&lt;/li&gt;
-    &lt;li&gt;Classical thermodynamics was expanded by statistical mechanics.&lt;/li&gt;
-    &lt;li&gt;The geocentric model was replaced by the heliocentric model after better observations and reasoning.&lt;/li&gt;
-    &lt;li&gt;Phlogiston theory of combustion was replaced by modern oxidation theory.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;2-characteristics-of-scientific-knowledge&quot;&gt;2. Characteristics of Scientific Knowledge&lt;/h2&gt;
-
-&lt;p&gt;Scientific knowledge is defined by several distinct features that allow it to explain and predict phenomena reliably. According to Sumitro Banerjee, the key characteristics of scientific knowledge are:&lt;/p&gt;
-
-&lt;h3 id=&quot;-i-objectivity&quot;&gt;✅ i. Objectivity&lt;/h3&gt;
-&lt;p&gt;Truth is independent of the observer. Scientific findings must be unbiased, regardless of personal beliefs or experiences.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;🧠 &lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Water boiling at 100°C&lt;/strong&gt; at sea level is the same for everyone, regardless of who performs the observation.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;The laws of motion&lt;/strong&gt;, as formulated by Newton, are the same regardless of whether one believes in them or not.&lt;/li&gt;
-    &lt;li&gt;The &lt;strong&gt;speed of light&lt;/strong&gt; in a vacuum is always measured at approximately \(3 \times 10^8 \, m/s\), no matter the experimenter.&lt;/li&gt;
-    &lt;li&gt;The &lt;strong&gt;acceleration due to gravity&lt;/strong&gt; on Earth is \(9.8 \, m/s^2\), observed uniformly, irrespective of personal biases.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;X-rays&lt;/strong&gt; behave the same way when interacting with matter, independent of the scientist conducting the experiment.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;-ii-verifiability&quot;&gt;✅ ii. Verifiability&lt;/h3&gt;
-&lt;p&gt;Scientific results should be replicable by others using the same methods. If something cannot be independently verified, it is not accepted as scientific knowledge.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;🧠 &lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Boyle’s Law&lt;/strong&gt; of gases — the relationship between pressure and volume is verifiable in any lab across the world.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Einstein’s theory of relativity&lt;/strong&gt;: The bending of light around massive objects has been verified through multiple observations, including the 1919 solar eclipse experiment.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;F=ma (Newton’s second law)&lt;/strong&gt; is verifiable in any laboratory with appropriate equipment.&lt;/li&gt;
-    &lt;li&gt;The &lt;strong&gt;discovery of the electron&lt;/strong&gt; was confirmed through multiple experiments, like J.J. Thomson’s cathode ray tube experiment.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;The double-slit experiment&lt;/strong&gt;: Quantum mechanics predictions regarding interference patterns have been verified in countless laboratories.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;-iii-empirical-basis&quot;&gt;✅ iii. Empirical Basis&lt;/h3&gt;
-&lt;p&gt;Science is grounded in observation and experimentation. Every scientific idea or theory must be supported by data obtained from the real world.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;🧠 &lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;The &lt;strong&gt;phases of the Moon&lt;/strong&gt; can be observed directly over a month, supporting the heliocentric model of the solar system.&lt;/li&gt;
-    &lt;li&gt;The &lt;strong&gt;behavior of gases&lt;/strong&gt; (e.g., pressure, temperature, and volume relationships) is empirically validated in labs through various experiments.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;The discovery of microorganisms&lt;/strong&gt; through microscopes in the 17th century laid the foundation for the field of microbiology.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Newton’s law of gravitation&lt;/strong&gt; was empirically confirmed through the observation of planetary motions.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;The Earth’s curvature&lt;/strong&gt; is confirmed through a variety of methods, including photographs from space and the way ships disappear from view at the horizon.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;-iv-systematic-approach&quot;&gt;✅ iv. Systematic Approach&lt;/h3&gt;
-&lt;p&gt;Scientific knowledge is built step by step, following a methodical, organized approach to ensure reliability and consistency in findings.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;🧠 &lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;The &lt;strong&gt;scientific method&lt;/strong&gt;: From defining a question, forming a hypothesis, testing it through experiments, and analyzing the results.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Darwin’s theory of evolution&lt;/strong&gt; was developed through systematic observation of species and the fossil record, then tested and refined over time.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;The development of quantum mechanics&lt;/strong&gt; followed a systematic approach, starting with Max Planck’s work on black-body radiation, then Albert Einstein’s explanation of the photoelectric effect, leading to Schrödinger and Heisenberg’s formulations.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Laws of thermodynamics&lt;/strong&gt; were established systematically through repeated experimental observations in heat and energy transfer.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;The discovery of insulin&lt;/strong&gt; involved a systematic series of experiments by Banting and Best, following precise steps of isolation and testing in animals.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;-v-predictive-power&quot;&gt;✅ v. Predictive Power&lt;/h3&gt;
-&lt;p&gt;Science enables predictions about future events or phenomena based on known principles. This is a hallmark of its usefulness and reliability.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;🧠 &lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Solar eclipses&lt;/strong&gt; can be predicted with great accuracy using celestial mechanics, thanks to the laws of motion and gravitation.&lt;/li&gt;
-    &lt;li&gt;The &lt;strong&gt;discovery of new planets&lt;/strong&gt;: The existence of Neptune was predicted based on gravitational effects on Uranus before it was directly observed.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;The flight of spacecraft&lt;/strong&gt;: Calculations based on physics allow us to predict and navigate the trajectories of spacecraft, such as the &lt;strong&gt;Apollo mission to the Moon&lt;/strong&gt;.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Seismic activity&lt;/strong&gt;: Earthquake-prone regions are predicted based on historical data and the movements of tectonic plates.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Climatic phenomena&lt;/strong&gt;: Weather forecasts rely on complex models of atmospheric dynamics and have predictive accuracy for short-term weather.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;-vi-universality&quot;&gt;✅ vi. Universality&lt;/h3&gt;
-&lt;p&gt;Laws of nature hold true everywhere, across all space and time, making them universally applicable.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;🧠 &lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Newton’s laws of motion&lt;/strong&gt; apply equally on Earth, in space, and on distant planets, as evidenced by satellite launches and interplanetary space missions.&lt;/li&gt;
-    &lt;li&gt;The &lt;strong&gt;second law of thermodynamics&lt;/strong&gt; — which states that entropy in an isolated system tends to increase — is valid across the universe, governing everything from black holes to everyday phenomena.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;The laws of electromagnetism&lt;/strong&gt; as described by Maxwell’s equations apply universally, whether in a laboratory on Earth or in distant galaxies.&lt;/li&gt;
-    &lt;li&gt;The &lt;strong&gt;inverse square law&lt;/strong&gt; for gravity holds for any two masses, whether on Earth or across the cosmos.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;The speed of light&lt;/strong&gt; in a vacuum is constant across the universe, as evidenced by observations from distant stars and galaxies.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;3-transitioning-into-physics&quot;&gt;3. Transitioning into Physics&lt;/h2&gt;
-
-&lt;h3 id=&quot;-what-is-physics&quot;&gt;🔹 What is Physics?&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Physics is the fundamental natural science concerned with the properties and interactions of matter, energy, space, and time.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Physics seeks to understand the &lt;strong&gt;basic laws&lt;/strong&gt; that govern the universe — from subatomic particles to galaxies.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;4-why-physics-is-the-most-fundamental-science&quot;&gt;4. Why Physics is the Most Fundamental Science&lt;/h2&gt;
-
+&lt;p&gt;This simulation is highly relevant for:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;It forms the &lt;strong&gt;basis of other sciences&lt;/strong&gt; — chemistry, biology, geology, etc.&lt;/li&gt;
-  &lt;li&gt;Physics principles are used in &lt;strong&gt;engineering, medicine, astronomy&lt;/strong&gt;, and &lt;strong&gt;technology&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;It expresses laws using &lt;strong&gt;precise mathematical language&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Understanding temperature regulation in buildings,&lt;/li&gt;
+  &lt;li&gt;Designing HVAC (Heating, Ventilation, and Air Conditioning) systems,&lt;/li&gt;
+  &lt;li&gt;Studying thermal insulation and heat leakage through walls.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;📌 “If you understand Physics deeply, you understand the language of nature.” — Sumitro Banerjee (Author of Book Research Methodology)&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&quot;2-mathematical-formulation&quot;&gt;2. Mathematical Formulation&lt;/h2&gt;
 
-&lt;h2 id=&quot;5-characteristics-of-physics&quot;&gt;5. Characteristics of Physics&lt;/h2&gt;
+&lt;p&gt;In two spatial dimensions \((x, y)\), the heat equation is:&lt;/p&gt;
 
-&lt;p&gt;Physics inherits the general characteristics of science, but it is distinguished by &lt;strong&gt;greater precision&lt;/strong&gt; and &lt;strong&gt;rigor&lt;/strong&gt;. Let’s explore the key characteristics that define physics:&lt;/p&gt;
+\[\frac{\partial u}{\partial t} = \alpha \left( 
+\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2}
+\right)\]
 
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-i-mathematical-formulation&quot;&gt;🧮 i. Mathematical Formulation&lt;/h3&gt;
-&lt;p&gt;Laws in physics are often expressed in &lt;strong&gt;mathematical equations&lt;/strong&gt;. These provide a precise, compact way to describe physical phenomena and make predictions.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Newton’s Second Law&lt;/strong&gt;: \(F = ma\) — Describes how the force acting on an object relates to its mass and acceleration.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Einstein’s Mass-Energy Equivalence&lt;/strong&gt;: \(E = mc^2\) — Expresses the relationship between mass and energy.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Kepler’s Third Law&lt;/strong&gt;: \(T^2 \propto r^3\) — Relates the orbital period \(T\) of a planet to its average distance from the Sun \(r\).&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Maxwell’s Equations&lt;/strong&gt;: Mathematical formulations describing the behavior of electric and magnetic fields.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Schrödinger’s Equation&lt;/strong&gt;: \(\hat{H}\psi = E\psi\) — Describes the behavior of quantum particles and is fundamental to quantum mechanics.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-ii-repeatability--reproducibility&quot;&gt;🔁 ii. Repeatability &amp;amp; Reproducibility&lt;/h3&gt;
-&lt;p&gt;Experiments in physics must be &lt;strong&gt;repeatable and reproducible&lt;/strong&gt;. This ensures that the results are &lt;strong&gt;consistent&lt;/strong&gt;, regardless of the experimenter or location.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;The &lt;strong&gt;motion of a pendulum&lt;/strong&gt;: Under the same conditions (length, gravitational force), the period of oscillation is always the same, demonstrating repeatability.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Double-slit experiment in quantum mechanics&lt;/strong&gt;: The interference pattern produced by electrons or photons passing through two slits is consistently reproducible.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Newton’s Law of Gravitation&lt;/strong&gt;: The gravitational force between two objects, calculated using the law, produces the same result in various experimental setups.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Conservation of Momentum&lt;/strong&gt;: In elastic collisions, the total momentum before and after the collision remains constant, and the outcome can be consistently verified in repeated experiments.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;The free fall of an object&lt;/strong&gt;: Objects dropped from the same height under identical conditions (in the absence of air resistance) always fall at the same rate.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-iii-universality&quot;&gt;🌐 iii. Universality&lt;/h3&gt;
-&lt;p&gt;The laws of physics are &lt;strong&gt;universal&lt;/strong&gt;, meaning they apply everywhere in the universe and at all times. They are not bound by location, scale, or context.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Gravitational force&lt;/strong&gt;: Newton’s law of gravitation applies to objects on Earth and to celestial bodies, such as planets and stars.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;The speed of light&lt;/strong&gt;: In any inertial reference frame, the speed of light in a vacuum is always the same, regardless of the motion of the observer.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;The laws of thermodynamics&lt;/strong&gt;: These fundamental principles, such as the conservation of energy, hold true whether applied to a thermodynamic system on Earth or in distant galaxies.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Electromagnetic waves&lt;/strong&gt;: Maxwell’s equations predict the propagation of electromagnetic waves, such as radio waves and light, across the universe.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Radioactive decay&lt;/strong&gt;: The half-life of a radioactive substance is constant, whether the substance is on Earth or in a laboratory in space.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-iv-precision&quot;&gt;🔍 iv. Precision&lt;/h3&gt;
-&lt;p&gt;Physics demands that measurements and predictions be &lt;strong&gt;precise&lt;/strong&gt;. &lt;strong&gt;Instruments&lt;/strong&gt; are calibrated to measure physical quantities to an extraordinary degree of accuracy.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Planck’s constant&lt;/strong&gt;: Its value has been measured to several decimal places, such as \(h = 6.62607015 \times 10^{-34} \, \text{J·s}\).&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Gravitational constant \(G\)&lt;/strong&gt;: One of the most challenging physical constants to measure, but its value is known to a high degree of accuracy.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Time measurements in atomic clocks&lt;/strong&gt;: The precision of modern atomic clocks enables us to measure time to an accuracy of one-billionth of a second.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Fine-structure constant \(\alpha\)&lt;/strong&gt;: This dimensionless constant characterizes the strength of electromagnetic interactions, and its value is known to incredible precision.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Measurement of subatomic particle properties&lt;/strong&gt;: Particle accelerators like the LHC measure the mass and charge of particles like the Higgs boson to extreme precision.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-v-conceptual-models&quot;&gt;🧑‍🔬 v. Conceptual Models&lt;/h3&gt;
-&lt;p&gt;Physics relies on &lt;strong&gt;conceptual models&lt;/strong&gt; to explain phenomena that may not be directly observable, allowing for deeper understanding and predictions.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;The particle model of matter&lt;/strong&gt;: In classical mechanics, matter is composed of particles that behave according to well-defined physical laws.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Wave-particle duality&lt;/strong&gt;: The behavior of light and matter as both particles and waves, a central idea in quantum mechanics.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;The Bohr model of the atom&lt;/strong&gt;: The electron is described as orbiting the nucleus in discrete energy levels, a model that explains atomic spectra.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;General relativity and spacetime&lt;/strong&gt;: The idea that gravity is a curvature of spacetime, a conceptual framework that is used to explain phenomena like black holes.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;The standard model of particle physics&lt;/strong&gt;: A framework that describes the fundamental particles and their interactions through the electromagnetic, weak, and strong forces.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;6-features-of-classical-mechanics&quot;&gt;6. Features of Classical Mechanics&lt;/h2&gt;
-
-&lt;p&gt;Classical Mechanics, the oldest and most developed branch of physics, provides the foundation for understanding motion and forces in the &lt;strong&gt;macroscopic world&lt;/strong&gt;. Its features reflect the &lt;strong&gt;Newtonian worldview&lt;/strong&gt; of nature as a machine governed by precise, universal laws.&lt;/p&gt;
-
-&lt;h3 id=&quot;-i-deterministic&quot;&gt;🔸 i. Deterministic&lt;/h3&gt;
-
-&lt;p&gt;Classical mechanics is &lt;strong&gt;fully deterministic&lt;/strong&gt;:&lt;br /&gt;
-If the &lt;strong&gt;initial conditions&lt;/strong&gt; (position, velocity, and forces) are known, the future motion can be precisely predicted using laws of motion.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Planetary motion&lt;/strong&gt;: Using Newton’s law of gravitation, we can predict the positions of planets centuries in advance.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Projectile motion&lt;/strong&gt;: Given launch angle and velocity, the trajectory of a cannonball can be precisely calculated.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Pendulum motion&lt;/strong&gt;: Knowing the length and initial displacement, one can predict its swing for all future times.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Spring-mass system&lt;/strong&gt;: The position of a mass on a spring can be computed at any time from initial conditions.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Collision of billiard balls&lt;/strong&gt;: Their paths post-collision can be determined if pre-collision velocities and angles are known.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;-ii-continuous&quot;&gt;🔸 ii. Continuous&lt;/h3&gt;
-
-&lt;p&gt;Classical mechanics assumes &lt;strong&gt;space and time are continuous&lt;/strong&gt; quantities.&lt;br /&gt;
-Motion is smooth and uninterrupted, not jumping from one point to another.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Smooth planetary orbits&lt;/strong&gt;: The paths of planets around the sun are continuous ellipses.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Free-fall motion&lt;/strong&gt;: Objects in gravitational fields accelerate smoothly over time.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Rotational motion&lt;/strong&gt;: A spinning wheel rotates through every intermediate angle continuously.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Simple harmonic motion&lt;/strong&gt;: The displacement of a pendulum or spring varies smoothly with time.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Flow of fluids (in classical fluid mechanics)&lt;/strong&gt;: Assumes continuous distribution of velocity, pressure, etc.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-iii-based-on-absolute-time-and-space&quot;&gt;🔸 iii. Based on Absolute Time and Space&lt;/h3&gt;
-
-&lt;p&gt;Classical mechanics operates under the &lt;strong&gt;Newtonian concept of absolute space and time&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;where:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Time flows &lt;strong&gt;uniformly&lt;/strong&gt; for all observers.&lt;/li&gt;
-  &lt;li&gt;Space is &lt;strong&gt;fixed and unchanging&lt;/strong&gt;, providing a background for motion.&lt;/li&gt;
+  &lt;li&gt;\(u(x, y, t)\): temperature at point \((x, y)\) and time \(t\),&lt;/li&gt;
+  &lt;li&gt;\(\alpha\): thermal diffusivity of the material (a constant),&lt;/li&gt;
+  &lt;li&gt;\((x, y) \in [0, L_x] \times [0, L_y]\): the dimensions of the room.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Simultaneity is assumed&lt;/strong&gt;: Two events are either simultaneous or not, regardless of the observer’s frame.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Speed measurements&lt;/strong&gt;: Speed is calculated as distance over time, assuming both are absolute.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Inertial frames&lt;/strong&gt;: Defined with respect to fixed space; no dependency on observer’s velocity.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Galilean transformations&lt;/strong&gt;: Used to convert between frames moving at constant velocity under assumption of absolute time.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Uniform motion in a train&lt;/strong&gt;: Is described relative to a supposedly absolute frame (e.g., Earth), not affected by motion of observer.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;This equation describes how the temperature field evolves with time due to diffusion.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;h2 id=&quot;3-boundary-and-initial-conditions&quot;&gt;3. Boundary and Initial Conditions&lt;/h2&gt;
 
-&lt;h3 id=&quot;-iv-uses-laws-and-theorems&quot;&gt;🔸 iv. Uses Laws and Theorems&lt;/h3&gt;
+&lt;h3 id=&quot;initial-condition&quot;&gt;Initial Condition&lt;/h3&gt;
 
-&lt;p&gt;Classical mechanics is built upon &lt;strong&gt;fundamental laws&lt;/strong&gt;, from which numerous &lt;strong&gt;theorems&lt;/strong&gt; and &lt;strong&gt;principles&lt;/strong&gt; are derived to analyze systems.&lt;/p&gt;
+&lt;p&gt;At time \(t = 0\), the initial temperature distribution is defined as:&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Newton’s Three Laws of Motion&lt;/strong&gt;: Basis of all dynamics in classical mechanics.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Work-Energy Theorem&lt;/strong&gt;: Connects force and motion via energy, derived from Newton’s laws.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Law of Conservation of Momentum&lt;/strong&gt;: Total momentum in a closed system remains constant.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Conservation of Angular Momentum&lt;/strong&gt;: Explains phenomena like a spinning skater pulling arms in to spin faster.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;D’Alembert’s Principle&lt;/strong&gt;: Reformulates Newton’s laws for constrained systems and leads to Lagrangian mechanics.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
+\[u(x, y, 0) = f(x, y)\]
 
-&lt;hr /&gt;
+&lt;p&gt;This could represent, for instance, a localized heat source or a uniform temperature.&lt;/p&gt;
 
-&lt;h3 id=&quot;-v-employs-mathematical-rigor&quot;&gt;🔸 v. Employs Mathematical Rigor&lt;/h3&gt;
+&lt;h3 id=&quot;boundary-conditions&quot;&gt;Boundary Conditions&lt;/h3&gt;
 
-&lt;p&gt;Classical mechanics uses &lt;strong&gt;differential equations&lt;/strong&gt;, &lt;strong&gt;vector calculus&lt;/strong&gt;, and &lt;strong&gt;algebraic relations&lt;/strong&gt; to describe physical laws with &lt;strong&gt;mathematical exactness&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Second law&lt;/strong&gt;: \(\vec{F} = m \vec{a}\) — A vector differential equation describing motion.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Kinetic energy&lt;/strong&gt;: \(K = \frac{1}{2}mv^2\) — Energy due to motion, calculated precisely.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Potential energy of a spring&lt;/strong&gt;: \(U = \frac{1}{2}kx^2\) — Expresses energy stored in elastic deformation.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Euler’s equations&lt;/strong&gt;: Governing rotational motion of rigid bodies.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Lagrangian &amp;amp; Hamiltonian mechanics&lt;/strong&gt;: Advanced reformulations that employ calculus of variations and partial derivatives for complex systems.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;8-the-role-of-laws-theorems-theories-and-models-in-physics&quot;&gt;8. The Role of Laws, Theorems, Theories, and Models in Physics&lt;/h2&gt;
-
-&lt;p&gt;Physics is not just a collection of facts; it is a &lt;strong&gt;logical structure&lt;/strong&gt; built on observations, experiments, and mathematical reasoning. Four foundational elements are crucial in this structure:&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-i-law&quot;&gt;📖 i. Law&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A &lt;strong&gt;law&lt;/strong&gt; is a concise, empirically verified statement about a regular pattern in nature.&lt;/li&gt;
-  &lt;li&gt;Usually expressed &lt;strong&gt;mathematically&lt;/strong&gt; and has &lt;strong&gt;universal applicability&lt;/strong&gt; (under defined conditions).&lt;/li&gt;
-  &lt;li&gt;Derived from repeated experiments and confirmed by observations.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Newton’s Law of Universal Gravitation&lt;/strong&gt;&lt;br /&gt;
-\(F = \frac{G m_1 m_2}{r^2}\)
-Describes the attractive force between two masses.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;For each edge of the room, typical boundary conditions include:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Ohm’s Law&lt;/strong&gt;&lt;br /&gt;
-\(V = IR\)
-Relates voltage, current, and resistance in an electric circuit.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Dirichlet Condition&lt;/strong&gt;: Fixed temperature at the wall.&lt;/p&gt;
+
+    &lt;p&gt;\(u(x, 0, t) = T_\text{floor}, \quad u(x, L_y, t) = T_\text{ceiling}\)
+\(u(0, y, t) = T_\text{left}, \quad u(L_x, y, t) = T_\text{right}\)&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Hooke’s Law&lt;/strong&gt;&lt;br /&gt;
-\(F = -kx\)
-Force is proportional to displacement in springs.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Kepler’s Laws of Planetary Motion&lt;/strong&gt;&lt;br /&gt;
-Describes elliptical orbits and area law based on astronomical data.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Newton’s Second Law&lt;/strong&gt;&lt;br /&gt;
-\(\vec{F} = m\vec{a}\)
-Foundation of classical dynamics—force causes acceleration.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Neumann Condition&lt;/strong&gt;: Insulated boundary (no heat flow across the boundary).&lt;/p&gt;
+
+\[\frac{\partial u}{\partial n} = 0\]
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;These can model different real-world scenarios, like air-conditioned walls, windows, or insulation.&lt;/p&gt;
+
+&lt;h2 id=&quot;4-numerical-approach-finite-difference-method-fdm&quot;&gt;4. Numerical Approach: Finite Difference Method (FDM)&lt;/h2&gt;
+
+&lt;p&gt;To simulate the heat equation numerically, we discretize time and space.&lt;/p&gt;
+
+&lt;h3 id=&quot;grid-setup&quot;&gt;Grid Setup&lt;/h3&gt;
+
+&lt;p&gt;Let:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;\(\Delta x = \frac{L_x}{N_x}\), \(\Delta y = \frac{L_y}{N_y}\),&lt;/li&gt;
+  &lt;li&gt;\(\Delta t\): time step.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Define grid points:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;\(x_i = i\Delta x\), \(i = 0, 1, ..., N_x\),&lt;/li&gt;
+  &lt;li&gt;\(y_j = j\Delta y\), \(j = 0, 1, ..., N_y\),&lt;/li&gt;
+  &lt;li&gt;
+\[t^n = n\Delta t\]
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let \(u_{i,j}^n \approx u(x_i, y_j, t^n)\).&lt;/p&gt;
+
+&lt;h3 id=&quot;discretized-equation-explicit-scheme&quot;&gt;Discretized Equation (Explicit Scheme)&lt;/h3&gt;
+
+&lt;p&gt;Using central differences in space and forward difference in time:&lt;/p&gt;
+
+\[u_{i,j}^{n+1} = u_{i,j}^n + \alpha \Delta t \left[
+\frac{u_{i+1,j}^n - 2u_{i,j}^n + u_{i-1,j}^n}{\Delta x^2}
++ \frac{u_{i,j+1}^n - 2u_{i,j}^n + u_{i,j-1}^n}{\Delta y^2}
+\right]\]
+
+&lt;p&gt;This formula updates the temperature at each interior grid point for the next time step.&lt;/p&gt;
+
+&lt;h3 id=&quot;stability-condition-cfl&quot;&gt;Stability Condition (CFL)&lt;/h3&gt;
+
+&lt;p&gt;To ensure stability for the explicit method:&lt;/p&gt;
+
+\[\Delta t \leq \frac{1}{2\alpha} \left( \frac{1}{\Delta x^2} + \frac{1}{\Delta y^2} \right)^{-1}\]
+
+&lt;p&gt;This sets a limit on how large the time step can be, based on the spatial resolution.&lt;/p&gt;
+
+&lt;h2 id=&quot;5-physical-interpretation&quot;&gt;5. Physical Interpretation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The second derivatives in \(x\) and \(y\) represent &lt;strong&gt;temperature curvature&lt;/strong&gt; — steep gradients lead to faster heat flow.&lt;/li&gt;
+  &lt;li&gt;The solution smooths out temperature variations over time.&lt;/li&gt;
+  &lt;li&gt;With insulated boundaries, the total energy (heat) remains constant.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;6-visualization-and-analysis&quot;&gt;6. Visualization and Analysis&lt;/h2&gt;
+
+&lt;p&gt;After solving, the temperature distribution is visualized using:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Heat maps&lt;/strong&gt; (2D color plots),&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Contour plots&lt;/strong&gt;,&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;3D surface plots&lt;/strong&gt; to show temporal evolution.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These visualizations help understand:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;How fast the heat spreads,&lt;/li&gt;
+  &lt;li&gt;Whether the system reaches equilibrium,&lt;/li&gt;
+  &lt;li&gt;How boundary conditions influence the solution.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;7-applications-in-dissertation&quot;&gt;7. Applications in Dissertation&lt;/h2&gt;
+
+&lt;p&gt;Students can explore several directions:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Compare explicit and implicit schemes (e.g., Crank-Nicolson),&lt;/li&gt;
+  &lt;li&gt;Model moving heat sources (e.g., a heater turning on/off),&lt;/li&gt;
+  &lt;li&gt;Include airflow or convection (e.g., adding a velocity field),&lt;/li&gt;
+  &lt;li&gt;Use real-world dimensions and temperature data,&lt;/li&gt;
+  &lt;li&gt;Study effects of insulation by changing boundary conditions.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Simulation of the Heat Equation in a Rectangular Room</summary></entry><entry><title type="html">Dissertation-Wave Equation</title><link href="http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-Wave.html" rel="alternate" type="text/html" title="Dissertation-Wave Equation" /><published>2025-04-15T07:47:26+05:30</published><updated>2025-04-15T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-Wave</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-Wave.html">&lt;h1 id=&quot;simulation-of-the-wave-equation-in-a-circular-domain-using-python&quot;&gt;Simulation of the Wave Equation in a Circular Domain Using Python&lt;/h1&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;This project focuses on simulating the two-dimensional wave equation within a circular domain using the Finite Difference Method (FDM). A triangular mesh structure represents the discretized domain, and the simulation evolves in time according to the wave equation in polar coordinates. The study aims to analyze wave propagation dynamics subject to various boundary and initial conditions, providing insights into physical systems such as vibrating membranes and acoustic cavities.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-introduction&quot;&gt;1. Introduction&lt;/h2&gt;
+
+&lt;p&gt;Partial differential equations (PDEs) such as the wave and heat equations are fundamental in describing physical phenomena involving wave propagation, heat transfer, and diffusion. While rectangular domains are commonly used for numerical simulation due to their simplicity in meshing and indexing, circular domains are essential when modeling radially symmetric systems such as drums, membranes, or circular plates.&lt;/p&gt;
+
+&lt;p&gt;This project presents a numerical solution to the 2D wave equation within a circular domain using Python. A triangular mesh approximates the geometry, and the solution advances in time via a second-order accurate finite difference scheme adapted to polar coordinates.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-mathematical-background&quot;&gt;2. Mathematical Background&lt;/h2&gt;
+
+&lt;h3 id=&quot;21-the-wave-equation-in-2d&quot;&gt;2.1 The Wave Equation in 2D&lt;/h3&gt;
+
+&lt;p&gt;In Cartesian coordinates, the 2D wave equation is given by:&lt;/p&gt;
+
+\[\frac{\partial^2 u}{\partial t^2} = c^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} \right)\]
+
+&lt;p&gt;To simulate wave behavior on a circular domain, it’s more appropriate to express the equation in polar coordinates \((r, \theta)\):&lt;/p&gt;
+
+\[\frac{\partial^2 u}{\partial t^2} = c^2 \left( \frac{1}{r} \frac{\partial}{\partial r} \left( r \frac{\partial u}{\partial r} \right) + \frac{1}{r^2} \frac{\partial^2 u}{\partial \theta^2} \right)\]
+
+&lt;p&gt;Here, \(u(r, \theta, t)\) represents the displacement of the medium at time \(t\), radius \(r\), and angular position \(\theta\). The constant \(c\) denotes the wave propagation speed.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-finite-difference-method-fdm-in-polar-coordinates&quot;&gt;3. Finite Difference Method (FDM) in Polar Coordinates&lt;/h2&gt;
+
+&lt;p&gt;To solve the wave equation numerically, we discretize the domain in both space and time. Let:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;\(\Delta r\) be the radial spacing&lt;/li&gt;
+  &lt;li&gt;\(\Delta \theta\) be the angular spacing&lt;/li&gt;
+  &lt;li&gt;\(\Delta t\) be the time step&lt;/li&gt;
+  &lt;li&gt;\(u_{i,j}^m\) be the displacement at radius index \(i\), angle index \(j\), and time step \(m\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The discretized form of the wave equation becomes:&lt;/p&gt;
+
+\[\frac{u^{m+1}_{i,j} - 2u^m_{i,j} + u^{m-1}_{i,j}}{\Delta t^2} = c^2 \left(
+\frac{u_{i+1,j}^m - 2u_{i,j}^m + u_{i-1,j}^m}{\Delta r^2} +
+\frac{u_{i+1,j}^m - u_{i-1,j}^m}{2r_i \Delta r} +
+\frac{u_{i,j+1}^m - 2u_{i,j}^m + u_{i,j-1}^m}{r_i^2 \Delta \theta^2}
+\right)\]
+
+&lt;p&gt;Solving for ( u^{m+1}_{i,j} ):&lt;/p&gt;
+
+\[u_{i,j}^{m+1} = 2u_{i,j}^m - u_{i,j}^{m-1} + \Delta t^2 c^2 \left(
+\frac{u_{i+1,j}^m - 2u_{i,j}^m + u_{i-1,j}^m}{\Delta r^2} +
+\frac{u_{i+1,j}^m - u_{i-1,j}^m}{2r_i \Delta r} +
+\frac{u_{i,j+1}^m - 2u_{i,j}^m + u_{i,j-1}^m}{r_i^2 \Delta \theta^2}
+\right)\]
+
+&lt;p&gt;This iterative equation is the foundation for our simulation.&lt;/p&gt;
+
+&lt;h2 id=&quot;4-numerical-implementation-using-python&quot;&gt;4. Numerical Implementation Using Python&lt;/h2&gt;
+
+&lt;h3 id=&quot;41-mesh-construction&quot;&gt;4.1 Mesh Construction&lt;/h3&gt;
+
+&lt;p&gt;Although the FDM typically uses structured grids, our circular geometry is better represented by a triangular mesh. This mesh allows flexibility in representing curved boundaries and local refinements.&lt;/p&gt;
+
+&lt;p&gt;A mesh generator (like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;meshpy&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gmsh&lt;/code&gt;, or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scikit-fem&lt;/code&gt;) can be used to generate a high-quality triangular mesh. Once the mesh is generated, we interpolate values over each triangle’s nodes and solve the PDE over time using explicit time integration.&lt;/p&gt;
+
+&lt;h3 id=&quot;42-discretization-strategy&quot;&gt;4.2 Discretization Strategy&lt;/h3&gt;
+
+&lt;p&gt;While polar coordinates are conceptually ideal, triangular meshes are better suited to finite element or finite volume methods. Therefore, the FDM approach is extended to &lt;strong&gt;unstructured meshes&lt;/strong&gt; using a generalized Laplacian approximation over triangles, which can be implemented using:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mass-lumped finite elements&lt;/li&gt;
+  &lt;li&gt;Vertex-based Laplacian using cotangent weights&lt;/li&gt;
+  &lt;li&gt;Explicit time-stepping (like leapfrog or central-difference)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;43-python-libraries&quot;&gt;4.3 Python Libraries&lt;/h3&gt;
+
+&lt;p&gt;The following Python libraries are recommended:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://numpy.org/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;numpy&lt;/code&gt;&lt;/a&gt;: Numerical operations&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://matplotlib.org/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;matplotlib&lt;/code&gt;&lt;/a&gt;: Visualization&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pypi.org/project/MeshPy/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;meshpy&lt;/code&gt;&lt;/a&gt; or &lt;a href=&quot;https://gmsh.info/&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gmsh&lt;/code&gt;&lt;/a&gt;: Mesh generation&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.scipy.org/doc/scipy/reference/sparse.html&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scipy.sparse&lt;/code&gt;&lt;/a&gt;: Efficient matrix representation&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/pyamg/pyamg&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pyamg&lt;/code&gt;&lt;/a&gt;: Multigrid solvers (optional)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/kinnala/scikit-fem&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scikit-fem&lt;/code&gt;&lt;/a&gt;: FEM solver on triangular meshes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;5-boundary-and-initial-conditions&quot;&gt;5. Boundary and Initial Conditions&lt;/h2&gt;
+
+&lt;p&gt;To simulate a physically meaningful solution, appropriate initial and boundary conditions must be applied:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Initial displacement&lt;/strong&gt;: \(u(r, \theta, 0) = f(r, \theta)\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Initial velocity&lt;/strong&gt;: \(\frac{\partial u}{\partial t}(r, \theta, 0) = g(r, \theta)\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Boundary condition&lt;/strong&gt;: \(u(R, \theta, t) = 0\) for fixed edges (Dirichlet), or \(\frac{\partial u}{\partial r}(R, \theta, t) = 0\) for free boundaries (Neumann)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;6-stability-considerations&quot;&gt;6. Stability Considerations&lt;/h2&gt;
+
+&lt;p&gt;The wave equation is solved using an &lt;strong&gt;explicit time-stepping&lt;/strong&gt; scheme, which requires careful selection of time step \(\Delta t\) to maintain stability. The CFL (Courant-Friedrichs-Lewy) condition dictates:&lt;/p&gt;
+
+\[\Delta t \leq \frac{h}{c\sqrt{2}}\]
+
+&lt;p&gt;where \(h\) is the minimum distance between mesh points.&lt;/p&gt;
+
+&lt;h2 id=&quot;7-visualization-and-output&quot;&gt;7. Visualization and Output&lt;/h2&gt;
+
+&lt;p&gt;The wavefronts are visualized using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;matplotlib&lt;/code&gt;’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pcolormesh&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;imshow&lt;/code&gt;, or even &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;plotly&lt;/code&gt; for 3D surfaces. Time snapshots are stored to generate an animation of the wave propagation.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;-ii-theorem&quot;&gt;📖 ii. Theorem&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A &lt;strong&gt;theorem&lt;/strong&gt; is a statement that is &lt;strong&gt;logically deduced&lt;/strong&gt; from basic laws and definitions.&lt;/li&gt;
-  &lt;li&gt;Proven using &lt;strong&gt;mathematical reasoning&lt;/strong&gt; within a physical framework.&lt;/li&gt;
-  &lt;li&gt;Theorems help extend the predictive power of laws.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Work-Energy Theorem&lt;/strong&gt;&lt;br /&gt;
-Derived from Newton’s second law:&lt;br /&gt;
-\(W = \Delta K\)
-Work done by net force equals change in kinetic energy.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Conservation of Linear Momentum&lt;/strong&gt;&lt;br /&gt;
-Proved from Newton’s third law in an isolated system.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Conservation of Energy&lt;/strong&gt;&lt;br /&gt;
-Deduced for conservative forces from laws of motion.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Parallel Axis Theorem&lt;/strong&gt;&lt;br /&gt;
-Used to find the moment of inertia about a shifted axis.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Theorem of Kinetic Energy in Rotation&lt;/strong&gt;&lt;br /&gt;
-\(K = \frac{1}{2}I\omega^2\)
-Proven from rotational dynamics.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-iii-theory&quot;&gt;📖 iii. Theory&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A &lt;strong&gt;theory&lt;/strong&gt; is a broader &lt;strong&gt;conceptual framework&lt;/strong&gt; that explains a wide range of phenomena using laws, theorems, and postulates.&lt;/li&gt;
-  &lt;li&gt;Theories are &lt;strong&gt;well-substantiated&lt;/strong&gt;, predictive, and often unifying.&lt;/li&gt;
-  &lt;li&gt;Theories evolve with time as knowledge deepens.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Classical Mechanics&lt;/strong&gt;&lt;br /&gt;
-Combines Newton’s Laws, conservation principles, and laws of motion into a cohesive system for macroscopic objects.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Electromagnetic Theory&lt;/strong&gt;&lt;br /&gt;
-Maxwell’s equations unify electricity, magnetism, and light.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Thermodynamic Theory&lt;/strong&gt;&lt;br /&gt;
-Describes heat, energy, entropy, and equilibrium in physical systems.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Quantum Theory&lt;/strong&gt;&lt;br /&gt;
-Explains the behavior of particles at atomic scales using probabilistic laws.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Relativity Theory&lt;/strong&gt;&lt;br /&gt;
-Describes the structure of space-time and the effects of high velocities or strong gravity.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-iv-model&quot;&gt;📖 iv. Model&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A &lt;strong&gt;model&lt;/strong&gt; is a &lt;strong&gt;simplified representation&lt;/strong&gt; of a real-world system.&lt;/li&gt;
-  &lt;li&gt;May include &lt;strong&gt;assumptions or idealizations&lt;/strong&gt; to make complex systems tractable.&lt;/li&gt;
-  &lt;li&gt;Helps visualize, calculate, or conceptually understand physical behavior.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Planetary Model of the Atom (Bohr Model)&lt;/strong&gt;&lt;br /&gt;
-Electrons orbit nucleus like planets around the sun.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Ideal Gas Model&lt;/strong&gt;&lt;br /&gt;
-Assumes point particles with no interaction except during elastic collisions.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Rigid Body Model&lt;/strong&gt;&lt;br /&gt;
-Treats extended objects as undeformable to simplify rotational analysis.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Simple Harmonic Oscillator Model&lt;/strong&gt;&lt;br /&gt;
-Describes many physical systems from pendulums to molecular vibrations.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Lumped Circuit Model&lt;/strong&gt;&lt;br /&gt;
-Reduces complex circuits to discrete elements like resistors, capacitors, etc.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;⚡ &lt;strong&gt;Conclusion&lt;/strong&gt;:&lt;br /&gt;
-In physics, &lt;strong&gt;laws describe&lt;/strong&gt;, &lt;strong&gt;theorems explain&lt;/strong&gt;, &lt;strong&gt;theories unify&lt;/strong&gt;, and &lt;strong&gt;models simplify&lt;/strong&gt;. Together, they form the &lt;strong&gt;scaffolding&lt;/strong&gt; of scientific reasoning—allowing physicists to not only understand the universe but also &lt;strong&gt;predict&lt;/strong&gt; and &lt;strong&gt;control&lt;/strong&gt; phenomena within it.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;-conclusion&quot;&gt;🔚 Conclusion&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Science is a method of acquiring knowledge — &lt;strong&gt;logical, testable, and objective&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;Physics is the &lt;strong&gt;most fundamental scientific discipline&lt;/strong&gt;, modeling reality using &lt;strong&gt;precise mathematical laws&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Classical Mechanics&lt;/strong&gt; is the &lt;strong&gt;foundation of physics&lt;/strong&gt;, especially relevant at macroscopic scales.&lt;/li&gt;
-  &lt;li&gt;Understanding the &lt;strong&gt;structure of scientific reasoning&lt;/strong&gt; — from hypothesis to law to theory — is essential for any physicist.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;🗣️ &lt;em&gt;“To study physics is to understand the fabric of the universe, and Classical Mechanics is the thread that begins the weave.”&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">1. What is Science?</summary></entry><entry><title type="html">Classical Mechanics</title><link href="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html" rel="alternate" type="text/html" title="Classical Mechanics" /><published>2025-04-03T07:47:26+05:30</published><updated>2025-04-03T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html">&lt;h2 id=&quot;dalemberts-principle-lagranges-equation-and-its-simple-applications&quot;&gt;D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications&lt;/h2&gt;
+&lt;p&gt;Future work can explore adaptive mesh refinement, spectral methods, or hybrid FDM-FEM schemes for better accuracy and performance.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Simulation of the Wave Equation in a Circular Domain Using Python</summary></entry><entry><title type="html">Classical Mechanics</title><link href="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html" rel="alternate" type="text/html" title="Classical Mechanics" /><published>2025-04-03T07:47:26+05:30</published><updated>2025-04-03T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/03/Classical-Mechanics.html">&lt;h2 id=&quot;dalemberts-principle-lagranges-equation-and-its-simple-applications&quot;&gt;D’Alembert’s Principle, Lagrange’s Equation and Its Simple Applications&lt;/h2&gt;
 
 &lt;h4 id=&quot;1-dalemberts-principle&quot;&gt;1. D’Alembert’s Principle&lt;/h4&gt;
 
@@ -3338,48 +3015,4 @@ Isospin conservation is used to predict the outcomes of strong interaction proce
 The Gell-Mann–Nishijima formula connects isospin to other quantum numbers:
 \(Q = I_3 + \frac{B + S}{2},\)
 where $ Q $ is the electric charge, $ B $ is the baryon number, and $ S $ is the strangeness.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">Isospin is a quantum number that describes the symmetry between particles with similar properties but different electric charges. It was first proposed by Werner Heisenberg in 1932 to explain the near-degeneracy of protons and neutrons. These particles, collectively called nucleons, were found to behave similarly under the strong nuclear force, suggesting an underlying symmetry.</summary></entry><entry><title type="html">Assignment-I</title><link href="http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I.html" rel="alternate" type="text/html" title="Assignment-I" /><published>2025-01-10T05:47:26+05:30</published><updated>2025-01-10T05:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/01/10/Assignmnt-I.html">&lt;h3 id=&quot;instructions&quot;&gt;Instructions:&lt;/h3&gt;
-&lt;p&gt;Explain how complex physical expressions can simplify to exponential decay through Taylor series or other approximations. Provide detailed derivations for the following cases.&lt;/p&gt;
-
-&lt;h3 id=&quot;1-taylor-series-expansion&quot;&gt;1. Taylor Series Expansion&lt;/h3&gt;
-&lt;p&gt;The Breit-Wigner formula for the scattering cross-section is:&lt;br /&gt;
-\(\sigma(E) = \frac{\sigma_0}{(E - E_0)^2 + \frac{\Gamma^2}{4}}.\)&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Perform a &lt;strong&gt;Taylor series expansion&lt;/strong&gt; of the denominator, $(E - E_0)^2 + \frac{\Gamma^2}{4}$, about $E = E_0$.&lt;/li&gt;
-  &lt;li&gt;Simplify the formula for $\sigma(E)$ using the first-order approximation of the Taylor series.&lt;/li&gt;
-  &lt;li&gt;Discuss the physical meaning of this approximation and its region of validity.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;2-quadratic-approximation&quot;&gt;2. Quadratic Approximation&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Near $E = E_0$, let $x = E - E_0$. Using this substitution, rewrite the Breit-Wigner formula in terms of $x$.&lt;/li&gt;
-  &lt;li&gt;Use a &lt;strong&gt;quadratic approximation&lt;/strong&gt; for the denominator to simplify the formula for small values of $x$.&lt;/li&gt;
-  &lt;li&gt;Compare this result to the Taylor-expanded form from &lt;strong&gt;Question 1&lt;/strong&gt;, and explain the role of the quadratic term in describing the resonance peak.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;3-validity-of-the-exponential-form&quot;&gt;3. Validity of the Exponential Form&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Show that for small deviations $x = E - E_0$, the simplified Breit-Wigner formula can be approximated as:&lt;br /&gt;
-\(\sigma(E) \approx \frac{4\sigma_0}{\Gamma^2} e^{-\frac{4x^2}{\Gamma^2}}.\)&lt;/li&gt;
-  &lt;li&gt;Analyze the &lt;strong&gt;validity of this exponential form&lt;/strong&gt;:
-    &lt;ul&gt;
-      &lt;li&gt;Under what conditions (e.g., relative values of $x$, $\Gamma$) is the exponential approximation valid?&lt;/li&gt;
-      &lt;li&gt;When does this form break down, and what does this imply about the resonance behavior at larger deviations from $E_0$?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;(Optional for advanced students) Plot the original Breit-Wigner formula and the exponential approximation for a few values of $\Gamma$ to visualize their differences.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;4-harmonic-oscillator-perturbed-by-a-complex-potential&quot;&gt;4. Harmonic Oscillator Perturbed by a Complex Potential&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Formula:&lt;/strong&gt;&lt;br /&gt;
-The wavefunction for a harmonic oscillator perturbed by a complex potential $V(x) = V_0 e^{-x^2}$ satisfies the Schrödinger equation:&lt;br /&gt;
-\(-\frac{\hbar^2}{2m} \frac{d^2\psi}{dx^2} + (\frac{1}{2}m\omega^2 x^2  + V_0 e^{-x^2}) \psi = E \psi.\)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Approximate Near $x = 0$ and solve the Schrödinger equation&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Due Date:&lt;/strong&gt;&lt;br /&gt;
-Submit your solutions by the next class meeting.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">Instructions: Explain how complex physical expressions can simplify to exponential decay through Taylor series or other approximations. Provide detailed derivations for the following cases.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">Isospin is a quantum number that describes the symmetry between particles with similar properties but different electric charges. It was first proposed by Werner Heisenberg in 1932 to explain the near-degeneracy of protons and neutrons. These particles, collectively called nucleons, were found to behave similarly under the strong nuclear force, suggesting an underlying symmetry.</summary></entry></feed>
