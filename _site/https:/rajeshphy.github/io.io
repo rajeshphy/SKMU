@@ -1,4 +1,145 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-15T08:47:16+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Dissertation: N-Interconnected Mass-Spring System</title><link href="http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-N-Mass-System.html" rel="alternate" type="text/html" title="Dissertation: N-Interconnected Mass-Spring System" /><published>2025-04-15T08:37:26+05:30</published><updated>2025-04-15T08:37:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-N-Mass-System</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-N-Mass-System.html">&lt;div style=&quot;text-align: center;&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-15T11:14:39+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Eigenvalues and Eigenvectors of Matrices</title><link href="http://localhost:4000/SKMU/lecture/2025/04/15/Eigen.html" rel="alternate" type="text/html" title="Eigenvalues and Eigenvectors of Matrices" /><published>2025-04-15T09:47:26+05:30</published><updated>2025-04-15T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/15/Eigen</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/15/Eigen.html">&lt;p&gt;Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-2-basic-definitions&quot;&gt;🔹 2. Basic Definitions&lt;/h2&gt;
+
+&lt;p&gt;Let \(A\) be an \(n \times n\) square matrix. A non-zero vector \(\mathbf{v} \in \mathbb{R}^n\) is called an &lt;strong&gt;eigenvector&lt;/strong&gt; of \(A\) if it satisfies:&lt;/p&gt;
+
+\[A \mathbf{v} = \lambda \mathbf{v}\]
+
+&lt;p&gt;Here:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;\(\lambda \in \mathbb{R}\) (or \(\mathbb{C}\)) is the &lt;strong&gt;eigenvalue&lt;/strong&gt; corresponding to eigenvector \(\mathbf{v}\).&lt;/li&gt;
+  &lt;li&gt;\(\mathbf{v} \ne \mathbf{0}\) is a &lt;strong&gt;direction preserved&lt;/strong&gt; under the transformation by \(A\), scaled by \(\lambda\).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-3-how-to-find-eigenvalues-and-eigenvectors&quot;&gt;🔹 3. How to Find Eigenvalues and Eigenvectors&lt;/h2&gt;
+
+&lt;h3 id=&quot;step-1-characteristic-equation&quot;&gt;Step 1: Characteristic Equation&lt;/h3&gt;
+
+&lt;p&gt;To find eigenvalues, solve the &lt;strong&gt;characteristic equation&lt;/strong&gt;:&lt;/p&gt;
+
+\[\det(A - \lambda I) = 0\]
+
+&lt;ul&gt;
+  &lt;li&gt;\(I\) is the identity matrix of the same size as \(A\).&lt;/li&gt;
+  &lt;li&gt;The determinant gives a polynomial in \(\lambda\) called the &lt;strong&gt;characteristic polynomial&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-2-solve-for-eigenvectors&quot;&gt;Step 2: Solve for Eigenvectors&lt;/h3&gt;
+
+&lt;p&gt;For each eigenvalue \(\lambda\), solve the system:&lt;/p&gt;
+
+\[(A - \lambda I) \mathbf{v} = 0\]
+
+&lt;p&gt;to find the corresponding eigenvector(s) \(\mathbf{v}\).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-4-example&quot;&gt;🔸 4. Example&lt;/h2&gt;
+
+&lt;p&gt;Let&lt;/p&gt;
+
+\[A = \begin{bmatrix}
+2 &amp;amp; 1 \\
+1 &amp;amp; 2
+\end{bmatrix}\]
+
+&lt;h3 id=&quot;step-1-find-eigenvalues&quot;&gt;Step 1: Find Eigenvalues&lt;/h3&gt;
+
+&lt;p&gt;Solve:&lt;/p&gt;
+
+\[\det(A - \lambda I) = \det \begin{bmatrix}
+2 - \lambda &amp;amp; 1 \\
+1 &amp;amp; 2 - \lambda
+\end{bmatrix}
+= (2 - \lambda)^2 - 1 = 0\]
+
+&lt;p&gt;So,&lt;/p&gt;
+
+\[(2 - \lambda)^2 = 1 \Rightarrow \lambda = 1, 3\]
+
+&lt;h3 id=&quot;step-2-find-eigenvectors&quot;&gt;Step 2: Find Eigenvectors&lt;/h3&gt;
+
+&lt;p&gt;For \(\lambda = 1\):&lt;/p&gt;
+
+\[(A - I) \mathbf{v} = \begin{bmatrix}
+1 &amp;amp; 1 \\
+1 &amp;amp; 1
+\end{bmatrix} \begin{bmatrix}
+x \\
+y
+\end{bmatrix} = 0
+\Rightarrow x + y = 0 \Rightarrow \mathbf{v}_1 = \begin{bmatrix} 1 \\ -1 \end{bmatrix}\]
+
+&lt;p&gt;For \(\lambda = 3\):&lt;/p&gt;
+
+\[(A - 3I) \mathbf{v} = \begin{bmatrix}
+-1 &amp;amp; 1 \\
+1 &amp;amp; -1
+\end{bmatrix} \begin{bmatrix}
+x \\
+y
+\end{bmatrix} = 0
+\Rightarrow x - y = 0 \Rightarrow \mathbf{v}_2 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}\]
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-5-key-properties&quot;&gt;🔹 5. Key Properties&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A matrix of size \(n \times n\) has at most \(n\) eigenvalues.&lt;/li&gt;
+  &lt;li&gt;Eigenvectors corresponding to &lt;strong&gt;distinct eigenvalues are linearly independent&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;If a matrix is &lt;strong&gt;symmetric&lt;/strong&gt;, all its eigenvalues are real and eigenvectors are orthogonal.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-6-physical-interpretation&quot;&gt;🔹 6. Physical Interpretation&lt;/h2&gt;
+
+&lt;p&gt;In physics:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In quantum mechanics, eigenvalues of operators represent &lt;strong&gt;observable quantities&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;In mechanics, the &lt;strong&gt;normal modes&lt;/strong&gt; of oscillation are eigenvectors of the system matrix.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-summary&quot;&gt;📌 Summary&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Term&lt;/th&gt;
+      &lt;th&gt;Meaning&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Eigenvalue&lt;/td&gt;
+      &lt;td&gt;Scalar \(\lambda\) such that \(A \mathbf{v} = \lambda \mathbf{v}\)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Eigenvector&lt;/td&gt;
+      &lt;td&gt;Non-zero vector \(\mathbf{v}\) preserved in direction by \(A\)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Characteristic Equation&lt;/td&gt;
+      &lt;td&gt;\(\det(A - \lambda I) = 0\) to find eigenvalues&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Matrix Diagonalization&lt;/td&gt;
+      &lt;td&gt;Possible if matrix has \(n\) linearly independent eigenvectors&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space.</summary></entry><entry><title type="html">Dissertation: N-Interconnected Mass-Spring System</title><link href="http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-N-Mass-System.html" rel="alternate" type="text/html" title="Dissertation: N-Interconnected Mass-Spring System" /><published>2025-04-15T08:37:26+05:30</published><updated>2025-04-15T08:37:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-N-Mass-System</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-N-Mass-System.html">&lt;div style=&quot;text-align: center;&quot;&gt;
   &lt;img src=&quot;/SKMU/assets/images/Lecture/Spring-Mass.png&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:70%; height:auto;&quot; /&gt;
 &lt;/div&gt;
 
@@ -2562,227 +2703,4 @@ Modern CPUs have many cores. Parallelism uses them all efficiently.&lt;/p&gt;
 &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;You lose! 😢&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;🎲 &lt;strong&gt;Output:&lt;/strong&gt; A fun interactive game!&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">The Command Prompt (cmd.exe) is a command-line interpreter in Windows that allows users to execute commands, run scripts, and perform administrative tasks.</summary></entry><entry><title type="html">Basic Electronics: Boolean Algebra</title><link href="http://localhost:4000/SKMU/lecture/2025/02/28/Elective-Electronics.html" rel="alternate" type="text/html" title="Basic Electronics: Boolean Algebra" /><published>2025-02-28T08:47:26+05:30</published><updated>2025-02-28T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/02/28/Elective-Electronics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/02/28/Elective-Electronics.html">&lt;p&gt;Boolean algebra is a mathematical structure used to perform operations on binary variables (0s and 1s). It is fundamental in digital logic design and computer science.&lt;/p&gt;
-
-&lt;h2 id=&quot;basic-boolean-operations&quot;&gt;Basic Boolean Operations&lt;/h2&gt;
-&lt;p&gt;Boolean algebra consists of three primary operations:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;AND Operation (⋅)&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Symbol: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A ⋅ B&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A AND B&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Truth Table:&lt;/p&gt;
-
-        &lt;table&gt;
-          &lt;thead&gt;
-            &lt;tr&gt;
-              &lt;th&gt;A&lt;/th&gt;
-              &lt;th&gt;B&lt;/th&gt;
-              &lt;th&gt;A ⋅ B&lt;/th&gt;
-            &lt;/tr&gt;
-          &lt;/thead&gt;
-          &lt;tbody&gt;
-            &lt;tr&gt;
-              &lt;td&gt;0&lt;/td&gt;
-              &lt;td&gt;0&lt;/td&gt;
-              &lt;td&gt;0&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-              &lt;td&gt;0&lt;/td&gt;
-              &lt;td&gt;1&lt;/td&gt;
-              &lt;td&gt;0&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-              &lt;td&gt;1&lt;/td&gt;
-              &lt;td&gt;0&lt;/td&gt;
-              &lt;td&gt;0&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-              &lt;td&gt;1&lt;/td&gt;
-              &lt;td&gt;1&lt;/td&gt;
-              &lt;td&gt;1&lt;/td&gt;
-            &lt;/tr&gt;
-          &lt;/tbody&gt;
-        &lt;/table&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;OR Operation (+)&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Symbol: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A + B&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A OR B&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Truth Table:&lt;/p&gt;
-
-        &lt;table&gt;
-          &lt;thead&gt;
-            &lt;tr&gt;
-              &lt;th&gt;A&lt;/th&gt;
-              &lt;th&gt;B&lt;/th&gt;
-              &lt;th&gt;A + B&lt;/th&gt;
-            &lt;/tr&gt;
-          &lt;/thead&gt;
-          &lt;tbody&gt;
-            &lt;tr&gt;
-              &lt;td&gt;0&lt;/td&gt;
-              &lt;td&gt;0&lt;/td&gt;
-              &lt;td&gt;0&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-              &lt;td&gt;0&lt;/td&gt;
-              &lt;td&gt;1&lt;/td&gt;
-              &lt;td&gt;1&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-              &lt;td&gt;1&lt;/td&gt;
-              &lt;td&gt;0&lt;/td&gt;
-              &lt;td&gt;1&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-              &lt;td&gt;1&lt;/td&gt;
-              &lt;td&gt;1&lt;/td&gt;
-              &lt;td&gt;1&lt;/td&gt;
-            &lt;/tr&gt;
-          &lt;/tbody&gt;
-        &lt;/table&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;NOT Operation (¯)&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Symbol: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ā&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOT A&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Truth Table:&lt;/p&gt;
-
-        &lt;table&gt;
-          &lt;thead&gt;
-            &lt;tr&gt;
-              &lt;th&gt;A&lt;/th&gt;
-              &lt;th&gt;Ā&lt;/th&gt;
-            &lt;/tr&gt;
-          &lt;/thead&gt;
-          &lt;tbody&gt;
-            &lt;tr&gt;
-              &lt;td&gt;0&lt;/td&gt;
-              &lt;td&gt;1&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-              &lt;td&gt;1&lt;/td&gt;
-              &lt;td&gt;0&lt;/td&gt;
-            &lt;/tr&gt;
-          &lt;/tbody&gt;
-        &lt;/table&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;boolean-identities&quot;&gt;Boolean Identities&lt;/h2&gt;
-&lt;p&gt;Boolean algebra follows several important identities:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Identity Laws:&lt;/strong&gt;&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A + 0 = A&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A ⋅ 1 = A&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Null Laws:&lt;/strong&gt;&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A + 1 = 1&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A ⋅ 0 = 0&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Idempotent Laws:&lt;/strong&gt;&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A + A = A&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A ⋅ A = A&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Complement Laws:&lt;/strong&gt;&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A + Ā = 1&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A ⋅ Ā = 0&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Distributive Laws:&lt;/strong&gt;&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A ⋅ (B + C) = A ⋅ B + A ⋅ C&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Absorption Laws:&lt;/strong&gt;&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A + (A ⋅ B) = A&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A ⋅ (A + B) = A&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;conversion-of-decimal-numbers-into-binary-numbers&quot;&gt;Conversion of Decimal Numbers into Binary Numbers&lt;/h1&gt;
-
-&lt;p&gt;Converting a decimal number to binary involves dividing the number by 2 repeatedly and recording the remainders.&lt;/p&gt;
-
-&lt;h3 id=&quot;steps-to-convert-decimal-to-binary&quot;&gt;Steps to Convert Decimal to Binary:&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Divide&lt;/strong&gt; the decimal number by 2.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Record&lt;/strong&gt; the remainder (0 or 1).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Repeat&lt;/strong&gt; the process with the quotient.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Reverse&lt;/strong&gt; the sequence of remainders to obtain the binary number.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;example-1-convert-13-to-binary&quot;&gt;Example 1: Convert 13 to Binary&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;13 ÷ 2 = 6, remainder &lt;strong&gt;1&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;6 ÷ 2 = 3, remainder &lt;strong&gt;0&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;3 ÷ 2 = 1, remainder &lt;strong&gt;1&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;1 ÷ 2 = 0, remainder &lt;strong&gt;1&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Read from bottom to top: &lt;strong&gt;1101&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;example-2-convert-25-to-binary&quot;&gt;Example 2: Convert 25 to Binary&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;25 ÷ 2 = 12, remainder &lt;strong&gt;1&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;12 ÷ 2 = 6, remainder &lt;strong&gt;0&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;6 ÷ 2 = 3, remainder &lt;strong&gt;0&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;3 ÷ 2 = 1, remainder &lt;strong&gt;1&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;1 ÷ 2 = 0, remainder &lt;strong&gt;1&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Read from bottom to top: &lt;strong&gt;11001&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;shortcut-binary-of-small-decimal-numbers&quot;&gt;Shortcut: Binary of Small Decimal Numbers&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Decimal&lt;/th&gt;
-      &lt;th&gt;Binary&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;10&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;11&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;100&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;101&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;6&lt;/td&gt;
-      &lt;td&gt;110&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;7&lt;/td&gt;
-      &lt;td&gt;111&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;8&lt;/td&gt;
-      &lt;td&gt;1000&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;9&lt;/td&gt;
-      &lt;td&gt;1001&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;10&lt;/td&gt;
-      &lt;td&gt;1010&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;These concepts are essential for understanding digital logic design and computer arithmetic.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-III" /><summary type="html">Boolean algebra is a mathematical structure used to perform operations on binary variables (0s and 1s). It is fundamental in digital logic design and computer science.</summary></entry></feed>
+&lt;p&gt;🎲 &lt;strong&gt;Output:&lt;/strong&gt; A fun interactive game!&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">The Command Prompt (cmd.exe) is a command-line interpreter in Windows that allows users to execute commands, run scripts, and perform administrative tasks.</summary></entry></feed>
