@@ -9,7 +9,7 @@ tags: SEM-I
 🚀 **Hands-on Practice:** Practice coding by clicking on button below:
 
 <div align="center">
-  <a href="https://onecompiler.com/python">
+  <a href="http://onlinegdb.com/online_python_compiler">
     <img src="https://img.shields.io/badge/Try%20Python%20Online-Run%20Now-blue?style=for-the-badge&logo=python" alt="Run Python Code" width="250">
   </a>
 </div>
