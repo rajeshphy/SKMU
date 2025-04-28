@@ -8,21 +8,41 @@ tags: SEM-I
 
 # Solution of First Order Differential Equation using Runge-Kutta Method
 
-## Introduction
+The numerical solution of **first-order differential equations** plays a crucial role across science and engineering. While many analytical methods exist, they are often limited to relatively simple equations. As a result, numerical methods have become indispensable tools for approximating solutions.
+
+Several methods are available for numerically solving first-order ordinary differential equations (ODEs):
+
+- **Euler’s Method**: The simplest method, based on a first-order Taylor expansion. It is easy to implement but often suffers from large truncation errors, especially over larger step sizes.
+- **Improved Euler’s Method (Heun’s Method)**: An enhancement over Euler’s method, reducing errors by using an averaged slope.
+- **Taylor Series Methods**: These methods provide high accuracy but require the calculation of higher-order derivatives, making them computationally intensive.
+- **Runge-Kutta Methods**: A family of iterative methods that achieve higher accuracy without requiring higher derivatives. They are the most widely used in practice due to their balance between simplicity, accuracy, and computational efficiency.
+
+Among these, the **Runge-Kutta methods** stand out as the most popular because:
+
+- They do not require the explicit computation of higher derivatives (unlike Taylor series methods).
+- They can achieve high-order accuracy with relatively simple formulas.
+- They are robust and flexible, applicable to a wide variety of differential equations.
+
+The Runge-Kutta family includes methods of various orders:
+
+- **First-Order Runge-Kutta (RK1)**: Equivalent to Euler’s method.
+- **Second-Order Runge-Kutta (RK2)**: Also known as the Improved Euler or Heun’s method, offering better accuracy.
+- **Third-Order Runge-Kutta (RK3)**: Provides intermediate accuracy but is less commonly used.
+- **Fourth-Order Runge-Kutta (RK4)**: The most popular method, offering excellent accuracy with manageable computational complexity.
+- **Higher-Order Runge-Kutta Methods**: Methods of order five and above exist (such as the Runge-Kutta-Fehlberg and Dormand-Prince methods) but are typically used for adaptive step-size control in more advanced applications.
+
+
+
+
+---
+
+## Fourth-Order Runge-Kutta Method (RK4)
 
 The **Runge-Kutta methods** are a family of iterative methods for approximating the solution of **first-order ordinary differential equations (ODEs)** of the form:
 
 $$
 \frac{dy}{dx} = f(x, y), \quad y(x_0) = y_0
 $$
-
-These methods provide better accuracy compared to simple methods like **Euler’s method**, even for relatively large step sizes.
-
-The most widely used version is the **Fourth-Order Runge-Kutta Method (RK4)**.
-
----
-
-## Fourth-Order Runge-Kutta Method (RK4)
 
 Suppose we wish to find $$ y(x) $$ at $$ x = x_0 + h $$ given $$ y(x_0) = y_0 $$. The RK4 method uses the following steps:
 

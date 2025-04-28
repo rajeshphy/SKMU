@@ -1,18 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-28T12:55:51+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Runge-Kutta Method</title><link href="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html" rel="alternate" type="text/html" title="Runge-Kutta Method" /><published>2025-04-28T09:47:26+05:30</published><updated>2025-04-28T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html">&lt;h1 id=&quot;solution-of-first-order-differential-equation-using-runge-kutta-method&quot;&gt;Solution of First Order Differential Equation using Runge-Kutta Method&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-28T13:02:51+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Runge-Kutta Method</title><link href="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html" rel="alternate" type="text/html" title="Runge-Kutta Method" /><published>2025-04-28T09:47:26+05:30</published><updated>2025-04-28T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html">&lt;h1 id=&quot;solution-of-first-order-differential-equation-using-runge-kutta-method&quot;&gt;Solution of First Order Differential Equation using Runge-Kutta Method&lt;/h1&gt;
 
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;The numerical solution of &lt;strong&gt;first-order differential equations&lt;/strong&gt; plays a crucial role across science and engineering. While many analytical methods exist, they are often limited to relatively simple equations. As a result, numerical methods have become indispensable tools for approximating solutions.&lt;/p&gt;
 
-&lt;p&gt;The &lt;strong&gt;Runge-Kutta methods&lt;/strong&gt; are a family of iterative methods for approximating the solution of &lt;strong&gt;first-order ordinary differential equations (ODEs)&lt;/strong&gt; of the form:&lt;/p&gt;
+&lt;p&gt;Several methods are available for numerically solving first-order ordinary differential equations (ODEs):&lt;/p&gt;
 
-\[\frac{dy}{dx} = f(x, y), \quad y(x_0) = y_0\]
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Euler’s Method&lt;/strong&gt;: The simplest method, based on a first-order Taylor expansion. It is easy to implement but often suffers from large truncation errors, especially over larger step sizes.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Improved Euler’s Method (Heun’s Method)&lt;/strong&gt;: An enhancement over Euler’s method, reducing errors by using an averaged slope.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Taylor Series Methods&lt;/strong&gt;: These methods provide high accuracy but require the calculation of higher-order derivatives, making them computationally intensive.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Runge-Kutta Methods&lt;/strong&gt;: A family of iterative methods that achieve higher accuracy without requiring higher derivatives. They are the most widely used in practice due to their balance between simplicity, accuracy, and computational efficiency.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;These methods provide better accuracy compared to simple methods like &lt;strong&gt;Euler’s method&lt;/strong&gt;, even for relatively large step sizes.&lt;/p&gt;
+&lt;p&gt;Among these, the &lt;strong&gt;Runge-Kutta methods&lt;/strong&gt; stand out as the most popular because:&lt;/p&gt;
 
-&lt;p&gt;The most widely used version is the &lt;strong&gt;Fourth-Order Runge-Kutta Method (RK4)&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;They do not require the explicit computation of higher derivatives (unlike Taylor series methods).&lt;/li&gt;
+  &lt;li&gt;They can achieve high-order accuracy with relatively simple formulas.&lt;/li&gt;
+  &lt;li&gt;They are robust and flexible, applicable to a wide variety of differential equations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Runge-Kutta family includes methods of various orders:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;First-Order Runge-Kutta (RK1)&lt;/strong&gt;: Equivalent to Euler’s method.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Second-Order Runge-Kutta (RK2)&lt;/strong&gt;: Also known as the Improved Euler or Heun’s method, offering better accuracy.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Third-Order Runge-Kutta (RK3)&lt;/strong&gt;: Provides intermediate accuracy but is less commonly used.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fourth-Order Runge-Kutta (RK4)&lt;/strong&gt;: The most popular method, offering excellent accuracy with manageable computational complexity.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Higher-Order Runge-Kutta Methods&lt;/strong&gt;: Methods of order five and above exist (such as the Runge-Kutta-Fehlberg and Dormand-Prince methods) but are typically used for adaptive step-size control in more advanced applications.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&quot;fourth-order-runge-kutta-method-rk4&quot;&gt;Fourth-Order Runge-Kutta Method (RK4)&lt;/h2&gt;
+
+&lt;p&gt;The &lt;strong&gt;Runge-Kutta methods&lt;/strong&gt; are a family of iterative methods for approximating the solution of &lt;strong&gt;first-order ordinary differential equations (ODEs)&lt;/strong&gt; of the form:&lt;/p&gt;
+
+\[\frac{dy}{dx} = f(x, y), \quad y(x_0) = y_0\]
 
 &lt;p&gt;Suppose we wish to find \(y(x)\) at \(x = x_0 + h\) given \(y(x_0) = y_0\). The RK4 method uses the following steps:&lt;/p&gt;
 
