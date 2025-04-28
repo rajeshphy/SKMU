@@ -1,4 +1,198 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-24T14:11:30+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Image Processing: Eigenvalues and Eigenvectors</title><link href="http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image.html" rel="alternate" type="text/html" title="Image Processing: Eigenvalues and Eigenvectors" /><published>2025-04-17T09:47:26+05:30</published><updated>2025-04-17T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image.html">&lt;h2 id=&quot;-objective&quot;&gt;🧠 Objective&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-28T11:35:02+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Runge-Kutta Method</title><link href="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html" rel="alternate" type="text/html" title="Runge-Kutta Method" /><published>2025-04-28T09:47:26+05:30</published><updated>2025-04-28T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html">&lt;h1 id=&quot;solution-of-first-order-differential-equation-using-runge-kutta-method&quot;&gt;Solution of First Order Differential Equation using Runge-Kutta Method&lt;/h1&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;The &lt;strong&gt;Runge-Kutta methods&lt;/strong&gt; are a family of iterative methods for approximating the solution of &lt;strong&gt;first-order ordinary differential equations (ODEs)&lt;/strong&gt; of the form:&lt;/p&gt;
+
+\[\frac{dy}{dx} = f(x, y), \quad y(x_0) = y_0\]
+
+&lt;p&gt;These methods provide better accuracy compared to simple methods like &lt;strong&gt;Euler’s method&lt;/strong&gt;, even for relatively large step sizes.&lt;/p&gt;
+
+&lt;p&gt;The most widely used version is the &lt;strong&gt;Fourth-Order Runge-Kutta Method (RK4)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;fourth-order-runge-kutta-method-rk4&quot;&gt;Fourth-Order Runge-Kutta Method (RK4)&lt;/h2&gt;
+
+&lt;p&gt;Suppose we wish to find ( y(x) ) at ( x = x_0 + h ) given ( y(x_0) = y_0 ). The RK4 method uses the following steps:&lt;/p&gt;
+
+&lt;h3 id=&quot;formulae&quot;&gt;Formulae:&lt;/h3&gt;
+
+&lt;p&gt;Compute intermediate slopes:&lt;/p&gt;
+
+\[\begin{aligned}
+k_1 &amp;amp;= h f(x_0, y_0) \\
+k_2 &amp;amp;= h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_1}{2}\right) \\
+k_3 &amp;amp;= h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_2}{2}\right) \\
+k_4 &amp;amp;= h f(x_0 + h, y_0 + k_3)
+\end{aligned}\]
+
+&lt;p&gt;Then, update the solution:&lt;/p&gt;
+
+\[y(x_0+h) = y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)\]
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-by-step-procedure&quot;&gt;Step-by-Step Procedure&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Start with initial conditions ( (x_0, y_0) ).&lt;/li&gt;
+  &lt;li&gt;Choose a step size ( h ).&lt;/li&gt;
+  &lt;li&gt;Compute ( k_1, k_2, k_3, k_4 ) using the given ( f(x, y) ).&lt;/li&gt;
+  &lt;li&gt;Find the next value ( y_1 ) using the weighted average.&lt;/li&gt;
+  &lt;li&gt;Update ( x ) to ( x_1 = x_0 + h ).&lt;/li&gt;
+  &lt;li&gt;Repeat the process as needed.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;example-1&quot;&gt;Example 1&lt;/h2&gt;
+
+&lt;h3 id=&quot;problem&quot;&gt;Problem:&lt;/h3&gt;
+
+&lt;p&gt;Solve&lt;/p&gt;
+
+\[\frac{dy}{dx} = x + y, \quad y(0) = 1\]
+
+&lt;p&gt;Find ( y(0.1) ) using RK4 with step size ( h = 0.1 ).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;solution&quot;&gt;Solution:&lt;/h3&gt;
+
+&lt;p&gt;Given:&lt;/p&gt;
+
+\[f(x,y) = x + y\]
+
+&lt;p&gt;Initial conditions:&lt;/p&gt;
+
+\[x_0 = 0, \quad y_0 = 1, \quad h = 0.1\]
+
+&lt;p&gt;Compute:&lt;/p&gt;
+
+\[\begin{aligned}
+k_1 &amp;amp;= h f(x_0, y_0) = 0.1 (0 + 1) = 0.1 \\
+k_2 &amp;amp;= h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_1}{2}\right) = 0.1 (0.05 + 1.05) = 0.1(1.1) = 0.11 \\
+k_3 &amp;amp;= h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_2}{2}\right) = 0.1 (0.05 + 1.055) = 0.1(1.105) = 0.1105 \\
+k_4 &amp;amp;= h f(x_0 + h, y_0 + k_3) = 0.1 (0.1 + 1.1105) = 0.1(1.2105) = 0.12105
+\end{aligned}\]
+
+&lt;p&gt;Now:&lt;/p&gt;
+
+\[\begin{aligned}
+y(0.1) &amp;amp;= y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \\
+&amp;amp;= 1 + \frac{1}{6}(0.1 + 2(0.11) + 2(0.1105) + 0.12105) \\
+&amp;amp;= 1 + \frac{1}{6}(0.1 + 0.22 + 0.221 + 0.12105) \\
+&amp;amp;= 1 + \frac{1}{6}(0.66205) \\
+&amp;amp;= 1 + 0.11034 \\
+&amp;amp;\approx 1.11034
+\end{aligned}\]
+
+&lt;p&gt;Thus, ( y(0.1) \approx 1.11034 ).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;example-2&quot;&gt;Example 2&lt;/h2&gt;
+
+&lt;h3 id=&quot;problem-1&quot;&gt;Problem:&lt;/h3&gt;
+
+&lt;p&gt;Solve&lt;/p&gt;
+
+\[\frac{dy}{dx} = y - x^2 + 1, \quad y(0) = 0.5\]
+
+&lt;p&gt;Find ( y(0.2) ) using RK4 with step size ( h = 0.2 ).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;solution-1&quot;&gt;Solution:&lt;/h3&gt;
+
+&lt;p&gt;Given:&lt;/p&gt;
+
+\[f(x,y) = y - x^2 + 1\]
+
+&lt;p&gt;Initial conditions:&lt;/p&gt;
+
+\[x_0 = 0, \quad y_0 = 0.5, \quad h = 0.2\]
+
+&lt;p&gt;Compute:&lt;/p&gt;
+
+\[\begin{aligned}
+k_1 &amp;amp;= h f(x_0, y_0) = 0.2 (0.5 - 0^2 + 1) = 0.2(1.5) = 0.3 \\
+k_2 &amp;amp;= h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_1}{2}\right) = 0.2\left( (0.5 + 0.15) - (0.1)^2 + 1 \right) \\
+&amp;amp;= 0.2 (0.65 - 0.01 + 1) = 0.2(1.64) = 0.328 \\
+k_3 &amp;amp;= h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_2}{2}\right) = 0.2 \left( (0.5 + 0.164) - (0.1)^2 + 1 \right) \\
+&amp;amp;= 0.2(1.654) = 0.3308 \\
+k_4 &amp;amp;= h f(x_0 + h, y_0 + k_3) = 0.2 \left( (0.5 + 0.3308) - (0.2)^2 + 1 \right) \\
+&amp;amp;= 0.2(0.8308 - 0.04 + 1) = 0.2(1.7908) = 0.35816
+\end{aligned}\]
+
+&lt;p&gt;Now:&lt;/p&gt;
+
+\[\begin{aligned}
+y(0.2) &amp;amp;= y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \\
+&amp;amp;= 0.5 + \frac{1}{6}(0.3 + 2(0.328) + 2(0.3308) + 0.35816) \\
+&amp;amp;= 0.5 + \frac{1}{6}(0.3 + 0.656 + 0.6616 + 0.35816) \\
+&amp;amp;= 0.5 + \frac{1}{6}(1.97576) \\
+&amp;amp;= 0.5 + 0.32929 \\
+&amp;amp;= 0.82929
+\end{aligned}\]
+
+&lt;p&gt;Thus, ( y(0.2) \approx 0.82929 ).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;advantages-of-runge-kutta-method&quot;&gt;Advantages of Runge-Kutta Method&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;High accuracy with relatively fewer steps.&lt;/li&gt;
+  &lt;li&gt;No need to calculate higher derivatives (unlike Taylor series method).&lt;/li&gt;
+  &lt;li&gt;Widely applicable to a variety of ODE problems.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;summary-table&quot;&gt;Summary Table&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Step&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Computation&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;(k_1)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;( h f(x_0, y_0) )&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;(k_2)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;( h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_1}{2}\right) )&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;(k_3)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;( h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_2}{2}\right) )&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;(k_4)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;( h f(x_0 + h, y_0 + k_3) )&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;(y(x_0+h))&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;( y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) )&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;-additional-tips&quot;&gt;📚 Additional Tips&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Always check step size (h); a smaller (h) increases accuracy but also computation.&lt;/li&gt;
+  &lt;li&gt;For computer implementation, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;for&lt;/code&gt; loops are typically used to advance (x) and (y).&lt;/li&gt;
+  &lt;li&gt;Runge-Kutta can be extended to systems of ODEs and higher-order ODEs.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Solution of First Order Differential Equation using Runge-Kutta Method</summary></entry><entry><title type="html">Image Processing: Eigenvalues and Eigenvectors</title><link href="http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image.html" rel="alternate" type="text/html" title="Image Processing: Eigenvalues and Eigenvectors" /><published>2025-04-17T09:47:26+05:30</published><updated>2025-04-17T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image.html">&lt;h2 id=&quot;-objective&quot;&gt;🧠 Objective&lt;/h2&gt;
 &lt;p&gt;This lecture explores the application of &lt;strong&gt;eigenvalues&lt;/strong&gt; and &lt;strong&gt;eigenvectors&lt;/strong&gt; in image processing using &lt;strong&gt;Principal Component Analysis (PCA)&lt;/strong&gt;. We will:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -2399,261 +2593,4 @@ Iteration: 5
     &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python hello.py
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Python is a high-level, interpreted programming language known for its simplicity and readability. It is widely used in various domains such as web development, data science, artificial intelligence, automation, and more. Python’s syntax is designed to be easy to learn, making it an excellent choice for beginners.</summary></entry><entry><title type="html">II. Evolution of Programming</title><link href="http://localhost:4000/SKMU/lecture/2025/03/19/evolution.html" rel="alternate" type="text/html" title="II. Evolution of Programming" /><published>2025-03-19T07:47:26+05:30</published><updated>2025-03-19T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/19/evolution</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/19/evolution.html">&lt;blockquote&gt;
-  &lt;p&gt;“Programming is the art of instructing machines in the language of logic and creativity.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Programming lies at the heart of modern technology. From smartphones to scientific simulations, programming tells machines what to do. But how did it evolve, and what do you need to understand about its present and future?&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;1-what-is-programming&quot;&gt;1. What is Programming?&lt;/h2&gt;
-&lt;p&gt;Programming is the process of writing instructions for a computer to perform specific tasks. Think of it as giving step-by-step directions to a highly obedient machine.&lt;/p&gt;
-
-&lt;p&gt;Today, programming powers:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Mobile apps and websites&lt;/li&gt;
-  &lt;li&gt;Scientific simulations&lt;/li&gt;
-  &lt;li&gt;Artificial Intelligence (AI)&lt;/li&gt;
-  &lt;li&gt;Cloud platforms and IoT devices&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;2-why-programming-evolves&quot;&gt;2. Why Programming Evolves&lt;/h2&gt;
-
-&lt;p&gt;Like languages evolve for better expression, programming evolves to:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Solve complex problems efficiently&lt;/li&gt;
-  &lt;li&gt;Make development faster and error-free&lt;/li&gt;
-  &lt;li&gt;Use modern hardware like multi-core processors&lt;/li&gt;
-  &lt;li&gt;Support AI, data science, robotics, and more&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It aligns with global standards such as:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;IEEE/ISO Software Engineering standards&lt;/li&gt;
-  &lt;li&gt;Free Software Foundation and Open Source movements&lt;/li&gt;
-  &lt;li&gt;Industry-specific guidelines (e.g., NASA coding standards)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;3-key-milestones-in-programming&quot;&gt;3. Key Milestones in Programming&lt;/h2&gt;
-
-&lt;h3 id=&quot;-procedural-programming&quot;&gt;🧱 Procedural Programming&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;How it works:&lt;/strong&gt; Instructions are given step-by-step like a recipe.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; C, BASIC, Fortran&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Use Cases:&lt;/strong&gt; Early operating systems, calculators&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-structured-programming&quot;&gt;📚 Structured Programming&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Why it improved things:&lt;/strong&gt;
-Introduced logic controls (loops, conditionals) and removed confusing instructions like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;goto&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; C, ALGOL, Ada&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Use Cases:&lt;/strong&gt; System-level programming, early simulations&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-modular-programming&quot;&gt;🔧 Modular Programming&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;What changed:&lt;/strong&gt;
-Code was divided into smaller pieces or “modules”. Each module does one job.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Modula-2, Python (modules), Java&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Use Cases:&lt;/strong&gt; Libraries, medium-to-large apps&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-object-oriented-programming-oop&quot;&gt;🧱 Object-Oriented Programming (OOP)&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Core idea:&lt;/strong&gt; Model software after the real world using “objects” (data + behavior).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pillars:&lt;/strong&gt; Encapsulation, Inheritance, Polymorphism, Abstraction&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Java, Python, C++, Swift&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Use Cases:&lt;/strong&gt; Web applications, GUIs, simulations, games&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-functional-programming&quot;&gt;🧠 Functional Programming&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;New concept:&lt;/strong&gt; No side effects. Think mathematically. Functions = logic.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Haskell, Scala, Elixir&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Use Cases:&lt;/strong&gt; Concurrent systems, AI, blockchain&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-declarative-programming&quot;&gt;📜 Declarative Programming&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Idea:&lt;/strong&gt; Just say &lt;em&gt;what&lt;/em&gt; you want, not &lt;em&gt;how&lt;/em&gt; to do it.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; SQL (databases), HTML/CSS (web design), Prolog (logic)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Use Cases:&lt;/strong&gt; Web pages, queries, automation tools&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-parallel--concurrent-programming&quot;&gt;🚀 Parallel &amp;amp; Concurrent Programming&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Why it’s needed:&lt;/strong&gt;
-Modern CPUs have many cores. Parallelism uses them all efficiently.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tools:&lt;/strong&gt; OpenMP, CUDA, Go, Rust, Erlang&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Use Cases:&lt;/strong&gt; Simulations, video rendering, server handling&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;4-tools-for-scientists-and-engineers&quot;&gt;4. Tools for Scientists and Engineers&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Tool&lt;/th&gt;
-      &lt;th&gt;Type&lt;/th&gt;
-      &lt;th&gt;Description&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;MATLAB&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Commercial&lt;/td&gt;
-      &lt;td&gt;Widely used for matrix math, signal processing&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Mathematica&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Commercial&lt;/td&gt;
-      &lt;td&gt;Symbolic algebra, calculus, advanced visualization&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Maple&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Commercial&lt;/td&gt;
-      &lt;td&gt;Algebra-focused symbolic computing&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Mathcad&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Commercial&lt;/td&gt;
-      &lt;td&gt;Engineering-focused documentation and math&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;GNU Octave&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Open-source&lt;/td&gt;
-      &lt;td&gt;Free MATLAB alternative&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;SageMath&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Open-source&lt;/td&gt;
-      &lt;td&gt;Python-based, combines many math tools&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Scilab&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Open-source&lt;/td&gt;
-      &lt;td&gt;Engineering math and visualization&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;These tools are used in academia, research labs, and engineering industries.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;5-modern-general-purpose-programming-languages&quot;&gt;5. Modern General-Purpose Programming Languages&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Language&lt;/th&gt;
-      &lt;th&gt;Best For&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Python&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Data science, education, AI&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Mojo&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;AI model development at scale&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Julia&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Fast numerical/scientific computing&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Rust&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Safe systems programming&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Go&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Scalable network services&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Swift&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;iOS/macOS development&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Kotlin&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Android &amp;amp; multiplatform apps&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Dart&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Cross-platform UI (via Flutter)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;R&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Data analysis &amp;amp; visualization&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;TypeScript&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Safe JavaScript for large apps&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;6-how-to-choose-a-programming-language&quot;&gt;6. How to Choose a Programming Language&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Goal&lt;/th&gt;
-      &lt;th&gt;Recommended Tools/Languages&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Education &amp;amp; Basics&lt;/td&gt;
-      &lt;td&gt;Python, Scratch, BASIC&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Web Development&lt;/td&gt;
-      &lt;td&gt;HTML, CSS, JavaScript, TypeScript&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Data Science &amp;amp; AI&lt;/td&gt;
-      &lt;td&gt;Python, Mojo, R, Julia&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Scientific Simulations&lt;/td&gt;
-      &lt;td&gt;Julia, MATLAB, Mathematica&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Mobile App Development&lt;/td&gt;
-      &lt;td&gt;Kotlin (Android), Swift (iOS), Dart (Flutter)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Systems Programming&lt;/td&gt;
-      &lt;td&gt;Rust, C, C++&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Scripting &amp;amp; Automation&lt;/td&gt;
-      &lt;td&gt;Python, Bash, PowerShell&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">“Programming is the art of instructing machines in the language of logic and creativity.”</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Python is a high-level, interpreted programming language known for its simplicity and readability. It is widely used in various domains such as web development, data science, artificial intelligence, automation, and more. Python’s syntax is designed to be easy to learn, making it an excellent choice for beginners.</summary></entry></feed>
