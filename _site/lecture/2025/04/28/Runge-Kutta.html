@@ -252,7 +252,7 @@
 
 <h2 id="fourth-order-runge-kutta-method-rk4">Fourth-Order Runge-Kutta Method (RK4)</h2>
 
-<p>Suppose we wish to find ( y(x) ) at ( x = x_0 + h ) given ( y(x_0) = y_0 ). The RK4 method uses the following steps:</p>
+<p>Suppose we wish to find \(y(x)\) at \(x = x_0 + h\) given \(y(x_0) = y_0\). The RK4 method uses the following steps:</p>
 
 <h3 id="formulae">Formulae:</h3>
 
@@ -274,11 +274,11 @@ k_4 &amp;= h f(x_0 + h, y_0 + k_3)
 <h2 id="step-by-step-procedure">Step-by-Step Procedure</h2>
 
 <ol>
-  <li>Start with initial conditions ( (x_0, y_0) ).</li>
-  <li>Choose a step size ( h ).</li>
-  <li>Compute ( k_1, k_2, k_3, k_4 ) using the given ( f(x, y) ).</li>
-  <li>Find the next value ( y_1 ) using the weighted average.</li>
-  <li>Update ( x ) to ( x_1 = x_0 + h ).</li>
+  <li>Start with initial conditions \((x_0, y_0)\).</li>
+  <li>Choose a step size \(h\).</li>
+  <li>Compute \(k_1, k_2, k_3, k_4\) using the given \(f(x, y)\).</li>
+  <li>Find the next value \(y_1\) using the weighted average.</li>
+  <li>Update \(x\) to \(x_1 = x_0 + h\).</li>
   <li>Repeat the process as needed.</li>
 </ol>
 
@@ -292,7 +292,7 @@ k_4 &amp;= h f(x_0 + h, y_0 + k_3)
 
 \[\frac{dy}{dx} = x + y, \quad y(0) = 1\]
 
-<p>Find ( y(0.1) ) using RK4 with step size ( h = 0.1 ).</p>
+<p>Find \(y(0.1)\) using RK4 with step size \(h = 0.1\).</p>
 
 <hr />
 
@@ -326,7 +326,7 @@ y(0.1) &amp;= y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \\
 &amp;\approx 1.11034
 \end{aligned}\]
 
-<p>Thus, ( y(0.1) \approx 1.11034 ).</p>
+<p>Thus, \(y(0.1) \approx 1.11034\).</p>
 
 <hr />
 
@@ -338,7 +338,7 @@ y(0.1) &amp;= y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \\
 
 \[\frac{dy}{dx} = y - x^2 + 1, \quad y(0) = 0.5\]
 
-<p>Find ( y(0.2) ) using RK4 with step size ( h = 0.2 ).</p>
+<p>Find \(y(0.2)\) using RK4 with step size \(h = 0.2\).</p>
 
 <hr />
 
@@ -375,7 +375,7 @@ y(0.2) &amp;= y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \\
 &amp;= 0.82929
 \end{aligned}\]
 
-<p>Thus, ( y(0.2) \approx 0.82929 ).</p>
+<p>Thus, \(y(0.2) \approx 0.82929\).</p>
 
 <hr />
 
@@ -400,24 +400,24 @@ y(0.2) &amp;= y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \\
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center">(k_1)</td>
-      <td style="text-align: left">( h f(x_0, y_0) )</td>
+      <td style="text-align: center">\(k_1\)</td>
+      <td style="text-align: left">\(h f(x_0, y_0)\)</td>
     </tr>
     <tr>
-      <td style="text-align: center">(k_2)</td>
-      <td style="text-align: left">( h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_1}{2}\right) )</td>
+      <td style="text-align: center">\(k_2\)</td>
+      <td style="text-align: left">\(h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_1}{2}\right)\)</td>
     </tr>
     <tr>
-      <td style="text-align: center">(k_3)</td>
-      <td style="text-align: left">( h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_2}{2}\right) )</td>
+      <td style="text-align: center">\(k_3\)</td>
+      <td style="text-align: left">\(h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_2}{2}\right)\)</td>
     </tr>
     <tr>
-      <td style="text-align: center">(k_4)</td>
-      <td style="text-align: left">( h f(x_0 + h, y_0 + k_3) )</td>
+      <td style="text-align: center">\(k_4\)</td>
+      <td style="text-align: left">\(h f(x_0 + h, y_0 + k_3)\)</td>
     </tr>
     <tr>
-      <td style="text-align: center">(y(x_0+h))</td>
-      <td style="text-align: left">( y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) )</td>
+      <td style="text-align: center">\(y(x_0+h)\)</td>
+      <td style="text-align: left">\(y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)\)</td>
     </tr>
   </tbody>
 </table>
@@ -427,8 +427,8 @@ y(0.2) &amp;= y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \\
 <h1 id="-additional-tips">📚 Additional Tips</h1>
 
 <ul>
-  <li>Always check step size (h); a smaller (h) increases accuracy but also computation.</li>
-  <li>For computer implementation, <code class="language-plaintext highlighter-rouge">for</code> loops are typically used to advance (x) and (y).</li>
+  <li>Always check step size \(h\); a smaller \(h\) increases accuracy but also computation.</li>
+  <li>For computer implementation, <code class="language-plaintext highlighter-rouge">for</code> loops are typically used to advance \(x\) and \(y\).</li>
   <li>Runge-Kutta can be extended to systems of ODEs and higher-order ODEs.</li>
 </ul>
 

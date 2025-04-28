@@ -24,7 +24,7 @@ The most widely used version is the **Fourth-Order Runge-Kutta Method (RK4)**.
 
 ## Fourth-Order Runge-Kutta Method (RK4)
 
-Suppose we wish to find \( y(x) \) at \( x = x_0 + h \) given \( y(x_0) = y_0 \). The RK4 method uses the following steps:
+Suppose we wish to find $$ y(x) $$ at $$ x = x_0 + h $$ given $$ y(x_0) = y_0 $$. The RK4 method uses the following steps:
 
 ### Formulae:
 
@@ -49,11 +49,11 @@ $$
 
 ## Step-by-Step Procedure
 
-1. Start with initial conditions \( (x_0, y_0) \).
-2. Choose a step size \( h \).
-3. Compute \( k_1, k_2, k_3, k_4 \) using the given \( f(x, y) \).
-4. Find the next value \( y_1 \) using the weighted average.
-5. Update \( x \) to \( x_1 = x_0 + h \).
+1. Start with initial conditions $$ (x_0, y_0) $$.
+2. Choose a step size $$ h $$.
+3. Compute $$ k_1, k_2, k_3, k_4 $$ using the given $$ f(x, y) $$.
+4. Find the next value $$ y_1 $$ using the weighted average.
+5. Update $$ x $$ to $$ x_1 = x_0 + h $$.
 6. Repeat the process as needed.
 
 ---
@@ -68,7 +68,7 @@ $$
 \frac{dy}{dx} = x + y, \quad y(0) = 1
 $$
 
-Find \( y(0.1) \) using RK4 with step size \( h = 0.1 \).
+Find $$ y(0.1) $$ using RK4 with step size $$ h = 0.1 $$.
 
 ---
 
@@ -110,7 +110,7 @@ y(0.1) &= y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \\
 \end{aligned}
 $$
 
-Thus, \( y(0.1) \approx 1.11034 \).
+Thus, $$ y(0.1) \approx 1.11034 $$.
 
 ---
 
@@ -124,7 +124,7 @@ $$
 \frac{dy}{dx} = y - x^2 + 1, \quad y(0) = 0.5
 $$
 
-Find \( y(0.2) \) using RK4 with step size \( h = 0.2 \).
+Find $$ y(0.2) $$ using RK4 with step size $$ h = 0.2 $$.
 
 ---
 
@@ -169,7 +169,7 @@ y(0.2) &= y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \\
 \end{aligned}
 $$
 
-Thus, \( y(0.2) \approx 0.82929 \).
+Thus, $$ y(0.2) \approx 0.82929 $$.
 
 ---
 
@@ -185,16 +185,16 @@ Thus, \( y(0.2) \approx 0.82929 \).
 
 | Step | Computation |
 |:----:|:-----------|
-| \(k_1\) | \( h f(x_0, y_0) \) |
-| \(k_2\) | \( h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_1}{2}\right) \) |
-| \(k_3\) | \( h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_2}{2}\right) \) |
-| \(k_4\) | \( h f(x_0 + h, y_0 + k_3) \) |
-| \(y(x_0+h)\) | \( y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \) |
+| $$k_1$$ | $$ h f(x_0, y_0) $$ |
+| $$k_2$$ | $$ h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_1}{2}\right) $$ |
+| $$k_3$$ | $$ h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_2}{2}\right) $$ |
+| $$k_4$$ | $$ h f(x_0 + h, y_0 + k_3) $$ |
+| $$y(x_0+h)$$ | $$ y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) $$ |
 
 ---
 
 # 📚 Additional Tips
 
-- Always check step size \(h\); a smaller \(h\) increases accuracy but also computation.
-- For computer implementation, `for` loops are typically used to advance \(x\) and \(y\).
+- Always check step size $$h$$; a smaller $$h$$ increases accuracy but also computation.
+- For computer implementation, `for` loops are typically used to advance $$x$$ and $$y$$.
 - Runge-Kutta can be extended to systems of ODEs and higher-order ODEs.

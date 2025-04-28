@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-28T11:35:02+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Runge-Kutta Method</title><link href="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html" rel="alternate" type="text/html" title="Runge-Kutta Method" /><published>2025-04-28T09:47:26+05:30</published><updated>2025-04-28T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html">&lt;h1 id=&quot;solution-of-first-order-differential-equation-using-runge-kutta-method&quot;&gt;Solution of First Order Differential Equation using Runge-Kutta Method&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-28T11:35:44+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Runge-Kutta Method</title><link href="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html" rel="alternate" type="text/html" title="Runge-Kutta Method" /><published>2025-04-28T09:47:26+05:30</published><updated>2025-04-28T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html">&lt;h1 id=&quot;solution-of-first-order-differential-equation-using-runge-kutta-method&quot;&gt;Solution of First Order Differential Equation using Runge-Kutta Method&lt;/h1&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
@@ -14,7 +14,7 @@
 
 &lt;h2 id=&quot;fourth-order-runge-kutta-method-rk4&quot;&gt;Fourth-Order Runge-Kutta Method (RK4)&lt;/h2&gt;
 
-&lt;p&gt;Suppose we wish to find ( y(x) ) at ( x = x_0 + h ) given ( y(x_0) = y_0 ). The RK4 method uses the following steps:&lt;/p&gt;
+&lt;p&gt;Suppose we wish to find \(y(x)\) at \(x = x_0 + h\) given \(y(x_0) = y_0\). The RK4 method uses the following steps:&lt;/p&gt;
 
 &lt;h3 id=&quot;formulae&quot;&gt;Formulae:&lt;/h3&gt;
 
@@ -36,11 +36,11 @@ k_4 &amp;amp;= h f(x_0 + h, y_0 + k_3)
 &lt;h2 id=&quot;step-by-step-procedure&quot;&gt;Step-by-Step Procedure&lt;/h2&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Start with initial conditions ( (x_0, y_0) ).&lt;/li&gt;
-  &lt;li&gt;Choose a step size ( h ).&lt;/li&gt;
-  &lt;li&gt;Compute ( k_1, k_2, k_3, k_4 ) using the given ( f(x, y) ).&lt;/li&gt;
-  &lt;li&gt;Find the next value ( y_1 ) using the weighted average.&lt;/li&gt;
-  &lt;li&gt;Update ( x ) to ( x_1 = x_0 + h ).&lt;/li&gt;
+  &lt;li&gt;Start with initial conditions \((x_0, y_0)\).&lt;/li&gt;
+  &lt;li&gt;Choose a step size \(h\).&lt;/li&gt;
+  &lt;li&gt;Compute \(k_1, k_2, k_3, k_4\) using the given \(f(x, y)\).&lt;/li&gt;
+  &lt;li&gt;Find the next value \(y_1\) using the weighted average.&lt;/li&gt;
+  &lt;li&gt;Update \(x\) to \(x_1 = x_0 + h\).&lt;/li&gt;
   &lt;li&gt;Repeat the process as needed.&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -54,7 +54,7 @@ k_4 &amp;amp;= h f(x_0 + h, y_0 + k_3)
 
 \[\frac{dy}{dx} = x + y, \quad y(0) = 1\]
 
-&lt;p&gt;Find ( y(0.1) ) using RK4 with step size ( h = 0.1 ).&lt;/p&gt;
+&lt;p&gt;Find \(y(0.1)\) using RK4 with step size \(h = 0.1\).&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -88,7 +88,7 @@ y(0.1) &amp;amp;= y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \\
 &amp;amp;\approx 1.11034
 \end{aligned}\]
 
-&lt;p&gt;Thus, ( y(0.1) \approx 1.11034 ).&lt;/p&gt;
+&lt;p&gt;Thus, \(y(0.1) \approx 1.11034\).&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -100,7 +100,7 @@ y(0.1) &amp;amp;= y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \\
 
 \[\frac{dy}{dx} = y - x^2 + 1, \quad y(0) = 0.5\]
 
-&lt;p&gt;Find ( y(0.2) ) using RK4 with step size ( h = 0.2 ).&lt;/p&gt;
+&lt;p&gt;Find \(y(0.2)\) using RK4 with step size \(h = 0.2\).&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -137,7 +137,7 @@ y(0.2) &amp;amp;= y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \\
 &amp;amp;= 0.82929
 \end{aligned}\]
 
-&lt;p&gt;Thus, ( y(0.2) \approx 0.82929 ).&lt;/p&gt;
+&lt;p&gt;Thus, \(y(0.2) \approx 0.82929\).&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -162,24 +162,24 @@ y(0.2) &amp;amp;= y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \\
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(k_1)&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;( h f(x_0, y_0) )&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\(k_1\)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;\(h f(x_0, y_0)\)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(k_2)&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;( h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_1}{2}\right) )&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\(k_2\)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;\(h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_1}{2}\right)\)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(k_3)&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;( h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_2}{2}\right) )&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\(k_3\)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;\(h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_2}{2}\right)\)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(k_4)&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;( h f(x_0 + h, y_0 + k_3) )&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\(k_4\)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;\(h f(x_0 + h, y_0 + k_3)\)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(y(x_0+h))&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;( y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) )&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;\(y(x_0+h)\)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;\(y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)\)&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -189,8 +189,8 @@ y(0.2) &amp;amp;= y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \\
 &lt;h1 id=&quot;-additional-tips&quot;&gt;📚 Additional Tips&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Always check step size (h); a smaller (h) increases accuracy but also computation.&lt;/li&gt;
-  &lt;li&gt;For computer implementation, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;for&lt;/code&gt; loops are typically used to advance (x) and (y).&lt;/li&gt;
+  &lt;li&gt;Always check step size \(h\); a smaller \(h\) increases accuracy but also computation.&lt;/li&gt;
+  &lt;li&gt;For computer implementation, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;for&lt;/code&gt; loops are typically used to advance \(x\) and \(y\).&lt;/li&gt;
   &lt;li&gt;Runge-Kutta can be extended to systems of ODEs and higher-order ODEs.&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Solution of First Order Differential Equation using Runge-Kutta Method</summary></entry><entry><title type="html">Image Processing: Eigenvalues and Eigenvectors</title><link href="http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image.html" rel="alternate" type="text/html" title="Image Processing: Eigenvalues and Eigenvectors" /><published>2025-04-17T09:47:26+05:30</published><updated>2025-04-17T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image.html">&lt;h2 id=&quot;-objective&quot;&gt;🧠 Objective&lt;/h2&gt;
 &lt;p&gt;This lecture explores the application of &lt;strong&gt;eigenvalues&lt;/strong&gt; and &lt;strong&gt;eigenvectors&lt;/strong&gt; in image processing using &lt;strong&gt;Principal Component Analysis (PCA)&lt;/strong&gt;. We will:&lt;/p&gt;
