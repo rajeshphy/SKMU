@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-28T13:02:51+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Runge-Kutta Method</title><link href="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html" rel="alternate" type="text/html" title="Runge-Kutta Method" /><published>2025-04-28T09:47:26+05:30</published><updated>2025-04-28T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html">&lt;h1 id=&quot;solution-of-first-order-differential-equation-using-runge-kutta-method&quot;&gt;Solution of First Order Differential Equation using Runge-Kutta Method&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-28T13:24:47+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Numerical Methods</title><link href="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html" rel="alternate" type="text/html" title="Numerical Methods" /><published>2025-04-28T09:47:26+05:30</published><updated>2025-04-28T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html">&lt;h1 id=&quot;solution-of-first-order-differential-equation-using-runge-kutta-method&quot;&gt;Solution of First Order Differential Equation using Runge-Kutta Method&lt;/h1&gt;
 
 &lt;p&gt;The numerical solution of &lt;strong&gt;first-order differential equations&lt;/strong&gt; plays a crucial role across science and engineering. While many analytical methods exist, they are often limited to relatively simple equations. As a result, numerical methods have become indispensable tools for approximating solutions.&lt;/p&gt;
 
@@ -173,49 +173,364 @@ y(0.2) &amp;amp;= y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \\
 &lt;/ul&gt;
 
 &lt;hr /&gt;
+&lt;hr /&gt;
 
-&lt;h2 id=&quot;summary-table&quot;&gt;Summary Table&lt;/h2&gt;
+&lt;h1 id=&quot;finite-difference-method-fdm&quot;&gt;Finite Difference Method (FDM)&lt;/h1&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;The &lt;strong&gt;Finite Difference Method (FDM)&lt;/strong&gt; is one of the most widely used numerical techniques for solving differential equations, particularly when analytical solutions are difficult or impossible to obtain.&lt;/p&gt;
+
+&lt;p&gt;Compared to other methods:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Simplicity&lt;/strong&gt;: FDM directly discretizes the differential equations into algebraic equations, making it easy to implement.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Flexibility&lt;/strong&gt;: It can handle complex boundary conditions effectively.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Efficiency&lt;/strong&gt;: It is computationally faster for structured grids and simple geometries.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Accuracy Control&lt;/strong&gt;: The accuracy can be systematically improved by refining the grid (reducing step size).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Unlike methods like the &lt;strong&gt;Taylor series expansion&lt;/strong&gt; (which require computation of higher-order derivatives) or the &lt;strong&gt;Runge-Kutta methods&lt;/strong&gt; (which approximate solutions point by point), FDM transforms the entire differential equation into a system of algebraic equations across a discretized domain, providing a &lt;strong&gt;global&lt;/strong&gt; numerical solution.&lt;/p&gt;
+
+&lt;p&gt;Thus, FDM is particularly powerful for solving:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Boundary Value Problems&lt;/strong&gt; (BVPs)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Partial Differential Equations&lt;/strong&gt; (PDEs)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Time-dependent problems&lt;/strong&gt; (in combination with time discretization)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;working-principle&quot;&gt;Working Principle&lt;/h2&gt;
+
+&lt;p&gt;The core idea of the Finite Difference Method is to replace &lt;strong&gt;derivatives&lt;/strong&gt; by &lt;strong&gt;finite difference approximations&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;For a function \(y(x)\), the derivatives are approximated as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;First Derivative&lt;/strong&gt; (Forward Difference):
+\(\frac{dy}{dx}\Bigg|_{x=x_i} \approx \frac{y(x_{i+1}) - y(x_i)}{h}\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;First Derivative&lt;/strong&gt; (Backward Difference):
+\(\frac{dy}{dx}\Bigg|_{x=x_i} \approx \frac{y(x_i) - y(x_{i-1})}{h}\)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;First Derivative&lt;/strong&gt; (Central Difference):
+\(\frac{dy}{dx}\Bigg|_{x=x_i} \approx \frac{y(x_{i+1}) - y(x_{i-1})}{2h}\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Second Derivative&lt;/strong&gt; (Central Difference):
+\(\frac{d^2y}{dx^2}\Bigg|_{x=x_i} \approx \frac{y(x_{i+1}) - 2y(x_i) + y(x_{i-1})}{h^2}\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;where:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;\(h\) is the step size between adjacent points: \(h = x_{i+1} - x_i\).&lt;/li&gt;
+  &lt;li&gt;\(x_i\) are the grid points at which we compute the solution.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Basic steps:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Discretize the domain into a set of points.&lt;/li&gt;
+  &lt;li&gt;Replace derivatives in the differential equation using finite differences.&lt;/li&gt;
+  &lt;li&gt;Form a system of algebraic equations.&lt;/li&gt;
+  &lt;li&gt;Solve the system to approximate the values of the unknown function at the grid points.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;simple-example&quot;&gt;Simple Example&lt;/h2&gt;
+
+&lt;h3 id=&quot;example-solve&quot;&gt;Example: Solve&lt;/h3&gt;
+
+&lt;p&gt;\(\frac{d^2y}{dx^2} = -2, \quad 0 \leq x \leq 1\)
+with boundary conditions:&lt;/p&gt;
+
+\[y(0) = 0, \quad y(1) = 0\]
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;step-1-discretize-the-domain&quot;&gt;Step 1: Discretize the domain&lt;/h3&gt;
+
+&lt;p&gt;Let’s divide the domain into 4 equal intervals (5 points):&lt;/p&gt;
+
+\[h = \frac{1-0}{4} = 0.25\]
+
+&lt;p&gt;Grid points:&lt;/p&gt;
+
+\[x_0 = 0, \quad x_1 = 0.25, \quad x_2 = 0.5, \quad x_3 = 0.75, \quad x_4 = 1\]
+
+&lt;p&gt;Given: \(y(0) = 0\), \(y(1) = 0\)&lt;/p&gt;
+
+&lt;p&gt;We need to find \(y_1, y_2, y_3\).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;step-2-replace-derivatives-using-finite-difference-approximation&quot;&gt;Step 2: Replace derivatives using finite difference approximation&lt;/h3&gt;
+
+&lt;p&gt;Using central difference for the second derivative:&lt;/p&gt;
+
+\[\frac{y_{i+1} - 2y_i + y_{i-1}}{h^2} = -2\]
+
+&lt;p&gt;Multiply throughout by \(h^2\):&lt;/p&gt;
+
+\[y_{i+1} - 2y_i + y_{i-1} = -2h^2\]
+
+&lt;p&gt;Since \(h = 0.25\), we have:&lt;/p&gt;
+
+\[h^2 = 0.0625\]
+
+&lt;p&gt;Thus:&lt;/p&gt;
+
+\[y_{i+1} - 2y_i + y_{i-1} = -0.125\]
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;step-3-set-up-equations&quot;&gt;Step 3: Set up equations&lt;/h3&gt;
+
+&lt;p&gt;For each interior point:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;At \(x_1\): 
+\(y_2 - 2y_1 + y_0 = -0.125\)
+Since \(y_0 = 0\), it simplifies to:
+\(y_2 - 2y_1 = -0.125\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At \(x_2\):
+\(y_3 - 2y_2 + y_1 = -0.125\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At \(x_3\):
+\(y_4 - 2y_3 + y_2 = -0.125\)
+Since \(y_4 = 0\), it simplifies to:
+\(-2y_3 + y_2 = -0.125\)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;step-4-solve-the-system&quot;&gt;Step 4: Solve the system&lt;/h3&gt;
+
+&lt;p&gt;System of equations:&lt;/p&gt;
+
+\[\begin{aligned}
+-2y_1 + y_2 &amp;amp;= -0.125 \quad (1) \\
+y_1 - 2y_2 + y_3 &amp;amp;= -0.125 \quad (2) \\
+y_2 - 2y_3 &amp;amp;= -0.125 \quad (3)
+\end{aligned}\]
+
+&lt;p&gt;You can solve this system using substitution, matrix methods, or a simple calculator to find \(y_1, y_2, y_3\).&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;numerical-integration-trapezoidal-rule-and-simpsons-rule&quot;&gt;Numerical Integration: Trapezoidal Rule and Simpson’s Rule&lt;/h1&gt;
+
+&lt;p&gt;In many practical situations, finding the exact value of a definite integral:&lt;/p&gt;
+
+\[\int_a^b f(x)\,dx\]
+
+&lt;p&gt;is either very difficult or impossible analytically.&lt;br /&gt;
+&lt;strong&gt;Numerical integration (or quadrature)&lt;/strong&gt; techniques provide approximate methods to evaluate such integrals.&lt;/p&gt;
+
+&lt;p&gt;Two of the most popular and widely used methods are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Trapezoidal Rule&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Simpson’s Rule&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Both methods replace the function with simple polynomials (linear for trapezoidal, quadratic for Simpson’s) and then integrate the approximations exactly.&lt;/p&gt;
+
+&lt;h2 id=&quot;trapezoidal-rule&quot;&gt;Trapezoidal Rule&lt;/h2&gt;
+
+&lt;p&gt;The &lt;strong&gt;Trapezoidal Rule&lt;/strong&gt; approximates the area under a curve by dividing it into &lt;strong&gt;trapezoids&lt;/strong&gt; instead of rectangles.&lt;/p&gt;
+
+&lt;p&gt;Suppose we want to evaluate:&lt;/p&gt;
+
+\[I = \int_a^b f(x)\,dx\]
+
+&lt;p&gt;Divide the interval \([a, b]\) into \(n\) equal subintervals, each of width:&lt;/p&gt;
+
+\[h = \frac{b-a}{n}\]
+
+&lt;p&gt;The trapezoidal approximation is:&lt;/p&gt;
+
+\[I \approx \frac{h}{2} \left[ f(x_0) + 2f(x_1) + 2f(x_2) + \cdots + 2f(x_{n-1}) + f(x_n) \right]\]
+
+&lt;p&gt;where:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+\[x_0 = a\]
+  &lt;/li&gt;
+  &lt;li&gt;
+\[x_n = b\]
+  &lt;/li&gt;
+  &lt;li&gt;\(x_i = a + ih\) for \(i = 1, 2, \ldots, n-1\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;error-estimate&quot;&gt;Error Estimate&lt;/h3&gt;
+
+&lt;p&gt;The error \(E_T\) in the trapezoidal rule is approximately:&lt;/p&gt;
+
+\[E_T = -\frac{(b-a)^3}{12n^2} f&apos;&apos;(\xi)\]
+
+&lt;p&gt;for some \(\xi\) in \((a,b)\).&lt;br /&gt;
+Thus, the error decreases quadratically as \(n\) increases.&lt;/p&gt;
+
+&lt;h2 id=&quot;simpsons-rule&quot;&gt;Simpson’s Rule&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Simpson’s Rule&lt;/strong&gt; approximates the function by a &lt;strong&gt;second-degree polynomial (parabola)&lt;/strong&gt; through each set of three points and integrates the parabola exactly.&lt;/p&gt;
+
+&lt;p&gt;Divide \([a, b]\) into an &lt;strong&gt;even&lt;/strong&gt; number \(n\) of subintervals (important: \(n\) must be even), each of width:&lt;/p&gt;
+
+\[h = \frac{b-a}{n}\]
+
+&lt;p&gt;The Simpson’s 1/3 Rule formula is:&lt;/p&gt;
+
+\[I \approx \frac{h}{3} \left[ f(x_0) + 4f(x_1) + 2f(x_2) + 4f(x_3) + 2f(x_4) + \cdots + 2f(x_{n-2}) + 4f(x_{n-1}) + f(x_n) \right]\]
+
+&lt;p&gt;Notice the pattern:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Coefficient 4 for odd-indexed points&lt;/li&gt;
+  &lt;li&gt;Coefficient 2 for even-indexed points (except first and last)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;error-estimate-1&quot;&gt;Error Estimate&lt;/h3&gt;
+
+&lt;p&gt;The error \(E_S\) in Simpson’s Rule is approximately:&lt;/p&gt;
+
+\[E_S = -\frac{(b-a)^5}{180n^4} f^{(4)}(\xi)\]
+
+&lt;p&gt;for some \(\xi\) in \((a,b)\).&lt;br /&gt;
+Thus, Simpson’s rule is much more accurate than the trapezoidal rule for smooth functions — error decreases with \(n^4\).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;simple-examples&quot;&gt;Simple Examples&lt;/h2&gt;
+
+&lt;h3 id=&quot;example-1-trapezoidal-rule&quot;&gt;Example 1: Trapezoidal Rule&lt;/h3&gt;
+
+&lt;p&gt;Approximate:&lt;/p&gt;
+
+\[\int_0^1 x^2\,dx\]
+
+&lt;p&gt;using \(n=2\) intervals.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-1-divide-the-interval&quot;&gt;Step 1: Divide the interval&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+\[h = \frac{1-0}{2} = 0.5\]
+  &lt;/li&gt;
+  &lt;li&gt;Points: \(x_0 = 0\), \(x_1 = 0.5\), \(x_2 = 1\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;step-2-evaluate-the-function&quot;&gt;Step 2: Evaluate the function&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+\[f(0) = 0^2 = 0\]
+  &lt;/li&gt;
+  &lt;li&gt;
+\[f(0.5) = 0.25\]
+  &lt;/li&gt;
+  &lt;li&gt;
+\[f(1) = 1\]
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;step-3-apply-trapezoidal-formula&quot;&gt;Step 3: Apply trapezoidal formula&lt;/h4&gt;
+
+\[I \approx \frac{0.5}{2} \left[ 0 + 2(0.25) + 1 \right]
+= 0.25 \times (1.5)
+= 0.375\]
+
+&lt;h4 id=&quot;exact-answer&quot;&gt;Exact answer&lt;/h4&gt;
+
+&lt;p&gt;The exact value is:&lt;/p&gt;
+
+\[\int_0^1 x^2\,dx = \frac{1}{3} \approx 0.3333\]
+
+&lt;p&gt;Thus, trapezoidal rule gives a slightly overestimated result.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;example-2-simpsons-rule&quot;&gt;Example 2: Simpson’s Rule&lt;/h3&gt;
+
+&lt;p&gt;Approximate:&lt;/p&gt;
+
+\[\int_0^1 x^2\,dx\]
+
+&lt;p&gt;using \(n=2\) intervals.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-1-divide-the-interval-1&quot;&gt;Step 1: Divide the interval&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+\[h = 0.5\]
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;step-2-evaluate-the-function-1&quot;&gt;Step 2: Evaluate the function&lt;/h4&gt;
+
+&lt;p&gt;Already calculated above:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+\[f(0) = 0\]
+  &lt;/li&gt;
+  &lt;li&gt;
+\[f(0.5) = 0.25\]
+  &lt;/li&gt;
+  &lt;li&gt;
+\[f(1) = 1\]
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;step-3-apply-simpsons-formula&quot;&gt;Step 3: Apply Simpson’s formula&lt;/h4&gt;
+
+\[I \approx \frac{0.5}{3} \left[ 0 + 4(0.25) + 1 \right]
+= \frac{0.5}{3} \times (2)
+= \frac{1}{3}
+= 0.3333\]
+
+&lt;p&gt;Thus, Simpson’s rule gives the exact value for polynomials of degree ≤ 3.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;summary-table&quot;&gt;Summary Table&lt;/h1&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Step&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Computation&lt;/th&gt;
+      &lt;th&gt;Feature&lt;/th&gt;
+      &lt;th&gt;Trapezoidal Rule&lt;/th&gt;
+      &lt;th&gt;Simpson’s Rule&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;\(k_1\)&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;\(h f(x_0, y_0)\)&lt;/td&gt;
+      &lt;td&gt;Approximation&lt;/td&gt;
+      &lt;td&gt;Straight line&lt;/td&gt;
+      &lt;td&gt;Parabola&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;\(k_2\)&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;\(h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_1}{2}\right)\)&lt;/td&gt;
+      &lt;td&gt;Accuracy&lt;/td&gt;
+      &lt;td&gt;\(O(h^2)\)&lt;/td&gt;
+      &lt;td&gt;\(O(h^4)\)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;\(k_3\)&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;\(h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_2}{2}\right)\)&lt;/td&gt;
+      &lt;td&gt;Grid requirement&lt;/td&gt;
+      &lt;td&gt;Any number of intervals&lt;/td&gt;
+      &lt;td&gt;Even number of intervals&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;\(k_4\)&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;\(h f(x_0 + h, y_0 + k_3)\)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;\(y(x_0+h)\)&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;\(y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)\)&lt;/td&gt;
+      &lt;td&gt;When preferred&lt;/td&gt;
+      &lt;td&gt;Quick estimate, rough accuracy&lt;/td&gt;
+      &lt;td&gt;Higher precision with smooth functions&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;-additional-tips&quot;&gt;📚 Additional Tips&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Always check step size \(h\); a smaller \(h\) increases accuracy but also computation.&lt;/li&gt;
-  &lt;li&gt;For computer implementation, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;for&lt;/code&gt; loops are typically used to advance \(x\) and \(y\).&lt;/li&gt;
-  &lt;li&gt;Runge-Kutta can be extended to systems of ODEs and higher-order ODEs.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Solution of First Order Differential Equation using Runge-Kutta Method</summary></entry><entry><title type="html">Image Processing: Eigenvalues and Eigenvectors</title><link href="http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image.html" rel="alternate" type="text/html" title="Image Processing: Eigenvalues and Eigenvectors" /><published>2025-04-17T09:47:26+05:30</published><updated>2025-04-17T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image.html">&lt;h2 id=&quot;-objective&quot;&gt;🧠 Objective&lt;/h2&gt;
+&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Solution of First Order Differential Equation using Runge-Kutta Method</summary></entry><entry><title type="html">Image Processing: Eigenvalues and Eigenvectors</title><link href="http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image.html" rel="alternate" type="text/html" title="Image Processing: Eigenvalues and Eigenvectors" /><published>2025-04-17T09:47:26+05:30</published><updated>2025-04-17T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image.html">&lt;h2 id=&quot;-objective&quot;&gt;🧠 Objective&lt;/h2&gt;
 &lt;p&gt;This lecture explores the application of &lt;strong&gt;eigenvalues&lt;/strong&gt; and &lt;strong&gt;eigenvectors&lt;/strong&gt; in image processing using &lt;strong&gt;Principal Component Analysis (PCA)&lt;/strong&gt;. We will:&lt;/p&gt;
 
 &lt;ul&gt;
