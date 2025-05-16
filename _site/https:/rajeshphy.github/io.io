@@ -1,4 +1,608 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-28T13:24:47+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Numerical Methods</title><link href="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html" rel="alternate" type="text/html" title="Numerical Methods" /><published>2025-04-28T09:47:26+05:30</published><updated>2025-04-28T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html">&lt;h1 id=&quot;solution-of-first-order-differential-equation-using-runge-kutta-method&quot;&gt;Solution of First Order Differential Equation using Runge-Kutta Method&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-16T12:08:57+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Dielectric Properties of Materials</title><link href="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html" rel="alternate" type="text/html" title="Dielectric Properties of Materials" /><published>2025-05-16T09:47:26+05:30</published><updated>2025-05-16T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html">&lt;h2 id=&quot;1-macroscopic-dielectric-constant&quot;&gt;1. Macroscopic Dielectric Constant&lt;/h2&gt;
+
+&lt;p&gt;The &lt;strong&gt;dielectric constant&lt;/strong&gt; (also called the &lt;strong&gt;relative permittivity&lt;/strong&gt;, denoted as $ε_r$) is a macroscopic property of a dielectric material that characterizes its ability to be polarized by an external electric field.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Defined as the ratio of the permittivity of the material &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ε&lt;/code&gt; to the permittivity of free space &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ε₀&lt;/code&gt;:&lt;br /&gt;
+\(ε_r = ε / ε₀\)&lt;/li&gt;
+  &lt;li&gt;A measure of how much the electric field is reduced inside the material.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The &lt;strong&gt;electric displacement&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;D&lt;/code&gt; is related to the electric field &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;E&lt;/code&gt; and the polarization &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;P&lt;/code&gt; as:
+\(D = ε₀ E + P = ε E\)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-mechanism-of-polarization&quot;&gt;2. Mechanism of Polarization&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Polarization&lt;/strong&gt; in dielectrics refers to the alignment or displacement of charges within the material under an external electric field. It results in the development of dipole moments and reduces the effective electric field within the material.&lt;/p&gt;
+
+&lt;h3 id=&quot;types-of-polarization-mechanisms&quot;&gt;Types of Polarization Mechanisms:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Electronic Polarization&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Occurs in all atoms.&lt;/li&gt;
+      &lt;li&gt;The electron cloud is displaced relative to the nucleus by the electric field.&lt;/li&gt;
+      &lt;li&gt;Induced dipole moment is created.&lt;/li&gt;
+      &lt;li&gt;Very fast (∼10⁻¹⁵ s).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ionic Polarization&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Present in ionic crystals like NaCl.&lt;/li&gt;
+      &lt;li&gt;Positive and negative ions shift in opposite directions.&lt;/li&gt;
+      &lt;li&gt;Time scale ∼10⁻¹³ s.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Orientation Polarization&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Found in polar molecules (e.g., water).&lt;/li&gt;
+      &lt;li&gt;Permanent dipoles align with the electric field.&lt;/li&gt;
+      &lt;li&gt;Strongly temperature dependent.&lt;/li&gt;
+      &lt;li&gt;Slower (∼10⁻¹² to 10⁻¹⁰ s).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Space-Charge Polarization&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Caused by accumulation of charges at interfaces or defects.&lt;/li&gt;
+      &lt;li&gt;Very slow (≳10⁻³ s).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Total Polarization&lt;/strong&gt; is:
+\(P = P_{elec} + P_{ion} + P_{orient} + P_{space}\)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3-electronic-polarisability&quot;&gt;3. Electronic Polarisability&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Defined as the induced dipole moment per unit applied electric field:
+\(α_e = p / E\)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For an atom with spherical electron cloud:
+\(α_e ≈ 4π ε₀ R³\)
+where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;R&lt;/code&gt; is the radius of the electron cloud.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Dominant in gases and non-polar molecules.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;4-ionic-polarisability&quot;&gt;4. Ionic Polarisability&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Due to the relative displacement of positive and negative ions in an electric field.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ionic polarizability:
+\(α_i = e² / k\)
+where&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;e&lt;/code&gt;: ionic charge&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;k&lt;/code&gt;: restoring force constant (spring constant)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Found in materials like NaCl, KCl, etc.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;5-molecular-field-in-a-dielectric&quot;&gt;5. Molecular Field in a Dielectric&lt;/h2&gt;
+
+&lt;p&gt;The &lt;strong&gt;local field&lt;/strong&gt; or &lt;strong&gt;molecular field&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;E_loc&lt;/code&gt; is the effective field experienced by a molecule/atom inside a dielectric, which differs from the externally applied field.&lt;/p&gt;
+
+&lt;h3 id=&quot;lorentz-field-spherical-cavity-model&quot;&gt;Lorentz Field (Spherical Cavity Model):&lt;/h3&gt;
+
+&lt;p&gt;For cubic symmetric dielectrics:
+\(E_loc = E + P / (3ε₀)\)&lt;/p&gt;
+
+&lt;p&gt;This accounts for:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The macroscopic applied field &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;E&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;The reaction field due to surrounding dipoles&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;6-clausiusmossotti-equation&quot;&gt;6. Clausius–Mossotti Equation&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;Clausius–Mossotti equation&lt;/strong&gt; relates the &lt;strong&gt;macroscopic dielectric constant&lt;/strong&gt; of a material to the &lt;strong&gt;microscopic polarizability&lt;/strong&gt; of its molecules.&lt;/p&gt;
+
+&lt;h2 id=&quot;assumptions&quot;&gt;Assumptions&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The material is an &lt;strong&gt;isotropic&lt;/strong&gt; and &lt;strong&gt;homogeneous&lt;/strong&gt; dielectric.&lt;/li&gt;
+  &lt;li&gt;Each molecule has a well-defined &lt;strong&gt;electronic polarizability&lt;/strong&gt; $\alpha$.&lt;/li&gt;
+  &lt;li&gt;The molecules are &lt;strong&gt;non-interacting dipoles&lt;/strong&gt; (valid for gases or dilute solids).&lt;/li&gt;
+  &lt;li&gt;Cubic symmetry is assumed for solids (so that local field can be estimated).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-1-total-polarization&quot;&gt;Step 1: Total Polarization&lt;/h2&gt;
+
+&lt;p&gt;Let:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;$N$ = number of molecules per unit volume (number density),&lt;/li&gt;
+  &lt;li&gt;$p$ = induced dipole moment of one molecule,&lt;/li&gt;
+  &lt;li&gt;$P$ = polarization of the material (dipole moment per unit volume).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then,&lt;br /&gt;
+$P = N \cdot p$&lt;/p&gt;
+
+&lt;p&gt;If the applied field is $E_{\text{loc}}$, then&lt;br /&gt;
+$p = \alpha \cdot E_{\text{loc}}$&lt;/p&gt;
+
+&lt;p&gt;So,&lt;br /&gt;
+$P = N \alpha E_{\text{loc}}$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-2-lorentz-local-field&quot;&gt;Step 2: Lorentz Local Field&lt;/h2&gt;
+
+&lt;p&gt;The &lt;strong&gt;local field&lt;/strong&gt; $E_{\text{loc}}$ is the effective field experienced by a molecule inside the dielectric, which includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The applied macroscopic field $E$,&lt;/li&gt;
+  &lt;li&gt;The field from surrounding dipoles.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For a &lt;strong&gt;spherical cavity model&lt;/strong&gt;, the local field is:&lt;br /&gt;
+$E_{\text{loc}} = E + \frac{P}{3\varepsilon_0}$&lt;/p&gt;
+
+&lt;p&gt;Substitute this into the polarization expression:&lt;br /&gt;
+$P = N \alpha \left(E + \frac{P}{3\varepsilon_0} \right)$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-3-solve-for-p&quot;&gt;Step 3: Solve for $P$&lt;/h2&gt;
+
+&lt;p&gt;Distribute:&lt;br /&gt;
+$P = N \alpha E + \frac{N \alpha P}{3\varepsilon_0}$&lt;/p&gt;
+
+&lt;p&gt;Bring terms with $P$ to one side:&lt;br /&gt;
+$P - \frac{N \alpha P}{3\varepsilon_0} = N \alpha E$&lt;/p&gt;
+
+&lt;p&gt;Factor out $P$:&lt;br /&gt;
+$P \left(1 - \frac{N \alpha}{3\varepsilon_0} \right) = N \alpha E$&lt;/p&gt;
+
+&lt;p&gt;Solve for $P$:&lt;br /&gt;
+$P = \frac{N \alpha}{1 - \frac{N \alpha}{3\varepsilon_0}} \cdot E$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-4-connect-to-dielectric-constant&quot;&gt;Step 4: Connect to Dielectric Constant&lt;/h2&gt;
+
+&lt;p&gt;Recall that the &lt;strong&gt;macroscopic relation&lt;/strong&gt; between polarization and electric field is:&lt;br /&gt;
+$P = \varepsilon_0 (\varepsilon_r - 1) E$&lt;/p&gt;
+
+&lt;p&gt;Equating the two expressions for $P$:&lt;br /&gt;
+$\varepsilon_0 (\varepsilon_r - 1) E = \frac{N \alpha}{1 - \frac{N \alpha}{3\varepsilon_0}} E$&lt;/p&gt;
+
+&lt;p&gt;Cancel $E$ on both sides:&lt;br /&gt;
+$\varepsilon_0 (\varepsilon_r - 1) = \frac{N \alpha}{1 - \frac{N \alpha}{3\varepsilon_0}}$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-5-rearranging&quot;&gt;Step 5: Rearranging&lt;/h2&gt;
+
+&lt;p&gt;Multiply both sides by the denominator:&lt;br /&gt;
+$\varepsilon_0 (\varepsilon_r - 1) \left(1 - \frac{N \alpha}{3\varepsilon_0} \right) = N \alpha$&lt;/p&gt;
+
+&lt;p&gt;Distribute:&lt;br /&gt;
+$\varepsilon_0 (\varepsilon_r - 1) - \frac{N \alpha}{3} (\varepsilon_r - 1) = N \alpha$&lt;/p&gt;
+
+&lt;p&gt;Factor out $(\varepsilon_r - 1)$ on the left-hand side:&lt;br /&gt;
+$(\varepsilon_r - 1) \left(\varepsilon_0 - \frac{N \alpha}{3} \right) = N \alpha$&lt;/p&gt;
+
+&lt;p&gt;Let’s isolate the dielectric constant:&lt;/p&gt;
+
+&lt;p&gt;From earlier:
+$\varepsilon_0 (\varepsilon_r - 1) = \frac{N \alpha}{1 - \frac{N \alpha}{3\varepsilon_0}}$&lt;/p&gt;
+
+&lt;p&gt;Divide numerator and denominator by $\varepsilon_0$:
+$\frac{\varepsilon_r - 1}{\varepsilon_r + 2} = \frac{N \alpha}{3 \varepsilon_0}$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-final-clausiusmossotti-relation&quot;&gt;✅ Final Clausius–Mossotti Relation&lt;/h2&gt;
+
+\[\boxed{
+\frac{\varepsilon_r - 1}{\varepsilon_r + 2} = \frac{N \alpha}{3 \varepsilon_0}
+}\]
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;physical-interpretation&quot;&gt;Physical Interpretation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$\varepsilon_r$ is the &lt;strong&gt;relative permittivity&lt;/strong&gt; (dielectric constant),&lt;/li&gt;
+  &lt;li&gt;$\alpha$ is the &lt;strong&gt;molecular polarizability&lt;/strong&gt;,&lt;/li&gt;
+  &lt;li&gt;$N$ is the &lt;strong&gt;number density&lt;/strong&gt;,&lt;/li&gt;
+  &lt;li&gt;$\varepsilon_0$ is the &lt;strong&gt;vacuum permittivity&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This relation shows that the dielectric constant is determined by how easily the individual molecules can be polarized ($\alpha$), and how many such molecules exist in the unit volume ($N$).&lt;/p&gt;
+
+&lt;p&gt;It is most accurate for:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Dilute gases,&lt;/li&gt;
+  &lt;li&gt;Simple solids with cubic symmetry,&lt;/li&gt;
+  &lt;li&gt;Low interaction among dipoles.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">1. Macroscopic Dielectric Constant</summary></entry><entry><title type="html">Numerical Methods</title><link href="http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods.html" rel="alternate" type="text/html" title="Numerical Methods" /><published>2025-04-28T09:47:26+05:30</published><updated>2025-04-28T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods.html">&lt;p&gt;Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-basic-definitions&quot;&gt;🔹 Basic Definitions&lt;/h2&gt;
+
+&lt;p&gt;Let \(A\) be an \(n \times n\) square matrix. A non-zero vector \(\mathbf{v} \in \mathbb{R}^n\) is called an &lt;strong&gt;eigenvector&lt;/strong&gt; of \(A\) if it satisfies:&lt;/p&gt;
+
+\[A \mathbf{v} = \lambda \mathbf{v}\]
+
+&lt;p&gt;Here:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;\(\lambda \in \mathbb{R}\) (or \(\mathbb{C}\)) is the &lt;strong&gt;eigenvalue&lt;/strong&gt; corresponding to eigenvector \(\mathbf{v}\).&lt;/li&gt;
+  &lt;li&gt;\(\mathbf{v} \ne \mathbf{0}\) is a &lt;strong&gt;direction preserved&lt;/strong&gt; under the transformation by \(A\), scaled by \(\lambda\).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-how-to-find-eigenvalues-and-eigenvectors&quot;&gt;🔹 How to Find Eigenvalues and Eigenvectors&lt;/h2&gt;
+
+&lt;h3 id=&quot;step-1-characteristic-equation&quot;&gt;Step 1: Characteristic Equation&lt;/h3&gt;
+
+&lt;p&gt;To find eigenvalues, solve the &lt;strong&gt;characteristic equation&lt;/strong&gt;:&lt;/p&gt;
+
+\[\det(A - \lambda I) = 0\]
+
+&lt;ul&gt;
+  &lt;li&gt;\(I\) is the identity matrix of the same size as \(A\).&lt;/li&gt;
+  &lt;li&gt;The determinant gives a polynomial in \(\lambda\) called the &lt;strong&gt;characteristic polynomial&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-2-solve-for-eigenvectors&quot;&gt;Step 2: Solve for Eigenvectors&lt;/h3&gt;
+
+&lt;p&gt;For each eigenvalue \(\lambda\), solve the system:&lt;/p&gt;
+
+\[(A - \lambda I) \mathbf{v} = 0\]
+
+&lt;p&gt;to find the corresponding eigenvector(s) \(\mathbf{v}\).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-example&quot;&gt;🔸 Example&lt;/h2&gt;
+
+&lt;p&gt;Let&lt;/p&gt;
+
+\[A = \begin{bmatrix}
+2 &amp;amp; 1 \\
+1 &amp;amp; 2
+\end{bmatrix}\]
+
+&lt;h3 id=&quot;step-1-find-eigenvalues&quot;&gt;Step 1: Find Eigenvalues&lt;/h3&gt;
+
+&lt;p&gt;Solve:&lt;/p&gt;
+
+\[\det(A - \lambda I) = \det \begin{bmatrix}
+2 - \lambda &amp;amp; 1 \\
+1 &amp;amp; 2 - \lambda
+\end{bmatrix}
+= (2 - \lambda)^2 - 1 = 0\]
+
+&lt;p&gt;So,&lt;/p&gt;
+
+\[(2 - \lambda)^2 = 1 \Rightarrow \lambda = 1, 3\]
+
+&lt;h3 id=&quot;step-2-find-eigenvectors&quot;&gt;Step 2: Find Eigenvectors&lt;/h3&gt;
+
+&lt;p&gt;For \(\lambda = 1\):&lt;/p&gt;
+
+\[(A - I) \mathbf{v} = \begin{bmatrix}
+1 &amp;amp; 1 \\
+1 &amp;amp; 1
+\end{bmatrix} \begin{bmatrix}
+x \\
+y
+\end{bmatrix} = 0
+\Rightarrow x + y = 0 \Rightarrow \mathbf{v}_1 = \begin{bmatrix} 1 \\ -1 \end{bmatrix}\]
+
+&lt;p&gt;For \(\lambda = 3\):&lt;/p&gt;
+
+\[(A - 3I) \mathbf{v} = \begin{bmatrix}
+-1 &amp;amp; 1 \\
+1 &amp;amp; -1
+\end{bmatrix} \begin{bmatrix}
+x \\
+y
+\end{bmatrix} = 0
+\Rightarrow x - y = 0 \Rightarrow \mathbf{v}_2 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}\]
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-key-properties&quot;&gt;🔹 Key Properties&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A matrix of size \(n \times n\) has at most \(n\) eigenvalues.&lt;/li&gt;
+  &lt;li&gt;Eigenvectors corresponding to &lt;strong&gt;distinct eigenvalues are linearly independent&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;If a matrix is &lt;strong&gt;symmetric&lt;/strong&gt;, all its eigenvalues are real and eigenvectors are orthogonal.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-physical-interpretation&quot;&gt;🔹 Physical Interpretation&lt;/h2&gt;
+
+&lt;p&gt;In physics:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In quantum mechanics, eigenvalues of operators represent &lt;strong&gt;observable quantities&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;In mechanics, the &lt;strong&gt;normal modes&lt;/strong&gt; of oscillation are eigenvectors of the system matrix.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-summary&quot;&gt;📌 Summary&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Term&lt;/th&gt;
+      &lt;th&gt;Meaning&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Eigenvalue&lt;/td&gt;
+      &lt;td&gt;Scalar \(\lambda\) such that \(A \mathbf{v} = \lambda \mathbf{v}\)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Eigenvector&lt;/td&gt;
+      &lt;td&gt;Non-zero vector \(\mathbf{v}\) preserved in direction by \(A\)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Characteristic Equation&lt;/td&gt;
+      &lt;td&gt;\(\det(A - \lambda I) = 0\) to find eigenvalues&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Matrix Diagonalization&lt;/td&gt;
+      &lt;td&gt;Possible if matrix has \(n\) linearly independent eigenvectors&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;-interpolation-extrapolation-and-curve-fitting&quot;&gt;📘 Interpolation, Extrapolation, and Curve Fitting&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-1-interpolation&quot;&gt;🔹 1. Interpolation&lt;/h2&gt;
+
+&lt;h3 id=&quot;-definition&quot;&gt;🔸 Definition:&lt;/h3&gt;
+
+&lt;p&gt;Interpolation is the process of estimating unknown values that fall &lt;strong&gt;within the range&lt;/strong&gt; of known data points.&lt;/p&gt;
+
+&lt;h3 id=&quot;-types-of-interpolation&quot;&gt;🔸 Types of Interpolation:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Linear Interpolation&lt;/strong&gt;: Straight line between two known points.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Polynomial Interpolation&lt;/strong&gt;: Uses a polynomial of degree $n$ for $n+1$ data points.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Spline Interpolation&lt;/strong&gt;: Piecewise polynomials (e.g., cubic spline) to ensure smoothness.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-formula-linear-interpolation&quot;&gt;🔸 Formula (Linear Interpolation):&lt;/h3&gt;
+
+&lt;p&gt;Given two points $(x_0, y_0)$ and $(x_1, y_1)$:&lt;/p&gt;
+
+\[y = y_0 + \frac{(x - x_0)(y_1 - y_0)}{x_1 - x_0}\]
+
+&lt;h3 id=&quot;-example-linear-interpolation&quot;&gt;🔸 Example (Linear Interpolation):&lt;/h3&gt;
+
+&lt;p&gt;Let $(x_0, y_0) = (1, 3)$ and $(x_1, y_1) = (4, 15)$. Estimate $y$ at $x = 2$.&lt;/p&gt;
+
+\[y = 3 + \frac{(2 - 1)(15 - 3)}{4 - 1} = 3 + \frac{1 \cdot 12}{3} = 3 + 4 = 7\]
+
+&lt;p&gt;So, the interpolated value at $x = 2$ is $y = 7$.&lt;/p&gt;
+
+&lt;h3 id=&quot;-applications&quot;&gt;🔸 Applications:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Filling missing data&lt;/li&gt;
+  &lt;li&gt;Digital image scaling&lt;/li&gt;
+  &lt;li&gt;Sensor data smoothing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;️-2-extrapolation&quot;&gt;🗙️ 2. Extrapolation&lt;/h2&gt;
+
+&lt;h3 id=&quot;-definition-1&quot;&gt;🔸 Definition:&lt;/h3&gt;
+
+&lt;p&gt;Extrapolation estimates values &lt;strong&gt;outside the range&lt;/strong&gt; of known data points using the trend of the data.&lt;/p&gt;
+
+&lt;h3 id=&quot;-types&quot;&gt;🔸 Types:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Linear Extrapolation&lt;/strong&gt;: Extends the linear trend.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Polynomial Extrapolation&lt;/strong&gt;: Uses higher-order polynomials to forecast.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-risks&quot;&gt;🔸 Risks:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Less reliable than interpolation.&lt;/li&gt;
+  &lt;li&gt;Assumes the current trend continues.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-example-linear&quot;&gt;🔸 Example (Linear):&lt;/h3&gt;
+
+&lt;p&gt;Given last two points: $(x_{n-1}, y_{n-1}) = (2, 5)$ and $(x_n, y_n) = (4, 11)$, estimate $y$ at $x = 5$.&lt;/p&gt;
+
+\[y = 11 + (5 - 4) \cdot \frac{11 - 5}{4 - 2} = 11 + 1 \cdot 3 = 14\]
+
+&lt;p&gt;So, the extrapolated value at $x = 5$ is $y = 14$.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-3-curve-fitting-methods&quot;&gt;🔹 3. Curve Fitting Methods&lt;/h2&gt;
+
+&lt;h3 id=&quot;-definition-2&quot;&gt;🔸 Definition:&lt;/h3&gt;
+
+&lt;p&gt;Curve fitting finds a curve that best represents the trend in the data. It can be used to model the relationship between variables.&lt;/p&gt;
+
+&lt;h3 id=&quot;-methods&quot;&gt;🔸 Methods:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Polynomial Fit&lt;/strong&gt;: Fit using polynomials (linear, quadratic, cubic, etc.).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Exponential Fit&lt;/strong&gt;: $y = ae^{bx}$&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Logarithmic Fit&lt;/strong&gt;: $y = a + b \log x$&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Power Law Fit&lt;/strong&gt;: $y = ax^b$&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Piecewise Fit&lt;/strong&gt;: Different models in different intervals.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-example-polynomial-fit&quot;&gt;🔸 Example (Polynomial Fit):&lt;/h3&gt;
+
+&lt;p&gt;Given data: $(1, 2)$, $(2, 4.1)$, $(3, 6.2)$&lt;/p&gt;
+
+&lt;p&gt;Fit a line: $y = mx + c$ using least squares:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Normal equations lead to $m \approx 2.1$, $c \approx -0.1$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, best-fit line: $y = 2.1x - 0.1$&lt;/p&gt;
+
+&lt;h3 id=&quot;-purpose&quot;&gt;🔸 Purpose:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Data modeling&lt;/li&gt;
+  &lt;li&gt;Predictive analytics&lt;/li&gt;
+  &lt;li&gt;Simplification of complex datasets&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-tools&quot;&gt;🔸 Tools:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Manual fitting&lt;/li&gt;
+  &lt;li&gt;Python libraries: NumPy (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;polyfit&lt;/code&gt;), SciPy, Matplotlib&lt;/li&gt;
+  &lt;li&gt;MATLAB, Excel&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-4-least-squares-fitting&quot;&gt;🔹 4. Least Squares Fitting&lt;/h2&gt;
+
+&lt;h3 id=&quot;-definition-3&quot;&gt;🔸 Definition:&lt;/h3&gt;
+
+&lt;p&gt;The least squares method minimizes the &lt;strong&gt;sum of the squares of the vertical differences&lt;/strong&gt; (residuals) between the observed and predicted values.&lt;/p&gt;
+
+&lt;h3 id=&quot;-linear-least-squares&quot;&gt;🔸 Linear Least Squares:&lt;/h3&gt;
+
+&lt;p&gt;Given data points $(x_i, y_i)$, find $y = mx + c$ that minimizes:&lt;/p&gt;
+
+\[S = \sum_{i=1}^n (y_i - (mx_i + c))^2\]
+
+&lt;h3 id=&quot;-example-linear-least-squares-fit&quot;&gt;🔸 Example (Linear Least Squares Fit):&lt;/h3&gt;
+
+&lt;p&gt;Data: $(1,2)$, $(2,3)$, $(3,5)$&lt;/p&gt;
+
+&lt;p&gt;Compute:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$\sum x = 6$, $\sum y = 10$, $\sum xy = 23$, $\sum x^2 = 14$, $n=3$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Normal equations:&lt;/p&gt;
+
+\[10 = 6m + 3c \\
+23 = 14m + 6c\]
+
+&lt;p&gt;Solving gives: $m = 1.5$, $c = 0.333$&lt;/p&gt;
+
+&lt;p&gt;Best fit: $y = 1.5x + 0.333$&lt;/p&gt;
+
+&lt;h3 id=&quot;-polynomial-least-squares&quot;&gt;🔸 Polynomial Least Squares:&lt;/h3&gt;
+
+&lt;p&gt;Minimize the sum of squares for a polynomial:&lt;/p&gt;
+
+\[y = a_0 + a_1x + a_2x^2 + \dots + a_nx^n\]
+
+&lt;p&gt;Use matrix techniques to solve the normal equations.&lt;/p&gt;
+
+&lt;h3 id=&quot;-advantages&quot;&gt;🔸 Advantages:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Simple to implement&lt;/li&gt;
+  &lt;li&gt;Well-studied and robust&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-limitations&quot;&gt;🔸 Limitations:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sensitive to outliers&lt;/li&gt;
+  &lt;li&gt;Overfitting with high-degree polynomials&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-summary-table&quot;&gt;📋 Summary Table&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Concept&lt;/th&gt;
+      &lt;th&gt;Domain&lt;/th&gt;
+      &lt;th&gt;Input Data Range&lt;/th&gt;
+      &lt;th&gt;Output Estimate&lt;/th&gt;
+      &lt;th&gt;Confidence&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Interpolation&lt;/td&gt;
+      &lt;td&gt;Within data&lt;/td&gt;
+      &lt;td&gt;[x_min, x_max]&lt;/td&gt;
+      &lt;td&gt;Estimated y&lt;/td&gt;
+      &lt;td&gt;High&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Extrapolation&lt;/td&gt;
+      &lt;td&gt;Outside data&lt;/td&gt;
+      &lt;td&gt;x &amp;lt; x_min or x &amp;gt; x_max&lt;/td&gt;
+      &lt;td&gt;Forecasted y&lt;/td&gt;
+      &lt;td&gt;Lower&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Curve Fitting&lt;/td&gt;
+      &lt;td&gt;Entire dataset&lt;/td&gt;
+      &lt;td&gt;All data points&lt;/td&gt;
+      &lt;td&gt;Best-fit curve (y vs x)&lt;/td&gt;
+      &lt;td&gt;Varies&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Least Squares&lt;/td&gt;
+      &lt;td&gt;Numerical method&lt;/td&gt;
+      &lt;td&gt;All data points&lt;/td&gt;
+      &lt;td&gt;Curve parameters (e.g. m, c)&lt;/td&gt;
+      &lt;td&gt;Depends on data&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-further-reading&quot;&gt;🔍 Further Reading&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Numerical Analysis by R.L. Burden and J.D. Faires&lt;/li&gt;
+  &lt;li&gt;Curve Fitting for Programmers (NumPy, SciPy)&lt;/li&gt;
+  &lt;li&gt;Applied Regression Analysis&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;solution-of-first-order-differential-equation-using-runge-kutta-method&quot;&gt;Solution of First Order Differential Equation using Runge-Kutta Method&lt;/h1&gt;
 
 &lt;p&gt;The numerical solution of &lt;strong&gt;first-order differential equations&lt;/strong&gt; plays a crucial role across science and engineering. While many analytical methods exist, they are often limited to relatively simple equations. As a result, numerical methods have become indispensable tools for approximating solutions.&lt;/p&gt;
 
@@ -530,7 +1134,7 @@ Thus, Simpson’s rule is much more accurate than the trapezoidal rule for smoot
       &lt;td&gt;Higher precision with smooth functions&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Solution of First Order Differential Equation using Runge-Kutta Method</summary></entry><entry><title type="html">Image Processing: Eigenvalues and Eigenvectors</title><link href="http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image.html" rel="alternate" type="text/html" title="Image Processing: Eigenvalues and Eigenvectors" /><published>2025-04-17T09:47:26+05:30</published><updated>2025-04-17T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image.html">&lt;h2 id=&quot;-objective&quot;&gt;🧠 Objective&lt;/h2&gt;
+&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space.</summary></entry><entry><title type="html">Image Processing: Eigenvalues and Eigenvectors</title><link href="http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image.html" rel="alternate" type="text/html" title="Image Processing: Eigenvalues and Eigenvectors" /><published>2025-04-17T09:47:26+05:30</published><updated>2025-04-17T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image.html">&lt;h2 id=&quot;-objective&quot;&gt;🧠 Objective&lt;/h2&gt;
 &lt;p&gt;This lecture explores the application of &lt;strong&gt;eigenvalues&lt;/strong&gt; and &lt;strong&gt;eigenvectors&lt;/strong&gt; in image processing using &lt;strong&gt;Principal Component Analysis (PCA)&lt;/strong&gt;. We will:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -723,148 +1327,7 @@ Thus, Simpson’s rule is much more accurate than the trapezoidal rule for smoot
   &lt;li&gt;Apply PCA to a color image by treating each RGB channel separately.&lt;/li&gt;
   &lt;li&gt;Use this technique on image datasets like MNIST or CIFAR-10 for dimensionality reduction.&lt;/li&gt;
   &lt;li&gt;Plot cumulative explained variance using eigenvalues.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">🧠 Objective This lecture explores the application of eigenvalues and eigenvectors in image processing using Principal Component Analysis (PCA). We will:</summary></entry><entry><title type="html">Eigenvalues and Eigenvectors of Matrices</title><link href="http://localhost:4000/SKMU/lecture/2025/04/15/Eigen.html" rel="alternate" type="text/html" title="Eigenvalues and Eigenvectors of Matrices" /><published>2025-04-15T09:47:26+05:30</published><updated>2025-04-15T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/15/Eigen</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/15/Eigen.html">&lt;p&gt;Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-2-basic-definitions&quot;&gt;🔹 2. Basic Definitions&lt;/h2&gt;
-
-&lt;p&gt;Let \(A\) be an \(n \times n\) square matrix. A non-zero vector \(\mathbf{v} \in \mathbb{R}^n\) is called an &lt;strong&gt;eigenvector&lt;/strong&gt; of \(A\) if it satisfies:&lt;/p&gt;
-
-\[A \mathbf{v} = \lambda \mathbf{v}\]
-
-&lt;p&gt;Here:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;\(\lambda \in \mathbb{R}\) (or \(\mathbb{C}\)) is the &lt;strong&gt;eigenvalue&lt;/strong&gt; corresponding to eigenvector \(\mathbf{v}\).&lt;/li&gt;
-  &lt;li&gt;\(\mathbf{v} \ne \mathbf{0}\) is a &lt;strong&gt;direction preserved&lt;/strong&gt; under the transformation by \(A\), scaled by \(\lambda\).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-3-how-to-find-eigenvalues-and-eigenvectors&quot;&gt;🔹 3. How to Find Eigenvalues and Eigenvectors&lt;/h2&gt;
-
-&lt;h3 id=&quot;step-1-characteristic-equation&quot;&gt;Step 1: Characteristic Equation&lt;/h3&gt;
-
-&lt;p&gt;To find eigenvalues, solve the &lt;strong&gt;characteristic equation&lt;/strong&gt;:&lt;/p&gt;
-
-\[\det(A - \lambda I) = 0\]
-
-&lt;ul&gt;
-  &lt;li&gt;\(I\) is the identity matrix of the same size as \(A\).&lt;/li&gt;
-  &lt;li&gt;The determinant gives a polynomial in \(\lambda\) called the &lt;strong&gt;characteristic polynomial&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;step-2-solve-for-eigenvectors&quot;&gt;Step 2: Solve for Eigenvectors&lt;/h3&gt;
-
-&lt;p&gt;For each eigenvalue \(\lambda\), solve the system:&lt;/p&gt;
-
-\[(A - \lambda I) \mathbf{v} = 0\]
-
-&lt;p&gt;to find the corresponding eigenvector(s) \(\mathbf{v}\).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-4-example&quot;&gt;🔸 4. Example&lt;/h2&gt;
-
-&lt;p&gt;Let&lt;/p&gt;
-
-\[A = \begin{bmatrix}
-2 &amp;amp; 1 \\
-1 &amp;amp; 2
-\end{bmatrix}\]
-
-&lt;h3 id=&quot;step-1-find-eigenvalues&quot;&gt;Step 1: Find Eigenvalues&lt;/h3&gt;
-
-&lt;p&gt;Solve:&lt;/p&gt;
-
-\[\det(A - \lambda I) = \det \begin{bmatrix}
-2 - \lambda &amp;amp; 1 \\
-1 &amp;amp; 2 - \lambda
-\end{bmatrix}
-= (2 - \lambda)^2 - 1 = 0\]
-
-&lt;p&gt;So,&lt;/p&gt;
-
-\[(2 - \lambda)^2 = 1 \Rightarrow \lambda = 1, 3\]
-
-&lt;h3 id=&quot;step-2-find-eigenvectors&quot;&gt;Step 2: Find Eigenvectors&lt;/h3&gt;
-
-&lt;p&gt;For \(\lambda = 1\):&lt;/p&gt;
-
-\[(A - I) \mathbf{v} = \begin{bmatrix}
-1 &amp;amp; 1 \\
-1 &amp;amp; 1
-\end{bmatrix} \begin{bmatrix}
-x \\
-y
-\end{bmatrix} = 0
-\Rightarrow x + y = 0 \Rightarrow \mathbf{v}_1 = \begin{bmatrix} 1 \\ -1 \end{bmatrix}\]
-
-&lt;p&gt;For \(\lambda = 3\):&lt;/p&gt;
-
-\[(A - 3I) \mathbf{v} = \begin{bmatrix}
--1 &amp;amp; 1 \\
-1 &amp;amp; -1
-\end{bmatrix} \begin{bmatrix}
-x \\
-y
-\end{bmatrix} = 0
-\Rightarrow x - y = 0 \Rightarrow \mathbf{v}_2 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}\]
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-5-key-properties&quot;&gt;🔹 5. Key Properties&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A matrix of size \(n \times n\) has at most \(n\) eigenvalues.&lt;/li&gt;
-  &lt;li&gt;Eigenvectors corresponding to &lt;strong&gt;distinct eigenvalues are linearly independent&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;If a matrix is &lt;strong&gt;symmetric&lt;/strong&gt;, all its eigenvalues are real and eigenvectors are orthogonal.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-6-physical-interpretation&quot;&gt;🔹 6. Physical Interpretation&lt;/h2&gt;
-
-&lt;p&gt;In physics:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;In quantum mechanics, eigenvalues of operators represent &lt;strong&gt;observable quantities&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;In mechanics, the &lt;strong&gt;normal modes&lt;/strong&gt; of oscillation are eigenvectors of the system matrix.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-summary&quot;&gt;📌 Summary&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Term&lt;/th&gt;
-      &lt;th&gt;Meaning&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Eigenvalue&lt;/td&gt;
-      &lt;td&gt;Scalar \(\lambda\) such that \(A \mathbf{v} = \lambda \mathbf{v}\)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Eigenvector&lt;/td&gt;
-      &lt;td&gt;Non-zero vector \(\mathbf{v}\) preserved in direction by \(A\)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Characteristic Equation&lt;/td&gt;
-      &lt;td&gt;\(\det(A - \lambda I) = 0\) to find eigenvalues&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Matrix Diagonalization&lt;/td&gt;
-      &lt;td&gt;Possible if matrix has \(n\) linearly independent eigenvectors&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space.</summary></entry><entry><title type="html">Dissertation: N-Interconnected Mass-Spring System</title><link href="http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-N-Mass-System.html" rel="alternate" type="text/html" title="Dissertation: N-Interconnected Mass-Spring System" /><published>2025-04-15T08:37:26+05:30</published><updated>2025-04-15T08:37:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-N-Mass-System</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-N-Mass-System.html">&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">🧠 Objective This lecture explores the application of eigenvalues and eigenvectors in image processing using Principal Component Analysis (PCA). We will:</summary></entry><entry><title type="html">Dissertation: N-Interconnected Mass-Spring System</title><link href="http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-N-Mass-System.html" rel="alternate" type="text/html" title="Dissertation: N-Interconnected Mass-Spring System" /><published>2025-04-15T08:37:26+05:30</published><updated>2025-04-15T08:37:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-N-Mass-System</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-N-Mass-System.html">&lt;div style=&quot;text-align: center;&quot;&gt;
   &lt;img src=&quot;/SKMU/assets/images/Lecture/Spring-Mass.png&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:70%; height:auto;&quot; /&gt;
 &lt;/div&gt;
 

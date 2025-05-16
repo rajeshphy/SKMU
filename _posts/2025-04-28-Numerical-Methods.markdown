@@ -6,6 +6,321 @@ categories: lecture
 tags: SEM-I
 ---
 
+Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space.
+
+---
+
+## 🔹 Basic Definitions
+
+Let $$ A $$ be an $$ n \times n $$ square matrix. A non-zero vector $$ \mathbf{v} \in \mathbb{R}^n $$ is called an **eigenvector** of $$ A $$ if it satisfies:
+
+$$
+A \mathbf{v} = \lambda \mathbf{v}
+$$
+
+Here:
+
+- $$ \lambda \in \mathbb{R} $$ (or $$ \mathbb{C} $$) is the **eigenvalue** corresponding to eigenvector $$ \mathbf{v} $$.
+- $$ \mathbf{v} \ne \mathbf{0} $$ is a **direction preserved** under the transformation by $$ A $$, scaled by $$ \lambda $$.
+
+---
+
+## 🔹 How to Find Eigenvalues and Eigenvectors
+
+### Step 1: Characteristic Equation
+
+To find eigenvalues, solve the **characteristic equation**:
+
+$$
+\det(A - \lambda I) = 0
+$$
+
+- $$ I $$ is the identity matrix of the same size as $$ A $$.
+- The determinant gives a polynomial in $$ \lambda $$ called the **characteristic polynomial**.
+
+### Step 2: Solve for Eigenvectors
+
+For each eigenvalue $$ \lambda $$, solve the system:
+
+$$
+(A - \lambda I) \mathbf{v} = 0
+$$
+
+to find the corresponding eigenvector(s) $$ \mathbf{v} $$.
+
+---
+
+## 🔸 Example
+
+Let
+
+$$
+A = \begin{bmatrix}
+2 & 1 \\
+1 & 2
+\end{bmatrix}
+$$
+
+### Step 1: Find Eigenvalues
+
+Solve:
+
+$$
+\det(A - \lambda I) = \det \begin{bmatrix}
+2 - \lambda & 1 \\
+1 & 2 - \lambda
+\end{bmatrix}
+= (2 - \lambda)^2 - 1 = 0
+$$
+
+So,
+
+$$
+(2 - \lambda)^2 = 1 \Rightarrow \lambda = 1, 3
+$$
+
+### Step 2: Find Eigenvectors
+
+For $$ \lambda = 1 $$:
+
+$$
+(A - I) \mathbf{v} = \begin{bmatrix}
+1 & 1 \\
+1 & 1
+\end{bmatrix} \begin{bmatrix}
+x \\
+y
+\end{bmatrix} = 0
+\Rightarrow x + y = 0 \Rightarrow \mathbf{v}_1 = \begin{bmatrix} 1 \\ -1 \end{bmatrix}
+$$
+
+For $$ \lambda = 3 $$:
+
+$$
+(A - 3I) \mathbf{v} = \begin{bmatrix}
+-1 & 1 \\
+1 & -1
+\end{bmatrix} \begin{bmatrix}
+x \\
+y
+\end{bmatrix} = 0
+\Rightarrow x - y = 0 \Rightarrow \mathbf{v}_2 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}
+$$
+
+---
+
+## 🔹 Key Properties
+
+- A matrix of size $$ n \times n $$ has at most $$ n $$ eigenvalues.
+- Eigenvectors corresponding to **distinct eigenvalues are linearly independent**.
+- If a matrix is **symmetric**, all its eigenvalues are real and eigenvectors are orthogonal.
+
+---
+
+## 🔹 Physical Interpretation
+
+In physics:
+
+- In quantum mechanics, eigenvalues of operators represent **observable quantities**.
+- In mechanics, the **normal modes** of oscillation are eigenvectors of the system matrix.
+
+---
+
+## 📌 Summary
+
+| Term         | Meaning                                             |
+|--------------|------------------------------------------------------|
+| Eigenvalue   | Scalar $$ \lambda $$ such that $$ A \mathbf{v} = \lambda \mathbf{v} $$ |
+| Eigenvector  | Non-zero vector $$ \mathbf{v} $$ preserved in direction by $$ A $$   |
+| Characteristic Equation | $$ \det(A - \lambda I) = 0 $$ to find eigenvalues |
+| Matrix Diagonalization | Possible if matrix has $$ n $$ linearly independent eigenvectors |
+
+---
+# 📘 Interpolation, Extrapolation, and Curve Fitting
+
+---
+
+## 🔹 1. Interpolation
+
+### 🔸 Definition:
+
+Interpolation is the process of estimating unknown values that fall **within the range** of known data points.
+
+### 🔸 Types of Interpolation:
+
+* **Linear Interpolation**: Straight line between two known points.
+* **Polynomial Interpolation**: Uses a polynomial of degree \$n\$ for \$n+1\$ data points.
+* **Spline Interpolation**: Piecewise polynomials (e.g., cubic spline) to ensure smoothness.
+
+### 🔸 Formula (Linear Interpolation):
+
+Given two points \$(x\_0, y\_0)\$ and \$(x\_1, y\_1)\$:
+
+$$
+y = y_0 + \frac{(x - x_0)(y_1 - y_0)}{x_1 - x_0}
+$$
+
+### 🔸 Example (Linear Interpolation):
+
+Let \$(x\_0, y\_0) = (1, 3)\$ and \$(x\_1, y\_1) = (4, 15)\$. Estimate \$y\$ at \$x = 2\$.
+
+$$
+y = 3 + \frac{(2 - 1)(15 - 3)}{4 - 1} = 3 + \frac{1 \cdot 12}{3} = 3 + 4 = 7
+$$
+
+So, the interpolated value at \$x = 2\$ is \$y = 7\$.
+
+### 🔸 Applications:
+
+* Filling missing data
+* Digital image scaling
+* Sensor data smoothing
+
+---
+
+## 🗙️ 2. Extrapolation
+
+### 🔸 Definition:
+
+Extrapolation estimates values **outside the range** of known data points using the trend of the data.
+
+### 🔸 Types:
+
+* **Linear Extrapolation**: Extends the linear trend.
+* **Polynomial Extrapolation**: Uses higher-order polynomials to forecast.
+
+### 🔸 Risks:
+
+* Less reliable than interpolation.
+* Assumes the current trend continues.
+
+### 🔸 Example (Linear):
+
+Given last two points: \$(x\_{n-1}, y\_{n-1}) = (2, 5)\$ and \$(x\_n, y\_n) = (4, 11)\$, estimate \$y\$ at \$x = 5\$.
+
+$$
+y = 11 + (5 - 4) \cdot \frac{11 - 5}{4 - 2} = 11 + 1 \cdot 3 = 14
+$$
+
+So, the extrapolated value at \$x = 5\$ is \$y = 14\$.
+
+---
+
+## 🔹 3. Curve Fitting Methods
+
+### 🔸 Definition:
+
+Curve fitting finds a curve that best represents the trend in the data. It can be used to model the relationship between variables.
+
+### 🔸 Methods:
+
+* **Polynomial Fit**: Fit using polynomials (linear, quadratic, cubic, etc.).
+* **Exponential Fit**: \$y = ae^{bx}\$
+* **Logarithmic Fit**: \$y = a + b \log x\$
+* **Power Law Fit**: \$y = ax^b\$
+* **Piecewise Fit**: Different models in different intervals.
+
+### 🔸 Example (Polynomial Fit):
+
+Given data: \$(1, 2)\$, \$(2, 4.1)\$, \$(3, 6.2)\$
+
+Fit a line: \$y = mx + c\$ using least squares:
+
+* Normal equations lead to \$m \approx 2.1\$, \$c \approx -0.1\$
+
+So, best-fit line: \$y = 2.1x - 0.1\$
+
+### 🔸 Purpose:
+
+* Data modeling
+* Predictive analytics
+* Simplification of complex datasets
+
+### 🔸 Tools:
+
+* Manual fitting
+* Python libraries: NumPy (`polyfit`), SciPy, Matplotlib
+* MATLAB, Excel
+
+---
+
+## 🔹 4. Least Squares Fitting
+
+### 🔸 Definition:
+
+The least squares method minimizes the **sum of the squares of the vertical differences** (residuals) between the observed and predicted values.
+
+### 🔸 Linear Least Squares:
+
+Given data points $(x_i, y_i)$, find $y = mx + c$ that minimizes:
+
+$$
+S = \sum_{i=1}^n (y_i - (mx_i + c))^2
+$$
+
+### 🔸 Example (Linear Least Squares Fit):
+
+Data: \$(1,2)\$, \$(2,3)\$, \$(3,5)\$
+
+Compute:
+
+* \$\sum x = 6\$, \$\sum y = 10\$, \$\sum xy = 23\$, \$\sum x^2 = 14\$, \$n=3\$
+
+Normal equations:
+
+$$
+10 = 6m + 3c \\
+23 = 14m + 6c
+$$
+
+Solving gives: \$m = 1.5\$, \$c = 0.333\$
+
+Best fit: \$y = 1.5x + 0.333\$
+
+### 🔸 Polynomial Least Squares:
+
+Minimize the sum of squares for a polynomial:
+
+$$
+y = a_0 + a_1x + a_2x^2 + \dots + a_nx^n
+$$
+
+Use matrix techniques to solve the normal equations.
+
+### 🔸 Advantages:
+
+* Simple to implement
+* Well-studied and robust
+
+### 🔸 Limitations:
+
+* Sensitive to outliers
+* Overfitting with high-degree polynomials
+
+---
+
+## 📋 Summary Table
+
+| Concept       | Domain           | Input Data Range         | Output Estimate              | Confidence      |
+| ------------- | ---------------- | ------------------------ | ---------------------------- | --------------- |
+| Interpolation | Within data      | \[x\_min, x\_max]        | Estimated y                  | High            |
+| Extrapolation | Outside data     | x < x\_min or x > x\_max | Forecasted y                 | Lower           |
+| Curve Fitting | Entire dataset   | All data points          | Best-fit curve (y vs x)      | Varies          |
+| Least Squares | Numerical method | All data points          | Curve parameters (e.g. m, c) | Depends on data |
+
+---
+
+## 🔍 Further Reading
+
+* Numerical Analysis by R.L. Burden and J.D. Faires
+* Curve Fitting for Programmers (NumPy, SciPy)
+* Applied Regression Analysis
+
+
+
+
+
+
 # Solution of First Order Differential Equation using Runge-Kutta Method
 
 The numerical solution of **first-order differential equations** plays a crucial role across science and engineering. While many analytical methods exist, they are often limited to relatively simple equations. As a result, numerical methods have become indispensable tools for approximating solutions.

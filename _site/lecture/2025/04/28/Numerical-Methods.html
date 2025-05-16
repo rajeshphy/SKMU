@@ -19,15 +19,15 @@
 <meta property="og:title" content="Numerical Methods" />
 <meta name="author" content="Rajesh Kumar" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Solution of First Order Differential Equation using Runge-Kutta Method" />
-<meta property="og:description" content="Solution of First Order Differential Equation using Runge-Kutta Method" />
-<link rel="canonical" href="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html" />
-<meta property="og:url" content="http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html" />
+<meta name="description" content="Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space." />
+<meta property="og:description" content="Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space." />
+<link rel="canonical" href="http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods.html" />
+<meta property="og:url" content="http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods.html" />
 <meta property="og:site_name" content="Rajesh Kumar" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2025-04-28T09:47:26+05:30" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"Rajesh Kumar"},"url":"http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html","description":"Solution of First Order Differential Equation using Runge-Kutta Method","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/SKMU/assets/icons/logo.png"},"name":"Rajesh Kumar"},"headline":"Numerical Methods","dateModified":"2025-04-28T09:47:26+05:30","datePublished":"2025-04-28T09:47:26+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/SKMU/lecture/2025/04/28/Runge-Kutta.html"},"@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Rajesh Kumar"},"url":"http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods.html","description":"Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space.","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/SKMU/assets/icons/logo.png"},"name":"Rajesh Kumar"},"headline":"Numerical Methods","dateModified":"2025-04-28T09:47:26+05:30","datePublished":"2025-04-28T09:47:26+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -220,7 +220,7 @@
 
 
         <p class="entry-meta">
-          <span class="byline-item">by Rajesh Kumar</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2025-04-28T09:47:26+05:30">April 28, 2025</time></span> <span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="15 309.7 16 16"><g><path d="M23.9 315.1v3.6c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-3.6h1.8z"/><path d="M30.1 317.7c.5 3.9-2.3 7.5-6.2 7.9-3.9.5-7.5-2.3-7.9-6.2-.5-3.9 2.3-7.5 6.2-7.9v-1.8H24v1.8c1.1.1 2.7.7 3.5 1.4l1.3-1.3 1.3 1.3-1.3 1.3c.5.9 1.2 2.5 1.3 3.5zm-1.8.9c0-2.9-2.4-5.3-5.3-5.3s-5.3 2.4-5.3 5.3 2.4 5.3 5.3 5.3 5.3-2.3 5.3-5.3z"/></g></svg></span>9 min read</span>
+          <span class="byline-item">by Rajesh Kumar</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2025-04-28T09:47:26+05:30">April 28, 2025</time></span> <span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="15 309.7 16 16"><g><path d="M23.9 315.1v3.6c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-3.6h1.8z"/><path d="M30.1 317.7c.5 3.9-2.3 7.5-6.2 7.9-3.9.5-7.5-2.3-7.9-6.2-.5-3.9 2.3-7.5 6.2-7.9v-1.8H24v1.8c1.1.1 2.7.7 3.5 1.4l1.3-1.3 1.3 1.3-1.3 1.3c.5.9 1.2 2.5 1.3 3.5zm-1.8.9c0-2.9-2.4-5.3-5.3-5.3s-5.3 2.4-5.3 5.3 2.4 5.3 5.3 5.3 5.3-2.3 5.3-5.3z"/></g></svg></span>14 min read</span>
         </p>
       
 
@@ -236,7 +236,376 @@
   <div class="inner">
     <article class="entry-wrap">
       <div class="entry-content">
-        <h1 id="solution-of-first-order-differential-equation-using-runge-kutta-method">Solution of First Order Differential Equation using Runge-Kutta Method</h1>
+        <p>Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space.</p>
+
+<hr />
+
+<h2 id="-basic-definitions">🔹 Basic Definitions</h2>
+
+<p>Let \(A\) be an \(n \times n\) square matrix. A non-zero vector \(\mathbf{v} \in \mathbb{R}^n\) is called an <strong>eigenvector</strong> of \(A\) if it satisfies:</p>
+
+\[A \mathbf{v} = \lambda \mathbf{v}\]
+
+<p>Here:</p>
+
+<ul>
+  <li>\(\lambda \in \mathbb{R}\) (or \(\mathbb{C}\)) is the <strong>eigenvalue</strong> corresponding to eigenvector \(\mathbf{v}\).</li>
+  <li>\(\mathbf{v} \ne \mathbf{0}\) is a <strong>direction preserved</strong> under the transformation by \(A\), scaled by \(\lambda\).</li>
+</ul>
+
+<hr />
+
+<h2 id="-how-to-find-eigenvalues-and-eigenvectors">🔹 How to Find Eigenvalues and Eigenvectors</h2>
+
+<h3 id="step-1-characteristic-equation">Step 1: Characteristic Equation</h3>
+
+<p>To find eigenvalues, solve the <strong>characteristic equation</strong>:</p>
+
+\[\det(A - \lambda I) = 0\]
+
+<ul>
+  <li>\(I\) is the identity matrix of the same size as \(A\).</li>
+  <li>The determinant gives a polynomial in \(\lambda\) called the <strong>characteristic polynomial</strong>.</li>
+</ul>
+
+<h3 id="step-2-solve-for-eigenvectors">Step 2: Solve for Eigenvectors</h3>
+
+<p>For each eigenvalue \(\lambda\), solve the system:</p>
+
+\[(A - \lambda I) \mathbf{v} = 0\]
+
+<p>to find the corresponding eigenvector(s) \(\mathbf{v}\).</p>
+
+<hr />
+
+<h2 id="-example">🔸 Example</h2>
+
+<p>Let</p>
+
+\[A = \begin{bmatrix}
+2 &amp; 1 \\
+1 &amp; 2
+\end{bmatrix}\]
+
+<h3 id="step-1-find-eigenvalues">Step 1: Find Eigenvalues</h3>
+
+<p>Solve:</p>
+
+\[\det(A - \lambda I) = \det \begin{bmatrix}
+2 - \lambda &amp; 1 \\
+1 &amp; 2 - \lambda
+\end{bmatrix}
+= (2 - \lambda)^2 - 1 = 0\]
+
+<p>So,</p>
+
+\[(2 - \lambda)^2 = 1 \Rightarrow \lambda = 1, 3\]
+
+<h3 id="step-2-find-eigenvectors">Step 2: Find Eigenvectors</h3>
+
+<p>For \(\lambda = 1\):</p>
+
+\[(A - I) \mathbf{v} = \begin{bmatrix}
+1 &amp; 1 \\
+1 &amp; 1
+\end{bmatrix} \begin{bmatrix}
+x \\
+y
+\end{bmatrix} = 0
+\Rightarrow x + y = 0 \Rightarrow \mathbf{v}_1 = \begin{bmatrix} 1 \\ -1 \end{bmatrix}\]
+
+<p>For \(\lambda = 3\):</p>
+
+\[(A - 3I) \mathbf{v} = \begin{bmatrix}
+-1 &amp; 1 \\
+1 &amp; -1
+\end{bmatrix} \begin{bmatrix}
+x \\
+y
+\end{bmatrix} = 0
+\Rightarrow x - y = 0 \Rightarrow \mathbf{v}_2 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}\]
+
+<hr />
+
+<h2 id="-key-properties">🔹 Key Properties</h2>
+
+<ul>
+  <li>A matrix of size \(n \times n\) has at most \(n\) eigenvalues.</li>
+  <li>Eigenvectors corresponding to <strong>distinct eigenvalues are linearly independent</strong>.</li>
+  <li>If a matrix is <strong>symmetric</strong>, all its eigenvalues are real and eigenvectors are orthogonal.</li>
+</ul>
+
+<hr />
+
+<h2 id="-physical-interpretation">🔹 Physical Interpretation</h2>
+
+<p>In physics:</p>
+
+<ul>
+  <li>In quantum mechanics, eigenvalues of operators represent <strong>observable quantities</strong>.</li>
+  <li>In mechanics, the <strong>normal modes</strong> of oscillation are eigenvectors of the system matrix.</li>
+</ul>
+
+<hr />
+
+<h2 id="-summary">📌 Summary</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Term</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Eigenvalue</td>
+      <td>Scalar \(\lambda\) such that \(A \mathbf{v} = \lambda \mathbf{v}\)</td>
+    </tr>
+    <tr>
+      <td>Eigenvector</td>
+      <td>Non-zero vector \(\mathbf{v}\) preserved in direction by \(A\)</td>
+    </tr>
+    <tr>
+      <td>Characteristic Equation</td>
+      <td>\(\det(A - \lambda I) = 0\) to find eigenvalues</td>
+    </tr>
+    <tr>
+      <td>Matrix Diagonalization</td>
+      <td>Possible if matrix has \(n\) linearly independent eigenvectors</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<h1 id="-interpolation-extrapolation-and-curve-fitting">📘 Interpolation, Extrapolation, and Curve Fitting</h1>
+
+<hr />
+
+<h2 id="-1-interpolation">🔹 1. Interpolation</h2>
+
+<h3 id="-definition">🔸 Definition:</h3>
+
+<p>Interpolation is the process of estimating unknown values that fall <strong>within the range</strong> of known data points.</p>
+
+<h3 id="-types-of-interpolation">🔸 Types of Interpolation:</h3>
+
+<ul>
+  <li><strong>Linear Interpolation</strong>: Straight line between two known points.</li>
+  <li><strong>Polynomial Interpolation</strong>: Uses a polynomial of degree $n$ for $n+1$ data points.</li>
+  <li><strong>Spline Interpolation</strong>: Piecewise polynomials (e.g., cubic spline) to ensure smoothness.</li>
+</ul>
+
+<h3 id="-formula-linear-interpolation">🔸 Formula (Linear Interpolation):</h3>
+
+<p>Given two points $(x_0, y_0)$ and $(x_1, y_1)$:</p>
+
+\[y = y_0 + \frac{(x - x_0)(y_1 - y_0)}{x_1 - x_0}\]
+
+<h3 id="-example-linear-interpolation">🔸 Example (Linear Interpolation):</h3>
+
+<p>Let $(x_0, y_0) = (1, 3)$ and $(x_1, y_1) = (4, 15)$. Estimate $y$ at $x = 2$.</p>
+
+\[y = 3 + \frac{(2 - 1)(15 - 3)}{4 - 1} = 3 + \frac{1 \cdot 12}{3} = 3 + 4 = 7\]
+
+<p>So, the interpolated value at $x = 2$ is $y = 7$.</p>
+
+<h3 id="-applications">🔸 Applications:</h3>
+
+<ul>
+  <li>Filling missing data</li>
+  <li>Digital image scaling</li>
+  <li>Sensor data smoothing</li>
+</ul>
+
+<hr />
+
+<h2 id="️-2-extrapolation">🗙️ 2. Extrapolation</h2>
+
+<h3 id="-definition-1">🔸 Definition:</h3>
+
+<p>Extrapolation estimates values <strong>outside the range</strong> of known data points using the trend of the data.</p>
+
+<h3 id="-types">🔸 Types:</h3>
+
+<ul>
+  <li><strong>Linear Extrapolation</strong>: Extends the linear trend.</li>
+  <li><strong>Polynomial Extrapolation</strong>: Uses higher-order polynomials to forecast.</li>
+</ul>
+
+<h3 id="-risks">🔸 Risks:</h3>
+
+<ul>
+  <li>Less reliable than interpolation.</li>
+  <li>Assumes the current trend continues.</li>
+</ul>
+
+<h3 id="-example-linear">🔸 Example (Linear):</h3>
+
+<p>Given last two points: $(x_{n-1}, y_{n-1}) = (2, 5)$ and $(x_n, y_n) = (4, 11)$, estimate $y$ at $x = 5$.</p>
+
+\[y = 11 + (5 - 4) \cdot \frac{11 - 5}{4 - 2} = 11 + 1 \cdot 3 = 14\]
+
+<p>So, the extrapolated value at $x = 5$ is $y = 14$.</p>
+
+<hr />
+
+<h2 id="-3-curve-fitting-methods">🔹 3. Curve Fitting Methods</h2>
+
+<h3 id="-definition-2">🔸 Definition:</h3>
+
+<p>Curve fitting finds a curve that best represents the trend in the data. It can be used to model the relationship between variables.</p>
+
+<h3 id="-methods">🔸 Methods:</h3>
+
+<ul>
+  <li><strong>Polynomial Fit</strong>: Fit using polynomials (linear, quadratic, cubic, etc.).</li>
+  <li><strong>Exponential Fit</strong>: $y = ae^{bx}$</li>
+  <li><strong>Logarithmic Fit</strong>: $y = a + b \log x$</li>
+  <li><strong>Power Law Fit</strong>: $y = ax^b$</li>
+  <li><strong>Piecewise Fit</strong>: Different models in different intervals.</li>
+</ul>
+
+<h3 id="-example-polynomial-fit">🔸 Example (Polynomial Fit):</h3>
+
+<p>Given data: $(1, 2)$, $(2, 4.1)$, $(3, 6.2)$</p>
+
+<p>Fit a line: $y = mx + c$ using least squares:</p>
+
+<ul>
+  <li>Normal equations lead to $m \approx 2.1$, $c \approx -0.1$</li>
+</ul>
+
+<p>So, best-fit line: $y = 2.1x - 0.1$</p>
+
+<h3 id="-purpose">🔸 Purpose:</h3>
+
+<ul>
+  <li>Data modeling</li>
+  <li>Predictive analytics</li>
+  <li>Simplification of complex datasets</li>
+</ul>
+
+<h3 id="-tools">🔸 Tools:</h3>
+
+<ul>
+  <li>Manual fitting</li>
+  <li>Python libraries: NumPy (<code class="language-plaintext highlighter-rouge">polyfit</code>), SciPy, Matplotlib</li>
+  <li>MATLAB, Excel</li>
+</ul>
+
+<hr />
+
+<h2 id="-4-least-squares-fitting">🔹 4. Least Squares Fitting</h2>
+
+<h3 id="-definition-3">🔸 Definition:</h3>
+
+<p>The least squares method minimizes the <strong>sum of the squares of the vertical differences</strong> (residuals) between the observed and predicted values.</p>
+
+<h3 id="-linear-least-squares">🔸 Linear Least Squares:</h3>
+
+<p>Given data points $(x_i, y_i)$, find $y = mx + c$ that minimizes:</p>
+
+\[S = \sum_{i=1}^n (y_i - (mx_i + c))^2\]
+
+<h3 id="-example-linear-least-squares-fit">🔸 Example (Linear Least Squares Fit):</h3>
+
+<p>Data: $(1,2)$, $(2,3)$, $(3,5)$</p>
+
+<p>Compute:</p>
+
+<ul>
+  <li>$\sum x = 6$, $\sum y = 10$, $\sum xy = 23$, $\sum x^2 = 14$, $n=3$</li>
+</ul>
+
+<p>Normal equations:</p>
+
+\[10 = 6m + 3c \\
+23 = 14m + 6c\]
+
+<p>Solving gives: $m = 1.5$, $c = 0.333$</p>
+
+<p>Best fit: $y = 1.5x + 0.333$</p>
+
+<h3 id="-polynomial-least-squares">🔸 Polynomial Least Squares:</h3>
+
+<p>Minimize the sum of squares for a polynomial:</p>
+
+\[y = a_0 + a_1x + a_2x^2 + \dots + a_nx^n\]
+
+<p>Use matrix techniques to solve the normal equations.</p>
+
+<h3 id="-advantages">🔸 Advantages:</h3>
+
+<ul>
+  <li>Simple to implement</li>
+  <li>Well-studied and robust</li>
+</ul>
+
+<h3 id="-limitations">🔸 Limitations:</h3>
+
+<ul>
+  <li>Sensitive to outliers</li>
+  <li>Overfitting with high-degree polynomials</li>
+</ul>
+
+<hr />
+
+<h2 id="-summary-table">📋 Summary Table</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Concept</th>
+      <th>Domain</th>
+      <th>Input Data Range</th>
+      <th>Output Estimate</th>
+      <th>Confidence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Interpolation</td>
+      <td>Within data</td>
+      <td>[x_min, x_max]</td>
+      <td>Estimated y</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Extrapolation</td>
+      <td>Outside data</td>
+      <td>x &lt; x_min or x &gt; x_max</td>
+      <td>Forecasted y</td>
+      <td>Lower</td>
+    </tr>
+    <tr>
+      <td>Curve Fitting</td>
+      <td>Entire dataset</td>
+      <td>All data points</td>
+      <td>Best-fit curve (y vs x)</td>
+      <td>Varies</td>
+    </tr>
+    <tr>
+      <td>Least Squares</td>
+      <td>Numerical method</td>
+      <td>All data points</td>
+      <td>Curve parameters (e.g. m, c)</td>
+      <td>Depends on data</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="-further-reading">🔍 Further Reading</h2>
+
+<ul>
+  <li>Numerical Analysis by R.L. Burden and J.D. Faires</li>
+  <li>Curve Fitting for Programmers (NumPy, SciPy)</li>
+  <li>Applied Regression Analysis</li>
+</ul>
+
+<h1 id="solution-of-first-order-differential-equation-using-runge-kutta-method">Solution of First Order Differential Equation using Runge-Kutta Method</h1>
 
 <p>The numerical solution of <strong>first-order differential equations</strong> plays a crucial role across science and engineering. While many analytical methods exist, they are often limited to relatively simple equations. As a result, numerical methods have become indispensable tools for approximating solutions.</p>
 
