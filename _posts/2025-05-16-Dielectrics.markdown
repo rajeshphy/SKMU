@@ -10,10 +10,11 @@ tags: SEM-IV
 
 ---
 
+
 **Learning Objectives**:
-- Understand the concept and significance of the macroscopic dielectric constant in materials.
-- Relate polarization and electric susceptibility to permittivity and dielectric behavior.
-- Solve basic numerical problems involving dielectric materials in electric fields.
+- Understand the concept of macroscopic dielectric constant in materials.
+- Explore the relationship between electric field, polarization, and dielectric behavior.
+- Apply the concept to calculate fields, capacitance, and material properties.
 
 ---
 

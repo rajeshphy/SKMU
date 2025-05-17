@@ -1,239 +1,158 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-16T12:08:57+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Dielectric Properties of Materials</title><link href="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html" rel="alternate" type="text/html" title="Dielectric Properties of Materials" /><published>2025-05-16T09:47:26+05:30</published><updated>2025-05-16T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html">&lt;h2 id=&quot;1-macroscopic-dielectric-constant&quot;&gt;1. Macroscopic Dielectric Constant&lt;/h2&gt;
-
-&lt;p&gt;The &lt;strong&gt;dielectric constant&lt;/strong&gt; (also called the &lt;strong&gt;relative permittivity&lt;/strong&gt;, denoted as $ε_r$) is a macroscopic property of a dielectric material that characterizes its ability to be polarized by an external electric field.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Defined as the ratio of the permittivity of the material &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ε&lt;/code&gt; to the permittivity of free space &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ε₀&lt;/code&gt;:&lt;br /&gt;
-\(ε_r = ε / ε₀\)&lt;/li&gt;
-  &lt;li&gt;A measure of how much the electric field is reduced inside the material.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The &lt;strong&gt;electric displacement&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;D&lt;/code&gt; is related to the electric field &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;E&lt;/code&gt; and the polarization &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;P&lt;/code&gt; as:
-\(D = ε₀ E + P = ε E\)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-17T15:05:34+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Dielectric Properties of Materials</title><link href="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html" rel="alternate" type="text/html" title="Dielectric Properties of Materials" /><published>2025-05-16T09:47:26+05:30</published><updated>2025-05-16T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html">&lt;h1 id=&quot;macroscopic-dielectric-constant&quot;&gt;Macroscopic Dielectric Constant&lt;/h1&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;2-mechanism-of-polarization&quot;&gt;2. Mechanism of Polarization&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Polarization&lt;/strong&gt; in dielectrics refers to the alignment or displacement of charges within the material under an external electric field. It results in the development of dipole moments and reduces the effective electric field within the material.&lt;/p&gt;
-
-&lt;h3 id=&quot;types-of-polarization-mechanisms&quot;&gt;Types of Polarization Mechanisms:&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Electronic Polarization&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Occurs in all atoms.&lt;/li&gt;
-      &lt;li&gt;The electron cloud is displaced relative to the nucleus by the electric field.&lt;/li&gt;
-      &lt;li&gt;Induced dipole moment is created.&lt;/li&gt;
-      &lt;li&gt;Very fast (∼10⁻¹⁵ s).&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ionic Polarization&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Present in ionic crystals like NaCl.&lt;/li&gt;
-      &lt;li&gt;Positive and negative ions shift in opposite directions.&lt;/li&gt;
-      &lt;li&gt;Time scale ∼10⁻¹³ s.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Orientation Polarization&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Found in polar molecules (e.g., water).&lt;/li&gt;
-      &lt;li&gt;Permanent dipoles align with the electric field.&lt;/li&gt;
-      &lt;li&gt;Strongly temperature dependent.&lt;/li&gt;
-      &lt;li&gt;Slower (∼10⁻¹² to 10⁻¹⁰ s).&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Space-Charge Polarization&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Caused by accumulation of charges at interfaces or defects.&lt;/li&gt;
-      &lt;li&gt;Very slow (≳10⁻³ s).&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Total Polarization&lt;/strong&gt; is:
-\(P = P_{elec} + P_{ion} + P_{orient} + P_{space}\)&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;3-electronic-polarisability&quot;&gt;3. Electronic Polarisability&lt;/h2&gt;
-
+&lt;p&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Defined as the induced dipole moment per unit applied electric field:
-\(α_e = p / E\)&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;For an atom with spherical electron cloud:
-\(α_e ≈ 4π ε₀ R³\)
-where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;R&lt;/code&gt; is the radius of the electron cloud.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Dominant in gases and non-polar molecules.&lt;/li&gt;
+  &lt;li&gt;Understand the concept of macroscopic dielectric constant in materials.&lt;/li&gt;
+  &lt;li&gt;Explore the relationship between electric field, polarization, and dielectric behavior.&lt;/li&gt;
+  &lt;li&gt;Apply the concept to calculate fields, capacitance, and material properties.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;4-ionic-polarisability&quot;&gt;4. Ionic Polarisability&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Dielectric Constant ($\varepsilon_r$)&lt;/strong&gt;: The ratio of the permittivity of a material to the permittivity of free space. It measures the material’s ability to reduce the electric field:
+\(\varepsilon_r = \frac{\varepsilon}{\varepsilon_0}\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Polarization ($\vec{P}$)&lt;/strong&gt;: The dipole moment per unit volume of a dielectric, induced by an external electric field.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Electric Susceptibility ($\chi_e$)&lt;/strong&gt;: A dimensionless quantity that describes how easily a material can be polarized:
+\(\vec{P} = \varepsilon_0 \chi_e \vec{E}\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;When an external electric field is applied to a dielectric material, the bound charges within atoms or molecules slightly displace, creating induced dipoles. The collective effect of these dipoles leads to a net polarization $\vec{P}$ in the material.&lt;/p&gt;
+
+&lt;p&gt;This polarization generates an internal electric field that partially cancels the applied field, resulting in a reduced &lt;strong&gt;macroscopic electric field&lt;/strong&gt; $\vec{E}$ inside the material.&lt;/p&gt;
+
+&lt;p&gt;To describe the behavior of a dielectric, we define the &lt;strong&gt;electric displacement field&lt;/strong&gt; $\vec{D}$:
+\(\vec{D} = \varepsilon_0 \vec{E} + \vec{P}\)&lt;/p&gt;
+
+&lt;p&gt;In linear, isotropic, and homogeneous dielectrics, polarization is directly proportional to the electric field:
+\(\vec{P} = \varepsilon_0 \chi_e \vec{E}\)&lt;/p&gt;
+
+&lt;p&gt;Substituting this into the equation for $\vec{D}$ gives:
+\(\vec{D} = \varepsilon_0 (1 + \chi_e) \vec{E} = \varepsilon \vec{E}\)&lt;/p&gt;
+
+&lt;p&gt;Thus, the &lt;strong&gt;permittivity&lt;/strong&gt; of the dielectric is:
+\(\varepsilon = \varepsilon_0 (1 + \chi_e)\)&lt;/p&gt;
+
+&lt;p&gt;And the &lt;strong&gt;dielectric constant&lt;/strong&gt; (relative permittivity) is:
+\(\varepsilon_r = \frac{\varepsilon}{\varepsilon_0} = 1 + \chi_e\)&lt;/p&gt;
+
+&lt;p&gt;This quantity indicates how much the presence of the dielectric reduces the internal electric field compared to vacuum.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Mathematical Formulation&lt;/strong&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Due to the relative displacement of positive and negative ions in an electric field.&lt;/p&gt;
+    &lt;p&gt;Electric displacement field:
+\(\vec{D} = \varepsilon_0 \vec{E} + \vec{P}\)&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Ionic polarizability:
-\(α_i = e² / k\)
-where&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;e&lt;/code&gt;: ionic charge&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;k&lt;/code&gt;: restoring force constant (spring constant)&lt;/p&gt;
+    &lt;p&gt;Polarization in linear media:
+\(\vec{P} = \varepsilon_0 \chi_e \vec{E}\)&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Found in materials like NaCl, KCl, etc.&lt;/p&gt;
+    &lt;p&gt;Displacement field in terms of dielectric constant:
+\(\vec{D} = \varepsilon \vec{E}\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Dielectric constant:
+\(\varepsilon_r = \frac{\varepsilon}{\varepsilon_0} = 1 + \chi_e\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Capacitance with dielectric:
+\(C = \varepsilon_r \cdot C_0 = \varepsilon_r \cdot \frac{\varepsilon_0 A}{d}\)&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;5-molecular-field-in-a-dielectric&quot;&gt;5. Molecular Field in a Dielectric&lt;/h2&gt;
-
-&lt;p&gt;The &lt;strong&gt;local field&lt;/strong&gt; or &lt;strong&gt;molecular field&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;E_loc&lt;/code&gt; is the effective field experienced by a molecule/atom inside a dielectric, which differs from the externally applied field.&lt;/p&gt;
-
-&lt;h3 id=&quot;lorentz-field-spherical-cavity-model&quot;&gt;Lorentz Field (Spherical Cavity Model):&lt;/h3&gt;
-
-&lt;p&gt;For cubic symmetric dielectrics:
-\(E_loc = E + P / (3ε₀)\)&lt;/p&gt;
-
-&lt;p&gt;This accounts for:&lt;/p&gt;
+&lt;p&gt;Where:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;The macroscopic applied field &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;E&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;The reaction field due to surrounding dipoles&lt;/li&gt;
+  &lt;li&gt;$C_0$ = Capacitance in vacuum&lt;/li&gt;
+  &lt;li&gt;$A$ = Area of capacitor plates&lt;/li&gt;
+  &lt;li&gt;$d$ = Distance between plates&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;6-clausiusmossotti-equation&quot;&gt;6. Clausius–Mossotti Equation&lt;/h2&gt;
-&lt;p&gt;The &lt;strong&gt;Clausius–Mossotti equation&lt;/strong&gt; relates the &lt;strong&gt;macroscopic dielectric constant&lt;/strong&gt; of a material to the &lt;strong&gt;microscopic polarizability&lt;/strong&gt; of its molecules.&lt;/p&gt;
-
-&lt;h2 id=&quot;assumptions&quot;&gt;Assumptions&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;The material is an &lt;strong&gt;isotropic&lt;/strong&gt; and &lt;strong&gt;homogeneous&lt;/strong&gt; dielectric.&lt;/li&gt;
-  &lt;li&gt;Each molecule has a well-defined &lt;strong&gt;electronic polarizability&lt;/strong&gt; $\alpha$.&lt;/li&gt;
-  &lt;li&gt;The molecules are &lt;strong&gt;non-interacting dipoles&lt;/strong&gt; (valid for gases or dilute solids).&lt;/li&gt;
-  &lt;li&gt;Cubic symmetry is assumed for solids (so that local field can be estimated).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: A parallel-plate capacitor has vacuum between the plates and a capacitance of 10 pF. What will be its capacitance if a dielectric with dielectric constant $\varepsilon_r = 4$ is inserted?&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
+\(C = \varepsilon_r \cdot C_0 = 4 \cdot 10 = 40 \, \text{pF}\)&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: 40 pF&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;step-1-total-polarization&quot;&gt;Step 1: Total Polarization&lt;/h2&gt;
-
-&lt;p&gt;Let:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;$N$ = number of molecules per unit volume (number density),&lt;/li&gt;
-  &lt;li&gt;$p$ = induced dipole moment of one molecule,&lt;/li&gt;
-  &lt;li&gt;$P$ = polarization of the material (dipole moment per unit volume).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: A dielectric has a polarization $\vec{P} = 2 \times 10^{-7} \, \text{C/m}^2$ and is subjected to an electric field $E = 500 \, \text{V/m}$. Find its dielectric constant.&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
+\(\chi_e = \frac{P}{\varepsilon_0 E} = \frac{2 \times 10^{-7}}{8.85 \times 10^{-12} \times 500} \approx 45.2\)
+\(\varepsilon_r = 1 + \chi_e = 1 + 45.2 = 46.2\)&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: $\varepsilon_r \approx 46.2$&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Then,&lt;br /&gt;
-$P = N \cdot p$&lt;/p&gt;
-
-&lt;p&gt;If the applied field is $E_{\text{loc}}$, then&lt;br /&gt;
-$p = \alpha \cdot E_{\text{loc}}$&lt;/p&gt;
-
-&lt;p&gt;So,&lt;br /&gt;
-$P = N \alpha E_{\text{loc}}$&lt;/p&gt;
-
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;step-2-lorentz-local-field&quot;&gt;Step 2: Lorentz Local Field&lt;/h2&gt;
-
-&lt;p&gt;The &lt;strong&gt;local field&lt;/strong&gt; $E_{\text{loc}}$ is the effective field experienced by a molecule inside the dielectric, which includes:&lt;/p&gt;
-
+&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;The applied macroscopic field $E$,&lt;/li&gt;
-  &lt;li&gt;The field from surrounding dipoles.&lt;/li&gt;
+  &lt;li&gt;The dielectric constant describes the material’s ability to reduce an internal electric field.&lt;/li&gt;
+  &lt;li&gt;It is dimensionless and always greater than or equal to 1.&lt;/li&gt;
+  &lt;li&gt;A higher $\varepsilon_r$ implies better electric insulation and greater capacitance.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;For a &lt;strong&gt;spherical cavity model&lt;/strong&gt;, the local field is:&lt;br /&gt;
-$E_{\text{loc}} = E + \frac{P}{3\varepsilon_0}$&lt;/p&gt;
-
-&lt;p&gt;Substitute this into the polarization expression:&lt;br /&gt;
-$P = N \alpha \left(E + \frac{P}{3\varepsilon_0} \right)$&lt;/p&gt;
-
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;step-3-solve-for-p&quot;&gt;Step 3: Solve for $P$&lt;/h2&gt;
-
-&lt;p&gt;Distribute:&lt;br /&gt;
-$P = N \alpha E + \frac{N \alpha P}{3\varepsilon_0}$&lt;/p&gt;
-
-&lt;p&gt;Bring terms with $P$ to one side:&lt;br /&gt;
-$P - \frac{N \alpha P}{3\varepsilon_0} = N \alpha E$&lt;/p&gt;
-
-&lt;p&gt;Factor out $P$:&lt;br /&gt;
-$P \left(1 - \frac{N \alpha}{3\varepsilon_0} \right) = N \alpha E$&lt;/p&gt;
-
-&lt;p&gt;Solve for $P$:&lt;br /&gt;
-$P = \frac{N \alpha}{1 - \frac{N \alpha}{3\varepsilon_0}} \cdot E$&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;step-4-connect-to-dielectric-constant&quot;&gt;Step 4: Connect to Dielectric Constant&lt;/h2&gt;
-
-&lt;p&gt;Recall that the &lt;strong&gt;macroscopic relation&lt;/strong&gt; between polarization and electric field is:&lt;br /&gt;
-$P = \varepsilon_0 (\varepsilon_r - 1) E$&lt;/p&gt;
-
-&lt;p&gt;Equating the two expressions for $P$:&lt;br /&gt;
-$\varepsilon_0 (\varepsilon_r - 1) E = \frac{N \alpha}{1 - \frac{N \alpha}{3\varepsilon_0}} E$&lt;/p&gt;
-
-&lt;p&gt;Cancel $E$ on both sides:&lt;br /&gt;
-$\varepsilon_0 (\varepsilon_r - 1) = \frac{N \alpha}{1 - \frac{N \alpha}{3\varepsilon_0}}$&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;step-5-rearranging&quot;&gt;Step 5: Rearranging&lt;/h2&gt;
-
-&lt;p&gt;Multiply both sides by the denominator:&lt;br /&gt;
-$\varepsilon_0 (\varepsilon_r - 1) \left(1 - \frac{N \alpha}{3\varepsilon_0} \right) = N \alpha$&lt;/p&gt;
-
-&lt;p&gt;Distribute:&lt;br /&gt;
-$\varepsilon_0 (\varepsilon_r - 1) - \frac{N \alpha}{3} (\varepsilon_r - 1) = N \alpha$&lt;/p&gt;
-
-&lt;p&gt;Factor out $(\varepsilon_r - 1)$ on the left-hand side:&lt;br /&gt;
-$(\varepsilon_r - 1) \left(\varepsilon_0 - \frac{N \alpha}{3} \right) = N \alpha$&lt;/p&gt;
-
-&lt;p&gt;Let’s isolate the dielectric constant:&lt;/p&gt;
-
-&lt;p&gt;From earlier:
-$\varepsilon_0 (\varepsilon_r - 1) = \frac{N \alpha}{1 - \frac{N \alpha}{3\varepsilon_0}}$&lt;/p&gt;
-
-&lt;p&gt;Divide numerator and denominator by $\varepsilon_0$:
-$\frac{\varepsilon_r - 1}{\varepsilon_r + 2} = \frac{N \alpha}{3 \varepsilon_0}$&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-final-clausiusmossotti-relation&quot;&gt;✅ Final Clausius–Mossotti Relation&lt;/h2&gt;
-
-\[\boxed{
-\frac{\varepsilon_r - 1}{\varepsilon_r + 2} = \frac{N \alpha}{3 \varepsilon_0}
-}\]
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;physical-interpretation&quot;&gt;Physical Interpretation&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;$\varepsilon_r$ is the &lt;strong&gt;relative permittivity&lt;/strong&gt; (dielectric constant),&lt;/li&gt;
-  &lt;li&gt;$\alpha$ is the &lt;strong&gt;molecular polarizability&lt;/strong&gt;,&lt;/li&gt;
-  &lt;li&gt;$N$ is the &lt;strong&gt;number density&lt;/strong&gt;,&lt;/li&gt;
-  &lt;li&gt;$\varepsilon_0$ is the &lt;strong&gt;vacuum permittivity&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Short Answer&lt;/strong&gt;:
+    &lt;ol&gt;
+      &lt;li&gt;Define the macroscopic dielectric constant and explain how it differs from permittivity.&lt;/li&gt;
+      &lt;li&gt;What is the physical meaning of electric susceptibility?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Numerical&lt;/strong&gt;:
+    &lt;ol&gt;
+      &lt;li&gt;A dielectric has $\chi_e = 2.5$. Calculate its dielectric constant.&lt;/li&gt;
+      &lt;li&gt;A capacitor has plate area $0.01 \, \text{m}^2$ and plate separation $2 \, \text{mm}$. Calculate its capacitance with $\varepsilon_r = 3$.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MCQs&lt;/strong&gt;:
+    &lt;ol&gt;
+      &lt;li&gt;The dielectric constant $\varepsilon_r$ is:
+        &lt;ul&gt;
+          &lt;li&gt;(a) less than 1&lt;/li&gt;
+          &lt;li&gt;(b) equal to 1&lt;/li&gt;
+          &lt;li&gt;(c) always greater than 1&lt;/li&gt;
+          &lt;li&gt;(d) can be negative&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: (c)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;The correct relation between $\vec{D}$, $\vec{E}$, and $\vec{P}$ is:
+        &lt;ul&gt;
+          &lt;li&gt;(a) $\vec{D} = \vec{E} + \vec{P}$&lt;/li&gt;
+          &lt;li&gt;(b) $\vec{D} = \varepsilon_0 \vec{E} + \vec{P}$&lt;/li&gt;
+          &lt;li&gt;(c) $\vec{D} = \varepsilon_r \vec{P}$&lt;/li&gt;
+          &lt;li&gt;(d) $\vec{D} = \vec{P} - \varepsilon \vec{E}$&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: (b)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;This relation shows that the dielectric constant is determined by how easily the individual molecules can be polarized ($\alpha$), and how many such molecules exist in the unit volume ($N$).&lt;/p&gt;
-
-&lt;p&gt;It is most accurate for:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Dilute gases,&lt;/li&gt;
-  &lt;li&gt;Simple solids with cubic symmetry,&lt;/li&gt;
-  &lt;li&gt;Low interaction among dipoles.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">1. Macroscopic Dielectric Constant</summary></entry><entry><title type="html">Numerical Methods</title><link href="http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods.html" rel="alternate" type="text/html" title="Numerical Methods" /><published>2025-04-28T09:47:26+05:30</published><updated>2025-04-28T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods.html">&lt;p&gt;Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space.&lt;/p&gt;
+&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Macroscopic Dielectric Constant</summary></entry><entry><title type="html">Numerical Methods</title><link href="http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods.html" rel="alternate" type="text/html" title="Numerical Methods" /><published>2025-04-28T09:47:26+05:30</published><updated>2025-04-28T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods.html">&lt;p&gt;Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space.&lt;/p&gt;
 
 &lt;hr /&gt;
 
