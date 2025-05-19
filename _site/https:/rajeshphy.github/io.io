@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-17T15:05:34+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Dielectric Properties of Materials</title><link href="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html" rel="alternate" type="text/html" title="Dielectric Properties of Materials" /><published>2025-05-16T09:47:26+05:30</published><updated>2025-05-16T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html">&lt;h1 id=&quot;macroscopic-dielectric-constant&quot;&gt;Macroscopic Dielectric Constant&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-19T09:17:07+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Dielectric Properties of Materials</title><link href="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html" rel="alternate" type="text/html" title="Dielectric Properties of Materials" /><published>2025-05-16T09:47:26+05:30</published><updated>2025-05-16T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html">&lt;h1 id=&quot;macroscopic-dielectric-constant&quot;&gt;Macroscopic Dielectric Constant&lt;/h1&gt;
 
 &lt;hr /&gt;
 
@@ -152,7 +152,293 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Macroscopic Dielectric Constant</summary></entry><entry><title type="html">Numerical Methods</title><link href="http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods.html" rel="alternate" type="text/html" title="Numerical Methods" /><published>2025-04-28T09:47:26+05:30</published><updated>2025-04-28T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods.html">&lt;p&gt;Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;The &lt;strong&gt;mechanisms of polarization&lt;/strong&gt; include:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Electronic Polarization&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Occurs in all dielectric materials.&lt;/li&gt;
+      &lt;li&gt;Caused by the displacement of the electron cloud relative to the nucleus in atoms.&lt;/li&gt;
+      &lt;li&gt;Dominant at high frequencies (e.g., optical range).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ionic Polarization&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Present in ionic crystals (e.g., NaCl).&lt;/li&gt;
+      &lt;li&gt;Results from the relative displacement of positive and negative ions.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Orientation Polarization&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Occurs in materials with permanent dipole moments.&lt;/li&gt;
+      &lt;li&gt;Dipoles align with the external electric field.&lt;/li&gt;
+      &lt;li&gt;Temperature-dependent and significant at lower frequencies.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Space Charge Polarization&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Arises from charge accumulation at interfaces or grain boundaries.&lt;/li&gt;
+      &lt;li&gt;Prominent at low frequencies.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: A dielectric with electric susceptibility $\chi_e = 2.5$ is placed in an electric field of magnitude $E = 10^5$ V/m. Find the polarization vector $\vec{P}$.&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
+Using $\vec{P} = \epsilon_0 \chi_e \vec{E}$:&lt;br /&gt;
+\(\vec{P} = (8.85 \times 10^{-12} \, \text{F/m})(2.5)(10^5 \, \text{V/m}) = 2.21 \times 10^{-6} \, \text{C/m}^2\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: Determine the electric displacement $\vec{D}$ for a dielectric with $\epsilon_0 = 8.85 \times 10^{-12}$ F/m, $\chi_e = 3$, and $E = 2 \times 10^4$ V/m.&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
+First calculate $\vec{P}$:&lt;br /&gt;
+\(\vec{P} = \epsilon_0 \chi_e \vec{E} = (8.85 \times 10^{-12})(3)(2 \times 10^4) = 5.31 \times 10^{-7} \, \text{C/m}^2\)&lt;br /&gt;
+Then,&lt;br /&gt;
+\(\vec{D} = \epsilon_0 \vec{E} + \vec{P} = (8.85 \times 10^{-12})(2 \times 10^4) + 5.31 \times 10^{-7} = 7.08 \times 10^{-7} \, \text{C/m}^2\)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Short Answer:
+    &lt;ol&gt;
+      &lt;li&gt;What is electronic polarization?&lt;/li&gt;
+      &lt;li&gt;How does temperature affect orientation polarization?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Numerical:
+    &lt;ol&gt;
+      &lt;li&gt;A dielectric with $\chi_e = 4$ is placed in a field of $E = 3 \times 10^5$ V/m. Calculate $\vec{P}$.&lt;/li&gt;
+      &lt;li&gt;Given $\vec{E} = 10^4$ V/m and $\vec{P} = 1.77 \times 10^{-6}$ C/m², find $\vec{D}$.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;MCQs:
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;p&gt;Which type of polarization is dominant in the optical frequency range?&lt;br /&gt;
+a) Ionic&lt;br /&gt;
+b) Electronic&lt;br /&gt;
+c) Orientation&lt;br /&gt;
+d) Space charge&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The unit of polarization vector $\vec{P}$ is:&lt;br /&gt;
+a) V/m&lt;br /&gt;
+b) C/m²&lt;br /&gt;
+c) F/m&lt;br /&gt;
+d) N/C&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;clausius-mossotti-equation&quot;&gt;Clausius-Mossotti Equation&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:darkred&quot;&gt;Learning Objectives&lt;/span&gt;&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Understand the relationship between microscopic polarizability and macroscopic dielectric constant.&lt;/li&gt;
+  &lt;li&gt;Derive the Clausius-Mossotti equation.&lt;/li&gt;
+  &lt;li&gt;Apply the equation to determine the polarizability of molecules in a dielectric.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Polarizability ($\alpha$)&lt;/strong&gt;: The measure of how easily an electron cloud of a molecule is distorted by an external electric field.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Number Density ($N$)&lt;/strong&gt;: Number of molecules per unit volume in the dielectric material.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;$E$ (Macroscopic Electric Field)&lt;/strong&gt;: The average electric field in the dielectric material due to both external sources and the material’s polarization.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;$E_{\text{ext}}$ (External Field)&lt;/strong&gt;: The electric field applied from outside the dielectric, typically produced by free charges (e.g., on capacitor plates), before considering the dielectric response.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;$E_{\text{pol}}$ (Polarization Field)&lt;/strong&gt;: The electric field arising from the polarized bound charges within the dielectric material; it generally opposes the external field.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;$E_{\text{local}}$ (Local Field)&lt;/strong&gt;: The actual microscopic electric field experienced by an individual molecule or atom, including contributions from both the external field and nearby polarized molecules.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:
+The &lt;strong&gt;Clausius-Mossotti equation&lt;/strong&gt; connects the &lt;strong&gt;microscopic property&lt;/strong&gt; of molecules (polarizability $\alpha$) with the &lt;strong&gt;macroscopic property&lt;/strong&gt; of the dielectric (relative permittivity $\epsilon_r$).&lt;/p&gt;
+
+&lt;p&gt;When an external electric field is applied, the molecules of the dielectric become polarized. The total polarization $\vec{P}$ depends on the polarizability $\alpha$ and the number of molecules per unit volume $N$.&lt;/p&gt;
+
+\[\vec{P} = N \vec{p} = N \alpha \vec{E}_{\text{local}}\]
+
+&lt;p&gt;However, the field experienced by a molecule is &lt;strong&gt;not&lt;/strong&gt; simply the applied field. It is modified due to the field created by other polarized molecules. This &lt;strong&gt;local field&lt;/strong&gt; is often approximated using the &lt;strong&gt;Lorentz model&lt;/strong&gt;, assuming the molecule is inside a spherical cavity within a uniformly polarized medium.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step-by-Step Derivation&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Macroscopic Polarization&lt;/strong&gt;:&lt;/p&gt;
+
+    &lt;p&gt;From basic electromagnetism, polarization in a linear dielectric is given by:&lt;/p&gt;
+
+\[\vec{P} = \epsilon_0 \chi_e \vec{E}\]
+
+    &lt;p&gt;where $\vec{E}$ is the &lt;strong&gt;macroscopic field&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Microscopic Polarization&lt;/strong&gt;:&lt;/p&gt;
+
+    &lt;p&gt;For an individual molecule with polarizability $\alpha$, the &lt;strong&gt;induced dipole moment&lt;/strong&gt; is:&lt;/p&gt;
+
+\[\vec{p} = \alpha \vec{E}_{\text{local}}\]
+
+    &lt;p&gt;Therefore, polarization becomes:&lt;/p&gt;
+
+\[\vec{P} = N \vec{p} = N \alpha \vec{E}_{\text{local}}\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Local Field Estimation&lt;/strong&gt;:&lt;/p&gt;
+
+    &lt;p&gt;The &lt;strong&gt;local electric field&lt;/strong&gt; is the sum of the external field \(\vec{E}_{\text{ext}}\) and the field due to surrounding polarized molecules $\vec{E}_{\text{pol}}$.&lt;/p&gt;
+
+    &lt;p&gt;Using Lorentz’s method, the field at the center of a uniformly polarized spherical cavity is:&lt;/p&gt;
+
+\[\vec{E}_{\text{pol}} = \frac{\vec{P}}{3 \epsilon_0}\]
+
+    &lt;p&gt;Hence, the &lt;strong&gt;local field&lt;/strong&gt; becomes:&lt;/p&gt;
+
+\[\vec{E}_{\text{local}} = \vec{E}_{\text{ext}} + \frac{\vec{P}}{3 \epsilon_0}\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Substituting into Microscopic Expression&lt;/strong&gt;:&lt;/p&gt;
+
+    &lt;p&gt;Substituting $\vec{E}_{\text{local}}$ into the microscopic equation:&lt;/p&gt;
+
+\[\vec{P} = N \alpha \left( \vec{E}_{\text{ext}} + \frac{\vec{P}}{3 \epsilon_0} \right)\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Solving for $\vec{P}$&lt;/strong&gt;:&lt;/p&gt;
+
+    &lt;p&gt;Expand and isolate $\vec{P}$:&lt;/p&gt;
+
+\[\vec{P} = N \alpha \vec{E}_{\text{ext}} + \frac{N \alpha}{3 \epsilon_0} \vec{P}\]
+
+    &lt;p&gt;Rearranged:&lt;/p&gt;
+
+\[\vec{P} \left(1 - \frac{N \alpha}{3 \epsilon_0} \right) = N \alpha \vec{E}_{\text{ext}}\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Expressing $\vec{P}$&lt;/strong&gt;:&lt;/p&gt;
+
+\[\vec{P} = \frac{N \alpha}{1 - \frac{N \alpha}{3 \epsilon_0}} \vec{E}_{\text{ext}}\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Relating to Macroscopic Susceptibility&lt;/strong&gt;:&lt;/p&gt;
+
+    &lt;p&gt;Since $\vec{P} = \epsilon_0 \chi_e \vec{E}_{\text{ext}}$,&lt;/p&gt;
+
+\[\epsilon_0 \chi_e = \frac{N \alpha}{1 - \frac{N \alpha}{3 \epsilon_0}}\]
+
+    &lt;p&gt;Multiply both sides by the denominator:&lt;/p&gt;
+
+\[\epsilon_0 \chi_e \left(1 - \frac{N \alpha}{3 \epsilon_0}\right) = N \alpha\]
+
+    &lt;p&gt;Expand:&lt;/p&gt;
+
+\[\epsilon_0 \chi_e - \frac{N \alpha \chi_e}{3} = N \alpha\]
+
+    &lt;p&gt;Bring all terms to one side:&lt;/p&gt;
+
+\[\epsilon_0 \chi_e = N \alpha \left(1 + \frac{\chi_e}{3} \right)\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Solving for $\alpha$&lt;/strong&gt;:&lt;/p&gt;
+
+\[\alpha = \frac{3 \epsilon_0}{N} \cdot \frac{\chi_e}{3 + \chi_e}\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;In Terms of Relative Permittivity $\epsilon_r = 1 + \chi_e$&lt;/strong&gt;:&lt;/p&gt;
+
+    &lt;p&gt;Replace $\chi_e = \epsilon_r - 1$:&lt;/p&gt;
+
+\[\alpha = \frac{3 \epsilon_0}{N} \cdot \frac{\epsilon_r - 1}{\epsilon_r + 2}\]
+
+    &lt;p&gt;This is the &lt;strong&gt;Clausius-Mossotti Equation&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Mathematical Formulation&lt;/strong&gt;:
+The Clausius-Mossotti equation is:&lt;/p&gt;
+
+\[\frac{\epsilon_r - 1}{\epsilon_r + 2} = \frac{N \alpha}{3 \epsilon_0}\]
+
+\[\alpha = \frac{3 \epsilon_0}{N} \cdot \frac{\epsilon_r - 1}{\epsilon_r + 2}\]
+
+&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: A gas has a relative permittivity $\epsilon_r = 1.0006$ and molecular density $N = 2.5 \times 10^{25}$ molecules/m³. Find the polarizability $\alpha$.&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
+Using:
+\(\alpha = \frac{3 \epsilon_0}{N} \cdot \frac{\epsilon_r - 1}{\epsilon_r + 2}\)&lt;br /&gt;
+\(\alpha = \frac{3 \times 8.85 \times 10^{-12}}{2.5 \times 10^{25}} \cdot \frac{0.0006}{1.0006 + 2}\)&lt;br /&gt;
+\(\alpha \approx \frac{2.655 \times 10^{-11}}{2.5 \times 10^{25}} \cdot \frac{0.0006}{3.0006}\)&lt;br /&gt;
+\(\alpha \approx 2.12 \times 10^{-40} \, \text{F·m}^2\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: Determine the relative permittivity $\epsilon_r$ of a dielectric with polarizability $\alpha = 1 \times 10^{-39}$ F·m² and number density $N = 5 \times 10^{28}$ m⁻³.&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
+Using:
+\(\frac{\epsilon_r - 1}{\epsilon_r + 2} = \frac{N \alpha}{3 \epsilon_0}\)&lt;br /&gt;
+Calculate RHS:
+\(\frac{(5 \times 10^{28}) (1 \times 10^{-39})}{3 \times 8.85 \times 10^{-12}} = \frac{5 \times 10^{-11}}{2.655 \times 10^{-11}} \approx 1.884\)&lt;br /&gt;
+So,
+\(\frac{\epsilon_r - 1}{\epsilon_r + 2} = 1.884\)&lt;br /&gt;
+Solve for $\epsilon_r$:
+\((\epsilon_r - 1) = 1.884 (\epsilon_r + 2)\)&lt;br /&gt;
+\(\epsilon_r - 1 = 1.884 \epsilon_r + 3.768\)&lt;br /&gt;
+\(-0.884 \epsilon_r = 4.768 \Rightarrow \epsilon_r \approx -5.39\)&lt;br /&gt;
+(Negative value indicates inconsistency—check units or values used; realistic $\epsilon_r$ should be &amp;gt; 1)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The Clausius-Mossotti equation links microscopic and macroscopic dielectric behavior.&lt;/li&gt;
+  &lt;li&gt;Valid primarily for dilute gases and non-polar materials.&lt;/li&gt;
+  &lt;li&gt;Fails when interactions between molecules are strong or in polar materials at high density.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Short Answer:
+    &lt;ol&gt;
+      &lt;li&gt;What does the Clausius-Mossotti equation represent physically?&lt;/li&gt;
+      &lt;li&gt;List the assumptions made in deriving the Clausius-Mossotti relation.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Numerical:
+    &lt;ol&gt;
+      &lt;li&gt;Calculate $\alpha$ for a dielectric with $\epsilon_r = 1.0008$ and $N = 1.5 \times 10^{25}$ m⁻³.&lt;/li&gt;
+      &lt;li&gt;Given $\alpha = 2 \times 10^{-40}$ F·m² and $N = 2 \times 10^{26}$ m⁻³, find $\epsilon_r$.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;MCQs:
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;p&gt;The Clausius-Mossotti equation is applicable when:&lt;br /&gt;
+a) Material is metallic&lt;br /&gt;
+b) Intermolecular interactions are strong&lt;br /&gt;
+c) The medium is dilute and non-polar&lt;br /&gt;
+d) The dielectric is ferroelectric&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;In the Clausius-Mossotti equation, the term $\alpha$ represents:&lt;br /&gt;
+a) Dielectric constant&lt;br /&gt;
+b) Electric susceptibility&lt;br /&gt;
+c) Molecular polarizability&lt;br /&gt;
+d) Local field intensity&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Macroscopic Dielectric Constant</summary></entry><entry><title type="html">Numerical Methods</title><link href="http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods.html" rel="alternate" type="text/html" title="Numerical Methods" /><published>2025-04-28T09:47:26+05:30</published><updated>2025-04-28T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods.html">&lt;p&gt;Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space.&lt;/p&gt;
 
 &lt;hr /&gt;
 
