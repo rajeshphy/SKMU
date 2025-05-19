@@ -1,4 +1,128 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-19T09:17:07+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Dielectric Properties of Materials</title><link href="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html" rel="alternate" type="text/html" title="Dielectric Properties of Materials" /><published>2025-05-16T09:47:26+05:30</published><updated>2025-05-16T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html">&lt;h1 id=&quot;macroscopic-dielectric-constant&quot;&gt;Macroscopic Dielectric Constant&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-19T11:22:28+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Calculus of variation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html" rel="alternate" type="text/html" title="Calculus of variation" /><published>2025-05-19T09:47:26+05:30</published><updated>2025-05-19T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html">&lt;h1 id=&quot;calculus-of-variation&quot;&gt;Calculus of variation&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:darkred&quot;&gt;Learning Objectives&lt;/span&gt;&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Understand the foundational concepts of the calculus of variations.&lt;/li&gt;
+  &lt;li&gt;Learn techniques to find functions that extremize a given functional.&lt;/li&gt;
+  &lt;li&gt;Apply the Euler-Lagrange equation to physical problems such as the brachistochrone, geodesics, and the principle of least action.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Functional&lt;/strong&gt;: A quantity that depends on a function and possibly its derivatives, typically expressed as an integral.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Variation ($\delta y$)&lt;/strong&gt;: A small arbitrary change in the function $y(x)$ used to probe how the functional changes.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Euler-Lagrange Equation&lt;/strong&gt;: A differential equation derived from the condition that a functional is stationary (has an extremum).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:
+The &lt;strong&gt;calculus of variations&lt;/strong&gt; deals with finding functions that make a given functional attain a stationary value (usually a minimum or maximum). A typical problem is to find a function $y(x)$ that extremizes the integral:&lt;/p&gt;
+
+\[I[y] = \int_{x_1}^{x_2} f(x, y, y&apos;) \, dx\]
+
+&lt;p&gt;The basic technique involves:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Introducing a small variation: $y(x) \rightarrow y(x) + \epsilon \eta(x)$, where $\eta(x)$ is an arbitrary smooth function with $\eta(x_1) = \eta(x_2) = 0$.&lt;/li&gt;
+  &lt;li&gt;Calculating the first-order change in $I[y]$ with respect to $\epsilon$.&lt;/li&gt;
+  &lt;li&gt;Setting $\delta I = 0$ for all $\eta(x)$ leads to the &lt;strong&gt;Euler-Lagrange equation&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+
+\[\frac{\partial f}{\partial y} - \frac{d}{dx} \left( \frac{\partial f}{\partial y&apos;} \right) = 0\]
+
+&lt;p&gt;This equation provides the necessary condition for the function $y(x)$ to make $I[y]$ stationary.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Applications&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Principle of Least Action in mechanics.&lt;/li&gt;
+  &lt;li&gt;Geodesics on surfaces.&lt;/li&gt;
+  &lt;li&gt;Brachistochrone problem in dynamics.&lt;/li&gt;
+  &lt;li&gt;Optics: Fermat’s principle of least time.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Mathematical Formulation&lt;/strong&gt;:
+Consider a functional:&lt;/p&gt;
+
+\[I[y] = \int_{x_1}^{x_2} f(x, y, y&apos;) \, dx\]
+
+&lt;p&gt;To find $y(x)$ such that $I[y]$ is extremized, apply the Euler-Lagrange equation:&lt;/p&gt;
+
+\[\frac{\partial f}{\partial y} - \frac{d}{dx} \left( \frac{\partial f}{\partial y&apos;} \right) = 0\]
+
+&lt;p&gt;&lt;strong&gt;Special Cases&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If $f$ does not explicitly depend on $y$:&lt;br /&gt;
+\(\frac{d}{dx} \left( \frac{\partial f}{\partial y&apos;} \right) = 0\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If $f$ does not explicitly depend on $x$ (Beltrami identity):&lt;br /&gt;
+\(f - y&apos; \frac{\partial f}{\partial y&apos;} = \text{constant}\)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: Find the curve $y(x)$ between two points that minimizes the integral&lt;br /&gt;
+\(I[y] = \int_{x_1}^{x_2} y&apos;^2 \, dx\)&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
+Here, $f = y’^2$, so&lt;br /&gt;
+\(\frac{\partial f}{\partial y} = 0, \quad \frac{\partial f}{\partial y&apos;} = 2y&apos;\)&lt;br /&gt;
+Then:&lt;br /&gt;
+\(\frac{d}{dx}(2y&apos;) = 0 \Rightarrow y&apos;&apos; = 0\)&lt;br /&gt;
+Solving:&lt;br /&gt;
+\(y(x) = Ax + B\)&lt;br /&gt;
+which is a straight line — the shortest path between two points.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: Use the calculus of variations to find the curve of quickest descent (brachistochrone problem).&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
+The time of descent is given by:&lt;br /&gt;
+\(T[y] = \int_{x_1}^{x_2} \sqrt{\frac{1 + y&apos;^2}{2gy}} \, dx\)&lt;br /&gt;
+Applying the Euler-Lagrange equation leads to a complex differential equation whose solution is a &lt;strong&gt;cycloid&lt;/strong&gt; — the curve traced by a point on the rim of a rolling circle.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The Euler-Lagrange equation gives the condition for a function to extremize a functional.&lt;/li&gt;
+  &lt;li&gt;Constraints can be handled using the method of Lagrange multipliers.&lt;/li&gt;
+  &lt;li&gt;Applications span classical mechanics, optics, and geometry.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Short Answer:
+    &lt;ol&gt;
+      &lt;li&gt;What is a functional? Give an example.&lt;/li&gt;
+      &lt;li&gt;State the Euler-Lagrange equation and explain its significance.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Numerical:
+    &lt;ol&gt;
+      &lt;li&gt;Find the function $y(x)$ that minimizes $\int_0^1 (y’)^2 \, dx$ with boundary conditions $y(0)=0$, $y(1)=1$.&lt;/li&gt;
+      &lt;li&gt;Solve the Euler-Lagrange equation for $f = y^2 + (y’)^2$.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;MCQs:
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;p&gt;The Euler-Lagrange equation is derived from the condition:&lt;br /&gt;
+a) $\delta I = \text{maximum}$&lt;br /&gt;
+b) $\delta I = \text{minimum}$&lt;br /&gt;
+c) $\delta I = 0$&lt;br /&gt;
+d) $\delta I = \infty$&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Which of the following is &lt;strong&gt;not&lt;/strong&gt; an application of calculus of variations?&lt;br /&gt;
+a) Geodesics&lt;br /&gt;
+b) Snell’s law&lt;br /&gt;
+c) Newton’s second law&lt;br /&gt;
+d) Principle of least action&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Calculus of variation Learning Objectives: Understand the foundational concepts of the calculus of variations. Learn techniques to find functions that extremize a given functional. Apply the Euler-Lagrange equation to physical problems such as the brachistochrone, geodesics, and the principle of least action.</summary></entry><entry><title type="html">Dielectric Properties of Materials</title><link href="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html" rel="alternate" type="text/html" title="Dielectric Properties of Materials" /><published>2025-05-16T09:47:26+05:30</published><updated>2025-05-16T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html">&lt;h1 id=&quot;macroscopic-dielectric-constant&quot;&gt;Macroscopic Dielectric Constant&lt;/h1&gt;
 
 &lt;hr /&gt;
 
@@ -3520,83 +3644,4 @@ Iteration: 5
 &lt;ul&gt;
   &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;plot()&lt;/code&gt; method behaves &lt;strong&gt;differently&lt;/strong&gt; for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Plotter&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ScatterPlotter&lt;/code&gt;.&lt;/li&gt;
   &lt;li&gt;This makes the code more &lt;strong&gt;flexible&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Object-Oriented Programming (OOP) is a programming style that organizes code into objects, which store data and perform actions. This method makes programs more structured, reusable, and secure. The four main concepts of OOP are:</summary></entry><entry><title type="html">III. Python: Installation</title><link href="http://localhost:4000/SKMU/lecture/2025/03/19/python-install.html" rel="alternate" type="text/html" title="III. Python: Installation" /><published>2025-03-19T10:47:26+05:30</published><updated>2025-03-19T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/03/19/python-install</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/03/19/python-install.html">&lt;p&gt;Python is a high-level, interpreted programming language known for its simplicity and readability. It is widely used in various domains such as web development, data science, artificial intelligence, automation, and more. Python’s syntax is designed to be easy to learn, making it an excellent choice for beginners.&lt;/p&gt;
-
-&lt;h3 id=&quot;features-of-python&quot;&gt;Features of Python&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Easy to Learn&lt;/strong&gt;: Simple and readable syntax.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Interpreted&lt;/strong&gt;: No need for compilation; executed line by line.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Dynamic Typing&lt;/strong&gt;: No need to specify variable types.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Extensive Libraries&lt;/strong&gt;: SciPy, NumPy, Matplotlib, SymPy for scientific computing.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Cross-Platform&lt;/strong&gt;: Runs on Windows, Linux, and macOS.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#installing-python&quot;&gt;Installing Python&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#running-python-code&quot;&gt;Running Python Code&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;writing-and-running-python-code&quot;&gt;Writing and Running Python Code&lt;/h3&gt;
-&lt;p&gt;Python code can be written in:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Interactive Python Shell (REPL)&lt;/li&gt;
-  &lt;li&gt;Jupyter Notebooks&lt;/li&gt;
-  &lt;li&gt;Python Scripts (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.py&lt;/code&gt; files)&lt;/li&gt;
-  &lt;li&gt;Integrated Development Environments (IDEs) like PyCharm, VS Code&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;installing-python&quot;&gt;Installing Python&lt;/h2&gt;
-
-&lt;h3 id=&quot;step-1-download-python&quot;&gt;Step 1: Download Python&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Visit the official Python website: &lt;a href=&quot;https://www.python.org/&quot;&gt;https://www.python.org/&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Go to the Downloads section and download the latest version of Python for your operating system (Windows, macOS, or Linux).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;step-2-install-python&quot;&gt;Step 2: Install Python&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Run the downloaded installer.&lt;/li&gt;
-  &lt;li&gt;Check the box that says &lt;strong&gt;“Add Python to PATH”&lt;/strong&gt; during installation.&lt;/li&gt;
-  &lt;li&gt;Click &lt;strong&gt;Install Now&lt;/strong&gt; and follow the instructions.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;step-3-verify-installation&quot;&gt;Step 3: Verify Installation&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Open a terminal (Command Prompt on Windows, Terminal on macOS/Linux).&lt;/li&gt;
-  &lt;li&gt;Type the following command and press Enter:
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python &lt;span class=&quot;nt&quot;&gt;--version&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;If Python is installed correctly, you will see the version number (e.g., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Python 3.11.2&lt;/code&gt;).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;running-python-code&quot;&gt;Running Python Code&lt;/h2&gt;
-
-&lt;h3 id=&quot;option-1-using-the-python-interpreter&quot;&gt;Option 1: Using the Python Interpreter&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Open a terminal or command prompt.&lt;/li&gt;
-  &lt;li&gt;Type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python&lt;/code&gt; and press Enter.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;You will enter the Python interactive shell, where you can type and execute Python code line by line.&lt;/p&gt;
-
-    &lt;p&gt;Example:&lt;/p&gt;
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;World&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;option-2-using-a-text-editor-or-ide&quot;&gt;Option 2: Using a Text Editor or IDE&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Open a text editor (e.g., Notepad, VS Code, PyCharm).&lt;/li&gt;
-  &lt;li&gt;Write your Python code in a file with a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.py&lt;/code&gt; extension (e.g., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hello.py&lt;/code&gt;).&lt;/li&gt;
-  &lt;li&gt;Save the file and run it using the terminal:
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python hello.py
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Python is a high-level, interpreted programming language known for its simplicity and readability. It is widely used in various domains such as web development, data science, artificial intelligence, automation, and more. Python’s syntax is designed to be easy to learn, making it an excellent choice for beginners.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Object-Oriented Programming (OOP) is a programming style that organizes code into objects, which store data and perform actions. This method makes programs more structured, reusable, and secure. The four main concepts of OOP are:</summary></entry></feed>
