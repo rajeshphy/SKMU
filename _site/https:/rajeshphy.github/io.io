@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-20T08:18:07+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Calculus of variation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html" rel="alternate" type="text/html" title="Calculus of variation" /><published>2025-05-19T09:47:26+05:30</published><updated>2025-05-19T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html">&lt;h1 id=&quot;calculus-of-variation&quot;&gt;Calculus of variation&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-20T08:38:10+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Calculus of variation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html" rel="alternate" type="text/html" title="Calculus of variation" /><published>2025-05-19T09:47:26+05:30</published><updated>2025-05-19T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html">&lt;h1 id=&quot;calculus-of-variation&quot;&gt;Calculus of variation&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:darkred&quot;&gt;Learning Objectives&lt;/span&gt;&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Understand the foundational concepts of the calculus of variations.&lt;/li&gt;
@@ -559,6 +559,181 @@ a) Dielectric constant&lt;br /&gt;
 b) Electric susceptibility&lt;br /&gt;
 c) Molecular polarizability&lt;br /&gt;
 d) Local field intensity&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;frequency-dependence-of-polarizabilities-dielectric-constant-in-alternating-fields-and-clausius-mossotti-catastrophe&quot;&gt;Frequency Dependence of Polarizabilities, Dielectric Constant in Alternating Fields, and Clausius-Mossotti Catastrophe&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:darkred&quot;&gt;Learning Objectives&lt;/span&gt;&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Understand how various types of polarizabilities respond to different frequency ranges and timescales.&lt;/li&gt;
+  &lt;li&gt;Analyze the behavior of dielectric constant as a function of frequency, and interpret complex dielectric response.&lt;/li&gt;
+  &lt;li&gt;Explore the Clausius-Mossotti relation and the physical significance of the conditions leading to the catastrophe.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Clausius-Mossotti Catastrophe&lt;/strong&gt;: A theoretical prediction from the Clausius-Mossotti equation where the dielectric constant becomes infinite if $N\alpha \to 3\epsilon_0$, signaling a breakdown of linear dielectric behavior or phase transition.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;frequency-dependence&quot;&gt;&lt;strong&gt;Frequency Dependence&lt;/strong&gt;:&lt;/h3&gt;
+
+&lt;p&gt;As frequency increases:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;At &lt;strong&gt;low frequencies&lt;/strong&gt;: all polarization mechanisms contribute, so $\epsilon_r$ is large.&lt;/li&gt;
+  &lt;li&gt;At &lt;strong&gt;intermediate frequencies&lt;/strong&gt;: dipolar and space charge mechanisms cannot respond quickly, their contribution vanishes.&lt;/li&gt;
+  &lt;li&gt;At &lt;strong&gt;high frequencies&lt;/strong&gt;: only &lt;strong&gt;electronic&lt;/strong&gt; (and sometimes &lt;strong&gt;ionic&lt;/strong&gt;) polarizability remains.&lt;/li&gt;
+  &lt;li&gt;At &lt;strong&gt;optical frequencies&lt;/strong&gt;: dielectric constant reduces to $\epsilon_\infty$, corresponding to pure electronic polarization.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This results in a &lt;strong&gt;stepwise decrease&lt;/strong&gt; in dielectric constant with increasing frequency, known as &lt;strong&gt;dielectric dispersion&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;dielectric-loss-and-complex-permittivity&quot;&gt;&lt;strong&gt;Dielectric Loss and Complex Permittivity&lt;/strong&gt;:&lt;/h3&gt;
+
+&lt;p&gt;In alternating fields, some energy is dissipated due to lag in polarization response. The dielectric constant becomes a complex quantity:&lt;/p&gt;
+
+\[\epsilon(\omega) = \epsilon&apos;(\omega) - i \epsilon&apos;&apos;(\omega)\]
+
+&lt;ul&gt;
+  &lt;li&gt;$\epsilon’(\omega)$: stores energy (capacitive behavior).&lt;/li&gt;
+  &lt;li&gt;$\epsilon’’(\omega)$: represents energy loss (resistive behavior), also known as &lt;strong&gt;dielectric loss&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The &lt;strong&gt;loss tangent&lt;/strong&gt; or &lt;strong&gt;dissipation factor&lt;/strong&gt; is defined as:&lt;/p&gt;
+
+\[\tan \delta = \frac{\epsilon&apos;&apos;}{\epsilon&apos;}\]
+
+&lt;!-- ---
+
+### **Debye Relaxation Model**:
+
+For polar dielectrics, the **Debye model** explains frequency dependence of $\epsilon(\omega)$:
+
+$$
+\epsilon(\omega) = \epsilon_\infty + \frac{\epsilon_s - \epsilon_\infty}{1 + i \omega \tau}
+$$
+
+Where:
+- $\epsilon_s$ is the **static dielectric constant** (low-frequency limit),
+- $\epsilon_\infty$ is the **high-frequency limit** (purely electronic),
+- $\tau$ is the **relaxation time** (characteristic response time).
+
+At $\omega \tau = 1$, dielectric loss $\epsilon&apos;&apos;(\omega)$ is **maximum**.
+
+--- --&gt;
+
+&lt;h3 id=&quot;clausius-mossotti-relation-and-catastrophe&quot;&gt;&lt;strong&gt;Clausius-Mossotti Relation and Catastrophe&lt;/strong&gt;:&lt;/h3&gt;
+
+&lt;p&gt;The &lt;strong&gt;Clausius-Mossotti equation&lt;/strong&gt; connects microscopic polarizability $\alpha$ with macroscopic dielectric constant $\epsilon_r$:&lt;/p&gt;
+
+\[\frac{\epsilon_r - 1}{\epsilon_r + 2} = \frac{N \alpha}{3 \epsilon_0}\]
+
+&lt;p&gt;Rewriting:&lt;/p&gt;
+
+\[\epsilon_r = \frac{1 + 2\left(\frac{N \alpha}{3 \epsilon_0}\right)}{1 - \left(\frac{N \alpha}{3 \epsilon_0}\right)}\]
+
+&lt;p&gt;This shows that:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;As $N \alpha \to 3 \epsilon_0$, $\epsilon_r \to \infty$&lt;/li&gt;
+  &lt;li&gt;This is the &lt;strong&gt;Clausius-Mossotti Catastrophe&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Interpretation&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;This condition implies that polarization grows uncontrollably.&lt;/li&gt;
+  &lt;li&gt;Indicates a phase transition, such as the onset of &lt;strong&gt;ferroelectricity&lt;/strong&gt; or dielectric breakdown.&lt;/li&gt;
+  &lt;li&gt;Physically, the system can no longer support a linear dielectric response.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Mathematical Formulation&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Complex dielectric function&lt;/strong&gt;:
+\(\epsilon(\omega) = \epsilon&apos;(\omega) - i \epsilon&apos;&apos;(\omega)\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- - **Debye model**:
+  $$
+  \epsilon(\omega) = \epsilon_\infty + \frac{\epsilon_s - \epsilon_\infty}{1 + i \omega \tau}
+  $$ --&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Clausius-Mossotti relation&lt;/strong&gt;:
+\(\frac{\epsilon_r - 1}{\epsilon_r + 2} = \frac{N \alpha}{3 \epsilon_0}\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: A dielectric has $\epsilon_s = 10$, $\epsilon_\infty = 2$, and $\tau = 10^{-6}$ s. Find $\epsilon(\omega)$ at $f = 10^6$ Hz.&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
+\(\omega = 2 \pi f = 2 \pi \times 10^6 \, \text{rad/s}\)&lt;br /&gt;
+\(\epsilon(\omega) = 2 + \frac{8}{1 + i (2\pi)}\)&lt;br /&gt;
+Rationalize the denominator:&lt;br /&gt;
+\(\epsilon(\omega) = 2 + \frac{8(1 - i 2\pi)}{1 + (2\pi)^2}\)&lt;br /&gt;
+Compute numeric real and imaginary parts for final values.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: Determine if Clausius-Mossotti catastrophe occurs for $N = 5 \times 10^{28}$ m⁻³, $\alpha = 1.6 \times 10^{-40}$ F·m².&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
+\(\frac{N \alpha}{3 \epsilon_0} = \frac{(5 \times 10^{28})(1.6 \times 10^{-40})}{3 \times 8.85 \times 10^{-12}} \approx 0.30\)&lt;br /&gt;
+Since the value &amp;lt; 1, &lt;strong&gt;no catastrophe&lt;/strong&gt;. Catastrophe occurs when the ratio → 1.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Polarizability mechanisms respond over different frequency ranges; the total dielectric constant depends on which are active.&lt;/li&gt;
+  &lt;li&gt;In AC fields, dielectric constant becomes complex and shows dispersion and loss.&lt;/li&gt;
+  &lt;li&gt;The Clausius-Mossotti catastrophe signals the breakdown of linear dielectric behavior and may indicate phase transitions in materials.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Short Answer:
+    &lt;ol&gt;
+      &lt;li&gt;Explain why $\epsilon’’(\omega)$ becomes zero at high frequencies.&lt;/li&gt;
+      &lt;li&gt;Why does $\epsilon_r$ decrease with increasing frequency?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Numerical:
+    &lt;ol&gt;
+      &lt;li&gt;Calculate $\epsilon(\omega)$ for a material with $\epsilon_s = 12$, $\epsilon_\infty = 4$, and $\tau = 5 \times 10^{-7}$ s at $f = 1$ MHz.&lt;/li&gt;
+      &lt;li&gt;For a dielectric with $N = 4 \times 10^{28}$ m⁻³ and $\alpha = 2 \times 10^{-40}$ F·m², compute $\epsilon_r$ using the Clausius-Mossotti equation.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;MCQs:
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;p&gt;At high frequencies (e.g., optical range), which type of polarization dominates?&lt;br /&gt;
+a) Dipolar&lt;br /&gt;
+b) Ionic&lt;br /&gt;
+c) Space charge&lt;br /&gt;
+d) Electronic&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The Clausius-Mossotti relation predicts divergence in $\epsilon_r$ when:&lt;br /&gt;
+a) $N \alpha = \epsilon_0$&lt;br /&gt;
+b) $N \alpha = 2 \epsilon_0$&lt;br /&gt;
+c) $N \alpha = 3 \epsilon_0$&lt;br /&gt;
+d) $N \alpha = 0$&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;

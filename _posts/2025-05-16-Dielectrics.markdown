@@ -451,3 +451,163 @@ $$
      b) Electric susceptibility  
      c) Molecular polarizability  
      d) Local field intensity
+
+---
+
+# Frequency Dependence of Polarizabilities, Dielectric Constant in Alternating Fields, and Clausius-Mossotti Catastrophe
+
+**<span style="color:darkred">Learning Objectives</span>**:
+- Understand how various types of polarizabilities respond to different frequency ranges and timescales.
+- Analyze the behavior of dielectric constant as a function of frequency, and interpret complex dielectric response.
+- Explore the Clausius-Mossotti relation and the physical significance of the conditions leading to the catastrophe.
+
+**Key Concepts / Definitions**:
+- **Clausius-Mossotti Catastrophe**: A theoretical prediction from the Clausius-Mossotti equation where the dielectric constant becomes infinite if $N\alpha \to 3\epsilon_0$, signaling a breakdown of linear dielectric behavior or phase transition.
+
+### **Frequency Dependence**:
+
+As frequency increases:
+
+- At **low frequencies**: all polarization mechanisms contribute, so $\epsilon_r$ is large.
+- At **intermediate frequencies**: dipolar and space charge mechanisms cannot respond quickly, their contribution vanishes.
+- At **high frequencies**: only **electronic** (and sometimes **ionic**) polarizability remains.
+- At **optical frequencies**: dielectric constant reduces to $\epsilon_\infty$, corresponding to pure electronic polarization.
+
+This results in a **stepwise decrease** in dielectric constant with increasing frequency, known as **dielectric dispersion**.
+
+---
+
+### **Dielectric Loss and Complex Permittivity**:
+
+In alternating fields, some energy is dissipated due to lag in polarization response. The dielectric constant becomes a complex quantity:
+
+$$
+\epsilon(\omega) = \epsilon'(\omega) - i \epsilon''(\omega)
+$$
+
+- $\epsilon'(\omega)$: stores energy (capacitive behavior).
+- $\epsilon''(\omega)$: represents energy loss (resistive behavior), also known as **dielectric loss**.
+
+The **loss tangent** or **dissipation factor** is defined as:
+
+$$
+\tan \delta = \frac{\epsilon''}{\epsilon'}
+$$
+
+<!-- ---
+
+### **Debye Relaxation Model**:
+
+For polar dielectrics, the **Debye model** explains frequency dependence of $\epsilon(\omega)$:
+
+$$
+\epsilon(\omega) = \epsilon_\infty + \frac{\epsilon_s - \epsilon_\infty}{1 + i \omega \tau}
+$$
+
+Where:
+- $\epsilon_s$ is the **static dielectric constant** (low-frequency limit),
+- $\epsilon_\infty$ is the **high-frequency limit** (purely electronic),
+- $\tau$ is the **relaxation time** (characteristic response time).
+
+At $\omega \tau = 1$, dielectric loss $\epsilon''(\omega)$ is **maximum**.
+
+--- -->
+
+### **Clausius-Mossotti Relation and Catastrophe**:
+
+The **Clausius-Mossotti equation** connects microscopic polarizability $\alpha$ with macroscopic dielectric constant $\epsilon_r$:
+
+$$
+\frac{\epsilon_r - 1}{\epsilon_r + 2} = \frac{N \alpha}{3 \epsilon_0}
+$$
+
+Rewriting:
+
+$$
+\epsilon_r = \frac{1 + 2\left(\frac{N \alpha}{3 \epsilon_0}\right)}{1 - \left(\frac{N \alpha}{3 \epsilon_0}\right)}
+$$
+
+This shows that:
+- As $N \alpha \to 3 \epsilon_0$, $\epsilon_r \to \infty$
+- This is the **Clausius-Mossotti Catastrophe**
+
+**Interpretation**:
+- This condition implies that polarization grows uncontrollably.
+- Indicates a phase transition, such as the onset of **ferroelectricity** or dielectric breakdown.
+- Physically, the system can no longer support a linear dielectric response.
+
+---
+
+**Mathematical Formulation**:
+
+- **Complex dielectric function**:
+  $$
+  \epsilon(\omega) = \epsilon'(\omega) - i \epsilon''(\omega)
+  $$
+
+<!-- - **Debye model**:
+  $$
+  \epsilon(\omega) = \epsilon_\infty + \frac{\epsilon_s - \epsilon_\infty}{1 + i \omega \tau}
+  $$ -->
+
+- **Clausius-Mossotti relation**:
+  $$
+  \frac{\epsilon_r - 1}{\epsilon_r + 2} = \frac{N \alpha}{3 \epsilon_0}
+  $$
+
+---
+
+**Solved Examples**:
+- **Example 1**:  
+  **Problem**: A dielectric has $\epsilon_s = 10$, $\epsilon_\infty = 2$, and $\tau = 10^{-6}$ s. Find $\epsilon(\omega)$ at $f = 10^6$ Hz.  
+  **Solution**:  
+  $$
+  \omega = 2 \pi f = 2 \pi \times 10^6 \, \text{rad/s}
+  $$  
+  $$
+  \epsilon(\omega) = 2 + \frac{8}{1 + i (2\pi)}
+  $$  
+  Rationalize the denominator:  
+  $$
+  \epsilon(\omega) = 2 + \frac{8(1 - i 2\pi)}{1 + (2\pi)^2}
+  $$  
+  Compute numeric real and imaginary parts for final values.
+
+- **Example 2**:  
+  **Problem**: Determine if Clausius-Mossotti catastrophe occurs for $N = 5 \times 10^{28}$ m⁻³, $\alpha = 1.6 \times 10^{-40}$ F·m².  
+  **Solution**:  
+  $$
+  \frac{N \alpha}{3 \epsilon_0} = \frac{(5 \times 10^{28})(1.6 \times 10^{-40})}{3 \times 8.85 \times 10^{-12}} \approx 0.30
+  $$  
+  Since the value < 1, **no catastrophe**. Catastrophe occurs when the ratio → 1.
+
+---
+
+**Important Points / Summary**:
+- Polarizability mechanisms respond over different frequency ranges; the total dielectric constant depends on which are active.
+- In AC fields, dielectric constant becomes complex and shows dispersion and loss.
+- The Clausius-Mossotti catastrophe signals the breakdown of linear dielectric behavior and may indicate phase transitions in materials.
+
+---
+
+**Practice Questions**:
+- Short Answer:
+  1. Explain why $\epsilon''(\omega)$ becomes zero at high frequencies.
+  2. Why does $\epsilon_r$ decrease with increasing frequency?
+
+- Numerical:
+  1. Calculate $\epsilon(\omega)$ for a material with $\epsilon_s = 12$, $\epsilon_\infty = 4$, and $\tau = 5 \times 10^{-7}$ s at $f = 1$ MHz.
+  2. For a dielectric with $N = 4 \times 10^{28}$ m⁻³ and $\alpha = 2 \times 10^{-40}$ F·m², compute $\epsilon_r$ using the Clausius-Mossotti equation.
+
+- MCQs:
+  1. At high frequencies (e.g., optical range), which type of polarization dominates?  
+     a) Dipolar  
+     b) Ionic  
+     c) Space charge  
+     d) Electronic
+
+  2. The Clausius-Mossotti relation predicts divergence in $\epsilon_r$ when:  
+     a) $N \alpha = \epsilon_0$  
+     b) $N \alpha = 2 \epsilon_0$  
+     c) $N \alpha = 3 \epsilon_0$  
+     d) $N \alpha = 0$
