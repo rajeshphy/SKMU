@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Classical Mechanics"
-date:   2025-04-03 07:47:26 +0530
+title:  "Lagrange’s Equation"
+date:   2025-05-18 07:47:26 +0530
 categories: lecture
 tags: SEM-I
 ---
@@ -140,7 +140,7 @@ $$ mR^2 \ddot{\theta} - m R^2 \omega^2 \sin \theta \cos \theta + mgR \sin \theta
 
 which governs the motion of the bead on the rotating hoop.
 
----
+<!-- ---
 ---
 # Hamilton’s Principle and Calculus of Variations
 
@@ -658,4 +658,4 @@ This shows that angular momentum components generate **rotational transformation
 - L.D. Landau & E.M. Lifshitz, *Mechanics*  
 - V.I. Arnold, *Mathematical Methods of Classical Mechanics*
 
----
+--- -->
