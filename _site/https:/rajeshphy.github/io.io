@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-20T07:35:50+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Calculus of variation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html" rel="alternate" type="text/html" title="Calculus of variation" /><published>2025-05-19T09:47:26+05:30</published><updated>2025-05-19T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html">&lt;h1 id=&quot;calculus-of-variation&quot;&gt;Calculus of variation&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-20T08:18:07+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Calculus of variation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html" rel="alternate" type="text/html" title="Calculus of variation" /><published>2025-05-19T09:47:26+05:30</published><updated>2025-05-19T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html">&lt;h1 id=&quot;calculus-of-variation&quot;&gt;Calculus of variation&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:darkred&quot;&gt;Learning Objectives&lt;/span&gt;&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Understand the foundational concepts of the calculus of variations.&lt;/li&gt;
@@ -418,7 +418,7 @@ The &lt;strong&gt;Clausius-Mossotti equation&lt;/strong&gt; connects the &lt;str
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Local Field Estimation&lt;/strong&gt;:&lt;/p&gt;
 
-    &lt;p&gt;The &lt;strong&gt;local electric field&lt;/strong&gt; is the sum of the external field \(\vec{E}_{\text{ext}}\) and the field due to surrounding polarized molecules $\vec{E}_{\text{pol}}$.&lt;/p&gt;
+    &lt;p&gt;The &lt;strong&gt;local electric field&lt;/strong&gt; is the sum of the macroscopic electric field \(\vec{E}\) and the field due to surrounding polarized molecules $\vec{E}_{\text{pol}}$.&lt;/p&gt;
 
     &lt;p&gt;Using Lorentz’s method, the field at the center of a uniformly polarized spherical cavity is:&lt;/p&gt;
 
@@ -426,35 +426,35 @@ The &lt;strong&gt;Clausius-Mossotti equation&lt;/strong&gt; connects the &lt;str
 
     &lt;p&gt;Hence, the &lt;strong&gt;local field&lt;/strong&gt; becomes:&lt;/p&gt;
 
-\[\vec{E}_{\text{local}} = \vec{E}_{\text{ext}} + \frac{\vec{P}}{3 \epsilon_0}\]
+\[\vec{E}_{\text{local}} = \vec{E}+ \frac{\vec{P}}{3 \epsilon_0}\]
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Substituting into Microscopic Expression&lt;/strong&gt;:&lt;/p&gt;
 
     &lt;p&gt;Substituting $\vec{E}_{\text{local}}$ into the microscopic equation:&lt;/p&gt;
 
-\[\vec{P} = N \alpha \left( \vec{E}_{\text{ext}} + \frac{\vec{P}}{3 \epsilon_0} \right)\]
+\[\vec{P} = N \alpha \left( \vec{E} + \frac{\vec{P}}{3 \epsilon_0} \right)\]
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Solving for $\vec{P}$&lt;/strong&gt;:&lt;/p&gt;
 
     &lt;p&gt;Expand and isolate $\vec{P}$:&lt;/p&gt;
 
-\[\vec{P} = N \alpha \vec{E}_{\text{ext}} + \frac{N \alpha}{3 \epsilon_0} \vec{P}\]
+\[\vec{P} = N \alpha \vec{E} + \frac{N \alpha}{3 \epsilon_0} \vec{P}\]
 
     &lt;p&gt;Rearranged:&lt;/p&gt;
 
-\[\vec{P} \left(1 - \frac{N \alpha}{3 \epsilon_0} \right) = N \alpha \vec{E}_{\text{ext}}\]
+\[\vec{P} \left(1 - \frac{N \alpha}{3 \epsilon_0} \right) = N \alpha \vec{E}\]
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Expressing $\vec{P}$&lt;/strong&gt;:&lt;/p&gt;
 
-\[\vec{P} = \frac{N \alpha}{1 - \frac{N \alpha}{3 \epsilon_0}} \vec{E}_{\text{ext}}\]
+\[\vec{P} = \frac{N \alpha}{1 - \frac{N \alpha}{3 \epsilon_0}} \vec{E}\]
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Relating to Macroscopic Susceptibility&lt;/strong&gt;:&lt;/p&gt;
 
-    &lt;p&gt;Since $\vec{P} = \epsilon_0 \chi_e \vec{E}_{\text{ext}}$,&lt;/p&gt;
+    &lt;p&gt;Since $\vec{P} = \epsilon_0 \chi_e \vec{E}$,&lt;/p&gt;
 
 \[\epsilon_0 \chi_e = \frac{N \alpha}{1 - \frac{N \alpha}{3 \epsilon_0}}\]
 

@@ -281,7 +281,7 @@ However, the field experienced by a molecule is **not** simply the applied field
 
 3. **Local Field Estimation**:
 
-   The **local electric field** is the sum of the external field $$\vec{E}_{\text{ext}}$$ and the field due to surrounding polarized molecules $\vec{E}_{\text{pol}}$.
+   The **local electric field** is the sum of the macroscopic electric field $$\vec{E}$$ and the field due to surrounding polarized molecules $\vec{E}_{\text{pol}}$.
 
    Using Lorentz's method, the field at the center of a uniformly polarized spherical cavity is:
 
@@ -292,7 +292,7 @@ However, the field experienced by a molecule is **not** simply the applied field
    Hence, the **local field** becomes:
 
    $$
-   \vec{E}_{\text{local}} = \vec{E}_{\text{ext}} + \frac{\vec{P}}{3 \epsilon_0}
+   \vec{E}_{\text{local}} = \vec{E}+ \frac{\vec{P}}{3 \epsilon_0}
    $$
 
 4. **Substituting into Microscopic Expression**:
@@ -300,7 +300,7 @@ However, the field experienced by a molecule is **not** simply the applied field
    Substituting $\vec{E}_{\text{local}}$ into the microscopic equation:
 
    $$
-   \vec{P} = N \alpha \left( \vec{E}_{\text{ext}} + \frac{\vec{P}}{3 \epsilon_0} \right)
+   \vec{P} = N \alpha \left( \vec{E} + \frac{\vec{P}}{3 \epsilon_0} \right)
    $$
 
 5. **Solving for $\vec{P}$**:
@@ -308,24 +308,24 @@ However, the field experienced by a molecule is **not** simply the applied field
    Expand and isolate $\vec{P}$:
 
    $$
-   \vec{P} = N \alpha \vec{E}_{\text{ext}} + \frac{N \alpha}{3 \epsilon_0} \vec{P}
+   \vec{P} = N \alpha \vec{E} + \frac{N \alpha}{3 \epsilon_0} \vec{P}
    $$
 
    Rearranged:
 
    $$
-   \vec{P} \left(1 - \frac{N \alpha}{3 \epsilon_0} \right) = N \alpha \vec{E}_{\text{ext}}
+   \vec{P} \left(1 - \frac{N \alpha}{3 \epsilon_0} \right) = N \alpha \vec{E}
    $$
 
 6. **Expressing $\vec{P}$**:
 
    $$
-   \vec{P} = \frac{N \alpha}{1 - \frac{N \alpha}{3 \epsilon_0}} \vec{E}_{\text{ext}}
+   \vec{P} = \frac{N \alpha}{1 - \frac{N \alpha}{3 \epsilon_0}} \vec{E}
    $$
 
 7. **Relating to Macroscopic Susceptibility**:
 
-   Since $\vec{P} = \epsilon_0 \chi_e \vec{E}_{\text{ext}}$,
+   Since $\vec{P} = \epsilon_0 \chi_e \vec{E}$,
 
    $$
    \epsilon_0 \chi_e = \frac{N \alpha}{1 - \frac{N \alpha}{3 \epsilon_0}}
