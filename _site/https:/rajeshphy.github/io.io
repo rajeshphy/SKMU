@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-20T11:01:17+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Calculus of variation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html" rel="alternate" type="text/html" title="Calculus of variation" /><published>2025-05-19T09:47:26+05:30</published><updated>2025-05-19T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html">&lt;h1 id=&quot;calculus-of-variation&quot;&gt;Calculus of variation&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-20T12:19:36+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Calculus of variation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html" rel="alternate" type="text/html" title="Calculus of variation" /><published>2025-05-19T09:47:26+05:30</published><updated>2025-05-19T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html">&lt;h1 id=&quot;calculus-of-variation&quot;&gt;Calculus of variation&lt;/h1&gt;
+
 &lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:darkred&quot;&gt;Learning Objectives&lt;/span&gt;&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Understand the foundational concepts of the calculus of variations.&lt;/li&gt;
@@ -122,7 +123,135 @@ d) Principle of least action&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Calculus of variation Learning Objectives: Understand the foundational concepts of the calculus of variations. Learn techniques to find functions that extremize a given functional. Apply the Euler-Lagrange equation to physical problems such as the brachistochrone, geodesics, and the principle of least action.</summary></entry><entry><title type="html">Dielectric Properties of Materials</title><link href="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html" rel="alternate" type="text/html" title="Dielectric Properties of Materials" /><published>2025-05-16T09:47:26+05:30</published><updated>2025-05-16T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html">&lt;h1 id=&quot;macroscopic-dielectric-constant&quot;&gt;Macroscopic Dielectric Constant&lt;/h1&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;applications-of-the-calculus-of-variations&quot;&gt;Applications of the Calculus of Variations&lt;/h2&gt;
+
+&lt;p&gt;The calculus of variations plays a crucial role in many physical and geometric problems where a functional (usually representing energy, time, or length) must be minimized or maximized. Below are four fundamental applications:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;1-principle-of-least-action-in-mechanics&quot;&gt;1. Principle of Least Action in Mechanics&lt;/h3&gt;
+
+&lt;h4 id=&quot;statement&quot;&gt;Statement&lt;/h4&gt;
+
+&lt;p&gt;In classical mechanics, the motion of a particle is such that it minimizes (or makes stationary) the &lt;strong&gt;action functional&lt;/strong&gt;:&lt;/p&gt;
+
+\[S[q(t)] = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt\]
+
+&lt;p&gt;Here, $ L = T - V $ is the &lt;strong&gt;Lagrangian&lt;/strong&gt;, where $ T $ is the kinetic energy and $ V $ is the potential energy. The function $ q(t) $ describes the generalized coordinates of the system.&lt;/p&gt;
+
+&lt;h4 id=&quot;eulerlagrange-equation&quot;&gt;Euler–Lagrange Equation&lt;/h4&gt;
+
+&lt;p&gt;The extremum of the action occurs when:&lt;/p&gt;
+
+\[\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}} \right) - \frac{\partial L}{\partial q} = 0\]
+
+&lt;p&gt;This is known as the &lt;strong&gt;Euler–Lagrange equation&lt;/strong&gt;, and it leads to &lt;strong&gt;Newton’s laws&lt;/strong&gt; when applied in the appropriate context.&lt;/p&gt;
+
+&lt;h4 id=&quot;significance&quot;&gt;Significance&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Provides a powerful reformulation of classical mechanics.&lt;/li&gt;
+  &lt;li&gt;Fundamental in quantum mechanics, field theory, and general relativity.&lt;/li&gt;
+  &lt;li&gt;Basis of the Lagrangian and Hamiltonian formalisms.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;2-geodesics-on-surfaces&quot;&gt;2. Geodesics on Surfaces&lt;/h3&gt;
+
+&lt;h4 id=&quot;statement-1&quot;&gt;Statement&lt;/h4&gt;
+
+&lt;p&gt;A &lt;strong&gt;geodesic&lt;/strong&gt; is the shortest path between two points on a curved surface. For example, great circles are geodesics on a sphere.&lt;/p&gt;
+
+&lt;h4 id=&quot;problem&quot;&gt;Problem&lt;/h4&gt;
+
+&lt;p&gt;Given a surface described (parametrically or by a constraint), find the curve $ \gamma(t) = (x(t), y(t), z(t)) $ that minimizes the &lt;strong&gt;arc length&lt;/strong&gt;:&lt;/p&gt;
+
+\[S[\gamma] = \int_a^b \sqrt{\dot{x}^2 + \dot{y}^2 + \dot{z}^2} \, dt\]
+
+&lt;p&gt;Or, in a curved coordinate system with metric $ g_{ij} $:&lt;/p&gt;
+
+\[S[\gamma] = \int_a^b \sqrt{g_{ij} \frac{dx^i}{dt} \frac{dx^j}{dt}} \, dt\]
+
+&lt;h4 id=&quot;example-sphere&quot;&gt;Example: Sphere&lt;/h4&gt;
+
+&lt;p&gt;On a sphere of radius $ R $, the metric is:&lt;/p&gt;
+
+\[ds^2 = R^2(d\theta^2 + \sin^2 \theta\, d\phi^2)\]
+
+&lt;p&gt;Minimizing the arc length leads to the equation of &lt;strong&gt;great circles&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;applications&quot;&gt;Applications&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;General relativity: particles follow geodesics in spacetime.&lt;/li&gt;
+  &lt;li&gt;Navigation: shortest paths on Earth.&lt;/li&gt;
+  &lt;li&gt;Computer graphics and robotics.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;3-brachistochrone-problem-in-dynamics&quot;&gt;3. Brachistochrone Problem in Dynamics&lt;/h3&gt;
+
+&lt;h4 id=&quot;statement-2&quot;&gt;Statement&lt;/h4&gt;
+
+&lt;p&gt;Find the curve between two points (not vertically aligned) along which a particle slides under gravity in the &lt;strong&gt;least time&lt;/strong&gt;, assuming no friction.&lt;/p&gt;
+
+&lt;h4 id=&quot;functional-to-minimize&quot;&gt;Functional to Minimize&lt;/h4&gt;
+
+\[T[y] = \int_{x_1}^{x_2} \sqrt{\frac{1 + (y&apos;)^2}{2gy}} \, dx\]
+
+&lt;p&gt;Using the calculus of variations and the &lt;strong&gt;Beltrami identity&lt;/strong&gt;, one derives the curve of fastest descent.&lt;/p&gt;
+
+&lt;h4 id=&quot;solution&quot;&gt;Solution&lt;/h4&gt;
+
+&lt;p&gt;The solution is a &lt;strong&gt;cycloid&lt;/strong&gt;, given parametrically as:&lt;/p&gt;
+
+\[x = a(\theta - \sin \theta), \quad y = a(1 - \cos \theta)\]
+
+&lt;h4 id=&quot;significance-1&quot;&gt;Significance&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Originated the field of variational calculus (posed by Johann Bernoulli in 1696).&lt;/li&gt;
+  &lt;li&gt;Early example where minimizing time (not distance or energy) leads to a surprising result.&lt;/li&gt;
+  &lt;li&gt;Important in physics and engineering for time-optimization problems.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;4-optics-fermats-principle-of-least-time&quot;&gt;4. Optics: Fermat’s Principle of Least Time&lt;/h3&gt;
+
+&lt;h4 id=&quot;statement-3&quot;&gt;Statement&lt;/h4&gt;
+
+&lt;p&gt;Fermat’s principle states that light takes the path which &lt;strong&gt;minimizes the time&lt;/strong&gt; taken to travel between two points.&lt;/p&gt;
+
+&lt;h4 id=&quot;mathematical-formulation&quot;&gt;Mathematical Formulation&lt;/h4&gt;
+
+&lt;p&gt;If the speed of light varies with position, say $ v(x) = \frac{1}{n(x)} $, where $ n(x) $ is the refractive index, then the &lt;strong&gt;time&lt;/strong&gt; taken is:&lt;/p&gt;
+
+\[T[y] = \int_{x_1}^{x_2} \frac{\sqrt{1 + (y&apos;)^2}}{v(x, y)} \, dx\]
+
+&lt;p&gt;This is a variational problem where the &lt;strong&gt;path of light&lt;/strong&gt; $ y(x) $ extremizes the travel time.&lt;/p&gt;
+
+&lt;h4 id=&quot;example-snells-law&quot;&gt;Example: Snell’s Law&lt;/h4&gt;
+
+&lt;p&gt;Applying the calculus of variations to two media with different refractive indices leads to:&lt;/p&gt;
+
+\[\frac{\sin \theta_1}{v_1} = \frac{\sin \theta_2}{v_2}\]
+
+&lt;p&gt;This is &lt;strong&gt;Snell’s law&lt;/strong&gt; of refraction.&lt;/p&gt;
+
+&lt;h4 id=&quot;significance-2&quot;&gt;Significance&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Foundation of geometrical optics.&lt;/li&gt;
+  &lt;li&gt;Connects variational principles to physical phenomena.&lt;/li&gt;
+  &lt;li&gt;Analogous to least action in mechanics and leads to ray-tracing methods.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Calculus of variation</summary></entry><entry><title type="html">Dielectric Properties of Materials</title><link href="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html" rel="alternate" type="text/html" title="Dielectric Properties of Materials" /><published>2025-05-16T09:47:26+05:30</published><updated>2025-05-16T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/16/Dielectrics.html">&lt;h1 id=&quot;macroscopic-dielectric-constant&quot;&gt;Macroscopic Dielectric Constant&lt;/h1&gt;
 
 &lt;hr /&gt;
 
