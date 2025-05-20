@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Least Action Principle"
-date:   2025-05-20 08:47:26 +0530
+date:   2025-05-20 07:46:26 +0530
 categories: lecture
 tags: SEM-I
 ---

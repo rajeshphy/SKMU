@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-20T15:21:01+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Hamilton–Jacobi Equation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory.html" rel="alternate" type="text/html" title="Hamilton–Jacobi Equation" /><published>2025-05-20T09:47:26+05:30</published><updated>2025-05-20T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory.html">&lt;h2 id=&quot;hamiltonjacobi-equation-with-example-of-harmonic-oscillator&quot;&gt;Hamilton–Jacobi Equation with Example of Harmonic Oscillator&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-20T15:22:30+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Hamilton–Jacobi Equation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory.html" rel="alternate" type="text/html" title="Hamilton–Jacobi Equation" /><published>2025-05-20T09:47:26+05:30</published><updated>2025-05-20T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory.html">&lt;h2 id=&quot;hamiltonjacobi-equation-with-example-of-harmonic-oscillator&quot;&gt;Hamilton–Jacobi Equation with Example of Harmonic Oscillator&lt;/h2&gt;
 
 &lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -334,148 +334,7 @@ Lagrangian:&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Hamilton’s Equations of Motion</summary></entry><entry><title type="html">Least Action Principle</title><link href="http://localhost:4000/SKMU/lecture/2025/05/20/Least-Action.html" rel="alternate" type="text/html" title="Least Action Principle" /><published>2025-05-20T08:47:26+05:30</published><updated>2025-05-20T08:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/20/Least-Action</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/20/Least-Action.html">&lt;h1 id=&quot;the-principle-of-least-action&quot;&gt;The Principle of Least Action&lt;/h1&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Understand the physical and mathematical meaning of the principle of least action.&lt;/li&gt;
-  &lt;li&gt;Learn how it leads to the Euler-Lagrange equations of motion.&lt;/li&gt;
-  &lt;li&gt;Apply the principle to solve simple problems in mechanics.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Action ($S$)&lt;/strong&gt;: A scalar quantity defined as the time integral of the Lagrangian, $S = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt$.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Lagrangian ($L$)&lt;/strong&gt;: The function $L = T - V$, where $T$ is kinetic energy and $V$ is potential energy.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Principle of Least Action&lt;/strong&gt;: The path taken by a physical system between two states is the one for which the action is stationary (usually minimized).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;Principle of Least Action&lt;/strong&gt; is a powerful and unifying concept in classical mechanics. It asserts that:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;A system evolves between two configurations in such a way that the action functional $S$ is stationary.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This principle is central to &lt;strong&gt;Lagrangian mechanics&lt;/strong&gt; and underlies modern formulations of physics, including quantum mechanics and field theory.&lt;/p&gt;
-
-&lt;p&gt;Let a mechanical system move from point $A$ at time $t_1$ to point $B$ at time $t_2$. Among all possible paths it could take, the system follows the one for which the action&lt;/p&gt;
-
-\[S[q(t)] = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt\]
-
-&lt;p&gt;is &lt;strong&gt;stationary&lt;/strong&gt; — meaning that small variations in the path do not change $S$ to first order.&lt;/p&gt;
-
-&lt;p&gt;This leads directly to the &lt;strong&gt;Euler-Lagrange equations&lt;/strong&gt;, which describe the system’s motion.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Mathematical Formulation&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;Let $q(t)$ be the generalized coordinate of the system.&lt;/p&gt;
-
-&lt;p&gt;Action is given by:&lt;/p&gt;
-
-\[S[q(t)] = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt\]
-
-&lt;p&gt;Consider a small variation: $q(t) \rightarrow q(t) + \varepsilon \eta(t)$, where $\eta(t_1) = \eta(t_2) = 0$.&lt;/p&gt;
-
-&lt;p&gt;Then,&lt;/p&gt;
-
-\[\delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q} \eta + \frac{\partial L}{\partial \dot{q}} \dot{\eta} \right) dt\]
-
-&lt;p&gt;Integrating by parts the second term:&lt;/p&gt;
-
-\[\delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q} - \frac{d}{dt} \frac{\partial L}{\partial \dot{q}} \right) \eta(t) \, dt\]
-
-&lt;p&gt;Since $\eta(t)$ is arbitrary, for $\delta S = 0$:&lt;/p&gt;
-
-\[\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}} \right) - \frac{\partial L}{\partial q} = 0\]
-
-&lt;p&gt;This is the &lt;strong&gt;Euler-Lagrange equation&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
-&lt;strong&gt;Problem&lt;/strong&gt;: Derive the equation of motion for a free particle using the principle of least action.&lt;br /&gt;
-&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
-The Lagrangian is $L = \frac{1}{2} m \dot{x}^2$.&lt;br /&gt;
-Action:&lt;br /&gt;
-\(S[x(t)] = \int_{t_1}^{t_2} \frac{1}{2} m \dot{x}^2 \, dt\)
-Applying the Euler-Lagrange equation:&lt;br /&gt;
-\(\frac{d}{dt}(m \dot{x}) = 0 \Rightarrow \ddot{x} = 0\)
-This corresponds to uniform motion.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
-&lt;strong&gt;Problem&lt;/strong&gt;: Use the principle of least action to derive the motion of a harmonic oscillator.&lt;br /&gt;
-&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
-The Lagrangian is $L = \frac{1}{2} m \dot{x}^2 - \frac{1}{2} k x^2$.&lt;br /&gt;
-Euler-Lagrange equation:&lt;br /&gt;
-\(\frac{d}{dt}(m \dot{x}) + k x = 0 \Rightarrow m \ddot{x} + k x = 0\)
-This is the equation for simple harmonic motion.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The principle of least action is a variational principle for deriving the equations of motion.&lt;/li&gt;
-  &lt;li&gt;It unifies many physical laws under a single formalism.&lt;/li&gt;
-  &lt;li&gt;The action is stationary, not necessarily minimal.&lt;/li&gt;
-  &lt;li&gt;Leads to Euler-Lagrange equations which generalize Newton’s second law.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Short Answer&lt;/strong&gt;:
-    &lt;ol&gt;
-      &lt;li&gt;Define the principle of least action.&lt;/li&gt;
-      &lt;li&gt;What is meant by stationary action?&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Numerical&lt;/strong&gt;:
-    &lt;ol&gt;
-      &lt;li&gt;Find the equation of motion for a particle in a linear potential $V(x) = Fx$ using least action.&lt;/li&gt;
-      &lt;li&gt;Compute the action for a particle moving at constant speed $v$ from $x=0$ to $x=L$ in time $T$.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;MCQs&lt;/strong&gt;:
-    &lt;ol&gt;
-      &lt;li&gt;Which of the following is minimized in the principle of least action?
-        &lt;ul&gt;
-          &lt;li&gt;a) Kinetic energy&lt;/li&gt;
-          &lt;li&gt;b) Potential energy&lt;/li&gt;
-          &lt;li&gt;c) Action&lt;/li&gt;
-          &lt;li&gt;d) Hamiltonian&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: c)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;The Euler-Lagrange equation is obtained from:
-        &lt;ul&gt;
-          &lt;li&gt;a) Newton’s laws&lt;/li&gt;
-          &lt;li&gt;b) Hamilton’s equations&lt;/li&gt;
-          &lt;li&gt;c) Principle of least action&lt;/li&gt;
-          &lt;li&gt;d) Gauss’s law&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: c)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">The Principle of Least Action</summary></entry><entry><title type="html">Hamilton’s Principle</title><link href="http://localhost:4000/SKMU/lecture/2025/05/20/Hamilton-Principle.html" rel="alternate" type="text/html" title="Hamilton&apos;s Principle" /><published>2025-05-20T07:47:26+05:30</published><updated>2025-05-20T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/20/Hamilton-Principle</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/20/Hamilton-Principle.html">&lt;h2 id=&quot;hamiltons-principle&quot;&gt;Hamilton’s Principle&lt;/h2&gt;
+&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Hamilton’s Equations of Motion</summary></entry><entry><title type="html">Hamilton’s Principle</title><link href="http://localhost:4000/SKMU/lecture/2025/05/20/Hamilton-Principle.html" rel="alternate" type="text/html" title="Hamilton&apos;s Principle" /><published>2025-05-20T07:47:26+05:30</published><updated>2025-05-20T07:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/20/Hamilton-Principle</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/20/Hamilton-Principle.html">&lt;h2 id=&quot;hamiltons-principle&quot;&gt;Hamilton’s Principle&lt;/h2&gt;
 
 &lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -633,7 +492,148 @@ The Lagrangian is $L = \frac{1}{2} m \dot{x}^2 + Fx$.&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Hamilton’s Principle</summary></entry><entry><title type="html">Calculus of variation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html" rel="alternate" type="text/html" title="Calculus of variation" /><published>2025-05-19T09:47:26+05:30</published><updated>2025-05-19T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html">&lt;h1 id=&quot;calculus-of-variation&quot;&gt;Calculus of variation&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Hamilton’s Principle</summary></entry><entry><title type="html">Least Action Principle</title><link href="http://localhost:4000/SKMU/lecture/2025/05/20/Least-Action.html" rel="alternate" type="text/html" title="Least Action Principle" /><published>2025-05-20T07:46:26+05:30</published><updated>2025-05-20T07:46:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/20/Least-Action</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/20/Least-Action.html">&lt;h1 id=&quot;the-principle-of-least-action&quot;&gt;The Principle of Least Action&lt;/h1&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Understand the physical and mathematical meaning of the principle of least action.&lt;/li&gt;
+  &lt;li&gt;Learn how it leads to the Euler-Lagrange equations of motion.&lt;/li&gt;
+  &lt;li&gt;Apply the principle to solve simple problems in mechanics.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Action ($S$)&lt;/strong&gt;: A scalar quantity defined as the time integral of the Lagrangian, $S = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt$.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Lagrangian ($L$)&lt;/strong&gt;: The function $L = T - V$, where $T$ is kinetic energy and $V$ is potential energy.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Principle of Least Action&lt;/strong&gt;: The path taken by a physical system between two states is the one for which the action is stationary (usually minimized).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Principle of Least Action&lt;/strong&gt; is a powerful and unifying concept in classical mechanics. It asserts that:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;A system evolves between two configurations in such a way that the action functional $S$ is stationary.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This principle is central to &lt;strong&gt;Lagrangian mechanics&lt;/strong&gt; and underlies modern formulations of physics, including quantum mechanics and field theory.&lt;/p&gt;
+
+&lt;p&gt;Let a mechanical system move from point $A$ at time $t_1$ to point $B$ at time $t_2$. Among all possible paths it could take, the system follows the one for which the action&lt;/p&gt;
+
+\[S[q(t)] = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt\]
+
+&lt;p&gt;is &lt;strong&gt;stationary&lt;/strong&gt; — meaning that small variations in the path do not change $S$ to first order.&lt;/p&gt;
+
+&lt;p&gt;This leads directly to the &lt;strong&gt;Euler-Lagrange equations&lt;/strong&gt;, which describe the system’s motion.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Mathematical Formulation&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;Let $q(t)$ be the generalized coordinate of the system.&lt;/p&gt;
+
+&lt;p&gt;Action is given by:&lt;/p&gt;
+
+\[S[q(t)] = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt\]
+
+&lt;p&gt;Consider a small variation: $q(t) \rightarrow q(t) + \varepsilon \eta(t)$, where $\eta(t_1) = \eta(t_2) = 0$.&lt;/p&gt;
+
+&lt;p&gt;Then,&lt;/p&gt;
+
+\[\delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q} \eta + \frac{\partial L}{\partial \dot{q}} \dot{\eta} \right) dt\]
+
+&lt;p&gt;Integrating by parts the second term:&lt;/p&gt;
+
+\[\delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q} - \frac{d}{dt} \frac{\partial L}{\partial \dot{q}} \right) \eta(t) \, dt\]
+
+&lt;p&gt;Since $\eta(t)$ is arbitrary, for $\delta S = 0$:&lt;/p&gt;
+
+\[\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}} \right) - \frac{\partial L}{\partial q} = 0\]
+
+&lt;p&gt;This is the &lt;strong&gt;Euler-Lagrange equation&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: Derive the equation of motion for a free particle using the principle of least action.&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
+The Lagrangian is $L = \frac{1}{2} m \dot{x}^2$.&lt;br /&gt;
+Action:&lt;br /&gt;
+\(S[x(t)] = \int_{t_1}^{t_2} \frac{1}{2} m \dot{x}^2 \, dt\)
+Applying the Euler-Lagrange equation:&lt;br /&gt;
+\(\frac{d}{dt}(m \dot{x}) = 0 \Rightarrow \ddot{x} = 0\)
+This corresponds to uniform motion.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: Use the principle of least action to derive the motion of a harmonic oscillator.&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
+The Lagrangian is $L = \frac{1}{2} m \dot{x}^2 - \frac{1}{2} k x^2$.&lt;br /&gt;
+Euler-Lagrange equation:&lt;br /&gt;
+\(\frac{d}{dt}(m \dot{x}) + k x = 0 \Rightarrow m \ddot{x} + k x = 0\)
+This is the equation for simple harmonic motion.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The principle of least action is a variational principle for deriving the equations of motion.&lt;/li&gt;
+  &lt;li&gt;It unifies many physical laws under a single formalism.&lt;/li&gt;
+  &lt;li&gt;The action is stationary, not necessarily minimal.&lt;/li&gt;
+  &lt;li&gt;Leads to Euler-Lagrange equations which generalize Newton’s second law.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Short Answer&lt;/strong&gt;:
+    &lt;ol&gt;
+      &lt;li&gt;Define the principle of least action.&lt;/li&gt;
+      &lt;li&gt;What is meant by stationary action?&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Numerical&lt;/strong&gt;:
+    &lt;ol&gt;
+      &lt;li&gt;Find the equation of motion for a particle in a linear potential $V(x) = Fx$ using least action.&lt;/li&gt;
+      &lt;li&gt;Compute the action for a particle moving at constant speed $v$ from $x=0$ to $x=L$ in time $T$.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MCQs&lt;/strong&gt;:
+    &lt;ol&gt;
+      &lt;li&gt;Which of the following is minimized in the principle of least action?
+        &lt;ul&gt;
+          &lt;li&gt;a) Kinetic energy&lt;/li&gt;
+          &lt;li&gt;b) Potential energy&lt;/li&gt;
+          &lt;li&gt;c) Action&lt;/li&gt;
+          &lt;li&gt;d) Hamiltonian&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: c)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;The Euler-Lagrange equation is obtained from:
+        &lt;ul&gt;
+          &lt;li&gt;a) Newton’s laws&lt;/li&gt;
+          &lt;li&gt;b) Hamilton’s equations&lt;/li&gt;
+          &lt;li&gt;c) Principle of least action&lt;/li&gt;
+          &lt;li&gt;d) Gauss’s law&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: c)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">The Principle of Least Action</summary></entry><entry><title type="html">Calculus of variation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html" rel="alternate" type="text/html" title="Calculus of variation" /><published>2025-05-19T09:47:26+05:30</published><updated>2025-05-19T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html">&lt;h1 id=&quot;calculus-of-variation&quot;&gt;Calculus of variation&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:darkred&quot;&gt;Learning Objectives&lt;/span&gt;&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
