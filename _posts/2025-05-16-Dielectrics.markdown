@@ -466,6 +466,33 @@ $$
 
 ### **Frequency Dependence**:
 
+As the **frequency** of the applied alternating electric field increases, different polarization mechanisms in a dielectric respond differently depending on their intrinsic time scales. These mechanisms include:
+
+#### **(a) Electronic Polarizability**
+- **Origin**: Displacement of the electron cloud relative to the nucleus in an atom or molecule.
+- **Response Time**: Very fast (~$10^{-15}$ s).
+- **Active Range**: Remains active up to **optical and ultraviolet frequencies** (~$10^{15}$ Hz).
+- **Remarks**: Since electrons are light and bound by strong restoring forces, they can respond to very high-frequency fields.
+
+#### **(b) Ionic Polarizability**
+- **Origin**: Displacement of positive and negative ions relative to each other in ionic crystals.
+- **Response Time**: Moderate (~$10^{-13}$ to $10^{-14}$ s).
+- **Active Range**: Prominent in the **infrared** frequency range (~$10^{13}$ Hz).
+- **Remarks**: Ionic motion becomes too slow to respond at higher frequencies due to inertia.
+
+#### **(c) Dipolar (Orientation) Polarizability**
+- **Origin**: Alignment of permanent dipole moments in molecules (e.g., H$_2$O, HCl) with the external field.
+- **Response Time**: Slow (~$10^{-9}$ to $10^{-12}$ s).
+- **Active Range**: Effective at **microwave and radio** frequencies (~$10^9$ Hz).
+- **Remarks**: Thermal agitation and molecular rotation limit the ability of dipoles to reorient at high frequency.
+
+#### **(d) Space Charge (Interfacial) Polarizability**
+- **Origin**: Accumulation of charges at interfaces or grain boundaries in heterogeneous materials.
+- **Response Time**: Very slow (milliseconds or longer).
+- **Active Range**: Significant only at **very low frequencies** (below ~$10^3$ Hz).
+- **Remarks**: These charges cannot follow rapid field reversals due to low mobility.
+
+
 As frequency increases:
 
 - At **low frequencies**: all polarization mechanisms contribute, so $\epsilon_r$ is large.

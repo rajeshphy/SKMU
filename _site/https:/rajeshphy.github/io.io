@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-20T08:38:10+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Calculus of variation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html" rel="alternate" type="text/html" title="Calculus of variation" /><published>2025-05-19T09:47:26+05:30</published><updated>2025-05-19T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html">&lt;h1 id=&quot;calculus-of-variation&quot;&gt;Calculus of variation&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-20T08:44:22+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Calculus of variation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html" rel="alternate" type="text/html" title="Calculus of variation" /><published>2025-05-19T09:47:26+05:30</published><updated>2025-05-19T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html">&lt;h1 id=&quot;calculus-of-variation&quot;&gt;Calculus of variation&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:darkred&quot;&gt;Learning Objectives&lt;/span&gt;&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Understand the foundational concepts of the calculus of variations.&lt;/li&gt;
@@ -581,6 +581,40 @@ d) Local field intensity&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;frequency-dependence&quot;&gt;&lt;strong&gt;Frequency Dependence&lt;/strong&gt;:&lt;/h3&gt;
+
+&lt;p&gt;As the &lt;strong&gt;frequency&lt;/strong&gt; of the applied alternating electric field increases, different polarization mechanisms in a dielectric respond differently depending on their intrinsic time scales. These mechanisms include:&lt;/p&gt;
+
+&lt;h4 id=&quot;a-electronic-polarizability&quot;&gt;&lt;strong&gt;(a) Electronic Polarizability&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Origin&lt;/strong&gt;: Displacement of the electron cloud relative to the nucleus in an atom or molecule.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Response Time&lt;/strong&gt;: Very fast (~$10^{-15}$ s).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Active Range&lt;/strong&gt;: Remains active up to &lt;strong&gt;optical and ultraviolet frequencies&lt;/strong&gt; (~$10^{15}$ Hz).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Remarks&lt;/strong&gt;: Since electrons are light and bound by strong restoring forces, they can respond to very high-frequency fields.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;b-ionic-polarizability&quot;&gt;&lt;strong&gt;(b) Ionic Polarizability&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Origin&lt;/strong&gt;: Displacement of positive and negative ions relative to each other in ionic crystals.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Response Time&lt;/strong&gt;: Moderate (~$10^{-13}$ to $10^{-14}$ s).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Active Range&lt;/strong&gt;: Prominent in the &lt;strong&gt;infrared&lt;/strong&gt; frequency range (~$10^{13}$ Hz).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Remarks&lt;/strong&gt;: Ionic motion becomes too slow to respond at higher frequencies due to inertia.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;c-dipolar-orientation-polarizability&quot;&gt;&lt;strong&gt;(c) Dipolar (Orientation) Polarizability&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Origin&lt;/strong&gt;: Alignment of permanent dipole moments in molecules (e.g., H$_2$O, HCl) with the external field.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Response Time&lt;/strong&gt;: Slow (~$10^{-9}$ to $10^{-12}$ s).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Active Range&lt;/strong&gt;: Effective at &lt;strong&gt;microwave and radio&lt;/strong&gt; frequencies (~$10^9$ Hz).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Remarks&lt;/strong&gt;: Thermal agitation and molecular rotation limit the ability of dipoles to reorient at high frequency.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;d-space-charge-interfacial-polarizability&quot;&gt;&lt;strong&gt;(d) Space Charge (Interfacial) Polarizability&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Origin&lt;/strong&gt;: Accumulation of charges at interfaces or grain boundaries in heterogeneous materials.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Response Time&lt;/strong&gt;: Very slow (milliseconds or longer).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Active Range&lt;/strong&gt;: Significant only at &lt;strong&gt;very low frequencies&lt;/strong&gt; (below ~$10^3$ Hz).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Remarks&lt;/strong&gt;: These charges cannot follow rapid field reversals due to low mobility.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;As frequency increases:&lt;/p&gt;
 
