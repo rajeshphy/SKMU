@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-19T11:22:28+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Calculus of variation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html" rel="alternate" type="text/html" title="Calculus of variation" /><published>2025-05-19T09:47:26+05:30</published><updated>2025-05-19T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html">&lt;h1 id=&quot;calculus-of-variation&quot;&gt;Calculus of variation&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-20T07:35:50+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Calculus of variation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html" rel="alternate" type="text/html" title="Calculus of variation" /><published>2025-05-19T09:47:26+05:30</published><updated>2025-05-19T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/19/Calculus-Variation.html">&lt;h1 id=&quot;calculus-of-variation&quot;&gt;Calculus of variation&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:darkred&quot;&gt;Learning Objectives&lt;/span&gt;&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Understand the foundational concepts of the calculus of variations.&lt;/li&gt;
@@ -142,6 +142,10 @@ d) Principle of least action&lt;/p&gt;
   &lt;li&gt;&lt;strong&gt;Polarization ($\vec{P}$)&lt;/strong&gt;: The dipole moment per unit volume of a dielectric, induced by an external electric field.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Electric Susceptibility ($\chi_e$)&lt;/strong&gt;: A dimensionless quantity that describes how easily a material can be polarized:
 \(\vec{P} = \varepsilon_0 \chi_e \vec{E}\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;$E$ (Macroscopic Electric Field)&lt;/strong&gt;: The average electric field in the dielectric material due to both external sources and the material’s polarization.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;$E_{\text{ext}}$ (External Field)&lt;/strong&gt;: The electric field applied from outside the dielectric, typically produced by free charges (e.g., on capacitor plates), before considering the dielectric response.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;$E_{\text{pol}}$ (Polarization Field)&lt;/strong&gt;: The electric field arising from the polarized bound charges within the dielectric material; it generally opposes the external field.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;$E_{\text{local}}$ (Local Field)&lt;/strong&gt;: The actual microscopic electric field experienced by an individual molecule or atom, including contributions from both the external field and nearby polarized molecules.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
@@ -377,10 +381,6 @@ d) N/C&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Polarizability ($\alpha$)&lt;/strong&gt;: The measure of how easily an electron cloud of a molecule is distorted by an external electric field.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Number Density ($N$)&lt;/strong&gt;: Number of molecules per unit volume in the dielectric material.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;$E$ (Macroscopic Electric Field)&lt;/strong&gt;: The average electric field in the dielectric material due to both external sources and the material’s polarization.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;$E_{\text{ext}}$ (External Field)&lt;/strong&gt;: The electric field applied from outside the dielectric, typically produced by free charges (e.g., on capacitor plates), before considering the dielectric response.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;$E_{\text{pol}}$ (Polarization Field)&lt;/strong&gt;: The electric field arising from the polarized bound charges within the dielectric material; it generally opposes the external field.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;$E_{\text{local}}$ (Local Field)&lt;/strong&gt;: The actual microscopic electric field experienced by an individual molecule or atom, including contributions from both the external field and nearby polarized molecules.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:

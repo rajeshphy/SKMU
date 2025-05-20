@@ -28,6 +28,10 @@ tags: SEM-IV
   $$
   \vec{P} = \varepsilon_0 \chi_e \vec{E}
   $$
+-	**$E$ (Macroscopic Electric Field)**: The average electric field in the dielectric material due to both external sources and the material’s polarization.
+-	**$E_{\text{ext}}$ (External Field)**: The electric field applied from outside the dielectric, typically produced by free charges (e.g., on capacitor plates), before considering the dielectric response.
+- **$E_{\text{pol}}$ (Polarization Field)**: The electric field arising from the polarized bound charges within the dielectric material; it generally opposes the external field.
+-	**$E_{\text{local}}$ (Local Field)**: The actual microscopic electric field experienced by an individual molecule or atom, including contributions from both the external field and nearby polarized molecules.
 
 ---
 
@@ -235,10 +239,7 @@ The **mechanisms of polarization** include:
 **Key Concepts / Definitions**:
 - **Polarizability ($\alpha$)**: The measure of how easily an electron cloud of a molecule is distorted by an external electric field.
 - **Number Density ($N$)**: Number of molecules per unit volume in the dielectric material.
--	**$E$ (Macroscopic Electric Field)**: The average electric field in the dielectric material due to both external sources and the material’s polarization.
--	**$E_{\text{ext}}$ (External Field)**: The electric field applied from outside the dielectric, typically produced by free charges (e.g., on capacitor plates), before considering the dielectric response.
-- **$E_{\text{pol}}$ (Polarization Field)**: The electric field arising from the polarized bound charges within the dielectric material; it generally opposes the external field.
--	**$E_{\text{local}}$ (Local Field)**: The actual microscopic electric field experienced by an individual molecule or atom, including contributions from both the external field and nearby polarized molecules.
+
 
 **Theory and Explanation**:
 The **Clausius-Mossotti equation** connects the **microscopic property** of molecules (polarizability $\alpha$) with the **macroscopic property** of the dielectric (relative permittivity $\epsilon_r$).
