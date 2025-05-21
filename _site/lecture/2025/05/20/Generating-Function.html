@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<!--
+    Basically Basic Jekyll Theme 1.4.5
+    Copyright 2017-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes">
+
+  
+    
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Generating Function | Rajesh Kumar</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Generating Function" />
+<meta name="author" content="Rajesh Kumar" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Learning Objectives:" />
+<meta property="og:description" content="Learning Objectives:" />
+<link rel="canonical" href="http://localhost:4000/SKMU/lecture/2025/05/20/Generating-Function.html" />
+<meta property="og:url" content="http://localhost:4000/SKMU/lecture/2025/05/20/Generating-Function.html" />
+<meta property="og:site_name" content="Rajesh Kumar" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-05-20T11:47:26+05:30" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Rajesh Kumar"},"url":"http://localhost:4000/SKMU/lecture/2025/05/20/Generating-Function.html","description":"Learning Objectives:","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/SKMU/assets/icons/logo.png"},"name":"Rajesh Kumar"},"headline":"Generating Function","dateModified":"2025-05-20T11:47:26+05:30","datePublished":"2025-05-20T11:47:26+05:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/SKMU/lecture/2025/05/20/Generating-Function.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+
+  <!-- Include Mermaid.js from a CDN -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+
+  <!-- Math JX -->
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+  </script>
+
+  
+  <script type="text/javascript">
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        macros: {
+          bra: ["{\\langle #1 \\vert}", 1],
+          ket: ["{\\vert #1 \\rangle}", 1],
+          braket: ["{\\langle #1 \\vert #2 \\rangle}", 2],
+          brakett: ["{\\langle #1 \\vert #2 \\vert #3 \\rangle}", 3]
+        },
+        tags: 'ams' // Enable AMS-style equation numbering
+
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+
+  
+
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="/SKMU/assets/stylesheets/main.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Radio+Canada+Big:400,400i,600,600i">
+  
+
+  
+    
+    <link rel="alternate" type="application/atom+xml" title="Rajesh Kumar" href="https://rajeshphy.github.io/">
+  
+  <meta name="google-site-verification" content="ONNy_6CkGORdDQ9whxpp_EIkMC_mXOohCfdkEK1zAM8" />
+</head>
+
+
+  <body class="layout--post generating-function">
+
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+
+    <div class="sidebar-toggle-wrapper">
+      
+        <button class="search-toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <title>Search</title>
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+      
+
+      <button class="toggle navicon-button larr" type="button">
+        <span class="toggle-inner">
+          <span class="sidebar-toggle-label visually-hidden">Menu</span>
+          <span class="navicon"></span>
+        </span>
+      </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <div class="inner">
+        <nav id="primary-nav" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul id="menu-main-navigation" class="menu">
+    <!-- Home link -->
+    <li class="menu-item">
+      <a href="/SKMU/" itemprop="url">
+        <span itemprop="name">Home</span>
+      </a>
+    </li>
+
+    <!-- site.pages links -->
+    
+    
+
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/SKMU/posts/" itemprop="url">
+            <span itemprop="name">Posts</span>
+          </a>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+        <ul class="contact-list">
+  
+    <li>
+      <a href="mailto:kr.rajesh.phy@gmail.com">
+        <span class="icon icon--email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="313.1 3.7 16 16"><path d="M318.5 8.9c0-.2.2-.4.4-.4h4.5c.2 0 .4.2.4.4s-.2.4-.4.4h-4.5c-.3 0-.4-.2-.4-.4zm.4 2.1h4.5c.2 0 .4-.2.4-.4s-.2-.4-.4-.4h-4.5c-.2 0-.4.2-.4.4s.1.4.4.4zm3.5 1.2c0-.2-.2-.4-.4-.4h-3.1c-.2 0-.4.2-.4.4s.2.4.4.4h3.1c.2.1.4-.1.4-.4zm-1.5-8.4l-1.7 1.4c-.2.1-.2.4 0 .6s.4.2.6 0l1.4-1.2 1.4 1.2c.2.1.4.1.6 0s.1-.4 0-.6l-1.7-1.4c-.3-.1-.5-.1-.6 0zm7.8 6.2c.1.1.1.2.1.3v7.9c0 .8-.7 1.5-1.5 1.5h-12.5c-.8 0-1.5-.7-1.5-1.5v-7.9c0-.1.1-.2.1-.3l1.6-1.3c.2-.1.4-.1.6 0s.1.4 0 .6l-1.2 1 1.8 1.3v-4c0-.6.5-1.1 1.1-1.1h7.5c.6 0 1.1.5 1.1 1.1v4l1.8-1.3-1.2-1c-.2-.1-.2-.4 0-.6s.4-.2.6 0l1.6 1.3zm-11.6 2.2l4 2.8 4-2.8V7.6c0-.1-.1-.2-.2-.2h-7.5c-.1 0-.2.1-.2.2v4.6zm10.9-1l-4.7 3.4 3.4 2.6c.2.1.2.4.1.6-.1.2-.4.2-.6.1l-3.6-2.8-1.2.8c-.1.1-.3.1-.5 0l-1.2-.8-3.6 2.8c-.2.1-.4.1-.6-.1-.1-.2-.1-.4.1-.6l3.4-2.6-4.7-3.4v7.1c0 .4.3.6.6.6h12.5c.4 0 .6-.3.6-.6v-7.1z"/></svg></span>
+        <span class="label">Email</span>
+      </a>
+    </li>
+  
+
+  
+
+  
+
+  <li>
+    
+      <a href="https://rajeshphy.github.io/" title="Atom Feed">
+        <span class="icon icon--rss"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194 11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0 13.806c0-1.21.983-2.195 2.194-2.195zM10.606 16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"/></svg></span>
+        <span class="label">Subscribe</span>
+      </a>
+    
+  </li>
+</ul>
+
+      </div>
+    </div>
+
+    <div class="canvas">
+      <div class="wrapper">
+        
+
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      
+        <p class="site-title">
+          <a href="/SKMU/">
+            <img src="/SKMU/assets/icons/logo.png" alt="" class="site-logo">
+            <span>Rajesh Kumar</span>
+          </a>
+        </p>
+      
+    </div>
+  </div>
+</header>
+
+        <div class="initial-content">
+          <header class="intro">
+  
+
+  <div class="inner">
+    <div class="intro-text">
+      <h1 id="page-title" class="intro-title">Generating Function
+</h1>
+      
+
+      
+        
+
+
+        <p class="entry-meta">
+          <span class="byline-item">by Rajesh Kumar</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2025-05-20T11:47:26+05:30">May 20, 2025</time></span> <span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="15 309.7 16 16"><g><path d="M23.9 315.1v3.6c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-3.6h1.8z"/><path d="M30.1 317.7c.5 3.9-2.3 7.5-6.2 7.9-3.9.5-7.5-2.3-7.9-6.2-.5-3.9 2.3-7.5 6.2-7.9v-1.8H24v1.8c1.1.1 2.7.7 3.5 1.4l1.3-1.3 1.3 1.3-1.3 1.3c.5.9 1.2 2.5 1.3 3.5zm-1.8.9c0-2.9-2.4-5.3-5.3-5.3s-5.3 2.4-5.3 5.3 2.4 5.3 5.3 5.3 5.3-2.3 5.3-5.3z"/></g></svg></span>7 min read</span>
+        </p>
+      
+
+      
+
+      
+    </div>
+  </div>
+</header>
+
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        <p><strong><span style="color:darkred">Learning Objectives</span></strong>:</p>
+
+<ul>
+  <li>Understand the concept and purpose of canonical transformations in Hamiltonian mechanics.</li>
+  <li>Learn how generating functions facilitate canonical transformations.</li>
+  <li>Explore the role of infinitesimal generators in describing symmetries and conserved quantities.</li>
+  <li>Establish a foundation for understanding Hamilton-Jacobi theory.</li>
+</ul>
+
+<hr />
+
+<h2 id="key-concepts--definitions"><strong>Key Concepts / Definitions</strong></h2>
+
+<ul>
+  <li><strong>Canonical Transformation</strong>: A transformation from old variables $(q, p)$ to new variables $(Q, P)$ that preserves the form of Hamilton’s equations.</li>
+  <li><strong>Generating Function</strong>: A function that defines a canonical transformation by connecting old and new variables.</li>
+  <li><strong>Infinitesimal Generator</strong>: A function that produces infinitesimal canonical transformations; often linked to symmetries and conserved quantities.</li>
+</ul>
+
+<hr />
+
+<h2 id="canonical-transformations"><strong>Canonical Transformations</strong></h2>
+
+<p>Canonical transformations simplify problems in Hamiltonian mechanics by transforming to new variables $(Q, P)$ that preserve the structure of Hamilton’s equations:</p>
+
+\[\dot{q} = \frac{\partial H}{\partial p}, \quad \dot{p} = -\frac{\partial H}{\partial q}
+\quad \Rightarrow \quad
+\dot{Q} = \frac{\partial K}{\partial P}, \quad \dot{P} = -\frac{\partial K}{\partial Q}\]
+
+<p>Here, $K(Q, P, t)$ is the new Hamiltonian in terms of transformed variables.</p>
+
+<h2 id="generating-functions-of-canonical-transformations"><strong>Generating Functions of Canonical Transformations</strong></h2>
+
+<p>A generating function $F$ allows us to define a canonical transformation in such a way that the new coordinates $(Q, P)$ are derived systematically from the old ones $(q, p)$.</p>
+
+<p>The key identity is:</p>
+
+\[p \, dq - P \, dQ = dF\]
+
+<p>This implies the <strong>transformation is symplectic</strong>, meaning it preserves the area in phase space:</p>
+
+\[\int_C p \, dq = \int_{C'} P \, dQ\]
+
+<p>Using different choices of independent variables in $F$, we define four standard types of generating functions.</p>
+
+<p>In Hamiltonian mechanics, <strong>generating functions</strong> define canonical transformations and can be written in different forms depending on the choice of independent variables. The four standard types — $F_1$, $F_2$, $F_3$, and $F_4$ — are <strong>interrelated via Legendre transformations</strong>, which exchange variables in a controlled manner.</p>
+
+<p>We begin with <strong>Type I</strong>: $F_1(q, Q)$ and obtain the others by performing <strong>Legendre transformations</strong> with respect to $q$, $Q$, or both.</p>
+
+<h4 id="type-i-f_1q-q"><strong>Type I</strong>: $F_1(q, Q)$</h4>
+
+<p>This is the fundamental generating function from which others can be derived. It depends on the old coordinate $q$ and the new coordinate $Q$.</p>
+
+<p>From the differential identity:</p>
+
+\[dF_1 = p \, dq - P \, dQ\]
+
+<p>We read off:</p>
+
+\[p = \frac{\partial F_1}{\partial q}, \quad
+P = -\frac{\partial F_1}{\partial Q}\]
+
+<h4 id="type-ii-f_2q-p"><strong>Type II</strong>: $F_2(q, P)$</h4>
+
+<p>To eliminate the new coordinate $Q$ and introduce the new momentum $P$, we perform a Legendre transformation of $F_1$ with respect to $Q$:</p>
+
+\[F_2(q, P) = F_1(q, Q) + P Q\]
+
+<p>Differentiating:</p>
+
+\[dF_2 = dF_1 + P \, dQ + Q \, dP = p \, dq + Q \, dP\]
+
+<p>Therefore:</p>
+
+\[p = \frac{\partial F_2}{\partial q}, \quad
+Q = \frac{\partial F_2}{\partial P}\]
+
+<h4 id="type-iii-f_3p-q"><strong>Type III</strong>: $F_3(p, Q)$</h4>
+
+<p>To express the generating function in terms of the old momentum $p$ and new coordinate $Q$, we Legendre transform $F_1$ with respect to $q$:</p>
+
+\[F_3(p, Q) = F_1(q, Q) - p q\]
+
+<p>Differentiating:</p>
+
+\[dF_3 = dF_1 - p \, dq - q \, dp = -P \, dQ - q \, dp\]
+
+<p>So we obtain:</p>
+
+\[q = -\frac{\partial F_3}{\partial p}, \quad
+P = -\frac{\partial F_3}{\partial Q}\]
+
+<h4 id="type-iv-f_4p-p"><strong>Type IV</strong>: $F_4(p, P)$</h4>
+
+<p>This form uses both momenta, old and new. It is obtained by Legendre transforming $F_1$ with respect to both $q$ and $Q$:</p>
+
+\[F_4(p, P) = F_1(q, Q) - p q + P Q\]
+
+<p>Differentiating:</p>
+
+\[dF_4 = dF_1 - p \, dq - q \, dp + P \, dQ + Q \, dP = -q \, dp + Q \, dP\]
+
+<p>Hence:</p>
+
+\[q = -\frac{\partial F_4}{\partial p}, \quad
+Q = \frac{\partial F_4}{\partial P}\]
+
+<hr />
+
+<h3 id="-summary-table">🔁 Summary Table</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Generating Function</th>
+      <th>Relations</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>I</td>
+      <td>$F_1(q, Q)$</td>
+      <td>$p = \frac{\partial F_1}{\partial q}, \quad P = -\frac{\partial F_1}{\partial Q}$</td>
+    </tr>
+    <tr>
+      <td>II</td>
+      <td>$F_2(q, P)$</td>
+      <td>$p = \frac{\partial F_2}{\partial q}, \quad Q = \frac{\partial F_2}{\partial P}$</td>
+    </tr>
+    <tr>
+      <td>III</td>
+      <td>$F_3(p, Q)$</td>
+      <td>$q = -\frac{\partial F_3}{\partial p}, \quad P = -\frac{\partial F_3}{\partial Q}$</td>
+    </tr>
+    <tr>
+      <td>IV</td>
+      <td>$F_4(p, P)$</td>
+      <td>$q = -\frac{\partial F_4}{\partial p}, \quad Q = \frac{\partial F_4}{\partial P}$</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="infinitesimal-canonical-transformations"><strong>Infinitesimal Canonical Transformations</strong></h3>
+
+<p>For small transformations generated by a function $G(q, p)$:</p>
+
+\[\delta q = \epsilon \{q, G\} = \epsilon \frac{\partial G}{\partial p}, \quad
+\delta p = \epsilon \{p, G\} = -\epsilon \frac{\partial G}{\partial q}\]
+
+<p>Here, $\epsilon$ is a small parameter. If $\{G, H\} = 0$, then $G$ is conserved and the transformation is a symmetry of the system.</p>
+
+<h3 id="-relation-between-hamiltonian-and-generating-function">🔗 Relation Between Hamiltonian and Generating Function</h3>
+
+<p>In classical mechanics, a <strong>generating function</strong> defines a <strong>canonical transformation</strong>, which maps one set of canonical variables $(q, p)$ to another $(Q, P)$, preserving the form of Hamilton’s equations.</p>
+
+<p>We now explore how the <strong>Hamiltonian</strong> is related to the <strong>generating function</strong>, starting from the action integral.</p>
+
+<hr />
+
+<h4 id="-the-action-integral">🧭 The Action Integral</h4>
+
+<p>The action in Hamiltonian mechanics is:</p>
+
+\[S = \int_{t_1}^{t_2} \left( p \, \dot{q} - H(q, p, t) \right) dt\]
+
+<p>If we perform a <strong>canonical transformation</strong> from $(q, p)$ to $(Q, P)$, the action becomes:</p>
+
+\[S' = \int_{t_1}^{t_2} \left( P \, \dot{Q} - K(Q, P, t) \right) dt\]
+
+<p>Here, $K$ is the <strong>new Hamiltonian</strong> in the transformed variables.</p>
+
+<hr />
+
+<h4 id="-inserting-the-generating-function">🔄 Inserting the Generating Function</h4>
+
+<p>Let the transformation be generated by a function $F_1(q, Q, t)$ of type I. The <strong>total differential</strong> of $F_1$ is:</p>
+
+\[dF_1 = \frac{\partial F_1}{\partial q} dq + \frac{\partial F_1}{\partial Q} dQ + \frac{\partial F_1}{\partial t} dt\]
+
+<p>We want to preserve the action up to a total derivative:</p>
+
+\[\int \left( p \, \dot{q} - H \right) dt \quad \longrightarrow \quad \int \left( P \, \dot{Q} - K \right) dt\]
+
+<p>To ensure the equations of motion remain invariant, the two Lagrangian forms should differ by an <strong>exact differential</strong>:</p>
+
+\[p \, dq - H \, dt = P \, dQ - K \, dt + dF_1\]
+
+<p>Here, $F_1$ is some <strong>function of the canonical variables</strong> (possibly also of time), whose <strong>total differential</strong> $dF_1$ adjusts for the change of variables.</p>
+
+<hr />
+
+<h4 id="-matching-terms">📌 Matching Terms</h4>
+
+<p>From the differential identity:</p>
+
+\[p \, dq - H \, dt = P \, dQ - K \, dt + \frac{\partial F_1}{\partial q} dq + \frac{\partial F_1}{\partial Q} dQ + \frac{\partial F_1}{\partial t} dt\]
+
+<p>Group terms:</p>
+
+<ul>
+  <li>Coefficients of $dq$: $p = \frac{\partial F_1}{\partial q}$</li>
+  <li>Coefficients of $dQ$: $P = -\frac{\partial F_1}{\partial Q}$</li>
+  <li>
+    <p>Coefficients of $dt$:</p>
+
+\[-H = -K + \frac{\partial F_1}{\partial t} \quad \Rightarrow \quad K = H + \frac{\partial F_1}{\partial t}\]
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="bridge-to-hamilton-jacobi-theory"><strong>Bridge to Hamilton-Jacobi Theory</strong></h2>
+
+<p>By appropriately choosing a generating function, we can transform a complicated Hamiltonian system into a simpler one—ideally into a system where the new Hamiltonian $K$ is zero or depends only on momenta, which allows direct integration.</p>
+
+<p>This motivates the transition to <strong>Hamilton-Jacobi Theory</strong>.</p>
+
+<p>The Hamilton-Jacobi theory arises from seeking a generating function (typically of Type II) that <strong>completely solves the equations of motion</strong>.</p>
+
+<p>Let us consider a generating function of Type II: $F_2(q, P, t)$, and define it as <strong>Hamilton’s Principal Function</strong>:</p>
+
+\[S(q, P, t) = F_2(q, P, t)\]
+
+<p>From this function, the transformation equations are:</p>
+
+\[p_i = \frac{\partial S}{\partial q_i}, \quad Q_i = \frac{\partial S}{\partial P_i}\]
+
+<p>If we desire the new Hamiltonian $K(Q, P, t) = 0$, then from the relation:</p>
+
+\[K = H(q, p, t) + \frac{\partial S}{\partial t}\]
+
+<p>and substituting $p_i = \frac{\partial S}{\partial q_i}$, we obtain the <strong>Hamilton-Jacobi Equation</strong>:</p>
+
+\[H\left(q_1, \dots, q_n, \frac{\partial S}{\partial q_1}, \dots, \frac{\partial S}{\partial q_n}, t \right)
++ \frac{\partial S}{\partial t} = 0\]
+
+<p>Solving this <strong>partial differential equation</strong> gives us the principal function $S(q, P, t)$, which contains complete information about the system’s dynamics.</p>
+
+<hr />
+
+<h2 id="solved-examples"><strong>Solved Examples</strong></h2>
+
+<ul>
+  <li>
+    <p><strong>Example 1</strong>:<br />
+Show that the transformation defined by $F_2(q, P) = \frac{1}{2}mq^2 \cot P$ is canonical.<br />
+<strong>Solution</strong>:<br />
+\(p = \frac{\partial F_2}{\partial q} = mq \cot P, \quad
+Q = \frac{\partial F_2}{\partial P} = -\frac{1}{2}mq^2 \csc^2 P\)<br />
+The transformation is canonical as it preserves Poisson brackets.</p>
+  </li>
+  <li>
+    <p><strong>Example 2</strong>:<br />
+Use an infinitesimal generator $G = q$ to find the transformation of $q$ and $p$.
+\(\delta q = \epsilon \{q, q\} = 0, \quad \delta p = \epsilon \{p, q\} = -\epsilon\)</p>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="important-points--summary"><strong>Important Points / Summary</strong></h2>
+
+<ul>
+  <li>Canonical transformations preserve the form of Hamilton’s equations.</li>
+  <li>Generating functions provide a practical way to define canonical transformations.</li>
+  <li>Infinitesimal generators correspond to conserved quantities and symmetries.</li>
+  <li>The Hamilton-Jacobi theory uses generating functions to reduce dynamics to solving a PDE.</li>
+</ul>
+
+<hr />
+
+<h2 id="practice-questions"><strong>Practice Questions</strong></h2>
+
+<p><strong>Short Answer</strong>:</p>
+<ol>
+  <li>Define a canonical transformation with an example.</li>
+  <li>Explain the role of generating functions in canonical transformations.</li>
+  <li>How is the Hamilton-Jacobi equation related to generating functions?</li>
+</ol>
+
+<p><strong>Numerical</strong>:</p>
+<ol>
+  <li>Show that $F_1(q, Q) = qQ$ defines a canonical transformation and compute $p$, $P$.</li>
+  <li>Let $G = pq$ be an infinitesimal generator. Find $\delta q$ and $\delta p$.</li>
+</ol>
+
+<p><strong>MCQs</strong>:</p>
+<ol>
+  <li>Which of the following is <em>not</em> a valid type of generating function?
+    <ul>
+      <li>(a) $F_1(q, Q)$</li>
+      <li>(b) $F_2(q, P)$</li>
+      <li>(c) $F_5(q, p)$</li>
+      <li>(d) $F_4(p, P)$</li>
+    </ul>
+  </li>
+  <li>An infinitesimal generator $G$ leads to a conserved quantity if:
+    <ul>
+      <li>(a) ${G, H} = 0$</li>
+      <li>(b) $G$ is a function of time only</li>
+      <li>(c) ${G, G} = 1$</li>
+      <li>(d) $G$ commutes with all coordinates</li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+
+      </div>
+      
+    </article>
+  </div>
+</main>
+
+        </div>
+
+        <div class="search-content">
+          <div class="inner">
+  <label class="visually-hidden" for="search">Site Search</label>
+        <input type="text" id="search" class="search-input" aria-describedby="results-count" tabindex="-1" placeholder="Enter your search term..." />
+        <div id="results" class="results"></div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="site-footer">
+  <div class="inner">
+    <div class="copyright">
+      
+        <p>&copy; 2025 Rajesh Kumar.</p>
+      
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async src="/SKMU/assets/javascripts/main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="http://localhost:4000/SKMU/assets/javascripts/lunr/lunr.min.js"></script>
+  <script src="http://localhost:4000/SKMU/assets/javascripts/lunr/lunr.store.js"></script>
+  <script>
+    var idx = lunr(function () {
+      
+      // the, the normal lunr index initialization
+      this.field('title')
+      this.field('excerpt')
+      this.field('categories')
+      this.field('tags')
+      this.ref('id')
+
+      this.pipeline.remove(lunr.trimmer)
+
+      // add documents to index
+      for (var item in store) {
+        this.add({
+          title: store[item].title,
+          excerpt: store[item].excerpt,
+          categories: store[item].categories,
+          tags: store[item].tags,
+          id: item
+        })
+      }
+    });
+
+    $(document).ready(function () {
+      $('input#search').on('keyup', function () {
+        var resultdiv = $('#results');
+        var query = $(this).val().toLowerCase();
+        var result =
+          idx.query(function (q) {
+            query.split(lunr.tokenizer.separator).forEach(function (term) {
+              q.term(term, { boost: 100 })
+              if (query.lastIndexOf(" ") != query.length - 1) {
+                q.term(term, { usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 })
+              }
+              if (term != "") {
+                q.term(term, { usePipeline: false, editDistance: 1, boost: 1 })
+              }
+            })
+          });
+        resultdiv.empty();
+        resultdiv.prepend('<p id="results-count" class="results-found">' + result.length + ' Result(s) found</p>');
+        for (var item in result) {
+          var ref = result[item].ref;
+          var searchitem =
+            '<article class="entry">' +
+              '<h3 class="entry-title">' +
+                '<a href="' + store[ref].url + '">' + store[ref].title + '</a>' +
+              '</h3>' +
+              '<div class="entry-excerpt">' +
+                '<p>' + store[ref].excerpt.split(" ").splice(0, 20).join(" ") + '...</p>' +
+              '</div>' +
+            '</article>';
+          resultdiv.append(searchitem);
+        }
+      });
+    });
+  </script>
+
+
+
+  </body>
+
+</html>

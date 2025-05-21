@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-20T15:22:30+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Hamilton–Jacobi Equation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory.html" rel="alternate" type="text/html" title="Hamilton–Jacobi Equation" /><published>2025-05-20T09:47:26+05:30</published><updated>2025-05-20T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory.html">&lt;h2 id=&quot;hamiltonjacobi-equation-with-example-of-harmonic-oscillator&quot;&gt;Hamilton–Jacobi Equation with Example of Harmonic Oscillator&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-21T22:05:08+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Hamilton–Jacobi Equation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory.html" rel="alternate" type="text/html" title="Hamilton–Jacobi Equation" /><published>2025-05-20T11:55:26+05:30</published><updated>2025-05-20T11:55:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory.html">&lt;h2 id=&quot;hamiltonjacobi-equation-with-example-of-harmonic-oscillator&quot;&gt;Hamilton–Jacobi Equation with Example of Harmonic Oscillator&lt;/h2&gt;
 
 &lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -104,6 +104,12 @@
 
 \[\frac{\partial S}{\partial E} = \text{constant} = \beta\]
 
+    &lt;p&gt;The statement “$\partial S / \partial E$ is constant” means:&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Along a trajectory governed by the Hamilton-Jacobi equation, if you consider S = W - E t, then the change in S with respect to E is linear in time and independent of q, so its partial derivative with respect to E is constant.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
     &lt;p&gt;So,&lt;/p&gt;
 
 \[\frac{\partial W}{\partial E} - t = \beta\]
@@ -174,7 +180,574 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Hamilton–Jacobi Equation with Example of Harmonic Oscillator</summary></entry><entry><title type="html">Hamilton Equation of Motion</title><link href="http://localhost:4000/SKMU/lecture/2025/05/20/Hamilton-Equation.html" rel="alternate" type="text/html" title="Hamilton Equation of Motion" /><published>2025-05-20T09:10:26+05:30</published><updated>2025-05-20T09:10:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/20/Hamilton-Equation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/20/Hamilton-Equation.html">&lt;h1 id=&quot;hamiltons-equations-of-motion&quot;&gt;Hamilton’s Equations of Motion&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;p&gt;Few more examples:&lt;/p&gt;
+
+&lt;p&gt;🧭 Example 1: One-Dimensional Free Particle&lt;/p&gt;
+
+&lt;p&gt;Hamiltonian&lt;/p&gt;
+
+\[H = \frac{p^2}{2m}\]
+
+&lt;p&gt;Hamilton–Jacobi Equation&lt;/p&gt;
+
+\[\frac{1}{2m} \left( \frac{\partial S}{\partial q} \right)^2 + \frac{\partial S}{\partial t} = 0\]
+
+&lt;p&gt;Solution&lt;/p&gt;
+
+&lt;p&gt;Assume a separable solution:
+$S(q, \alpha, t) = W(q, \alpha) - \alpha t$ where $\alpha$ is the separation constant (i.e., energy).&lt;/p&gt;
+
+&lt;p&gt;Then:&lt;/p&gt;
+
+\[\frac{1}{2m} \left( \frac{dW}{dq} \right)^2 = \alpha \Rightarrow \frac{dW}{dq} = \sqrt{2m\alpha}\]
+
+&lt;p&gt;Integrating:&lt;/p&gt;
+
+\[W(q, \alpha) = \sqrt{2m\alpha} \cdot q\]
+
+&lt;p&gt;Hence,&lt;/p&gt;
+
+\[S(q, \alpha, t) = \sqrt{2m\alpha} \cdot q - \alpha t\]
+
+&lt;p&gt;Equation of Motion&lt;/p&gt;
+
+&lt;p&gt;To obtain the trajectory:&lt;/p&gt;
+
+\[\beta = \frac{\partial S}{\partial \alpha} = \frac{q}{\sqrt{2m\alpha}} - t\]
+
+&lt;p&gt;Solving for $q(t)$:&lt;/p&gt;
+
+\[q(t) = \sqrt{2m\alpha}(t + \beta)\]
+
+&lt;p&gt;This represents uniform motion: $q(t) = v t + q_0$ where $v = \sqrt{2\alpha/m}$ and $q_0 = \sqrt{2m\alpha} \cdot \beta$.&lt;/p&gt;
+
+&lt;p&gt;🧲 Example 2: Particle in a Central Potential&lt;/p&gt;
+
+&lt;p&gt;(Coulomb potential: $V(r) = -\dfrac{k}{r}$)&lt;/p&gt;
+
+&lt;p&gt;Hamiltonian (in spherical coordinates)&lt;/p&gt;
+
+\[H = \frac{1}{2m} \left( p_r^2 + \frac{p_\theta^2}{r^2} + \frac{p_\phi^2}{r^2 \sin^2\theta} \right) - \frac{k}{r}\]
+
+&lt;p&gt;Hamilton–Jacobi Equation&lt;/p&gt;
+
+&lt;p&gt;Assume:&lt;/p&gt;
+
+\[S(t, r, \theta, \phi) = -Et + S_r(r) + S_\theta(\theta) + S_\phi(\phi)\]
+
+&lt;p&gt;Then:&lt;/p&gt;
+
+\[\frac{1}{2m} \left[ \left( \frac{dS_r}{dr} \right)^2 + \frac{1}{r^2} \left( \left( \frac{dS_\theta}{d\theta} \right)^2 + \frac{1}{\sin^2\theta} \left( \frac{dS_\phi}{d\phi} \right)^2 \right) \right] - \frac{k}{r} = E\]
+
+&lt;p&gt;Let:
+	•	$\dfrac{dS_\phi}{d\phi} = p_\phi = l_z$
+	•	Introduce a constant $l$ such that the total angular part becomes $l^2$&lt;/p&gt;
+
+&lt;p&gt;Then:&lt;/p&gt;
+
+\[S_\phi = l_z \phi, \quad S_\theta = \int \sqrt{l^2 - \frac{l_z^2}{\sin^2\theta}} , d\theta\]
+
+&lt;p&gt;For radial part:&lt;/p&gt;
+
+\[\left( \frac{dS_r}{dr} \right)^2 = 2mE + \frac{2mk}{r} - \frac{l^2}{r^2}\]
+
+&lt;p&gt;So:&lt;/p&gt;
+
+\[S_r = \int \sqrt{2mE + \frac{2mk}{r} - \frac{l^2}{r^2}} , dr\]
+
+&lt;p&gt;Final Form of Action&lt;/p&gt;
+
+\[S(t, r, \theta, \phi) = -Et + \int \sqrt{2mE + \frac{2mk}{r} - \frac{l^2}{r^2}} , dr + \int \sqrt{l^2 - \frac{l_z^2}{\sin^2\theta}} , d\theta + l_z \phi\]
+
+&lt;p&gt;Equation of Orbit&lt;/p&gt;
+
+&lt;p&gt;Solving the above gives elliptical orbits:&lt;/p&gt;
+
+\[r(\phi) = \frac{a(1 - e^2)}{1 + e \cos \phi}\]
+
+&lt;p&gt;with
+	•	$a$ = semi-major axis
+	•	$e$ = eccentricity&lt;/p&gt;
+
+&lt;p&gt;This recovers Kepler’s laws.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Hamilton–Jacobi Equation with Example of Harmonic Oscillator</summary></entry><entry><title type="html">Generating Function</title><link href="http://localhost:4000/SKMU/lecture/2025/05/20/Generating-Function.html" rel="alternate" type="text/html" title="Generating Function" /><published>2025-05-20T11:47:26+05:30</published><updated>2025-05-20T11:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/20/Generating-Function</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/20/Generating-Function.html">&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:darkred&quot;&gt;Learning Objectives&lt;/span&gt;&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Understand the concept and purpose of canonical transformations in Hamiltonian mechanics.&lt;/li&gt;
+  &lt;li&gt;Learn how generating functions facilitate canonical transformations.&lt;/li&gt;
+  &lt;li&gt;Explore the role of infinitesimal generators in describing symmetries and conserved quantities.&lt;/li&gt;
+  &lt;li&gt;Establish a foundation for understanding Hamilton-Jacobi theory.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;key-concepts--definitions&quot;&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Canonical Transformation&lt;/strong&gt;: A transformation from old variables $(q, p)$ to new variables $(Q, P)$ that preserves the form of Hamilton’s equations.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Generating Function&lt;/strong&gt;: A function that defines a canonical transformation by connecting old and new variables.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Infinitesimal Generator&lt;/strong&gt;: A function that produces infinitesimal canonical transformations; often linked to symmetries and conserved quantities.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;canonical-transformations&quot;&gt;&lt;strong&gt;Canonical Transformations&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Canonical transformations simplify problems in Hamiltonian mechanics by transforming to new variables $(Q, P)$ that preserve the structure of Hamilton’s equations:&lt;/p&gt;
+
+\[\dot{q} = \frac{\partial H}{\partial p}, \quad \dot{p} = -\frac{\partial H}{\partial q}
+\quad \Rightarrow \quad
+\dot{Q} = \frac{\partial K}{\partial P}, \quad \dot{P} = -\frac{\partial K}{\partial Q}\]
+
+&lt;p&gt;Here, $K(Q, P, t)$ is the new Hamiltonian in terms of transformed variables.&lt;/p&gt;
+
+&lt;h2 id=&quot;generating-functions-of-canonical-transformations&quot;&gt;&lt;strong&gt;Generating Functions of Canonical Transformations&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;A generating function $F$ allows us to define a canonical transformation in such a way that the new coordinates $(Q, P)$ are derived systematically from the old ones $(q, p)$.&lt;/p&gt;
+
+&lt;p&gt;The key identity is:&lt;/p&gt;
+
+\[p \, dq - P \, dQ = dF\]
+
+&lt;p&gt;This implies the &lt;strong&gt;transformation is symplectic&lt;/strong&gt;, meaning it preserves the area in phase space:&lt;/p&gt;
+
+\[\int_C p \, dq = \int_{C&apos;} P \, dQ\]
+
+&lt;p&gt;Using different choices of independent variables in $F$, we define four standard types of generating functions.&lt;/p&gt;
+
+&lt;p&gt;In Hamiltonian mechanics, &lt;strong&gt;generating functions&lt;/strong&gt; define canonical transformations and can be written in different forms depending on the choice of independent variables. The four standard types — $F_1$, $F_2$, $F_3$, and $F_4$ — are &lt;strong&gt;interrelated via Legendre transformations&lt;/strong&gt;, which exchange variables in a controlled manner.&lt;/p&gt;
+
+&lt;p&gt;We begin with &lt;strong&gt;Type I&lt;/strong&gt;: $F_1(q, Q)$ and obtain the others by performing &lt;strong&gt;Legendre transformations&lt;/strong&gt; with respect to $q$, $Q$, or both.&lt;/p&gt;
+
+&lt;h4 id=&quot;type-i-f_1q-q&quot;&gt;&lt;strong&gt;Type I&lt;/strong&gt;: $F_1(q, Q)$&lt;/h4&gt;
+
+&lt;p&gt;This is the fundamental generating function from which others can be derived. It depends on the old coordinate $q$ and the new coordinate $Q$.&lt;/p&gt;
+
+&lt;p&gt;From the differential identity:&lt;/p&gt;
+
+\[dF_1 = p \, dq - P \, dQ\]
+
+&lt;p&gt;We read off:&lt;/p&gt;
+
+\[p = \frac{\partial F_1}{\partial q}, \quad
+P = -\frac{\partial F_1}{\partial Q}\]
+
+&lt;h4 id=&quot;type-ii-f_2q-p&quot;&gt;&lt;strong&gt;Type II&lt;/strong&gt;: $F_2(q, P)$&lt;/h4&gt;
+
+&lt;p&gt;To eliminate the new coordinate $Q$ and introduce the new momentum $P$, we perform a Legendre transformation of $F_1$ with respect to $Q$:&lt;/p&gt;
+
+\[F_2(q, P) = F_1(q, Q) + P Q\]
+
+&lt;p&gt;Differentiating:&lt;/p&gt;
+
+\[dF_2 = dF_1 + P \, dQ + Q \, dP = p \, dq + Q \, dP\]
+
+&lt;p&gt;Therefore:&lt;/p&gt;
+
+\[p = \frac{\partial F_2}{\partial q}, \quad
+Q = \frac{\partial F_2}{\partial P}\]
+
+&lt;h4 id=&quot;type-iii-f_3p-q&quot;&gt;&lt;strong&gt;Type III&lt;/strong&gt;: $F_3(p, Q)$&lt;/h4&gt;
+
+&lt;p&gt;To express the generating function in terms of the old momentum $p$ and new coordinate $Q$, we Legendre transform $F_1$ with respect to $q$:&lt;/p&gt;
+
+\[F_3(p, Q) = F_1(q, Q) - p q\]
+
+&lt;p&gt;Differentiating:&lt;/p&gt;
+
+\[dF_3 = dF_1 - p \, dq - q \, dp = -P \, dQ - q \, dp\]
+
+&lt;p&gt;So we obtain:&lt;/p&gt;
+
+\[q = -\frac{\partial F_3}{\partial p}, \quad
+P = -\frac{\partial F_3}{\partial Q}\]
+
+&lt;h4 id=&quot;type-iv-f_4p-p&quot;&gt;&lt;strong&gt;Type IV&lt;/strong&gt;: $F_4(p, P)$&lt;/h4&gt;
+
+&lt;p&gt;This form uses both momenta, old and new. It is obtained by Legendre transforming $F_1$ with respect to both $q$ and $Q$:&lt;/p&gt;
+
+\[F_4(p, P) = F_1(q, Q) - p q + P Q\]
+
+&lt;p&gt;Differentiating:&lt;/p&gt;
+
+\[dF_4 = dF_1 - p \, dq - q \, dp + P \, dQ + Q \, dP = -q \, dp + Q \, dP\]
+
+&lt;p&gt;Hence:&lt;/p&gt;
+
+\[q = -\frac{\partial F_4}{\partial p}, \quad
+Q = \frac{\partial F_4}{\partial P}\]
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-summary-table&quot;&gt;🔁 Summary Table&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Type&lt;/th&gt;
+      &lt;th&gt;Generating Function&lt;/th&gt;
+      &lt;th&gt;Relations&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;I&lt;/td&gt;
+      &lt;td&gt;$F_1(q, Q)$&lt;/td&gt;
+      &lt;td&gt;$p = \frac{\partial F_1}{\partial q}, \quad P = -\frac{\partial F_1}{\partial Q}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;II&lt;/td&gt;
+      &lt;td&gt;$F_2(q, P)$&lt;/td&gt;
+      &lt;td&gt;$p = \frac{\partial F_2}{\partial q}, \quad Q = \frac{\partial F_2}{\partial P}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;III&lt;/td&gt;
+      &lt;td&gt;$F_3(p, Q)$&lt;/td&gt;
+      &lt;td&gt;$q = -\frac{\partial F_3}{\partial p}, \quad P = -\frac{\partial F_3}{\partial Q}$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;IV&lt;/td&gt;
+      &lt;td&gt;$F_4(p, P)$&lt;/td&gt;
+      &lt;td&gt;$q = -\frac{\partial F_4}{\partial p}, \quad Q = \frac{\partial F_4}{\partial P}$&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;infinitesimal-canonical-transformations&quot;&gt;&lt;strong&gt;Infinitesimal Canonical Transformations&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;For small transformations generated by a function $G(q, p)$:&lt;/p&gt;
+
+\[\delta q = \epsilon \{q, G\} = \epsilon \frac{\partial G}{\partial p}, \quad
+\delta p = \epsilon \{p, G\} = -\epsilon \frac{\partial G}{\partial q}\]
+
+&lt;p&gt;Here, $\epsilon$ is a small parameter. If $\{G, H\} = 0$, then $G$ is conserved and the transformation is a symmetry of the system.&lt;/p&gt;
+
+&lt;h3 id=&quot;-relation-between-hamiltonian-and-generating-function&quot;&gt;🔗 Relation Between Hamiltonian and Generating Function&lt;/h3&gt;
+
+&lt;p&gt;In classical mechanics, a &lt;strong&gt;generating function&lt;/strong&gt; defines a &lt;strong&gt;canonical transformation&lt;/strong&gt;, which maps one set of canonical variables $(q, p)$ to another $(Q, P)$, preserving the form of Hamilton’s equations.&lt;/p&gt;
+
+&lt;p&gt;We now explore how the &lt;strong&gt;Hamiltonian&lt;/strong&gt; is related to the &lt;strong&gt;generating function&lt;/strong&gt;, starting from the action integral.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;-the-action-integral&quot;&gt;🧭 The Action Integral&lt;/h4&gt;
+
+&lt;p&gt;The action in Hamiltonian mechanics is:&lt;/p&gt;
+
+\[S = \int_{t_1}^{t_2} \left( p \, \dot{q} - H(q, p, t) \right) dt\]
+
+&lt;p&gt;If we perform a &lt;strong&gt;canonical transformation&lt;/strong&gt; from $(q, p)$ to $(Q, P)$, the action becomes:&lt;/p&gt;
+
+\[S&apos; = \int_{t_1}^{t_2} \left( P \, \dot{Q} - K(Q, P, t) \right) dt\]
+
+&lt;p&gt;Here, $K$ is the &lt;strong&gt;new Hamiltonian&lt;/strong&gt; in the transformed variables.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;-inserting-the-generating-function&quot;&gt;🔄 Inserting the Generating Function&lt;/h4&gt;
+
+&lt;p&gt;Let the transformation be generated by a function $F_1(q, Q, t)$ of type I. The &lt;strong&gt;total differential&lt;/strong&gt; of $F_1$ is:&lt;/p&gt;
+
+\[dF_1 = \frac{\partial F_1}{\partial q} dq + \frac{\partial F_1}{\partial Q} dQ + \frac{\partial F_1}{\partial t} dt\]
+
+&lt;p&gt;We want to preserve the action up to a total derivative:&lt;/p&gt;
+
+\[\int \left( p \, \dot{q} - H \right) dt \quad \longrightarrow \quad \int \left( P \, \dot{Q} - K \right) dt\]
+
+&lt;p&gt;To ensure the equations of motion remain invariant, the two Lagrangian forms should differ by an &lt;strong&gt;exact differential&lt;/strong&gt;:&lt;/p&gt;
+
+\[p \, dq - H \, dt = P \, dQ - K \, dt + dF_1\]
+
+&lt;p&gt;Here, $F_1$ is some &lt;strong&gt;function of the canonical variables&lt;/strong&gt; (possibly also of time), whose &lt;strong&gt;total differential&lt;/strong&gt; $dF_1$ adjusts for the change of variables.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;-matching-terms&quot;&gt;📌 Matching Terms&lt;/h4&gt;
+
+&lt;p&gt;From the differential identity:&lt;/p&gt;
+
+\[p \, dq - H \, dt = P \, dQ - K \, dt + \frac{\partial F_1}{\partial q} dq + \frac{\partial F_1}{\partial Q} dQ + \frac{\partial F_1}{\partial t} dt\]
+
+&lt;p&gt;Group terms:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Coefficients of $dq$: $p = \frac{\partial F_1}{\partial q}$&lt;/li&gt;
+  &lt;li&gt;Coefficients of $dQ$: $P = -\frac{\partial F_1}{\partial Q}$&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Coefficients of $dt$:&lt;/p&gt;
+
+\[-H = -K + \frac{\partial F_1}{\partial t} \quad \Rightarrow \quad K = H + \frac{\partial F_1}{\partial t}\]
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;bridge-to-hamilton-jacobi-theory&quot;&gt;&lt;strong&gt;Bridge to Hamilton-Jacobi Theory&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;By appropriately choosing a generating function, we can transform a complicated Hamiltonian system into a simpler one—ideally into a system where the new Hamiltonian $K$ is zero or depends only on momenta, which allows direct integration.&lt;/p&gt;
+
+&lt;p&gt;This motivates the transition to &lt;strong&gt;Hamilton-Jacobi Theory&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Hamilton-Jacobi theory arises from seeking a generating function (typically of Type II) that &lt;strong&gt;completely solves the equations of motion&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let us consider a generating function of Type II: $F_2(q, P, t)$, and define it as &lt;strong&gt;Hamilton’s Principal Function&lt;/strong&gt;:&lt;/p&gt;
+
+\[S(q, P, t) = F_2(q, P, t)\]
+
+&lt;p&gt;From this function, the transformation equations are:&lt;/p&gt;
+
+\[p_i = \frac{\partial S}{\partial q_i}, \quad Q_i = \frac{\partial S}{\partial P_i}\]
+
+&lt;p&gt;If we desire the new Hamiltonian $K(Q, P, t) = 0$, then from the relation:&lt;/p&gt;
+
+\[K = H(q, p, t) + \frac{\partial S}{\partial t}\]
+
+&lt;p&gt;and substituting $p_i = \frac{\partial S}{\partial q_i}$, we obtain the &lt;strong&gt;Hamilton-Jacobi Equation&lt;/strong&gt;:&lt;/p&gt;
+
+\[H\left(q_1, \dots, q_n, \frac{\partial S}{\partial q_1}, \dots, \frac{\partial S}{\partial q_n}, t \right)
++ \frac{\partial S}{\partial t} = 0\]
+
+&lt;p&gt;Solving this &lt;strong&gt;partial differential equation&lt;/strong&gt; gives us the principal function $S(q, P, t)$, which contains complete information about the system’s dynamics.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;solved-examples&quot;&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
+Show that the transformation defined by $F_2(q, P) = \frac{1}{2}mq^2 \cot P$ is canonical.&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
+\(p = \frac{\partial F_2}{\partial q} = mq \cot P, \quad
+Q = \frac{\partial F_2}{\partial P} = -\frac{1}{2}mq^2 \csc^2 P\)&lt;br /&gt;
+The transformation is canonical as it preserves Poisson brackets.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
+Use an infinitesimal generator $G = q$ to find the transformation of $q$ and $p$.
+\(\delta q = \epsilon \{q, q\} = 0, \quad \delta p = \epsilon \{p, q\} = -\epsilon\)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;important-points--summary&quot;&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Canonical transformations preserve the form of Hamilton’s equations.&lt;/li&gt;
+  &lt;li&gt;Generating functions provide a practical way to define canonical transformations.&lt;/li&gt;
+  &lt;li&gt;Infinitesimal generators correspond to conserved quantities and symmetries.&lt;/li&gt;
+  &lt;li&gt;The Hamilton-Jacobi theory uses generating functions to reduce dynamics to solving a PDE.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;practice-questions&quot;&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Short Answer&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Define a canonical transformation with an example.&lt;/li&gt;
+  &lt;li&gt;Explain the role of generating functions in canonical transformations.&lt;/li&gt;
+  &lt;li&gt;How is the Hamilton-Jacobi equation related to generating functions?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Numerical&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Show that $F_1(q, Q) = qQ$ defines a canonical transformation and compute $p$, $P$.&lt;/li&gt;
+  &lt;li&gt;Let $G = pq$ be an infinitesimal generator. Find $\delta q$ and $\delta p$.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;MCQs&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Which of the following is &lt;em&gt;not&lt;/em&gt; a valid type of generating function?
+    &lt;ul&gt;
+      &lt;li&gt;(a) $F_1(q, Q)$&lt;/li&gt;
+      &lt;li&gt;(b) $F_2(q, P)$&lt;/li&gt;
+      &lt;li&gt;(c) $F_5(q, p)$&lt;/li&gt;
+      &lt;li&gt;(d) $F_4(p, P)$&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;An infinitesimal generator $G$ leads to a conserved quantity if:
+    &lt;ul&gt;
+      &lt;li&gt;(a) ${G, H} = 0$&lt;/li&gt;
+      &lt;li&gt;(b) $G$ is a function of time only&lt;/li&gt;
+      &lt;li&gt;(c) ${G, G} = 1$&lt;/li&gt;
+      &lt;li&gt;(d) $G$ commutes with all coordinates&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Learning Objectives:</summary></entry><entry><title type="html">Legendre Transformation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/20/Legendre-Transformation.html" rel="alternate" type="text/html" title="Legendre Transformation" /><published>2025-05-20T11:44:26+05:30</published><updated>2025-05-20T11:44:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/20/Legendre-Transformation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/20/Legendre-Transformation.html">&lt;h3 id=&quot;learning-objectives&quot;&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Understand the need and motivation behind the Legendre transformation.&lt;/li&gt;
+  &lt;li&gt;Learn how Legendre transformation changes the dependent variables of a function.&lt;/li&gt;
+  &lt;li&gt;Apply the concept in classical mechanics to transition from Lagrangian to Hamiltonian formulation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;key-concepts--definitions&quot;&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Legendre Transformation&lt;/strong&gt;: A mathematical tool used to switch the dependent variable of a function from one quantity to its conjugate.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Conjugate Variables&lt;/strong&gt;: Pairs of variables like $(q, p)$ or $(x, y)$, where one is the derivative of the function with respect to the other.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hamiltonian Mechanics&lt;/strong&gt;: A reformulation of classical mechanics that utilizes Legendre transformation to shift from velocity-based to momentum-based variables.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;theory-and-explanation&quot;&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:&lt;/h3&gt;
+
+&lt;p&gt;The &lt;strong&gt;Legendre transformation&lt;/strong&gt; is a mathematical operation used when a function is defined in terms of a variable, but we want to re-express it in terms of its derivative instead. This is particularly useful in physics when the original variables are not the most convenient for analysis.&lt;/p&gt;
+
+&lt;h4 id=&quot;motivation&quot;&gt;Motivation:&lt;/h4&gt;
+
+&lt;p&gt;Imagine you have a function $f(x)$, but in many situations, you want to work with $y = \frac{df}{dx}$ instead of $x$. The Legendre transform lets you rewrite $f(x)$ in terms of $y$.&lt;/p&gt;
+
+&lt;p&gt;This switch is often helpful in thermodynamics (switching between internal energy and enthalpy), or in mechanics (transitioning from velocity to momentum).&lt;/p&gt;
+
+&lt;h4 id=&quot;basic-idea&quot;&gt;Basic Idea:&lt;/h4&gt;
+
+&lt;p&gt;Let $f(x)$ be a smooth, convex function. Define:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;$y = \frac{df}{dx}$&lt;/li&gt;
+  &lt;li&gt;Then the &lt;strong&gt;Legendre transform&lt;/strong&gt; $g(y)$ is given by:
+\(g(y) = xy - f(x)\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This $g(y)$ is a new function where $x$ is now expressed in terms of $y$. Importantly, $g(y)$ and $f(x)$ carry equivalent information but in different variables.&lt;/p&gt;
+
+&lt;h4 id=&quot;application-in-classical-mechanics&quot;&gt;Application in Classical Mechanics:&lt;/h4&gt;
+
+&lt;p&gt;In classical mechanics, we begin with the &lt;strong&gt;Lagrangian&lt;/strong&gt;:
+\(L(q, \dot{q}, t)\)
+where:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;$q$ is the generalized coordinate,&lt;/li&gt;
+  &lt;li&gt;$\dot{q}$ is the generalized velocity,&lt;/li&gt;
+  &lt;li&gt;$t$ is time.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We define the &lt;strong&gt;generalized momentum&lt;/strong&gt; as:
+\(p = \frac{\partial L}{\partial \dot{q}}\)&lt;/p&gt;
+
+&lt;p&gt;To switch from the Lagrangian (which depends on $\dot{q}$) to the &lt;strong&gt;Hamiltonian&lt;/strong&gt;, we use the Legendre transformation:
+\(H(q, p, t) = p \dot{q} - L(q, \dot{q}, t)\)&lt;/p&gt;
+
+&lt;p&gt;Here, we re-express the dynamics in terms of $q$ and $p$, which are often more natural in physical systems. The resulting Hamiltonian describes the &lt;strong&gt;total energy&lt;/strong&gt; of the system.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;solved-examples&quot;&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 1 (Mathematical Function)&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: Perform the Legendre transform of $f(x) = ax^2$.&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;/p&gt;
+
+\[y = \frac{df}{dx} = 2ax \Rightarrow x = \frac{y}{2a}\]
+
+\[g(y) = xy - f(x) = \left(\frac{y}{2a}\right)y - a\left(\frac{y}{2a}\right)^2 = \frac{y^2}{2a} - \frac{y^2}{4a} = \frac{y^2}{4a}\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 2 (Mechanics: Lagrangian to Hamiltonian)&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: For the Lagrangian $L = \frac{1}{2}m \dot{q}^2 - V(q)$, find the Hamiltonian.&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;/p&gt;
+
+\[p = \frac{\partial L}{\partial \dot{q}} = m \dot{q} \Rightarrow \dot{q} = \frac{p}{m}\]
+
+\[H = p \dot{q} - L = \frac{p^2}{m} - \left( \frac{p^2}{2m} - V(q) \right) = \frac{p^2}{2m} + V(q)\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 3 (Thermodynamics: Internal Energy to Enthalpy)&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: Derive enthalpy $H(S, P)$ from internal energy $U(S, V)$.&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;/p&gt;
+
+    &lt;p&gt;Pressure is conjugate to volume: $P = -\left( \frac{\partial U}{\partial V} \right)_S$.&lt;br /&gt;
+Perform a Legendre transform:&lt;/p&gt;
+
+\[H(S, P) = U(S, V) + P V\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 4 (Thermodynamics: Internal Energy to Helmholtz Free Energy)&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: Derive Helmholtz free energy $F(T, V)$ from internal energy $U(S, V)$.&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;/p&gt;
+
+    &lt;p&gt;Temperature is conjugate to entropy: $T = \left( \frac{\partial U}{\partial S} \right)_V$&lt;br /&gt;
+Perform a Legendre transform:&lt;/p&gt;
+
+\[F(T, V) = U(S, V) - T S\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 5 (Thermodynamics: Internal Energy to Gibbs Free Energy)&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: Derive Gibbs free energy $G(T, P)$ from internal energy $U(S, V)$.&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;/p&gt;
+
+    &lt;p&gt;Perform two successive Legendre transforms:&lt;/p&gt;
+
+\[G(T, P) = U + P V - T S\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 6 (Thermodynamics: Helmholtz to Gibbs)&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: Derive Gibbs free energy from Helmholtz free energy.&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;/p&gt;
+
+\[G = F + P V = U - T S + P V\]
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;important-points--summary&quot;&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The Legendre transformation replaces dependence on a variable with dependence on its conjugate.&lt;/li&gt;
+  &lt;li&gt;In mechanics, it allows a switch from velocity to momentum variables.&lt;/li&gt;
+  &lt;li&gt;The Hamiltonian formulation derived via Legendre transformation is essential in quantum mechanics and advanced classical physics.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;practice-questions&quot;&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Short Answer&lt;/strong&gt;:
+    &lt;ol&gt;
+      &lt;li&gt;What is the Legendre transformation of $f(x) = e^x$?&lt;/li&gt;
+      &lt;li&gt;Define conjugate momentum and explain its role in Legendre transformation.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Numerical&lt;/strong&gt;:
+    &lt;ol&gt;
+      &lt;li&gt;If $L = \frac{1}{2}m\dot{q}^2 + A\dot{q}$, find $H$.&lt;/li&gt;
+      &lt;li&gt;Find the Legendre transform of $f(x) = \ln x$.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MCQs&lt;/strong&gt;:
+    &lt;ol&gt;
+      &lt;li&gt;The Legendre transformation is primarily used to:
+        &lt;ul&gt;
+          &lt;li&gt;(a) Integrate functions&lt;/li&gt;
+          &lt;li&gt;(b) Switch variables from a function to its derivative&lt;/li&gt;
+          &lt;li&gt;(c) Eliminate time from equations&lt;/li&gt;
+          &lt;li&gt;(d) Solve differential equations&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: (b)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;In classical mechanics, $p = \frac{\partial L}{\partial \dot{q}}$ is:
+        &lt;ul&gt;
+          &lt;li&gt;(a) Hamiltonian&lt;/li&gt;
+          &lt;li&gt;(b) Energy&lt;/li&gt;
+          &lt;li&gt;(c) Momentum&lt;/li&gt;
+          &lt;li&gt;(d) Position&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: (c)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Learning Objectives:</summary></entry><entry><title type="html">Hamilton Equation of Motion</title><link href="http://localhost:4000/SKMU/lecture/2025/05/20/Hamilton-Equation.html" rel="alternate" type="text/html" title="Hamilton Equation of Motion" /><published>2025-05-20T09:10:26+05:30</published><updated>2025-05-20T09:10:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/20/Hamilton-Equation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/20/Hamilton-Equation.html">&lt;h1 id=&quot;hamiltons-equations-of-motion&quot;&gt;Hamilton’s Equations of Motion&lt;/h1&gt;
 
 &lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -3084,328 +3657,4 @@ Thus, Simpson’s rule is much more accurate than the trapezoidal rule for smoot
       &lt;td&gt;Higher precision with smooth functions&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space.</summary></entry><entry><title type="html">Image Processing: Eigenvalues and Eigenvectors</title><link href="http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image.html" rel="alternate" type="text/html" title="Image Processing: Eigenvalues and Eigenvectors" /><published>2025-04-17T09:47:26+05:30</published><updated>2025-04-17T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/17/Eigev-Image.html">&lt;h2 id=&quot;-objective&quot;&gt;🧠 Objective&lt;/h2&gt;
-&lt;p&gt;This lecture explores the application of &lt;strong&gt;eigenvalues&lt;/strong&gt; and &lt;strong&gt;eigenvectors&lt;/strong&gt; in image processing using &lt;strong&gt;Principal Component Analysis (PCA)&lt;/strong&gt;. We will:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Understand PCA and its reliance on eigen decomposition.&lt;/li&gt;
-  &lt;li&gt;Load and process an image.&lt;/li&gt;
-  &lt;li&gt;Use PCA to compress and reconstruct the image.&lt;/li&gt;
-  &lt;li&gt;Visualize the effect of PCA using eigenvectors.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-prerequisites&quot;&gt;📦 Prerequisites&lt;/h2&gt;
-&lt;p&gt;Install the following Python packages if you haven’t already:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;numpy opencv-python matplotlib
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;️-step-1-load-and-convert-image-to-grayscale&quot;&gt;🖼️ Step 1: Load and Convert Image to Grayscale&lt;/h2&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;cv2&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# Load the image in grayscale mode
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;imread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;img.jpg&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cv2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IMREAD_GRAYSCALE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;raise&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;FileNotFoundError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Image not found. Please check the filename and path.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cv2.imread()&lt;/code&gt; reads the image file.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cv2.IMREAD_GRAYSCALE&lt;/code&gt; loads it in grayscale (single-channel image).&lt;/li&gt;
-  &lt;li&gt;We raise an error if the file is not found to prevent further issues.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-step-2-normalize-and-reshape-the-image&quot;&gt;🔄 Step 2: Normalize and Reshape the Image&lt;/h2&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;255.0&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Normalize pixel values between 0 and 1
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_shape&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shape&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;f&quot;Original image shape: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;original_shape&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Normalization makes the data suitable for numerical computations.&lt;/li&gt;
-  &lt;li&gt;The shape is stored to understand the structure (rows × columns).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-step-3-center-the-data-zero-mean&quot;&gt;🎯 Step 3: Center the Data (Zero Mean)&lt;/h2&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;mean&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mean&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Mean of each column
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;centered_img&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mean&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# Centering
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;PCA requires the data to be centered (zero mean).&lt;/li&gt;
-  &lt;li&gt;We subtract the mean of each column (each pixel column).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-step-4-compute-covariance-matrix&quot;&gt;📐 Step 4: Compute Covariance Matrix&lt;/h2&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;cov_matrix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cov&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;centered_img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rowvar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Covariance matrix shows how features vary together.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rowvar=False&lt;/code&gt;: treats rows as samples and columns as features.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-step-5-eigen-decomposition&quot;&gt;🧮 Step 5: Eigen Decomposition&lt;/h2&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;eigenvalues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eigenvectors&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;linalg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;eigh&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cov_matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;np.linalg.eigh()&lt;/code&gt; is used for symmetric matrices (like covariance matrices).&lt;/li&gt;
-  &lt;li&gt;It returns:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;eigenvalues&lt;/strong&gt;: magnitude of variance in each principal direction.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;eigenvectors&lt;/strong&gt;: directions of maximum variance.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-step-6-sort-eigenvalues-and-eigenvectors&quot;&gt;🔢 Step 6: Sort Eigenvalues and Eigenvectors&lt;/h2&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;idx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argsort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;eigenvalues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[::&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Descending order
-&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Reorder eigenvalues and eigenvectors
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;eigenvalues&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eigenvalues&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;eigenvectors&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eigenvectors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;PCA uses components with the highest eigenvalues.&lt;/li&gt;
-  &lt;li&gt;We sort in descending order to retain most significant components first.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;️-step-7-project-data-to-lower-dimensions&quot;&gt;✂️ Step 7: Project Data to Lower Dimensions&lt;/h2&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;num_components&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# Number of principal components
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;projection&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;centered_img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eigenvectors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_components&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Project the centered image onto top &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;num_components&lt;/code&gt; eigenvectors.&lt;/li&gt;
-  &lt;li&gt;This step compresses the image data.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-step-8-reconstruct-the-image&quot;&gt;🔁 Step 8: Reconstruct the Image&lt;/h2&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;reconstructed_img&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;projection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eigenvectors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_components&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mean&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We reverse the projection and add the mean back to approximate the original image.&lt;/li&gt;
-  &lt;li&gt;The quality depends on how many components we retained.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-step-9-display-original-and-reconstructed-images&quot;&gt;📊 Step 9: Display Original and Reconstructed Images&lt;/h2&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;figure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Original Image&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;imshow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cmap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;gray&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;f&quot;Reconstructed Image (&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_components&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; components)&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;imshow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reconstructed_img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cmap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;gray&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tight_layout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;matplotlib&lt;/code&gt; is used to plot both images.&lt;/li&gt;
-  &lt;li&gt;You can visually compare original vs compressed output.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-key-concepts-recap&quot;&gt;📌 Key Concepts Recap&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Concept&lt;/th&gt;
-      &lt;th&gt;Description&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Eigenvalue&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Measure of variance in the data in the direction of its corresponding eigenvector.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Eigenvector&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;A principal axis in the data space — direction of maximum variance.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Covariance Matrix&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Square matrix showing covariance (interdependence) between features.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;PCA&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Reduces the dimensions of data using eigen decomposition while preserving the most variance.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-visualization-of-compression&quot;&gt;🔍 Visualization of Compression&lt;/h2&gt;
-&lt;p&gt;By changing the number of components used (e.g., 10, 20, 100), observe how the quality of reconstruction improves with more components.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-exercises&quot;&gt;🧪 Exercises&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Try different values of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;num_components&lt;/code&gt; and plot the error.&lt;/li&gt;
-  &lt;li&gt;Apply PCA to a color image by treating each RGB channel separately.&lt;/li&gt;
-  &lt;li&gt;Use this technique on image datasets like MNIST or CIFAR-10 for dimensionality reduction.&lt;/li&gt;
-  &lt;li&gt;Plot cumulative explained variance using eigenvalues.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">🧠 Objective This lecture explores the application of eigenvalues and eigenvectors in image processing using Principal Component Analysis (PCA). We will:</summary></entry><entry><title type="html">Dissertation: N-Interconnected Mass-Spring System</title><link href="http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-N-Mass-System.html" rel="alternate" type="text/html" title="Dissertation: N-Interconnected Mass-Spring System" /><published>2025-04-15T08:37:26+05:30</published><updated>2025-04-15T08:37:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-N-Mass-System</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/15/MSC-Disseration-N-Mass-System.html">&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/images/Lecture/Spring-Mass.png&quot; alt=&quot;Scattering&quot; class=&quot;my-custom-class&quot; style=&quot;width:70%; height:auto;&quot; /&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;1-introduction&quot;&gt;1. Introduction&lt;/h2&gt;
-
-&lt;p&gt;This project simulates the motion of an &lt;strong&gt;N-body mass-spring system&lt;/strong&gt; where multiple masses are connected via springs and constrained to move &lt;strong&gt;horizontally on a frictionless surface&lt;/strong&gt;. The simulation involves both &lt;strong&gt;numerical solutions to the equations of motion&lt;/strong&gt; and a &lt;strong&gt;graphical animation using PyGame&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;The motivation for this study arises from its relevance in:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Understanding lattice vibrations in solid state physics,&lt;/li&gt;
-  &lt;li&gt;Modeling mechanical systems in classical dynamics,&lt;/li&gt;
-  &lt;li&gt;Exploring numerical ODE solvers and interactive simulation frameworks.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;2-system-description&quot;&gt;2. System Description&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The system consists of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;n&lt;/code&gt; identical masses.&lt;/li&gt;
-  &lt;li&gt;Each mass is connected to its neighbors using linear springs.&lt;/li&gt;
-  &lt;li&gt;The surface is perfectly frictionless, so there is no damping.&lt;/li&gt;
-  &lt;li&gt;All masses are initially at rest, and motion is initiated only through initial displacements.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The structure is &lt;strong&gt;linear&lt;/strong&gt;, and &lt;strong&gt;fixed boundary conditions&lt;/strong&gt; are typically assumed at the ends, although this can be generalized.&lt;/p&gt;
-
-&lt;h2 id=&quot;3-assumptions&quot;&gt;3. Assumptions&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;All masses \(m\) are &lt;strong&gt;identical&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;All springs have the same spring constant \(k\).&lt;/li&gt;
-  &lt;li&gt;Motion is constrained to &lt;strong&gt;1D horizontal motion&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;The springs obey &lt;strong&gt;Hooke’s law&lt;/strong&gt; (linear restoring force).&lt;/li&gt;
-  &lt;li&gt;The system starts from &lt;strong&gt;rest&lt;/strong&gt;, i.e., initial velocities are zero.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;4-mathematical-modeling&quot;&gt;4. Mathematical Modeling&lt;/h2&gt;
-
-&lt;p&gt;For each mass \(i\) (\(1 \leq i \leq n\)), Newton’s second law gives:&lt;/p&gt;
-
-\[m \frac{d^2 x_i}{dt^2} = -k(x_i - x_{i-1}) + k(x_{i+1} - x_i)\]
-
-&lt;p&gt;Rewriting:&lt;/p&gt;
-
-\[\frac{d^2 x_i}{dt^2} = \frac{k}{m} (x_{i+1} - 2x_i + x_{i-1})\]
-
-&lt;p&gt;This is a system of &lt;strong&gt;coupled second-order ODEs&lt;/strong&gt;, forming a &lt;strong&gt;discrete wave equation&lt;/strong&gt;. Special cases:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;For \(i = 1\): left boundary (may be fixed or free),&lt;/li&gt;
-  &lt;li&gt;For \(i = n\): right boundary.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This system can be written in matrix form:&lt;/p&gt;
-
-\[\mathbf{M} \ddot{\mathbf{x}} = -\mathbf{Kx}\]
-
-&lt;p&gt;where:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;\(\mathbf{x}\) is the position vector,&lt;/li&gt;
-  &lt;li&gt;\(\mathbf{M} = m \mathbf{I}\) is the mass matrix,&lt;/li&gt;
-  &lt;li&gt;\(\mathbf{K}\) is the stiffness matrix (tridiagonal).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;5-numerical-integration&quot;&gt;5. Numerical Integration&lt;/h2&gt;
-
-&lt;p&gt;To solve the equations of motion, we apply numerical methods such as:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Euler’s method&lt;/strong&gt; (simplest, not very accurate),&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Verlet integration&lt;/strong&gt; (commonly used in physics),&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;SciPy’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;solve_ivp&lt;/code&gt;&lt;/strong&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RK45&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RK23&lt;/code&gt; solvers.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The user inputs initial displacements for each mass, and the system automatically generates:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The stiffness matrix based on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;n&lt;/code&gt;,&lt;/li&gt;
-  &lt;li&gt;Initial state vectors for position and velocity,&lt;/li&gt;
-  &lt;li&gt;Solution over a specified time interval.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;6-visualization-and-simulation&quot;&gt;6. Visualization and Simulation&lt;/h2&gt;
-
-&lt;h3 id=&quot;61-matplotlib-plot&quot;&gt;6.1 Matplotlib Plot&lt;/h3&gt;
-
-&lt;p&gt;The &lt;strong&gt;displacement of each mass over time&lt;/strong&gt; is first visualized using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;matplotlib.pyplot&lt;/code&gt;, typically as:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Line plots of \(x_i(t)\) vs time,&lt;/li&gt;
-  &lt;li&gt;Optional animation using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FuncAnimation&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;62-pygame-animation&quot;&gt;6.2 PyGame Animation&lt;/h3&gt;
-
-&lt;p&gt;Once the numerical solution is complete, a &lt;strong&gt;PyGame-based animation&lt;/strong&gt; shows the physical behavior:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Masses oscillate horizontally,&lt;/li&gt;
-  &lt;li&gt;Springs are drawn as dynamic lines,&lt;/li&gt;
-  &lt;li&gt;The background (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;floor.jpg&lt;/code&gt;) is customizable.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This animation helps build &lt;strong&gt;intuitive understanding&lt;/strong&gt; of oscillatory motion and energy exchange in coupled systems.&lt;/p&gt;
-
-&lt;h2 id=&quot;7-user-interaction&quot;&gt;7. User Interaction&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The user provides a list of initial positions (e.g., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[1.0, -1.5, 0.3]&lt;/code&gt;) to define the system.&lt;/li&gt;
-  &lt;li&gt;Each input corresponds to a new mass.&lt;/li&gt;
-  &lt;li&gt;The user can customize:
-    &lt;ul&gt;
-      &lt;li&gt;Background image,&lt;/li&gt;
-      &lt;li&gt;Mass and spring appearance,&lt;/li&gt;
-      &lt;li&gt;Simulation speed.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;8-applications-and-extensions&quot;&gt;8. Applications and Extensions&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Lattice vibrations&lt;/strong&gt;: Ideal for simulating 1D phonons.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Signal propagation&lt;/strong&gt;: Observing how disturbances travel through coupled media.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Modes of vibration&lt;/strong&gt;: Visualize normal modes and beat phenomena.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Nonlinear springs&lt;/strong&gt;: Can be extended by replacing Hooke’s law with nonlinear force models.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;9-files-and-structure&quot;&gt;9. Files and Structure&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mass_spring_simulation.py&lt;/code&gt;: Main simulation script,&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;floor.jpg&lt;/code&gt;: Background image (user replaceable),&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utils.py&lt;/code&gt;: Helper functions for drawing and integration,&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initial_conditions.txt&lt;/code&gt;: Optional file for storing default states.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html"></summary></entry></feed>
+&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space.</summary></entry></feed>

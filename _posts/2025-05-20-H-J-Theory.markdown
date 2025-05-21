@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hamilton–Jacobi Equation"
-date:   2025-05-20 09:47:26 +0530
+date:   2025-05-20 11:55:26 +0530
 categories: lecture
 tags: SEM-I
 ---
@@ -129,6 +129,10 @@ $$
   \frac{\partial S}{\partial E} = \text{constant} = \beta
   $$
 
+  The statement “$\partial S / \partial E$ is constant” means:
+
+  >Along a trajectory governed by the Hamilton-Jacobi equation, if you consider S = W - E t, then the change in S with respect to E is linear in time and independent of q, so its partial derivative with respect to E is constant.
+
   So,
 
   $$
@@ -190,3 +194,124 @@ $$
      **Answer**: b)
 
 ---
+Few more examples: 
+
+🧭 Example 1: One-Dimensional Free Particle
+
+Hamiltonian
+
+$$
+H = \frac{p^2}{2m}
+$$
+
+Hamilton–Jacobi Equation
+
+$$
+\frac{1}{2m} \left( \frac{\partial S}{\partial q} \right)^2 + \frac{\partial S}{\partial t} = 0
+$$
+
+Solution
+
+Assume a separable solution:
+$S(q, \alpha, t) = W(q, \alpha) - \alpha t$ where $\alpha$ is the separation constant (i.e., energy).
+
+Then:
+
+$$
+\frac{1}{2m} \left( \frac{dW}{dq} \right)^2 = \alpha \Rightarrow \frac{dW}{dq} = \sqrt{2m\alpha}
+$$
+
+Integrating:
+
+$$
+W(q, \alpha) = \sqrt{2m\alpha} \cdot q
+$$
+
+Hence,
+
+$$
+S(q, \alpha, t) = \sqrt{2m\alpha} \cdot q - \alpha t
+$$
+
+Equation of Motion
+
+To obtain the trajectory:
+
+$$
+\beta = \frac{\partial S}{\partial \alpha} = \frac{q}{\sqrt{2m\alpha}} - t
+$$
+
+Solving for $q(t)$:
+
+$$
+q(t) = \sqrt{2m\alpha}(t + \beta)
+$$
+
+This represents uniform motion: $q(t) = v t + q_0$ where $v = \sqrt{2\alpha/m}$ and $q_0 = \sqrt{2m\alpha} \cdot \beta$.
+
+
+🧲 Example 2: Particle in a Central Potential
+
+(Coulomb potential: $V(r) = -\dfrac{k}{r}$)
+
+Hamiltonian (in spherical coordinates)
+
+$$
+H = \frac{1}{2m} \left( p_r^2 + \frac{p_\theta^2}{r^2} + \frac{p_\phi^2}{r^2 \sin^2\theta} \right) - \frac{k}{r}
+$$
+
+Hamilton–Jacobi Equation
+
+Assume:
+
+$$
+S(t, r, \theta, \phi) = -Et + S_r(r) + S_\theta(\theta) + S_\phi(\phi)
+$$
+
+Then:
+
+$$
+\frac{1}{2m} \left[ \left( \frac{dS_r}{dr} \right)^2 + \frac{1}{r^2} \left( \left( \frac{dS_\theta}{d\theta} \right)^2 + \frac{1}{\sin^2\theta} \left( \frac{dS_\phi}{d\phi} \right)^2 \right) \right] - \frac{k}{r} = E
+$$
+
+Let:
+	•	$\dfrac{dS_\phi}{d\phi} = p_\phi = l_z$
+	•	Introduce a constant $l$ such that the total angular part becomes $l^2$
+
+Then:
+
+$$
+S_\phi = l_z \phi, \quad S_\theta = \int \sqrt{l^2 - \frac{l_z^2}{\sin^2\theta}} , d\theta
+$$
+
+For radial part:
+
+$$
+\left( \frac{dS_r}{dr} \right)^2 = 2mE + \frac{2mk}{r} - \frac{l^2}{r^2}
+$$
+
+So:
+
+$$
+S_r = \int \sqrt{2mE + \frac{2mk}{r} - \frac{l^2}{r^2}} , dr
+$$
+
+Final Form of Action
+
+$$
+S(t, r, \theta, \phi) = -Et + \int \sqrt{2mE + \frac{2mk}{r} - \frac{l^2}{r^2}} , dr + \int \sqrt{l^2 - \frac{l_z^2}{\sin^2\theta}} , d\theta + l_z \phi
+$$
+
+Equation of Orbit
+
+Solving the above gives elliptical orbits:
+
+$$
+r(\phi) = \frac{a(1 - e^2)}{1 + e \cos \phi}
+$$
+
+with
+	•	$a$ = semi-major axis
+	•	$e$ = eccentricity
+
+This recovers Kepler’s laws.
