@@ -1,4 +1,143 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-21T22:05:08+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Hamilton–Jacobi Equation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory.html" rel="alternate" type="text/html" title="Hamilton–Jacobi Equation" /><published>2025-05-20T11:55:26+05:30</published><updated>2025-05-20T11:55:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory.html">&lt;h2 id=&quot;hamiltonjacobi-equation-with-example-of-harmonic-oscillator&quot;&gt;Hamilton–Jacobi Equation with Example of Harmonic Oscillator&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-22T15:18:14+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Plasma Oscillations and Plasmons</title><link href="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html" rel="alternate" type="text/html" title="Plasma Oscillations and Plasmons" /><published>2025-05-22T09:47:26+05:30</published><updated>2025-05-22T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/22/Plasma</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Understand what plasma oscillations are and how they arise.&lt;/li&gt;
+  &lt;li&gt;Define plasmons and relate them to quantized plasma oscillations.&lt;/li&gt;
+  &lt;li&gt;Derive the plasma frequency and appreciate its physical significance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;key-concepts--definitions&quot;&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Plasma&lt;/strong&gt;: A quasi-neutral gas of charged and neutral particles which exhibits collective behavior.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Plasma Oscillation&lt;/strong&gt;: A coherent oscillation of the electron density in a conducting medium relative to the positive ion background.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Plasmon&lt;/strong&gt;: A quantum of plasma oscillation, representing the collective excitation of free electron gas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;theory-and-explanation&quot;&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Plasma is often referred to as the “fourth state of matter” where electrons are not bound to atoms, and instead, they form a gas of free-moving charges. When these electrons are disturbed from their equilibrium position, they experience a restoring electrostatic force due to separation from the positively charged ion background. This leads to collective oscillations known as &lt;strong&gt;plasma oscillations&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;derivation-of-plasma-frequency&quot;&gt;Derivation of Plasma Frequency&lt;/h3&gt;
+
+&lt;p&gt;Consider a uniform background of positive ions with number density $n_0$, and electrons of the same density but mobile. Assume electrons are displaced slightly by a distance $x$ from their equilibrium position. This creates an electric field due to charge separation.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/images/Lecture/plasma-oscillation.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:50%;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Let $-e$ be the charge of an electron and $m$ be its mass. The displaced electron sheet creates a restoring electric field $E$ given by:&lt;/p&gt;
+
+\[E = \frac{n_0 e x}{\varepsilon_0}\]
+
+&lt;p&gt;The force on an electron is then:&lt;/p&gt;
+
+\[F = -e E = -\frac{n_0 e^2 x}{\varepsilon_0}\]
+
+&lt;p&gt;Using Newton’s second law:&lt;/p&gt;
+
+\[m \frac{d^2 x}{dt^2} = -\frac{n_0 e^2 x}{\varepsilon_0}\]
+
+&lt;p&gt;This is the equation of simple harmonic motion with angular frequency $\omega_p$:&lt;/p&gt;
+
+\[\omega_p^2 = \frac{n_0 e^2}{\varepsilon_0 m}\]
+
+&lt;p&gt;Therefore, the &lt;strong&gt;plasma frequency&lt;/strong&gt; is:&lt;/p&gt;
+
+\[\omega_p = \sqrt{\frac{n_0 e^2}{\varepsilon_0 m}}\]
+
+&lt;p&gt;This is the natural frequency at which the electron gas oscillates around its equilibrium position in the plasma.&lt;/p&gt;
+
+&lt;h3 id=&quot;plasmons&quot;&gt;Plasmons&lt;/h3&gt;
+
+&lt;p&gt;Plasmons are the quantum mechanical counterpart of plasma oscillations. Just as photons are quanta of electromagnetic waves, plasmons are quanta of these collective oscillations.&lt;/p&gt;
+
+&lt;p&gt;In quantum theory, the energy associated with a plasmon is:&lt;/p&gt;
+
+\[E = \hbar \omega_p\]
+
+&lt;p&gt;Plasmons play a key role in the optical properties of metals and are used in fields like plasmonics and nanophotonics.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;solved-examples&quot;&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: Calculate the plasma frequency of electrons in a metal with electron density $n_0 = 8.5 \times 10^{28} \ \text{electrons/m}^3$.&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
+Using the formula:&lt;br /&gt;
+\(\omega_p = \sqrt{\frac{n_0 e^2}{\varepsilon_0 m}}\)&lt;br /&gt;
+Plugging in values:&lt;br /&gt;
+$n_0 = 8.5 \times 10^{28}$&lt;br /&gt;
+$e = 1.6 \times 10^{-19} \ \text{C}$&lt;br /&gt;
+$\varepsilon_0 = 8.85 \times 10^{-12} \ \text{F/m}$&lt;br /&gt;
+$m = 9.11 \times 10^{-31} \ \text{kg}$&lt;/p&gt;
+
+\[\omega_p = \sqrt{\frac{(8.5 \times 10^{28})(1.6 \times 10^{-19})^2}{(8.85 \times 10^{-12})(9.11 \times 10^{-31})}} \approx 1.64 \times 10^{16} \ \text{rad/s}\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
+&lt;strong&gt;Problem&lt;/strong&gt;: What is the energy of a plasmon with plasma frequency $\omega_p = 1.5 \times 10^{16} \ \text{rad/s}$?&lt;br /&gt;
+&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
+\(E = \hbar \omega_p\)&lt;br /&gt;
+$\hbar = 1.055 \times 10^{-34} \ \text{J·s}$&lt;br /&gt;
+\(E = (1.055 \times 10^{-34}) (1.5 \times 10^{16}) = 1.58 \times 10^{-18} \ \text{J}\)&lt;br /&gt;
+In eV:&lt;br /&gt;
+\(E = \frac{1.58 \times 10^{-18}}{1.6 \times 10^{-19}} \approx 9.87 \ \text{eV}\)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;important-points--summary&quot;&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Plasma oscillations are collective movements of electron density in a plasma.&lt;/li&gt;
+  &lt;li&gt;The plasma frequency depends only on the electron density and is independent of the wavevector.&lt;/li&gt;
+  &lt;li&gt;Plasmons are quantized plasma oscillations and are important in understanding optical and electronic properties of materials.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;practice-questions&quot;&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h3 id=&quot;short-answer&quot;&gt;Short Answer:&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;What is plasma and how is it different from a neutral gas?&lt;/li&gt;
+  &lt;li&gt;Define the term “plasma frequency” and explain its physical significance.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;numerical&quot;&gt;Numerical:&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Calculate the plasma frequency of a semiconductor with electron density $n = 10^{21} \ \text{m}^{-3}$.&lt;/li&gt;
+  &lt;li&gt;What is the plasmon energy in a metal with $\omega_p = 2.0 \times 10^{16} \ \text{rad/s}$?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;mcqs&quot;&gt;MCQs:&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;The plasma frequency $\omega_p$:
+    &lt;ul&gt;
+      &lt;li&gt;(a) increases with increasing mass of electrons&lt;/li&gt;
+      &lt;li&gt;(b) decreases with increasing electron density&lt;/li&gt;
+      &lt;li&gt;(c) increases with increasing electron density&lt;/li&gt;
+      &lt;li&gt;(d) is independent of electron density&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: (c)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Plasmons are:
+    &lt;ul&gt;
+      &lt;li&gt;(a) individual electrons&lt;/li&gt;
+      &lt;li&gt;(b) phonons in a crystal lattice&lt;/li&gt;
+      &lt;li&gt;(c) quantum of electromagnetic waves&lt;/li&gt;
+      &lt;li&gt;(d) quanta of plasma oscillations&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: (d)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives:</summary></entry><entry><title type="html">Hamilton–Jacobi Equation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory.html" rel="alternate" type="text/html" title="Hamilton–Jacobi Equation" /><published>2025-05-20T11:55:26+05:30</published><updated>2025-05-20T11:55:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory.html">&lt;h2 id=&quot;hamiltonjacobi-equation-with-example-of-harmonic-oscillator&quot;&gt;Hamilton–Jacobi Equation with Example of Harmonic Oscillator&lt;/h2&gt;
 
 &lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -2756,905 +2895,4 @@ d) $N \alpha = 0$&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Macroscopic Dielectric Constant</summary></entry><entry><title type="html">Numerical Methods</title><link href="http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods.html" rel="alternate" type="text/html" title="Numerical Methods" /><published>2025-04-28T09:47:26+05:30</published><updated>2025-04-28T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/04/28/Numerical-Methods.html">&lt;p&gt;Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-basic-definitions&quot;&gt;🔹 Basic Definitions&lt;/h2&gt;
-
-&lt;p&gt;Let \(A\) be an \(n \times n\) square matrix. A non-zero vector \(\mathbf{v} \in \mathbb{R}^n\) is called an &lt;strong&gt;eigenvector&lt;/strong&gt; of \(A\) if it satisfies:&lt;/p&gt;
-
-\[A \mathbf{v} = \lambda \mathbf{v}\]
-
-&lt;p&gt;Here:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;\(\lambda \in \mathbb{R}\) (or \(\mathbb{C}\)) is the &lt;strong&gt;eigenvalue&lt;/strong&gt; corresponding to eigenvector \(\mathbf{v}\).&lt;/li&gt;
-  &lt;li&gt;\(\mathbf{v} \ne \mathbf{0}\) is a &lt;strong&gt;direction preserved&lt;/strong&gt; under the transformation by \(A\), scaled by \(\lambda\).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-how-to-find-eigenvalues-and-eigenvectors&quot;&gt;🔹 How to Find Eigenvalues and Eigenvectors&lt;/h2&gt;
-
-&lt;h3 id=&quot;step-1-characteristic-equation&quot;&gt;Step 1: Characteristic Equation&lt;/h3&gt;
-
-&lt;p&gt;To find eigenvalues, solve the &lt;strong&gt;characteristic equation&lt;/strong&gt;:&lt;/p&gt;
-
-\[\det(A - \lambda I) = 0\]
-
-&lt;ul&gt;
-  &lt;li&gt;\(I\) is the identity matrix of the same size as \(A\).&lt;/li&gt;
-  &lt;li&gt;The determinant gives a polynomial in \(\lambda\) called the &lt;strong&gt;characteristic polynomial&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;step-2-solve-for-eigenvectors&quot;&gt;Step 2: Solve for Eigenvectors&lt;/h3&gt;
-
-&lt;p&gt;For each eigenvalue \(\lambda\), solve the system:&lt;/p&gt;
-
-\[(A - \lambda I) \mathbf{v} = 0\]
-
-&lt;p&gt;to find the corresponding eigenvector(s) \(\mathbf{v}\).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-example&quot;&gt;🔸 Example&lt;/h2&gt;
-
-&lt;p&gt;Let&lt;/p&gt;
-
-\[A = \begin{bmatrix}
-2 &amp;amp; 1 \\
-1 &amp;amp; 2
-\end{bmatrix}\]
-
-&lt;h3 id=&quot;step-1-find-eigenvalues&quot;&gt;Step 1: Find Eigenvalues&lt;/h3&gt;
-
-&lt;p&gt;Solve:&lt;/p&gt;
-
-\[\det(A - \lambda I) = \det \begin{bmatrix}
-2 - \lambda &amp;amp; 1 \\
-1 &amp;amp; 2 - \lambda
-\end{bmatrix}
-= (2 - \lambda)^2 - 1 = 0\]
-
-&lt;p&gt;So,&lt;/p&gt;
-
-\[(2 - \lambda)^2 = 1 \Rightarrow \lambda = 1, 3\]
-
-&lt;h3 id=&quot;step-2-find-eigenvectors&quot;&gt;Step 2: Find Eigenvectors&lt;/h3&gt;
-
-&lt;p&gt;For \(\lambda = 1\):&lt;/p&gt;
-
-\[(A - I) \mathbf{v} = \begin{bmatrix}
-1 &amp;amp; 1 \\
-1 &amp;amp; 1
-\end{bmatrix} \begin{bmatrix}
-x \\
-y
-\end{bmatrix} = 0
-\Rightarrow x + y = 0 \Rightarrow \mathbf{v}_1 = \begin{bmatrix} 1 \\ -1 \end{bmatrix}\]
-
-&lt;p&gt;For \(\lambda = 3\):&lt;/p&gt;
-
-\[(A - 3I) \mathbf{v} = \begin{bmatrix}
--1 &amp;amp; 1 \\
-1 &amp;amp; -1
-\end{bmatrix} \begin{bmatrix}
-x \\
-y
-\end{bmatrix} = 0
-\Rightarrow x - y = 0 \Rightarrow \mathbf{v}_2 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}\]
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-key-properties&quot;&gt;🔹 Key Properties&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A matrix of size \(n \times n\) has at most \(n\) eigenvalues.&lt;/li&gt;
-  &lt;li&gt;Eigenvectors corresponding to &lt;strong&gt;distinct eigenvalues are linearly independent&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;If a matrix is &lt;strong&gt;symmetric&lt;/strong&gt;, all its eigenvalues are real and eigenvectors are orthogonal.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-physical-interpretation&quot;&gt;🔹 Physical Interpretation&lt;/h2&gt;
-
-&lt;p&gt;In physics:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;In quantum mechanics, eigenvalues of operators represent &lt;strong&gt;observable quantities&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;In mechanics, the &lt;strong&gt;normal modes&lt;/strong&gt; of oscillation are eigenvectors of the system matrix.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-summary&quot;&gt;📌 Summary&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Term&lt;/th&gt;
-      &lt;th&gt;Meaning&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Eigenvalue&lt;/td&gt;
-      &lt;td&gt;Scalar \(\lambda\) such that \(A \mathbf{v} = \lambda \mathbf{v}\)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Eigenvector&lt;/td&gt;
-      &lt;td&gt;Non-zero vector \(\mathbf{v}\) preserved in direction by \(A\)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Characteristic Equation&lt;/td&gt;
-      &lt;td&gt;\(\det(A - \lambda I) = 0\) to find eigenvalues&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Matrix Diagonalization&lt;/td&gt;
-      &lt;td&gt;Possible if matrix has \(n\) linearly independent eigenvectors&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-&lt;h1 id=&quot;-interpolation-extrapolation-and-curve-fitting&quot;&gt;📘 Interpolation, Extrapolation, and Curve Fitting&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-1-interpolation&quot;&gt;🔹 1. Interpolation&lt;/h2&gt;
-
-&lt;h3 id=&quot;-definition&quot;&gt;🔸 Definition:&lt;/h3&gt;
-
-&lt;p&gt;Interpolation is the process of estimating unknown values that fall &lt;strong&gt;within the range&lt;/strong&gt; of known data points.&lt;/p&gt;
-
-&lt;h3 id=&quot;-types-of-interpolation&quot;&gt;🔸 Types of Interpolation:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Linear Interpolation&lt;/strong&gt;: Straight line between two known points.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Polynomial Interpolation&lt;/strong&gt;: Uses a polynomial of degree $n$ for $n+1$ data points.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Spline Interpolation&lt;/strong&gt;: Piecewise polynomials (e.g., cubic spline) to ensure smoothness.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;-formula-linear-interpolation&quot;&gt;🔸 Formula (Linear Interpolation):&lt;/h3&gt;
-
-&lt;p&gt;Given two points $(x_0, y_0)$ and $(x_1, y_1)$:&lt;/p&gt;
-
-\[y = y_0 + \frac{(x - x_0)(y_1 - y_0)}{x_1 - x_0}\]
-
-&lt;h3 id=&quot;-example-linear-interpolation&quot;&gt;🔸 Example (Linear Interpolation):&lt;/h3&gt;
-
-&lt;p&gt;Let $(x_0, y_0) = (1, 3)$ and $(x_1, y_1) = (4, 15)$. Estimate $y$ at $x = 2$.&lt;/p&gt;
-
-\[y = 3 + \frac{(2 - 1)(15 - 3)}{4 - 1} = 3 + \frac{1 \cdot 12}{3} = 3 + 4 = 7\]
-
-&lt;p&gt;So, the interpolated value at $x = 2$ is $y = 7$.&lt;/p&gt;
-
-&lt;h3 id=&quot;-applications&quot;&gt;🔸 Applications:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Filling missing data&lt;/li&gt;
-  &lt;li&gt;Digital image scaling&lt;/li&gt;
-  &lt;li&gt;Sensor data smoothing&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;️-2-extrapolation&quot;&gt;🗙️ 2. Extrapolation&lt;/h2&gt;
-
-&lt;h3 id=&quot;-definition-1&quot;&gt;🔸 Definition:&lt;/h3&gt;
-
-&lt;p&gt;Extrapolation estimates values &lt;strong&gt;outside the range&lt;/strong&gt; of known data points using the trend of the data.&lt;/p&gt;
-
-&lt;h3 id=&quot;-types&quot;&gt;🔸 Types:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Linear Extrapolation&lt;/strong&gt;: Extends the linear trend.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Polynomial Extrapolation&lt;/strong&gt;: Uses higher-order polynomials to forecast.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;-risks&quot;&gt;🔸 Risks:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Less reliable than interpolation.&lt;/li&gt;
-  &lt;li&gt;Assumes the current trend continues.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;-example-linear&quot;&gt;🔸 Example (Linear):&lt;/h3&gt;
-
-&lt;p&gt;Given last two points: $(x_{n-1}, y_{n-1}) = (2, 5)$ and $(x_n, y_n) = (4, 11)$, estimate $y$ at $x = 5$.&lt;/p&gt;
-
-\[y = 11 + (5 - 4) \cdot \frac{11 - 5}{4 - 2} = 11 + 1 \cdot 3 = 14\]
-
-&lt;p&gt;So, the extrapolated value at $x = 5$ is $y = 14$.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-3-curve-fitting-methods&quot;&gt;🔹 3. Curve Fitting Methods&lt;/h2&gt;
-
-&lt;h3 id=&quot;-definition-2&quot;&gt;🔸 Definition:&lt;/h3&gt;
-
-&lt;p&gt;Curve fitting finds a curve that best represents the trend in the data. It can be used to model the relationship between variables.&lt;/p&gt;
-
-&lt;h3 id=&quot;-methods&quot;&gt;🔸 Methods:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Polynomial Fit&lt;/strong&gt;: Fit using polynomials (linear, quadratic, cubic, etc.).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Exponential Fit&lt;/strong&gt;: $y = ae^{bx}$&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Logarithmic Fit&lt;/strong&gt;: $y = a + b \log x$&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Power Law Fit&lt;/strong&gt;: $y = ax^b$&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Piecewise Fit&lt;/strong&gt;: Different models in different intervals.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;-example-polynomial-fit&quot;&gt;🔸 Example (Polynomial Fit):&lt;/h3&gt;
-
-&lt;p&gt;Given data: $(1, 2)$, $(2, 4.1)$, $(3, 6.2)$&lt;/p&gt;
-
-&lt;p&gt;Fit a line: $y = mx + c$ using least squares:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Normal equations lead to $m \approx 2.1$, $c \approx -0.1$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So, best-fit line: $y = 2.1x - 0.1$&lt;/p&gt;
-
-&lt;h3 id=&quot;-purpose&quot;&gt;🔸 Purpose:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Data modeling&lt;/li&gt;
-  &lt;li&gt;Predictive analytics&lt;/li&gt;
-  &lt;li&gt;Simplification of complex datasets&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;-tools&quot;&gt;🔸 Tools:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Manual fitting&lt;/li&gt;
-  &lt;li&gt;Python libraries: NumPy (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;polyfit&lt;/code&gt;), SciPy, Matplotlib&lt;/li&gt;
-  &lt;li&gt;MATLAB, Excel&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-4-least-squares-fitting&quot;&gt;🔹 4. Least Squares Fitting&lt;/h2&gt;
-
-&lt;h3 id=&quot;-definition-3&quot;&gt;🔸 Definition:&lt;/h3&gt;
-
-&lt;p&gt;The least squares method minimizes the &lt;strong&gt;sum of the squares of the vertical differences&lt;/strong&gt; (residuals) between the observed and predicted values.&lt;/p&gt;
-
-&lt;h3 id=&quot;-linear-least-squares&quot;&gt;🔸 Linear Least Squares:&lt;/h3&gt;
-
-&lt;p&gt;Given data points $(x_i, y_i)$, find $y = mx + c$ that minimizes:&lt;/p&gt;
-
-\[S = \sum_{i=1}^n (y_i - (mx_i + c))^2\]
-
-&lt;h3 id=&quot;-example-linear-least-squares-fit&quot;&gt;🔸 Example (Linear Least Squares Fit):&lt;/h3&gt;
-
-&lt;p&gt;Data: $(1,2)$, $(2,3)$, $(3,5)$&lt;/p&gt;
-
-&lt;p&gt;Compute:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$\sum x = 6$, $\sum y = 10$, $\sum xy = 23$, $\sum x^2 = 14$, $n=3$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Normal equations:&lt;/p&gt;
-
-\[10 = 6m + 3c \\
-23 = 14m + 6c\]
-
-&lt;p&gt;Solving gives: $m = 1.5$, $c = 0.333$&lt;/p&gt;
-
-&lt;p&gt;Best fit: $y = 1.5x + 0.333$&lt;/p&gt;
-
-&lt;h3 id=&quot;-polynomial-least-squares&quot;&gt;🔸 Polynomial Least Squares:&lt;/h3&gt;
-
-&lt;p&gt;Minimize the sum of squares for a polynomial:&lt;/p&gt;
-
-\[y = a_0 + a_1x + a_2x^2 + \dots + a_nx^n\]
-
-&lt;p&gt;Use matrix techniques to solve the normal equations.&lt;/p&gt;
-
-&lt;h3 id=&quot;-advantages&quot;&gt;🔸 Advantages:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Simple to implement&lt;/li&gt;
-  &lt;li&gt;Well-studied and robust&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;-limitations&quot;&gt;🔸 Limitations:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sensitive to outliers&lt;/li&gt;
-  &lt;li&gt;Overfitting with high-degree polynomials&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-summary-table&quot;&gt;📋 Summary Table&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Concept&lt;/th&gt;
-      &lt;th&gt;Domain&lt;/th&gt;
-      &lt;th&gt;Input Data Range&lt;/th&gt;
-      &lt;th&gt;Output Estimate&lt;/th&gt;
-      &lt;th&gt;Confidence&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Interpolation&lt;/td&gt;
-      &lt;td&gt;Within data&lt;/td&gt;
-      &lt;td&gt;[x_min, x_max]&lt;/td&gt;
-      &lt;td&gt;Estimated y&lt;/td&gt;
-      &lt;td&gt;High&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Extrapolation&lt;/td&gt;
-      &lt;td&gt;Outside data&lt;/td&gt;
-      &lt;td&gt;x &amp;lt; x_min or x &amp;gt; x_max&lt;/td&gt;
-      &lt;td&gt;Forecasted y&lt;/td&gt;
-      &lt;td&gt;Lower&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Curve Fitting&lt;/td&gt;
-      &lt;td&gt;Entire dataset&lt;/td&gt;
-      &lt;td&gt;All data points&lt;/td&gt;
-      &lt;td&gt;Best-fit curve (y vs x)&lt;/td&gt;
-      &lt;td&gt;Varies&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Least Squares&lt;/td&gt;
-      &lt;td&gt;Numerical method&lt;/td&gt;
-      &lt;td&gt;All data points&lt;/td&gt;
-      &lt;td&gt;Curve parameters (e.g. m, c)&lt;/td&gt;
-      &lt;td&gt;Depends on data&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-further-reading&quot;&gt;🔍 Further Reading&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Numerical Analysis by R.L. Burden and J.D. Faires&lt;/li&gt;
-  &lt;li&gt;Curve Fitting for Programmers (NumPy, SciPy)&lt;/li&gt;
-  &lt;li&gt;Applied Regression Analysis&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;solution-of-first-order-differential-equation-using-runge-kutta-method&quot;&gt;Solution of First Order Differential Equation using Runge-Kutta Method&lt;/h1&gt;
-
-&lt;p&gt;The numerical solution of &lt;strong&gt;first-order differential equations&lt;/strong&gt; plays a crucial role across science and engineering. While many analytical methods exist, they are often limited to relatively simple equations. As a result, numerical methods have become indispensable tools for approximating solutions.&lt;/p&gt;
-
-&lt;p&gt;Several methods are available for numerically solving first-order ordinary differential equations (ODEs):&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Euler’s Method&lt;/strong&gt;: The simplest method, based on a first-order Taylor expansion. It is easy to implement but often suffers from large truncation errors, especially over larger step sizes.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Improved Euler’s Method (Heun’s Method)&lt;/strong&gt;: An enhancement over Euler’s method, reducing errors by using an averaged slope.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Taylor Series Methods&lt;/strong&gt;: These methods provide high accuracy but require the calculation of higher-order derivatives, making them computationally intensive.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Runge-Kutta Methods&lt;/strong&gt;: A family of iterative methods that achieve higher accuracy without requiring higher derivatives. They are the most widely used in practice due to their balance between simplicity, accuracy, and computational efficiency.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Among these, the &lt;strong&gt;Runge-Kutta methods&lt;/strong&gt; stand out as the most popular because:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;They do not require the explicit computation of higher derivatives (unlike Taylor series methods).&lt;/li&gt;
-  &lt;li&gt;They can achieve high-order accuracy with relatively simple formulas.&lt;/li&gt;
-  &lt;li&gt;They are robust and flexible, applicable to a wide variety of differential equations.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The Runge-Kutta family includes methods of various orders:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;First-Order Runge-Kutta (RK1)&lt;/strong&gt;: Equivalent to Euler’s method.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Second-Order Runge-Kutta (RK2)&lt;/strong&gt;: Also known as the Improved Euler or Heun’s method, offering better accuracy.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Third-Order Runge-Kutta (RK3)&lt;/strong&gt;: Provides intermediate accuracy but is less commonly used.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Fourth-Order Runge-Kutta (RK4)&lt;/strong&gt;: The most popular method, offering excellent accuracy with manageable computational complexity.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Higher-Order Runge-Kutta Methods&lt;/strong&gt;: Methods of order five and above exist (such as the Runge-Kutta-Fehlberg and Dormand-Prince methods) but are typically used for adaptive step-size control in more advanced applications.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;fourth-order-runge-kutta-method-rk4&quot;&gt;Fourth-Order Runge-Kutta Method (RK4)&lt;/h2&gt;
-
-&lt;p&gt;The &lt;strong&gt;Runge-Kutta methods&lt;/strong&gt; are a family of iterative methods for approximating the solution of &lt;strong&gt;first-order ordinary differential equations (ODEs)&lt;/strong&gt; of the form:&lt;/p&gt;
-
-\[\frac{dy}{dx} = f(x, y), \quad y(x_0) = y_0\]
-
-&lt;p&gt;Suppose we wish to find \(y(x)\) at \(x = x_0 + h\) given \(y(x_0) = y_0\). The RK4 method uses the following steps:&lt;/p&gt;
-
-&lt;h3 id=&quot;formulae&quot;&gt;Formulae:&lt;/h3&gt;
-
-&lt;p&gt;Compute intermediate slopes:&lt;/p&gt;
-
-\[\begin{aligned}
-k_1 &amp;amp;= h f(x_0, y_0) \\
-k_2 &amp;amp;= h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_1}{2}\right) \\
-k_3 &amp;amp;= h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_2}{2}\right) \\
-k_4 &amp;amp;= h f(x_0 + h, y_0 + k_3)
-\end{aligned}\]
-
-&lt;p&gt;Then, update the solution:&lt;/p&gt;
-
-\[y(x_0+h) = y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4)\]
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;step-by-step-procedure&quot;&gt;Step-by-Step Procedure&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Start with initial conditions \((x_0, y_0)\).&lt;/li&gt;
-  &lt;li&gt;Choose a step size \(h\).&lt;/li&gt;
-  &lt;li&gt;Compute \(k_1, k_2, k_3, k_4\) using the given \(f(x, y)\).&lt;/li&gt;
-  &lt;li&gt;Find the next value \(y_1\) using the weighted average.&lt;/li&gt;
-  &lt;li&gt;Update \(x\) to \(x_1 = x_0 + h\).&lt;/li&gt;
-  &lt;li&gt;Repeat the process as needed.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;example-1&quot;&gt;Example 1&lt;/h2&gt;
-
-&lt;h3 id=&quot;problem&quot;&gt;Problem:&lt;/h3&gt;
-
-&lt;p&gt;Solve&lt;/p&gt;
-
-\[\frac{dy}{dx} = x + y, \quad y(0) = 1\]
-
-&lt;p&gt;Find \(y(0.1)\) using RK4 with step size \(h = 0.1\).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;solution&quot;&gt;Solution:&lt;/h3&gt;
-
-&lt;p&gt;Given:&lt;/p&gt;
-
-\[f(x,y) = x + y\]
-
-&lt;p&gt;Initial conditions:&lt;/p&gt;
-
-\[x_0 = 0, \quad y_0 = 1, \quad h = 0.1\]
-
-&lt;p&gt;Compute:&lt;/p&gt;
-
-\[\begin{aligned}
-k_1 &amp;amp;= h f(x_0, y_0) = 0.1 (0 + 1) = 0.1 \\
-k_2 &amp;amp;= h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_1}{2}\right) = 0.1 (0.05 + 1.05) = 0.1(1.1) = 0.11 \\
-k_3 &amp;amp;= h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_2}{2}\right) = 0.1 (0.05 + 1.055) = 0.1(1.105) = 0.1105 \\
-k_4 &amp;amp;= h f(x_0 + h, y_0 + k_3) = 0.1 (0.1 + 1.1105) = 0.1(1.2105) = 0.12105
-\end{aligned}\]
-
-&lt;p&gt;Now:&lt;/p&gt;
-
-\[\begin{aligned}
-y(0.1) &amp;amp;= y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \\
-&amp;amp;= 1 + \frac{1}{6}(0.1 + 2(0.11) + 2(0.1105) + 0.12105) \\
-&amp;amp;= 1 + \frac{1}{6}(0.1 + 0.22 + 0.221 + 0.12105) \\
-&amp;amp;= 1 + \frac{1}{6}(0.66205) \\
-&amp;amp;= 1 + 0.11034 \\
-&amp;amp;\approx 1.11034
-\end{aligned}\]
-
-&lt;p&gt;Thus, \(y(0.1) \approx 1.11034\).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;example-2&quot;&gt;Example 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;problem-1&quot;&gt;Problem:&lt;/h3&gt;
-
-&lt;p&gt;Solve&lt;/p&gt;
-
-\[\frac{dy}{dx} = y - x^2 + 1, \quad y(0) = 0.5\]
-
-&lt;p&gt;Find \(y(0.2)\) using RK4 with step size \(h = 0.2\).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;solution-1&quot;&gt;Solution:&lt;/h3&gt;
-
-&lt;p&gt;Given:&lt;/p&gt;
-
-\[f(x,y) = y - x^2 + 1\]
-
-&lt;p&gt;Initial conditions:&lt;/p&gt;
-
-\[x_0 = 0, \quad y_0 = 0.5, \quad h = 0.2\]
-
-&lt;p&gt;Compute:&lt;/p&gt;
-
-\[\begin{aligned}
-k_1 &amp;amp;= h f(x_0, y_0) = 0.2 (0.5 - 0^2 + 1) = 0.2(1.5) = 0.3 \\
-k_2 &amp;amp;= h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_1}{2}\right) = 0.2\left( (0.5 + 0.15) - (0.1)^2 + 1 \right) \\
-&amp;amp;= 0.2 (0.65 - 0.01 + 1) = 0.2(1.64) = 0.328 \\
-k_3 &amp;amp;= h f\left(x_0 + \frac{h}{2}, y_0 + \frac{k_2}{2}\right) = 0.2 \left( (0.5 + 0.164) - (0.1)^2 + 1 \right) \\
-&amp;amp;= 0.2(1.654) = 0.3308 \\
-k_4 &amp;amp;= h f(x_0 + h, y_0 + k_3) = 0.2 \left( (0.5 + 0.3308) - (0.2)^2 + 1 \right) \\
-&amp;amp;= 0.2(0.8308 - 0.04 + 1) = 0.2(1.7908) = 0.35816
-\end{aligned}\]
-
-&lt;p&gt;Now:&lt;/p&gt;
-
-\[\begin{aligned}
-y(0.2) &amp;amp;= y_0 + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4) \\
-&amp;amp;= 0.5 + \frac{1}{6}(0.3 + 2(0.328) + 2(0.3308) + 0.35816) \\
-&amp;amp;= 0.5 + \frac{1}{6}(0.3 + 0.656 + 0.6616 + 0.35816) \\
-&amp;amp;= 0.5 + \frac{1}{6}(1.97576) \\
-&amp;amp;= 0.5 + 0.32929 \\
-&amp;amp;= 0.82929
-\end{aligned}\]
-
-&lt;p&gt;Thus, \(y(0.2) \approx 0.82929\).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;advantages-of-runge-kutta-method&quot;&gt;Advantages of Runge-Kutta Method&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;High accuracy with relatively fewer steps.&lt;/li&gt;
-  &lt;li&gt;No need to calculate higher derivatives (unlike Taylor series method).&lt;/li&gt;
-  &lt;li&gt;Widely applicable to a variety of ODE problems.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;finite-difference-method-fdm&quot;&gt;Finite Difference Method (FDM)&lt;/h1&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;The &lt;strong&gt;Finite Difference Method (FDM)&lt;/strong&gt; is one of the most widely used numerical techniques for solving differential equations, particularly when analytical solutions are difficult or impossible to obtain.&lt;/p&gt;
-
-&lt;p&gt;Compared to other methods:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Simplicity&lt;/strong&gt;: FDM directly discretizes the differential equations into algebraic equations, making it easy to implement.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Flexibility&lt;/strong&gt;: It can handle complex boundary conditions effectively.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Efficiency&lt;/strong&gt;: It is computationally faster for structured grids and simple geometries.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Accuracy Control&lt;/strong&gt;: The accuracy can be systematically improved by refining the grid (reducing step size).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Unlike methods like the &lt;strong&gt;Taylor series expansion&lt;/strong&gt; (which require computation of higher-order derivatives) or the &lt;strong&gt;Runge-Kutta methods&lt;/strong&gt; (which approximate solutions point by point), FDM transforms the entire differential equation into a system of algebraic equations across a discretized domain, providing a &lt;strong&gt;global&lt;/strong&gt; numerical solution.&lt;/p&gt;
-
-&lt;p&gt;Thus, FDM is particularly powerful for solving:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Boundary Value Problems&lt;/strong&gt; (BVPs)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Partial Differential Equations&lt;/strong&gt; (PDEs)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Time-dependent problems&lt;/strong&gt; (in combination with time discretization)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;working-principle&quot;&gt;Working Principle&lt;/h2&gt;
-
-&lt;p&gt;The core idea of the Finite Difference Method is to replace &lt;strong&gt;derivatives&lt;/strong&gt; by &lt;strong&gt;finite difference approximations&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;For a function \(y(x)\), the derivatives are approximated as:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;First Derivative&lt;/strong&gt; (Forward Difference):
-\(\frac{dy}{dx}\Bigg|_{x=x_i} \approx \frac{y(x_{i+1}) - y(x_i)}{h}\)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;First Derivative&lt;/strong&gt; (Backward Difference):
-\(\frac{dy}{dx}\Bigg|_{x=x_i} \approx \frac{y(x_i) - y(x_{i-1})}{h}\)&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;First Derivative&lt;/strong&gt; (Central Difference):
-\(\frac{dy}{dx}\Bigg|_{x=x_i} \approx \frac{y(x_{i+1}) - y(x_{i-1})}{2h}\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Second Derivative&lt;/strong&gt; (Central Difference):
-\(\frac{d^2y}{dx^2}\Bigg|_{x=x_i} \approx \frac{y(x_{i+1}) - 2y(x_i) + y(x_{i-1})}{h^2}\)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;where:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;\(h\) is the step size between adjacent points: \(h = x_{i+1} - x_i\).&lt;/li&gt;
-  &lt;li&gt;\(x_i\) are the grid points at which we compute the solution.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Basic steps:&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Discretize the domain into a set of points.&lt;/li&gt;
-  &lt;li&gt;Replace derivatives in the differential equation using finite differences.&lt;/li&gt;
-  &lt;li&gt;Form a system of algebraic equations.&lt;/li&gt;
-  &lt;li&gt;Solve the system to approximate the values of the unknown function at the grid points.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;simple-example&quot;&gt;Simple Example&lt;/h2&gt;
-
-&lt;h3 id=&quot;example-solve&quot;&gt;Example: Solve&lt;/h3&gt;
-
-&lt;p&gt;\(\frac{d^2y}{dx^2} = -2, \quad 0 \leq x \leq 1\)
-with boundary conditions:&lt;/p&gt;
-
-\[y(0) = 0, \quad y(1) = 0\]
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;step-1-discretize-the-domain&quot;&gt;Step 1: Discretize the domain&lt;/h3&gt;
-
-&lt;p&gt;Let’s divide the domain into 4 equal intervals (5 points):&lt;/p&gt;
-
-\[h = \frac{1-0}{4} = 0.25\]
-
-&lt;p&gt;Grid points:&lt;/p&gt;
-
-\[x_0 = 0, \quad x_1 = 0.25, \quad x_2 = 0.5, \quad x_3 = 0.75, \quad x_4 = 1\]
-
-&lt;p&gt;Given: \(y(0) = 0\), \(y(1) = 0\)&lt;/p&gt;
-
-&lt;p&gt;We need to find \(y_1, y_2, y_3\).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;step-2-replace-derivatives-using-finite-difference-approximation&quot;&gt;Step 2: Replace derivatives using finite difference approximation&lt;/h3&gt;
-
-&lt;p&gt;Using central difference for the second derivative:&lt;/p&gt;
-
-\[\frac{y_{i+1} - 2y_i + y_{i-1}}{h^2} = -2\]
-
-&lt;p&gt;Multiply throughout by \(h^2\):&lt;/p&gt;
-
-\[y_{i+1} - 2y_i + y_{i-1} = -2h^2\]
-
-&lt;p&gt;Since \(h = 0.25\), we have:&lt;/p&gt;
-
-\[h^2 = 0.0625\]
-
-&lt;p&gt;Thus:&lt;/p&gt;
-
-\[y_{i+1} - 2y_i + y_{i-1} = -0.125\]
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;step-3-set-up-equations&quot;&gt;Step 3: Set up equations&lt;/h3&gt;
-
-&lt;p&gt;For each interior point:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;At \(x_1\): 
-\(y_2 - 2y_1 + y_0 = -0.125\)
-Since \(y_0 = 0\), it simplifies to:
-\(y_2 - 2y_1 = -0.125\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;At \(x_2\):
-\(y_3 - 2y_2 + y_1 = -0.125\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;At \(x_3\):
-\(y_4 - 2y_3 + y_2 = -0.125\)
-Since \(y_4 = 0\), it simplifies to:
-\(-2y_3 + y_2 = -0.125\)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;step-4-solve-the-system&quot;&gt;Step 4: Solve the system&lt;/h3&gt;
-
-&lt;p&gt;System of equations:&lt;/p&gt;
-
-\[\begin{aligned}
--2y_1 + y_2 &amp;amp;= -0.125 \quad (1) \\
-y_1 - 2y_2 + y_3 &amp;amp;= -0.125 \quad (2) \\
-y_2 - 2y_3 &amp;amp;= -0.125 \quad (3)
-\end{aligned}\]
-
-&lt;p&gt;You can solve this system using substitution, matrix methods, or a simple calculator to find \(y_1, y_2, y_3\).&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;numerical-integration-trapezoidal-rule-and-simpsons-rule&quot;&gt;Numerical Integration: Trapezoidal Rule and Simpson’s Rule&lt;/h1&gt;
-
-&lt;p&gt;In many practical situations, finding the exact value of a definite integral:&lt;/p&gt;
-
-\[\int_a^b f(x)\,dx\]
-
-&lt;p&gt;is either very difficult or impossible analytically.&lt;br /&gt;
-&lt;strong&gt;Numerical integration (or quadrature)&lt;/strong&gt; techniques provide approximate methods to evaluate such integrals.&lt;/p&gt;
-
-&lt;p&gt;Two of the most popular and widely used methods are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Trapezoidal Rule&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Simpson’s Rule&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Both methods replace the function with simple polynomials (linear for trapezoidal, quadratic for Simpson’s) and then integrate the approximations exactly.&lt;/p&gt;
-
-&lt;h2 id=&quot;trapezoidal-rule&quot;&gt;Trapezoidal Rule&lt;/h2&gt;
-
-&lt;p&gt;The &lt;strong&gt;Trapezoidal Rule&lt;/strong&gt; approximates the area under a curve by dividing it into &lt;strong&gt;trapezoids&lt;/strong&gt; instead of rectangles.&lt;/p&gt;
-
-&lt;p&gt;Suppose we want to evaluate:&lt;/p&gt;
-
-\[I = \int_a^b f(x)\,dx\]
-
-&lt;p&gt;Divide the interval \([a, b]\) into \(n\) equal subintervals, each of width:&lt;/p&gt;
-
-\[h = \frac{b-a}{n}\]
-
-&lt;p&gt;The trapezoidal approximation is:&lt;/p&gt;
-
-\[I \approx \frac{h}{2} \left[ f(x_0) + 2f(x_1) + 2f(x_2) + \cdots + 2f(x_{n-1}) + f(x_n) \right]\]
-
-&lt;p&gt;where:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-\[x_0 = a\]
-  &lt;/li&gt;
-  &lt;li&gt;
-\[x_n = b\]
-  &lt;/li&gt;
-  &lt;li&gt;\(x_i = a + ih\) for \(i = 1, 2, \ldots, n-1\)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;error-estimate&quot;&gt;Error Estimate&lt;/h3&gt;
-
-&lt;p&gt;The error \(E_T\) in the trapezoidal rule is approximately:&lt;/p&gt;
-
-\[E_T = -\frac{(b-a)^3}{12n^2} f&apos;&apos;(\xi)\]
-
-&lt;p&gt;for some \(\xi\) in \((a,b)\).&lt;br /&gt;
-Thus, the error decreases quadratically as \(n\) increases.&lt;/p&gt;
-
-&lt;h2 id=&quot;simpsons-rule&quot;&gt;Simpson’s Rule&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Simpson’s Rule&lt;/strong&gt; approximates the function by a &lt;strong&gt;second-degree polynomial (parabola)&lt;/strong&gt; through each set of three points and integrates the parabola exactly.&lt;/p&gt;
-
-&lt;p&gt;Divide \([a, b]\) into an &lt;strong&gt;even&lt;/strong&gt; number \(n\) of subintervals (important: \(n\) must be even), each of width:&lt;/p&gt;
-
-\[h = \frac{b-a}{n}\]
-
-&lt;p&gt;The Simpson’s 1/3 Rule formula is:&lt;/p&gt;
-
-\[I \approx \frac{h}{3} \left[ f(x_0) + 4f(x_1) + 2f(x_2) + 4f(x_3) + 2f(x_4) + \cdots + 2f(x_{n-2}) + 4f(x_{n-1}) + f(x_n) \right]\]
-
-&lt;p&gt;Notice the pattern:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Coefficient 4 for odd-indexed points&lt;/li&gt;
-  &lt;li&gt;Coefficient 2 for even-indexed points (except first and last)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;error-estimate-1&quot;&gt;Error Estimate&lt;/h3&gt;
-
-&lt;p&gt;The error \(E_S\) in Simpson’s Rule is approximately:&lt;/p&gt;
-
-\[E_S = -\frac{(b-a)^5}{180n^4} f^{(4)}(\xi)\]
-
-&lt;p&gt;for some \(\xi\) in \((a,b)\).&lt;br /&gt;
-Thus, Simpson’s rule is much more accurate than the trapezoidal rule for smooth functions — error decreases with \(n^4\).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;simple-examples&quot;&gt;Simple Examples&lt;/h2&gt;
-
-&lt;h3 id=&quot;example-1-trapezoidal-rule&quot;&gt;Example 1: Trapezoidal Rule&lt;/h3&gt;
-
-&lt;p&gt;Approximate:&lt;/p&gt;
-
-\[\int_0^1 x^2\,dx\]
-
-&lt;p&gt;using \(n=2\) intervals.&lt;/p&gt;
-
-&lt;h4 id=&quot;step-1-divide-the-interval&quot;&gt;Step 1: Divide the interval&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-\[h = \frac{1-0}{2} = 0.5\]
-  &lt;/li&gt;
-  &lt;li&gt;Points: \(x_0 = 0\), \(x_1 = 0.5\), \(x_2 = 1\)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;step-2-evaluate-the-function&quot;&gt;Step 2: Evaluate the function&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-\[f(0) = 0^2 = 0\]
-  &lt;/li&gt;
-  &lt;li&gt;
-\[f(0.5) = 0.25\]
-  &lt;/li&gt;
-  &lt;li&gt;
-\[f(1) = 1\]
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;step-3-apply-trapezoidal-formula&quot;&gt;Step 3: Apply trapezoidal formula&lt;/h4&gt;
-
-\[I \approx \frac{0.5}{2} \left[ 0 + 2(0.25) + 1 \right]
-= 0.25 \times (1.5)
-= 0.375\]
-
-&lt;h4 id=&quot;exact-answer&quot;&gt;Exact answer&lt;/h4&gt;
-
-&lt;p&gt;The exact value is:&lt;/p&gt;
-
-\[\int_0^1 x^2\,dx = \frac{1}{3} \approx 0.3333\]
-
-&lt;p&gt;Thus, trapezoidal rule gives a slightly overestimated result.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;example-2-simpsons-rule&quot;&gt;Example 2: Simpson’s Rule&lt;/h3&gt;
-
-&lt;p&gt;Approximate:&lt;/p&gt;
-
-\[\int_0^1 x^2\,dx\]
-
-&lt;p&gt;using \(n=2\) intervals.&lt;/p&gt;
-
-&lt;h4 id=&quot;step-1-divide-the-interval-1&quot;&gt;Step 1: Divide the interval&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-\[h = 0.5\]
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;step-2-evaluate-the-function-1&quot;&gt;Step 2: Evaluate the function&lt;/h4&gt;
-
-&lt;p&gt;Already calculated above:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-\[f(0) = 0\]
-  &lt;/li&gt;
-  &lt;li&gt;
-\[f(0.5) = 0.25\]
-  &lt;/li&gt;
-  &lt;li&gt;
-\[f(1) = 1\]
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;step-3-apply-simpsons-formula&quot;&gt;Step 3: Apply Simpson’s formula&lt;/h4&gt;
-
-\[I \approx \frac{0.5}{3} \left[ 0 + 4(0.25) + 1 \right]
-= \frac{0.5}{3} \times (2)
-= \frac{1}{3}
-= 0.3333\]
-
-&lt;p&gt;Thus, Simpson’s rule gives the exact value for polynomials of degree ≤ 3.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;summary-table&quot;&gt;Summary Table&lt;/h1&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Feature&lt;/th&gt;
-      &lt;th&gt;Trapezoidal Rule&lt;/th&gt;
-      &lt;th&gt;Simpson’s Rule&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Approximation&lt;/td&gt;
-      &lt;td&gt;Straight line&lt;/td&gt;
-      &lt;td&gt;Parabola&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Accuracy&lt;/td&gt;
-      &lt;td&gt;\(O(h^2)\)&lt;/td&gt;
-      &lt;td&gt;\(O(h^4)\)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Grid requirement&lt;/td&gt;
-      &lt;td&gt;Any number of intervals&lt;/td&gt;
-      &lt;td&gt;Even number of intervals&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;When preferred&lt;/td&gt;
-      &lt;td&gt;Quick estimate, rough accuracy&lt;/td&gt;
-      &lt;td&gt;Higher precision with smooth functions&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Eigenvalues and eigenvectors play a central role in linear algebra, with wide applications in physics, engineering, and data science. They help understand the action of a linear transformation in a given vector space.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Macroscopic Dielectric Constant</summary></entry></feed>

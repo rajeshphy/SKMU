@@ -20,12 +20,4 @@ c = 1.0         # Speed
 # Create grid
 Rg, Thetag = initialize_grid(R, NR, NTheta)
 
-# Heat Equation Simulation
-u0 = initial_heat_condition(Rg, Thetag)
-uh = simulate_heat(u0, dr, dtheta, dt, steps, c)
-plot_polar_field(Rg, Thetag, uh, title="Heat Equation Final State")
-
-# Wave Equation Simulation
-#u0, v0 = initial_wave_conditions(Rg, Thetag)
-#uw = simulate_wave(u0, v0, dr, dtheta, dt, steps, c)
-#plot_polar_field(Rg, Thetag, uw, title="Wave Equation Final State")
+print(Thetag[1])
