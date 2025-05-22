@@ -194,7 +194,8 @@ $$
      **Answer**: b)
 
 ---
-Few more examples: 
+
+## Few more examples
 
 🧭 Example 1: One-Dimensional Free Particle
 
