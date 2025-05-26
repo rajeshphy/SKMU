@@ -35,3 +35,19 @@ def plot_polar_field(Rg, Thetag, U, title="Field"):
     ax.set_xlabel("x")
     ax.set_ylabel("y")
     plt.show()
+def plot_polar_field_contour(Rg, Thetag, U, title="Field"):
+    """
+    Plot a contour plot of a polar field in Cartesian coordinates.
+    """
+    X = Rg * np.cos(Thetag)
+    Y = Rg * np.sin(Thetag)
+
+    fig, ax = plt.subplots(figsize=(6, 6))
+    contour = ax.contourf(X, Y, U, levels=100, cmap='viridis')
+    ax.set_title(title)
+    ax.set_xlabel("x")
+    ax.set_ylabel("y")
+    ax.set_aspect('equal')
+    plt.colorbar(contour, ax=ax, label='Field Intensity')
+    plt.tight_layout()
+    plt.show()

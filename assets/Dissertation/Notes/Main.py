@@ -20,4 +20,4 @@ c = 1.0         # Speed
 # Create grid
 Rg, Thetag = initialize_grid(R, NR, NTheta)
 
-print(Thetag[1])
+print(initial_heat_condition(Rg, Thetag))
