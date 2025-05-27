@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-26T14:42:01+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Tight-Binding Approximation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding.html" rel="alternate" type="text/html" title="Tight-Binding Approximation" /><published>2025-05-26T09:47:26+05:30</published><updated>2025-05-26T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding.html">&lt;h1 id=&quot;nearly-free-electron-model-and-energy-bands-in-one-dimension-tight-binding-approximation&quot;&gt;Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-27T12:04:50+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Tight-Binding Approximation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding.html" rel="alternate" type="text/html" title="Tight-Binding Approximation" /><published>2025-05-26T09:47:26+05:30</published><updated>2025-05-26T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding.html">&lt;h1 id=&quot;nearly-free-electron-model-and-energy-bands-in-one-dimension-tight-binding-approximation&quot;&gt;Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation&lt;/h1&gt;
 
 &lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;:&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -43,27 +43,113 @@
 &lt;p&gt;This model modifies the dispersion relation near the zone boundaries, and leads to &lt;strong&gt;energy bands&lt;/strong&gt; separated by &lt;strong&gt;gaps&lt;/strong&gt;. The first Brillouin zone extends from $- \frac{\pi}{a}$ to $+ \frac{\pi}{a}$.&lt;/p&gt;
 
 &lt;hr /&gt;
+&lt;h1 id=&quot;the-tight-binding-model&quot;&gt;The Tight-Binding Model&lt;/h1&gt;
 
-&lt;h3 id=&quot;tight-binding-approximation&quot;&gt;Tight-Binding Approximation&lt;/h3&gt;
+&lt;p&gt;The tight-binding model is a discrete approximation for understanding electron motion in solids. In this framework, space is replaced by a lattice of discrete points, corresponding to atomic positions in a crystalline solid. An electron is allowed to sit only on these discrete sites and can hop to neighboring sites due to quantum tunneling.&lt;/p&gt;
 
-&lt;p&gt;In contrast to NFEM, the &lt;strong&gt;tight-binding model&lt;/strong&gt; starts from electrons localized at atoms and allows for quantum mechanical tunneling to neighboring atoms.&lt;/p&gt;
+&lt;p&gt;We begin by considering a one-dimensional lattice of atoms, described by $ N $ points along a line, each separated by a lattice constant $ a $. A single electron is considered, which can reside on any of these lattice sites but not in between. This assumption is central to the &lt;strong&gt;tight-binding approximation&lt;/strong&gt;, which models electrons as being tightly bound to atoms with a small probability to move to neighboring sites.&lt;/p&gt;
 
-&lt;p&gt;Assume wavefunctions centered at atom positions $x_n = na$:&lt;/p&gt;
+&lt;p&gt;Let $ \ket{n} $ denote the state where the electron is located at the $ n $-th site. These states are orthogonal:&lt;/p&gt;
 
-\[\psi(x) = \sum_n c_n \phi(x - na)\]
+\[&amp;lt; n | m &amp;gt; = \delta_{nm}\]
 
-&lt;p&gt;The energy dispersion relation in 1D becomes:&lt;/p&gt;
+&lt;p&gt;The Hilbert space is $ N $-dimensional and spanned by the orthonormal set $ { |n&amp;gt; }_{n=1}^N $.&lt;/p&gt;
+
+&lt;h3 id=&quot;hamiltonian-without-hopping&quot;&gt;Hamiltonian Without Hopping&lt;/h3&gt;
+
+&lt;p&gt;If the electron is bound to its site and never hops, the Hamiltonian $ H_0 $ is given by:&lt;/p&gt;
+
+\[H_0 = E_0 \sum_{n} |n&amp;gt;&amp;lt; n|\]
+
+&lt;p&gt;Each $ \ket{n}$ is an eigenstate with energy $ E_0 $. This Hamiltonian describes electrons that are completely localized and hence is trivial.&lt;/p&gt;
+
+&lt;h3 id=&quot;introducing-hopping&quot;&gt;Introducing Hopping&lt;/h3&gt;
+
+&lt;p&gt;To incorporate tunneling between sites, we modify the Hamiltonian. Quantum time evolution implies that to move an electron from one site to another, the Hamiltonian should include terms like $ \ket{m}&amp;lt; n| $, which annihilates an electron at site $ n $ and creates one at site $ m $.&lt;/p&gt;
+
+&lt;p&gt;To keep the model local (i.e., allow only hopping to nearest neighbors), the full tight-binding Hamiltonian becomes:&lt;/p&gt;
+
+\[H = E_0 \sum_{n} | n&amp;gt;&amp;lt; n| - t \sum_{n} \left( |n&amp;gt;&amp;lt; n+1| + |n+1&amp;gt;&amp;lt; n| \right)\]
+
+&lt;p&gt;Here, $ t $ is the &lt;strong&gt;hopping parameter&lt;/strong&gt;, determining the strength of tunneling. It must be real to ensure $ H $ is Hermitian.&lt;/p&gt;
+
+&lt;p&gt;We impose &lt;strong&gt;periodic boundary conditions&lt;/strong&gt; by identifying $|N+1&amp;gt; \equiv \ket{1} $, effectively wrapping the 1D lattice into a circle. This simplifies calculations and makes the model translationally invariant.&lt;/p&gt;
+
+&lt;h3 id=&quot;solving-the-model&quot;&gt;Solving the Model&lt;/h3&gt;
+
+&lt;p&gt;We look for energy eigenstates of $ H $. A general state is:&lt;/p&gt;
+
+\[|\psi&amp;gt; = \sum_{m} \psi_m |m&amp;gt;\]
+
+&lt;p&gt;Substituting into the Schrödinger equation $ H|\psi&amp;gt; = E|\psi&amp;gt; $ and projecting onto $ &amp;lt; n| $, we obtain:&lt;/p&gt;
+
+\[E_0 \psi_n - t (\psi_{n+1} + \psi_{n-1}) = E \psi_n\]
+
+&lt;p&gt;This is a second-order difference equation, often solved by the ansatz:&lt;/p&gt;
+
+\[\psi_n = e^{ikna}\]
+
+&lt;p&gt;or normalized as:&lt;/p&gt;
+
+\[\psi_n = \frac{1}{\sqrt{N}} e^{ikna}\]
+
+&lt;p&gt;Here, $ k $ is the &lt;strong&gt;wavenumber&lt;/strong&gt;, analogous to momentum. Substituting into the difference equation gives the &lt;strong&gt;energy dispersion relation&lt;/strong&gt;:&lt;/p&gt;
 
 \[E(k) = E_0 - 2t \cos(ka)\]
 
-&lt;p&gt;where:&lt;/p&gt;
+&lt;p&gt;This relation defines a &lt;strong&gt;band&lt;/strong&gt; of allowed energies:&lt;/p&gt;
+
+\[E(k) \in [E_0 - 2t, E_0 + 2t]\]
+
+&lt;p&gt;The total width of the band is $ 4t $, referred to as the &lt;strong&gt;bandwidth&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;brillouin-zone-and-quantization&quot;&gt;Brillouin Zone and Quantization&lt;/h3&gt;
+
+&lt;p&gt;Due to periodicity, $ k $ is defined modulo $ 2\pi/a $, and lies within the &lt;strong&gt;Brillouin zone&lt;/strong&gt;:&lt;/p&gt;
+
+\[k \in \left( -\frac{\pi}{a}, \frac{\pi}{a} \right]\]
+
+&lt;p&gt;Periodicity also requires:&lt;/p&gt;
+
+\[\psi_{n+N} = \psi_n \Rightarrow e^{ikNa} = 1 \Rightarrow k = \frac{2\pi}{Na} \cdot m,\quad m \in \mathbb{Z}\]
+
+&lt;p&gt;Thus, $ k $ is quantized in units of $ 2\pi/(Na) $, giving exactly $ N $ distinct values, consistent with the Hilbert space dimension.&lt;/p&gt;
+
+&lt;h3 id=&quot;physical-interpretation&quot;&gt;Physical Interpretation&lt;/h3&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;$E_0$ is the on-site energy,&lt;/li&gt;
-  &lt;li&gt;$t$ is the hopping (overlap) integral,&lt;/li&gt;
-  &lt;li&gt;$a$ is the lattice spacing.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Delocalization&lt;/strong&gt;: Even for arbitrarily small $ t $, the eigenstates become completely delocalized across the entire lattice. The presence of any hopping term destroys the localization of the $ H_0 $ eigenstates.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Degeneracy Lifting&lt;/strong&gt;: The degeneracy of $ H_0 $ is lifted. The spectrum now forms a band with energy varying with $ k $.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Effective Mass&lt;/strong&gt;: For small $ k \ll \pi/a $, we can expand the cosine:&lt;/p&gt;
+
+\[\cos(ka) \approx 1 - \frac{(ka)^2}{2}
+\Rightarrow
+E(k) \approx (E_0 - 2t) + ta^2 k^2\]
+
+    &lt;p&gt;This is similar to a free particle dispersion:&lt;/p&gt;
+
+\[E_{\text{free}} = \frac{\hbar^2 k^2}{2m}\]
+
+    &lt;p&gt;Hence, the electron behaves as if it moves in a continuum with &lt;strong&gt;effective mass&lt;/strong&gt;:&lt;/p&gt;
+
+\[m^* = \frac{\hbar^2}{2ta^2}\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Position-Momentum Reciprocity&lt;/strong&gt;:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Making space finite or periodic quantizes momentum (as in the particle-in-a-box model).&lt;/li&gt;
+      &lt;li&gt;Making space discrete (as in tight-binding) makes momentum periodic, confined within the Brillouin zone.&lt;/li&gt;
+      &lt;li&gt;This reflects a fundamental duality: &lt;strong&gt;discreteness in one domain implies compactness in the other&lt;/strong&gt;, a manifestation of Fourier duality.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;This gives rise to a &lt;strong&gt;cosine-shaped energy band&lt;/strong&gt;, with bandwidth $4t$. The tight-binding model is particularly useful for materials where electrons are tightly localized, like in transition metals or covalent crystals.&lt;/p&gt;
+&lt;p&gt;The tight-binding model, despite its simplicity, captures key features of electron dynamics in solids: band formation, delocalization, and the emergence of effective mass. It serves as a starting point for more complex models including multi-band structures, disorder, and interactions.&lt;/p&gt;
 
 &lt;hr /&gt;
 

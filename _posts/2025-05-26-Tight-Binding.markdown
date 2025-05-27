@@ -55,29 +55,132 @@ Near these points, the electron wavefunctions interfere destructively, leading t
 This model modifies the dispersion relation near the zone boundaries, and leads to **energy bands** separated by **gaps**. The first Brillouin zone extends from $- \frac{\pi}{a}$ to $+ \frac{\pi}{a}$.
 
 ---
+# The Tight-Binding Model
 
-### Tight-Binding Approximation
+The tight-binding model is a discrete approximation for understanding electron motion in solids. In this framework, space is replaced by a lattice of discrete points, corresponding to atomic positions in a crystalline solid. An electron is allowed to sit only on these discrete sites and can hop to neighboring sites due to quantum tunneling.
 
-In contrast to NFEM, the **tight-binding model** starts from electrons localized at atoms and allows for quantum mechanical tunneling to neighboring atoms.
+We begin by considering a one-dimensional lattice of atoms, described by $ N $ points along a line, each separated by a lattice constant $ a $. A single electron is considered, which can reside on any of these lattice sites but not in between. This assumption is central to the **tight-binding approximation**, which models electrons as being tightly bound to atoms with a small probability to move to neighboring sites.
 
-Assume wavefunctions centered at atom positions $x_n = na$:
+Let $ \ket{n} $ denote the state where the electron is located at the $ n $-th site. These states are orthogonal:
 
 $$
-\psi(x) = \sum_n c_n \phi(x - na)
+< n | m > = \delta_{nm}
 $$
 
-The energy dispersion relation in 1D becomes:
+The Hilbert space is $ N $-dimensional and spanned by the orthonormal set $ \{ \|n> \}_{n=1}^N $.
+
+### Hamiltonian Without Hopping
+
+If the electron is bound to its site and never hops, the Hamiltonian $ H_0 $ is given by:
+
+$$
+H_0 = E_0 \sum_{n} |n>< n|
+$$
+
+Each $ \ket{n}$ is an eigenstate with energy $ E_0 $. This Hamiltonian describes electrons that are completely localized and hence is trivial.
+
+### Introducing Hopping
+
+To incorporate tunneling between sites, we modify the Hamiltonian. Quantum time evolution implies that to move an electron from one site to another, the Hamiltonian should include terms like $ \ket{m}< n\| $, which annihilates an electron at site $ n $ and creates one at site $ m $.
+
+To keep the model local (i.e., allow only hopping to nearest neighbors), the full tight-binding Hamiltonian becomes:
+
+$$
+H = E_0 \sum_{n} | n>< n| - t \sum_{n} \left( |n>< n+1| + |n+1>< n| \right)
+$$
+
+Here, $ t $ is the **hopping parameter**, determining the strength of tunneling. It must be real to ensure $ H $ is Hermitian.
+
+We impose **periodic boundary conditions** by identifying $\|N+1> \equiv \ket{1} $, effectively wrapping the 1D lattice into a circle. This simplifies calculations and makes the model translationally invariant.
+
+### Solving the Model
+
+We look for energy eigenstates of $ H $. A general state is:
+
+$$
+|\psi> = \sum_{m} \psi_m |m>
+$$
+
+Substituting into the Schrödinger equation $ H\|\psi> = E\|\psi> $ and projecting onto $ < n\| $, we obtain:
+
+$$
+E_0 \psi_n - t (\psi_{n+1} + \psi_{n-1}) = E \psi_n
+$$
+
+This is a second-order difference equation, often solved by the ansatz:
+
+$$
+\psi_n = e^{ikna}
+$$
+
+or normalized as:
+
+$$
+\psi_n = \frac{1}{\sqrt{N}} e^{ikna}
+$$
+
+Here, $ k $ is the **wavenumber**, analogous to momentum. Substituting into the difference equation gives the **energy dispersion relation**:
 
 $$
 E(k) = E_0 - 2t \cos(ka)
 $$
 
-where:
-- $E_0$ is the on-site energy,
-- $t$ is the hopping (overlap) integral,
-- $a$ is the lattice spacing.
+This relation defines a **band** of allowed energies:
 
-This gives rise to a **cosine-shaped energy band**, with bandwidth $4t$. The tight-binding model is particularly useful for materials where electrons are tightly localized, like in transition metals or covalent crystals.
+$$
+E(k) \in [E_0 - 2t, E_0 + 2t]
+$$
+
+The total width of the band is $ 4t $, referred to as the **bandwidth**.
+
+### Brillouin Zone and Quantization
+
+Due to periodicity, $ k $ is defined modulo $ 2\pi/a $, and lies within the **Brillouin zone**:
+
+$$
+k \in \left( -\frac{\pi}{a}, \frac{\pi}{a} \right]
+$$
+
+Periodicity also requires:
+
+$$
+\psi_{n+N} = \psi_n \Rightarrow e^{ikNa} = 1 \Rightarrow k = \frac{2\pi}{Na} \cdot m,\quad m \in \mathbb{Z}
+$$
+
+Thus, $ k $ is quantized in units of $ 2\pi/(Na) $, giving exactly $ N $ distinct values, consistent with the Hilbert space dimension.
+
+### Physical Interpretation
+
+- **Delocalization**: Even for arbitrarily small $ t $, the eigenstates become completely delocalized across the entire lattice. The presence of any hopping term destroys the localization of the $ H_0 $ eigenstates.
+  
+- **Degeneracy Lifting**: The degeneracy of $ H_0 $ is lifted. The spectrum now forms a band with energy varying with $ k $.
+
+- **Effective Mass**: For small $ k \ll \pi/a $, we can expand the cosine:
+
+  $$
+  \cos(ka) \approx 1 - \frac{(ka)^2}{2}
+  \Rightarrow
+  E(k) \approx (E_0 - 2t) + ta^2 k^2
+  $$
+
+  This is similar to a free particle dispersion:
+
+  $$
+  E_{\text{free}} = \frac{\hbar^2 k^2}{2m}
+  $$
+
+  Hence, the electron behaves as if it moves in a continuum with **effective mass**:
+
+  $$
+  m^* = \frac{\hbar^2}{2ta^2}
+  $$
+
+- **Position-Momentum Reciprocity**:
+  - Making space finite or periodic quantizes momentum (as in the particle-in-a-box model).
+  - Making space discrete (as in tight-binding) makes momentum periodic, confined within the Brillouin zone.
+  - This reflects a fundamental duality: **discreteness in one domain implies compactness in the other**, a manifestation of Fourier duality.
+
+The tight-binding model, despite its simplicity, captures key features of electron dynamics in solids: band formation, delocalization, and the emergence of effective mass. It serves as a starting point for more complex models including multi-band structures, disorder, and interactions.
 
 ---
 
@@ -141,3 +244,4 @@ This gives rise to a **cosine-shaped energy band**, with bandwidth $4t$. The tig
      - (C) $-\frac{2\pi}{a}$ to $\frac{2\pi}{a}$
      - (D) $0$ to $\frac{\pi}{a}$  
      **Answer**: (B)
+
