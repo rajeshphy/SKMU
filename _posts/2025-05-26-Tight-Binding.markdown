@@ -69,6 +69,10 @@ $$
 
 The Hilbert space is $ N $-dimensional and spanned by the orthonormal set $ \{ \|n> \}_{n=1}^N $.
 
+<div style="text-align: center;">
+  <img src="/SKMU/assets/images/Lecture/tight.png" alt="Interaction Process" class="my-custom-class" style="max-width:80%; height:50%;">
+</div>
+
 ### Hamiltonian Without Hopping
 
 If the electron is bound to its site and never hops, the Hamiltonian $ H_0 $ is given by:
@@ -81,7 +85,7 @@ Each $ \ket{n}$ is an eigenstate with energy $ E_0 $. This Hamiltonian describes
 
 ### Introducing Hopping
 
-To incorporate tunneling between sites, we modify the Hamiltonian. Quantum time evolution implies that to move an electron from one site to another, the Hamiltonian should include terms like $ \ket{m}< n\| $, which annihilates an electron at site $ n $ and creates one at site $ m $.
+To incorporate tunneling between sites, we modify the Hamiltonian. Quantum time evolution implies that to move an electron from one site to another, the Hamiltonian should include terms like $ \|m>< n\| $, which annihilates an electron at site $ n $ and creates one at site $ m $.
 
 To keep the model local (i.e., allow only hopping to nearest neighbors), the full tight-binding Hamiltonian becomes:
 
@@ -98,7 +102,13 @@ We impose **periodic boundary conditions** by identifying $\|N+1> \equiv \ket{1}
 We look for energy eigenstates of $ H $. A general state is:
 
 $$
-|\psi> = \sum_{m} \psi_m |m>
+|\psi> = \sum_{m} c_m |m>
+$$
+
+and when operated by $<n\|$ we get
+
+$$
+\psi_n=<n|\psi>
 $$
 
 Substituting into the Schrödinger equation $ H\|\psi> = E\|\psi> $ and projecting onto $ < n\| $, we obtain:

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-27T12:04:50+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Tight-Binding Approximation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding.html" rel="alternate" type="text/html" title="Tight-Binding Approximation" /><published>2025-05-26T09:47:26+05:30</published><updated>2025-05-26T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding.html">&lt;h1 id=&quot;nearly-free-electron-model-and-energy-bands-in-one-dimension-tight-binding-approximation&quot;&gt;Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-27T12:59:23+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Tight-Binding Approximation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding.html" rel="alternate" type="text/html" title="Tight-Binding Approximation" /><published>2025-05-26T09:47:26+05:30</published><updated>2025-05-26T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding.html">&lt;h1 id=&quot;nearly-free-electron-model-and-energy-bands-in-one-dimension-tight-binding-approximation&quot;&gt;Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation&lt;/h1&gt;
 
 &lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;:&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -55,6 +55,10 @@
 
 &lt;p&gt;The Hilbert space is $ N $-dimensional and spanned by the orthonormal set $ { |n&amp;gt; }_{n=1}^N $.&lt;/p&gt;
 
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/images/Lecture/tight.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:50%;&quot; /&gt;
+&lt;/div&gt;
+
 &lt;h3 id=&quot;hamiltonian-without-hopping&quot;&gt;Hamiltonian Without Hopping&lt;/h3&gt;
 
 &lt;p&gt;If the electron is bound to its site and never hops, the Hamiltonian $ H_0 $ is given by:&lt;/p&gt;
@@ -65,7 +69,7 @@
 
 &lt;h3 id=&quot;introducing-hopping&quot;&gt;Introducing Hopping&lt;/h3&gt;
 
-&lt;p&gt;To incorporate tunneling between sites, we modify the Hamiltonian. Quantum time evolution implies that to move an electron from one site to another, the Hamiltonian should include terms like $ \ket{m}&amp;lt; n| $, which annihilates an electron at site $ n $ and creates one at site $ m $.&lt;/p&gt;
+&lt;p&gt;To incorporate tunneling between sites, we modify the Hamiltonian. Quantum time evolution implies that to move an electron from one site to another, the Hamiltonian should include terms like $ |m&amp;gt;&amp;lt; n| $, which annihilates an electron at site $ n $ and creates one at site $ m $.&lt;/p&gt;
 
 &lt;p&gt;To keep the model local (i.e., allow only hopping to nearest neighbors), the full tight-binding Hamiltonian becomes:&lt;/p&gt;
 
@@ -79,7 +83,11 @@
 
 &lt;p&gt;We look for energy eigenstates of $ H $. A general state is:&lt;/p&gt;
 
-\[|\psi&amp;gt; = \sum_{m} \psi_m |m&amp;gt;\]
+\[|\psi&amp;gt; = \sum_{m} c_m |m&amp;gt;\]
+
+&lt;p&gt;and when operated by $&amp;lt;n|$ we get&lt;/p&gt;
+
+\[\psi_n=&amp;lt;n|\psi&amp;gt;\]
 
 &lt;p&gt;Substituting into the Schrödinger equation $ H|\psi&amp;gt; = E|\psi&amp;gt; $ and projecting onto $ &amp;lt; n| $, we obtain:&lt;/p&gt;
 
