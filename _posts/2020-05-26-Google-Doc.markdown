@@ -62,7 +62,7 @@ Here are some useful shortcuts you can add:
 | `ba`     | `$$\begin{aligned} \end{aligned}$$` |
 | `la`     | `\left( \right)` |
 | `fr`     | `\frac{}{}` |
-| `ba3`    | `$$\left(\begin{array}{cccc} & & &: \\ & & &: \\ & & &:  \end{array}\right)$$` |
+| `bam`    | `$$\left(\begin{array}{ccc} & &  \\ & &  \\ & &   \end{array}\right)$$` |
 
 ***📝 Example Workflow***
 
