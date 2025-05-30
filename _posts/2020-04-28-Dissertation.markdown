@@ -8,7 +8,7 @@ tags: SEM-IV
 
 ## Technical Skills
 
-1. [How to use Google-Doc](https://rajeshphy.github.io/SKMU/lecture/2020/05/26/Google-Doc.html)
+1. [How to use Latex in Google-Doc](https://rajeshphy.github.io/SKMU/lecture/2020/05/26/Google-Doc.html)
 
 
 

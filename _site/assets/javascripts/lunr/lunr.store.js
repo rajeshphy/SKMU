@@ -1,6 +1,6 @@
 var store = [{
         "title": "Dissertation",
-        "excerpt":"Technical Skills   How to use Google-DocTopics   Heat Equation Simulation  Wave Equation Simulation  N-Mass SystemFiles   Codes","categories": ["lecture"],
+        "excerpt":"Technical Skills   How to use Latex in Google-DocTopics   Heat Equation Simulation  Wave Equation Simulation  N-Mass SystemFiles   Codes","categories": ["lecture"],
         "tags": ["SEM-IV"],
         "url": "http://localhost:4000/SKMU/lecture/2020/04/28/Dissertation.html"
       },{
