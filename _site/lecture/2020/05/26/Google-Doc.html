@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<!--
+    Basically Basic Jekyll Theme 1.4.5
+    Copyright 2017-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes">
+
+  
+    
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Google Docs + Auto-LaTeX on Mobile | Rajesh Kumar</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Google Docs + Auto-LaTeX on Mobile" />
+<meta name="author" content="Rajesh Kumar" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="📱 How to Open Google Docs in Desktop Site Mode (Mobile)" />
+<meta property="og:description" content="📱 How to Open Google Docs in Desktop Site Mode (Mobile)" />
+<link rel="canonical" href="http://localhost:4000/SKMU/lecture/2020/05/26/Google-Doc.html" />
+<meta property="og:url" content="http://localhost:4000/SKMU/lecture/2020/05/26/Google-Doc.html" />
+<meta property="og:site_name" content="Rajesh Kumar" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-05-26T09:47:26+05:30" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Rajesh Kumar"},"url":"http://localhost:4000/SKMU/lecture/2020/05/26/Google-Doc.html","description":"📱 How to Open Google Docs in Desktop Site Mode (Mobile)","@type":"BlogPosting","headline":"Google Docs + Auto-LaTeX on Mobile","dateModified":"2020-05-26T09:47:26+05:30","datePublished":"2020-05-26T09:47:26+05:30","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/SKMU/assets/icons/logo.png"},"name":"Rajesh Kumar"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/SKMU/lecture/2020/05/26/Google-Doc.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+
+  <!-- Include Mermaid.js from a CDN -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+
+  <!-- Math JX -->
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
+  </script>
+
+  
+  <script type="text/javascript">
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        macros: {
+          bra: ["{\\langle #1 \\vert}", 1],
+          ket: ["{\\vert #1 \\rangle}", 1],
+          braket: ["{\\langle #1 \\vert #2 \\rangle}", 2],
+          brakett: ["{\\langle #1 \\vert #2 \\vert #3 \\rangle}", 3]
+        },
+        tags: 'ams' // Enable AMS-style equation numbering
+
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+
+  
+
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="/SKMU/assets/stylesheets/main.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Radio+Canada+Big:400,400i,600,600i">
+  
+
+  
+    
+    <link rel="alternate" type="application/atom+xml" title="Rajesh Kumar" href="https://rajeshphy.github.io/">
+  
+  <meta name="google-site-verification" content="ONNy_6CkGORdDQ9whxpp_EIkMC_mXOohCfdkEK1zAM8" />
+</head>
+
+
+  <body class="layout--post google-docs-auto-latex-on-mobile">
+
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+
+    <div class="sidebar-toggle-wrapper">
+      
+        <button class="search-toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <title>Search</title>
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+      
+
+      <button class="toggle navicon-button larr" type="button">
+        <span class="toggle-inner">
+          <span class="sidebar-toggle-label visually-hidden">Menu</span>
+          <span class="navicon"></span>
+        </span>
+      </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <div class="inner">
+        <nav id="primary-nav" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul id="menu-main-navigation" class="menu">
+    <!-- Home link -->
+    <li class="menu-item">
+      <a href="/SKMU/" itemprop="url">
+        <span itemprop="name">Home</span>
+      </a>
+    </li>
+
+    <!-- site.pages links -->
+    
+    
+
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/SKMU/posts/" itemprop="url">
+            <span itemprop="name">Posts</span>
+          </a>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+        <ul class="contact-list">
+  
+    <li>
+      <a href="mailto:kr.rajesh.phy@gmail.com">
+        <span class="icon icon--email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="313.1 3.7 16 16"><path d="M318.5 8.9c0-.2.2-.4.4-.4h4.5c.2 0 .4.2.4.4s-.2.4-.4.4h-4.5c-.3 0-.4-.2-.4-.4zm.4 2.1h4.5c.2 0 .4-.2.4-.4s-.2-.4-.4-.4h-4.5c-.2 0-.4.2-.4.4s.1.4.4.4zm3.5 1.2c0-.2-.2-.4-.4-.4h-3.1c-.2 0-.4.2-.4.4s.2.4.4.4h3.1c.2.1.4-.1.4-.4zm-1.5-8.4l-1.7 1.4c-.2.1-.2.4 0 .6s.4.2.6 0l1.4-1.2 1.4 1.2c.2.1.4.1.6 0s.1-.4 0-.6l-1.7-1.4c-.3-.1-.5-.1-.6 0zm7.8 6.2c.1.1.1.2.1.3v7.9c0 .8-.7 1.5-1.5 1.5h-12.5c-.8 0-1.5-.7-1.5-1.5v-7.9c0-.1.1-.2.1-.3l1.6-1.3c.2-.1.4-.1.6 0s.1.4 0 .6l-1.2 1 1.8 1.3v-4c0-.6.5-1.1 1.1-1.1h7.5c.6 0 1.1.5 1.1 1.1v4l1.8-1.3-1.2-1c-.2-.1-.2-.4 0-.6s.4-.2.6 0l1.6 1.3zm-11.6 2.2l4 2.8 4-2.8V7.6c0-.1-.1-.2-.2-.2h-7.5c-.1 0-.2.1-.2.2v4.6zm10.9-1l-4.7 3.4 3.4 2.6c.2.1.2.4.1.6-.1.2-.4.2-.6.1l-3.6-2.8-1.2.8c-.1.1-.3.1-.5 0l-1.2-.8-3.6 2.8c-.2.1-.4.1-.6-.1-.1-.2-.1-.4.1-.6l3.4-2.6-4.7-3.4v7.1c0 .4.3.6.6.6h12.5c.4 0 .6-.3.6-.6v-7.1z"/></svg></span>
+        <span class="label">Email</span>
+      </a>
+    </li>
+  
+
+  
+
+  
+
+  <li>
+    
+      <a href="https://rajeshphy.github.io/" title="Atom Feed">
+        <span class="icon icon--rss"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194 11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0 13.806c0-1.21.983-2.195 2.194-2.195zM10.606 16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"/></svg></span>
+        <span class="label">Subscribe</span>
+      </a>
+    
+  </li>
+</ul>
+
+      </div>
+    </div>
+
+    <div class="canvas">
+      <div class="wrapper">
+        
+
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      
+        <p class="site-title">
+          <a href="/SKMU/">
+            <img src="/SKMU/assets/icons/logo.png" alt="" class="site-logo">
+            <span>Rajesh Kumar</span>
+          </a>
+        </p>
+      
+    </div>
+  </div>
+</header>
+
+        <div class="initial-content">
+          <header class="intro">
+  
+
+  <div class="inner">
+    <div class="intro-text">
+      <h1 id="page-title" class="intro-title">Google Docs + Auto-LaTeX on Mobile
+</h1>
+      
+
+      
+        
+
+
+        <p class="entry-meta">
+          <span class="byline-item">by Rajesh Kumar</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2020-05-26T09:47:26+05:30">May 26, 2020</time></span> <span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="15 309.7 16 16"><g><path d="M23.9 315.1v3.6c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-3.6h1.8z"/><path d="M30.1 317.7c.5 3.9-2.3 7.5-6.2 7.9-3.9.5-7.5-2.3-7.9-6.2-.5-3.9 2.3-7.5 6.2-7.9v-1.8H24v1.8c1.1.1 2.7.7 3.5 1.4l1.3-1.3 1.3 1.3-1.3 1.3c.5.9 1.2 2.5 1.3 3.5zm-1.8.9c0-2.9-2.4-5.3-5.3-5.3s-5.3 2.4-5.3 5.3 2.4 5.3 5.3 5.3 5.3-2.3 5.3-5.3z"/></g></svg></span>2 min read</span>
+        </p>
+      
+
+      
+
+      
+    </div>
+  </div>
+</header>
+
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        <h2 id="-how-to-open-google-docs-in-desktop-site-mode-mobile">📱 How to Open Google Docs in Desktop Site Mode (Mobile)</h2>
+
+<h3 id="-android-chrome-browser">✅ Android (Chrome Browser)</h3>
+<ol>
+  <li>Open <strong>Chrome browser</strong>.</li>
+  <li>Go to <a href="https://docs.google.com">https://docs.google.com</a>.</li>
+  <li>Tap <strong>three dots (⋮)</strong> at the top-right.</li>
+  <li>Select <strong>“Desktop site”</strong>.</li>
+  <li>Now Google Docs opens in full desktop view.</li>
+  <li>Open or create a Google Doc.</li>
+</ol>
+
+<hr />
+
+<h2 id="-install-auto-latex-equations-add-on-in-google-docs">🧩 Install Auto-LaTeX Equations Add-on in Google Docs</h2>
+
+<ol>
+  <li>In the document menu bar, go to <strong>Extensions → Add-ons → Get Add-ons</strong>.</li>
+  <li>Search for <strong>Auto-LaTeX Equations</strong>.</li>
+  <li>Click <strong>Install</strong> and allow required permissions.</li>
+  <li>Access it from:<br />
+<code class="language-plaintext highlighter-rouge">Extensions → Auto-LaTeX Equations → Start</code></li>
+</ol>
+
+<hr />
+
+<h2 id="️-how-to-write-equations-using-">✍️ How to Write Equations using \(...\)</h2>
+
+<ul>
+  <li>Use <strong>double dollar signs <code class="language-plaintext highlighter-rouge">$$...$$</code></strong> to enclose LaTeX code.</li>
+  <li>Example:
+    <div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nv">\frac</span><span class="p">{</span><span class="nb">E</span><span class="p">}{</span><span class="nb">m</span><span class="p">}</span><span class="nb"> </span><span class="o">=</span><span class="nb"> c</span><span class="p">^</span><span class="m">2</span><span class="p">$$</span>
+</code></pre></div>    </div>
+  </li>
+  <li>After writing all equations, go to:<br />
+<code class="language-plaintext highlighter-rouge">Extensions → Auto-LaTeX Equations → Render Equations</code></li>
+</ul>
+
+<hr />
+
+<h2 id="-common-latex-syntax-cheat-sheet">📘 Common LaTeX Syntax Cheat Sheet</h2>
+
+<h3 id="-math-operations">🔢 Math Operations</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Expression</th>
+      <th>LaTeX Code</th>
+      <th>Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fraction</td>
+      <td><code class="language-plaintext highlighter-rouge">\frac{a}{b}</code></td>
+      <td>( \frac{a}{b} )</td>
+    </tr>
+    <tr>
+      <td>Square root</td>
+      <td><code class="language-plaintext highlighter-rouge">\sqrt{x}</code></td>
+      <td>( \sqrt{x} )</td>
+    </tr>
+    <tr>
+      <td>nth root</td>
+      <td><code class="language-plaintext highlighter-rouge">\sqrt[n]{x}</code></td>
+      <td>( \sqrt[n]{x} )</td>
+    </tr>
+    <tr>
+      <td>Superscript</td>
+      <td><code class="language-plaintext highlighter-rouge">x^2</code>, <code class="language-plaintext highlighter-rouge">x^{10}</code></td>
+      <td>( x^2, x^{10} )</td>
+    </tr>
+    <tr>
+      <td>Subscript</td>
+      <td><code class="language-plaintext highlighter-rouge">x_1</code>, <code class="language-plaintext highlighter-rouge">x_{ij}</code></td>
+      <td>( x_1, x_{ij} )</td>
+    </tr>
+    <tr>
+      <td>Summation</td>
+      <td><code class="language-plaintext highlighter-rouge">\sum_{i=1}^n</code></td>
+      <td>( \sum_{i=1}^n )</td>
+    </tr>
+    <tr>
+      <td>Integral</td>
+      <td><code class="language-plaintext highlighter-rouge">\int_a^b</code></td>
+      <td>( \int_a^b )</td>
+    </tr>
+    <tr>
+      <td>Partial Derivative</td>
+      <td><code class="language-plaintext highlighter-rouge">\frac{\partial f}{\partial x}</code></td>
+      <td>( \frac{\partial f}{\partial x} )</td>
+    </tr>
+    <tr>
+      <td>Vector</td>
+      <td><code class="language-plaintext highlighter-rouge">\vec{A}</code></td>
+      <td>( \vec{A} )</td>
+    </tr>
+    <tr>
+      <td>Dot product</td>
+      <td><code class="language-plaintext highlighter-rouge">\vec{A} \cdot \vec{B}</code></td>
+      <td>( \vec{A} \cdot \vec{B} )</td>
+    </tr>
+    <tr>
+      <td>Cross product</td>
+      <td><code class="language-plaintext highlighter-rouge">\vec{A} \times \vec{B}</code></td>
+      <td>( \vec{A} \times \vec{B} )</td>
+    </tr>
+    <tr>
+      <td>Arrows</td>
+      <td><code class="language-plaintext highlighter-rouge">\rightarrow</code>, <code class="language-plaintext highlighter-rouge">\Rightarrow</code></td>
+      <td>( \rightarrow, \Rightarrow )</td>
+    </tr>
+    <tr>
+      <td>Infinity</td>
+      <td><code class="language-plaintext highlighter-rouge">\infty</code></td>
+      <td>( \infty )</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="-greek-letters-in-latex">🇬 Greek Letters in LaTeX</h2>
+
+<h3 id="-lowercase">✅ Lowercase</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Symbol</th>
+      <th>Code</th>
+      <th>Symbol</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>( \alpha )</td>
+      <td><code class="language-plaintext highlighter-rouge">\alpha</code></td>
+      <td>( \nu )</td>
+      <td><code class="language-plaintext highlighter-rouge">\nu</code></td>
+    </tr>
+    <tr>
+      <td>( \beta )</td>
+      <td><code class="language-plaintext highlighter-rouge">\beta</code></td>
+      <td>( \xi )</td>
+      <td><code class="language-plaintext highlighter-rouge">\xi</code></td>
+    </tr>
+    <tr>
+      <td>( \gamma )</td>
+      <td><code class="language-plaintext highlighter-rouge">\gamma</code></td>
+      <td>( o )</td>
+      <td><code class="language-plaintext highlighter-rouge">o</code> (Latin o)</td>
+    </tr>
+    <tr>
+      <td>( \delta )</td>
+      <td><code class="language-plaintext highlighter-rouge">\delta</code></td>
+      <td>( \pi )</td>
+      <td><code class="language-plaintext highlighter-rouge">\pi</code></td>
+    </tr>
+    <tr>
+      <td>( \epsilon )</td>
+      <td><code class="language-plaintext highlighter-rouge">\epsilon</code></td>
+      <td>( \rho )</td>
+      <td><code class="language-plaintext highlighter-rouge">\rho</code></td>
+    </tr>
+    <tr>
+      <td>( \zeta )</td>
+      <td><code class="language-plaintext highlighter-rouge">\zeta</code></td>
+      <td>( \sigma )</td>
+      <td><code class="language-plaintext highlighter-rouge">\sigma</code></td>
+    </tr>
+    <tr>
+      <td>( \eta )</td>
+      <td><code class="language-plaintext highlighter-rouge">\eta</code></td>
+      <td>( \tau )</td>
+      <td><code class="language-plaintext highlighter-rouge">\tau</code></td>
+    </tr>
+    <tr>
+      <td>( \theta )</td>
+      <td><code class="language-plaintext highlighter-rouge">\theta</code></td>
+      <td>( \upsilon )</td>
+      <td><code class="language-plaintext highlighter-rouge">\upsilon</code></td>
+    </tr>
+    <tr>
+      <td>( \iota )</td>
+      <td><code class="language-plaintext highlighter-rouge">\iota</code></td>
+      <td>( \phi )</td>
+      <td><code class="language-plaintext highlighter-rouge">\phi</code></td>
+    </tr>
+    <tr>
+      <td>( \kappa )</td>
+      <td><code class="language-plaintext highlighter-rouge">\kappa</code></td>
+      <td>( \chi )</td>
+      <td><code class="language-plaintext highlighter-rouge">\chi</code></td>
+    </tr>
+    <tr>
+      <td>( \lambda )</td>
+      <td><code class="language-plaintext highlighter-rouge">\lambda</code></td>
+      <td>( \psi )</td>
+      <td><code class="language-plaintext highlighter-rouge">\psi</code></td>
+    </tr>
+    <tr>
+      <td>( \mu )</td>
+      <td><code class="language-plaintext highlighter-rouge">\mu</code></td>
+      <td>( \omega )</td>
+      <td><code class="language-plaintext highlighter-rouge">\omega</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="-uppercase">✅ Uppercase</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Symbol</th>
+      <th>Code</th>
+      <th>Symbol</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>( \Gamma )</td>
+      <td><code class="language-plaintext highlighter-rouge">\Gamma</code></td>
+      <td>( \Lambda )</td>
+      <td><code class="language-plaintext highlighter-rouge">\Lambda</code></td>
+    </tr>
+    <tr>
+      <td>( \Delta )</td>
+      <td><code class="language-plaintext highlighter-rouge">\Delta</code></td>
+      <td>( \Xi )</td>
+      <td><code class="language-plaintext highlighter-rouge">\Xi</code></td>
+    </tr>
+    <tr>
+      <td>( \Theta )</td>
+      <td><code class="language-plaintext highlighter-rouge">\Theta</code></td>
+      <td>( \Pi )</td>
+      <td><code class="language-plaintext highlighter-rouge">\Pi</code></td>
+    </tr>
+    <tr>
+      <td>( \Sigma )</td>
+      <td><code class="language-plaintext highlighter-rouge">\Sigma</code></td>
+      <td>( \Phi )</td>
+      <td><code class="language-plaintext highlighter-rouge">\Phi</code></td>
+    </tr>
+    <tr>
+      <td>( \Psi )</td>
+      <td><code class="language-plaintext highlighter-rouge">\Psi</code></td>
+      <td>( \Omega )</td>
+      <td><code class="language-plaintext highlighter-rouge">\Omega</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="️-example-equations-from-physics-subjects">⚛️ Example Equations from Physics Subjects</h2>
+
+<h3 id="-quantum-mechanics">🔬 Quantum Mechanics</h3>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nb">i</span><span class="nv">\hbar</span><span class="nb"> </span><span class="nv">\frac</span><span class="p">{</span><span class="nv">\partial</span><span class="p">}{</span><span class="nv">\partial</span><span class="nb"> t</span><span class="p">}</span><span class="nb"> </span><span class="nv">\Psi</span><span class="o">(</span><span class="nb">x,t</span><span class="o">)</span><span class="nb"> </span><span class="o">=</span><span class="nb"> </span><span class="nv">\hat</span><span class="p">{</span><span class="nb">H</span><span class="p">}</span><span class="nb"> </span><span class="nv">\Psi</span><span class="o">(</span><span class="nb">x,t</span><span class="o">)</span><span class="p">$$</span>
+</code></pre></div></div>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nv">\hat</span><span class="p">{</span><span class="nb">p</span><span class="p">}</span><span class="nb"> </span><span class="o">=</span><span class="nb"> </span><span class="o">-</span><span class="nb">i</span><span class="nv">\hbar</span><span class="nb"> </span><span class="nv">\nabla</span><span class="p">$$</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="-solid-state-physics">🧱 Solid State Physics</h3>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nb">E</span><span class="o">(</span><span class="nb">k</span><span class="o">)</span><span class="nb"> </span><span class="o">=</span><span class="nb"> </span><span class="nv">\frac</span><span class="p">{</span><span class="nv">\hbar</span><span class="p">^</span><span class="m">2</span><span class="nb"> k</span><span class="p">^</span><span class="m">2</span><span class="p">}{</span><span class="m">2</span><span class="nb">m</span><span class="p">}$$</span>
+</code></pre></div></div>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nv">\vec</span><span class="p">{</span><span class="nb">J</span><span class="p">}</span><span class="nb"> </span><span class="o">=</span><span class="nb"> </span><span class="nv">\sigma</span><span class="nb"> </span><span class="nv">\vec</span><span class="p">{</span><span class="nb">E</span><span class="p">}$$</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="-electronics">🔌 Electronics</h3>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nb">V </span><span class="o">=</span><span class="nb"> IR</span><span class="p">$$</span>
+</code></pre></div></div>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nb">f</span><span class="p">_</span><span class="nb">c </span><span class="o">=</span><span class="nb"> </span><span class="nv">\frac</span><span class="p">{</span><span class="m">1</span><span class="p">}{</span><span class="m">2</span><span class="nv">\pi</span><span class="nb"> RC</span><span class="p">}$$</span>
+</code></pre></div></div>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nv">\tau</span><span class="nb"> </span><span class="o">=</span><span class="nb"> RC</span><span class="p">$$</span>
+</code></pre></div></div>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nb">V</span><span class="p">_{</span><span class="nb">out</span><span class="p">}</span><span class="nb"> </span><span class="o">=</span><span class="nb"> A</span><span class="p">_</span><span class="nb">v V</span><span class="p">_{</span><span class="nb">in</span><span class="p">}$$</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="-computational-physics">🧮 Computational Physics</h3>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nv">\frac</span><span class="p">{</span><span class="nb">dy</span><span class="p">}{</span><span class="nb">dt</span><span class="p">}</span><span class="nb"> </span><span class="o">=</span><span class="nb"> f</span><span class="o">(</span><span class="nb">t, y</span><span class="o">)</span><span class="p">$$</span>
+</code></pre></div></div>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nb">y</span><span class="p">_{</span><span class="nb">n</span><span class="o">+</span><span class="m">1</span><span class="p">}</span><span class="nb"> </span><span class="o">=</span><span class="nb"> y</span><span class="p">_</span><span class="nb">n </span><span class="o">+</span><span class="nb"> h f</span><span class="o">(</span><span class="nb">t</span><span class="p">_</span><span class="nb">n, y</span><span class="p">_</span><span class="nb">n</span><span class="o">)</span><span class="p">$$</span>
+</code></pre></div></div>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nv">\Delta</span><span class="nb"> x </span><span class="o">=</span><span class="nb"> </span><span class="nv">\frac</span><span class="p">{</span><span class="nb">b </span><span class="o">-</span><span class="nb"> a</span><span class="p">}{</span><span class="nb">n</span><span class="p">}$$</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="-optics">🔍 Optics</h3>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nb">n</span><span class="p">_</span><span class="m">1</span><span class="nb"> </span><span class="nv">\sin</span><span class="nb"> </span><span class="nv">\theta</span><span class="p">_</span><span class="m">1</span><span class="nb"> </span><span class="o">=</span><span class="nb"> n</span><span class="p">_</span><span class="m">2</span><span class="nb"> </span><span class="nv">\sin</span><span class="nb"> </span><span class="nv">\theta</span><span class="p">_</span><span class="m">2</span><span class="p">$$</span>
+</code></pre></div></div>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nv">\frac</span><span class="p">{</span><span class="m">1</span><span class="p">}{</span><span class="nb">f</span><span class="p">}</span><span class="nb"> </span><span class="o">=</span><span class="nb"> </span><span class="nv">\frac</span><span class="p">{</span><span class="m">1</span><span class="p">}{</span><span class="nb">v</span><span class="p">}</span><span class="nb"> </span><span class="o">-</span><span class="nb"> </span><span class="nv">\frac</span><span class="p">{</span><span class="m">1</span><span class="p">}{</span><span class="nb">u</span><span class="p">}$$</span>
+</code></pre></div></div>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nv">\delta</span><span class="nb"> </span><span class="o">=</span><span class="nb"> </span><span class="nv">\frac</span><span class="p">{</span><span class="m">2</span><span class="nv">\pi</span><span class="p">}{</span><span class="nv">\lambda</span><span class="p">}</span><span class="o">(</span><span class="nb">n </span><span class="o">-</span><span class="nb"> </span><span class="m">1</span><span class="o">)</span><span class="nb">t</span><span class="p">$$</span>
+</code></pre></div></div>
+
+<hr />
+
+<blockquote>
+  <p>💡 <strong>Tip</strong>: You can copy and paste any of these code blocks directly into a Google Doc between <code class="language-plaintext highlighter-rouge">$$</code> signs and render them using <strong>Auto-LaTeX Equations</strong>!</p>
+</blockquote>
+
+      </div>
+      
+    </article>
+  </div>
+</main>
+
+        </div>
+
+        <div class="search-content">
+          <div class="inner">
+  <label class="visually-hidden" for="search">Site Search</label>
+        <input type="text" id="search" class="search-input" aria-describedby="results-count" tabindex="-1" placeholder="Enter your search term..." />
+        <div id="results" class="results"></div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="site-footer">
+  <div class="inner">
+    <div class="copyright">
+      
+        <p>&copy; 2025 Rajesh Kumar.</p>
+      
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async src="/SKMU/assets/javascripts/main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="http://localhost:4000/SKMU/assets/javascripts/lunr/lunr.min.js"></script>
+  <script src="http://localhost:4000/SKMU/assets/javascripts/lunr/lunr.store.js"></script>
+  <script>
+    var idx = lunr(function () {
+      
+      // the, the normal lunr index initialization
+      this.field('title')
+      this.field('excerpt')
+      this.field('categories')
+      this.field('tags')
+      this.ref('id')
+
+      this.pipeline.remove(lunr.trimmer)
+
+      // add documents to index
+      for (var item in store) {
+        this.add({
+          title: store[item].title,
+          excerpt: store[item].excerpt,
+          categories: store[item].categories,
+          tags: store[item].tags,
+          id: item
+        })
+      }
+    });
+
+    $(document).ready(function () {
+      $('input#search').on('keyup', function () {
+        var resultdiv = $('#results');
+        var query = $(this).val().toLowerCase();
+        var result =
+          idx.query(function (q) {
+            query.split(lunr.tokenizer.separator).forEach(function (term) {
+              q.term(term, { boost: 100 })
+              if (query.lastIndexOf(" ") != query.length - 1) {
+                q.term(term, { usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 })
+              }
+              if (term != "") {
+                q.term(term, { usePipeline: false, editDistance: 1, boost: 1 })
+              }
+            })
+          });
+        resultdiv.empty();
+        resultdiv.prepend('<p id="results-count" class="results-found">' + result.length + ' Result(s) found</p>');
+        for (var item in result) {
+          var ref = result[item].ref;
+          var searchitem =
+            '<article class="entry">' +
+              '<h3 class="entry-title">' +
+                '<a href="' + store[ref].url + '">' + store[ref].title + '</a>' +
+              '</h3>' +
+              '<div class="entry-excerpt">' +
+                '<p>' + store[ref].excerpt.split(" ").splice(0, 20).join(" ") + '...</p>' +
+              '</div>' +
+            '</article>';
+          resultdiv.append(searchitem);
+        }
+      });
+    });
+  </script>
+
+
+
+  </body>
+
+</html>

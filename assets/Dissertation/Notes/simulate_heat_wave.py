@@ -13,7 +13,6 @@ def simulate_heat(u0, dr, dtheta, dt, steps, c):
         lap = laplacian_polar(u, dr, dtheta)
         u = u + dt * c**2 * lap
         u = apply_boundary_conditions(u)
-        
     return u
 
 def simulate_wave(u0, v0, dr, dtheta, dt, steps, c):

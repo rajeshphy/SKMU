@@ -9,8 +9,8 @@ from boundary_and_plotting import plot_polar_field, plot_polar_field_contour
 
 # Configuration
 R = 1.0         # Radius
-NR = 100        # Radial grid points
-NTheta = 100    # Angular grid points
+NR = 50        # Radial grid points
+NTheta = 50    # Angular grid points
 dr = R / (NR - 1)
 dtheta = 2 * 3.141592653589793 / NTheta
 dt = 0.0001     # Time step
@@ -19,6 +19,9 @@ c = 1.0         # Speed
 
 # Create grid
 Rg, Thetag = initialize_grid(R, NR, NTheta)
+
+print(Rg)
+exit()
 
 # Heat Equation Simulation
 u0 = initial_heat_condition(Rg, Thetag)
