@@ -32,7 +32,9 @@ tags: SEM-IV
 
 ## ✍️ How to Write Equations using $$...$$
 
-- Use **double dollar signs `$$...$$`** to enclose LaTeX code.
+- Use **double dollar signs ```latex
+  $$...$$
+  ```** to enclose LaTeX code.
 - Example:  
   ```latex
   $$\frac{E}{m} = c^2$$
@@ -49,19 +51,19 @@ tags: SEM-IV
 
 | Expression              | LaTeX Code                    | Output               |
 |--------------------------|-------------------------------|-----------------------|
-| Fraction                 | `\frac{a}{b}`                | \( \frac{a}{b} \)     |
-| Square root              | `\sqrt{x}`                   | \( \sqrt{x} \)        |
-| nth root                 | `\sqrt[n]{x}`                | \( \sqrt[n]{x} \)     |
-| Superscript              | `x^2`, `x^{10}`              | \( x^2, x^{10} \)     |
-| Subscript                | `x_1`, `x_{ij}`              | \( x_1, x_{ij} \)     |
-| Summation                | `\sum_{i=1}^n`               | \( \sum_{i=1}^n \)    |
-| Integral                 | `\int_a^b`                   | \( \int_a^b \)        |
-| Partial Derivative       | `\frac{\partial f}{\partial x}` | \( \frac{\partial f}{\partial x} \) |
-| Vector                  | `\vec{A}`                    | \( \vec{A} \)         |
-| Dot product             | `\vec{A} \cdot \vec{B}`       | \( \vec{A} \cdot \vec{B} \) |
-| Cross product           | `\vec{A} \times \vec{B}`      | \( \vec{A} \times \vec{B} \) |
-| Arrows                  | `\rightarrow`, `\Rightarrow` | \( \rightarrow, \Rightarrow \) |
-| Infinity                | `\infty`                     | \( \infty \)          |
+| Fraction                 | `\frac{a}{b}`                | $\frac{a}{b}$        |
+| Square root              | `\sqrt{x}`                   | $\sqrt{x}$           |
+| nth root                 | `\sqrt[n]{x}`                | $\sqrt[n]{x}$        |
+| Superscript              | `x^2`, `x^{10}`              | $x^2$, $x^{10}$       |
+| Subscript                | `x_1`, `x_{ij}`              | $x_1$, $x_{ij}$       |
+| Summation                | `\sum_{i=1}^n`               | $\sum_{i=1}^n$       |
+| Integral                 | `\int_a^b`                   | $\int_a^b$           |
+| Partial Derivative       | `\frac{\partial f}{\partial x}` | $\frac{\partial f}{\partial x}$ |
+| Vector                  | `\vec{A}`                    | $\vec{A}$            |
+| Dot product             | `\vec{A} \cdot \vec{B}`       | $\vec{A} \cdot \vec{B}$ |
+| Cross product           | `\vec{A} \times \vec{B}`      | $\vec{A} \times \vec{B}$ |
+| Arrows                  | `\rightarrow`, `\Rightarrow` | $\rightarrow$, $\Rightarrow$ |
+| Infinity                | `\infty`                     | $\infty$             |
 
 ---
 
@@ -69,109 +71,177 @@ tags: SEM-IV
 
 ### ✅ Lowercase
 
-| Symbol | Code       | Symbol | Code       |
-|--------|------------|--------|------------|
-| \( \alpha \)  | `\alpha`   | \( \nu \)    | `\nu`     |
-| \( \beta \)   | `\beta`    | \( \xi \)    | `\xi`     |
-| \( \gamma \)  | `\gamma`   | \( o \)      | `o` (Latin o) |
-| \( \delta \)  | `\delta`   | \( \pi \)    | `\pi`     |
-| \( \epsilon \)| `\epsilon` | \( \rho \)   | `\rho`    |
-| \( \zeta \)   | `\zeta`    | \( \sigma \) | `\sigma`  |
-| \( \eta \)    | `\eta`     | \( \tau \)   | `\tau`    |
-| \( \theta \)  | `\theta`   | \( \upsilon \)| `\upsilon` |
-| \( \iota \)   | `\iota`    | \( \phi \)   | `\phi`    |
-| \( \kappa \)  | `\kappa`   | \( \chi \)   | `\chi`    |
-| \( \lambda \) | `\lambda`  | \( \psi \)   | `\psi`    |
-| \( \mu \)     | `\mu`      | \( \omega \) | `\omega`  |
+| Symbol      | Code         | Symbol     | Code         |
+|-------------|--------------|------------|--------------|
+| $\alpha$    | `\alpha`     | $\nu$      | `\nu`        |
+| $\beta$     | `\beta`      | $\xi$      | `\xi`        |
+| $\gamma$    | `\gamma`     | $o$        | `o` (Latin o)|
+| $\delta$    | `\delta`     | $\pi$      | `\pi`        |
+| $\epsilon$  | `\epsilon`   | $\rho$     | `\rho`       |
+| $\zeta$     | `\zeta`      | $\sigma$   | `\sigma`     |
+| $\eta$      | `\eta`       | $\tau$     | `\tau`       |
+| $\theta$    | `\theta`     | $\upsilon$ | `\upsilon`   |
+| $\iota$     | `\iota`      | $\phi$     | `\phi`       |
+| $\kappa$    | `\kappa`     | $\chi$     | `\chi`       |
+| $\lambda$   | `\lambda`    | $\psi$     | `\psi`       |
+| $\mu$       | `\mu`        | $\omega$   | `\omega`     |
 
 ### ✅ Uppercase
 
-| Symbol | Code       | Symbol | Code       |
-|--------|------------|--------|------------|
-| \( \Gamma \) | `\Gamma` | \( \Lambda \) | `\Lambda` |
-| \( \Delta \) | `\Delta` | \( \Xi \)     | `\Xi`     |
-| \( \Theta \) | `\Theta` | \( \Pi \)     | `\Pi`     |
-| \( \Sigma \) | `\Sigma` | \( \Phi \)    | `\Phi`    |
-| \( \Psi \)   | `\Psi`   | \( \Omega \)  | `\Omega`  |
+| Symbol      | Code         | Symbol     | Code         |
+|-------------|--------------|------------|--------------|
+| $\Gamma$    | `\Gamma`     | $\Lambda$  | `\Lambda`    |
+| $\Delta$    | `\Delta`     | $\Xi$      | `\Xi`        |
+| $\Theta$    | `\Theta`     | $\Pi$      | `\Pi`        |
+| $\Sigma$    | `\Sigma`     | $\Phi$     | `\Phi`       |
+| $\Psi$      | `\Psi`       | $\Omega$   | `\Omega`     |
+
+
 
 ---
 
-## ⚛️ Example Equations from Physics Subjects
+## 📘 Examples Of Physics Equations by Topic
 
-### 🔬 Quantum Mechanics
+### ⚛️ Quantum Mechanics (5)
 
-```latex
-$$i\hbar \frac{\partial}{\partial t} \Psi(x,t) = \hat{H} \Psi(x,t)$$
-```
+- **Time-dependent Schrödinger Equation**  
+  $$i\hbar \frac{\partial}{\partial t} \Psi(x,t) = \hat{H} \Psi(x,t)$$  
+  ```latex
+  $$i\hbar \frac{\partial}{\partial t} \Psi(x,t) = \hat{H} \Psi(x,t)$$
+  ```
 
-```latex
-$$\hat{p} = -i\hbar \nabla$$
-```
+- **Momentum Operator**  
+  $$\hat{p} = -i\hbar \nabla$$  
+  ```latex
+  $$\hat{p} = -i\hbar \nabla$$
+  ```
 
----
+- **Energy of a Quantum Harmonic Oscillator**  
+  $$E_n = \left(n + \frac{1}{2}\right)\hbar \omega$$  
+  ```latex
+  $$E_n = \left(n + \frac{1}{2}\right)\hbar \omega$$
+  ```
 
-### 🧱 Solid State Physics
+- **Commutation Relation**  
+  $$[\hat{x}, \hat{p}] = i\hbar$$  
+  ```latex
+  $$[\hat{x}, \hat{p}] = i\hbar$$
+  ```
 
-```latex
-$$E(k) = \frac{\hbar^2 k^2}{2m}$$
-```
-
-```latex
-$$\vec{J} = \sigma \vec{E}$$
-```
-
----
-
-### 🔌 Electronics
-
-```latex
-$$V = IR$$
-```
-
-```latex
-$$f_c = \frac{1}{2\pi RC}$$
-```
-
-```latex
-$$\tau = RC$$
-```
-
-```latex
-$$V_{out} = A_v V_{in}$$
-```
+- **Heisenberg Uncertainty Principle**  
+  $$\Delta x \cdot \Delta p \geq \frac{\hbar}{2}$$  
+  ```latex
+  $$\Delta x \cdot \Delta p \geq \frac{\hbar}{2}$$
+  ```
 
 ---
 
-### 🧮 Computational Physics
+### 🏛️ Classical Mechanics (5)
 
-```latex
-$$\frac{dy}{dt} = f(t, y)$$
-```
+- **Newton’s Second Law**  
+  $$F = ma$$  
+  ```latex
+  $$F = ma$$
+  ```
 
-```latex
-$$y_{n+1} = y_n + h f(t_n, y_n)$$
-```
+- **Work-Energy Theorem**  
+  $$W = \Delta K = \frac{1}{2}mv^2 - \frac{1}{2}mu^2$$  
+  ```latex
+  $$W = \Delta K = \frac{1}{2}mv^2 - \frac{1}{2}mu^2$$
+  ```
 
-```latex
-$$\Delta x = \frac{b - a}{n}$$
-```
+- **Conservation of Angular Momentum**  
+  $$\vec{L} = \vec{r} \times \vec{p}$$  
+  ```latex
+  $$\vec{L} = \vec{r} \times \vec{p}$$
+  ```
+
+- **Lagrange’s Equation**  
+  $$\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}} \right) - \frac{\partial L}{\partial q} = 0$$  
+  ```latex
+  $$\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}} \right) - \frac{\partial L}{\partial q} = 0$$
+  ```
+
+- **Hamilton’s Equations**  
+  $$\dot{q} = \frac{\partial H}{\partial p}, \quad \dot{p} = -\frac{\partial H}{\partial q}$$  
+  ```latex
+  $$\dot{q} = \frac{\partial H}{\partial p}, \quad \dot{p} = -\frac{\partial H}{\partial q}$$
+  ```
 
 ---
 
-### 🔍 Optics
+### ⚡ Electrodynamics (5)
 
-```latex
-$$n_1 \sin \theta_1 = n_2 \sin \theta_2$$
-```
+- **Coulomb's Law**  
+  $$F = \frac{1}{4\pi\varepsilon_0} \frac{q_1 q_2}{r^2}$$  
+  ```latex
+  $$F = \frac{1}{4\pi\varepsilon_0} \frac{q_1 q_2}{r^2}$$
+  ```
 
-```latex
-$$\frac{1}{f} = \frac{1}{v} - \frac{1}{u}$$
-```
+- **Gauss's Law for Electricity**  
+  $$\nabla \cdot \vec{E} = \frac{\rho}{\varepsilon_0}$$  
+  ```latex
+  $$\nabla \cdot \vec{E} = \frac{\rho}{\varepsilon_0}$$
+  ```
 
-```latex
-$$\delta = \frac{2\pi}{\lambda}(n - 1)t$$
-```
+- **Faraday’s Law of Induction**  
+  $$\nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t}$$  
+  ```latex
+  $$\nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t}$$
+  ```
+
+- **Ampère-Maxwell Law**  
+  $$\nabla \times \vec{B} = \mu_0 \vec{J} + \mu_0 \varepsilon_0 \frac{\partial \vec{E}}{\partial t}$$  
+  ```latex
+  $$\nabla \times \vec{B} = \mu_0 \vec{J} + \mu_0 \varepsilon_0 \frac{\partial \vec{E}}{\partial t}$$
+  ```
+
+- **Lorentz Force Law**  
+  $$\vec{F} = q(\vec{E} + \vec{v} \times \vec{B})$$  
+  ```latex
+  $$\vec{F} = q(\vec{E} + \vec{v} \times \vec{B})$$
+  ```
 
 ---
 
-> 💡 **Tip**: You can copy and paste any of these code blocks directly into a Google Doc between `$$` signs and render them using **Auto-LaTeX Equations**!
+### 🔍 Optics (3)
+
+- **Snell's Law**  
+  $$n_1 \sin \theta_1 = n_2 \sin \theta_2$$  
+  ```latex
+  $$n_1 \sin \theta_1 = n_2 \sin \theta_2$$
+  ```
+
+- **Lens Formula**  
+  $$\frac{1}{f} = \frac{1}{v} - \frac{1}{u}$$  
+  ```latex
+  $$\frac{1}{f} = \frac{1}{v} - \frac{1}{u}$$
+  ```
+
+- **Interference Condition (Thin Film)**  
+  $$\delta = \frac{2\pi}{\lambda}(n - 1)t$$  
+  ```latex
+  $$\delta = \frac{2\pi}{\lambda}(n - 1)t$$
+  ```
+
+---
+
+### ☢️ Nuclear Physics (3)
+
+- **Radioactive Decay Law**  
+  $$N(t) = N_0 e^{-\lambda t}$$  
+  ```latex
+  $$N(t) = N_0 e^{-\lambda t}$$
+  ```
+
+- **Binding Energy per Nucleon**  
+  $$E_b = \frac{(Z m_p + N m_n - M)c^2}{A}$$  
+  ```latex
+  $$E_b = \frac{(Z m_p + N m_n - M)c^2}{A}$$
+  ```
+
+- **Q-value of a Nuclear Reaction**  
+  $$Q = (m_{\text{initial}} - m_{\text{final}})c^2$$  
+  ```latex
+  $$Q = (m_{\text{initial}} - m_{\text{final}})c^2$$
+  ```
