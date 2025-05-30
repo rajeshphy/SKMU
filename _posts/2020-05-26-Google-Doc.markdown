@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Google Docs + Auto-LaTeX on Mobile"
+title:  "Google Docs + LaTeX on Mobile"
 date:   2020-05-26 09:47:26 +0530
 categories: lecture
 tags: SEM-IV
@@ -25,10 +25,10 @@ tags: SEM-IV
 5. Now Google Docs opens in full desktop view.
 6. Open or create a Google Doc.
 
-**🧩 Install Auto-LaTeX Equations Add-on in Google Docs**
+**🧩 Installation Of Auto-LaTeX**
 
 1. In the document menu bar, go to **Extensions → Add-ons → Get Add-ons**.
-2. Search for **Auto-LaTeX Equations**.
+2. Search for **Auto-LaTeX Equations**. Alternatively can use this link [Auto-LaTeX Equations](https://workspace.google.com/marketplace/app/autolatex_equations/850293439076)
 3. Click **Install** and allow required permissions.
 4. Access it from:  
    `Extensions → Auto-LaTeX Equations → Start`
