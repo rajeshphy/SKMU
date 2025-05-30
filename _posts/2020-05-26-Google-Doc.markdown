@@ -18,8 +18,6 @@ tags: SEM-IV
 5. Now Google Docs opens in full desktop view.
 6. Open or create a Google Doc.
 
----
-
 ## 🧩 Install Auto-LaTeX Equations Add-on in Google Docs
 
 1. In the document menu bar, go to **Extensions → Add-ons → Get Add-ons**.
@@ -28,9 +26,9 @@ tags: SEM-IV
 4. Access it from:  
    `Extensions → Auto-LaTeX Equations → Start`
 
----
 
-## ✍️ How to Write Equations using $$...$$
+
+## ✍️ How to Write Equations using `$$...$$`
 
 - Use **double dollar signs ```latex
   $$...$$
@@ -43,6 +41,31 @@ tags: SEM-IV
 - After writing all equations, go to:  
   `Extensions → Auto-LaTeX Equations → Render Equations`
 
+---
+
+## ⌨️ Keyboard Shortcuts for LaTeX (Using Substitutions)
+
+To speed up LaTeX typing in your editor (like Typora, Zettlr, etc.), you can define **custom keyboard shortcuts** by going to:
+
+> 🛠️ **Tools → Preferences → Substitutions**
+
+Here are some useful shortcuts you can add:
+
+| Shortcut | Expands To |
+|----------|------------|
+| `dd`     | `$$ $$` |
+| `ba`     | `$$\begin{aligned} \end{aligned}$$` |
+| `la`     | `\left( \right)` |
+| `fr`     | `\frac{}{}` |
+| `ba3`    | `$$\left(\begin{array}{cccc} & & &: \\ & & &: \\ & & &:  \end{array}\right)$$` |
+
+### 📝 Example Workflow
+
+Type `fr` and press space or trigger the substitution to quickly get:
+
+```latex
+\frac{}{}
+```
 ---
 
 ## 📘 Common LaTeX Syntax Cheat Sheet
