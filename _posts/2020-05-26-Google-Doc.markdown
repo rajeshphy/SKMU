@@ -6,11 +6,18 @@ categories: lecture
 tags: SEM-IV
 ---
 
+# 🎯 <span style="color:darkred">**Learning Objectives**</span>:
 
+- Access Google Docs in Desktop Mode on Mobile to enable full functionality for editing scientific documents.
+- Install and Use the Auto-LaTeX Equations Add-on in Google Docs for rendering LaTeX-formatted equations.
+- Write LaTeX Equations using $$...$$ Delimiters and render them correctly within Google Docs.
+- Configure Keyboard Shortcuts for LaTeX Syntax to speed up equation writing in supported editors.
+- Utilize a Quick-Reference LaTeX Cheat Sheet for common math expressions and Greek letters.
+- Apply LaTeX to Write Physics Equations across key subjects: Quantum Mechanics, Classical Mechanics, Electrodynamics, and Optics.
 
-## 📱 How to Open Google Docs in Desktop Site Mode (Mobile)
+## 📱 Google Docs in Desktop Site Mode
 
-### ✅ Android (Chrome Browser)
+**✅ Android (Chrome Browser)**
 1. Open **Chrome browser**.
 2. Go to [https://docs.google.com](https://docs.google.com).
 3. Tap **three dots (⋮)** at the top-right.
@@ -18,7 +25,7 @@ tags: SEM-IV
 5. Now Google Docs opens in full desktop view.
 6. Open or create a Google Doc.
 
-## 🧩 Install Auto-LaTeX Equations Add-on in Google Docs
+**🧩 Install Auto-LaTeX Equations Add-on in Google Docs**
 
 1. In the document menu bar, go to **Extensions → Add-ons → Get Add-ons**.
 2. Search for **Auto-LaTeX Equations**.
@@ -28,7 +35,7 @@ tags: SEM-IV
 
 
 
-## ✍️ How to Write Equations using `$$...$$`
+**✍️ How to Write Equations using `$$...$$`**
 
 - Use **double dollar signs ```latex
   $$...$$
@@ -41,9 +48,7 @@ tags: SEM-IV
 - After writing all equations, go to:  
   `Extensions → Auto-LaTeX Equations → Render Equations`
 
----
-
-## ⌨️ Keyboard Shortcuts for LaTeX (Using Substitutions)
+**⌨️ Keyboard Shortcuts for LaTeX (Using Substitutions)**
 
 To speed up LaTeX typing in your editor (like Typora, Zettlr, etc.), you can define **custom keyboard shortcuts** by going to:
 
@@ -59,7 +64,7 @@ Here are some useful shortcuts you can add:
 | `fr`     | `\frac{}{}` |
 | `ba3`    | `$$\left(\begin{array}{cccc} & & &: \\ & & &: \\ & & &:  \end{array}\right)$$` |
 
-### 📝 Example Workflow
+***📝 Example Workflow***
 
 Type `fr` and press space or trigger the substitution to quickly get:
 
@@ -70,7 +75,7 @@ Type `fr` and press space or trigger the substitution to quickly get:
 
 ## 📘 Common LaTeX Syntax Cheat Sheet
 
-### 🔢 Math Operations
+**🔢 Math Operations**
 
 | Expression              | LaTeX Code                    | Output               |
 |--------------------------|-------------------------------|-----------------------|
@@ -88,11 +93,9 @@ Type `fr` and press space or trigger the substitution to quickly get:
 | Arrows                  | `\rightarrow`, `\Rightarrow` | $\rightarrow$, $\Rightarrow$ |
 | Infinity                | `\infty`                     | $\infty$             |
 
----
+**🇬 Greek Letters in LaTeX**
 
-## 🇬 Greek Letters in LaTeX
-
-### ✅ Lowercase
+***✅ Lowercase***
 
 | Symbol      | Code         | Symbol     | Code         |
 |-------------|--------------|------------|--------------|
@@ -109,7 +112,7 @@ Type `fr` and press space or trigger the substitution to quickly get:
 | $\lambda$   | `\lambda`    | $\psi$     | `\psi`       |
 | $\mu$       | `\mu`        | $\omega$   | `\omega`     |
 
-### ✅ Uppercase
+***✅ Uppercase***
 
 | Symbol      | Code         | Symbol     | Code         |
 |-------------|--------------|------------|--------------|
@@ -120,12 +123,9 @@ Type `fr` and press space or trigger the substitution to quickly get:
 | $\Psi$      | `\Psi`       | $\Omega$   | `\Omega`     |
 
 
+## 📘 Physics Equations Examples 
 
----
-
-## 📘 Examples Of Physics Equations by Topic
-
-### ⚛️ Quantum Mechanics (5)
+**⚛️ Quantum Mechanics (5)**
 
 - **Time-dependent Schrödinger Equation**  
   $$i\hbar \frac{\partial}{\partial t} \Psi(x,t) = \hat{H} \Psi(x,t)$$  
@@ -157,9 +157,7 @@ Type `fr` and press space or trigger the substitution to quickly get:
   $$\Delta x \cdot \Delta p \geq \frac{\hbar}{2}$$
   ```
 
----
-
-### 🏛️ Classical Mechanics (5)
+**🏛️ Classical Mechanics (5)**
 
 - **Newton’s Second Law**  
   $$F = ma$$  
@@ -191,9 +189,7 @@ Type `fr` and press space or trigger the substitution to quickly get:
   $$\dot{q} = \frac{\partial H}{\partial p}, \quad \dot{p} = -\frac{\partial H}{\partial q}$$
   ```
 
----
-
-### ⚡ Electrodynamics (5)
+**⚡ Electrodynamics (5)**
 
 - **Coulomb's Law**  
   $$F = \frac{1}{4\pi\varepsilon_0} \frac{q_1 q_2}{r^2}$$  
@@ -225,9 +221,7 @@ Type `fr` and press space or trigger the substitution to quickly get:
   $$\vec{F} = q(\vec{E} + \vec{v} \times \vec{B})$$
   ```
 
----
-
-### 🔍 Optics (3)
+**🔍 Optics (3)**
 
 - **Snell's Law**  
   $$n_1 \sin \theta_1 = n_2 \sin \theta_2$$  
@@ -247,9 +241,7 @@ Type `fr` and press space or trigger the substitution to quickly get:
   $$\delta = \frac{2\pi}{\lambda}(n - 1)t$$
   ```
 
----
-
-### ☢️ Nuclear Physics (3)
+**☢️ Nuclear Physics (3)**
 
 - **Radioactive Decay Law**  
   $$N(t) = N_0 e^{-\lambda t}$$  
