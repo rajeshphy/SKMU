@@ -50,7 +50,7 @@ tags: SEM-IV
 
 **⌨️ Keyboard Shortcuts for LaTeX (Using Substitutions)**
 
-To speed up LaTeX typing in your editor (like Typora, Zettlr, etc.), you can define **custom keyboard shortcuts** by going to:
+To speed up LaTeX typing in your editor (like \frac{}{}, $$ $$, etc.), you can define **custom keyboard shortcuts** by going to:
 
 > 🛠️ **Tools → Preferences → Substitutions**
 
