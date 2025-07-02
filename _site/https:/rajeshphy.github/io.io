@@ -1,4 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-05-30T13:23:03+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Tight-Binding Approximation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding.html" rel="alternate" type="text/html" title="Tight-Binding Approximation" /><published>2025-05-26T09:47:26+05:30</published><updated>2025-05-26T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding.html">&lt;h1 id=&quot;nearly-free-electron-model-and-energy-bands-in-one-dimension-tight-binding-approximation&quot;&gt;Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-07-02T12:11:43+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Polaritons</title><link href="http://localhost:4000/SKMU/lecture/2025/07/02/Polaritons.html" rel="alternate" type="text/html" title="Polaritons" /><published>2025-07-02T09:47:26+05:30</published><updated>2025-07-02T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/07/02/Polaritons</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/07/02/Polaritons.html">&lt;p&gt;In solid-state physics, &lt;strong&gt;polaritons&lt;/strong&gt; are quasiparticles arising from the &lt;strong&gt;strong coupling of photons&lt;/strong&gt; with &lt;strong&gt;optical phonons&lt;/strong&gt; in a crystal. These coupled modes play a central role in understanding the optical properties of ionic crystals, particularly in the infrared frequency range.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-are-polaritons&quot;&gt;What are Polaritons?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Polaritons&lt;/strong&gt; are quanta of a coupled electromagnetic field and lattice vibration (phonon).&lt;/li&gt;
+  &lt;li&gt;They arise when &lt;strong&gt;transverse optical (TO) phonons&lt;/strong&gt; interact with &lt;strong&gt;transverse electromagnetic waves&lt;/strong&gt; (photons).&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;This interaction modifies the propagation of waves through the crystal and leads to &lt;strong&gt;mixed electric-mechanical excitations&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Resonance occurs when:
+    &lt;ul&gt;
+      &lt;li&gt;Frequencies match: $ \omega_{\text{photon}} \approx \omega_{\text{phonon}} $&lt;/li&gt;
+      &lt;li&gt;Wavevectors match: $ k_{\text{photon}} \approx k_{\text{phonon}} $&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;This coupling introduces &lt;strong&gt;new dispersion relations&lt;/strong&gt; that deviate from the uncoupled phonon and photon dispersions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;electromagnetic-wave-equation-with-polarization&quot;&gt;Electromagnetic Wave Equation with Polarization&lt;/h2&gt;
+
+&lt;p&gt;In the presence of polarization $ \vec{P} $, Maxwell’s equations in CGS units give:&lt;/p&gt;
+
+\[\frac{1}{c^2} \frac{\partial^2 \vec{E}}{\partial t^2} = \nabla^2 (\vec{E} + 4\pi \vec{P})\]
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;strong&gt;polarization $ \vec{P} $&lt;/strong&gt; is induced by displacement of ions:
+\(\vec{P} = N q \vec{u}\)
+where:
+    &lt;ul&gt;
+      &lt;li&gt;$ N $: number of ion pairs per unit volume&lt;/li&gt;
+      &lt;li&gt;$ q $: effective charge&lt;/li&gt;
+      &lt;li&gt;$ \vec{u} $: relative ionic displacement&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The equation of motion for $ \vec{P} $ is that of a driven harmonic oscillator:&lt;/p&gt;
+
+\[\frac{d^2 \vec{P}}{dt^2} + \omega_T^2 \vec{P} = \frac{N q^2}{M} \vec{E}\]
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;derivation&quot;&gt;Derivation:&lt;/h2&gt;
+
+&lt;p&gt;The polarization is the dipole moment per unit volume:&lt;/p&gt;
+
+\[\vec{P} = N q \vec{u} \tag{2}\]
+
+&lt;p&gt;The ions obey Newton’s second law under a restoring force and the applied electric field:&lt;/p&gt;
+
+\[M \frac{d^2 \vec{u}}{dt^2} = -M \omega_T^2 \vec{u} + q \vec{E} \tag{3}\]
+
+&lt;ul&gt;
+  &lt;li&gt;The $-\omega_T^2$ term represents the restoring force due to the lattice (transverse optical phonon).&lt;/li&gt;
+  &lt;li&gt;The $q \vec{E}$ term represents the force from the external electric field.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From equation (2):&lt;/p&gt;
+
+\[\vec{u} = \frac{\vec{P}}{N q}\]
+
+&lt;p&gt;Differentiate twice with respect to time:&lt;/p&gt;
+
+\[\frac{d^2 \vec{u}}{dt^2} = \frac{1}{N q} \frac{d^2 \vec{P}}{dt^2}\]
+
+&lt;p&gt;Substitute into Newton’s law (3):&lt;/p&gt;
+
+\[M \cdot \frac{1}{N q} \cdot \frac{d^2 \vec{P}}{dt^2} = -M \omega_T^2 \cdot \frac{\vec{P}}{N q} + q \vec{E}\]
+
+&lt;p&gt;Multiply both sides by $\frac{N q}{M}$:&lt;/p&gt;
+
+\[\frac{d^2 \vec{P}}{dt^2} = -\omega_T^2 \vec{P} + \frac{N q^2}{M} \vec{E}\]
+
+&lt;p&gt;Rearranged:&lt;/p&gt;
+
+\[\frac{d^2 \vec{P}}{dt^2} + \omega_T^2 \vec{P} = \frac{N q^2}{M} \vec{E} \tag{4}\]
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;polariton-dispersion-relation&quot;&gt;Polariton Dispersion Relation&lt;/h2&gt;
+
+&lt;p&gt;Combining the above equations, the &lt;strong&gt;dispersion relation&lt;/strong&gt; for polaritons becomes:&lt;/p&gt;
+
+\[\varepsilon(\omega) = \varepsilon(\infty) + \frac{4\pi N q^2 / M}{\omega_T^2 - \omega^2}\]
+
+&lt;p&gt;At $ K = 0 $, two solutions emerge:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;$ \omega = 0 $: corresponds to a free photon&lt;/li&gt;
+  &lt;li&gt;$ \omega = \omega_T $: transverse optical phonon frequency in absence of coupling&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The above equation can be obtained under the assumption of time-harmonic (monochromatic) solutions of the form:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;$\vec{E}(\vec{r}, t) = \vec{E}_0 e^{i(\vec{k} \cdot \vec{r} - \omega t)}$&lt;/li&gt;
+  &lt;li&gt;$\vec{P}(\vec{r}, t) = \vec{P}_0 e^{i(\vec{k} \cdot \vec{r} - \omega t)}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;$\frac{\partial^2}{\partial t^2} \rightarrow -\omega^2$&lt;/li&gt;
+  &lt;li&gt;$\nabla^2 \rightarrow -k^2$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;when plugged into the equation for $\vec{P}$ we get $\vec{P}_0$ as:&lt;/p&gt;
+
+\[\vec{P}_0 = \frac{N q^2 / M}{\omega_T^2 - \omega^2} \vec{E}_0 \tag{3}\]
+
+&lt;p&gt;Finally from Maxwell’s Equation we get&lt;/p&gt;
+
+\[-\frac{\omega^2}{c^2} \vec{E}_0 = -k^2 \left( \vec{E}_0 + 4\pi \vec{P}_0 \right)\]
+
+&lt;p&gt;Cancel negative signs and factor:
+\(\frac{\omega^2}{c^2} = k^2 \left(1 + \frac{4\pi N q^2 / M}{\omega_T^2 - \omega^2} \right)\)&lt;/p&gt;
+
+&lt;p&gt;Now define the frequency-dependent dielectric function:&lt;/p&gt;
+
+\[\varepsilon(\omega) = 1 + \frac{4\pi N q^2 / M}{\omega_T^2 - \omega^2}\]</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">In solid-state physics, polaritons are quasiparticles arising from the strong coupling of photons with optical phonons in a crystal. These coupled modes play a central role in understanding the optical properties of ionic crystals, particularly in the infrared frequency range.</summary></entry><entry><title type="html">Tight-Binding Approximation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding.html" rel="alternate" type="text/html" title="Tight-Binding Approximation" /><published>2025-05-26T09:47:26+05:30</published><updated>2025-05-26T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding.html">&lt;h1 id=&quot;nearly-free-electron-model-and-energy-bands-in-one-dimension-tight-binding-approximation&quot;&gt;Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation&lt;/h1&gt;
 
 &lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;:&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -233,141 +351,7 @@ Thus, the band gap is approximately equal to the Fourier component of the potent
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation</summary></entry><entry><title type="html">Poisson Bracket, Poisson Theorems</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html" rel="alternate" type="text/html" title="Poisson Bracket, Poisson Theorems" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Understand the definition and meaning of a Poisson bracket in classical mechanics.&lt;/li&gt;
-  &lt;li&gt;Derive and interpret Poisson’s theorems.&lt;/li&gt;
-  &lt;li&gt;Use Poisson brackets to verify conservation laws and symmetries.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Poisson Bracket&lt;/strong&gt;: A bilinear operation defined between two functions in phase space, used extensively in Hamiltonian mechanics.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Canonical Variables&lt;/strong&gt;: Pairs of variables like $(q_i, p_i)$ that satisfy specific Poisson bracket relations.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;: Theorems that describe the properties and implications of Poisson brackets such as their antisymmetry, bilinearity, and Jacobi identity.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;In Hamiltonian mechanics, the dynamics of a system are described by a set of generalized coordinates $q_i$ and conjugate momenta $p_i$, evolving according to Hamilton’s equations:&lt;/p&gt;
-
-\[\dot{q}_i = \frac{\partial H}{\partial p_i}, \quad \dot{p}_i = -\frac{\partial H}{\partial q_i}\]
-
-&lt;p&gt;Here, $H(q_i, p_i, t)$ is the Hamiltonian of the system.&lt;/p&gt;
-
-&lt;p&gt;To express these equations and many other properties compactly, we define the &lt;strong&gt;Poisson bracket&lt;/strong&gt; of two functions $f(q_i, p_i, t)$ and $g(q_i, p_i, t)$ as:&lt;/p&gt;
-
-\[\{f, g\} = \sum_{i} \left( \frac{\partial f}{\partial q_i} \frac{\partial g}{\partial p_i} - \frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q_i} \right)\]
-
-&lt;p&gt;The Poisson bracket has the following essential properties:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Bilinearity&lt;/strong&gt;:
-\(\{af + bg, h\} = a\{f, h\} + b\{g, h\}\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Antisymmetry&lt;/strong&gt;:
-\(\{f, g\} = -\{g, f\}\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Jacobi Identity&lt;/strong&gt;:
-\(\{f, \{g, h\}\} + \{g, \{h, f\}\} + \{h, \{f, g\}\} = 0\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Leibniz Rule&lt;/strong&gt; (Product Rule):
-\(\{fg, h\} = f\{g, h\} + g\{f, h\}\)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Using Poisson brackets, Hamilton’s equations can be rewritten as:&lt;/p&gt;
-
-\[\dot{f} = \{f, H\} + \frac{\partial f}{\partial t}\]
-
-&lt;p&gt;This shows that the time evolution of any observable $f$ is governed by its Poisson bracket with the Hamiltonian.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Theorem 1&lt;/strong&gt;: If $u$ and $v$ are constants of motion, then ${u, v}$ is also a constant of motion.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Theorem 2&lt;/strong&gt;: The fundamental Poisson brackets are:
-\(\{q_i, q_j\} = 0, \quad \{p_i, p_j\} = 0, \quad \{q_i, p_j\} = \delta_{ij}\)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Theorem 3&lt;/strong&gt;: Canonical transformations preserve the form of the Poisson brackets.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
-Problem: Show that the angular momentum components satisfy the Poisson bracket relation ${L_x, L_y} = L_z$.&lt;br /&gt;
-Solution:&lt;br /&gt;
-Recall that:&lt;br /&gt;
-\(L_x = yp_z - zp_y, \quad L_y = zp_x - xp_z, \quad L_z = xp_y - yp_x\)&lt;br /&gt;
-Compute ${L_x, L_y}$ using the definition of the Poisson bracket:&lt;/p&gt;
-
-\[\{L_x, L_y\} = \{yp_z - zp_y, zp_x - xp_z\}\]
-
-    &lt;p&gt;Calculating term by term and using the fundamental brackets, we get:&lt;/p&gt;
-
-\[\{L_x, L_y\} = xp_y - yp_x = L_z\]
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
-Problem: Verify that $H = \frac{p^2}{2m} + V(q)$ is conserved using Poisson bracket.&lt;br /&gt;
-Solution:&lt;br /&gt;
-Compute $\dot{H}$:
-\(\dot{H} = \{H, H\} + \frac{\partial H}{\partial t}\)&lt;/p&gt;
-
-    &lt;p&gt;Since ${H, H} = 0$ and if $H$ has no explicit time dependence, then:&lt;/p&gt;
-
-\[\dot{H} = 0 \Rightarrow H \text{ is conserved}\]
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Poisson brackets provide a compact and general formalism to express time evolution in Hamiltonian mechanics.&lt;/li&gt;
-  &lt;li&gt;They are fundamental to understanding symmetries, conservation laws, and canonical transformations.&lt;/li&gt;
-  &lt;li&gt;Poisson’s theorems play a central role in identifying constants of motion and maintaining the structure of mechanics under transformations.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Short Answer:
-    &lt;ol&gt;
-      &lt;li&gt;Define the Poisson bracket. What does it signify in Hamiltonian mechanics?&lt;/li&gt;
-      &lt;li&gt;State and explain the Jacobi identity for Poisson brackets.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Numerical:
-    &lt;ol&gt;
-      &lt;li&gt;Given $f = q^2p$ and $g = qp^2$, compute ${f, g}$.&lt;/li&gt;
-      &lt;li&gt;For a simple harmonic oscillator with $H = \frac{p^2}{2m} + \frac{1}{2}m\omega^2q^2$, compute ${q, H}$ and ${p, H}$.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;MCQs:
-    &lt;ol&gt;
-      &lt;li&gt;Which of the following is a property of the Poisson bracket?
-        &lt;ul&gt;
-          &lt;li&gt;(A) Commutativity&lt;/li&gt;
-          &lt;li&gt;(B) Antisymmetry&lt;/li&gt;
-          &lt;li&gt;(C) Associativity&lt;/li&gt;
-          &lt;li&gt;(D) Distributivity&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (B)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;If ${f, H} = 0$, then:
-        &lt;ul&gt;
-          &lt;li&gt;(A) $f$ is conserved in time&lt;/li&gt;
-          &lt;li&gt;(B) $f$ is zero&lt;/li&gt;
-          &lt;li&gt;(C) $f$ is a function of time only&lt;/li&gt;
-          &lt;li&gt;(D) $f$ must be the Hamiltonian&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (A)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives:</summary></entry><entry><title type="html">Small Oscillations</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html" rel="alternate" type="text/html" title="Small Oscillations" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html">&lt;h1 id=&quot;small-oscillations-normal-modes-of-vibration-coupled-oscillators&quot;&gt;Small Oscillations, Normal Modes of Vibration, Coupled Oscillators&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation</summary></entry><entry><title type="html">Small Oscillations</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html" rel="alternate" type="text/html" title="Small Oscillations" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html">&lt;h1 id=&quot;small-oscillations-normal-modes-of-vibration-coupled-oscillators&quot;&gt;Small Oscillations, Normal Modes of Vibration, Coupled Oscillators&lt;/h1&gt;
 
 &lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -546,7 +530,141 @@ The effective force is:&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Small Oscillations, Normal Modes of Vibration, Coupled Oscillators</summary></entry><entry><title type="html">Plasma Oscillations and Plasmons</title><link href="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html" rel="alternate" type="text/html" title="Plasma Oscillations and Plasmons" /><published>2025-05-22T09:47:26+05:30</published><updated>2025-05-22T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/22/Plasma</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Small Oscillations, Normal Modes of Vibration, Coupled Oscillators</summary></entry><entry><title type="html">Poisson Bracket, Poisson Theorems</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html" rel="alternate" type="text/html" title="Poisson Bracket, Poisson Theorems" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Understand the definition and meaning of a Poisson bracket in classical mechanics.&lt;/li&gt;
+  &lt;li&gt;Derive and interpret Poisson’s theorems.&lt;/li&gt;
+  &lt;li&gt;Use Poisson brackets to verify conservation laws and symmetries.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Poisson Bracket&lt;/strong&gt;: A bilinear operation defined between two functions in phase space, used extensively in Hamiltonian mechanics.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Canonical Variables&lt;/strong&gt;: Pairs of variables like $(q_i, p_i)$ that satisfy specific Poisson bracket relations.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;: Theorems that describe the properties and implications of Poisson brackets such as their antisymmetry, bilinearity, and Jacobi identity.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;In Hamiltonian mechanics, the dynamics of a system are described by a set of generalized coordinates $q_i$ and conjugate momenta $p_i$, evolving according to Hamilton’s equations:&lt;/p&gt;
+
+\[\dot{q}_i = \frac{\partial H}{\partial p_i}, \quad \dot{p}_i = -\frac{\partial H}{\partial q_i}\]
+
+&lt;p&gt;Here, $H(q_i, p_i, t)$ is the Hamiltonian of the system.&lt;/p&gt;
+
+&lt;p&gt;To express these equations and many other properties compactly, we define the &lt;strong&gt;Poisson bracket&lt;/strong&gt; of two functions $f(q_i, p_i, t)$ and $g(q_i, p_i, t)$ as:&lt;/p&gt;
+
+\[\{f, g\} = \sum_{i} \left( \frac{\partial f}{\partial q_i} \frac{\partial g}{\partial p_i} - \frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q_i} \right)\]
+
+&lt;p&gt;The Poisson bracket has the following essential properties:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Bilinearity&lt;/strong&gt;:
+\(\{af + bg, h\} = a\{f, h\} + b\{g, h\}\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Antisymmetry&lt;/strong&gt;:
+\(\{f, g\} = -\{g, f\}\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Jacobi Identity&lt;/strong&gt;:
+\(\{f, \{g, h\}\} + \{g, \{h, f\}\} + \{h, \{f, g\}\} = 0\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Leibniz Rule&lt;/strong&gt; (Product Rule):
+\(\{fg, h\} = f\{g, h\} + g\{f, h\}\)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Using Poisson brackets, Hamilton’s equations can be rewritten as:&lt;/p&gt;
+
+\[\dot{f} = \{f, H\} + \frac{\partial f}{\partial t}\]
+
+&lt;p&gt;This shows that the time evolution of any observable $f$ is governed by its Poisson bracket with the Hamiltonian.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Theorem 1&lt;/strong&gt;: If $u$ and $v$ are constants of motion, then ${u, v}$ is also a constant of motion.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Theorem 2&lt;/strong&gt;: The fundamental Poisson brackets are:
+\(\{q_i, q_j\} = 0, \quad \{p_i, p_j\} = 0, \quad \{q_i, p_j\} = \delta_{ij}\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Theorem 3&lt;/strong&gt;: Canonical transformations preserve the form of the Poisson brackets.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
+Problem: Show that the angular momentum components satisfy the Poisson bracket relation ${L_x, L_y} = L_z$.&lt;br /&gt;
+Solution:&lt;br /&gt;
+Recall that:&lt;br /&gt;
+\(L_x = yp_z - zp_y, \quad L_y = zp_x - xp_z, \quad L_z = xp_y - yp_x\)&lt;br /&gt;
+Compute ${L_x, L_y}$ using the definition of the Poisson bracket:&lt;/p&gt;
+
+\[\{L_x, L_y\} = \{yp_z - zp_y, zp_x - xp_z\}\]
+
+    &lt;p&gt;Calculating term by term and using the fundamental brackets, we get:&lt;/p&gt;
+
+\[\{L_x, L_y\} = xp_y - yp_x = L_z\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
+Problem: Verify that $H = \frac{p^2}{2m} + V(q)$ is conserved using Poisson bracket.&lt;br /&gt;
+Solution:&lt;br /&gt;
+Compute $\dot{H}$:
+\(\dot{H} = \{H, H\} + \frac{\partial H}{\partial t}\)&lt;/p&gt;
+
+    &lt;p&gt;Since ${H, H} = 0$ and if $H$ has no explicit time dependence, then:&lt;/p&gt;
+
+\[\dot{H} = 0 \Rightarrow H \text{ is conserved}\]
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Poisson brackets provide a compact and general formalism to express time evolution in Hamiltonian mechanics.&lt;/li&gt;
+  &lt;li&gt;They are fundamental to understanding symmetries, conservation laws, and canonical transformations.&lt;/li&gt;
+  &lt;li&gt;Poisson’s theorems play a central role in identifying constants of motion and maintaining the structure of mechanics under transformations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Short Answer:
+    &lt;ol&gt;
+      &lt;li&gt;Define the Poisson bracket. What does it signify in Hamiltonian mechanics?&lt;/li&gt;
+      &lt;li&gt;State and explain the Jacobi identity for Poisson brackets.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Numerical:
+    &lt;ol&gt;
+      &lt;li&gt;Given $f = q^2p$ and $g = qp^2$, compute ${f, g}$.&lt;/li&gt;
+      &lt;li&gt;For a simple harmonic oscillator with $H = \frac{p^2}{2m} + \frac{1}{2}m\omega^2q^2$, compute ${q, H}$ and ${p, H}$.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;MCQs:
+    &lt;ol&gt;
+      &lt;li&gt;Which of the following is a property of the Poisson bracket?
+        &lt;ul&gt;
+          &lt;li&gt;(A) Commutativity&lt;/li&gt;
+          &lt;li&gt;(B) Antisymmetry&lt;/li&gt;
+          &lt;li&gt;(C) Associativity&lt;/li&gt;
+          &lt;li&gt;(D) Distributivity&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: (B)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;If ${f, H} = 0$, then:
+        &lt;ul&gt;
+          &lt;li&gt;(A) $f$ is conserved in time&lt;/li&gt;
+          &lt;li&gt;(B) $f$ is zero&lt;/li&gt;
+          &lt;li&gt;(C) $f$ is a function of time only&lt;/li&gt;
+          &lt;li&gt;(D) $f$ must be the Hamiltonian&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: (A)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives:</summary></entry><entry><title type="html">Plasma Oscillations and Plasmons</title><link href="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html" rel="alternate" type="text/html" title="Plasma Oscillations and Plasmons" /><published>2025-05-22T09:47:26+05:30</published><updated>2025-05-22T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/22/Plasma</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Understand what plasma oscillations are and how they arise.&lt;/li&gt;
@@ -1753,145 +1871,4 @@ The Lagrangian is $L = \frac{1}{2} m \dot{x}^2 + Fx$.&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Hamilton’s Principle</summary></entry><entry><title type="html">Least Action Principle</title><link href="http://localhost:4000/SKMU/lecture/2025/05/20/Least-Action.html" rel="alternate" type="text/html" title="Least Action Principle" /><published>2025-05-20T07:46:26+05:30</published><updated>2025-05-20T07:46:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/20/Least-Action</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/20/Least-Action.html">&lt;h1 id=&quot;the-principle-of-least-action&quot;&gt;The Principle of Least Action&lt;/h1&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Understand the physical and mathematical meaning of the principle of least action.&lt;/li&gt;
-  &lt;li&gt;Learn how it leads to the Euler-Lagrange equations of motion.&lt;/li&gt;
-  &lt;li&gt;Apply the principle to solve simple problems in mechanics.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Action ($S$)&lt;/strong&gt;: A scalar quantity defined as the time integral of the Lagrangian, $S = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt$.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Lagrangian ($L$)&lt;/strong&gt;: The function $L = T - V$, where $T$ is kinetic energy and $V$ is potential energy.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Principle of Least Action&lt;/strong&gt;: The path taken by a physical system between two states is the one for which the action is stationary (usually minimized).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;Principle of Least Action&lt;/strong&gt; is a powerful and unifying concept in classical mechanics. It asserts that:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;A system evolves between two configurations in such a way that the action functional $S$ is stationary.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This principle is central to &lt;strong&gt;Lagrangian mechanics&lt;/strong&gt; and underlies modern formulations of physics, including quantum mechanics and field theory.&lt;/p&gt;
-
-&lt;p&gt;Let a mechanical system move from point $A$ at time $t_1$ to point $B$ at time $t_2$. Among all possible paths it could take, the system follows the one for which the action&lt;/p&gt;
-
-\[S[q(t)] = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt\]
-
-&lt;p&gt;is &lt;strong&gt;stationary&lt;/strong&gt; — meaning that small variations in the path do not change $S$ to first order.&lt;/p&gt;
-
-&lt;p&gt;This leads directly to the &lt;strong&gt;Euler-Lagrange equations&lt;/strong&gt;, which describe the system’s motion.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Mathematical Formulation&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;Let $q(t)$ be the generalized coordinate of the system.&lt;/p&gt;
-
-&lt;p&gt;Action is given by:&lt;/p&gt;
-
-\[S[q(t)] = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt\]
-
-&lt;p&gt;Consider a small variation: $q(t) \rightarrow q(t) + \varepsilon \eta(t)$, where $\eta(t_1) = \eta(t_2) = 0$.&lt;/p&gt;
-
-&lt;p&gt;Then,&lt;/p&gt;
-
-\[\delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q} \eta + \frac{\partial L}{\partial \dot{q}} \dot{\eta} \right) dt\]
-
-&lt;p&gt;Integrating by parts the second term:&lt;/p&gt;
-
-\[\delta S = \int_{t_1}^{t_2} \left( \frac{\partial L}{\partial q} - \frac{d}{dt} \frac{\partial L}{\partial \dot{q}} \right) \eta(t) \, dt\]
-
-&lt;p&gt;Since $\eta(t)$ is arbitrary, for $\delta S = 0$:&lt;/p&gt;
-
-\[\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}} \right) - \frac{\partial L}{\partial q} = 0\]
-
-&lt;p&gt;This is the &lt;strong&gt;Euler-Lagrange equation&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
-&lt;strong&gt;Problem&lt;/strong&gt;: Derive the equation of motion for a free particle using the principle of least action.&lt;br /&gt;
-&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
-The Lagrangian is $L = \frac{1}{2} m \dot{x}^2$.&lt;br /&gt;
-Action:&lt;br /&gt;
-\(S[x(t)] = \int_{t_1}^{t_2} \frac{1}{2} m \dot{x}^2 \, dt\)
-Applying the Euler-Lagrange equation:&lt;br /&gt;
-\(\frac{d}{dt}(m \dot{x}) = 0 \Rightarrow \ddot{x} = 0\)
-This corresponds to uniform motion.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
-&lt;strong&gt;Problem&lt;/strong&gt;: Use the principle of least action to derive the motion of a harmonic oscillator.&lt;br /&gt;
-&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
-The Lagrangian is $L = \frac{1}{2} m \dot{x}^2 - \frac{1}{2} k x^2$.&lt;br /&gt;
-Euler-Lagrange equation:&lt;br /&gt;
-\(\frac{d}{dt}(m \dot{x}) + k x = 0 \Rightarrow m \ddot{x} + k x = 0\)
-This is the equation for simple harmonic motion.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The principle of least action is a variational principle for deriving the equations of motion.&lt;/li&gt;
-  &lt;li&gt;It unifies many physical laws under a single formalism.&lt;/li&gt;
-  &lt;li&gt;The action is stationary, not necessarily minimal.&lt;/li&gt;
-  &lt;li&gt;Leads to Euler-Lagrange equations which generalize Newton’s second law.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Short Answer&lt;/strong&gt;:
-    &lt;ol&gt;
-      &lt;li&gt;Define the principle of least action.&lt;/li&gt;
-      &lt;li&gt;What is meant by stationary action?&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Numerical&lt;/strong&gt;:
-    &lt;ol&gt;
-      &lt;li&gt;Find the equation of motion for a particle in a linear potential $V(x) = Fx$ using least action.&lt;/li&gt;
-      &lt;li&gt;Compute the action for a particle moving at constant speed $v$ from $x=0$ to $x=L$ in time $T$.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;MCQs&lt;/strong&gt;:
-    &lt;ol&gt;
-      &lt;li&gt;Which of the following is minimized in the principle of least action?
-        &lt;ul&gt;
-          &lt;li&gt;a) Kinetic energy&lt;/li&gt;
-          &lt;li&gt;b) Potential energy&lt;/li&gt;
-          &lt;li&gt;c) Action&lt;/li&gt;
-          &lt;li&gt;d) Hamiltonian&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: c)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;The Euler-Lagrange equation is obtained from:
-        &lt;ul&gt;
-          &lt;li&gt;a) Newton’s laws&lt;/li&gt;
-          &lt;li&gt;b) Hamilton’s equations&lt;/li&gt;
-          &lt;li&gt;c) Principle of least action&lt;/li&gt;
-          &lt;li&gt;d) Gauss’s law&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: c)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">The Principle of Least Action</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Hamilton’s Principle</summary></entry></feed>

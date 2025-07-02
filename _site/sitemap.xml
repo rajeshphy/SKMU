@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/SKMU/android%20development/terminal%20tools/2020/01/01/ADB-Shell.html</loc>
+<lastmod>2020-01-01T10:47:26+05:30</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/SKMU/lecture/2020/04/28/Dissertation.html</loc>
 <lastmod>2020-04-28T09:47:26+05:30</lastmod>
 </url>
@@ -187,6 +191,10 @@
 <url>
 <loc>http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding.html</loc>
 <lastmod>2025-05-26T09:47:26+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/SKMU/lecture/2025/07/02/Polaritons.html</loc>
+<lastmod>2025-07-02T09:47:26+05:30</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/SKMU/</loc>

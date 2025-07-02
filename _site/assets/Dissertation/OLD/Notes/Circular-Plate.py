@@ -2,12 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-"""
-Rg goes like [0 0 0 0 0 ...] in first row then next increment in second row, etc.
-Thetag goes like [0 0.1 0.2 0.3 ...]
-"""
-
-
 # Definitions
 def initialize_grid(R, NR, NTheta):
     """
@@ -54,34 +48,25 @@ def initial_heat_condition(Rg, Thetag):
 	"""
 	U0 = np.zeros_like(Rg)
 	# Create the mask for the radial and angular ranges
-	U0=heat_source(U0)
+	r_min=0.5; r_max=0.7; theta_min=np.pi/9; theta_max=np.pi/6
+	mask = (Rg > r_min) & (Rg < r_max) #& (Thetag >= theta_min) & (Thetag <= theta_max)
+	U0[mask] = 0.8
 	return U0
-
-def heat_source(u):
-    r_min=0.5; r_max=0.7;theta_min=np.pi/3; theta_max=np.pi/2
-    
-    maskR = (Rg > r_min) & (Rg < r_max)
-    maskT= (Thetag>theta_min)&(Thetag<theta_max)
-    mask= maskR & maskT
-
-    u[mask]=0.8
-    return u
 
 def simulate_heat(u0, dr, dtheta, dt, steps, c):
     u = u0.copy()
     for step in range(steps):
         lap = laplacian_polar(u, dr, dtheta)
         u = u + dt * c**2 * lap
-        u = apply_boundary_conditions(u,u0)
+        u = apply_boundary_conditions(u)
     return u
 
-def apply_boundary_conditions(u,u0):
+def apply_boundary_conditions(u):
     """
-    Apply Dirichlet boundary conditions (u=0 at boundary) and Heat source
+    Apply Dirichlet boundary conditions (u=0 at boundary).
     """
     u[0, :] = 0
     u[-1, :] = 0
-    u=heat_source(u)
     return u
 
 def get_plot_axes():
@@ -109,18 +94,23 @@ def contour_Plot(Rg, Thetag, U, title="Field"):
     plt.show()
 
 
+
+
+
+
 # Configuration
 R = 1.0         # Radius
 NR = 50        # Radial grid points
 NTheta = 50    # Angular grid points
 dr = R / (NR - 1)
 dtheta = 2 * 3.141592653589793 / NTheta
-dt = 0.00001     # Time step
-steps = 80     # Number of steps
+dt = 0.0001     # Time step
+steps = 50     # Number of steps
 c = 1.0         # Speed
 
 # Create grid
 Rg, Thetag = initialize_grid(R, NR, NTheta)
+
 
 # Heat Equation Simulation
 u0 = initial_heat_condition(Rg, Thetag)
