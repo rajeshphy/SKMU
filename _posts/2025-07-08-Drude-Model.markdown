@@ -3,6 +3,7 @@ layout: post
 title: "Interaction of Solids with EM Field"
 date: 2025-07-08 10:30:00 +0530
 categories: lecture
+comments: true
 tags: SEM-IV
 ---
 
@@ -290,3 +291,6 @@ $$
 - $ \omega \ll \omega_0 \Rightarrow \varepsilon_1 > \varepsilon_\infty $
 - $ \omega \gg \omega_0 \Rightarrow \varepsilon_1 \rightarrow \varepsilon_\infty $
 - Peak in $ \varepsilon_2(\omega) $ at resonance $ \omega = \omega_0 $
+
+
+
