@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "V. Python: Course Contents"
+title:  "Python: Course Contents"
 date:   2025-03-26 07:47:26 +0530
 categories: lecture
+comments: true
 tags: SEM-I
 ---
 
