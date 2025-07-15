@@ -176,3 +176,65 @@ scatter_plot.plot(x, y)  # Scatter plot
 ### **Key Takeaways:**
 - The `plot()` method behaves **differently** for `Plotter` and `ScatterPlotter`.
 - This makes the code more **flexible**.
+
+
+---
+
+# Example Showing OOP Concept
+
+```python
+class BankAccount:
+    def __init__(self, holder):
+        self.account_holder = holder
+        self._balance = 0  # 👉 This is ENCAPSULATION: balance is hidden (with underscore)
+
+    def deposit(self, amount):
+        self._balance += amount
+
+    def withdraw(self, amount):
+        if amount <= self._balance:
+            self._balance -= amount
+        else:
+            print("Insufficient funds")
+
+    def check_balance(self):
+        return self._balance
+
+    def apply_interest(self):
+        print("No interest applied for generic account.")
+
+
+# 👉 This is INHERITANCE: SavingsAccount inherits from BankAccount
+class SavingsAccount(BankAccount):
+    def apply_interest(self):
+        self._balance += self._balance * 0.05
+        print("Savings interest applied.")  # 👉 POLYMORPHISM: same method, different behavior
+
+
+# 👉 This is INHERITANCE: CurrentAccount also inherits from BankAccount
+class CurrentAccount(BankAccount):
+    def apply_interest(self):
+        self._balance += self._balance * 0.02
+        print("Current account interest applied.")  # 👉 POLYMORPHISM
+
+
+# Create accounts (INSTANCES)
+acc1 = SavingsAccount("Ram")
+acc2 = CurrentAccount("Sita")
+acc3 = BankAccount("GeneralUser")
+
+# Deposit money
+acc1.deposit(1000)
+acc2.deposit(1000)
+acc3.deposit(1000)
+
+# Apply interest (polymorphic behavior)
+acc1.apply_interest()  # 5% interest
+acc2.apply_interest()  # 2% interest
+acc3.apply_interest()  # General message
+
+# Check balances
+print(acc1.account_holder," Balance: ₹",acc1.check_balance())
+print(acc2.account_holder," Balance: ₹",acc2.check_balance())
+print(acc3.account_holder," Balance: ₹",acc3.check_balance())
+```
