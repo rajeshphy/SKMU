@@ -56,145 +56,61 @@ print(text[0:6])  # Output: Python
 print(text.upper())  # Converts to uppercase
 print(text + " is fun!")  # String concatenation
 ```
+## Integer vs Floating Point Arithmetic
 
-## **Integer and Floating Point Arithmetic**  
+- **Integers (`int`)**: Whole numbers like `10`, `-5`
+- **Floats (`float`)**: Numbers with decimals like `3.14`, `-2.5`
+- Python supports automatic conversion between `int` and `float`
 
-**Definition**  
-Integer (`int`) and floating-point (`float`) arithmetic involve performing mathematical operations on numerical data types.  
-
-**Explanation**  
-- **Integers (`int`)** are whole numbers without decimals, e.g., `10`, `-5`, `1000`.  
-- **Floating-point numbers (`float`)** are numbers with decimals, e.g., `3.14`, `-2.5`, `0.001`.  
-- Python supports **automatic type conversion** between integers and floats.  
-- **Common arithmetic operations include**:  
-  - **Addition (`+`)** – Adds two numbers.  
-  - **Subtraction (`-`)** – Subtracts one number from another.  
-  - **Multiplication (`*`)** – Multiplies two numbers.  
-  - **Division (`/`)** – Returns a floating-point quotient.  
-  - **Floor Division (`//`)** – Returns the quotient without the decimal part.  
-  - **Modulus (`%`)** – Returns the remainder of a division.  
-  - **Exponentiation (`**`)** – Raises a number to a power.  
-
-**Coding Example**  
+**Arithmetic Operations:**
+- `+` Addition, `-` Subtraction, `*` Multiplication, `/` Division
+- `//` Floor Division, `%` Modulus, `**` Exponentiation
 
 ```python
 a, b = 15, 4
-
-print(a + b)   # Output: 19 (Addition)
-print(a - b)   # Output: 11 (Subtraction)
-print(a * b)   # Output: 60 (Multiplication)
-print(a / b)   # Output: 3.75 (Floating-point division)
-print(a // b)  # Output: 3 (Floor division)
-print(a % b)   # Output: 3 (Modulus - remainder of division)
-print(a ** b)  # Output: 50625 (Exponentiation: 15^4)
+print(a + b, a - b, a * b, a / b, a // b, a % b, a ** b)
 ```
----
-
-## **Operators and Expressions**  
-
-**Definition**  
-Operators are symbols that perform operations on variables and values. An expression is a combination of values, variables, and operators that produces a result.  
-
-**Explanation**  
-Python supports different types of operators:  
-
-**1. Arithmetic Operators**  
-Perform basic mathematical operations.  
-
-| Operator | Description    | Example (`a = 10, b = 3`) | Output  |
-|----------|--------------|----------------|--------|
-| `+`  | Addition       | `a + b`  | `13`  |
-| `-`  | Subtraction    | `a - b`  | `7`  |
-| `*`  | Multiplication | `a * b`  | `30`  |
-| `/`  | Division       | `a / b`  | `3.333`  |
-| `//` | Floor Division | `a // b` | `3`  |
-| `%`  | Modulus        | `a % b`  | `1`  |
-| `**` | Exponentiation | `a ** b` | `1000`  |
 
 
+## Python Operators
 
-**2. Comparison Operators**  
-Compare two values and return `True` or `False`.  
+### 1. Arithmetic Operators
 
-| Operator | Description                 | Example (`a = 10, b = 3`) | Output  |
-|----------|----------------------------|----------------|--------|
-| `==`  | Equal to                     | `a == b`  | `False`  |
-| `!=`  | Not equal to                  | `a != b`  | `True`  |
-| `>`   | Greater than                  | `a > b`   | `True`  |
-| `<`   | Less than                     | `a < b`   | `False`  |
-| `>=`  | Greater than or equal to      | `a >= b`  | `True`  |
-| `<=`  | Less than or equal to         | `a <= b`  | `False`  |
+| Op  | Desc | Example | Result |
+|-----|------|---------|--------|
+| `+` | Add  | `10 + 3` | `13` |
+| `-` | Sub  | `10 - 3` | `7`  |
+| `*` | Mul  | `10 * 3` | `30` |
+| `/` | Div  | `10 / 3` | `3.33` |
+| `//`| Floor| `10 // 3`| `3`  |
+| `%` | Mod  | `10 % 3` | `1`  |
+| `**`| Pow  | `10 ** 3`| `1000` |
 
+### 2. Comparison Operators
 
+Return `True`/`False`: `==`, `!=`, `>`, `<`, `>=`, `<=`
 
-**3. Logical Operators**  
-Used to combine multiple conditions.  
+### 3. Logical Operators
 
-| Operator | Description                                | Example (`x = True, y = False`) | Output  |
-|----------|----------------------------------------|----------------|--------|
-| `and`  | Returns `True` if both conditions are `True` | `x and y`  | `False`  |
-| `or`   | Returns `True` if at least one condition is `True` | `x or y`  | `True`  |
-| `not`  | Reverses the result                      | `not x`  | `False`  |
+| Op   | Desc                     | `x=True, y=False` |
+|------|--------------------------|-------------------|
+| `and`| True if both true        | `x and y → False` |
+| `or` | True if at least one true| `x or y → True`   |
+| `not`| Negates the value        | `not x → False`   |
 
+### 4. Assignment Operators
 
+Examples: `a += 5`, `a *= 2`, `a **= 2`
 
-**4. Assignment Operators**  
-Used to assign values to variables.  
-
-| Operator | Example   | Equivalent To  |
-|----------|---------|--------------|
-| `=`  | `a = 10`   | `a = 10`  |
-| `+=` | `a += 5`   | `a = a + 5`  |
-| `-=` | `a -= 2`   | `a = a - 2`  |
-| `*=` | `a *= 3`   | `a = a * 3`  |
-| `/=` | `a /= 2`   | `a = a / 2`  |
-| `//=` | `a //= 2`  | `a = a // 2`  |
-| `%=` | `a %= 2`   | `a = a % 2`  |
-| `**=` | `a **= 2`  | `a = a ** 2`  |
-
-
-
-**5. Bitwise Operators**  
-Perform operations on binary numbers.  
-
-| Operator | Description         | Example (`a = 5, b = 3`) | Output  |
-|----------|--------------------|----------------|--------|
-| `&`  | AND operation       | `a & b`  | `1`  |
-| `|`  | OR operation        | `a | b`  | `7`  |
-| `^`  | XOR operation       | `a ^ b`  | `6`  |
-| `~`  | NOT operation       | `~a`  | `-6`  |
-| `<<` | Left Shift          | `a << 1` | `10`  |
-| `>>` | Right Shift         | `a >> 1` | `2`  |
-
-
-
-
-
-
-
-
-
-**Coding Example**  
 ```python
 a, b = 10, 3
-
-# Arithmetic Operations
-print("Addition:", a + b)  # Output: 13
-print("Floor Division:", a // b)  # Output: 3
-
-# Comparison
-print("Is a greater than b?", a > b)  # Output: True
-
-# Logical Operations
+print(a + b, a // b, a > b)
 x, y = True, False
-print("x and y:", x and y)  # Output: False
-
-# Assignment
+print(x and y)
 a += 5
-print("Updated a:", a)  # Output: 15
+print(a)
 ```
 
----
 
 ## **Functions**  
 
