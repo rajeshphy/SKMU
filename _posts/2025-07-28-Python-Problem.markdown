@@ -7,6 +7,7 @@ comments: true
 tags: SEM-IV
 ---
 
+Before proceeding to problem let's see functions which will be used in writing the codes.
 
 | Function         | Purpose                         | Example Use               |
 |------------------|----------------------------------|---------------------------|
@@ -42,7 +43,7 @@ for j in range(0, n):
 print(A)
 ```
 
----
+
 
 ## Question 2: Matrix Multiplication Using NumPy
 
@@ -77,7 +78,7 @@ for i in range(3):
 print(C)
 ```
 
----
+
 
 ## Question 3: Find Minimum in Descending Sorted Array
 
@@ -101,7 +102,7 @@ for j in range(0, n):
 print(int(A[n - 1]))
 ```
 
----
+
 
 ## Question 4: 2D Function Plotting using Meshgrid
 
@@ -139,7 +140,7 @@ plt.tight_layout()
 plt.show()
 ```
 
----
+
 
 ## Question 5: Lagrange Interpolation
 
