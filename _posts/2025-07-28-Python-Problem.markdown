@@ -1,173 +1,268 @@
 ---
 layout: post
-title: "Python Problem"
-date: 2025-07-28 10:30:00 +0530
+title: "Numerical Methods Problem Set"
+date: 2025-07-28 11:00:00 +0530
 categories: lecture
 comments: true
 tags: SEM-IV
 ---
 
-Before proceeding to problem let's see functions which will be used in writing the codes.
 
-| Function         | Purpose                         | Example Use               |
-|------------------|----------------------------------|---------------------------|
-| `input()`        | User input                      | `x = int(input())`        |
-| `np.array()`     | Create arrays                   | `np.array([1, 2, 3])`     |
-| `np.append()`    | Add elements to array           | `np.append(A, x)`         |
-| `np.meshgrid()`  | Coordinate matrices             | `np.meshgrid(x, y)`       |
-| `plt.imshow()`   | Show 2D matrix as image         | `plt.imshow(z)`           |
-| `interpolation`  | Lagrange interpolation function | `interpolation(X, Y, x)`  |
-
-
+<span style="color:darkred">**Learning Objectives**</span>:
+- Review all built-in, NumPy, and math functions used across typical numerical methods problems given at the end of this page.
+- Understand and apply key numerical methods including root finding, interpolation, curve fitting, numerical integration, and solving ODEs.
+- Practice basic numerical algorithms using Python.
 
 ---
 
-## Question 1: Sort List in Descending Order
+Before diving into the problems, quickly recap some essential functions and libraries used in numerical programming, listed at the end of this page.
 
-**Problem:**  
-Write a Python program that takes `n` number of inputs and stores them in a list. Sort the list in descending order and print it.
+## 🧠 Solved Numerical Methods Problem Set Using Python
 
-**Hint**
+Each problem below corresponds to a major concept in numerical methods.
 
-| Sorting Algorithm | Time Complexity (Best) | Time Complexity (Worst) | Stable | In-Place | Key Features                                      |
-|-------------------|------------------------|--------------------------|--------|----------|---------------------------------------------------|
-| **Bubble Sort**   | O(n)                   | O(n²)                   | ✅     | ✅       | Simple, compares and swaps adjacent elements      |
-| **Selection Sort**| O(n²)                  | O(n²)                   | ❌     | ✅       | Selects min/max and places in correct position    |
-| **Insertion Sort**| O(n)                   | O(n²)                   | ✅     | ✅       | Builds sorted list by insertion                   |
-| **Merge Sort**    | O(n log n)             | O(n log n)              | ✅     | ❌       | Divide and conquer, uses extra memory             |
-| **Quick Sort**    | O(n log n)             | O(n²)                   | ❌     | ✅       | Uses pivot for partitioning                       |
-| **Heap Sort**     | O(n log n)             | O(n log n)              | ❌     | ✅       | Uses binary heap, not stable                      |
-| **TimSort**       | O(n) – O(n log n)      | O(n log n)              | ✅     | ✅       | Hybrid sort used in Python's built-in `sort()`    |
-
-Meaning of **Stable** and **Not stable**
-
-| Property       | Meaning                                             | Example Algorithm                 |
-|----------------|-----------------------------------------------------|-----------------------------------|
-| **Stable**     | Preserves order of equal elements                   | Bubble Sort, Merge Sort, TimSort  |
-| **Not Stable** | May reorder equal elements arbitrarily              | Quick Sort, Heap Sort             |
-| **In-Place**   | Does not use extra memory for sorting               | Bubble Sort, Quick Sort           |
-| **Not In-Place** | Requires additional memory (e.g., for merging)    | Merge Sort                        |
-
-## Question 2: Matrix Multiplication Using NumPy
-
-**Problem:**  
-Construct two 3×3 matrices `A` and `B` using inputs `a` and `b`, and compute the matrix product `C = AB`.
-
-**Solution:**
+### 🔹 1. Root of Functions – Bisection Method
 ```python
-import numpy as np 
-a = int(input()) 
-b = int(input()) 
+def f(x):
+    return x**3 - x - 2
 
-A = np.array([
-    [0, 0, 0],
-    [0, a, 2 * a],
-    [0, 2 * a, 4 * a]
-])
+a, b = 1, 2
+eps = 1e-6
 
-B = np.array([
-    [b, 2 * b, 3 * b],
-    [2 * b, 4 * b, 6 * b],
-    [3 * b, 6 * b, 9 * b]
-])
+while abs(b - a) > eps:
+    c = (a + b) / 2
+    if f(a) * f(c) < 0:
+        b = c
+    else:
+        a = c
 
-C = np.zeros((3, 3), dtype=int)
-
-for i in range(3): 
-    for k in range(3): 
-        for j in range(3): 
-            C[i][k] += A[i][j] * B[j][k] 
-
-print(C)
+print("Root:", round(c, 6))
 ```
 
-
-
-## Question 3: Find Minimum in Descending Sorted Array
-
-**Problem:**  
-Take `n` numbers as input, sort them in descending order, and print the minimum element.
-
-**Solution:**
+### 🔹 2. Iteration Method – Fixed Point Iteration
 ```python
-import numpy as np 
-n = int(input()) 
-A = np.array([])
+import math
 
-for i in range(0, n): 
-    A = np.append(A, input()) 
+def g(x):
+    return math.cos(x)
 
-for j in range(0, n): 
-    for k in range(j + 1, n): 
-        if A[j] < A[k]: 
-            A[j], A[k] = A[k], A[j] 
+x0 = 0.5
+eps = 1e-6
 
-print(int(A[n - 1]))
+while True:
+    x1 = g(x0)
+    if abs(x1 - x0) < eps:
+        break
+    x0 = x1
+
+print("Root:", round(x1, 6))
 ```
 
+### 🔹 3. Gauss Elimination Method
+```python
+import numpy as np
 
+A = np.array([[2, 3], [5, 4]], dtype=float)
+b = np.array([8, 13], dtype=float)
 
-## Question 4: 2D Function Plotting using Meshgrid
+x = np.linalg.solve(A, b)
+print("Solution:", x)
+```
 
-**Problem:**  
+### 🔹 4. Eigenvalues and Eigenvectors
+```python
+import numpy as np
 
-Plot the function  
-$$
-z = \left(\frac{r}{a} e^{-r/2a} \cos\left(\frac{y}{r}\right)\right)^2  
-$$  
-on a 2D grid using `matplotlib`.
+A = np.array([[4, 2], [1, 3]])
+eigvals, eigvecs = np.linalg.eig(A)
 
-**Solution:**
+print("Eigenvalues:", eigvals)
+print("Eigenvectors:")
+print(eigvecs)
+```
+
+### 🔹 5. Interpolation – Lagrange
+```python
+def lagrange(X, Y, x):
+    px = 0
+    for j in range(len(X)):
+        num = 1
+        for i in range(len(X)):
+            if i != j:
+                num *= (x - X[i]) / (X[j] - X[i])
+        px += num * Y[j]
+    return px
+
+X = [1, 2, 4]
+Y = [2, 3, 1]
+
+print("Interpolated value at x=2.5:", round(lagrange(X, Y, 2.5), 4))
+```
+
+### 🔹 6. Extrapolation – Newton Forward
+```python
+def newton_forward(x, y, value):
+    n = len(x)
+    diff_table = [y]
+    for i in range(1, n):
+        col = [diff_table[-1][j + 1] - diff_table[-1][j] for j in range(n - i)]
+        diff_table.append(col)
+    h = x[1] - x[0]
+    u = (value - x[0]) / h
+    result = y[0]
+    u_term = 1
+    fact = 1
+    for i in range(1, n):
+        u_term *= (u - i + 1)
+        fact *= i
+        result += (u_term * diff_table[i][0]) / fact
+    return result
+
+x = [1, 2, 3]
+y = [1, 8, 27]
+print("Extrapolated value at x=4:", round(newton_forward(x, y, 4), 2))
+```
+
+### 🔹 7. Curve Fitting – Polynomial Fit
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
 
-x = np.linspace(-100, 100, 100)
-y = np.linspace(-100, 100, 100)
-xv, yv = np.meshgrid(x, y)
-r = np.sqrt(xv**2 + yv**2)
+x = np.array([0, 1, 2, 3])
+y = np.array([1, 2, 1, 3])
 
-# Avoid division by zero warnings
-r[r == 0] = np.finfo(float).eps
+coeffs = np.polyfit(x, y, 2)
+p = np.poly1d(coeffs)
 
-cos = np.cos(yv / r)
-a = 5.29177
-z = ((r / a) * np.exp(-r / (2 * a)) * cos) ** 2
-
-plt.imshow(z, vmin=abs(z).min(), vmax=abs(z).max(), extent=[-100, 100, -100, 100])
-plt.colorbar()
-plt.xlabel('$x$', size=20)
-plt.ylabel('$y$', size=20)
-plt.gca().set_aspect('equal')  # Use gca() instead of deprecated axes()
-plt.tight_layout()
-plt.show()
+print("Fitted Polynomial:
+", p)
 ```
 
+### 🔹 8. Least Squares Fit – Linear
+```python
+import numpy as np
 
+x = np.array([1, 2, 3])
+y = np.array([2, 4, 5])
 
-## Question 5: Lagrange Interpolation
+A = np.vstack([x, np.ones(len(x))]).T
+m, c = np.linalg.lstsq(A, y, rcond=None)[0]
+
+print(f"Line: y = {m:.2f}x + {c:.2f}")
+```
+
+### 🔹 9. Integration – Trapezoidal Rule
+```python
+def f(x):
+    return x**2
+
+a, b, n = 0, 2, 4
+h = (b - a) / n
+s = f(a) + f(b)
+
+for i in range(1, n):
+    s += 2 * f(a + i * h)
+
+result = (h / 2) * s
+print("Integral (Trapezoidal):", result)
+```
+
+### 🔹 10. Integration – Simpson’s Rule
+```python
+def f(x):
+    return x**2
+
+a, b, n = 0, 2, 4
+h = (b - a) / n
+s = f(a) + f(b)
+
+for i in range(1, n):
+    if i % 2 == 0:
+        s += 2 * f(a + i * h)
+    else:
+        s += 4 * f(a + i * h)
+
+result = (h / 3) * s
+print("Integral (Simpson's 1/3):", result)
+```
+
+### 🔹 11. Runge-Kutta Method – First Order ODE
+```python
+def f(x, y):
+    return x + y
+
+x, y, h = 0, 1, 0.1
+k1 = h * f(x, y)
+k2 = h * f(x + h / 2, y + k1 / 2)
+k3 = h * f(x + h / 2, y + k2 / 2)
+k4 = h * f(x + h, y + k3)
+
+y_new = y + (k1 + 2*k2 + 2*k3 + k4) / 6
+print("y(0.1):", round(y_new, 5))
+```
+
+### 🔹 12. Finite Difference Method – Derivative Approximation
+```python
+def f(x):
+    return x**3
+
+x, h = 1, 0.1
+df = (f(x + h) - f(x)) / h
+print("f'(1) ≈", df)
+```
+
+---
+
+## 🛠️ Additional Practice: Sorting a List in Descending Order
 
 **Problem:**  
-Given a point `x` and function values at fixed nodes using `cos(x)`, use Lagrange interpolation to compute the value at `x`.
+Write a Python program to sort a list of numbers in **descending order** using the following algorithms:
 
-**Solution:**
-```python
-import numpy as np 
-import math 
+-  **Bubble Sort**
+-  **Selection Sort**
 
-x = float(input()) 
-X = np.linspace(0, 3.14, 5) 
-Y = np.cos(X) 
+Implement both methods separately and compare their logic and results.
 
-def interpolation(X, Y, x): 
-    px = 0 
-    for j in range(len(X)): 
-        num = 1 
-        for i in range(len(X)): 
-            if i != j: 
-                num *= (x - X[i]) / (X[j] - X[i]) 
-        px += num * Y[j] 
-    return px 
+---
+# Revision
 
-print(round(interpolation(X, Y, x), 3))
-```
+
+### 🐍 Built-in Python Functions
+
+| Function         | Purpose                              | Example                              |
+|------------------|--------------------------------------|--------------------------------------|
+| `input()`        | Reads user input                     | `x = int(input())`                   |
+| `print()`        | Displays output                      | `print("Result:", result)`           |
+| `range()`        | Loop iteration                       | `for i in range(n):`                 |
+| `round()`        | Rounds a number                      | `round(val, 4)`                      |
+| `abs()`          | Absolute value                       | `abs(a - b)`                         |
+
+### 🧮 NumPy Library (`numpy`)
+
+| Function            | Purpose                              | Example                              |
+|---------------------|--------------------------------------|--------------------------------------|
+| `np.array()`        | Create arrays                        | `np.array([1, 2, 3])`                |
+| `np.append()`       | Append values to array               | `np.append(arr, x)`                  |
+| `np.linspace()`     | Generate evenly spaced values        | `np.linspace(0, 2, 5)`               |
+| `np.vstack()`       | Stack arrays vertically              | `np.vstack([x, np.ones(n)])`         |
+| `np.ones()`         | Create array of ones                 | `np.ones(n)`                         |
+| `np.polyfit()`      | Polynomial curve fitting             | `np.polyfit(x, y, 2)`                |
+| `np.poly1d()`       | Construct polynomial from coeffs     | `np.poly1d(coeffs)`                  |
+| `np.meshgrid()`     | Create 2D coordinate grid            | `np.meshgrid(x, y)`                  |
+| `np.linalg.solve()` | Solve linear equations               | `np.linalg.solve(A, b)`              |
+| `np.linalg.eig()`   | Compute eigenvalues/vectors          | `np.linalg.eig(A)`                   |
+| `np.linalg.lstsq()` | Least squares line fit               | `np.linalg.lstsq(A, y, rcond=None)`  |
+
+### 📐 Math Library (`math`)
+
+| Function         | Purpose                              | Example                              |
+|------------------|--------------------------------------|--------------------------------------|
+| `math.cos()`     | Compute cosine                       | `math.cos(x)`                        |
+
+### 📈 Matplotlib (`matplotlib.pyplot`)
+
+| Function     | Purpose                          | Example              |
+|--------------|----------------------------------|----------------------|
+| `plt.plot()` | Plot line or data                | `plt.plot(x, y)`     |
+
+
