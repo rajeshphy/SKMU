@@ -27,23 +27,26 @@ Before proceeding to problem let's see functions which will be used in writing t
 **Problem:**  
 Write a Python program that takes `n` number of inputs and stores them in a list. Sort the list in descending order and print it.
 
-**Solution:**
-```python
-import numpy as np 
-n = int(input()) 
-A = []
-for i in range(0, n): 
-    A = A + [input()] 
+**Hint**
 
-for j in range(0, n): 
-    for k in range(j + 1, n): 
-        if A[j] < A[k]: 
-            A[j], A[k] = A[k], A[j] 
+| Sorting Algorithm | Time Complexity (Best) | Time Complexity (Worst) | Stable | In-Place | Key Features                                      |
+|-------------------|------------------------|--------------------------|--------|----------|---------------------------------------------------|
+| **Bubble Sort**   | O(n)                   | O(n²)                   | ✅     | ✅       | Simple, compares and swaps adjacent elements      |
+| **Selection Sort**| O(n²)                  | O(n²)                   | ❌     | ✅       | Selects min/max and places in correct position    |
+| **Insertion Sort**| O(n)                   | O(n²)                   | ✅     | ✅       | Builds sorted list by insertion                   |
+| **Merge Sort**    | O(n log n)             | O(n log n)              | ✅     | ❌       | Divide and conquer, uses extra memory             |
+| **Quick Sort**    | O(n log n)             | O(n²)                   | ❌     | ✅       | Uses pivot for partitioning                       |
+| **Heap Sort**     | O(n log n)             | O(n log n)              | ❌     | ✅       | Uses binary heap, not stable                      |
+| **TimSort**       | O(n) – O(n log n)      | O(n log n)              | ✅     | ✅       | Hybrid sort used in Python's built-in `sort()`    |
 
-print(A)
-```
+Meaning of **Stable** and **Not stable**
 
-
+| Property       | Meaning                                             | Example Algorithm                 |
+|----------------|-----------------------------------------------------|-----------------------------------|
+| **Stable**     | Preserves order of equal elements                   | Bubble Sort, Merge Sort, TimSort  |
+| **Not Stable** | May reorder equal elements arbitrarily              | Quick Sort, Heap Sort             |
+| **In-Place**   | Does not use extra memory for sorting               | Bubble Sort, Quick Sort           |
+| **Not In-Place** | Requires additional memory (e.g., for merging)    | Merge Sort                        |
 
 ## Question 2: Matrix Multiplication Using NumPy
 
