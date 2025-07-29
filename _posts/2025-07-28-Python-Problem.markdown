@@ -22,6 +22,9 @@ Before diving into the problems, quickly recap some essential functions and libr
 Each problem below corresponds to a major concept in numerical methods.
 
 ### 🔹 1. Root of Functions – Bisection Method
+
+**Problem:** Find the root of the equation $$ f(x) = x^3 - x - 2 $$ in the interval [1, 2] using the Bisection Method.
+
 ```python
 def f(x):
     return x**3 - x - 2
@@ -40,6 +43,9 @@ print("Root:", round(c, 6))
 ```
 
 ### 🔹 2. Iteration Method – Fixed Point Iteration
+
+**Problem:** Solve the equation $$ x = \cos(x) $$ using the fixed-point iteration method starting from $$ x_0 = 0.5 $$.
+
 ```python
 import math
 
@@ -59,6 +65,11 @@ print("Root:", round(x1, 6))
 ```
 
 ### 🔹 3. Gauss Elimination Method
+
+**Problem:** Solve the system of equations:
+2x + 3y = 8
+5x + 4y = 13 using Gaussian Elimination.
+
 ```python
 import numpy as np
 
@@ -70,6 +81,10 @@ print("Solution:", x)
 ```
 
 ### 🔹 4. Eigenvalues and Eigenvectors
+
+**Problem:** Compute the eigenvalues and eigenvectors of the matrix:
+$$ A = \begin{bmatrix} 4 & 2 \\ 1 & 3 \end{bmatrix} $$
+
 ```python
 import numpy as np
 
@@ -82,6 +97,9 @@ print(eigvecs)
 ```
 
 ### 🔹 5. Interpolation – Lagrange
+
+**Problem:** Use Lagrange interpolation to estimate the value of the function at $$ x = 2.5 $$, given the points (1, 2), (2, 3), and (4, 1).
+
 ```python
 def lagrange(X, Y, x):
     px = 0
@@ -100,6 +118,10 @@ print("Interpolated value at x=2.5:", round(lagrange(X, Y, 2.5), 4))
 ```
 
 ### 🔹 6. Extrapolation – Newton Forward
+
+**Problem:** Use Newton's forward difference formula to estimate $$ f(4) $$ from the table:
+x = [1, 2, 3], f(x) = [1, 8, 27].
+
 ```python
 def newton_forward(x, y, value):
     n = len(x)
@@ -124,6 +146,9 @@ print("Extrapolated value at x=4:", round(newton_forward(x, y, 4), 2))
 ```
 
 ### 🔹 7. Curve Fitting – Polynomial Fit
+
+**Problem:** Fit a 2nd-degree polynomial to the data points: (0,1), (1,2), (2,1), and (3,3).
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -139,6 +164,9 @@ print("Fitted Polynomial:
 ```
 
 ### 🔹 8. Least Squares Fit – Linear
+
+**Problem:** Find the best-fit line $$ y = mx + c $$ for the data points: (1,2), (2,4), and (3,5) using least squares.
+
 ```python
 import numpy as np
 
@@ -152,6 +180,9 @@ print(f"Line: y = {m:.2f}x + {c:.2f}")
 ```
 
 ### 🔹 9. Integration – Trapezoidal Rule
+
+**Problem:** Approximate the integral of $$ f(x) = x^2 $$ from 0 to 2 using the Trapezoidal Rule with 4 intervals.
+
 ```python
 def f(x):
     return x**2
@@ -168,6 +199,9 @@ print("Integral (Trapezoidal):", result)
 ```
 
 ### 🔹 10. Integration – Simpson’s Rule
+
+**Problem:** Estimate the integral of $$ f(x) = x^2 $$ from 0 to 2 using Simpson's 1/3 Rule with 4 intervals.
+
 ```python
 def f(x):
     return x**2
@@ -187,6 +221,9 @@ print("Integral (Simpson's 1/3):", result)
 ```
 
 ### 🔹 11. Runge-Kutta Method – First Order ODE
+
+**Problem:** Solve the initial value problem $$ dy/dx = x + y $$, $$ y(0) = 1 $$ at $$ x = 0.1 $$ using the 4th-order Runge-Kutta method.
+
 ```python
 def f(x, y):
     return x + y
@@ -202,6 +239,9 @@ print("y(0.1):", round(y_new, 5))
 ```
 
 ### 🔹 12. Finite Difference Method – Derivative Approximation
+
+**Problem:** Approximate the derivative of $$ f(x) = x^3 $$ at $$ x = 1 $$ using the forward difference method with step size $$ h = 0.1 $$.
+
 ```python
 def f(x):
     return x**3
