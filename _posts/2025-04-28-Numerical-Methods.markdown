@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Numerical Methods"
-date:   2025-04-28 09:47:26 +0530
+date:   2025-07-28 09:47:26 +0530
 categories: lecture
 tags: SEM-I
 ---
