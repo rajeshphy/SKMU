@@ -861,3 +861,86 @@ Thus, Simpson's rule gives the exact value for polynomials of degree ≤ 3.
 | Accuracy            | $$O(h^2)$$         | $$O(h^4)$$      |
 | Grid requirement    | Any number of intervals | Even number of intervals |
 | When preferred      | Quick estimate, rough accuracy | Higher precision with smooth functions |
+
+---
+
+# 📘 Least Squares Fit (Linear Regression)
+
+## 🔷 Objective
+
+To find the best-fitting straight line of the form:
+
+```
+y = m * x + c
+```
+
+Where:
+
+- `m` = slope of the line  
+- `c` = y-intercept  
+- `(x, y)` = observed data points
+
+The best-fit line minimizes the **sum of squared differences** between observed and predicted y-values. This method is called the **Least Squares Method**.
+
+
+## 🧮 Formulas Used
+
+Let there be `n` data points:  
+```
+(x₁, y₁), (x₂, y₂), ..., (xₙ, yₙ)
+```
+
+The slope `m` and intercept `c` are calculated using:
+
+```
+m = (n * Σ(xy) - Σx * Σy) / (n * Σ(x²) - (Σx)²)
+
+c = (Σy - m * Σx) / n
+```
+
+Where:
+
+- `Σx` = sum of all x-values  
+- `Σy` = sum of all y-values  
+- `Σxy` = sum of all (x * y) products  
+- `Σx²` = sum of all x² values  
+
+---
+
+## 📌 Steps to Perform Least Squares Fit
+
+1. Calculate:
+   - `Σx`, `Σy`, `Σx²`, `Σxy`
+2. Use the formulas above to find `m` and `c`
+3. Write the equation:
+   ```
+   y = m * x + c
+   ```
+
+---
+
+## 🔢 Example
+
+Given data:  
+```
+x = [1, 2, 3]  
+y = [2, 4, 5]
+```
+
+1. Compute sums:  
+   ```
+   Σx = 6, Σy = 11  
+   Σx² = 14, Σxy = 25  
+   n = 3
+   ```
+
+2. Find `m` and `c`:  
+   ```
+   m = (3*25 - 6*11) / (3*14 - 6²) = 9 / 6 = 1.5  
+   c = (11 - 1.5*6) / 3 = 0.67
+   ```
+
+3. Final equation:  
+   ```
+   y = 1.5 * x + 0.67
+   ```
