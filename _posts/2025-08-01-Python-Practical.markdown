@@ -134,7 +134,6 @@ $$
 ### 5. Python Code (Without `np.linalg.eig`)
 
 ```python
-import math
 
 def find_eigen(A):
     a, b = A[0]
@@ -145,7 +144,7 @@ def find_eigen(A):
     det = a*d - b*c
 
     discriminant = trace**2 - 4 * det
-    sqrt_disc = math.sqrt(discriminant)
+    sqrt_disc = discriminant**(1/2)
 
     lambda1 = (trace + sqrt_disc) / 2
     lambda2 = (trace - sqrt_disc) / 2
