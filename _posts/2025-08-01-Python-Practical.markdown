@@ -7,12 +7,8 @@ comments: true
 tags: SEM-I
 ---
 
-# Eigenvalue and Eigenvector: End Semester Practical Question
-
 ## Question
-
 Given a 2x2 matrix:
-
 $$
 A = \begin{bmatrix} 4 & 2 \\ 1 & 3 \end{bmatrix}
 $$
