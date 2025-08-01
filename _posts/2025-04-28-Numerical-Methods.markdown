@@ -892,11 +892,11 @@ Let there be `n` data points:
 
 The slope `m` and intercept `c` are calculated using:
 
-```
-m = (n * Σ(xy) - Σx * Σy) / (n * Σ(x²) - (Σx)²)
+$$ m = \frac{n \sum xy - \sum x \sum y}{n \sum x^2 - (\sum x)^2} $$
 
-c = (Σy - m * Σx) / n
-```
+and 
+
+$$ c = \frac{\sum y - m \sum x}{n}$$
 
 Where:
 
