@@ -265,44 +265,43 @@
   margin-bottom: 2rem;
 }
 
-/* 📜 Make the entire viewport horizontally scrollable for wide equations */
-html, body {
-  overflow-x: auto;
-}
-
-/* 🧮 Content styling */
+/* 🧮 Content + Scroll Fix */
 .post-content {
-  word-wrap: break-word;
-  white-space: normal;
-  font-size: 1.05rem;
-  line-height: 1.7;
-  color: #333;
+  position: relative;
+  overflow-x: auto;         /* ✅ Enables horizontal scrolling */
+  overflow-y: visible;
+  width: 100%;
+  padding-bottom: 0.5rem;
+  -webkit-overflow-scrolling: touch;
 }
 
-/* Fix for KaTeX and code blocks */
+.post-content * {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
 .post-content table,
 .post-content pre,
 .post-content code,
 .post-content .katex-display {
-  max-width: 100%;
   overflow-x: auto;
   display: block;
-  white-space: pre-wrap;
-  word-break: break-word;
+  white-space: pre;
+  word-break: keep-all;
 }
 
 /* 🌼 KaTeX Adjustments */
 .katex-display {
-  overflow-x: auto;
   text-align: left !important;
   padding: 0.5rem 0;
+  overflow-x: auto;
 }
 
-/* 💻 Responsive for Mobile Devices */
+/* 📱 Responsive Adjustments */
 @media (max-width: 768px) {
   .floral-border::before,
   .floral-border::after {
-    display: none; /* hide side flowers on mobile */
+    display: none;
   }
 
   .post-entry {
@@ -320,11 +319,12 @@ html, body {
   }
 }
 
-/* 🌸 Scrollbar at screen edge */
-html::-webkit-scrollbar {
-  height: 6px;
+/* 🌸 Scrollbar Styling */
+.post-content::-webkit-scrollbar {
+  height: 8px;
 }
-html::-webkit-scrollbar-thumb {
+
+.post-content::-webkit-scrollbar-thumb {
   background-color: #bbb;
   border-radius: 4px;
 }
