@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-01T13:03:59+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Practical Question: Python</title><link href="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html" rel="alternate" type="text/html" title="Practical Question: Python" /><published>2025-08-01T11:00:00+05:30</published><updated>2025-08-01T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html">&lt;h2 id=&quot;question&quot;&gt;Question&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-01T13:11:00+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET - Physical Science</title><link href="http://localhost:4000/SKMU/lecture/2025/10/31/JET.html" rel="alternate" type="text/html" title="JET - Physical Science" /><published>2025-10-31T10:30:00+05:30</published><updated>2025-10-31T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/10/31/JET</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/10/31/JET.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Topics&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Mathematical Methods of Physics
+    &lt;ul&gt;
+      &lt;li&gt;Vector Algebra &amp;amp; Calculus&lt;/li&gt;
+      &lt;li&gt;Linear Algebra&lt;/li&gt;
+      &lt;li&gt;Ordinary Differential Equations (ODE) &amp;amp; Special Functions&lt;/li&gt;
+      &lt;li&gt;Computational Techniques&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Thermodynamics &amp;amp; Statistical Physics
+    &lt;ul&gt;
+      &lt;li&gt;Part A: Thermodynamics&lt;/li&gt;
+      &lt;li&gt;Part B: Statistical Physics&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="JET" /><summary type="html">Topics:</summary></entry><entry><title type="html">Practical Question: Python</title><link href="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html" rel="alternate" type="text/html" title="Practical Question: Python" /><published>2025-08-01T11:00:00+05:30</published><updated>2025-08-01T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html">&lt;h2 id=&quot;question&quot;&gt;Question&lt;/h2&gt;
 &lt;p&gt;Given a 2x2 matrix:
 \(A = \begin{bmatrix} 4 &amp;amp; 2 \\ 1 &amp;amp; 3 \end{bmatrix}\)&lt;/p&gt;
 
@@ -1188,7 +1205,141 @@ Thus, the band gap is approximately equal to the Fourier component of the potent
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation</summary></entry><entry><title type="html">Small Oscillations</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html" rel="alternate" type="text/html" title="Small Oscillations" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html">&lt;h1 id=&quot;small-oscillations-normal-modes-of-vibration-coupled-oscillators&quot;&gt;Small Oscillations, Normal Modes of Vibration, Coupled Oscillators&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation</summary></entry><entry><title type="html">Poisson Bracket, Poisson Theorems</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html" rel="alternate" type="text/html" title="Poisson Bracket, Poisson Theorems" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Understand the definition and meaning of a Poisson bracket in classical mechanics.&lt;/li&gt;
+  &lt;li&gt;Derive and interpret Poisson’s theorems.&lt;/li&gt;
+  &lt;li&gt;Use Poisson brackets to verify conservation laws and symmetries.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Poisson Bracket&lt;/strong&gt;: A bilinear operation defined between two functions in phase space, used extensively in Hamiltonian mechanics.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Canonical Variables&lt;/strong&gt;: Pairs of variables like $(q_i, p_i)$ that satisfy specific Poisson bracket relations.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;: Theorems that describe the properties and implications of Poisson brackets such as their antisymmetry, bilinearity, and Jacobi identity.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;In Hamiltonian mechanics, the dynamics of a system are described by a set of generalized coordinates $q_i$ and conjugate momenta $p_i$, evolving according to Hamilton’s equations:&lt;/p&gt;
+
+\[\dot{q}_i = \frac{\partial H}{\partial p_i}, \quad \dot{p}_i = -\frac{\partial H}{\partial q_i}\]
+
+&lt;p&gt;Here, $H(q_i, p_i, t)$ is the Hamiltonian of the system.&lt;/p&gt;
+
+&lt;p&gt;To express these equations and many other properties compactly, we define the &lt;strong&gt;Poisson bracket&lt;/strong&gt; of two functions $f(q_i, p_i, t)$ and $g(q_i, p_i, t)$ as:&lt;/p&gt;
+
+\[\{f, g\} = \sum_{i} \left( \frac{\partial f}{\partial q_i} \frac{\partial g}{\partial p_i} - \frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q_i} \right)\]
+
+&lt;p&gt;The Poisson bracket has the following essential properties:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Bilinearity&lt;/strong&gt;:
+\(\{af + bg, h\} = a\{f, h\} + b\{g, h\}\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Antisymmetry&lt;/strong&gt;:
+\(\{f, g\} = -\{g, f\}\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Jacobi Identity&lt;/strong&gt;:
+\(\{f, \{g, h\}\} + \{g, \{h, f\}\} + \{h, \{f, g\}\} = 0\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Leibniz Rule&lt;/strong&gt; (Product Rule):
+\(\{fg, h\} = f\{g, h\} + g\{f, h\}\)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Using Poisson brackets, Hamilton’s equations can be rewritten as:&lt;/p&gt;
+
+\[\dot{f} = \{f, H\} + \frac{\partial f}{\partial t}\]
+
+&lt;p&gt;This shows that the time evolution of any observable $f$ is governed by its Poisson bracket with the Hamiltonian.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Theorem 1&lt;/strong&gt;: If $u$ and $v$ are constants of motion, then ${u, v}$ is also a constant of motion.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Theorem 2&lt;/strong&gt;: The fundamental Poisson brackets are:
+\(\{q_i, q_j\} = 0, \quad \{p_i, p_j\} = 0, \quad \{q_i, p_j\} = \delta_{ij}\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Theorem 3&lt;/strong&gt;: Canonical transformations preserve the form of the Poisson brackets.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
+Problem: Show that the angular momentum components satisfy the Poisson bracket relation ${L_x, L_y} = L_z$.&lt;br /&gt;
+Solution:&lt;br /&gt;
+Recall that:&lt;br /&gt;
+\(L_x = yp_z - zp_y, \quad L_y = zp_x - xp_z, \quad L_z = xp_y - yp_x\)&lt;br /&gt;
+Compute ${L_x, L_y}$ using the definition of the Poisson bracket:&lt;/p&gt;
+
+\[\{L_x, L_y\} = \{yp_z - zp_y, zp_x - xp_z\}\]
+
+    &lt;p&gt;Calculating term by term and using the fundamental brackets, we get:&lt;/p&gt;
+
+\[\{L_x, L_y\} = xp_y - yp_x = L_z\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
+Problem: Verify that $H = \frac{p^2}{2m} + V(q)$ is conserved using Poisson bracket.&lt;br /&gt;
+Solution:&lt;br /&gt;
+Compute $\dot{H}$:
+\(\dot{H} = \{H, H\} + \frac{\partial H}{\partial t}\)&lt;/p&gt;
+
+    &lt;p&gt;Since ${H, H} = 0$ and if $H$ has no explicit time dependence, then:&lt;/p&gt;
+
+\[\dot{H} = 0 \Rightarrow H \text{ is conserved}\]
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Poisson brackets provide a compact and general formalism to express time evolution in Hamiltonian mechanics.&lt;/li&gt;
+  &lt;li&gt;They are fundamental to understanding symmetries, conservation laws, and canonical transformations.&lt;/li&gt;
+  &lt;li&gt;Poisson’s theorems play a central role in identifying constants of motion and maintaining the structure of mechanics under transformations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Short Answer:
+    &lt;ol&gt;
+      &lt;li&gt;Define the Poisson bracket. What does it signify in Hamiltonian mechanics?&lt;/li&gt;
+      &lt;li&gt;State and explain the Jacobi identity for Poisson brackets.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Numerical:
+    &lt;ol&gt;
+      &lt;li&gt;Given $f = q^2p$ and $g = qp^2$, compute ${f, g}$.&lt;/li&gt;
+      &lt;li&gt;For a simple harmonic oscillator with $H = \frac{p^2}{2m} + \frac{1}{2}m\omega^2q^2$, compute ${q, H}$ and ${p, H}$.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;MCQs:
+    &lt;ol&gt;
+      &lt;li&gt;Which of the following is a property of the Poisson bracket?
+        &lt;ul&gt;
+          &lt;li&gt;(A) Commutativity&lt;/li&gt;
+          &lt;li&gt;(B) Antisymmetry&lt;/li&gt;
+          &lt;li&gt;(C) Associativity&lt;/li&gt;
+          &lt;li&gt;(D) Distributivity&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: (B)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;If ${f, H} = 0$, then:
+        &lt;ul&gt;
+          &lt;li&gt;(A) $f$ is conserved in time&lt;/li&gt;
+          &lt;li&gt;(B) $f$ is zero&lt;/li&gt;
+          &lt;li&gt;(C) $f$ is a function of time only&lt;/li&gt;
+          &lt;li&gt;(D) $f$ must be the Hamiltonian&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: (A)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives:</summary></entry><entry><title type="html">Small Oscillations</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html" rel="alternate" type="text/html" title="Small Oscillations" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html">&lt;h1 id=&quot;small-oscillations-normal-modes-of-vibration-coupled-oscillators&quot;&gt;Small Oscillations, Normal Modes of Vibration, Coupled Oscillators&lt;/h1&gt;
 
 &lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -1367,141 +1518,7 @@ The effective force is:&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Small Oscillations, Normal Modes of Vibration, Coupled Oscillators</summary></entry><entry><title type="html">Poisson Bracket, Poisson Theorems</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html" rel="alternate" type="text/html" title="Poisson Bracket, Poisson Theorems" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Understand the definition and meaning of a Poisson bracket in classical mechanics.&lt;/li&gt;
-  &lt;li&gt;Derive and interpret Poisson’s theorems.&lt;/li&gt;
-  &lt;li&gt;Use Poisson brackets to verify conservation laws and symmetries.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Poisson Bracket&lt;/strong&gt;: A bilinear operation defined between two functions in phase space, used extensively in Hamiltonian mechanics.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Canonical Variables&lt;/strong&gt;: Pairs of variables like $(q_i, p_i)$ that satisfy specific Poisson bracket relations.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;: Theorems that describe the properties and implications of Poisson brackets such as their antisymmetry, bilinearity, and Jacobi identity.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;In Hamiltonian mechanics, the dynamics of a system are described by a set of generalized coordinates $q_i$ and conjugate momenta $p_i$, evolving according to Hamilton’s equations:&lt;/p&gt;
-
-\[\dot{q}_i = \frac{\partial H}{\partial p_i}, \quad \dot{p}_i = -\frac{\partial H}{\partial q_i}\]
-
-&lt;p&gt;Here, $H(q_i, p_i, t)$ is the Hamiltonian of the system.&lt;/p&gt;
-
-&lt;p&gt;To express these equations and many other properties compactly, we define the &lt;strong&gt;Poisson bracket&lt;/strong&gt; of two functions $f(q_i, p_i, t)$ and $g(q_i, p_i, t)$ as:&lt;/p&gt;
-
-\[\{f, g\} = \sum_{i} \left( \frac{\partial f}{\partial q_i} \frac{\partial g}{\partial p_i} - \frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q_i} \right)\]
-
-&lt;p&gt;The Poisson bracket has the following essential properties:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Bilinearity&lt;/strong&gt;:
-\(\{af + bg, h\} = a\{f, h\} + b\{g, h\}\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Antisymmetry&lt;/strong&gt;:
-\(\{f, g\} = -\{g, f\}\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Jacobi Identity&lt;/strong&gt;:
-\(\{f, \{g, h\}\} + \{g, \{h, f\}\} + \{h, \{f, g\}\} = 0\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Leibniz Rule&lt;/strong&gt; (Product Rule):
-\(\{fg, h\} = f\{g, h\} + g\{f, h\}\)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Using Poisson brackets, Hamilton’s equations can be rewritten as:&lt;/p&gt;
-
-\[\dot{f} = \{f, H\} + \frac{\partial f}{\partial t}\]
-
-&lt;p&gt;This shows that the time evolution of any observable $f$ is governed by its Poisson bracket with the Hamiltonian.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Theorem 1&lt;/strong&gt;: If $u$ and $v$ are constants of motion, then ${u, v}$ is also a constant of motion.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Theorem 2&lt;/strong&gt;: The fundamental Poisson brackets are:
-\(\{q_i, q_j\} = 0, \quad \{p_i, p_j\} = 0, \quad \{q_i, p_j\} = \delta_{ij}\)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Theorem 3&lt;/strong&gt;: Canonical transformations preserve the form of the Poisson brackets.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
-Problem: Show that the angular momentum components satisfy the Poisson bracket relation ${L_x, L_y} = L_z$.&lt;br /&gt;
-Solution:&lt;br /&gt;
-Recall that:&lt;br /&gt;
-\(L_x = yp_z - zp_y, \quad L_y = zp_x - xp_z, \quad L_z = xp_y - yp_x\)&lt;br /&gt;
-Compute ${L_x, L_y}$ using the definition of the Poisson bracket:&lt;/p&gt;
-
-\[\{L_x, L_y\} = \{yp_z - zp_y, zp_x - xp_z\}\]
-
-    &lt;p&gt;Calculating term by term and using the fundamental brackets, we get:&lt;/p&gt;
-
-\[\{L_x, L_y\} = xp_y - yp_x = L_z\]
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
-Problem: Verify that $H = \frac{p^2}{2m} + V(q)$ is conserved using Poisson bracket.&lt;br /&gt;
-Solution:&lt;br /&gt;
-Compute $\dot{H}$:
-\(\dot{H} = \{H, H\} + \frac{\partial H}{\partial t}\)&lt;/p&gt;
-
-    &lt;p&gt;Since ${H, H} = 0$ and if $H$ has no explicit time dependence, then:&lt;/p&gt;
-
-\[\dot{H} = 0 \Rightarrow H \text{ is conserved}\]
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Poisson brackets provide a compact and general formalism to express time evolution in Hamiltonian mechanics.&lt;/li&gt;
-  &lt;li&gt;They are fundamental to understanding symmetries, conservation laws, and canonical transformations.&lt;/li&gt;
-  &lt;li&gt;Poisson’s theorems play a central role in identifying constants of motion and maintaining the structure of mechanics under transformations.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Short Answer:
-    &lt;ol&gt;
-      &lt;li&gt;Define the Poisson bracket. What does it signify in Hamiltonian mechanics?&lt;/li&gt;
-      &lt;li&gt;State and explain the Jacobi identity for Poisson brackets.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Numerical:
-    &lt;ol&gt;
-      &lt;li&gt;Given $f = q^2p$ and $g = qp^2$, compute ${f, g}$.&lt;/li&gt;
-      &lt;li&gt;For a simple harmonic oscillator with $H = \frac{p^2}{2m} + \frac{1}{2}m\omega^2q^2$, compute ${q, H}$ and ${p, H}$.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;MCQs:
-    &lt;ol&gt;
-      &lt;li&gt;Which of the following is a property of the Poisson bracket?
-        &lt;ul&gt;
-          &lt;li&gt;(A) Commutativity&lt;/li&gt;
-          &lt;li&gt;(B) Antisymmetry&lt;/li&gt;
-          &lt;li&gt;(C) Associativity&lt;/li&gt;
-          &lt;li&gt;(D) Distributivity&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (B)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;If ${f, H} = 0$, then:
-        &lt;ul&gt;
-          &lt;li&gt;(A) $f$ is conserved in time&lt;/li&gt;
-          &lt;li&gt;(B) $f$ is zero&lt;/li&gt;
-          &lt;li&gt;(C) $f$ is a function of time only&lt;/li&gt;
-          &lt;li&gt;(D) $f$ must be the Hamiltonian&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (A)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives:</summary></entry><entry><title type="html">Plasma Oscillations and Plasmons</title><link href="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html" rel="alternate" type="text/html" title="Plasma Oscillations and Plasmons" /><published>2025-05-22T09:47:26+05:30</published><updated>2025-05-22T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/22/Plasma</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Small Oscillations, Normal Modes of Vibration, Coupled Oscillators</summary></entry><entry><title type="html">Plasma Oscillations and Plasmons</title><link href="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html" rel="alternate" type="text/html" title="Plasma Oscillations and Plasmons" /><published>2025-05-22T09:47:26+05:30</published><updated>2025-05-22T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/22/Plasma</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Understand what plasma oscillations are and how they arise.&lt;/li&gt;
@@ -1640,277 +1657,4 @@ In eV:&lt;br /&gt;
 &lt;strong&gt;Answer&lt;/strong&gt;: (d)&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives:</summary></entry><entry><title type="html">Hamilton–Jacobi Equation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory.html" rel="alternate" type="text/html" title="Hamilton–Jacobi Equation" /><published>2025-05-20T11:55:26+05:30</published><updated>2025-05-20T11:55:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/20/H-J-Theory.html">&lt;h2 id=&quot;hamiltonjacobi-equation-with-example-of-harmonic-oscillator&quot;&gt;Hamilton–Jacobi Equation with Example of Harmonic Oscillator&lt;/h2&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Understand the formulation and significance of the Hamilton–Jacobi equation in classical mechanics.&lt;/li&gt;
-  &lt;li&gt;Learn how to reduce the problem of solving equations of motion to solving a partial differential equation.&lt;/li&gt;
-  &lt;li&gt;Apply the Hamilton–Jacobi method to solve the harmonic oscillator problem.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Hamilton–Jacobi Equation&lt;/strong&gt;: A first-order partial differential equation for the action function $S(q, t)$ derived from Hamilton’s equations.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Action Function ($S$)&lt;/strong&gt;: A function whose complete solution generates the equations of motion via canonical transformation.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Harmonic Oscillator&lt;/strong&gt;: A system in which a particle experiences a restoring force proportional to its displacement.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;Hamilton–Jacobi equation (HJE)&lt;/strong&gt; is an alternative formulation of classical mechanics that can be used to solve the equations of motion by solving a partial differential equation. It is especially powerful because it reduces the problem of dynamics to integration.&lt;/p&gt;
-
-&lt;p&gt;The central idea is to find a generating function $S(q, t)$ such that the transformation to new coordinates results in constant generalized momenta. This function $S$ satisfies the Hamilton–Jacobi equation:&lt;/p&gt;
-
-\[\frac{\partial S}{\partial t} + H\left(q, \frac{\partial S}{\partial q}, t\right) = 0\]
-
-&lt;p&gt;If $S(q, t)$ is known, then the equations of motion can be obtained by simple differentiation, and the trajectories can be determined directly.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Mathematical Formulation&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;Let the Hamiltonian of a system be:&lt;/p&gt;
-
-\[H(q, p, t)\]
-
-&lt;p&gt;We define the action function $S(q, \alpha, t)$, where $\alpha$ are constants of integration. The canonical momentum is:&lt;/p&gt;
-
-\[p_i = \frac{\partial S}{\partial q_i}\]
-
-&lt;p&gt;Then the &lt;strong&gt;Hamilton–Jacobi equation&lt;/strong&gt; is:&lt;/p&gt;
-
-\[\frac{\partial S}{\partial t} + H\left(q, \frac{\partial S}{\partial q}, t\right) = 0\]
-
-&lt;p&gt;For &lt;strong&gt;time-independent systems&lt;/strong&gt;, we use &lt;strong&gt;separation of variables&lt;/strong&gt;:&lt;/p&gt;
-
-\[S(q, t) = W(q) - Et\]
-
-&lt;p&gt;Substituting into HJE gives:&lt;/p&gt;
-
-\[H\left(q, \frac{\partial W}{\partial q}\right) = E\]
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
-&lt;strong&gt;Problem&lt;/strong&gt;: Derive the Hamilton–Jacobi equation for a 1D harmonic oscillator and find the action function.&lt;br /&gt;
-&lt;strong&gt;Solution&lt;/strong&gt;:&lt;/p&gt;
-
-    &lt;p&gt;The Hamiltonian of a 1D harmonic oscillator is:&lt;/p&gt;
-
-\[H = \frac{p^2}{2m} + \frac{1}{2} m \omega^2 q^2\]
-
-    &lt;p&gt;Assume $S(q, t) = W(q) - Et$, then the time-independent HJE becomes:&lt;/p&gt;
-
-\[\frac{1}{2m} \left( \frac{dW}{dq} \right)^2 + \frac{1}{2} m \omega^2 q^2 = E\]
-
-    &lt;p&gt;Solving:&lt;/p&gt;
-
-\[\left( \frac{dW}{dq} \right)^2 = 2m \left( E - \frac{1}{2} m \omega^2 q^2 \right)\]
-
-\[\frac{dW}{dq} = \sqrt{2mE - m^2 \omega^2 q^2}\]
-
-    &lt;p&gt;Integrating:&lt;/p&gt;
-
-\[W(q) = \int \sqrt{2mE - m^2 \omega^2 q^2} \, dq\]
-
-    &lt;p&gt;Let $A^2 = \frac{2E}{m \omega^2}$, then:&lt;/p&gt;
-
-\[W(q) = \frac{E}{\omega} \arcsin \left( \frac{q}{A} \right) + \frac{m \omega}{2} q \sqrt{A^2 - q^2}\]
-
-    &lt;p&gt;Hence, the full action is:&lt;/p&gt;
-
-\[S(q, t) = W(q) - Et\]
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
-&lt;strong&gt;Problem&lt;/strong&gt;: Using the Hamilton–Jacobi method, find the trajectory of a particle in a harmonic oscillator potential.&lt;br /&gt;
-&lt;strong&gt;Solution&lt;/strong&gt;:&lt;/p&gt;
-
-    &lt;p&gt;From the previous example, we know $S(q, t) = W(q) - Et$.&lt;/p&gt;
-
-    &lt;p&gt;From the Hamilton–Jacobi method:&lt;/p&gt;
-
-\[\frac{\partial S}{\partial E} = \text{constant} = \beta\]
-
-    &lt;p&gt;The statement “$\partial S / \partial E$ is constant” means:&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;Along a trajectory governed by the Hamilton-Jacobi equation, if you consider S = W - E t, then the change in S with respect to E is linear in time and independent of q, so its partial derivative with respect to E is constant.&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;p&gt;So,&lt;/p&gt;
-
-\[\frac{\partial W}{\partial E} - t = \beta\]
-
-    &lt;p&gt;Using $W(q)$ from before:&lt;/p&gt;
-
-\[\frac{\partial W}{\partial E} = \frac{1}{\omega} \arcsin \left( \frac{q}{A} \right)\]
-
-    &lt;p&gt;Therefore:&lt;/p&gt;
-
-\[\frac{1}{\omega} \arcsin \left( \frac{q}{A} \right) - t = \beta \Rightarrow \frac{q}{A} = \sin(\omega t + \phi)\]
-
-    &lt;p&gt;Thus, the trajectory is:&lt;/p&gt;
-
-\[q(t) = A \sin(\omega t + \phi)\]
-
-    &lt;p&gt;which is the expected solution for a harmonic oscillator.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The Hamilton–Jacobi equation provides a powerful method to solve mechanical problems using partial differential equations.&lt;/li&gt;
-  &lt;li&gt;It can simplify finding trajectories, especially for integrable systems.&lt;/li&gt;
-  &lt;li&gt;For time-independent systems, separation of variables is often applicable.&lt;/li&gt;
-  &lt;li&gt;In the harmonic oscillator, the HJE approach reproduces the sinusoidal motion.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Short Answer&lt;/strong&gt;:
-    &lt;ol&gt;
-      &lt;li&gt;What is the physical interpretation of the action function $S(q, t)$ in the Hamilton–Jacobi theory?&lt;/li&gt;
-      &lt;li&gt;How does the Hamilton–Jacobi equation relate to canonical transformations?&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Numerical&lt;/strong&gt;:
-    &lt;ol&gt;
-      &lt;li&gt;Derive the Hamilton–Jacobi equation for a free particle in 1D.&lt;/li&gt;
-      &lt;li&gt;Find the generating function $S(q, t)$ for a particle in a uniform gravitational field.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;MCQs&lt;/strong&gt;:
-    &lt;ol&gt;
-      &lt;li&gt;The Hamilton–Jacobi equation transforms the problem of motion into solving:
-        &lt;ul&gt;
-          &lt;li&gt;a) A linear equation&lt;/li&gt;
-          &lt;li&gt;b) A second-order ODE&lt;/li&gt;
-          &lt;li&gt;c) A first-order PDE&lt;/li&gt;
-          &lt;li&gt;d) A matrix equation&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: c)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;In the Hamilton–Jacobi method, if $S = W(q) - Et$, the function $W(q)$ is known as:
-        &lt;ul&gt;
-          &lt;li&gt;a) Hamiltonian&lt;/li&gt;
-          &lt;li&gt;b) Characteristic function&lt;/li&gt;
-          &lt;li&gt;c) Action-angle function&lt;/li&gt;
-          &lt;li&gt;d) Phase function&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: b)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;few-more-examples&quot;&gt;Few more examples&lt;/h2&gt;
-
-&lt;p&gt;🧭 Example 1: One-Dimensional Free Particle&lt;/p&gt;
-
-&lt;p&gt;Hamiltonian&lt;/p&gt;
-
-\[H = \frac{p^2}{2m}\]
-
-&lt;p&gt;Hamilton–Jacobi Equation&lt;/p&gt;
-
-\[\frac{1}{2m} \left( \frac{\partial S}{\partial q} \right)^2 + \frac{\partial S}{\partial t} = 0\]
-
-&lt;p&gt;Solution&lt;/p&gt;
-
-&lt;p&gt;Assume a separable solution:
-$S(q, \alpha, t) = W(q, \alpha) - \alpha t$ where $\alpha$ is the separation constant (i.e., energy).&lt;/p&gt;
-
-&lt;p&gt;Then:&lt;/p&gt;
-
-\[\frac{1}{2m} \left( \frac{dW}{dq} \right)^2 = \alpha \Rightarrow \frac{dW}{dq} = \sqrt{2m\alpha}\]
-
-&lt;p&gt;Integrating:&lt;/p&gt;
-
-\[W(q, \alpha) = \sqrt{2m\alpha} \cdot q\]
-
-&lt;p&gt;Hence,&lt;/p&gt;
-
-\[S(q, \alpha, t) = \sqrt{2m\alpha} \cdot q - \alpha t\]
-
-&lt;p&gt;Equation of Motion&lt;/p&gt;
-
-&lt;p&gt;To obtain the trajectory:&lt;/p&gt;
-
-\[\beta = \frac{\partial S}{\partial \alpha} = \frac{q}{\sqrt{2m\alpha}} - t\]
-
-&lt;p&gt;Solving for $q(t)$:&lt;/p&gt;
-
-\[q(t) = \sqrt{2m\alpha}(t + \beta)\]
-
-&lt;p&gt;This represents uniform motion: $q(t) = v t + q_0$ where $v = \sqrt{2\alpha/m}$ and $q_0 = \sqrt{2m\alpha} \cdot \beta$.&lt;/p&gt;
-
-&lt;p&gt;🧲 Example 2: Particle in a Central Potential&lt;/p&gt;
-
-&lt;p&gt;(Coulomb potential: $V(r) = -\dfrac{k}{r}$)&lt;/p&gt;
-
-&lt;p&gt;Hamiltonian (in spherical coordinates)&lt;/p&gt;
-
-\[H = \frac{1}{2m} \left( p_r^2 + \frac{p_\theta^2}{r^2} + \frac{p_\phi^2}{r^2 \sin^2\theta} \right) - \frac{k}{r}\]
-
-&lt;p&gt;Hamilton–Jacobi Equation&lt;/p&gt;
-
-&lt;p&gt;Assume:&lt;/p&gt;
-
-\[S(t, r, \theta, \phi) = -Et + S_r(r) + S_\theta(\theta) + S_\phi(\phi)\]
-
-&lt;p&gt;Then:&lt;/p&gt;
-
-\[\frac{1}{2m} \left[ \left( \frac{dS_r}{dr} \right)^2 + \frac{1}{r^2} \left( \left( \frac{dS_\theta}{d\theta} \right)^2 + \frac{1}{\sin^2\theta} \left( \frac{dS_\phi}{d\phi} \right)^2 \right) \right] - \frac{k}{r} = E\]
-
-&lt;p&gt;Let:
-	•	$\dfrac{dS_\phi}{d\phi} = p_\phi = l_z$
-	•	Introduce a constant $l$ such that the total angular part becomes $l^2$&lt;/p&gt;
-
-&lt;p&gt;Then:&lt;/p&gt;
-
-\[S_\phi = l_z \phi, \quad S_\theta = \int \sqrt{l^2 - \frac{l_z^2}{\sin^2\theta}} , d\theta\]
-
-&lt;p&gt;For radial part:&lt;/p&gt;
-
-\[\left( \frac{dS_r}{dr} \right)^2 = 2mE + \frac{2mk}{r} - \frac{l^2}{r^2}\]
-
-&lt;p&gt;So:&lt;/p&gt;
-
-\[S_r = \int \sqrt{2mE + \frac{2mk}{r} - \frac{l^2}{r^2}} , dr\]
-
-&lt;p&gt;Final Form of Action&lt;/p&gt;
-
-\[S(t, r, \theta, \phi) = -Et + \int \sqrt{2mE + \frac{2mk}{r} - \frac{l^2}{r^2}} , dr + \int \sqrt{l^2 - \frac{l_z^2}{\sin^2\theta}} , d\theta + l_z \phi\]
-
-&lt;p&gt;Equation of Orbit&lt;/p&gt;
-
-&lt;p&gt;Solving the above gives elliptical orbits:&lt;/p&gt;
-
-\[r(\phi) = \frac{a(1 - e^2)}{1 + e \cos \phi}\]
-
-&lt;p&gt;with
-	•	$a$ = semi-major axis
-	•	$e$ = eccentricity&lt;/p&gt;
-
-&lt;p&gt;This recovers Kepler’s laws.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Hamilton–Jacobi Equation with Example of Harmonic Oscillator</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives:</summary></entry></feed>
