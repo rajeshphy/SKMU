@@ -2,16 +2,149 @@
 layout: default
 ---
 
-{% include page-intro.html %}
+<style>
+/* 🌸 Floral Border Decorations */
+.floral-border {
+  position: relative;
+  padding: 2rem;
+  background-color: #fffafc;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  overflow: visible;
+  transition: background 0.3s;
+}
 
+.floral-border::before,
+.floral-border::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 80px;
+  background-image: url('https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f33c.svg');
+  background-repeat: repeat-y;
+  background-size: 32px 32px;
+  opacity: 0.5;
+}
+
+.floral-border::before {
+  left: -20px;
+}
+
+.floral-border::after {
+  right: -20px;
+  transform: scaleX(-1);
+}
+
+/* 🌿 Post Layout */
+.post-entry {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 3rem;
+  background: #ffffffb0;
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+}
+
+.post-title {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  color: #2c2c2c;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.post-meta {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 2rem;
+}
+
+/* 📜 Make the entire viewport horizontally scrollable for wide equations */
+html, body {
+  overflow-x: auto;
+}
+
+/* 🧮 Content styling */
+.post-content {
+  word-wrap: break-word;
+  white-space: normal;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* Fix for KaTeX and code blocks */
+.post-content table,
+.post-content pre,
+.post-content code,
+.post-content .katex-display {
+  max-width: 100%;
+  overflow-x: auto;
+  display: block;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* 🌼 KaTeX Adjustments */
+.katex-display {
+  overflow-x: auto;
+  text-align: left !important;
+  padding: 0.5rem 0;
+}
+
+/* 💻 Responsive for Mobile Devices */
+@media (max-width: 768px) {
+  .floral-border::before,
+  .floral-border::after {
+    display: none; /* hide side flowers on mobile */
+  }
+
+  .post-entry {
+    padding: 1.2rem;
+    margin: 1rem;
+    border-radius: 10px;
+  }
+
+  .post-title {
+    font-size: 1.6rem;
+  }
+
+  .post-content {
+    font-size: 1rem;
+  }
+}
+
+/* 🌸 Scrollbar at screen edge */
+html::-webkit-scrollbar {
+  height: 6px;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 4px;
+}
+</style>
 
 
 <main id="main" class="page-content" aria-label="Content">
-  <div class="inner">
-    <article class="entry-wrap">
-      <div class="entry-content">
+  <div class="inner floral-border">
+    <article class="post-entry">
+      <h1 class="post-title">{{ page.title }}</h1>
+
+      <div class="post-meta">
+        {% if page.date %}
+          {{ page.date | date: "%B %d, %Y" }}
+        {% endif %}
+        {% if page.categories %}
+          • {{ page.categories | join: ", " }}
+        {% endif %}
+      </div>
+
+      <div class="post-content">
         {{ content }}
       </div>
+
       {% if site.disqus.shortname %}
         {% include disqus_comments.html %}
       {% endif %}
