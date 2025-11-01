@@ -1,4 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-07-31T15:26:07+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Numerical Methods Problem Set</title><link href="http://localhost:4000/SKMU/lecture/2025/07/28/Python-Problem.html" rel="alternate" type="text/html" title="Numerical Methods Problem Set" /><published>2025-07-28T11:00:00+05:30</published><updated>2025-07-28T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/07/28/Python-Problem</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/07/28/Python-Problem.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-01T12:26:14+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Practical Question: Python</title><link href="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html" rel="alternate" type="text/html" title="Practical Question: Python" /><published>2025-08-01T11:00:00+05:30</published><updated>2025-08-01T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html">&lt;h2 id=&quot;question&quot;&gt;Question&lt;/h2&gt;
+&lt;p&gt;Given a 2x2 matrix:
+\(A = \begin{bmatrix} 4 &amp;amp; 2 \\ 1 &amp;amp; 3 \end{bmatrix}\)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Derive the characteristic polynomial of matrix \(A\).&lt;/li&gt;
+  &lt;li&gt;Find its eigenvalues.&lt;/li&gt;
+  &lt;li&gt;Find the corresponding eigenvectors.&lt;/li&gt;
+  &lt;li&gt;Show that \(Av = \lambda v\) for each eigenpair.&lt;/li&gt;
+  &lt;li&gt;Verify your solution using Python (without using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;numpy.linalg.eig&lt;/code&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-characteristic-polynomial&quot;&gt;1. Characteristic Polynomial&lt;/h3&gt;
+
+&lt;p&gt;To find the eigenvalues, we solve the characteristic equation:&lt;/p&gt;
+
+\[\det(A - \lambda I) = 0\]
+
+&lt;p&gt;Where \(I\) is the identity matrix. We compute:&lt;/p&gt;
+
+\[A - \lambda I = \begin{bmatrix} 4 - \lambda &amp;amp; 2 \\ 1 &amp;amp; 3 - \lambda \end{bmatrix}\]
+
+&lt;p&gt;The determinant is:&lt;/p&gt;
+
+\[(4 - \lambda)(3 - \lambda) - (2)(1) = 0\]
+
+&lt;p&gt;Expanding this:&lt;/p&gt;
+
+\[(4 - \lambda)(3 - \lambda) - 2 = (12 - 4\lambda - 3\lambda + \lambda^2) - 2 = \lambda^2 - 7\lambda + 10 = 0\]
+
+&lt;h3 id=&quot;2-eigenvalues&quot;&gt;2. Eigenvalues&lt;/h3&gt;
+
+&lt;p&gt;Solving the quadratic equation:&lt;/p&gt;
+
+\[\lambda^2 - 7\lambda + 10 = 0\]
+
+&lt;p&gt;We use the quadratic formula:&lt;/p&gt;
+
+\[\lambda = \frac{7 \pm \sqrt{(-7)^2 - 4 \cdot 1 \cdot 10}}{2} = \frac{7 \pm \sqrt{49 - 40}}{2} = \frac{7 \pm 3}{2}\]
+
+&lt;p&gt;Thus, the eigenvalues are:&lt;/p&gt;
+
+\[\lambda_1 = 5, \quad \lambda_2 = 2\]
+
+&lt;h3 id=&quot;3-eigenvectors&quot;&gt;3. Eigenvectors&lt;/h3&gt;
+
+&lt;h4 id=&quot;for-lambda_1--5&quot;&gt;For \(\lambda_1 = 5\):&lt;/h4&gt;
+
+&lt;p&gt;We solve:&lt;/p&gt;
+
+\[(A - 5I)v = 0 \Rightarrow \begin{bmatrix} -1 &amp;amp; 2 \\ 1 &amp;amp; -2 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = 0\]
+
+&lt;p&gt;From the equations:&lt;/p&gt;
+
+\[-1x + 2y = 0 \Rightarrow x = 2y\]
+
+&lt;p&gt;So an eigenvector is:&lt;/p&gt;
+
+\[v_1 = \begin{bmatrix} 2 \\ 1 \end{bmatrix}\]
+
+&lt;h4 id=&quot;for-lambda_2--2&quot;&gt;For \(\lambda_2 = 2\):&lt;/h4&gt;
+
+&lt;p&gt;We solve:&lt;/p&gt;
+
+\[(A - 2I)v = 0 \Rightarrow \begin{bmatrix} 2 &amp;amp; 2 \\ 1 &amp;amp; 1 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = 0\]
+
+&lt;p&gt;From the equations:&lt;/p&gt;
+
+\[2x + 2y = 0 \Rightarrow x = -y\]
+
+&lt;p&gt;So an eigenvector is:&lt;/p&gt;
+
+\[v_2 = \begin{bmatrix} -1 \\ 1 \end{bmatrix}\]
+
+&lt;h3 id=&quot;4-verification&quot;&gt;4. Verification&lt;/h3&gt;
+
+&lt;p&gt;We verify \(Av = \lambda v\):&lt;/p&gt;
+
+&lt;h4 id=&quot;for-lambda--5-and-v--beginbmatrix-2--1-endbmatrix&quot;&gt;For \(\lambda = 5\) and \(v = \begin{bmatrix} 2 \\ 1 \end{bmatrix}\):&lt;/h4&gt;
+
+\[A v = \begin{bmatrix} 4 &amp;amp; 2 \\ 1 &amp;amp; 3 \end{bmatrix} \begin{bmatrix} 2 \\ 1 \end{bmatrix} = \begin{bmatrix} 10 \\ 5 \end{bmatrix} = 5 \cdot \begin{bmatrix} 2 \\ 1 \end{bmatrix}\]
+
+&lt;h4 id=&quot;for-lambda--2-and-v--beginbmatrix--1--1-endbmatrix&quot;&gt;For \(\lambda = 2\) and \(v = \begin{bmatrix} -1 \\ 1 \end{bmatrix}\):&lt;/h4&gt;
+
+\[A v = \begin{bmatrix} 4 &amp;amp; 2 \\ 1 &amp;amp; 3 \end{bmatrix} \begin{bmatrix} -1 \\ 1 \end{bmatrix} = \begin{bmatrix} -2 \\ 2 \end{bmatrix} = 2 \cdot \begin{bmatrix} -1 \\ 1 \end{bmatrix}\]
+
+&lt;h3 id=&quot;5-python-code-without-nplinalgeig&quot;&gt;5. Python Code (Without &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;np.linalg.eig&lt;/code&gt;)&lt;/h3&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;find_eigen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;# Characteristic polynomial coefficients: λ² - (a+d)λ + (ad - bc)
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;trace&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;det&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;discriminant&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trace&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;det&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;sqrt_disc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;discriminant&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;lambda1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;trace&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sqrt_disc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;lambda2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;trace&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sqrt_disc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;eigenvector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eigenvalue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eigenvalue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eigenvalue&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;abs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;abs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;v1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eigenvector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lambda1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;v2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eigenvector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lambda2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lambda1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lambda2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;eig1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eig2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;find_eigen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Eigenvalue 1:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eig1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Eigenvector:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eig1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Eigenvalue 2:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eig2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Eigenvector:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eig2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Question Given a 2x2 matrix: \(A = \begin{bmatrix} 4 &amp;amp; 2 \\ 1 &amp;amp; 3 \end{bmatrix}\)</summary></entry><entry><title type="html">Numerical Methods Problem Set</title><link href="http://localhost:4000/SKMU/lecture/2025/07/28/Python-Problem.html" rel="alternate" type="text/html" title="Numerical Methods Problem Set" /><published>2025-07-28T11:00:00+05:30</published><updated>2025-07-28T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/07/28/Python-Problem</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/07/28/Python-Problem.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Review all built-in, NumPy, and math functions used across typical numerical methods problems given at the end of this page.&lt;/li&gt;
   &lt;li&gt;Understand and apply key numerical methods including root finding, interpolation, curve fitting, numerical integration, and solving ODEs.&lt;/li&gt;
@@ -1062,141 +1188,7 @@ Thus, the band gap is approximately equal to the Fourier component of the potent
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation</summary></entry><entry><title type="html">Poisson Bracket, Poisson Theorems</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html" rel="alternate" type="text/html" title="Poisson Bracket, Poisson Theorems" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Understand the definition and meaning of a Poisson bracket in classical mechanics.&lt;/li&gt;
-  &lt;li&gt;Derive and interpret Poisson’s theorems.&lt;/li&gt;
-  &lt;li&gt;Use Poisson brackets to verify conservation laws and symmetries.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Poisson Bracket&lt;/strong&gt;: A bilinear operation defined between two functions in phase space, used extensively in Hamiltonian mechanics.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Canonical Variables&lt;/strong&gt;: Pairs of variables like $(q_i, p_i)$ that satisfy specific Poisson bracket relations.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;: Theorems that describe the properties and implications of Poisson brackets such as their antisymmetry, bilinearity, and Jacobi identity.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;In Hamiltonian mechanics, the dynamics of a system are described by a set of generalized coordinates $q_i$ and conjugate momenta $p_i$, evolving according to Hamilton’s equations:&lt;/p&gt;
-
-\[\dot{q}_i = \frac{\partial H}{\partial p_i}, \quad \dot{p}_i = -\frac{\partial H}{\partial q_i}\]
-
-&lt;p&gt;Here, $H(q_i, p_i, t)$ is the Hamiltonian of the system.&lt;/p&gt;
-
-&lt;p&gt;To express these equations and many other properties compactly, we define the &lt;strong&gt;Poisson bracket&lt;/strong&gt; of two functions $f(q_i, p_i, t)$ and $g(q_i, p_i, t)$ as:&lt;/p&gt;
-
-\[\{f, g\} = \sum_{i} \left( \frac{\partial f}{\partial q_i} \frac{\partial g}{\partial p_i} - \frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q_i} \right)\]
-
-&lt;p&gt;The Poisson bracket has the following essential properties:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Bilinearity&lt;/strong&gt;:
-\(\{af + bg, h\} = a\{f, h\} + b\{g, h\}\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Antisymmetry&lt;/strong&gt;:
-\(\{f, g\} = -\{g, f\}\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Jacobi Identity&lt;/strong&gt;:
-\(\{f, \{g, h\}\} + \{g, \{h, f\}\} + \{h, \{f, g\}\} = 0\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Leibniz Rule&lt;/strong&gt; (Product Rule):
-\(\{fg, h\} = f\{g, h\} + g\{f, h\}\)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Using Poisson brackets, Hamilton’s equations can be rewritten as:&lt;/p&gt;
-
-\[\dot{f} = \{f, H\} + \frac{\partial f}{\partial t}\]
-
-&lt;p&gt;This shows that the time evolution of any observable $f$ is governed by its Poisson bracket with the Hamiltonian.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Theorem 1&lt;/strong&gt;: If $u$ and $v$ are constants of motion, then ${u, v}$ is also a constant of motion.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Theorem 2&lt;/strong&gt;: The fundamental Poisson brackets are:
-\(\{q_i, q_j\} = 0, \quad \{p_i, p_j\} = 0, \quad \{q_i, p_j\} = \delta_{ij}\)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Theorem 3&lt;/strong&gt;: Canonical transformations preserve the form of the Poisson brackets.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
-Problem: Show that the angular momentum components satisfy the Poisson bracket relation ${L_x, L_y} = L_z$.&lt;br /&gt;
-Solution:&lt;br /&gt;
-Recall that:&lt;br /&gt;
-\(L_x = yp_z - zp_y, \quad L_y = zp_x - xp_z, \quad L_z = xp_y - yp_x\)&lt;br /&gt;
-Compute ${L_x, L_y}$ using the definition of the Poisson bracket:&lt;/p&gt;
-
-\[\{L_x, L_y\} = \{yp_z - zp_y, zp_x - xp_z\}\]
-
-    &lt;p&gt;Calculating term by term and using the fundamental brackets, we get:&lt;/p&gt;
-
-\[\{L_x, L_y\} = xp_y - yp_x = L_z\]
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
-Problem: Verify that $H = \frac{p^2}{2m} + V(q)$ is conserved using Poisson bracket.&lt;br /&gt;
-Solution:&lt;br /&gt;
-Compute $\dot{H}$:
-\(\dot{H} = \{H, H\} + \frac{\partial H}{\partial t}\)&lt;/p&gt;
-
-    &lt;p&gt;Since ${H, H} = 0$ and if $H$ has no explicit time dependence, then:&lt;/p&gt;
-
-\[\dot{H} = 0 \Rightarrow H \text{ is conserved}\]
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Poisson brackets provide a compact and general formalism to express time evolution in Hamiltonian mechanics.&lt;/li&gt;
-  &lt;li&gt;They are fundamental to understanding symmetries, conservation laws, and canonical transformations.&lt;/li&gt;
-  &lt;li&gt;Poisson’s theorems play a central role in identifying constants of motion and maintaining the structure of mechanics under transformations.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Short Answer:
-    &lt;ol&gt;
-      &lt;li&gt;Define the Poisson bracket. What does it signify in Hamiltonian mechanics?&lt;/li&gt;
-      &lt;li&gt;State and explain the Jacobi identity for Poisson brackets.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Numerical:
-    &lt;ol&gt;
-      &lt;li&gt;Given $f = q^2p$ and $g = qp^2$, compute ${f, g}$.&lt;/li&gt;
-      &lt;li&gt;For a simple harmonic oscillator with $H = \frac{p^2}{2m} + \frac{1}{2}m\omega^2q^2$, compute ${q, H}$ and ${p, H}$.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;MCQs:
-    &lt;ol&gt;
-      &lt;li&gt;Which of the following is a property of the Poisson bracket?
-        &lt;ul&gt;
-          &lt;li&gt;(A) Commutativity&lt;/li&gt;
-          &lt;li&gt;(B) Antisymmetry&lt;/li&gt;
-          &lt;li&gt;(C) Associativity&lt;/li&gt;
-          &lt;li&gt;(D) Distributivity&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (B)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;If ${f, H} = 0$, then:
-        &lt;ul&gt;
-          &lt;li&gt;(A) $f$ is conserved in time&lt;/li&gt;
-          &lt;li&gt;(B) $f$ is zero&lt;/li&gt;
-          &lt;li&gt;(C) $f$ is a function of time only&lt;/li&gt;
-          &lt;li&gt;(D) $f$ must be the Hamiltonian&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (A)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives:</summary></entry><entry><title type="html">Small Oscillations</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html" rel="alternate" type="text/html" title="Small Oscillations" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html">&lt;h1 id=&quot;small-oscillations-normal-modes-of-vibration-coupled-oscillators&quot;&gt;Small Oscillations, Normal Modes of Vibration, Coupled Oscillators&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation</summary></entry><entry><title type="html">Small Oscillations</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html" rel="alternate" type="text/html" title="Small Oscillations" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html">&lt;h1 id=&quot;small-oscillations-normal-modes-of-vibration-coupled-oscillators&quot;&gt;Small Oscillations, Normal Modes of Vibration, Coupled Oscillators&lt;/h1&gt;
 
 &lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -1375,7 +1367,141 @@ The effective force is:&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Small Oscillations, Normal Modes of Vibration, Coupled Oscillators</summary></entry><entry><title type="html">Plasma Oscillations and Plasmons</title><link href="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html" rel="alternate" type="text/html" title="Plasma Oscillations and Plasmons" /><published>2025-05-22T09:47:26+05:30</published><updated>2025-05-22T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/22/Plasma</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Small Oscillations, Normal Modes of Vibration, Coupled Oscillators</summary></entry><entry><title type="html">Poisson Bracket, Poisson Theorems</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html" rel="alternate" type="text/html" title="Poisson Bracket, Poisson Theorems" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Understand the definition and meaning of a Poisson bracket in classical mechanics.&lt;/li&gt;
+  &lt;li&gt;Derive and interpret Poisson’s theorems.&lt;/li&gt;
+  &lt;li&gt;Use Poisson brackets to verify conservation laws and symmetries.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Poisson Bracket&lt;/strong&gt;: A bilinear operation defined between two functions in phase space, used extensively in Hamiltonian mechanics.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Canonical Variables&lt;/strong&gt;: Pairs of variables like $(q_i, p_i)$ that satisfy specific Poisson bracket relations.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;: Theorems that describe the properties and implications of Poisson brackets such as their antisymmetry, bilinearity, and Jacobi identity.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;In Hamiltonian mechanics, the dynamics of a system are described by a set of generalized coordinates $q_i$ and conjugate momenta $p_i$, evolving according to Hamilton’s equations:&lt;/p&gt;
+
+\[\dot{q}_i = \frac{\partial H}{\partial p_i}, \quad \dot{p}_i = -\frac{\partial H}{\partial q_i}\]
+
+&lt;p&gt;Here, $H(q_i, p_i, t)$ is the Hamiltonian of the system.&lt;/p&gt;
+
+&lt;p&gt;To express these equations and many other properties compactly, we define the &lt;strong&gt;Poisson bracket&lt;/strong&gt; of two functions $f(q_i, p_i, t)$ and $g(q_i, p_i, t)$ as:&lt;/p&gt;
+
+\[\{f, g\} = \sum_{i} \left( \frac{\partial f}{\partial q_i} \frac{\partial g}{\partial p_i} - \frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q_i} \right)\]
+
+&lt;p&gt;The Poisson bracket has the following essential properties:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Bilinearity&lt;/strong&gt;:
+\(\{af + bg, h\} = a\{f, h\} + b\{g, h\}\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Antisymmetry&lt;/strong&gt;:
+\(\{f, g\} = -\{g, f\}\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Jacobi Identity&lt;/strong&gt;:
+\(\{f, \{g, h\}\} + \{g, \{h, f\}\} + \{h, \{f, g\}\} = 0\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Leibniz Rule&lt;/strong&gt; (Product Rule):
+\(\{fg, h\} = f\{g, h\} + g\{f, h\}\)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Using Poisson brackets, Hamilton’s equations can be rewritten as:&lt;/p&gt;
+
+\[\dot{f} = \{f, H\} + \frac{\partial f}{\partial t}\]
+
+&lt;p&gt;This shows that the time evolution of any observable $f$ is governed by its Poisson bracket with the Hamiltonian.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Theorem 1&lt;/strong&gt;: If $u$ and $v$ are constants of motion, then ${u, v}$ is also a constant of motion.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Theorem 2&lt;/strong&gt;: The fundamental Poisson brackets are:
+\(\{q_i, q_j\} = 0, \quad \{p_i, p_j\} = 0, \quad \{q_i, p_j\} = \delta_{ij}\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Theorem 3&lt;/strong&gt;: Canonical transformations preserve the form of the Poisson brackets.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
+Problem: Show that the angular momentum components satisfy the Poisson bracket relation ${L_x, L_y} = L_z$.&lt;br /&gt;
+Solution:&lt;br /&gt;
+Recall that:&lt;br /&gt;
+\(L_x = yp_z - zp_y, \quad L_y = zp_x - xp_z, \quad L_z = xp_y - yp_x\)&lt;br /&gt;
+Compute ${L_x, L_y}$ using the definition of the Poisson bracket:&lt;/p&gt;
+
+\[\{L_x, L_y\} = \{yp_z - zp_y, zp_x - xp_z\}\]
+
+    &lt;p&gt;Calculating term by term and using the fundamental brackets, we get:&lt;/p&gt;
+
+\[\{L_x, L_y\} = xp_y - yp_x = L_z\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
+Problem: Verify that $H = \frac{p^2}{2m} + V(q)$ is conserved using Poisson bracket.&lt;br /&gt;
+Solution:&lt;br /&gt;
+Compute $\dot{H}$:
+\(\dot{H} = \{H, H\} + \frac{\partial H}{\partial t}\)&lt;/p&gt;
+
+    &lt;p&gt;Since ${H, H} = 0$ and if $H$ has no explicit time dependence, then:&lt;/p&gt;
+
+\[\dot{H} = 0 \Rightarrow H \text{ is conserved}\]
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Poisson brackets provide a compact and general formalism to express time evolution in Hamiltonian mechanics.&lt;/li&gt;
+  &lt;li&gt;They are fundamental to understanding symmetries, conservation laws, and canonical transformations.&lt;/li&gt;
+  &lt;li&gt;Poisson’s theorems play a central role in identifying constants of motion and maintaining the structure of mechanics under transformations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Short Answer:
+    &lt;ol&gt;
+      &lt;li&gt;Define the Poisson bracket. What does it signify in Hamiltonian mechanics?&lt;/li&gt;
+      &lt;li&gt;State and explain the Jacobi identity for Poisson brackets.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Numerical:
+    &lt;ol&gt;
+      &lt;li&gt;Given $f = q^2p$ and $g = qp^2$, compute ${f, g}$.&lt;/li&gt;
+      &lt;li&gt;For a simple harmonic oscillator with $H = \frac{p^2}{2m} + \frac{1}{2}m\omega^2q^2$, compute ${q, H}$ and ${p, H}$.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;MCQs:
+    &lt;ol&gt;
+      &lt;li&gt;Which of the following is a property of the Poisson bracket?
+        &lt;ul&gt;
+          &lt;li&gt;(A) Commutativity&lt;/li&gt;
+          &lt;li&gt;(B) Antisymmetry&lt;/li&gt;
+          &lt;li&gt;(C) Associativity&lt;/li&gt;
+          &lt;li&gt;(D) Distributivity&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: (B)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;If ${f, H} = 0$, then:
+        &lt;ul&gt;
+          &lt;li&gt;(A) $f$ is conserved in time&lt;/li&gt;
+          &lt;li&gt;(B) $f$ is zero&lt;/li&gt;
+          &lt;li&gt;(C) $f$ is a function of time only&lt;/li&gt;
+          &lt;li&gt;(D) $f$ must be the Hamiltonian&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: (A)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives:</summary></entry><entry><title type="html">Plasma Oscillations and Plasmons</title><link href="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html" rel="alternate" type="text/html" title="Plasma Oscillations and Plasmons" /><published>2025-05-22T09:47:26+05:30</published><updated>2025-05-22T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/22/Plasma</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Understand what plasma oscillations are and how they arise.&lt;/li&gt;
@@ -1787,311 +1913,4 @@ $S(q, \alpha, t) = W(q, \alpha) - \alpha t$ where $\alpha$ is the separation con
 	•	$a$ = semi-major axis
 	•	$e$ = eccentricity&lt;/p&gt;
 
-&lt;p&gt;This recovers Kepler’s laws.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Hamilton–Jacobi Equation with Example of Harmonic Oscillator</summary></entry><entry><title type="html">Generating Function</title><link href="http://localhost:4000/SKMU/lecture/2025/05/20/Generating-Function.html" rel="alternate" type="text/html" title="Generating Function" /><published>2025-05-20T11:47:26+05:30</published><updated>2025-05-20T11:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/20/Generating-Function</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/20/Generating-Function.html">&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:darkred&quot;&gt;Learning Objectives&lt;/span&gt;&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Understand the concept and purpose of canonical transformations in Hamiltonian mechanics.&lt;/li&gt;
-  &lt;li&gt;Learn how generating functions facilitate canonical transformations.&lt;/li&gt;
-  &lt;li&gt;Explore the role of infinitesimal generators in describing symmetries and conserved quantities.&lt;/li&gt;
-  &lt;li&gt;Establish a foundation for understanding Hamilton-Jacobi theory.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;key-concepts--definitions&quot;&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Canonical Transformation&lt;/strong&gt;: A transformation from old variables $(q, p)$ to new variables $(Q, P)$ that preserves the form of Hamilton’s equations.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Generating Function&lt;/strong&gt;: A function that defines a canonical transformation by connecting old and new variables.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Infinitesimal Generator&lt;/strong&gt;: A function that produces infinitesimal canonical transformations; often linked to symmetries and conserved quantities.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;canonical-transformations&quot;&gt;&lt;strong&gt;Canonical Transformations&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Canonical transformations simplify problems in Hamiltonian mechanics by transforming to new variables $(Q, P)$ that preserve the structure of Hamilton’s equations:&lt;/p&gt;
-
-\[\dot{q} = \frac{\partial H}{\partial p}, \quad \dot{p} = -\frac{\partial H}{\partial q}
-\quad \Rightarrow \quad
-\dot{Q} = \frac{\partial K}{\partial P}, \quad \dot{P} = -\frac{\partial K}{\partial Q}\]
-
-&lt;p&gt;Here, $K(Q, P, t)$ is the new Hamiltonian in terms of transformed variables.&lt;/p&gt;
-
-&lt;h2 id=&quot;generating-functions-of-canonical-transformations&quot;&gt;&lt;strong&gt;Generating Functions of Canonical Transformations&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;A generating function $F$ allows us to define a canonical transformation in such a way that the new coordinates $(Q, P)$ are derived systematically from the old ones $(q, p)$.&lt;/p&gt;
-
-&lt;p&gt;The key identity is:&lt;/p&gt;
-
-\[p \, dq - P \, dQ = dF\]
-
-&lt;p&gt;This implies the &lt;strong&gt;transformation is symplectic&lt;/strong&gt;, meaning it preserves the area in phase space:&lt;/p&gt;
-
-\[\int_C p \, dq = \int_{C&apos;} P \, dQ\]
-
-&lt;p&gt;Using different choices of independent variables in $F$, we define four standard types of generating functions.&lt;/p&gt;
-
-&lt;p&gt;In Hamiltonian mechanics, &lt;strong&gt;generating functions&lt;/strong&gt; define canonical transformations and can be written in different forms depending on the choice of independent variables. The four standard types — $F_1$, $F_2$, $F_3$, and $F_4$ — are &lt;strong&gt;interrelated via Legendre transformations&lt;/strong&gt;, which exchange variables in a controlled manner.&lt;/p&gt;
-
-&lt;p&gt;We begin with &lt;strong&gt;Type I&lt;/strong&gt;: $F_1(q, Q)$ and obtain the others by performing &lt;strong&gt;Legendre transformations&lt;/strong&gt; with respect to $q$, $Q$, or both.&lt;/p&gt;
-
-&lt;h4 id=&quot;type-i-f_1q-q&quot;&gt;&lt;strong&gt;Type I&lt;/strong&gt;: $F_1(q, Q)$&lt;/h4&gt;
-
-&lt;p&gt;This is the fundamental generating function from which others can be derived. It depends on the old coordinate $q$ and the new coordinate $Q$.&lt;/p&gt;
-
-&lt;p&gt;From the differential identity:&lt;/p&gt;
-
-\[dF_1 = p \, dq - P \, dQ\]
-
-&lt;p&gt;We read off:&lt;/p&gt;
-
-\[p = \frac{\partial F_1}{\partial q}, \quad
-P = -\frac{\partial F_1}{\partial Q}\]
-
-&lt;h4 id=&quot;type-ii-f_2q-p&quot;&gt;&lt;strong&gt;Type II&lt;/strong&gt;: $F_2(q, P)$&lt;/h4&gt;
-
-&lt;p&gt;To eliminate the new coordinate $Q$ and introduce the new momentum $P$, we perform a Legendre transformation of $F_1$ with respect to $Q$:&lt;/p&gt;
-
-\[F_2(q, P) = F_1(q, Q) + P Q\]
-
-&lt;p&gt;Differentiating:&lt;/p&gt;
-
-\[dF_2 = dF_1 + P \, dQ + Q \, dP = p \, dq + Q \, dP\]
-
-&lt;p&gt;Therefore:&lt;/p&gt;
-
-\[p = \frac{\partial F_2}{\partial q}, \quad
-Q = \frac{\partial F_2}{\partial P}\]
-
-&lt;h4 id=&quot;type-iii-f_3p-q&quot;&gt;&lt;strong&gt;Type III&lt;/strong&gt;: $F_3(p, Q)$&lt;/h4&gt;
-
-&lt;p&gt;To express the generating function in terms of the old momentum $p$ and new coordinate $Q$, we Legendre transform $F_1$ with respect to $q$:&lt;/p&gt;
-
-\[F_3(p, Q) = F_1(q, Q) - p q\]
-
-&lt;p&gt;Differentiating:&lt;/p&gt;
-
-\[dF_3 = dF_1 - p \, dq - q \, dp = -P \, dQ - q \, dp\]
-
-&lt;p&gt;So we obtain:&lt;/p&gt;
-
-\[q = -\frac{\partial F_3}{\partial p}, \quad
-P = -\frac{\partial F_3}{\partial Q}\]
-
-&lt;h4 id=&quot;type-iv-f_4p-p&quot;&gt;&lt;strong&gt;Type IV&lt;/strong&gt;: $F_4(p, P)$&lt;/h4&gt;
-
-&lt;p&gt;This form uses both momenta, old and new. It is obtained by Legendre transforming $F_1$ with respect to both $q$ and $Q$:&lt;/p&gt;
-
-\[F_4(p, P) = F_1(q, Q) - p q + P Q\]
-
-&lt;p&gt;Differentiating:&lt;/p&gt;
-
-\[dF_4 = dF_1 - p \, dq - q \, dp + P \, dQ + Q \, dP = -q \, dp + Q \, dP\]
-
-&lt;p&gt;Hence:&lt;/p&gt;
-
-\[q = -\frac{\partial F_4}{\partial p}, \quad
-Q = \frac{\partial F_4}{\partial P}\]
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;-summary-table&quot;&gt;🔁 Summary Table&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Type&lt;/th&gt;
-      &lt;th&gt;Generating Function&lt;/th&gt;
-      &lt;th&gt;Relations&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;I&lt;/td&gt;
-      &lt;td&gt;$F_1(q, Q)$&lt;/td&gt;
-      &lt;td&gt;$p = \frac{\partial F_1}{\partial q}, \quad P = -\frac{\partial F_1}{\partial Q}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;II&lt;/td&gt;
-      &lt;td&gt;$F_2(q, P)$&lt;/td&gt;
-      &lt;td&gt;$p = \frac{\partial F_2}{\partial q}, \quad Q = \frac{\partial F_2}{\partial P}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;III&lt;/td&gt;
-      &lt;td&gt;$F_3(p, Q)$&lt;/td&gt;
-      &lt;td&gt;$q = -\frac{\partial F_3}{\partial p}, \quad P = -\frac{\partial F_3}{\partial Q}$&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;IV&lt;/td&gt;
-      &lt;td&gt;$F_4(p, P)$&lt;/td&gt;
-      &lt;td&gt;$q = -\frac{\partial F_4}{\partial p}, \quad Q = \frac{\partial F_4}{\partial P}$&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;infinitesimal-canonical-transformations&quot;&gt;&lt;strong&gt;Infinitesimal Canonical Transformations&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;For small transformations generated by a function $G(q, p)$:&lt;/p&gt;
-
-\[\delta q = \epsilon \{q, G\} = \epsilon \frac{\partial G}{\partial p}, \quad
-\delta p = \epsilon \{p, G\} = -\epsilon \frac{\partial G}{\partial q}\]
-
-&lt;p&gt;Here, $\epsilon$ is a small parameter. If $\{G, H\} = 0$, then $G$ is conserved and the transformation is a symmetry of the system.&lt;/p&gt;
-
-&lt;h3 id=&quot;-relation-between-hamiltonian-and-generating-function&quot;&gt;🔗 Relation Between Hamiltonian and Generating Function&lt;/h3&gt;
-
-&lt;p&gt;In classical mechanics, a &lt;strong&gt;generating function&lt;/strong&gt; defines a &lt;strong&gt;canonical transformation&lt;/strong&gt;, which maps one set of canonical variables $(q, p)$ to another $(Q, P)$, preserving the form of Hamilton’s equations.&lt;/p&gt;
-
-&lt;p&gt;We now explore how the &lt;strong&gt;Hamiltonian&lt;/strong&gt; is related to the &lt;strong&gt;generating function&lt;/strong&gt;, starting from the action integral.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;-the-action-integral&quot;&gt;🧭 The Action Integral&lt;/h4&gt;
-
-&lt;p&gt;The action in Hamiltonian mechanics is:&lt;/p&gt;
-
-\[S = \int_{t_1}^{t_2} \left( p \, \dot{q} - H(q, p, t) \right) dt\]
-
-&lt;p&gt;If we perform a &lt;strong&gt;canonical transformation&lt;/strong&gt; from $(q, p)$ to $(Q, P)$, the action becomes:&lt;/p&gt;
-
-\[S&apos; = \int_{t_1}^{t_2} \left( P \, \dot{Q} - K(Q, P, t) \right) dt\]
-
-&lt;p&gt;Here, $K$ is the &lt;strong&gt;new Hamiltonian&lt;/strong&gt; in the transformed variables.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;-inserting-the-generating-function&quot;&gt;🔄 Inserting the Generating Function&lt;/h4&gt;
-
-&lt;p&gt;Let the transformation be generated by a function $F_1(q, Q, t)$ of type I. The &lt;strong&gt;total differential&lt;/strong&gt; of $F_1$ is:&lt;/p&gt;
-
-\[dF_1 = \frac{\partial F_1}{\partial q} dq + \frac{\partial F_1}{\partial Q} dQ + \frac{\partial F_1}{\partial t} dt\]
-
-&lt;p&gt;We want to preserve the action up to a total derivative:&lt;/p&gt;
-
-\[\int \left( p \, \dot{q} - H \right) dt \quad \longrightarrow \quad \int \left( P \, \dot{Q} - K \right) dt\]
-
-&lt;p&gt;To ensure the equations of motion remain invariant, the two Lagrangian forms should differ by an &lt;strong&gt;exact differential&lt;/strong&gt;:&lt;/p&gt;
-
-\[p \, dq - H \, dt = P \, dQ - K \, dt + dF_1\]
-
-&lt;p&gt;Here, $F_1$ is some &lt;strong&gt;function of the canonical variables&lt;/strong&gt; (possibly also of time), whose &lt;strong&gt;total differential&lt;/strong&gt; $dF_1$ adjusts for the change of variables.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;-matching-terms&quot;&gt;📌 Matching Terms&lt;/h4&gt;
-
-&lt;p&gt;From the differential identity:&lt;/p&gt;
-
-\[p \, dq - H \, dt = P \, dQ - K \, dt + \frac{\partial F_1}{\partial q} dq + \frac{\partial F_1}{\partial Q} dQ + \frac{\partial F_1}{\partial t} dt\]
-
-&lt;p&gt;Group terms:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Coefficients of $dq$: $p = \frac{\partial F_1}{\partial q}$&lt;/li&gt;
-  &lt;li&gt;Coefficients of $dQ$: $P = -\frac{\partial F_1}{\partial Q}$&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Coefficients of $dt$:&lt;/p&gt;
-
-\[-H = -K + \frac{\partial F_1}{\partial t} \quad \Rightarrow \quad K = H + \frac{\partial F_1}{\partial t}\]
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;bridge-to-hamilton-jacobi-theory&quot;&gt;&lt;strong&gt;Bridge to Hamilton-Jacobi Theory&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;By appropriately choosing a generating function, we can transform a complicated Hamiltonian system into a simpler one—ideally into a system where the new Hamiltonian $K$ is zero or depends only on momenta, which allows direct integration.&lt;/p&gt;
-
-&lt;p&gt;This motivates the transition to &lt;strong&gt;Hamilton-Jacobi Theory&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;The Hamilton-Jacobi theory arises from seeking a generating function (typically of Type II) that &lt;strong&gt;completely solves the equations of motion&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Let us consider a generating function of Type II: $F_2(q, P, t)$, and define it as &lt;strong&gt;Hamilton’s Principal Function&lt;/strong&gt;:&lt;/p&gt;
-
-\[S(q, P, t) = F_2(q, P, t)\]
-
-&lt;p&gt;From this function, the transformation equations are:&lt;/p&gt;
-
-\[p_i = \frac{\partial S}{\partial q_i}, \quad Q_i = \frac{\partial S}{\partial P_i}\]
-
-&lt;p&gt;If we desire the new Hamiltonian $K(Q, P, t) = 0$, then from the relation:&lt;/p&gt;
-
-\[K = H(q, p, t) + \frac{\partial S}{\partial t}\]
-
-&lt;p&gt;and substituting $p_i = \frac{\partial S}{\partial q_i}$, we obtain the &lt;strong&gt;Hamilton-Jacobi Equation&lt;/strong&gt;:&lt;/p&gt;
-
-\[H\left(q_1, \dots, q_n, \frac{\partial S}{\partial q_1}, \dots, \frac{\partial S}{\partial q_n}, t \right)
-+ \frac{\partial S}{\partial t} = 0\]
-
-&lt;p&gt;Solving this &lt;strong&gt;partial differential equation&lt;/strong&gt; gives us the principal function $S(q, P, t)$, which contains complete information about the system’s dynamics.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;solved-examples&quot;&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
-Show that the transformation defined by $F_2(q, P) = \frac{1}{2}mq^2 \cot P$ is canonical.&lt;br /&gt;
-&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
-\(p = \frac{\partial F_2}{\partial q} = mq \cot P, \quad
-Q = \frac{\partial F_2}{\partial P} = -\frac{1}{2}mq^2 \csc^2 P\)&lt;br /&gt;
-The transformation is canonical as it preserves Poisson brackets.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
-Use an infinitesimal generator $G = q$ to find the transformation of $q$ and $p$.
-\(\delta q = \epsilon \{q, q\} = 0, \quad \delta p = \epsilon \{p, q\} = -\epsilon\)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;important-points--summary&quot;&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Canonical transformations preserve the form of Hamilton’s equations.&lt;/li&gt;
-  &lt;li&gt;Generating functions provide a practical way to define canonical transformations.&lt;/li&gt;
-  &lt;li&gt;Infinitesimal generators correspond to conserved quantities and symmetries.&lt;/li&gt;
-  &lt;li&gt;The Hamilton-Jacobi theory uses generating functions to reduce dynamics to solving a PDE.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;practice-questions&quot;&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Short Answer&lt;/strong&gt;:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Define a canonical transformation with an example.&lt;/li&gt;
-  &lt;li&gt;Explain the role of generating functions in canonical transformations.&lt;/li&gt;
-  &lt;li&gt;How is the Hamilton-Jacobi equation related to generating functions?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Numerical&lt;/strong&gt;:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Show that $F_1(q, Q) = qQ$ defines a canonical transformation and compute $p$, $P$.&lt;/li&gt;
-  &lt;li&gt;Let $G = pq$ be an infinitesimal generator. Find $\delta q$ and $\delta p$.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;MCQs&lt;/strong&gt;:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Which of the following is &lt;em&gt;not&lt;/em&gt; a valid type of generating function?
-    &lt;ul&gt;
-      &lt;li&gt;(a) $F_1(q, Q)$&lt;/li&gt;
-      &lt;li&gt;(b) $F_2(q, P)$&lt;/li&gt;
-      &lt;li&gt;(c) $F_5(q, p)$&lt;/li&gt;
-      &lt;li&gt;(d) $F_4(p, P)$&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;An infinitesimal generator $G$ leads to a conserved quantity if:
-    &lt;ul&gt;
-      &lt;li&gt;(a) ${G, H} = 0$&lt;/li&gt;
-      &lt;li&gt;(b) $G$ is a function of time only&lt;/li&gt;
-      &lt;li&gt;(c) ${G, G} = 1$&lt;/li&gt;
-      &lt;li&gt;(d) $G$ commutes with all coordinates&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Learning Objectives:</summary></entry></feed>
+&lt;p&gt;This recovers Kepler’s laws.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-I" /><summary type="html">Hamilton–Jacobi Equation with Example of Harmonic Oscillator</summary></entry></feed>
