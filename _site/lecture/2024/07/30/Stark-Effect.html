@@ -11,6 +11,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
 
   
     
@@ -295,40 +296,63 @@
 }
 
 
+
+
 .share-buttons {
   text-align: center;
   margin-top: 2rem;
-  padding: 1rem;
-  border-top: 1px solid #eee;
+  padding: 1.5rem 0;
+  border-top: 1px solid #ddd;
 }
 
 .share-buttons span {
   display: block;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-  color: #333;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #222;
+  font-size: 1.2rem;
 }
 
+/* Social Icons */
 .share-btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin: 0 0.4rem;
-  font-size: 1.4rem;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  font-size: 1.8rem;
   text-decoration: none;
-  transition: transform 0.2s ease, color 0.2s ease;
-}
-
-.share-btn:hover {
-  transform: scale(1.2);
+  color: white;
+  transition: all 0.3s ease;
 }
 
 /* Platform Colors */
-.share-btn.twitter { color: #1DA1F2; }
-.share-btn.facebook { color: #1877F2; }
-.share-btn.linkedin { color: #0077B5; }
-.share-btn.whatsapp { color: #25D366; }
-.share-btn.email { color: #D44638; }
-</style>
+.share-btn.whatsapp { background: #25D366; }
+.share-btn.telegram { background: #0088CC; }
+.share-btn.linkedin { background: #0077B5; }
+.share-btn.facebook { background: #1877F2; }
+.share-btn.twitter { background: #000000; } /* For X */
+.share-btn.instagram { background: linear-gradient(45deg,#F58529,#DD2A7B,#8134AF,#515BD4); }
+.share-btn.email { background: #D44638; }
+.share-btn.reddit { background: #FF4500; }
 
+/* Hover */
+.share-btn:hover {
+  transform: scale(1.15);
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .share-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 1.5rem;
+  }
+}
+</style>
 
 
 
@@ -537,6 +561,61 @@ H'_{41} &amp; H'_{42} &amp; H'_{43} &amp; H'_{44} - E^{(1)}
 </ul>
 
   </div>
+
+<!-- 🌐 Social Share Buttons (India Popular Platforms) -->
+<div class="share-buttons">
+  <span>📢 Share this post:</span>
+
+  <!-- WhatsApp -->
+  <a href="https://api.whatsapp.com/send?text=Stark%20Effect%20in%20Hydrogen%20Atom%20http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html" 
+     target="_blank" class="share-btn whatsapp" title="Share on WhatsApp">
+     <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Telegram -->
+  <a href="https://t.me/share/url?url=http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html&text=Stark%20Effect%20in%20Hydrogen%20Atom" 
+     target="_blank" class="share-btn telegram" title="Share on Telegram">
+     <i class="fab fa-telegram"></i>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html&title=Stark%20Effect%20in%20Hydrogen%20Atom" 
+     target="_blank" class="share-btn linkedin" title="Share on LinkedIn">
+     <i class="fab fa-linkedin"></i>
+  </a>
+
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html" 
+     target="_blank" class="share-btn facebook" title="Share on Facebook">
+     <i class="fab fa-facebook"></i>
+  </a>
+
+  <!-- X (Twitter) -->
+  <a href="https://twitter.com/intent/tweet?url=http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html&text=Stark%20Effect%20in%20Hydrogen%20Atom" 
+     target="_blank" class="share-btn twitter" title="Share on X (Twitter)">
+     <i class="fab fa-x-twitter"></i>
+  </a>
+
+  <!-- Instagram (no direct share, use profile link suggestion) -->
+  <a href="https://www.instagram.com/" 
+     target="_blank" class="share-btn instagram" title="Share via Instagram">
+     <i class="fab fa-instagram"></i>
+  </a>
+
+  <!-- Email -->
+  <a href="mailto:?subject=Stark%20Effect%20in%20Hydrogen%20Atom&body=http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html" 
+     target="_blank" class="share-btn email" title="Share via Email">
+     <i class="fas fa-envelope"></i>
+  </a>
+
+  <!-- Reddit -->
+  <a href="https://www.reddit.com/submit?url=http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html&title=Stark%20Effect%20in%20Hydrogen%20Atom" 
+     target="_blank" class="share-btn reddit" title="Share on Reddit">
+     <i class="fab fa-reddit"></i>
+  </a>
+</div>
+
+
   
     
 
@@ -544,25 +623,6 @@ H'_{41} &amp; H'_{42} &amp; H'_{43} &amp; H'_{44} - E^{(1)}
   
 </article>
 
-<!-- 🌐 Social Share Buttons -->
-<div class="share-buttons">
-  <span>Share this post:</span>
-  <a href="https://twitter.com/intent/tweet?url=http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html&text=Stark%20Effect%20in%20Hydrogen%20Atom" target="_blank" class="share-btn twitter" title="Share on Twitter">
-    <i class="fab fa-twitter"></i>
-  </a>
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html" target="_blank" class="share-btn facebook" title="Share on Facebook">
-    <i class="fab fa-facebook"></i>
-  </a>
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html&title=Stark%20Effect%20in%20Hydrogen%20Atom" target="_blank" class="share-btn linkedin" title="Share on LinkedIn">
-    <i class="fab fa-linkedin"></i>
-  </a>
-  <a href="https://api.whatsapp.com/send?text=Stark%20Effect%20in%20Hydrogen%20Atom%20http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html" target="_blank" class="share-btn whatsapp" title="Share on WhatsApp">
-    <i class="fab fa-whatsapp"></i>
-  </a>
-  <a href="mailto:?subject=Stark%20Effect%20in%20Hydrogen%20Atom&body=http://localhost:4000/SKMU/lecture/2024/07/30/Stark-Effect.html" target="_blank" class="share-btn email" title="Share via Email">
-    <i class="fas fa-envelope"></i>
-  </a>
-</div>
         </div>
 
         <div class="search-content">
