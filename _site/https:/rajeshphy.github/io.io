@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-02T18:22:55+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: Lecture-I</title><link href="http://localhost:4000/SKMU/physics/mathematics/2025/10/31/JET-Paper-2-L1.html" rel="alternate" type="text/html" title="JET: Lecture-I " /><published>2025-10-31T10:30:00+05:30</published><updated>2025-10-31T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/physics/mathematics/2025/10/31/JET-Paper-2-L1</id><content type="html" xml:base="http://localhost:4000/SKMU/physics/mathematics/2025/10/31/JET-Paper-2-L1.html">&lt;h1 align=&quot;center&quot;&gt;&lt;b&gt;Vector Addition&lt;/b&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-02T18:40:55+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: Lecture-I</title><link href="http://localhost:4000/SKMU/physics/mathematics/2025/10/31/JET-Paper-2-L1.html" rel="alternate" type="text/html" title="JET: Lecture-I " /><published>2025-10-31T10:30:00+05:30</published><updated>2025-10-31T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/physics/mathematics/2025/10/31/JET-Paper-2-L1</id><content type="html" xml:base="http://localhost:4000/SKMU/physics/mathematics/2025/10/31/JET-Paper-2-L1.html">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Vector Addition&lt;/b&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Definition / Explanation / Theory&lt;/strong&gt;&lt;/p&gt;
 
@@ -34,7 +34,7 @@ Geometrically, vector addition follows the &lt;strong&gt;parallelogram law&lt;/s
   &lt;li&gt;Graphically, if two vectors form adjacent sides of a parallelogram, the &lt;strong&gt;diagonal&lt;/strong&gt; represents their &lt;strong&gt;sum&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 align=&quot;center&quot;&gt;&lt;b&gt;Scalar (Dot) Product&lt;/b&gt;&lt;/h1&gt;
+&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Scalar (Dot) Product&lt;/b&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Definition / Explanation / Theory&lt;/strong&gt;&lt;/p&gt;
 
@@ -78,7 +78,7 @@ It gives a &lt;strong&gt;scalar quantity&lt;/strong&gt;, representing the magnit
 \(\cos\theta = \frac{\mathbf{A} \cdot \mathbf{B}}{|\mathbf{A}||\mathbf{B}|}\)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 align=&quot;center&quot;&gt;&lt;b&gt;Vector (Cross) Product&lt;/b&gt;&lt;/h1&gt;
+&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Vector (Cross) Product&lt;/b&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Definition / Explanation / Theory&lt;/strong&gt;&lt;/p&gt;
 
@@ -137,7 +137,7 @@ B_x &amp;amp; B_y &amp;amp; B_z
   &lt;li&gt;&lt;strong&gt;Right-handed triad:&lt;/strong&gt; The set \((\mathbf{A}, \mathbf{B}, \mathbf{A} \times \mathbf{B})\) forms a right-handed coordinate system.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 align=&quot;center&quot;&gt;&lt;b&gt;Scalar Triple Product&lt;/b&gt;&lt;/h1&gt;
+&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Scalar Triple Product&lt;/b&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Definition / Explanation / Theory&lt;/strong&gt;&lt;/p&gt;
 
@@ -186,7 +186,7 @@ C_x &amp;amp; C_y &amp;amp; C_z
 \(|\mathbf{A} \cdot (\mathbf{B} \times \mathbf{C})|\) gives the &lt;strong&gt;volume of that cell&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;vector-triple-product&quot;&gt;&lt;strong&gt;Vector Triple Product&lt;/strong&gt;&lt;/h3&gt;
+&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Vector Triple Product&lt;/b&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Definition / Explanation / Theory&lt;/strong&gt;&lt;/p&gt;
 
