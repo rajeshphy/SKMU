@@ -10,6 +10,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   
     
@@ -292,20 +293,56 @@
   .post-title { font-size: 1.6rem; }
   .post-content { font-size: 1rem; }
 }
+
+
+.share-buttons {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.share-buttons span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.share-btn {
+  display: inline-block;
+  margin: 0 0.4rem;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.share-btn:hover {
+  transform: scale(1.2);
+}
+
+/* Platform Colors */
+.share-btn.twitter { color: #1DA1F2; }
+.share-btn.facebook { color: #1877F2; }
+.share-btn.linkedin { color: #0077B5; }
+.share-btn.whatsapp { color: #25D366; }
+.share-btn.email { color: #D44638; }
 </style>
 
-<main id="main" class="page-content" aria-label="Content">
-  <div class="inner floral-border">
-    <article class="post-entry">
-      <h1 class="post-title">Particle Physics: Quarks</h1>
 
-      <div class="post-meta">
-        December 02, 2024
-         • lecture
-      </div>
 
-      <div class="post-content">
-        <p><img src="/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:100%; height:auto;" /></p>
+
+
+<article class="post-entry">
+  <h1 class="post-title">Particle Physics: Quarks</h1>
+
+  <div class="post-meta">
+    December 02, 2024
+     • lecture
+  </div>
+
+  <div class="post-content">
+    <p><img src="/SKMU/assets/images/Particle-Phy/Eightfoldway.jpeg" alt="Particle Classification" class="my-custom-class" style="max-width:100%; height:auto;" /></p>
 
 <p>Scientists use patterns in data to understand natural phenomena, such as differences in the specific heat of gases, ionization energy levels, and nuclear binding energy. One of the most significant examples is the periodic table, which explains the behavior of over 100 elements formed from just protons, neutrons, and electrons. Inspired by the periodic table, physicists have sought patterns to classify the hundreds of observed particles. Baryons with spin $\frac{1}{2}$ and spin-zero mesons, for instance, can be grouped based on properties like strangeness $\mathbf{S}$ and charge $\mathbf{Q}$. The Eightfold Way (Gell-Mann named the patterns the Eightfold Way after the Eightfold Path to nirvana in Buddhism), developed by Murray Gell-Mann and Yuval Ne’eman in 1961, is one such classification scheme.</p>
 
@@ -334,16 +371,33 @@
 
 <p><strong>Note:</strong> Quarks have never been observed in isolation due to their confinement by the strong force, which increases with distance, similar to a stretched spring. Efforts to create a quark–gluon plasma, where quarks are liberated from protons and neutrons, have shown progress. In 2000, CERN reported evidence of such a plasma from lead nucleus collisions.</p>
 
-      </div>
-
-      
-        
-
-
-      
-    </article>
   </div>
-</main>
+  
+    
+
+
+  
+</article>
+
+<!-- 🌐 Social Share Buttons -->
+<div class="share-buttons">
+  <span>Share this post:</span>
+  <a href="https://twitter.com/intent/tweet?url=http://localhost:4000/SKMU/lecture/2024/12/02/Particle-Quarks.html&text=Particle%20Physics:%20Quarks" target="_blank" class="share-btn twitter" title="Share on Twitter">
+    <i class="fab fa-twitter"></i>
+  </a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/SKMU/lecture/2024/12/02/Particle-Quarks.html" target="_blank" class="share-btn facebook" title="Share on Facebook">
+    <i class="fab fa-facebook"></i>
+  </a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/SKMU/lecture/2024/12/02/Particle-Quarks.html&title=Particle%20Physics:%20Quarks" target="_blank" class="share-btn linkedin" title="Share on LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="https://api.whatsapp.com/send?text=Particle%20Physics:%20Quarks%20http://localhost:4000/SKMU/lecture/2024/12/02/Particle-Quarks.html" target="_blank" class="share-btn whatsapp" title="Share on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="mailto:?subject=Particle%20Physics:%20Quarks&body=http://localhost:4000/SKMU/lecture/2024/12/02/Particle-Quarks.html" target="_blank" class="share-btn email" title="Share via Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+</div>
         </div>
 
         <div class="search-content">

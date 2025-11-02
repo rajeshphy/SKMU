@@ -1,6 +1,385 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-01T15:30:52+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET - Physical Science</title><link href="http://localhost:4000/SKMU/lecture/2025/10/31/JET.html" rel="alternate" type="text/html" title="JET - Physical Science" /><published>2025-10-31T10:30:00+05:30</published><updated>2025-10-31T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/10/31/JET</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/10/31/JET.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Topics&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-02T18:02:42+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: Lecture-I</title><link href="http://localhost:4000/SKMU/physics/mathematics/2025/10/31/JET-Paper-2-L1.html" rel="alternate" type="text/html" title="JET: Lecture-I " /><published>2025-10-31T10:30:00+05:30</published><updated>2025-10-31T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/physics/mathematics/2025/10/31/JET-Paper-2-L1</id><content type="html" xml:base="http://localhost:4000/SKMU/physics/mathematics/2025/10/31/JET-Paper-2-L1.html">&lt;h1 align=&quot;center&quot;&gt;&lt;b&gt;Vector Addition&lt;/b&gt;&lt;/h1&gt;
 
-&lt;ol&gt;
+&lt;p&gt;&lt;strong&gt;Definition / Explanation / Theory&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If&lt;/p&gt;
+
+\[\mathbf{A} = A_x \hat{i} + A_y \hat{j} + A_z \hat{k}, \quad 
+\mathbf{B} = B_x \hat{i} + B_y \hat{j} + B_z \hat{k}\]
+
+&lt;p&gt;then the &lt;strong&gt;vector addition&lt;/strong&gt; represents the combined effect of two or more vectors acting simultaneously.&lt;br /&gt;
+It gives a resultant vector &lt;strong&gt;𝐑&lt;/strong&gt; which has both &lt;strong&gt;magnitude&lt;/strong&gt; and &lt;strong&gt;direction&lt;/strong&gt;.&lt;br /&gt;
+Geometrically, vector addition follows the &lt;strong&gt;parallelogram law&lt;/strong&gt; or &lt;strong&gt;triangle law&lt;/strong&gt;, depending on how vectors are arranged.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Formulas&lt;/strong&gt;&lt;/p&gt;
+
+\[\mathbf{R} = \mathbf{A} + \mathbf{B} = (A_x + B_x)\hat{i} + (A_y + B_y)\hat{j} + (A_z + B_z)\hat{k}\]
+
+\[|\mathbf{R}| = \sqrt{(A_x + B_x)^2 + (A_y + B_y)^2 + (A_z + B_z)^2}\]
+
+\[R = \sqrt{A^2 + B^2 + 2AB\cos\theta}, \quad
+\tan\alpha = \frac{B\sin\theta}{A + B\cos\theta}\]
+
+&lt;p&gt;where &lt;strong&gt;α&lt;/strong&gt; is the angle of the resultant with vector &lt;strong&gt;A&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Points&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Commutative Law:&lt;/strong&gt;  \(\mathbf{A} + \mathbf{B} = \mathbf{B} + \mathbf{A}\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Associative Law:&lt;/strong&gt;  \((\mathbf{A} + \mathbf{B}) + \mathbf{C} = \mathbf{A} + (\mathbf{B} + \mathbf{C})\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Distributive Law:&lt;/strong&gt;  \(a(\mathbf{A} + \mathbf{B}) = a\mathbf{A} + a\mathbf{B}\)&lt;/li&gt;
+  &lt;li&gt;The &lt;strong&gt;zero vector&lt;/strong&gt; acts as the &lt;strong&gt;additive identity&lt;/strong&gt;:  \(\mathbf{A} + \mathbf{0} = \mathbf{A}\)&lt;/li&gt;
+  &lt;li&gt;The &lt;strong&gt;negative of a vector&lt;/strong&gt; reverses its direction:  \(\mathbf{A} + (-\mathbf{A}) = \mathbf{0}\)&lt;/li&gt;
+  &lt;li&gt;Vector addition is &lt;strong&gt;independent of coordinate rotation&lt;/strong&gt; (translation invariant).&lt;/li&gt;
+  &lt;li&gt;Graphically, if two vectors form adjacent sides of a parallelogram, the &lt;strong&gt;diagonal&lt;/strong&gt; represents their &lt;strong&gt;sum&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 align=&quot;center&quot;&gt;&lt;b&gt;Scalar (Dot) Product&lt;/b&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Definition / Explanation / Theory&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;scalar product&lt;/strong&gt; (or &lt;strong&gt;dot product&lt;/strong&gt;) of two vectors &lt;strong&gt;𝐀&lt;/strong&gt; and &lt;strong&gt;𝐁&lt;/strong&gt; is defined as&lt;/p&gt;
+
+\[\mathbf{A} \cdot \mathbf{B} = AB \cos\theta\]
+
+&lt;p&gt;where &lt;strong&gt;θ&lt;/strong&gt; is the angle between them.&lt;br /&gt;
+It gives a &lt;strong&gt;scalar quantity&lt;/strong&gt;, representing the magnitude of one vector in the direction of another.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Formulas&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;In Cartesian components:&lt;/p&gt;
+
+\[\mathbf{A} \cdot \mathbf{B} = A_x B_x + A_y B_y + A_z B_z\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Work done&lt;/strong&gt; by a force:&lt;/p&gt;
+
+\[W = \mathbf{F} \cdot \mathbf{d} = Fd\cos\theta\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Projection&lt;/strong&gt; of &lt;strong&gt;𝐀&lt;/strong&gt; on &lt;strong&gt;𝐁&lt;/strong&gt;:&lt;/p&gt;
+
+\[A_{\parallel B} = \frac{\mathbf{A} \cdot \mathbf{B}}{|\mathbf{B}|}\]
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Points&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The result of the dot product is &lt;strong&gt;scalar&lt;/strong&gt;, not a vector.&lt;/li&gt;
+  &lt;li&gt;Measures how much of one vector acts &lt;strong&gt;in the direction&lt;/strong&gt; of another.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Commutative:&lt;/strong&gt;  \(\mathbf{A} \cdot \mathbf{B} = \mathbf{B} \cdot \mathbf{A}\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Distributive:&lt;/strong&gt;  \(\mathbf{A} \cdot (\mathbf{B} + \mathbf{C}) = \mathbf{A} \cdot \mathbf{B} + \mathbf{A} \cdot \mathbf{C}\)&lt;/li&gt;
+  &lt;li&gt;If \(\mathbf{A} \cdot \mathbf{B} = 0\), then vectors &lt;strong&gt;𝐀&lt;/strong&gt; and &lt;strong&gt;𝐁&lt;/strong&gt; are &lt;strong&gt;orthogonal&lt;/strong&gt; (perpendicular).&lt;/li&gt;
+  &lt;li&gt;Used in calculating &lt;strong&gt;work&lt;/strong&gt;, &lt;strong&gt;power&lt;/strong&gt;, &lt;strong&gt;projection&lt;/strong&gt;, and &lt;strong&gt;angle&lt;/strong&gt; between two vectors.&lt;/li&gt;
+  &lt;li&gt;Angle between vectors:&lt;br /&gt;
+\(\cos\theta = \frac{\mathbf{A} \cdot \mathbf{B}}{|\mathbf{A}||\mathbf{B}|}\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 align=&quot;center&quot;&gt;&lt;b&gt;Vector (Cross) Product&lt;/b&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Definition / Explanation / Theory&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;vector product&lt;/strong&gt; (or &lt;strong&gt;cross product&lt;/strong&gt;) of two vectors &lt;strong&gt;𝐀&lt;/strong&gt; and &lt;strong&gt;𝐁&lt;/strong&gt; is defined as&lt;/p&gt;
+
+\[\mathbf{A} \times \mathbf{B} = AB \sin\theta \, \hat{n}\]
+
+&lt;p&gt;where &lt;strong&gt;θ&lt;/strong&gt; is the smaller angle between them, and &lt;strong&gt;\(\hat{n}\)&lt;/strong&gt; is a unit vector &lt;strong&gt;perpendicular&lt;/strong&gt; to the plane containing &lt;strong&gt;𝐀&lt;/strong&gt; and &lt;strong&gt;𝐁&lt;/strong&gt;, determined by the &lt;strong&gt;right-hand rule&lt;/strong&gt;.&lt;br /&gt;
+The cross product gives a &lt;strong&gt;vector&lt;/strong&gt; perpendicular to both &lt;strong&gt;𝐀&lt;/strong&gt; and &lt;strong&gt;𝐁&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Formulas&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Determinant Form:&lt;/strong&gt;&lt;/p&gt;
+
+\[\mathbf{A} \times \mathbf{B} =
+\begin{vmatrix}
+\hat{i} &amp;amp; \hat{j} &amp;amp; \hat{k} \\
+A_x &amp;amp; A_y &amp;amp; A_z \\
+B_x &amp;amp; B_y &amp;amp; B_z
+\end{vmatrix}
+= (A_y B_z - A_z B_y)\hat{i} + (A_z B_x - A_x B_z)\hat{j} + (A_x B_y - A_y B_x)\hat{k}\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Magnitude of Cross Product:&lt;/strong&gt;&lt;/p&gt;
+
+\[|\mathbf{A} \times \mathbf{B}| = AB \sin\theta\]
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Area Interpretation:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;The magnitude \(\|\mathbf{A} \times \mathbf{B}\|\) gives the &lt;strong&gt;area of the parallelogram&lt;/strong&gt; formed by &lt;strong&gt;𝐀&lt;/strong&gt; and &lt;strong&gt;𝐁&lt;/strong&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Physical Quantities:&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;\(\boldsymbol{\tau} = \mathbf{r} \times \mathbf{F} \quad \text{(Torque)}\)
+\(\mathbf{L} = \mathbf{r} \times \mathbf{p} \quad \text{(Angular Momentum)}\)
+\(\mathbf{F} = q(\mathbf{v} \times \mathbf{B}) \quad \text{(Magnetic Force)}\)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Points&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Result is a &lt;strong&gt;vector&lt;/strong&gt;, perpendicular to both &lt;strong&gt;𝐀&lt;/strong&gt; and &lt;strong&gt;𝐁&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Direction&lt;/strong&gt; determined by the &lt;strong&gt;right-hand rule&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Not commutative:&lt;/strong&gt;  \(\mathbf{A} \times \mathbf{B} = -\mathbf{B} \times \mathbf{A}\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Distributive:&lt;/strong&gt;  \(\mathbf{A} \times (\mathbf{B} + \mathbf{C}) = \mathbf{A} \times \mathbf{B} + \mathbf{A} \times \mathbf{C}\)&lt;/li&gt;
+  &lt;li&gt;
+\[\mathbf{A} \times \mathbf{A} = 0\]
+  &lt;/li&gt;
+  &lt;li&gt;If &lt;strong&gt;𝐀&lt;/strong&gt; and &lt;strong&gt;𝐁&lt;/strong&gt; are &lt;strong&gt;parallel or antiparallel&lt;/strong&gt;, then \(\mathbf{A} \times \mathbf{B} = 0\).&lt;/li&gt;
+  &lt;li&gt;Used in defining &lt;strong&gt;moment of a force&lt;/strong&gt;, &lt;strong&gt;rotational motion&lt;/strong&gt;, and &lt;strong&gt;magnetic interactions&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Right-handed triad:&lt;/strong&gt; The set \((\mathbf{A}, \mathbf{B}, \mathbf{A} \times \mathbf{B})\) forms a right-handed coordinate system.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 align=&quot;center&quot;&gt;&lt;b&gt;Scalar Triple Product&lt;/b&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Definition / Explanation / Theory&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;scalar triple product&lt;/strong&gt; of three vectors &lt;strong&gt;𝐀&lt;/strong&gt;, &lt;strong&gt;𝐁&lt;/strong&gt;, and &lt;strong&gt;𝐂&lt;/strong&gt; is defined as&lt;/p&gt;
+
+\[\mathbf{A} \cdot (\mathbf{B} \times \mathbf{C})\]
+
+&lt;p&gt;It represents the &lt;strong&gt;volume of the parallelepiped&lt;/strong&gt; formed by the three vectors.&lt;br /&gt;
+The result is a &lt;strong&gt;scalar&lt;/strong&gt; quantity, which can be positive, negative, or zero depending on the orientation of the vectors.&lt;/p&gt;
+
+&lt;p&gt;In determinant form:&lt;/p&gt;
+
+\[\mathbf{A} \cdot (\mathbf{B} \times \mathbf{C}) =
+\begin{vmatrix}
+A_x &amp;amp; A_y &amp;amp; A_z \\
+B_x &amp;amp; B_y &amp;amp; B_z \\
+C_x &amp;amp; C_y &amp;amp; C_z
+\end{vmatrix}\]
+
+&lt;p&gt;&lt;strong&gt;Important Formulas&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Volume of Parallelepiped:&lt;/strong&gt;&lt;/p&gt;
+
+\[V = |\mathbf{A} \cdot (\mathbf{B} \times \mathbf{C})|\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Condition for Coplanarity:&lt;/strong&gt;&lt;/p&gt;
+
+\[\mathbf{A} \cdot (\mathbf{B} \times \mathbf{C}) = 0\]
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Points&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The scalar triple product gives a &lt;strong&gt;scalar value&lt;/strong&gt; equal to the &lt;strong&gt;signed volume&lt;/strong&gt; of the parallelepiped formed by &lt;strong&gt;𝐀&lt;/strong&gt;, &lt;strong&gt;𝐁&lt;/strong&gt;, and &lt;strong&gt;𝐂&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;If the result is &lt;strong&gt;zero&lt;/strong&gt;, the three vectors are &lt;strong&gt;coplanar&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cyclic Property:&lt;/strong&gt;&lt;br /&gt;
+\(\mathbf{A} \cdot (\mathbf{B} \times \mathbf{C}) = \mathbf{B} \cdot (\mathbf{C} \times \mathbf{A}) = \mathbf{C} \cdot (\mathbf{A} \times \mathbf{B})\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Anticommutative Property:&lt;/strong&gt;&lt;br /&gt;
+\(\mathbf{A} \cdot (\mathbf{B} \times \mathbf{C}) = -\mathbf{A} \cdot (\mathbf{C} \times \mathbf{B})\)&lt;/li&gt;
+  &lt;li&gt;Geometrically, the &lt;strong&gt;magnitude&lt;/strong&gt; represents volume and the &lt;strong&gt;sign&lt;/strong&gt; indicates orientation (right-handed or left-handed system).&lt;/li&gt;
+  &lt;li&gt;Physically, if &lt;strong&gt;𝐀&lt;/strong&gt;, &lt;strong&gt;𝐁&lt;/strong&gt;, and &lt;strong&gt;𝐂&lt;/strong&gt; represent &lt;strong&gt;edges of a crystal cell&lt;/strong&gt;, then&lt;br /&gt;
+\(|\mathbf{A} \cdot (\mathbf{B} \times \mathbf{C})|\) gives the &lt;strong&gt;volume of that cell&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;vector-triple-product&quot;&gt;&lt;strong&gt;Vector Triple Product&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Definition / Explanation / Theory&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;vector triple product&lt;/strong&gt; involves the cross product of one vector with the cross product of two other vectors.&lt;br /&gt;
+It is defined as&lt;/p&gt;
+
+\[\mathbf{A} \times (\mathbf{B} \times \mathbf{C}) = \mathbf{B}(\mathbf{A} \cdot \mathbf{C}) - \mathbf{C}(\mathbf{A} \cdot \mathbf{B})\]
+
+&lt;p&gt;This identity is known as the &lt;strong&gt;vector triple product expansion&lt;/strong&gt; or &lt;strong&gt;BAC–CAB rule&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The result is a &lt;strong&gt;vector&lt;/strong&gt; that lies in the &lt;strong&gt;plane of 𝐁 and 𝐂&lt;/strong&gt;, and is perpendicular to &lt;strong&gt;𝐀 × (𝐁 × 𝐂)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Formulas&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Vector Triple Product Identity:&lt;/strong&gt;
+\(\mathbf{A} \times (\mathbf{B} \times \mathbf{C}) = \mathbf{B}(\mathbf{A} \cdot \mathbf{C}) - \mathbf{C}(\mathbf{A} \cdot \mathbf{B})\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Magnitude Relation:&lt;/strong&gt;&lt;br /&gt;
+Depends on the scalar products \((\mathbf{A} \cdot \mathbf{B})\) and \((\mathbf{A} \cdot \mathbf{C})\).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Points&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The result is &lt;strong&gt;not perpendicular&lt;/strong&gt; to both &lt;strong&gt;𝐁&lt;/strong&gt; and &lt;strong&gt;𝐂&lt;/strong&gt;; it lies &lt;strong&gt;within their plane&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;The operation &lt;strong&gt;is not associative&lt;/strong&gt;, i.e.&lt;br /&gt;
+\(\mathbf{A} \times (\mathbf{B} \times \mathbf{C}) \ne (\mathbf{A} \times \mathbf{B}) \times \mathbf{C}\)&lt;/li&gt;
+  &lt;li&gt;Commonly used to simplify expressions in &lt;strong&gt;electromagnetism&lt;/strong&gt;, &lt;strong&gt;mechanics&lt;/strong&gt;, and &lt;strong&gt;vector field analysis&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;br /&gt;
+If \(\mathbf{A} = \mathbf{v}, \mathbf{B} = \mathbf{B}, \mathbf{C} = \mathbf{v}\), then&lt;br /&gt;
+\(\mathbf{v} \times (\mathbf{B} \times \mathbf{v}) = \mathbf{B}v^2 - \mathbf{v}(\mathbf{v} \cdot \mathbf{B})\)&lt;/li&gt;
+  &lt;li&gt;This form frequently appears in the &lt;strong&gt;Lorentz force&lt;/strong&gt; and &lt;strong&gt;magnetic motion&lt;/strong&gt; analysis.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 align=&quot;center&quot; style=&quot;color:red;&quot;&gt;&lt;b&gt;Practice Questions (Easy Level)&lt;/b&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; If&lt;/p&gt;
+
+\[\mathbf{A} = 2\hat{i} + 3\hat{j}, \quad \mathbf{B} = \hat{i} + 4\hat{j}\]
+
+&lt;p&gt;then \(\mathbf{A} + \mathbf{B}\) equals&lt;br /&gt;
+a) \(3\hat{i} + 7\hat{j}\)&lt;br /&gt;
+b) \(\hat{i} + 7\hat{j}\)&lt;br /&gt;
+c) \(2\hat{i} + \hat{j}\)&lt;br /&gt;
+d) \(7\hat{i} + 3\hat{j}\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; The magnitude of the resultant of two vectors \(A\) and \(B\) making an angle \(\theta\) is&lt;br /&gt;
+a) \(\sqrt{A^2 + B^2 + 2AB\sin\theta}\)&lt;br /&gt;
+b) \(\sqrt{A^2 + B^2 + 2AB\cos\theta}\)&lt;br /&gt;
+c) \(A + B\cos\theta\)&lt;br /&gt;
+d) \(A^2 + B^2\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; The vector addition follows which law geometrically?&lt;br /&gt;
+a) Right-hand rule&lt;br /&gt;
+b) Triangle law or Parallelogram law&lt;br /&gt;
+c) Law of sines&lt;br /&gt;
+d) Scalar projection rule&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; The commutative property of vector addition states that&lt;br /&gt;
+a) \(\mathbf{A} + \mathbf{B} = \mathbf{0}\)&lt;br /&gt;
+b) \(\mathbf{A} + \mathbf{B} = \mathbf{B} + \mathbf{A}\)&lt;br /&gt;
+c) \(\mathbf{A} + \mathbf{B} = -(\mathbf{B} + \mathbf{A})\)&lt;br /&gt;
+d) \(\mathbf{A} + \mathbf{B} = \mathbf{A}\mathbf{B}\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt; The scalar (dot) product of two vectors is given by&lt;br /&gt;
+a) \(AB \tan\theta\)&lt;br /&gt;
+b) \(AB \cos\theta\)&lt;br /&gt;
+c) \(AB \sin\theta\)&lt;br /&gt;
+d) \(A + B\cos\theta\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6.&lt;/strong&gt; If \(\mathbf{A} \cdot \mathbf{B} = 0\), the two vectors are&lt;br /&gt;
+a) Parallel&lt;br /&gt;
+b) Anti-parallel&lt;br /&gt;
+c) Perpendicular&lt;br /&gt;
+d) Collinear&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;7.&lt;/strong&gt; The result of a scalar product is&lt;br /&gt;
+a) Always a vector&lt;br /&gt;
+b) Always a scalar&lt;br /&gt;
+c) A matrix&lt;br /&gt;
+d) Depends on \(\theta\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;8.&lt;/strong&gt; The work done by a force \(\mathbf{F}\) over a displacement \(\mathbf{d}\) is&lt;br /&gt;
+a) \(\mathbf{F} \times \mathbf{d}\)&lt;br /&gt;
+b) \(Fd\sin\theta\)&lt;br /&gt;
+c) \(\mathbf{F} \cdot \mathbf{d} = Fd\cos\theta\)&lt;br /&gt;
+d) \(Fd\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;9.&lt;/strong&gt; The projection of \(\mathbf{A}\) on \(\mathbf{B}\) is&lt;br /&gt;
+a) \(\mathbf{A} \cdot \mathbf{B}\)&lt;br /&gt;
+b) \(|\mathbf{A} \times \mathbf{B}|\)&lt;br /&gt;
+c) \(\dfrac{\mathbf{A} \cdot \mathbf{B}}{|\mathbf{B}|}\)&lt;br /&gt;
+d) \(A + B\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;10.&lt;/strong&gt; The vector (cross) product of \(\mathbf{A}\) and \(\mathbf{B}\) is&lt;br /&gt;
+a) \(AB \cos\theta\)&lt;br /&gt;
+b) \(AB \sin\theta \, \hat{n}\)&lt;br /&gt;
+c) \(AB \tan\theta\)&lt;br /&gt;
+d) \(A + B\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;11.&lt;/strong&gt; The direction of \(\mathbf{A} \times \mathbf{B}\) is determined by&lt;br /&gt;
+a) Left-hand rule&lt;br /&gt;
+b) Right-hand rule&lt;br /&gt;
+c) Fleming’s rule&lt;br /&gt;
+d) Vector addition rule&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;12.&lt;/strong&gt; If two vectors are parallel, then their cross product is&lt;br /&gt;
+a) Maximum&lt;br /&gt;
+b) Minimum but nonzero&lt;br /&gt;
+c) Zero&lt;br /&gt;
+d) Undefined&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;13.&lt;/strong&gt; The magnitude of \(\mathbf{A} \times \mathbf{B}\) represents&lt;br /&gt;
+a) Area of a triangle formed by \(\mathbf{A}\) and \(\mathbf{B}\)&lt;br /&gt;
+b) Area of the parallelogram formed by \(\mathbf{A}\) and \(\mathbf{B}\)&lt;br /&gt;
+c) Volume of the parallelepiped&lt;br /&gt;
+d) Projection of \(\mathbf{A}\) on \(\mathbf{B}\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;14.&lt;/strong&gt; The scalar triple product \(\mathbf{A} \cdot (\mathbf{B} \times \mathbf{C})\) gives&lt;br /&gt;
+a) Area of parallelogram&lt;br /&gt;
+b) Volume of parallelepiped&lt;br /&gt;
+c) Angle between vectors&lt;br /&gt;
+d) Torque&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;15.&lt;/strong&gt; If \(\mathbf{A} \cdot (\mathbf{B} \times \mathbf{C}) = 0\), then vectors \(\mathbf{A}\), \(\mathbf{B}\), and \(\mathbf{C}\) are&lt;br /&gt;
+a) Coplanar&lt;br /&gt;
+b) Collinear&lt;br /&gt;
+c) Perpendicular&lt;br /&gt;
+d) Orthogonal&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;16.&lt;/strong&gt; The scalar triple product can be written as a determinant of&lt;br /&gt;
+a) \(2 \times 2\) matrix&lt;br /&gt;
+b) \(3 \times 3\) matrix&lt;br /&gt;
+c) \(4 \times 4\) matrix&lt;br /&gt;
+d) \(1 \times 3\) matrix&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;17.&lt;/strong&gt; The cyclic property of scalar triple product is&lt;br /&gt;
+a) \(\mathbf{A} \cdot (\mathbf{B} \times \mathbf{C}) = \mathbf{B} \cdot (\mathbf{C} \times \mathbf{A})\)&lt;br /&gt;
+b) \(\mathbf{A} \cdot (\mathbf{B} \times \mathbf{C}) = -\mathbf{A} \cdot (\mathbf{C} \times \mathbf{B})\)&lt;br /&gt;
+c) Both a and b&lt;br /&gt;
+d) None of these&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;18.&lt;/strong&gt; The vector triple product \(\mathbf{A} \times (\mathbf{B} \times \mathbf{C})\) equals&lt;br /&gt;
+a) \(\mathbf{A} \cdot (\mathbf{B} \times \mathbf{C})\)&lt;br /&gt;
+b) \(\mathbf{B}(\mathbf{A} \cdot \mathbf{C}) - \mathbf{C}(\mathbf{A} \cdot \mathbf{B})\)&lt;br /&gt;
+c) \((\mathbf{A} \times \mathbf{B}) \times \mathbf{C}\)&lt;br /&gt;
+d) None of these&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;19.&lt;/strong&gt; The vector triple product \(\mathbf{A} \times (\mathbf{B} \times \mathbf{C})\) lies&lt;br /&gt;
+a) Along \(\mathbf{A}\)&lt;br /&gt;
+b) Perpendicular to plane of \(\mathbf{B}\) and \(\mathbf{C}\)&lt;br /&gt;
+c) In the plane of \(\mathbf{B}\) and \(\mathbf{C}\)&lt;br /&gt;
+d) Perpendicular to \(\mathbf{A}\) and \(\mathbf{C}\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;20.&lt;/strong&gt; The operation \(\mathbf{A} \times (\mathbf{B} \times \mathbf{C})\) is&lt;br /&gt;
+a) Associative&lt;br /&gt;
+b) Not associative&lt;br /&gt;
+c) Commutative&lt;br /&gt;
+d) None of these&lt;/p&gt;
+
+&lt;h1 align=&quot;center&quot; style=&quot;color:red;&quot;&gt;&lt;b&gt;Advanced Level Questions for NET/GATE/TIFR&lt;/b&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; If \(\vec{A} = (2\hat{i} + 3\hat{j} - \hat{k})\) and \(\vec{B} = (4\hat{i} - \hat{j} + 2\hat{k})\), then the projection of \(\vec{A}\) on \(\vec{B}\) is:&lt;br /&gt;
+(a) \(\dfrac{\vec{A} \cdot \vec{B}}{|\vec{B}|}\)&lt;br /&gt;
+(b) \(\dfrac{\vec{B} \cdot \vec{A}}{|\vec{A}|}\)&lt;br /&gt;
+(c) \(\dfrac{\vec{A} \times \vec{B}}{|\vec{B}|}\)&lt;br /&gt;
+(d) \(\dfrac{\vec{A} \cdot \vec{B}}{|\vec{A}|}\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; Let \(\vec{F} = (x^2 - y^2)\hat{i} + 2xy\hat{j}\) be a vector field. Which one of the following statements is true?&lt;br /&gt;
+(a) \(\nabla \cdot \vec{F} = 0\) and \(\nabla \times \vec{F} = 0\)&lt;br /&gt;
+(b) \(\nabla \cdot \vec{F} = 0\) but \(\nabla \times \vec{F} \neq 0\)&lt;br /&gt;
+(c) \(\nabla \cdot \vec{F} \neq 0\) but \(\nabla \times \vec{F} = 0\)&lt;br /&gt;
+(d) Both \(\nabla \cdot \vec{F}\) and \(\nabla \times \vec{F}\) are nonzero&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Evaluate the line integral \(\oint_C (y^2 dx + x^2 dy)\) where \(C\) is the circle \(x^2 + y^2 = a^2\) taken counterclockwise.&lt;br /&gt;
+(a) \(0\)&lt;br /&gt;
+(b) \(\pi a^2\)&lt;br /&gt;
+(c) \(2\pi a^2\)&lt;br /&gt;
+(d) \(4\pi a^2\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; The vector field \(\vec{A} = (y\hat{i} + x\hat{j})\) is:&lt;br /&gt;
+(a) Solenoidal and irrotational&lt;br /&gt;
+(b) Solenoidal but not irrotational&lt;br /&gt;
+(c) Irrotational but not solenoidal&lt;br /&gt;
+(d) Neither solenoidal nor irrotational&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5.&lt;/strong&gt; If \(\vec{A} = (yz)\hat{i} + (zx)\hat{j} + (xy)\hat{k}\), then the divergence of \(\vec{A}\) is:&lt;br /&gt;
+(a) \(x + y + z\)&lt;br /&gt;
+(b) \(0\)&lt;br /&gt;
+(c) \(2(x + y + z)\)&lt;br /&gt;
+(d) \(3xyz\)&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Vector Addition</summary></entry><entry><title type="html">JET - Physical Science</title><link href="http://localhost:4000/SKMU/lecture/2025/10/31/JET.html" rel="alternate" type="text/html" title="JET - Physical Science" /><published>2025-10-31T10:30:00+05:30</published><updated>2025-10-31T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/10/31/JET</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/10/31/JET.html">&lt;ol&gt;
   &lt;li&gt;Mathematical Methods of Physics
     &lt;ul&gt;
       &lt;li&gt;Vector Algebra &amp;amp; Calculus&lt;/li&gt;
@@ -15,7 +394,96 @@
       &lt;li&gt;Part B: Statistical Physics&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="JET" /><summary type="html">Topics:</summary></entry><entry><title type="html">Practical Question: Python</title><link href="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html" rel="alternate" type="text/html" title="Practical Question: Python" /><published>2025-08-01T11:00:00+05:30</published><updated>2025-08-01T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html">&lt;h2 id=&quot;question&quot;&gt;Question&lt;/h2&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mathematical Methods of Physics&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;(a) Vector Algebra &amp;amp; Calculus&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Vector algebra: addition, scalar and vector products, triple products&lt;/li&gt;
+  &lt;li&gt;Gradient, divergence, and curl — physical interpretation&lt;/li&gt;
+  &lt;li&gt;Line, surface, and volume integrals&lt;/li&gt;
+  &lt;li&gt;Integral theorems: Gauss, Green, and Stokes&lt;/li&gt;
+  &lt;li&gt;Scalar and vector potentials; Laplacian operator&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Curvilinear coordinates (cylindrical and spherical) and scale factors&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;(b) Linear Algebra&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Vector spaces, linear dependence and independence&lt;/li&gt;
+  &lt;li&gt;Basis and dimension, subspaces&lt;/li&gt;
+  &lt;li&gt;Matrices and determinants, adjoint and inverse&lt;/li&gt;
+  &lt;li&gt;Rank of a matrix and linear transformations&lt;/li&gt;
+  &lt;li&gt;Eigenvalues and eigenvectors; characteristic equation&lt;/li&gt;
+  &lt;li&gt;Hermitian, skew-Hermitian, unitary, and orthogonal matrices&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Diagonalization and spectral theorem&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;(c) Ordinary Differential Equations (ODE) &amp;amp; Special Functions&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;First and second order differential equations&lt;/li&gt;
+  &lt;li&gt;Linear differential equations with constant coefficients&lt;/li&gt;
+  &lt;li&gt;Series solutions — Frobenius method&lt;/li&gt;
+  &lt;li&gt;Legendre, Bessel, Hermite, and Laguerre equations and their properties&lt;/li&gt;
+  &lt;li&gt;Orthogonality of functions&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sturm–Liouville problems&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;(d) Computational Techniques&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Numerical methods: root finding (bisection, Newton–Raphson)&lt;/li&gt;
+  &lt;li&gt;Numerical differentiation and integration (Trapezoidal, Simpson)&lt;/li&gt;
+  &lt;li&gt;Runge–Kutta methods for ODEs&lt;/li&gt;
+  &lt;li&gt;Error analysis and propagation&lt;/li&gt;
+  &lt;li&gt;Finite difference methods&lt;/li&gt;
+  &lt;li&gt;Basics of programming for physics simulations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Thermodynamics &amp;amp; Statistical Physics&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Part A: Thermodynamics&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Laws of thermodynamics and their applications&lt;/li&gt;
+  &lt;li&gt;Thermodynamic systems, variables, and equations of state&lt;/li&gt;
+  &lt;li&gt;Maxwell’s relations and thermodynamic potentials&lt;/li&gt;
+  &lt;li&gt;Clausius–Clapeyron equation&lt;/li&gt;
+  &lt;li&gt;Joule–Thomson effect, adiabatic and isothermal processes&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Thermodynamic equilibrium and stability&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Part B: Statistical Physics&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Microstates and macrostates, ensembles (microcanonical, canonical, grand canonical)&lt;/li&gt;
+  &lt;li&gt;Boltzmann distribution and partition function&lt;/li&gt;
+  &lt;li&gt;Maxwell–Boltzmann, Bose–Einstein, and Fermi–Dirac statistics&lt;/li&gt;
+  &lt;li&gt;Classical and quantum limits of ideal gases&lt;/li&gt;
+  &lt;li&gt;Blackbody radiation and Planck’s distribution&lt;/li&gt;
+  &lt;li&gt;Fluctuations, equipartition theorem, and entropy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-reference-books&quot;&gt;📚 Reference Books&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Mathematical Methods for Physicists&lt;/em&gt; — Arfken &amp;amp; Weber&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Linear Algebra and Its Applications&lt;/em&gt; — Gilbert Strang&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Thermal Physics&lt;/em&gt; — Zemansky &amp;amp; Dittman&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Statistical Mechanics&lt;/em&gt; — Pathria &amp;amp; Beale&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Mathematical Physics&lt;/em&gt; — B. S. Rajput / H. K. Dass&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="JET" /><summary type="html">Mathematical Methods of Physics Vector Algebra &amp;amp; Calculus Linear Algebra Ordinary Differential Equations (ODE) &amp;amp; Special Functions Computational Techniques Thermodynamics &amp;amp; Statistical Physics Part A: Thermodynamics Part B: Statistical Physics</summary></entry><entry><title type="html">Practical Question: Python</title><link href="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html" rel="alternate" type="text/html" title="Practical Question: Python" /><published>2025-08-01T11:00:00+05:30</published><updated>2025-08-01T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html">&lt;h2 id=&quot;question&quot;&gt;Question&lt;/h2&gt;
 &lt;p&gt;Given a 2x2 matrix:
 \(A = \begin{bmatrix} 4 &amp;amp; 2 \\ 1 &amp;amp; 3 \end{bmatrix}\)&lt;/p&gt;
 
@@ -1205,141 +1673,7 @@ Thus, the band gap is approximately equal to the Fourier component of the potent
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation</summary></entry><entry><title type="html">Poisson Bracket, Poisson Theorems</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html" rel="alternate" type="text/html" title="Poisson Bracket, Poisson Theorems" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Understand the definition and meaning of a Poisson bracket in classical mechanics.&lt;/li&gt;
-  &lt;li&gt;Derive and interpret Poisson’s theorems.&lt;/li&gt;
-  &lt;li&gt;Use Poisson brackets to verify conservation laws and symmetries.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Poisson Bracket&lt;/strong&gt;: A bilinear operation defined between two functions in phase space, used extensively in Hamiltonian mechanics.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Canonical Variables&lt;/strong&gt;: Pairs of variables like $(q_i, p_i)$ that satisfy specific Poisson bracket relations.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;: Theorems that describe the properties and implications of Poisson brackets such as their antisymmetry, bilinearity, and Jacobi identity.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;In Hamiltonian mechanics, the dynamics of a system are described by a set of generalized coordinates $q_i$ and conjugate momenta $p_i$, evolving according to Hamilton’s equations:&lt;/p&gt;
-
-\[\dot{q}_i = \frac{\partial H}{\partial p_i}, \quad \dot{p}_i = -\frac{\partial H}{\partial q_i}\]
-
-&lt;p&gt;Here, $H(q_i, p_i, t)$ is the Hamiltonian of the system.&lt;/p&gt;
-
-&lt;p&gt;To express these equations and many other properties compactly, we define the &lt;strong&gt;Poisson bracket&lt;/strong&gt; of two functions $f(q_i, p_i, t)$ and $g(q_i, p_i, t)$ as:&lt;/p&gt;
-
-\[\{f, g\} = \sum_{i} \left( \frac{\partial f}{\partial q_i} \frac{\partial g}{\partial p_i} - \frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q_i} \right)\]
-
-&lt;p&gt;The Poisson bracket has the following essential properties:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Bilinearity&lt;/strong&gt;:
-\(\{af + bg, h\} = a\{f, h\} + b\{g, h\}\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Antisymmetry&lt;/strong&gt;:
-\(\{f, g\} = -\{g, f\}\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Jacobi Identity&lt;/strong&gt;:
-\(\{f, \{g, h\}\} + \{g, \{h, f\}\} + \{h, \{f, g\}\} = 0\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Leibniz Rule&lt;/strong&gt; (Product Rule):
-\(\{fg, h\} = f\{g, h\} + g\{f, h\}\)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Using Poisson brackets, Hamilton’s equations can be rewritten as:&lt;/p&gt;
-
-\[\dot{f} = \{f, H\} + \frac{\partial f}{\partial t}\]
-
-&lt;p&gt;This shows that the time evolution of any observable $f$ is governed by its Poisson bracket with the Hamiltonian.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Theorem 1&lt;/strong&gt;: If $u$ and $v$ are constants of motion, then ${u, v}$ is also a constant of motion.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Theorem 2&lt;/strong&gt;: The fundamental Poisson brackets are:
-\(\{q_i, q_j\} = 0, \quad \{p_i, p_j\} = 0, \quad \{q_i, p_j\} = \delta_{ij}\)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Theorem 3&lt;/strong&gt;: Canonical transformations preserve the form of the Poisson brackets.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
-Problem: Show that the angular momentum components satisfy the Poisson bracket relation ${L_x, L_y} = L_z$.&lt;br /&gt;
-Solution:&lt;br /&gt;
-Recall that:&lt;br /&gt;
-\(L_x = yp_z - zp_y, \quad L_y = zp_x - xp_z, \quad L_z = xp_y - yp_x\)&lt;br /&gt;
-Compute ${L_x, L_y}$ using the definition of the Poisson bracket:&lt;/p&gt;
-
-\[\{L_x, L_y\} = \{yp_z - zp_y, zp_x - xp_z\}\]
-
-    &lt;p&gt;Calculating term by term and using the fundamental brackets, we get:&lt;/p&gt;
-
-\[\{L_x, L_y\} = xp_y - yp_x = L_z\]
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
-Problem: Verify that $H = \frac{p^2}{2m} + V(q)$ is conserved using Poisson bracket.&lt;br /&gt;
-Solution:&lt;br /&gt;
-Compute $\dot{H}$:
-\(\dot{H} = \{H, H\} + \frac{\partial H}{\partial t}\)&lt;/p&gt;
-
-    &lt;p&gt;Since ${H, H} = 0$ and if $H$ has no explicit time dependence, then:&lt;/p&gt;
-
-\[\dot{H} = 0 \Rightarrow H \text{ is conserved}\]
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Poisson brackets provide a compact and general formalism to express time evolution in Hamiltonian mechanics.&lt;/li&gt;
-  &lt;li&gt;They are fundamental to understanding symmetries, conservation laws, and canonical transformations.&lt;/li&gt;
-  &lt;li&gt;Poisson’s theorems play a central role in identifying constants of motion and maintaining the structure of mechanics under transformations.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Short Answer:
-    &lt;ol&gt;
-      &lt;li&gt;Define the Poisson bracket. What does it signify in Hamiltonian mechanics?&lt;/li&gt;
-      &lt;li&gt;State and explain the Jacobi identity for Poisson brackets.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Numerical:
-    &lt;ol&gt;
-      &lt;li&gt;Given $f = q^2p$ and $g = qp^2$, compute ${f, g}$.&lt;/li&gt;
-      &lt;li&gt;For a simple harmonic oscillator with $H = \frac{p^2}{2m} + \frac{1}{2}m\omega^2q^2$, compute ${q, H}$ and ${p, H}$.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;MCQs:
-    &lt;ol&gt;
-      &lt;li&gt;Which of the following is a property of the Poisson bracket?
-        &lt;ul&gt;
-          &lt;li&gt;(A) Commutativity&lt;/li&gt;
-          &lt;li&gt;(B) Antisymmetry&lt;/li&gt;
-          &lt;li&gt;(C) Associativity&lt;/li&gt;
-          &lt;li&gt;(D) Distributivity&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (B)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;If ${f, H} = 0$, then:
-        &lt;ul&gt;
-          &lt;li&gt;(A) $f$ is conserved in time&lt;/li&gt;
-          &lt;li&gt;(B) $f$ is zero&lt;/li&gt;
-          &lt;li&gt;(C) $f$ is a function of time only&lt;/li&gt;
-          &lt;li&gt;(D) $f$ must be the Hamiltonian&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (A)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives:</summary></entry><entry><title type="html">Small Oscillations</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html" rel="alternate" type="text/html" title="Small Oscillations" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html">&lt;h1 id=&quot;small-oscillations-normal-modes-of-vibration-coupled-oscillators&quot;&gt;Small Oscillations, Normal Modes of Vibration, Coupled Oscillators&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation</summary></entry><entry><title type="html">Small Oscillations</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html" rel="alternate" type="text/html" title="Small Oscillations" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html">&lt;h1 id=&quot;small-oscillations-normal-modes-of-vibration-coupled-oscillators&quot;&gt;Small Oscillations, Normal Modes of Vibration, Coupled Oscillators&lt;/h1&gt;
 
 &lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -1518,143 +1852,138 @@ The effective force is:&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Small Oscillations, Normal Modes of Vibration, Coupled Oscillators</summary></entry><entry><title type="html">Plasma Oscillations and Plasmons</title><link href="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html" rel="alternate" type="text/html" title="Plasma Oscillations and Plasmons" /><published>2025-05-22T09:47:26+05:30</published><updated>2025-05-22T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/22/Plasma</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Small Oscillations, Normal Modes of Vibration, Coupled Oscillators</summary></entry><entry><title type="html">Poisson Bracket, Poisson Theorems</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html" rel="alternate" type="text/html" title="Poisson Bracket, Poisson Theorems" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Understand what plasma oscillations are and how they arise.&lt;/li&gt;
-  &lt;li&gt;Define plasmons and relate them to quantized plasma oscillations.&lt;/li&gt;
-  &lt;li&gt;Derive the plasma frequency and appreciate its physical significance.&lt;/li&gt;
+  &lt;li&gt;Understand the definition and meaning of a Poisson bracket in classical mechanics.&lt;/li&gt;
+  &lt;li&gt;Derive and interpret Poisson’s theorems.&lt;/li&gt;
+  &lt;li&gt;Use Poisson brackets to verify conservation laws and symmetries.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;key-concepts--definitions&quot;&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Plasma&lt;/strong&gt;: A quasi-neutral gas of charged and neutral particles which exhibits collective behavior.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Plasma Oscillation&lt;/strong&gt;: A coherent oscillation of the electron density in a conducting medium relative to the positive ion background.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Plasmon&lt;/strong&gt;: A quantum of plasma oscillation, representing the collective excitation of free electron gas.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Poisson Bracket&lt;/strong&gt;: A bilinear operation defined between two functions in phase space, used extensively in Hamiltonian mechanics.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Canonical Variables&lt;/strong&gt;: Pairs of variables like $(q_i, p_i)$ that satisfy specific Poisson bracket relations.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;: Theorems that describe the properties and implications of Poisson brackets such as their antisymmetry, bilinearity, and Jacobi identity.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:&lt;/p&gt;
 
-&lt;h2 id=&quot;theory-and-explanation&quot;&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In Hamiltonian mechanics, the dynamics of a system are described by a set of generalized coordinates $q_i$ and conjugate momenta $p_i$, evolving according to Hamilton’s equations:&lt;/p&gt;
 
-&lt;p&gt;Plasma is often referred to as the “fourth state of matter” where electrons are not bound to atoms, and instead, they form a gas of free-moving charges. When these electrons are disturbed from their equilibrium position, they experience a restoring electrostatic force due to separation from the positively charged ion background. This leads to collective oscillations known as &lt;strong&gt;plasma oscillations&lt;/strong&gt;.&lt;/p&gt;
+\[\dot{q}_i = \frac{\partial H}{\partial p_i}, \quad \dot{p}_i = -\frac{\partial H}{\partial q_i}\]
 
-&lt;h3 id=&quot;derivation-of-plasma-frequency&quot;&gt;Derivation of Plasma Frequency&lt;/h3&gt;
+&lt;p&gt;Here, $H(q_i, p_i, t)$ is the Hamiltonian of the system.&lt;/p&gt;
 
-&lt;p&gt;Consider a uniform background of positive ions with number density $n_0$, and electrons of the same density but mobile. Assume electrons are displaced slightly by a distance $x$ from their equilibrium position. This creates an electric field due to charge separation.&lt;/p&gt;
+&lt;p&gt;To express these equations and many other properties compactly, we define the &lt;strong&gt;Poisson bracket&lt;/strong&gt; of two functions $f(q_i, p_i, t)$ and $g(q_i, p_i, t)$ as:&lt;/p&gt;
 
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/images/Lecture/plasma-oscillation.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:50%;&quot; /&gt;
-&lt;/div&gt;
+\[\{f, g\} = \sum_{i} \left( \frac{\partial f}{\partial q_i} \frac{\partial g}{\partial p_i} - \frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q_i} \right)\]
 
-&lt;p&gt;Let $-e$ be the charge of an electron and $m$ be its mass. The displaced electron sheet creates a restoring electric field $E$ given by:&lt;/p&gt;
+&lt;p&gt;The Poisson bracket has the following essential properties:&lt;/p&gt;
 
-\[E = \frac{n_0 e x}{\varepsilon_0}\]
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Bilinearity&lt;/strong&gt;:
+\(\{af + bg, h\} = a\{f, h\} + b\{g, h\}\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Antisymmetry&lt;/strong&gt;:
+\(\{f, g\} = -\{g, f\}\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Jacobi Identity&lt;/strong&gt;:
+\(\{f, \{g, h\}\} + \{g, \{h, f\}\} + \{h, \{f, g\}\} = 0\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Leibniz Rule&lt;/strong&gt; (Product Rule):
+\(\{fg, h\} = f\{g, h\} + g\{f, h\}\)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;The force on an electron is then:&lt;/p&gt;
+&lt;p&gt;Using Poisson brackets, Hamilton’s equations can be rewritten as:&lt;/p&gt;
 
-\[F = -e E = -\frac{n_0 e^2 x}{\varepsilon_0}\]
+\[\dot{f} = \{f, H\} + \frac{\partial f}{\partial t}\]
 
-&lt;p&gt;Using Newton’s second law:&lt;/p&gt;
+&lt;p&gt;This shows that the time evolution of any observable $f$ is governed by its Poisson bracket with the Hamiltonian.&lt;/p&gt;
 
-\[m \frac{d^2 x}{dt^2} = -\frac{n_0 e^2 x}{\varepsilon_0}\]
+&lt;p&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Theorem 1&lt;/strong&gt;: If $u$ and $v$ are constants of motion, then ${u, v}$ is also a constant of motion.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Theorem 2&lt;/strong&gt;: The fundamental Poisson brackets are:
+\(\{q_i, q_j\} = 0, \quad \{p_i, p_j\} = 0, \quad \{q_i, p_j\} = \delta_{ij}\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Theorem 3&lt;/strong&gt;: Canonical transformations preserve the form of the Poisson brackets.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;This is the equation of simple harmonic motion with angular frequency $\omega_p$:&lt;/p&gt;
-
-\[\omega_p^2 = \frac{n_0 e^2}{\varepsilon_0 m}\]
-
-&lt;p&gt;Therefore, the &lt;strong&gt;plasma frequency&lt;/strong&gt; is:&lt;/p&gt;
-
-\[\omega_p = \sqrt{\frac{n_0 e^2}{\varepsilon_0 m}}\]
-
-&lt;p&gt;This is the natural frequency at which the electron gas oscillates around its equilibrium position in the plasma.&lt;/p&gt;
-
-&lt;h3 id=&quot;plasmons&quot;&gt;Plasmons&lt;/h3&gt;
-
-&lt;p&gt;Plasmons are the quantum mechanical counterpart of plasma oscillations. Just as photons are quanta of electromagnetic waves, plasmons are quanta of these collective oscillations.&lt;/p&gt;
-
-&lt;p&gt;In quantum theory, the energy associated with a plasmon is:&lt;/p&gt;
-
-\[E = \hbar \omega_p\]
-
-&lt;p&gt;Plasmons play a key role in the optical properties of metals and are used in fields like plasmonics and nanophotonics.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;solved-examples&quot;&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;&lt;/h2&gt;
-
+&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
-&lt;strong&gt;Problem&lt;/strong&gt;: Calculate the plasma frequency of electrons in a metal with electron density $n_0 = 8.5 \times 10^{28} \ \text{electrons/m}^3$.&lt;br /&gt;
-&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
-Using the formula:&lt;br /&gt;
-\(\omega_p = \sqrt{\frac{n_0 e^2}{\varepsilon_0 m}}\)&lt;br /&gt;
-Plugging in values:&lt;br /&gt;
-$n_0 = 8.5 \times 10^{28}$&lt;br /&gt;
-$e = 1.6 \times 10^{-19} \ \text{C}$&lt;br /&gt;
-$\varepsilon_0 = 8.85 \times 10^{-12} \ \text{F/m}$&lt;br /&gt;
-$m = 9.11 \times 10^{-31} \ \text{kg}$&lt;/p&gt;
+Problem: Show that the angular momentum components satisfy the Poisson bracket relation ${L_x, L_y} = L_z$.&lt;br /&gt;
+Solution:&lt;br /&gt;
+Recall that:&lt;br /&gt;
+\(L_x = yp_z - zp_y, \quad L_y = zp_x - xp_z, \quad L_z = xp_y - yp_x\)&lt;br /&gt;
+Compute ${L_x, L_y}$ using the definition of the Poisson bracket:&lt;/p&gt;
 
-\[\omega_p = \sqrt{\frac{(8.5 \times 10^{28})(1.6 \times 10^{-19})^2}{(8.85 \times 10^{-12})(9.11 \times 10^{-31})}} \approx 1.64 \times 10^{16} \ \text{rad/s}\]
+\[\{L_x, L_y\} = \{yp_z - zp_y, zp_x - xp_z\}\]
+
+    &lt;p&gt;Calculating term by term and using the fundamental brackets, we get:&lt;/p&gt;
+
+\[\{L_x, L_y\} = xp_y - yp_x = L_z\]
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
-&lt;strong&gt;Problem&lt;/strong&gt;: What is the energy of a plasmon with plasma frequency $\omega_p = 1.5 \times 10^{16} \ \text{rad/s}$?&lt;br /&gt;
-&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
-\(E = \hbar \omega_p\)&lt;br /&gt;
-$\hbar = 1.055 \times 10^{-34} \ \text{J·s}$&lt;br /&gt;
-\(E = (1.055 \times 10^{-34}) (1.5 \times 10^{16}) = 1.58 \times 10^{-18} \ \text{J}\)&lt;br /&gt;
-In eV:&lt;br /&gt;
-\(E = \frac{1.58 \times 10^{-18}}{1.6 \times 10^{-19}} \approx 9.87 \ \text{eV}\)&lt;/p&gt;
+Problem: Verify that $H = \frac{p^2}{2m} + V(q)$ is conserved using Poisson bracket.&lt;br /&gt;
+Solution:&lt;br /&gt;
+Compute $\dot{H}$:
+\(\dot{H} = \{H, H\} + \frac{\partial H}{\partial t}\)&lt;/p&gt;
+
+    &lt;p&gt;Since ${H, H} = 0$ and if $H$ has no explicit time dependence, then:&lt;/p&gt;
+
+\[\dot{H} = 0 \Rightarrow H \text{ is conserved}\]
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;important-points--summary&quot;&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Plasma oscillations are collective movements of electron density in a plasma.&lt;/li&gt;
-  &lt;li&gt;The plasma frequency depends only on the electron density and is independent of the wavevector.&lt;/li&gt;
-  &lt;li&gt;Plasmons are quantized plasma oscillations and are important in understanding optical and electronic properties of materials.&lt;/li&gt;
+  &lt;li&gt;Poisson brackets provide a compact and general formalism to express time evolution in Hamiltonian mechanics.&lt;/li&gt;
+  &lt;li&gt;They are fundamental to understanding symmetries, conservation laws, and canonical transformations.&lt;/li&gt;
+  &lt;li&gt;Poisson’s theorems play a central role in identifying constants of motion and maintaining the structure of mechanics under transformations.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;practice-questions&quot;&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;short-answer&quot;&gt;Short Answer:&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;What is plasma and how is it different from a neutral gas?&lt;/li&gt;
-  &lt;li&gt;Define the term “plasma frequency” and explain its physical significance.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;numerical&quot;&gt;Numerical:&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Calculate the plasma frequency of a semiconductor with electron density $n = 10^{21} \ \text{m}^{-3}$.&lt;/li&gt;
-  &lt;li&gt;What is the plasmon energy in a metal with $\omega_p = 2.0 \times 10^{16} \ \text{rad/s}$?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;mcqs&quot;&gt;MCQs:&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;The plasma frequency $\omega_p$:
-    &lt;ul&gt;
-      &lt;li&gt;(a) increases with increasing mass of electrons&lt;/li&gt;
-      &lt;li&gt;(b) decreases with increasing electron density&lt;/li&gt;
-      &lt;li&gt;(c) increases with increasing electron density&lt;/li&gt;
-      &lt;li&gt;(d) is independent of electron density&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (c)&lt;/li&gt;
-    &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Short Answer:
+    &lt;ol&gt;
+      &lt;li&gt;Define the Poisson bracket. What does it signify in Hamiltonian mechanics?&lt;/li&gt;
+      &lt;li&gt;State and explain the Jacobi identity for Poisson brackets.&lt;/li&gt;
+    &lt;/ol&gt;
   &lt;/li&gt;
-  &lt;li&gt;Plasmons are:
-    &lt;ul&gt;
-      &lt;li&gt;(a) individual electrons&lt;/li&gt;
-      &lt;li&gt;(b) phonons in a crystal lattice&lt;/li&gt;
-      &lt;li&gt;(c) quantum of electromagnetic waves&lt;/li&gt;
-      &lt;li&gt;(d) quanta of plasma oscillations&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (d)&lt;/li&gt;
-    &lt;/ul&gt;
+  &lt;li&gt;Numerical:
+    &lt;ol&gt;
+      &lt;li&gt;Given $f = q^2p$ and $g = qp^2$, compute ${f, g}$.&lt;/li&gt;
+      &lt;li&gt;For a simple harmonic oscillator with $H = \frac{p^2}{2m} + \frac{1}{2}m\omega^2q^2$, compute ${q, H}$ and ${p, H}$.&lt;/li&gt;
+    &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives:</summary></entry></feed>
+  &lt;li&gt;MCQs:
+    &lt;ol&gt;
+      &lt;li&gt;Which of the following is a property of the Poisson bracket?
+        &lt;ul&gt;
+          &lt;li&gt;(A) Commutativity&lt;/li&gt;
+          &lt;li&gt;(B) Antisymmetry&lt;/li&gt;
+          &lt;li&gt;(C) Associativity&lt;/li&gt;
+          &lt;li&gt;(D) Distributivity&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: (B)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;If ${f, H} = 0$, then:
+        &lt;ul&gt;
+          &lt;li&gt;(A) $f$ is conserved in time&lt;/li&gt;
+          &lt;li&gt;(B) $f$ is zero&lt;/li&gt;
+          &lt;li&gt;(C) $f$ is a function of time only&lt;/li&gt;
+          &lt;li&gt;(D) $f$ must be the Hamiltonian&lt;br /&gt;
+&lt;strong&gt;Answer&lt;/strong&gt;: (A)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives:</summary></entry></feed>

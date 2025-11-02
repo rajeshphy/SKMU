@@ -10,6 +10,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   
     
@@ -292,20 +293,56 @@
   .post-title { font-size: 1.6rem; }
   .post-content { font-size: 1rem; }
 }
+
+
+.share-buttons {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.share-buttons span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.share-btn {
+  display: inline-block;
+  margin: 0 0.4rem;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.share-btn:hover {
+  transform: scale(1.2);
+}
+
+/* Platform Colors */
+.share-btn.twitter { color: #1DA1F2; }
+.share-btn.facebook { color: #1877F2; }
+.share-btn.linkedin { color: #0077B5; }
+.share-btn.whatsapp { color: #25D366; }
+.share-btn.email { color: #D44638; }
 </style>
 
-<main id="main" class="page-content" aria-label="Content">
-  <div class="inner floral-border">
-    <article class="post-entry">
-      <h1 class="post-title">Tutorial-QM</h1>
 
-      <div class="post-meta">
-        May 28, 2024
-         • lecture
-      </div>
 
-      <div class="post-content">
-        <p>This tutorial covers Klein-Gordon and Dirac equations in quantum mechanics.</p>
+
+
+<article class="post-entry">
+  <h1 class="post-title">Tutorial-QM</h1>
+
+  <div class="post-meta">
+    May 28, 2024
+     • lecture
+  </div>
+
+  <div class="post-content">
+    <p>This tutorial covers Klein-Gordon and Dirac equations in quantum mechanics.</p>
 
 <h2 id="klein-gordon-equation">Klein-Gordon Equation</h2>
 
@@ -535,16 +572,33 @@ $$ E \approx \pm 0.715 \, \text{MeV} $$
 - **Negative Energy Solution ($$-0.715 \, \text{MeV}$$)**: In the context of the Dirac equation, this would correspond to a state in the Dirac sea. The physical interpretation, according to Dirac, is that this negative energy state is normally occupied. If this state is vacant, it appears as a positron with energy $$+0.715 \, \text{MeV}$$ and opposite charge to the electron.
 -->
 
-      </div>
-
-      
-        
-
-
-      
-    </article>
   </div>
-</main>
+  
+    
+
+
+  
+</article>
+
+<!-- 🌐 Social Share Buttons -->
+<div class="share-buttons">
+  <span>Share this post:</span>
+  <a href="https://twitter.com/intent/tweet?url=http://localhost:4000/SKMU/lecture/2024/05/28/Tutorial-QM.html&text=Tutorial-QM" target="_blank" class="share-btn twitter" title="Share on Twitter">
+    <i class="fab fa-twitter"></i>
+  </a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/SKMU/lecture/2024/05/28/Tutorial-QM.html" target="_blank" class="share-btn facebook" title="Share on Facebook">
+    <i class="fab fa-facebook"></i>
+  </a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/SKMU/lecture/2024/05/28/Tutorial-QM.html&title=Tutorial-QM" target="_blank" class="share-btn linkedin" title="Share on LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="https://api.whatsapp.com/send?text=Tutorial-QM%20http://localhost:4000/SKMU/lecture/2024/05/28/Tutorial-QM.html" target="_blank" class="share-btn whatsapp" title="Share on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="mailto:?subject=Tutorial-QM&body=http://localhost:4000/SKMU/lecture/2024/05/28/Tutorial-QM.html" target="_blank" class="share-btn email" title="Share via Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+</div>
         </div>
 
         <div class="search-content">
