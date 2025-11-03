@@ -1,96 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-03T12:18:11+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET - Physical Science</title><link href="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html" rel="alternate" type="text/html" title="JET - Physical Science" /><published>2025-11-03T10:30:00+05:30</published><updated>2025-11-03T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/03/JET</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html">&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-03T12:23:12+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET - Physical Science</title><link href="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html" rel="alternate" type="text/html" title="JET - Physical Science" /><published>2025-11-03T10:30:00+05:30</published><updated>2025-11-03T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/03/JET</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html">&lt;ol&gt;
   &lt;li&gt;Mathematical Methods of Physics
     &lt;ul&gt;
-      &lt;li&gt;Vector Algebra &amp;amp; Calculus&lt;/li&gt;
-      &lt;li&gt;Linear Algebra&lt;/li&gt;
-      &lt;li&gt;Ordinary Differential Equations (ODE) &amp;amp; Special Functions&lt;/li&gt;
-      &lt;li&gt;Computational Techniques&lt;/li&gt;
+      &lt;li&gt;Vector Algebra &amp;amp; Calculus
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://rajeshphy.github.io/SKMU/physics/mathematics/2022/11/03/JET-Paper-2-L1.html&quot;&gt;Vector algebra: addition, scalar and vector products, triple products&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;Gradient, divergence, and curl — physical interpretation&lt;/li&gt;
+          &lt;li&gt;Line, surface, and volume integrals&lt;/li&gt;
+          &lt;li&gt;Integral theorems: Gauss, Green, and Stokes&lt;/li&gt;
+          &lt;li&gt;Scalar and vector potentials; Laplacian operator&lt;/li&gt;
+          &lt;li&gt;Curvilinear coordinates (cylindrical and spherical) and scale factors&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Linear Algebra
+        &lt;ul&gt;
+          &lt;li&gt;Vector spaces, linear dependence and independence&lt;/li&gt;
+          &lt;li&gt;Basis and dimension, subspaces&lt;/li&gt;
+          &lt;li&gt;Matrices and determinants, adjoint and inverse&lt;/li&gt;
+          &lt;li&gt;Rank of a matrix and linear transformations&lt;/li&gt;
+          &lt;li&gt;Eigenvalues and eigenvectors; characteristic equation&lt;/li&gt;
+          &lt;li&gt;Hermitian, skew-Hermitian, unitary, and orthogonal matrices&lt;/li&gt;
+          &lt;li&gt;Diagonalization and spectral theorem&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Ordinary Differential Equations (ODE) &amp;amp; Special Functions
+        &lt;ul&gt;
+          &lt;li&gt;First and second order differential equations&lt;/li&gt;
+          &lt;li&gt;Linear differential equations with constant coefficients&lt;/li&gt;
+          &lt;li&gt;Series solutions — Frobenius method&lt;/li&gt;
+          &lt;li&gt;Legendre, Bessel, Hermite, and Laguerre equations and their properties&lt;/li&gt;
+          &lt;li&gt;Orthogonality of functions&lt;/li&gt;
+          &lt;li&gt;Sturm–Liouville problems&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Computational Techniques
+        &lt;ul&gt;
+          &lt;li&gt;Numerical methods: root finding (bisection, Newton–Raphson)&lt;/li&gt;
+          &lt;li&gt;Numerical differentiation and integration (Trapezoidal, Simpson)&lt;/li&gt;
+          &lt;li&gt;Runge–Kutta methods for ODEs&lt;/li&gt;
+          &lt;li&gt;Error analysis and propagation&lt;/li&gt;
+          &lt;li&gt;Finite difference methods&lt;/li&gt;
+          &lt;li&gt;Basics of programming for physics simulations&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Thermodynamics &amp;amp; Statistical Physics
-    &lt;ul&gt;
-      &lt;li&gt;Part A: Thermodynamics&lt;/li&gt;
-      &lt;li&gt;Part B: Statistical Physics&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Mathematical Methods of Physics&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;(a) Vector Algebra &amp;amp; Calculus&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://rajeshphy.github.io/SKMU/physics/mathematics/2022/11/03/JET-Paper-2-L1.html&quot;&gt;Vector algebra: addition, scalar and vector products, triple products&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Gradient, divergence, and curl — physical interpretation&lt;/li&gt;
-  &lt;li&gt;Line, surface, and volume integrals&lt;/li&gt;
-  &lt;li&gt;Integral theorems: Gauss, Green, and Stokes&lt;/li&gt;
-  &lt;li&gt;Scalar and vector potentials; Laplacian operator&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Curvilinear coordinates (cylindrical and spherical) and scale factors&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;(b) Linear Algebra&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Vector spaces, linear dependence and independence&lt;/li&gt;
-  &lt;li&gt;Basis and dimension, subspaces&lt;/li&gt;
-  &lt;li&gt;Matrices and determinants, adjoint and inverse&lt;/li&gt;
-  &lt;li&gt;Rank of a matrix and linear transformations&lt;/li&gt;
-  &lt;li&gt;Eigenvalues and eigenvectors; characteristic equation&lt;/li&gt;
-  &lt;li&gt;Hermitian, skew-Hermitian, unitary, and orthogonal matrices&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Diagonalization and spectral theorem&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;(c) Ordinary Differential Equations (ODE) &amp;amp; Special Functions&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;First and second order differential equations&lt;/li&gt;
-  &lt;li&gt;Linear differential equations with constant coefficients&lt;/li&gt;
-  &lt;li&gt;Series solutions — Frobenius method&lt;/li&gt;
-  &lt;li&gt;Legendre, Bessel, Hermite, and Laguerre equations and their properties&lt;/li&gt;
-  &lt;li&gt;Orthogonality of functions&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Sturm–Liouville problems&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;(d) Computational Techniques&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Numerical methods: root finding (bisection, Newton–Raphson)&lt;/li&gt;
-  &lt;li&gt;Numerical differentiation and integration (Trapezoidal, Simpson)&lt;/li&gt;
-  &lt;li&gt;Runge–Kutta methods for ODEs&lt;/li&gt;
-  &lt;li&gt;Error analysis and propagation&lt;/li&gt;
-  &lt;li&gt;Finite difference methods&lt;/li&gt;
-  &lt;li&gt;Basics of programming for physics simulations&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;Thermodynamics &amp;amp; Statistical Physics&lt;/p&gt;
 
-    &lt;p&gt;&lt;strong&gt;Part A: Thermodynamics&lt;/strong&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Part A: Thermodynamics
+        &lt;ul&gt;
+          &lt;li&gt;Laws of thermodynamics and their applications&lt;/li&gt;
+          &lt;li&gt;Thermodynamic systems, variables, and equations of state&lt;/li&gt;
+          &lt;li&gt;Maxwell’s relations and thermodynamic potentials&lt;/li&gt;
+          &lt;li&gt;Clausius–Clapeyron equation&lt;/li&gt;
+          &lt;li&gt;Joule–Thomson effect, adiabatic and isothermal processes&lt;/li&gt;
+          &lt;li&gt;Thermodynamic equilibrium and stability&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Part B: Statistical Physics
+        &lt;ul&gt;
+          &lt;li&gt;Microstates and macrostates, ensembles (microcanonical, canonical, grand canonical)&lt;/li&gt;
+          &lt;li&gt;Boltzmann distribution and partition function&lt;/li&gt;
+          &lt;li&gt;Maxwell–Boltzmann, Bose–Einstein, and Fermi–Dirac statistics&lt;/li&gt;
+          &lt;li&gt;Classical and quantum limits of ideal gases&lt;/li&gt;
+          &lt;li&gt;Blackbody radiation and Planck’s distribution&lt;/li&gt;
+          &lt;li&gt;Fluctuations, equipartition theorem, and entropy&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Laws of thermodynamics and their applications&lt;/li&gt;
-  &lt;li&gt;Thermodynamic systems, variables, and equations of state&lt;/li&gt;
-  &lt;li&gt;Maxwell’s relations and thermodynamic potentials&lt;/li&gt;
-  &lt;li&gt;Clausius–Clapeyron equation&lt;/li&gt;
-  &lt;li&gt;Joule–Thomson effect, adiabatic and isothermal processes&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Thermodynamic equilibrium and stability&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;Part B: Statistical Physics&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Microstates and macrostates, ensembles (microcanonical, canonical, grand canonical)&lt;/li&gt;
-  &lt;li&gt;Boltzmann distribution and partition function&lt;/li&gt;
-  &lt;li&gt;Maxwell–Boltzmann, Bose–Einstein, and Fermi–Dirac statistics&lt;/li&gt;
-  &lt;li&gt;Classical and quantum limits of ideal gases&lt;/li&gt;
-  &lt;li&gt;Blackbody radiation and Planck’s distribution&lt;/li&gt;
-  &lt;li&gt;Fluctuations, equipartition theorem, and entropy&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;hr /&gt;
 
@@ -102,7 +82,7 @@
   &lt;li&gt;&lt;em&gt;Thermal Physics&lt;/em&gt; — Zemansky &amp;amp; Dittman&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;Statistical Mechanics&lt;/em&gt; — Pathria &amp;amp; Beale&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;Mathematical Physics&lt;/em&gt; — B. S. Rajput / H. K. Dass&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="JET" /><summary type="html">Mathematical Methods of Physics Vector Algebra &amp;amp; Calculus Linear Algebra Ordinary Differential Equations (ODE) &amp;amp; Special Functions Computational Techniques Thermodynamics &amp;amp; Statistical Physics Part A: Thermodynamics Part B: Statistical Physics</summary></entry><entry><title type="html">Practical Question: Python</title><link href="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html" rel="alternate" type="text/html" title="Practical Question: Python" /><published>2025-08-01T11:00:00+05:30</published><updated>2025-08-01T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html">&lt;h2 id=&quot;question&quot;&gt;Question&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="JET" /><summary type="html">Mathematical Methods of Physics Vector Algebra &amp;amp; Calculus Vector algebra: addition, scalar and vector products, triple products Gradient, divergence, and curl — physical interpretation Line, surface, and volume integrals Integral theorems: Gauss, Green, and Stokes Scalar and vector potentials; Laplacian operator Curvilinear coordinates (cylindrical and spherical) and scale factors Linear Algebra Vector spaces, linear dependence and independence Basis and dimension, subspaces Matrices and determinants, adjoint and inverse Rank of a matrix and linear transformations Eigenvalues and eigenvectors; characteristic equation Hermitian, skew-Hermitian, unitary, and orthogonal matrices Diagonalization and spectral theorem</summary></entry><entry><title type="html">Practical Question: Python</title><link href="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html" rel="alternate" type="text/html" title="Practical Question: Python" /><published>2025-08-01T11:00:00+05:30</published><updated>2025-08-01T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html">&lt;h2 id=&quot;question&quot;&gt;Question&lt;/h2&gt;
 &lt;p&gt;Given a 2x2 matrix:
 \(A = \begin{bmatrix} 4 &amp;amp; 2 \\ 1 &amp;amp; 3 \end{bmatrix}\)&lt;/p&gt;
 
