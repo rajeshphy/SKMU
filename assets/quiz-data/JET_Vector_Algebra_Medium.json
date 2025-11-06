@@ -1,5 +1,5 @@
 {
-  "title": "Vector Algebra – Medium Level Practice Questions",
+  "title": "Vector Algebra – Medium Level",
   "description": "Answer all questions. Each carries 1 mark. These questions require detailed calculation or reasoning.",
   "quizSettings": {
     "isQuiz": true
@@ -7,67 +7,32 @@
   "questions": [
     {
       "title": "If $$\\mathbf{A} = 3\\hat{i} - 2\\hat{j} + \\hat{k}$$ and $$\\mathbf{B} = 2\\hat{i} + \\hat{j} - 3\\hat{k}$$, find $$\\mathbf{A} \\cdot \\mathbf{B}$$.",
-      "options": ["0", "-1", "-7", "-5"],
-      "correct": 3
+      "options": ["0", "1", "-7", "-5"],
+      "correct": 1
     },
     {
       "title": "If $$|\\mathbf{A}| = 5$$, $$|\\mathbf{B}| = 12$$ and the angle between them is $$60^\\circ$$, then $$|\\mathbf{A} + \\mathbf{B}| =$$",
-      "options": ["13", "10", "17", "7"],
+      "options": ["$$\\sqrt{229}$$", "$$\\sqrt{339}$$", "$$\\sqrt{449}$$", "7"],
       "correct": 0
     },
     {
       "title": "Find the unit vector perpendicular to both $$\\mathbf{A} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$$ and $$\\mathbf{B} = \\hat{i} + 2\\hat{j} - 2\\hat{k}$$.",
       "options": [
-        "$$\\frac{(\\hat{i} + 8\\hat{j} + 5\\hat{k})}{\\sqrt{90}}$$",
-        "$$\\frac{(\\hat{i} - 8\\hat{j} + 5\\hat{k})}{\\sqrt{90}}$$",
-        "$$\\frac{(-\\hat{i} + 8\\hat{j} - 5\\hat{k})}{\\sqrt{90}}$$",
-        "$$\\frac{(\\hat{i} + 8\\hat{j} - 5\\hat{k})}{\\sqrt{90}}$$"
+        "$$\\frac{(4\\hat{i} + 7\\hat{j} + 5\\hat{k})}{3\\sqrt{10}}$$",
+        "$$\\frac{(-4\\hat{i} + 7\\hat{j} + 5\\hat{k})}{3\\sqrt{10}}$$",
+        "$$\\frac{(-4\\hat{i} + 7\\hat{j} - 5\\hat{k})}{3\\sqrt{10}}$$",
+        "$$\\frac{(-4\\hat{i} - 7\\hat{j} + 5\\hat{k})}{3\\sqrt{10}}$$"
       ],
       "correct": 1
     },
     {
-      "title": "If $$\\mathbf{A} = 4\\hat{i} + 3\\hat{j}$$ and $$\\mathbf{B} = 2\\hat{i} - 3\\hat{j}$$, then find the angle between them.",
+      "title": "If $$\\mathbf{A} = 4\\hat{i} + 4\\hat{j}$$ and $$\\mathbf{B} = -2\\hat{i} + 2\\hat{j}$$, then find the angle between them.",
       "options": ["$$30^\\circ$$", "$$45^\\circ$$", "$$60^\\circ$$", "$$90^\\circ$$"],
-      "correct": 2
-    },
-    {
-      "title": "If $$\\mathbf{A} = \\hat{i} + 2\\hat{j} + 3\\hat{k}$$, find a unit vector perpendicular to $$\\mathbf{A}$$ and lying in the plane $$x + y + z = 0$$.",
-      "options": [
-        "$$\\frac{(2\\hat{i} - \\hat{j} - \\hat{k})}{\\sqrt{6}}$$",
-        "$$\\frac{(\\hat{i} + \\hat{j} - 2\\hat{k})}{\\sqrt{6}}$$",
-        "$$\\frac{(-\\hat{i} + 2\\hat{j} - \\hat{k})}{\\sqrt{6}}$$",
-        "$$\\frac{(\\hat{i} - 2\\hat{j} + \\hat{k})}{\\sqrt{6}}$$"
-      ],
-      "correct": 0
+      "correct": 3
     },
     {
       "title": "The angle between two vectors $$\\mathbf{A} = 2\\hat{i} + 3\\hat{j} + 6\\hat{k}$$ and $$\\mathbf{B} = \\hat{i} - 2\\hat{j} + 2\\hat{k}$$ is",
       "options": ["$$30^\\circ$$", "$$45^\\circ$$", "$$60^\\circ$$", "$$90^\\circ$$"],
-      "correct": 2
-    },
-    {
-      "title": "If $$\\mathbf{A} = 2\\hat{i} - \\hat{j}$$ and $$\\mathbf{B} = -\\hat{i} + 2\\hat{j}$$, then $$|\\mathbf{A} + \\mathbf{B}|^2 + |\\mathbf{A} - \\mathbf{B}|^2 =$$",
-      "options": ["$$2(|\\mathbf{A}|^2 + |\\mathbf{B}|^2)$$", "$$|\\mathbf{A}|^2 + |\\mathbf{B}|^2$$", "$$|\\mathbf{A} + \\mathbf{B}|^2$$", "$$|\\mathbf{A} - \\mathbf{B}|^2$$"],
-      "correct": 0
-    },
-    {
-      "title": "If $$\\mathbf{A} = 3\\hat{i} + 4\\hat{j}$$, find the unit vector in the direction of $$\\mathbf{A}$$.",
-      "options": [
-        "$$\\frac{3\\hat{i} + 4\\hat{j}}{5}$$",
-        "$$\\frac{4\\hat{i} + 3\\hat{j}}{5}$$",
-        "$$\\frac{3\\hat{i} - 4\\hat{j}}{5}$$",
-        "$$\\frac{4\\hat{i} - 3\\hat{j}}{5}$$"
-      ],
-      "correct": 0
-    },
-    {
-      "title": "If $$\\mathbf{A} = 2\\hat{i} + 3\\hat{j} + 4\\hat{k}$$ and $$\\mathbf{B} = \\hat{i} - 2\\hat{j} + 2\\hat{k}$$, find the scalar projection of $$\\mathbf{A}$$ on $$\\mathbf{B}$$.",
-      "options": ["2", "3", "4", "5"],
-      "correct": 2
-    },
-    {
-      "title": "If $$\\mathbf{A} = 2\\hat{i} - 3\\hat{j} + 4\\hat{k}$$ and $$\\mathbf{B} = \\hat{i} + 2\\hat{j} + 2\\hat{k}$$, then $$|\\mathbf{A} \\times \\mathbf{B}|$$ is",
-      "options": ["$$\\sqrt{34}$$", "$$\\sqrt{49}$$", "$$\\sqrt{54}$$", "$$\\sqrt{64}$$"],
       "correct": 2
     }
   ]
