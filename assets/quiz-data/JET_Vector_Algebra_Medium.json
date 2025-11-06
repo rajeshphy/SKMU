@@ -32,7 +32,7 @@
     },
     {
       "title": "The angle between two vectors $$\\mathbf{A} = 2\\hat{i} + 3\\hat{j} + 6\\hat{k}$$ and $$\\mathbf{B} = \\hat{i} - 2\\hat{j} + 2\\hat{k}$$ is",
-      "options": ["$$30^\\circ$$", "$$45^\\circ$$", "$$60^\\circ$$", "$$90^\\circ$$"],
+      "options": ["$$36.6^\\circ$$", "$$45.6^\\circ$$", "$$66.6^\\circ$$", "$$96.6^\\circ$$"],
       "correct": 2
     }
   ]
