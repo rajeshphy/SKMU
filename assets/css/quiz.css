@@ -178,3 +178,26 @@
 #quiz-container {
   animation: fadeIn 0.4s ease-in-out;
 }
+
+
+.level-btn {
+  background: linear-gradient(135deg, #0077ff, #005edc);
+  color: #fff;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.6rem 1.2rem;
+  margin: 0.3rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.level-btn:hover {
+  background: linear-gradient(135deg, #005edc, #004ec0);
+  transform: translateY(-2px);
+}
+
+.level-btn:active {
+  transform: scale(0.97);
+}
