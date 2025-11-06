@@ -1,0 +1,159 @@
+{
+  "title": "Gradient, Divergence, and Curl Practice Questions",
+  "description": "Answer all questions. Each carries 1 mark. Choose the most appropriate option.",
+  "quizSettings": {
+    "isQuiz": true
+  },
+  "questions": [
+    {
+      "title": "The gradient of a scalar field $$\\phi(x, y, z)$$ represents",
+      "options": [
+        "Rate of rotation of the field",
+        "Direction and rate of maximum increase of $$\\phi$$",
+        "Rate of expansion per unit volume",
+        "Flux through a surface"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "The expression for gradient in Cartesian coordinates is",
+      "options": [
+        "$$\\nabla \\phi = \\frac{\\partial \\phi}{\\partial x} + \\frac{\\partial \\phi}{\\partial y} + \\frac{\\partial \\phi}{\\partial z}$$",
+        "$$\\nabla \\phi = \\frac{\\partial \\phi}{\\partial x}\\hat{i} + \\frac{\\partial \\phi}{\\partial y}\\hat{j} + \\frac{\\partial \\phi}{\\partial z}\\hat{k}$$",
+        "$$\\nabla \\cdot \\phi = \\frac{\\partial \\phi}{\\partial x} + \\frac{\\partial \\phi}{\\partial y} + \\frac{\\partial \\phi}{\\partial z}$$",
+        "$$\\nabla \\times \\phi = 0$$"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "The magnitude of gradient $$|\\nabla \\phi|$$ represents",
+      "options": [
+        "The rate of change of $$\\phi$$ along x-axis",
+        "The total change in $$\\phi$$",
+        "The maximum rate of change of $$\\phi$$",
+        "The minimum rate of change of $$\\phi$$"
+      ],
+      "correct": 2
+    },
+    {
+      "title": "If $$\\nabla \\phi = 0$$ at a point, it means the scalar field is",
+      "options": [
+        "Rotating at that point",
+        "Constant near that point",
+        "Diverging at that point",
+        "Converging at that point"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "In electrostatics, the electric field $$\\mathbf{E}$$ is related to potential $$V$$ by",
+      "options": [
+        "$$\\mathbf{E} = \\nabla V$$",
+        "$$\\mathbf{E} = V\\nabla$$",
+        "$$\\mathbf{E} = -\\nabla V$$",
+        "$$\\mathbf{E} = \\nabla \\times V$$"
+      ],
+      "correct": 2
+    },
+    {
+      "title": "The divergence of a vector field $$\\mathbf{A}$$ gives",
+      "options": [
+        "A vector field",
+        "A scalar field",
+        "A tensor field",
+        "A unit vector"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "If $$\\nabla \\cdot \\mathbf{A} > 0$$ at a point, it indicates",
+      "options": [
+        "A sink at that point",
+        "A solenoidal field",
+        "A source at that point",
+        "A rotational field"
+      ],
+      "correct": 2
+    },
+    {
+      "title": "For a solenoidal field, the following holds true",
+      "options": [
+        "$$\\nabla \\times \\mathbf{A} = 0$$",
+        "$$\\nabla \\cdot \\mathbf{A} = 0$$",
+        "$$\\nabla \\mathbf{A} = 0$$",
+        "$$\\nabla \\times \\mathbf{A} = \\mathbf{A}$$"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "The divergence of magnetic field $$\\mathbf{B}$$ is",
+      "options": [
+        "$$\\nabla \\cdot \\mathbf{B} = \\mu_0$$",
+        "$$\\nabla \\cdot \\mathbf{B} = \\rho$$",
+        "$$\\nabla \\cdot \\mathbf{B} = 0$$",
+        "$$\\nabla \\cdot \\mathbf{B} = \\nabla \\times \\mathbf{B}$$"
+      ],
+      "correct": 2
+    },
+    {
+      "title": "In fluid flow, $$\\nabla \\cdot \\mathbf{v}$$ gives",
+      "options": [
+        "Vorticity of the fluid",
+        "Expansion or compression rate",
+        "Temperature gradient",
+        "Rotational velocity"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "The curl of a vector field $$\\mathbf{A}$$ measures",
+      "options": [
+        "Rate of change of scalar potential",
+        "Expansion of field lines",
+        "Rotation or circulation of the field",
+        "Flux through a surface"
+      ],
+      "correct": 2
+    },
+    {
+      "title": "If $$\\nabla \\times \\mathbf{A} = 0$$, the field $$\\mathbf{A}$$ is",
+      "options": [
+        "Solenoidal",
+        "Irrotational",
+        "Uniform",
+        "Divergent"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "The direction of curl vector indicates",
+      "options": [
+        "Direction of maximum expansion",
+        "Direction of minimum potential",
+        "Axis of rotation",
+        "Path of flux lines"
+      ],
+      "correct": 2
+    },
+    {
+      "title": "In electromagnetism, $$\\nabla \\times \\mathbf{E} = -\\frac{\\partial \\mathbf{B}}{\\partial t}$$ represents",
+      "options": [
+        "Gauss’s law",
+        "Faraday’s law of induction",
+        "Ampere’s law",
+        "Coulomb’s law"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "Identify the correct conversion nature of vector operators",
+      "options": [
+        "Gradient: scalar→vector; Divergence: vector→scalar; Curl: vector→vector",
+        "Gradient: vector→scalar; Divergence: scalar→vector; Curl: scalar→vector",
+        "Gradient: vector→vector; Divergence: scalar→scalar; Curl: vector→scalar",
+        "Gradient: scalar→scalar; Divergence: vector→vector; Curl: scalar→scalar"
+      ],
+      "correct": 0
+    }
+  ]
+}
