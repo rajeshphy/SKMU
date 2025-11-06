@@ -1,0 +1,180 @@
+/* === QUIZ CONTAINER === */
+.quiz-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+#quiz-container {
+  background: linear-gradient(145deg, #ffffff, #f3f7ff);
+  border-radius: 1.2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  width: 100%;
+  max-width: 680px;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.quiz-title {
+  text-align: center;
+  color: #0d1b2a;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+.question-text {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #1c1c1c;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* === OPTION GRID === */
+.options-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* === PREMIUM BUTTON BASE === */
+.btn {
+  position: relative;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 1rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* === QUIZ OPTION BUTTON === */
+.option.btn {
+  background: linear-gradient(135deg, #f6f8fb, #e8ebf9);
+  color: #222;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.option.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), rgba(0, 119, 255, 0.15), transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.option.btn:hover::before {
+  opacity: 1;
+}
+
+.option.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 119, 255, 0.15);
+  background: linear-gradient(135deg, #f2f8ff, #e8f1ff);
+}
+
+/* === CLICK FEEDBACK === */
+.option.btn:active {
+  transform: scale(0.97);
+}
+
+/* === CORRECT / WRONG === */
+.correct {
+  background: linear-gradient(135deg, #4CAF50, #43a047) !important;
+  color: #fff !important;
+  border: none !important;
+  box-shadow: 0 6px 15px rgba(76, 175, 80, 0.3);
+}
+
+.wrong {
+  background: linear-gradient(135deg, #f44336, #e53935) !important;
+  color: #fff !important;
+  border: none !important;
+  box-shadow: 0 6px 15px rgba(244, 67, 54, 0.3);
+}
+
+.option:disabled {
+  opacity: 0.95;
+  cursor: not-allowed;
+}
+
+/* === NEXT / RESTART BUTTON === */
+.next-btn {
+  display: none;
+  margin-top: 2rem;
+  width: 100%;
+  background: linear-gradient(135deg, #0077ff, #005edc);
+  color: #fff;
+  font-weight: 700;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  border: none;
+  font-size: 1.05rem;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 119, 255, 0.3);
+}
+
+.next-btn:hover {
+  background: linear-gradient(135deg, #005edc, #004ec0);
+  transform: translateY(-2px);
+}
+
+/* === RESULT TEXT === */
+.result {
+  margin-top: 1.5rem;
+  text-align: center;
+  color: #222;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* === SMALL ANIMATION === */
+.option.btn,
+.next-btn {
+  transition: background 0.25s ease, transform 0.1s ease, box-shadow 0.25s ease;
+}
+
+/* === MOBILE RESPONSIVE === */
+@media (max-width: 640px) {
+  .options-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #quiz-container {
+    padding: 1.5rem;
+  }
+
+  .option.btn {
+    font-size: 1rem;
+    padding: 0.9rem 1rem;
+  }
+}
+
+/* === NICE FADE-IN EFFECT === */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#quiz-container {
+  animation: fadeIn 0.4s ease-in-out;
+}

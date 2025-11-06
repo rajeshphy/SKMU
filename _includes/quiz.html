@@ -1,0 +1,41 @@
+<div class="quiz-wrapper">
+  <div id="quiz-container" data-quiz="{{ include.file }}">
+    <h2 id="quiz-title" class="quiz-title"></h2>
+
+    <div id="question-container" class="question-container">
+      <div id="question" class="question-text"></div>
+      <div id="answer-buttons" class="options-grid">
+        <button class="option btn"></button>
+        <button class="option btn"></button>
+        <button class="option btn"></button>
+        <button class="option btn"></button>
+      </div>
+    </div>
+
+    <button id="next-btn" class="btn next-btn">Next</button>
+    <div id="result" class="result"></div>
+  </div>
+</div>
+
+<!-- ✅ Stylesheet -->
+<link rel="stylesheet" href="{{ '/assets/css/quiz.css' | relative_url }}">
+
+<!-- ✅ Quiz Script -->
+<script src="{{ '/assets/js/quiz.js' | relative_url }}"></script>
+
+<!-- ✅ MathJax for LaTeX rendering -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$','$$'], ['\\[','\\]']]
+  },
+  svg: { fontCache: 'global' }
+};
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- ✅ Pass baseurl to JS (for blogs inside subfolders like /SKMU/) -->
+<script>
+  window.quizBaseUrl = "{{ site.baseurl }}";
+</script>
