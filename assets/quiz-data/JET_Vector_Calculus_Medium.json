@@ -1,0 +1,20 @@
+{
+  "title": "Gradient, Divergence, and Curl: Medium Level",
+  "description": "Answer all questions. Each carries 1 mark. Choose the most appropriate option.",
+  "quizSettings": {
+    "isQuiz": true
+  },
+  "questions": [
+
+{
+  "title": "The volume integral $I = \\iiint_{V} \\vec{A} \\cdot (\\vec{\\nabla} \\times \\vec{A})\\, d^3x$ is taken over a volume $V$ bounded by a surface $\\Sigma$. When the vector field $\\vec{A}$ is changed to $\\vec{A} + \\vec{\\nabla}\\Lambda$, the integral changes to $I + \\Delta I$. Then $\\Delta I$ can be expressed as:",
+  "options": [
+    "$\\iiint_{V} \\vec{\\nabla} \\cdot (\\vec{\\nabla}\\Lambda \\times \\vec{A})\\, d^3x$",
+    "$-\\iiint_{V} \\nabla^2\\Lambda\\, d^3x$",
+    "$-\\iint_{\\Sigma} (\\vec{\\nabla}\\Lambda \\times \\vec{A}) \\cdot \\hat{n}\\, ds$",
+    "$\\iint_{\\Sigma} (\\vec{\\nabla}\\Lambda) \\cdot \\hat{n}\\, ds$"
+  ],
+  "correct": 2
+}
+  ]
+}
