@@ -23,17 +23,6 @@
 <!-- ✅ Quiz Script -->
 <script src="{{ '/assets/js/quiz.js' | relative_url }}"></script>
 
-<!-- ✅ MathJax for LaTeX rendering -->
-<script>
-window.MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$','$$'], ['\\[','\\]']]
-  },
-  svg: { fontCache: 'global' }
-};
-</script>
-<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <!-- ✅ Pass baseurl to JS (for blogs inside subfolders like /SKMU/) -->
 <script>

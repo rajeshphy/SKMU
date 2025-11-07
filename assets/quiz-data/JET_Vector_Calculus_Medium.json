@@ -11,8 +11,8 @@
   "options": [
     "$\\iiint_{V} \\vec{\\nabla} \\cdot (\\vec{\\nabla}\\Lambda \\times \\vec{A})\\, d^3x$",
     "$-\\iiint_{V} \\nabla^2\\Lambda\\, d^3x$",
-    "$-\\iint_{\\Sigma} (\\vec{\\nabla}\\Lambda \\times \\vec{A}) \\cdot \\hat{n}\\, ds$",
-    "$\\iint_{\\Sigma} (\\vec{\\nabla}\\Lambda) \\cdot \\hat{n}\\, ds$"
+    "$-\\oiint_{\\Sigma} (\\vec{\\nabla}\\Lambda \\times \\vec{A}) \\cdot \\hat{n}\\, ds$",
+    "$\\oiint_{\\Sigma} (\\vec{\\nabla}\\Lambda) \\cdot \\hat{n}\\, ds$"
   ],
   "correct": 2
 }

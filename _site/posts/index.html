@@ -49,12 +49,12 @@
   </script>
 
   <!-- Math JX -->
-  <script type="text/javascript" async
+  <!-- <script type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
-  </script>
+  </script> -->
 
   
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     MathJax = {
       tex: {
         inlineMath: [['$', '$'], ['\\(', '\\)']],
@@ -73,11 +73,35 @@
         fontCache: 'global'
       }
     };
-  </script>
-
-  
+  </script> -->
 
 
+<!-- MathJax configuration -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true,
+    tags: 'ams',
+    packages: { '[+]': ['physics', 'ams'] },
+    macros: {
+  bra: ["{\\langle #1 \\vert}", 1],
+  ket: ["{\\vert #1 \\rangle}", 1],
+  braket: ["{\\langle #1 \\vert #2 \\rangle}", 2],
+  brakett: ["{\\langle #1 \\vert #2 \\vert #3 \\rangle}", 3],
+  // ✅ Surface & contour integral macros (single, double, triple)
+        oiint: "{\\unicode{x222F}}",   // ∯
+        oiiint: "{\\unicode{x2230}}",  // ∰
+        oint: "{\\unicode{x222E}}"     // ∮
+}
+  },
+  svg: { fontCache: 'global' }
+};
+</script>
+
+<!-- ✅ load the combined build that already includes esint & ams -->
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-svg.js"></script>
 
 
 
