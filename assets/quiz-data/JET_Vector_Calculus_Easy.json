@@ -6,10 +6,10 @@
   },
   "questions": [
     {
-      "title": "The gradient of a scalar field $$\\phi(x, y, z)$$ represents",
+      "title": "The gradient of a scalar field $\\phi(x, y, z)$ represents",
       "options": [
         "Rate of rotation of the field",
-        "Direction and rate of maximum increase of $$\\phi$$",
+        "Direction and rate of maximum increase of $\\phi$",
         "Rate of expansion per unit volume",
         "Flux through a surface"
       ],
@@ -26,17 +26,17 @@
       "correct": 1
     },
     {
-      "title": "The magnitude of gradient $$|\\nabla \\phi|$$ represents",
+      "title": "The magnitude of gradient $|\\nabla \\phi|$ represents",
       "options": [
-        "The rate of change of $$\\phi$$ along x-axis",
-        "The total change in $$\\phi$$",
-        "The maximum rate of change of $$\\phi$$",
-        "The minimum rate of change of $$\\phi$$"
+        "The rate of change of $\\phi$ along x-axis",
+        "The total change in $\\phi$",
+        "The maximum rate of change of $\\phi$",
+        "The minimum rate of change of $\\phi$"
       ],
       "correct": 2
     },
     {
-      "title": "If $$\\nabla \\phi = 0$$ at a point, it means the scalar field is",
+      "title": "If $\\nabla \\phi = 0$ at a point, it means the scalar field is",
       "options": [
         "Rotating at that point",
         "Constant near that point",
@@ -46,7 +46,7 @@
       "correct": 1
     },
     {
-      "title": "In electrostatics, the electric field $$\\mathbf{E}$$ is related to potential $$V$$ by",
+      "title": "In electrostatics, the electric field $\\mathbf{E}$ is related to potential $V$ by",
       "options": [
         "$$\\mathbf{E} = \\nabla V$$",
         "$$\\mathbf{E} = V\\nabla$$",
@@ -56,7 +56,7 @@
       "correct": 2
     },
     {
-      "title": "The divergence of a vector field $$\\mathbf{A}$$ gives",
+      "title": "The divergence of a vector field $\\mathbf{A}$ gives",
       "options": [
         "A vector field",
         "A scalar field",
@@ -66,7 +66,7 @@
       "correct": 1
     },
     {
-      "title": "If $$\\nabla \\cdot \\mathbf{A} > 0$$ at a point, it indicates",
+      "title": "If $\\nabla \\cdot \\mathbf{A} > 0$ at a point, it indicates",
       "options": [
         "A sink at that point",
         "A solenoidal field",
@@ -86,7 +86,7 @@
       "correct": 1
     },
     {
-      "title": "The divergence of magnetic field $$\\mathbf{B}$$ is",
+      "title": "The divergence of magnetic field $\\mathbf{B}$ is",
       "options": [
         "$$\\nabla \\cdot \\mathbf{B} = \\mu_0$$",
         "$$\\nabla \\cdot \\mathbf{B} = \\rho$$",
@@ -96,7 +96,7 @@
       "correct": 2
     },
     {
-      "title": "In fluid flow, $$\\nabla \\cdot \\mathbf{v}$$ gives",
+      "title": "In fluid flow, $\\nabla \\cdot \\mathbf{v}$ gives",
       "options": [
         "Vorticity of the fluid",
         "Expansion or compression rate",
@@ -106,7 +106,7 @@
       "correct": 1
     },
     {
-      "title": "The curl of a vector field $$\\mathbf{A}$$ measures",
+      "title": "The curl of a vector field $\\mathbf{A}$ measures",
       "options": [
         "Rate of change of scalar potential",
         "Expansion of field lines",
@@ -116,7 +116,7 @@
       "correct": 2
     },
     {
-      "title": "If $$\\nabla \\times \\mathbf{A} = 0$$, the field $$\\mathbf{A}$$ is",
+      "title": "If $\\nabla \\times \\mathbf{A} = 0$, the field $\\mathbf{A}$ is",
       "options": [
         "Solenoidal",
         "Irrotational",
@@ -136,7 +136,7 @@
       "correct": 2
     },
     {
-      "title": "In electromagnetism, $$\\nabla \\times \\mathbf{E} = -\\frac{\\partial \\mathbf{B}}{\\partial t}$$ represents",
+      "title": "In electromagnetism, $\\nabla \\times \\mathbf{E} = -\\frac{\\partial \\mathbf{B}}{\\partial t}$ represents",
       "options": [
         "Gauss’s law",
         "Faraday’s law of induction",

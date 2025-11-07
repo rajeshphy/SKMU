@@ -6,12 +6,12 @@
   },
   "questions": [
     {
-      "title": "If $$\\mathbf{A} = 2\\hat{i} + 3\\hat{j}, \\quad \\mathbf{B} = \\hat{i} + 4\\hat{j}$$ then $$\\mathbf{A} + \\mathbf{B}$$ equals",
+      "title": "If $\\mathbf{A} = 2\\hat{i} + 3\\hat{j}, \\quad \\mathbf{B} = \\hat{i} + 4\\hat{j}$ then $\\mathbf{A} + \\mathbf{B}$ equals",
       "options": ["$$3\\hat{i} + 7\\hat{j}$$", "$$\\hat{i} + 7\\hat{j}$$", "$$2\\hat{i} + \\hat{j}$$", "$$7\\hat{i} + 3\\hat{j}$$"],
       "correct": 0
     },
     {
-      "title": "The magnitude of the resultant of two vectors $$A$$ and $$B$$ making an angle $$\\theta$$ is",
+      "title": "The magnitude of the resultant of two vectors $A$ and $B$ making an angle $\\theta$ is",
       "options": ["$$\\sqrt{A^2 + B^2 + 2AB\\sin\\theta}$$", "$$\\sqrt{A^2 + B^2 + 2AB\\cos\\theta}$$", "$$A + B\\cos\\theta$$", "$$A^2 + B^2$$"],
       "correct": 1
     },
@@ -31,7 +31,7 @@
       "correct": 1
     },
     {
-      "title": "If $$\\mathbf{A} \\cdot \\mathbf{B} = 0$$, the two vectors are",
+      "title": "If $\\mathbf{A} \\cdot \\mathbf{B} = 0$, the two vectors are",
       "options": ["Parallel", "Anti-parallel", "Perpendicular", "Collinear"],
       "correct": 2
     },
@@ -41,17 +41,17 @@
       "correct": 1
     },
     {
-      "title": "The work done by a force $$\\mathbf{F}$$ over a displacement $$\\mathbf{d}$$ is",
+      "title": "The work done by a force $\\mathbf{F}$ over a displacement $\\mathbf{d}$ is",
       "options": ["$$\\mathbf{F} \\times \\mathbf{d}$$", "$$Fd\\sin\\theta$$", "$$\\mathbf{F} \\cdot \\mathbf{d} = Fd\\cos\\theta$$", "$$Fd$$"],
       "correct": 2
     },
     {
-      "title": "The projection of $$\\mathbf{A}$$ on $$\\mathbf{B}$$ is",
+      "title": "The projection of $\\mathbf{A}$ on $\\mathbf{B}$ is",
       "options": ["$$\\mathbf{A} \\cdot \\mathbf{B}$$", "$$|\\mathbf{A} \\times \\mathbf{B}|$$", "$$\\dfrac{\\mathbf{A} \\cdot \\mathbf{B}}{|\\mathbf{B}|}$$", "$$A + B$$"],
       "correct": 2
     },
     {
-      "title": "The vector (cross) product of $$\\mathbf{A}$$ and $$\\mathbf{B}$$ is",
+      "title": "The vector (cross) product of $\\mathbf{A}$ and $\\mathbf{B}$ is",
       "options": ["$$AB \\cos\\theta$$", "$$AB \\sin\\theta \\hat{n}$$", "$$AB \\tan\\theta$$", "$$A + B$$"],
       "correct": 1
     }

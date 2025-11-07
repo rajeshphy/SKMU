@@ -18,6 +18,18 @@
   animation: fadeIn 0.3s ease-in-out;
 }
 
+
+/* === QUIZ IMAGE STYLING === */
+#quiz-container img {
+  display: block;                   /* centers the image */
+  margin: 0.8rem auto;              /* vertical spacing, auto horizontal centering */
+  width: 40%;                       /* occupy only 40% of the quiz box */
+  height: auto;                     /* maintain aspect ratio */
+  }
+
+
+
+
 /* === TITLE === */
 .quiz-title {
   text-align: center;

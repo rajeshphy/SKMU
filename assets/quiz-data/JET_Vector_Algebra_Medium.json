@@ -6,17 +6,17 @@
   },
   "questions": [
     {
-      "title": "If $$\\mathbf{A} = 3\\hat{i} - 2\\hat{j} + \\hat{k}$$ and $$\\mathbf{B} = 2\\hat{i} + \\hat{j} - 3\\hat{k}$$, find $$\\mathbf{A} \\cdot \\mathbf{B}$$.",
+      "title": "If $\\mathbf{A} = 3\\hat{i} - 2\\hat{j} + \\hat{k}$ and $\\mathbf{B} = 2\\hat{i} + \\hat{j} - 3\\hat{k}$, find $\\mathbf{A} \\cdot \\mathbf{B}$.",
       "options": ["0", "1", "-7", "-5"],
       "correct": 1
     },
     {
-      "title": "If $$|\\mathbf{A}| = 5$$, $$|\\mathbf{B}| = 12$$ and the angle between them is $$60^\\circ$$, then $$|\\mathbf{A} + \\mathbf{B}| =$$",
+      "title": "If $|\\mathbf{A}| = 5$, $|\\mathbf{B}| = 12$ and the angle between them is $60^\\circ$, then $|\\mathbf{A} + \\mathbf{B}| =$",
       "options": ["$$\\sqrt{229}$$", "$$\\sqrt{339}$$", "$$\\sqrt{449}$$", "7"],
       "correct": 0
     },
     {
-      "title": "Find the unit vector perpendicular to both $$\\mathbf{A} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$$ and $$\\mathbf{B} = \\hat{i} + 2\\hat{j} - 2\\hat{k}$$.",
+      "title": "Find the unit vector perpendicular to both $\\mathbf{A} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$ and $\\mathbf{B} = \\hat{i} + 2\\hat{j} - 2\\hat{k}$.",
       "options": [
         "$$\\frac{(4\\hat{i} + 7\\hat{j} + 5\\hat{k})}{3\\sqrt{10}}$$",
         "$$\\frac{(-4\\hat{i} + 7\\hat{j} + 5\\hat{k})}{3\\sqrt{10}}$$",
@@ -26,12 +26,12 @@
       "correct": 1
     },
     {
-      "title": "If $$\\mathbf{A} = 4\\hat{i} + 4\\hat{j}$$ and $$\\mathbf{B} = -2\\hat{i} + 2\\hat{j}$$, then find the angle between them.",
+      "title": "If $\\mathbf{A} = 4\\hat{i} + 4\\hat{j}$ and $\\mathbf{B} = -2\\hat{i} + 2\\hat{j}$, then find the angle between them.",
       "options": ["$$30^\\circ$$", "$$45^\\circ$$", "$$60^\\circ$$", "$$90^\\circ$$"],
       "correct": 3
     },
     {
-      "title": "The angle between two vectors $$\\mathbf{A} = 2\\hat{i} + 3\\hat{j} + 6\\hat{k}$$ and $$\\mathbf{B} = \\hat{i} - 2\\hat{j} + 2\\hat{k}$$ is",
+      "title": "The angle between two vectors $\\mathbf{A} = 2\\hat{i} + 3\\hat{j} + 6\\hat{k}$ and $\\mathbf{B} = \\hat{i} - 2\\hat{j} + 2\\hat{k}$ is",
       "options": ["$$36.6^\\circ$$", "$$45.6^\\circ$$", "$$67.6^\\circ$$", "$$96.6^\\circ$$"],
       "correct": 2
     }
