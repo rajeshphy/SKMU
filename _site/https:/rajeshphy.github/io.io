@@ -1,4 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-07T11:52:35+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET - Physical Science</title><link href="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html" rel="alternate" type="text/html" title="JET - Physical Science" /><published>2025-11-03T10:30:00+05:30</published><updated>2025-11-03T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/03/JET</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html">&lt;p&gt;These topics will be covered here, and the reading materials can be accessed by clicking on the hyperlinks.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-19T12:52:58+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Resistors</title><link href="http://localhost:4000/SKMU/2025/11/19/Resistors.html" rel="alternate" type="text/html" title="Resistors" /><published>2025-11-19T00:00:00+05:30</published><updated>2025-11-19T00:00:00+05:30</updated><id>http://localhost:4000/SKMU/2025/11/19/Resistors</id><content type="html" xml:base="http://localhost:4000/SKMU/2025/11/19/Resistors.html">&lt;h1 id=&quot;resistors-types-characteristics-and-colour-coding&quot;&gt;Resistors: Types, Characteristics, and Colour Coding&lt;/h1&gt;
+
+&lt;p&gt;A resistor is one of the most fundamental passive components used in electrical and electronic circuits. Its primary function is to oppose or limit the flow of electric current, thereby controlling voltage levels, dividing currents, reducing power, and protecting sensitive components. Resistors operate based on the principle that certain materials inherently resist the motion of electrons. This resistance is quantified in ohms (Ω), named after Georg Simon Ohm, who formulated the foundational relationship among voltage (V), current (I), and resistance (R).&lt;/p&gt;
+
+&lt;p&gt;In practical electronics, resistors are indispensable because they help manage power distribution, set biasing conditions for transistors, determine time constants in RC circuits, and stabilize amplifier gains. They appear in diverse forms depending on their intended application, construction, and required precision. Modern resistors are manufactured using materials such as carbon composition, carbon film, metal film, metal oxide, and wire wound alloys. Each of these types exhibits different characteristics related to stability, tolerance, temperature coefficient, noise performance, and power handling capability.&lt;/p&gt;
+
+&lt;p&gt;Resistor characteristics define their suitability in specific circuits. The main characteristics include resistance value, tolerance, power rating, temperature coefficient of resistance (TCR), noise behavior, and frequency response. Power rating indicates how much heat a resistor can dissipate without damage. Tolerance specifies the permissible deviation from the labeled resistance value, while temperature coefficient quantifies how resistance changes with temperature. For high-frequency or precision circuits, these characteristics become especially critical.&lt;/p&gt;
+
+&lt;p&gt;A widely used system for marking resistor values is the &lt;strong&gt;colour coding scheme&lt;/strong&gt;, particularly for through-hole cylindrical resistors. This system uses bands of different colours to encode numerical resistance values and tolerance. Each colour represents a specific digit or multiplier, and by reading the bands in sequence, the value can be decoded quickly. For modern SMD resistors, numerical codes replace colour coding, but the principle remains the same.&lt;/p&gt;
+
+&lt;p&gt;To understand resistor behaviour mathematically, we begin with &lt;strong&gt;Ohm’s Law&lt;/strong&gt;, which forms the basis of linear resistor operation.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-ohms-law&quot;&gt;1. Ohm’s Law&lt;/h3&gt;
+&lt;p&gt;The fundamental relationship is:&lt;/p&gt;
+
+\[V = IR\]
+
+&lt;p&gt;where&lt;br /&gt;
+$ V $ = voltage across resistor (volts),&lt;br /&gt;
+$ I $ = current flowing through resistor (amperes),&lt;br /&gt;
+$ R $ = resistance (ohms).&lt;/p&gt;
+
+&lt;h3 id=&quot;2-power-dissipation-derivation&quot;&gt;2. Power Dissipation Derivation&lt;/h3&gt;
+&lt;p&gt;Power dissipated by a resistor due to current flow is given by:&lt;/p&gt;
+
+\[P = IV\]
+
+&lt;p&gt;Substituting Ohm’s law $ V = IR $:&lt;/p&gt;
+
+\[P = I(IR) = I^{2}R\]
+
+&lt;p&gt;Alternatively, using $ I = \frac{V}{R} $:&lt;/p&gt;
+
+\[P = V \left( \frac{V}{R} \right) = \frac{V^{2}}{R}\]
+
+&lt;p&gt;Thus, power dissipation has three equivalent forms:&lt;/p&gt;
+
+\[P = VI,\quad P = I^{2}R,\quad P = \frac{V^{2}}{R}\]
+
+&lt;h3 id=&quot;3-temperature-dependence-of-resistance&quot;&gt;3. Temperature Dependence of Resistance&lt;/h3&gt;
+&lt;p&gt;Many resistors exhibit a linear temperature dependence:&lt;/p&gt;
+
+\[R_T = R_0 (1 + \alpha \Delta T)\]
+
+&lt;p&gt;where&lt;br /&gt;
+$ R_T $ = resistance at temperature $ T $,&lt;br /&gt;
+$ R_0 $ = resistance at reference temperature,&lt;br /&gt;
+$ \alpha $ = temperature coefficient of resistance (TCR),&lt;br /&gt;
+$ \Delta T = T - T_0 $.&lt;/p&gt;
+
+&lt;p&gt;This expression demonstrates that resistance increases or decreases depending on whether the resistor material exhibits positive or negative TCR.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-series-and-parallel-combinations&quot;&gt;4. Series and Parallel Combinations&lt;/h3&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/Series-Parallel.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;series&quot;&gt;Series:&lt;/h4&gt;
+
+\[R_{\text{eq}} = R_1 + R_2 + R_3 + \cdots\]
+
+&lt;h4 id=&quot;parallel&quot;&gt;Parallel:&lt;/h4&gt;
+
+\[\frac{1}{R_{\text{eq}}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \cdots\]
+
+&lt;p&gt;or for two resistors:&lt;/p&gt;
+
+\[R_{\text{eq}} = \frac{R_1 R_2}{R_1 + R_2}\]
+
+&lt;h3 id=&quot;5-colour-code-interpretation-mathematical&quot;&gt;5. Colour Code Interpretation (Mathematical)&lt;/h3&gt;
+
+&lt;p&gt;A resistor with colour bands $ B_1, B_2, B_3, B_4 $ is interpreted as:&lt;/p&gt;
+
+\[R = (10 \times D_1 + D_2) \times 10^{M} \ \Omega\]
+
+&lt;p&gt;where&lt;br /&gt;
+$ D_1 $ = digit from first band,&lt;br /&gt;
+$ D_2 $ = digit from second band,&lt;br /&gt;
+$ M $ = multiplier from third band,&lt;br /&gt;
+fourth band gives tolerance.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Diagram of a typical resistor showing colour bands and orientation.&lt;/em&gt;&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/Color-Coded-Carbon-Composition-Resistor.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Example:&lt;br /&gt;
+Red (2), Violet (7), Yellow ($10^4$), Gold (±5%)&lt;/p&gt;
+
+\[R = (10 \times 2 + 7) \times 10^{4} = 27 \times 10^{4} = 270\,000 \ \Omega = 270 \text{k}\Omega \ (\pm 5\%)\]</content><author><name>Rajesh Kumar</name></author><summary type="html">Resistors: Types, Characteristics, and Colour Coding</summary></entry><entry><title type="html">JET - Physical Science</title><link href="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html" rel="alternate" type="text/html" title="JET - Physical Science" /><published>2025-11-03T10:30:00+05:30</published><updated>2025-11-03T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/03/JET</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html">&lt;p&gt;These topics will be covered here, and the reading materials can be accessed by clicking on the hyperlinks.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Vector Algebra &amp;amp; Calculus
@@ -74,7 +165,67 @@
   &lt;li&gt;&lt;em&gt;Thermal Physics&lt;/em&gt; — Zemansky &amp;amp; Dittman&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;Statistical Mechanics&lt;/em&gt; — Pathria &amp;amp; Beale&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;Mathematical Physics&lt;/em&gt; — B. S. Rajput / H. K. Dass&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="JET" /><summary type="html">These topics will be covered here, and the reading materials can be accessed by clicking on the hyperlinks.</summary></entry><entry><title type="html">Practical Question: Python</title><link href="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html" rel="alternate" type="text/html" title="Practical Question: Python" /><published>2025-08-01T11:00:00+05:30</published><updated>2025-08-01T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html">&lt;h2 id=&quot;question&quot;&gt;Question&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="JET" /><summary type="html">These topics will be covered here, and the reading materials can be accessed by clicking on the hyperlinks.</summary></entry><entry><title type="html">MSC Sem-II</title><link href="http://localhost:4000/SKMU/lecture/2025/11/02/Sem-II.html" rel="alternate" type="text/html" title="MSC Sem-II" /><published>2025-11-02T10:30:00+05:30</published><updated>2025-11-02T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/02/Sem-II</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/02/Sem-II.html">&lt;p&gt;These topics will be covered here, and the reading materials can be accessed by clicking on the hyperlinks.&lt;/p&gt;
+
+&lt;h1 id=&quot;1-passive-devices--instrumentation&quot;&gt;1. Passive Devices &amp;amp; Instrumentation&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;(Paper PHY-S-05T – Unit 1)&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rajeshphy.github.io/SKMU/2025/11/19/Resistors.html&quot;&gt;Resistors: types, characteristics, and colour coding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Capacitors: types, characteristics, and colour coding&lt;/li&gt;
+  &lt;li&gt;Star and delta connections of resistors and capacitors&lt;/li&gt;
+  &lt;li&gt;Chokes and transformers&lt;/li&gt;
+  &lt;li&gt;Multimeter (Analog and Digital): working principles and applications&lt;/li&gt;
+  &lt;li&gt;Cathode Ray Oscilloscope (CRO): waveforms and Lissajous figures&lt;/li&gt;
+  &lt;li&gt;AF and RF oscillators&lt;/li&gt;
+  &lt;li&gt;Usage of breadboard&lt;br /&gt;
+&lt;em&gt;(Lectures: 10)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;2-theory-of-quantum-scattering&quot;&gt;2. Theory of Quantum Scattering&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;(Paper PHY-C-06 QM – Unit 2)&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Collision in three dimensions&lt;/li&gt;
+  &lt;li&gt;α-scattering and its theoretical interpretation&lt;/li&gt;
+  &lt;li&gt;Laboratory vs. Centre-of-Mass reference frames&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rajeshphy.github.io/SKMU/lecture/2024/07/12/Scattering.html&quot;&gt;Scattering&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Scattering amplitude&lt;/li&gt;
+  &lt;li&gt;Differential scattering cross section&lt;/li&gt;
+  &lt;li&gt;Total scattering cross section&lt;/li&gt;
+  &lt;li&gt;Scattering by spherically symmetric potentials&lt;/li&gt;
+  &lt;li&gt;Partial wave analysis and phase shifts&lt;/li&gt;
+  &lt;li&gt;Born approximation&lt;br /&gt;
+&lt;em&gt;(Lectures: 14)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;3-molecular-spectroscopy&quot;&gt;3. Molecular Spectroscopy&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;(Paper PHY-C-07 – Unit 2)&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rotational spectra of diatomic molecules&lt;/li&gt;
+  &lt;li&gt;Vibrational spectra of diatomic molecules&lt;/li&gt;
+  &lt;li&gt;Electronic spectra of diatomic molecules&lt;/li&gt;
+  &lt;li&gt;Vibrational analysis of band systems&lt;/li&gt;
+  &lt;li&gt;Franck–Condon principle&lt;/li&gt;
+  &lt;li&gt;Infrared spectra of diatomic molecules&lt;/li&gt;
+  &lt;li&gt;Raman spectra of diatomic molecules&lt;br /&gt;
+&lt;em&gt;(Lectures: 10)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-reference-books&quot;&gt;📚 Reference Books&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Electronics Devices and Circuits&lt;/em&gt; — Boylestad &amp;amp; Nashelsky&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Electronic Principles&lt;/em&gt; — Malvino&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Introduction to Quantum Mechanics&lt;/em&gt; — David J. Griffiths / J. J. Sakurai&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Quantum Mechanics&lt;/em&gt; — L. I. Schiff&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Molecular Spectra and Molecular Structure&lt;/em&gt; — G. Herzberg&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Fundamentals of Molecular Spectroscopy&lt;/em&gt; — C. N. Banwell&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Introduction to Atomic and Molecular Spectroscopy&lt;/em&gt; — White&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">These topics will be covered here, and the reading materials can be accessed by clicking on the hyperlinks.</summary></entry><entry><title type="html">Practical Question: Python</title><link href="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html" rel="alternate" type="text/html" title="Practical Question: Python" /><published>2025-08-01T11:00:00+05:30</published><updated>2025-08-01T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html">&lt;h2 id=&quot;question&quot;&gt;Question&lt;/h2&gt;
 &lt;p&gt;Given a 2x2 matrix:
 \(A = \begin{bmatrix} 4 &amp;amp; 2 \\ 1 &amp;amp; 3 \end{bmatrix}\)&lt;/p&gt;
 
@@ -1264,141 +1415,7 @@ Thus, the band gap is approximately equal to the Fourier component of the potent
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation</summary></entry><entry><title type="html">Poisson Bracket, Poisson Theorems</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html" rel="alternate" type="text/html" title="Poisson Bracket, Poisson Theorems" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Poisson-Theorems.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Understand the definition and meaning of a Poisson bracket in classical mechanics.&lt;/li&gt;
-  &lt;li&gt;Derive and interpret Poisson’s theorems.&lt;/li&gt;
-  &lt;li&gt;Use Poisson brackets to verify conservation laws and symmetries.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Poisson Bracket&lt;/strong&gt;: A bilinear operation defined between two functions in phase space, used extensively in Hamiltonian mechanics.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Canonical Variables&lt;/strong&gt;: Pairs of variables like $(q_i, p_i)$ that satisfy specific Poisson bracket relations.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;: Theorems that describe the properties and implications of Poisson brackets such as their antisymmetry, bilinearity, and Jacobi identity.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;In Hamiltonian mechanics, the dynamics of a system are described by a set of generalized coordinates $q_i$ and conjugate momenta $p_i$, evolving according to Hamilton’s equations:&lt;/p&gt;
-
-\[\dot{q}_i = \frac{\partial H}{\partial p_i}, \quad \dot{p}_i = -\frac{\partial H}{\partial q_i}\]
-
-&lt;p&gt;Here, $H(q_i, p_i, t)$ is the Hamiltonian of the system.&lt;/p&gt;
-
-&lt;p&gt;To express these equations and many other properties compactly, we define the &lt;strong&gt;Poisson bracket&lt;/strong&gt; of two functions $f(q_i, p_i, t)$ and $g(q_i, p_i, t)$ as:&lt;/p&gt;
-
-\[\{f, g\} = \sum_{i} \left( \frac{\partial f}{\partial q_i} \frac{\partial g}{\partial p_i} - \frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q_i} \right)\]
-
-&lt;p&gt;The Poisson bracket has the following essential properties:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Bilinearity&lt;/strong&gt;:
-\(\{af + bg, h\} = a\{f, h\} + b\{g, h\}\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Antisymmetry&lt;/strong&gt;:
-\(\{f, g\} = -\{g, f\}\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Jacobi Identity&lt;/strong&gt;:
-\(\{f, \{g, h\}\} + \{g, \{h, f\}\} + \{h, \{f, g\}\} = 0\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Leibniz Rule&lt;/strong&gt; (Product Rule):
-\(\{fg, h\} = f\{g, h\} + g\{f, h\}\)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Using Poisson brackets, Hamilton’s equations can be rewritten as:&lt;/p&gt;
-
-\[\dot{f} = \{f, H\} + \frac{\partial f}{\partial t}\]
-
-&lt;p&gt;This shows that the time evolution of any observable $f$ is governed by its Poisson bracket with the Hamiltonian.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Poisson Theorems&lt;/strong&gt;:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Theorem 1&lt;/strong&gt;: If $u$ and $v$ are constants of motion, then ${u, v}$ is also a constant of motion.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Theorem 2&lt;/strong&gt;: The fundamental Poisson brackets are:
-\(\{q_i, q_j\} = 0, \quad \{p_i, p_j\} = 0, \quad \{q_i, p_j\} = \delta_{ij}\)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Theorem 3&lt;/strong&gt;: Canonical transformations preserve the form of the Poisson brackets.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
-Problem: Show that the angular momentum components satisfy the Poisson bracket relation ${L_x, L_y} = L_z$.&lt;br /&gt;
-Solution:&lt;br /&gt;
-Recall that:&lt;br /&gt;
-\(L_x = yp_z - zp_y, \quad L_y = zp_x - xp_z, \quad L_z = xp_y - yp_x\)&lt;br /&gt;
-Compute ${L_x, L_y}$ using the definition of the Poisson bracket:&lt;/p&gt;
-
-\[\{L_x, L_y\} = \{yp_z - zp_y, zp_x - xp_z\}\]
-
-    &lt;p&gt;Calculating term by term and using the fundamental brackets, we get:&lt;/p&gt;
-
-\[\{L_x, L_y\} = xp_y - yp_x = L_z\]
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
-Problem: Verify that $H = \frac{p^2}{2m} + V(q)$ is conserved using Poisson bracket.&lt;br /&gt;
-Solution:&lt;br /&gt;
-Compute $\dot{H}$:
-\(\dot{H} = \{H, H\} + \frac{\partial H}{\partial t}\)&lt;/p&gt;
-
-    &lt;p&gt;Since ${H, H} = 0$ and if $H$ has no explicit time dependence, then:&lt;/p&gt;
-
-\[\dot{H} = 0 \Rightarrow H \text{ is conserved}\]
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Poisson brackets provide a compact and general formalism to express time evolution in Hamiltonian mechanics.&lt;/li&gt;
-  &lt;li&gt;They are fundamental to understanding symmetries, conservation laws, and canonical transformations.&lt;/li&gt;
-  &lt;li&gt;Poisson’s theorems play a central role in identifying constants of motion and maintaining the structure of mechanics under transformations.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Short Answer:
-    &lt;ol&gt;
-      &lt;li&gt;Define the Poisson bracket. What does it signify in Hamiltonian mechanics?&lt;/li&gt;
-      &lt;li&gt;State and explain the Jacobi identity for Poisson brackets.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Numerical:
-    &lt;ol&gt;
-      &lt;li&gt;Given $f = q^2p$ and $g = qp^2$, compute ${f, g}$.&lt;/li&gt;
-      &lt;li&gt;For a simple harmonic oscillator with $H = \frac{p^2}{2m} + \frac{1}{2}m\omega^2q^2$, compute ${q, H}$ and ${p, H}$.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;MCQs:
-    &lt;ol&gt;
-      &lt;li&gt;Which of the following is a property of the Poisson bracket?
-        &lt;ul&gt;
-          &lt;li&gt;(A) Commutativity&lt;/li&gt;
-          &lt;li&gt;(B) Antisymmetry&lt;/li&gt;
-          &lt;li&gt;(C) Associativity&lt;/li&gt;
-          &lt;li&gt;(D) Distributivity&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (B)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;If ${f, H} = 0$, then:
-        &lt;ul&gt;
-          &lt;li&gt;(A) $f$ is conserved in time&lt;/li&gt;
-          &lt;li&gt;(B) $f$ is zero&lt;/li&gt;
-          &lt;li&gt;(C) $f$ is a function of time only&lt;/li&gt;
-          &lt;li&gt;(D) $f$ must be the Hamiltonian&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (A)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives:</summary></entry><entry><title type="html">Small Oscillations</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html" rel="alternate" type="text/html" title="Small Oscillations" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html">&lt;h1 id=&quot;small-oscillations-normal-modes-of-vibration-coupled-oscillators&quot;&gt;Small Oscillations, Normal Modes of Vibration, Coupled Oscillators&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation</summary></entry><entry><title type="html">Small Oscillations</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html" rel="alternate" type="text/html" title="Small Oscillations" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html">&lt;h1 id=&quot;small-oscillations-normal-modes-of-vibration-coupled-oscillators&quot;&gt;Small Oscillations, Normal Modes of Vibration, Coupled Oscillators&lt;/h1&gt;
 
 &lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -1577,143 +1594,4 @@ The effective force is:&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Small Oscillations, Normal Modes of Vibration, Coupled Oscillators</summary></entry><entry><title type="html">Plasma Oscillations and Plasmons</title><link href="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html" rel="alternate" type="text/html" title="Plasma Oscillations and Plasmons" /><published>2025-05-22T09:47:26+05:30</published><updated>2025-05-22T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/22/Plasma</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/22/Plasma.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Understand what plasma oscillations are and how they arise.&lt;/li&gt;
-  &lt;li&gt;Define plasmons and relate them to quantized plasma oscillations.&lt;/li&gt;
-  &lt;li&gt;Derive the plasma frequency and appreciate its physical significance.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;key-concepts--definitions&quot;&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Plasma&lt;/strong&gt;: A quasi-neutral gas of charged and neutral particles which exhibits collective behavior.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Plasma Oscillation&lt;/strong&gt;: A coherent oscillation of the electron density in a conducting medium relative to the positive ion background.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Plasmon&lt;/strong&gt;: A quantum of plasma oscillation, representing the collective excitation of free electron gas.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;theory-and-explanation&quot;&gt;&lt;strong&gt;Theory and Explanation&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Plasma is often referred to as the “fourth state of matter” where electrons are not bound to atoms, and instead, they form a gas of free-moving charges. When these electrons are disturbed from their equilibrium position, they experience a restoring electrostatic force due to separation from the positively charged ion background. This leads to collective oscillations known as &lt;strong&gt;plasma oscillations&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;derivation-of-plasma-frequency&quot;&gt;Derivation of Plasma Frequency&lt;/h3&gt;
-
-&lt;p&gt;Consider a uniform background of positive ions with number density $n_0$, and electrons of the same density but mobile. Assume electrons are displaced slightly by a distance $x$ from their equilibrium position. This creates an electric field due to charge separation.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/images/Lecture/plasma-oscillation.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:50%;&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Let $-e$ be the charge of an electron and $m$ be its mass. The displaced electron sheet creates a restoring electric field $E$ given by:&lt;/p&gt;
-
-\[E = \frac{n_0 e x}{\varepsilon_0}\]
-
-&lt;p&gt;The force on an electron is then:&lt;/p&gt;
-
-\[F = -e E = -\frac{n_0 e^2 x}{\varepsilon_0}\]
-
-&lt;p&gt;Using Newton’s second law:&lt;/p&gt;
-
-\[m \frac{d^2 x}{dt^2} = -\frac{n_0 e^2 x}{\varepsilon_0}\]
-
-&lt;p&gt;This is the equation of simple harmonic motion with angular frequency $\omega_p$:&lt;/p&gt;
-
-\[\omega_p^2 = \frac{n_0 e^2}{\varepsilon_0 m}\]
-
-&lt;p&gt;Therefore, the &lt;strong&gt;plasma frequency&lt;/strong&gt; is:&lt;/p&gt;
-
-\[\omega_p = \sqrt{\frac{n_0 e^2}{\varepsilon_0 m}}\]
-
-&lt;p&gt;This is the natural frequency at which the electron gas oscillates around its equilibrium position in the plasma.&lt;/p&gt;
-
-&lt;h3 id=&quot;plasmons&quot;&gt;Plasmons&lt;/h3&gt;
-
-&lt;p&gt;Plasmons are the quantum mechanical counterpart of plasma oscillations. Just as photons are quanta of electromagnetic waves, plasmons are quanta of these collective oscillations.&lt;/p&gt;
-
-&lt;p&gt;In quantum theory, the energy associated with a plasmon is:&lt;/p&gt;
-
-\[E = \hbar \omega_p\]
-
-&lt;p&gt;Plasmons play a key role in the optical properties of metals and are used in fields like plasmonics and nanophotonics.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;solved-examples&quot;&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
-&lt;strong&gt;Problem&lt;/strong&gt;: Calculate the plasma frequency of electrons in a metal with electron density $n_0 = 8.5 \times 10^{28} \ \text{electrons/m}^3$.&lt;br /&gt;
-&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
-Using the formula:&lt;br /&gt;
-\(\omega_p = \sqrt{\frac{n_0 e^2}{\varepsilon_0 m}}\)&lt;br /&gt;
-Plugging in values:&lt;br /&gt;
-$n_0 = 8.5 \times 10^{28}$&lt;br /&gt;
-$e = 1.6 \times 10^{-19} \ \text{C}$&lt;br /&gt;
-$\varepsilon_0 = 8.85 \times 10^{-12} \ \text{F/m}$&lt;br /&gt;
-$m = 9.11 \times 10^{-31} \ \text{kg}$&lt;/p&gt;
-
-\[\omega_p = \sqrt{\frac{(8.5 \times 10^{28})(1.6 \times 10^{-19})^2}{(8.85 \times 10^{-12})(9.11 \times 10^{-31})}} \approx 1.64 \times 10^{16} \ \text{rad/s}\]
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
-&lt;strong&gt;Problem&lt;/strong&gt;: What is the energy of a plasmon with plasma frequency $\omega_p = 1.5 \times 10^{16} \ \text{rad/s}$?&lt;br /&gt;
-&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
-\(E = \hbar \omega_p\)&lt;br /&gt;
-$\hbar = 1.055 \times 10^{-34} \ \text{J·s}$&lt;br /&gt;
-\(E = (1.055 \times 10^{-34}) (1.5 \times 10^{16}) = 1.58 \times 10^{-18} \ \text{J}\)&lt;br /&gt;
-In eV:&lt;br /&gt;
-\(E = \frac{1.58 \times 10^{-18}}{1.6 \times 10^{-19}} \approx 9.87 \ \text{eV}\)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;important-points--summary&quot;&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Plasma oscillations are collective movements of electron density in a plasma.&lt;/li&gt;
-  &lt;li&gt;The plasma frequency depends only on the electron density and is independent of the wavevector.&lt;/li&gt;
-  &lt;li&gt;Plasmons are quantized plasma oscillations and are important in understanding optical and electronic properties of materials.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;practice-questions&quot;&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;short-answer&quot;&gt;Short Answer:&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;What is plasma and how is it different from a neutral gas?&lt;/li&gt;
-  &lt;li&gt;Define the term “plasma frequency” and explain its physical significance.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;numerical&quot;&gt;Numerical:&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Calculate the plasma frequency of a semiconductor with electron density $n = 10^{21} \ \text{m}^{-3}$.&lt;/li&gt;
-  &lt;li&gt;What is the plasmon energy in a metal with $\omega_p = 2.0 \times 10^{16} \ \text{rad/s}$?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;mcqs&quot;&gt;MCQs:&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;The plasma frequency $\omega_p$:
-    &lt;ul&gt;
-      &lt;li&gt;(a) increases with increasing mass of electrons&lt;/li&gt;
-      &lt;li&gt;(b) decreases with increasing electron density&lt;/li&gt;
-      &lt;li&gt;(c) increases with increasing electron density&lt;/li&gt;
-      &lt;li&gt;(d) is independent of electron density&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (c)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Plasmons are:
-    &lt;ul&gt;
-      &lt;li&gt;(a) individual electrons&lt;/li&gt;
-      &lt;li&gt;(b) phonons in a crystal lattice&lt;/li&gt;
-      &lt;li&gt;(c) quantum of electromagnetic waves&lt;/li&gt;
-      &lt;li&gt;(d) quanta of plasma oscillations&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (d)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives:</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Small Oscillations, Normal Modes of Vibration, Coupled Oscillators</summary></entry></feed>
