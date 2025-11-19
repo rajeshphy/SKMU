@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-19T12:52:58+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Resistors</title><link href="http://localhost:4000/SKMU/2025/11/19/Resistors.html" rel="alternate" type="text/html" title="Resistors" /><published>2025-11-19T00:00:00+05:30</published><updated>2025-11-19T00:00:00+05:30</updated><id>http://localhost:4000/SKMU/2025/11/19/Resistors</id><content type="html" xml:base="http://localhost:4000/SKMU/2025/11/19/Resistors.html">&lt;h1 id=&quot;resistors-types-characteristics-and-colour-coding&quot;&gt;Resistors: Types, Characteristics, and Colour Coding&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-19T12:58:11+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Resistors</title><link href="http://localhost:4000/SKMU/2025/11/19/Resistors.html" rel="alternate" type="text/html" title="Resistors" /><published>2025-11-19T00:00:00+05:30</published><updated>2025-11-19T00:00:00+05:30</updated><id>http://localhost:4000/SKMU/2025/11/19/Resistors</id><content type="html" xml:base="http://localhost:4000/SKMU/2025/11/19/Resistors.html">&lt;h1 id=&quot;resistors-types-characteristics-and-colour-coding&quot;&gt;Resistors: Types, Characteristics, and Colour Coding&lt;/h1&gt;
 
 &lt;p&gt;A resistor is one of the most fundamental passive components used in electrical and electronic circuits. Its primary function is to oppose or limit the flow of electric current, thereby controlling voltage levels, dividing currents, reducing power, and protecting sensitive components. Resistors operate based on the principle that certain materials inherently resist the motion of electrons. This resistance is quantified in ohms (Ω), named after Georg Simon Ohm, who formulated the foundational relationship among voltage (V), current (I), and resistance (R).&lt;/p&gt;
 
@@ -94,8 +94,8 @@ Red (2), Violet (7), Yellow ($10^4$), Gold (±5%)&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;Vector Algebra &amp;amp; Calculus
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://rajeshphy.github.io/SKMU/physics/mathematics/2022/11/03/JET-Paper-2-L1.html&quot;&gt;Vector algebra: addition, scalar and vector products, triple products&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://rajeshphy.github.io/SKMU/physics/mathematics/2022/11/06/JET-Paper-2-L2.html&quot;&gt;Gradient, divergence, and curl — physical interpretation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/SKMU/physics/mathematics/2022/11/03/JET-Paper-2-L1.html&quot;&gt;Vector algebra: addition, scalar and vector products, triple products&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/SKMU/physics/mathematics/2022/11/06/JET-Paper-2-L2.html&quot;&gt;Gradient, divergence, and curl — physical interpretation&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;Line, surface, and volume integrals&lt;/li&gt;
       &lt;li&gt;Integral theorems: Gauss, Green, and Stokes&lt;/li&gt;
       &lt;li&gt;Scalar and vector potentials; Laplacian operator&lt;/li&gt;
@@ -189,7 +189,7 @@ Red (2), Violet (7), Yellow ($10^4$), Gold (±5%)&lt;/p&gt;
   &lt;li&gt;Collision in three dimensions&lt;/li&gt;
   &lt;li&gt;α-scattering and its theoretical interpretation&lt;/li&gt;
   &lt;li&gt;Laboratory vs. Centre-of-Mass reference frames&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://rajeshphy.github.io/SKMU/lecture/2024/07/12/Scattering.html&quot;&gt;Scattering&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/SKMU/lecture/2024/07/12/Scattering.html&quot;&gt;Scattering&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Scattering amplitude&lt;/li&gt;
   &lt;li&gt;Differential scattering cross section&lt;/li&gt;
   &lt;li&gt;Total scattering cross section&lt;/li&gt;
