@@ -12,9 +12,11 @@ tags: MSc
 The study of rotational, vibrational, and electronic spectra of diatomic molecules is a central part of molecular spectroscopy, offering deep insight into the quantized energy structure of molecules. Unlike atoms—which exhibit only electronic transitions—molecules possess additional degrees of freedom associated with rotation and vibration. These extra degrees of freedom produce distinct regions in the electromagnetic spectrum, each corresponding to well-defined transitions governed by quantum mechanics.
 
 For a diatomic molecule, the nuclei are bound by an interatomic potential that allows them to oscillate (vibrate) about an equilibrium separation and rotate about their center of mass. As a consequence, the total molecular energy is composed of electronic, vibrational, and rotational contributions, typically expressed as  
+
 $$
 E_{\text{total}} = E_{\text{electronic}} + E_{\text{vibrational}} + E_{\text{rotational}}.
 $$
+
 Each component is quantized, meaning that the molecule can only occupy discrete energy levels. Transitions among these quantized levels create characteristic spectra observable in different regions: rotational spectra usually occur in the microwave region, vibrational spectra in the infrared region, and electronic spectra in the visible and ultraviolet regions.
 
 **Rotational spectra** originate from transitions between discrete rotational energy levels of the rigid or non-rigid rotor. These transitions obey selection rules and provide essential information about the bond length and moment of inertia of the molecule. The spectra consist of evenly spaced lines, a direct consequence of quantized angular momentum.
