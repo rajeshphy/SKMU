@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Resistors"
+date: 2025-11-19 10:30:00 +0530
+categories: lecture
+comments: true
+tags: MSc 
+---
+
 # Resistors: Types, Characteristics, and Colour Coding
 
 A resistor is one of the most fundamental passive components used in electrical and electronic circuits. Its primary function is to oppose or limit the flow of electric current, thereby controlling voltage levels, dividing currents, reducing power, and protecting sensitive components. Resistors operate based on the principle that certain materials inherently resist the motion of electrons. This resistance is quantified in ohms (Ω), named after Georg Simon Ohm, who formulated the foundational relationship among voltage (V), current (I), and resistance (R).

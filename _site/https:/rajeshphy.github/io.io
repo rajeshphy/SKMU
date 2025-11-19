@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-19T12:58:11+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Resistors</title><link href="http://localhost:4000/SKMU/2025/11/19/Resistors.html" rel="alternate" type="text/html" title="Resistors" /><published>2025-11-19T00:00:00+05:30</published><updated>2025-11-19T00:00:00+05:30</updated><id>http://localhost:4000/SKMU/2025/11/19/Resistors</id><content type="html" xml:base="http://localhost:4000/SKMU/2025/11/19/Resistors.html">&lt;h1 id=&quot;resistors-types-characteristics-and-colour-coding&quot;&gt;Resistors: Types, Characteristics, and Colour Coding&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-19T13:09:48+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Resistors</title><link href="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html" rel="alternate" type="text/html" title="Resistors" /><published>2025-11-19T10:30:00+05:30</published><updated>2025-11-19T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/19/Resistors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html">&lt;h1 id=&quot;resistors-types-characteristics-and-colour-coding&quot;&gt;Resistors: Types, Characteristics, and Colour Coding&lt;/h1&gt;
 
 &lt;p&gt;A resistor is one of the most fundamental passive components used in electrical and electronic circuits. Its primary function is to oppose or limit the flow of electric current, thereby controlling voltage levels, dividing currents, reducing power, and protecting sensitive components. Resistors operate based on the principle that certain materials inherently resist the motion of electrons. This resistance is quantified in ohms (Ω), named after Georg Simon Ohm, who formulated the foundational relationship among voltage (V), current (I), and resistance (R).&lt;/p&gt;
 
@@ -89,7 +89,97 @@ fourth band gives tolerance.&lt;/p&gt;
 &lt;p&gt;Example:&lt;br /&gt;
 Red (2), Violet (7), Yellow ($10^4$), Gold (±5%)&lt;/p&gt;
 
-\[R = (10 \times 2 + 7) \times 10^{4} = 27 \times 10^{4} = 270\,000 \ \Omega = 270 \text{k}\Omega \ (\pm 5\%)\]</content><author><name>Rajesh Kumar</name></author><summary type="html">Resistors: Types, Characteristics, and Colour Coding</summary></entry><entry><title type="html">JET - Physical Science</title><link href="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html" rel="alternate" type="text/html" title="JET - Physical Science" /><published>2025-11-03T10:30:00+05:30</published><updated>2025-11-03T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/03/JET</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html">&lt;p&gt;These topics will be covered here, and the reading materials can be accessed by clicking on the hyperlinks.&lt;/p&gt;
+\[R = (10 \times 2 + 7) \times 10^{4} = 27 \times 10^{4} = 270\,000 \ \Omega = 270 \text{k}\Omega \ (\pm 5\%)\]</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">Resistors: Types, Characteristics, and Colour Coding</summary></entry><entry><title type="html">Molecular Spectra</title><link href="http://localhost:4000/SKMU/lecture/2025/11/04/Molecular-Spectra.html" rel="alternate" type="text/html" title="Molecular Spectra" /><published>2025-11-04T10:30:00+05:30</published><updated>2025-11-04T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/04/Molecular-Spectra</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/04/Molecular-Spectra.html">&lt;h1 id=&quot;rotational-vibrational-and-electronic-spectra-of-diatomic-molecules&quot;&gt;Rotational, Vibrational and Electronic Spectra of Diatomic Molecules&lt;/h1&gt;
+
+&lt;p&gt;The study of rotational, vibrational, and electronic spectra of diatomic molecules is a central part of molecular spectroscopy, offering deep insight into the quantized energy structure of molecules. Unlike atoms—which exhibit only electronic transitions—molecules possess additional degrees of freedom associated with rotation and vibration. These extra degrees of freedom produce distinct regions in the electromagnetic spectrum, each corresponding to well-defined transitions governed by quantum mechanics.&lt;/p&gt;
+
+&lt;p&gt;For a diatomic molecule, the nuclei are bound by an interatomic potential that allows them to oscillate (vibrate) about an equilibrium separation and rotate about their center of mass. As a consequence, the total molecular energy is composed of electronic, vibrational, and rotational contributions, typically expressed as&lt;br /&gt;
+\(E_{\text{total}} = E_{\text{electronic}} + E_{\text{vibrational}} + E_{\text{rotational}}.\)
+Each component is quantized, meaning that the molecule can only occupy discrete energy levels. Transitions among these quantized levels create characteristic spectra observable in different regions: rotational spectra usually occur in the microwave region, vibrational spectra in the infrared region, and electronic spectra in the visible and ultraviolet regions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Rotational spectra&lt;/strong&gt; originate from transitions between discrete rotational energy levels of the rigid or non-rigid rotor. These transitions obey selection rules and provide essential information about the bond length and moment of inertia of the molecule. The spectra consist of evenly spaced lines, a direct consequence of quantized angular momentum.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vibrational spectra&lt;/strong&gt; arise from transitions between vibrational levels of diatomic molecules, approximated initially by the harmonic oscillator model. Real molecules deviate from harmonicity, necessitating an anharmonic oscillator description that explains phenomena such as overtone transitions and the finite dissociation energy. Vibrational spectroscopy allows determination of force constants, equilibrium bond lengths, and anharmonicity parameters.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Electronic spectra&lt;/strong&gt; involve transitions of electrons between molecular electronic states, usually accompanied by simultaneous vibrational and rotational transitions. This leads to the formation of complex band structures known as &lt;em&gt;vibronic&lt;/em&gt; and &lt;em&gt;rovibronic&lt;/em&gt; spectra. Electronic transitions reveal deeper details of molecular potential energy curves and dissociation energies.&lt;/p&gt;
+
+&lt;p&gt;Understanding rotational, vibrational, and electronic spectra is fundamental in physics and chemistry because these spectra provide real-time molecular fingerprints. They reveal physical constants, structural properties, bonding strength, thermodynamic parameters, and even the dynamics of chemical reactions. This makes molecular spectroscopy invaluable not only for academic research but also in astrophysics, atmospheric science, plasma diagnostics, material characterization, and environmental monitoring.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Potential energy curve of a diatomic molecule showing rotational, vibrational, and electronic energy levels.&lt;/em&gt;&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Quantum/Molecular-Spectra.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;1-rotational-spectra-quantum-rigid-rotor&quot;&gt;1. Rotational Spectra: Quantum Rigid Rotor&lt;/h3&gt;
+&lt;p&gt;The rotational motion of a diatomic molecule can be modeled as a rigid rotor with moment of inertia:
+\(I = \mu r_0^2,\)
+where&lt;br /&gt;
+$ \mu = \frac{m_1 m_2}{m_1 + m_2} $ is the reduced mass&lt;br /&gt;
+and $ r_0 $ is the equilibrium bond length.&lt;/p&gt;
+
+&lt;p&gt;The rotational energy levels are:
+\(E_J = \frac{\hbar^2}{2I} J(J+1),\)
+where $ J = 0, 1, 2, \dots $.&lt;/p&gt;
+
+&lt;p&gt;The selection rule for rotational transitions is:
+\(\Delta J = \pm 1.\)&lt;/p&gt;
+
+&lt;p&gt;Thus the transition energy becomes:
+\(\Delta E = E_{J+1} - E_J = \frac{\hbar^2}{2I}[(J+1)(J+2) - J(J+1)] = \frac{\hbar^2}{I}(J+1).\)&lt;/p&gt;
+
+&lt;p&gt;In terms of wavenumber:
+\(\tilde{\nu}_{J \rightarrow J+1} = 2B(J+1),\)
+where
+\(B = \frac{h}{8\pi^2 c I}.\)&lt;/p&gt;
+
+&lt;p&gt;This produces an evenly spaced spectral line series.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-vibrational-spectra-harmonic-and-anharmonic-oscillator&quot;&gt;2. Vibrational Spectra: Harmonic and Anharmonic Oscillator&lt;/h3&gt;
+
+&lt;h4 id=&quot;harmonic-oscillator-approximation&quot;&gt;Harmonic oscillator approximation&lt;/h4&gt;
+&lt;p&gt;The vibrational energy levels of a diatomic molecule are:
+\(E_v = \left(v + \frac{1}{2}\right)\hbar \omega_0,\)
+where $ v = 0, 1, 2, \ldots $,&lt;br /&gt;
+and $ \omega_0 = \sqrt{\frac{k}{\mu}} $ with $ k $ being the force constant.&lt;/p&gt;
+
+&lt;p&gt;Selection rule:
+\(\Delta v = \pm 1.\)&lt;/p&gt;
+
+&lt;h4 id=&quot;anharmonic-oscillator-correction&quot;&gt;Anharmonic oscillator correction&lt;/h4&gt;
+&lt;p&gt;Real molecules deviate from perfect harmonicity, requiring:
+\(E_v = \left(v + \frac{1}{2}\right)\hbar \omega_0 - \left(v + \frac{1}{2}\right)^2\hbar \omega_0 x_e,\)
+where $ x_e $ is the anharmonicity constant.&lt;/p&gt;
+
+&lt;p&gt;The transition wavenumber becomes:
+\(\tilde{\nu}_{v \rightarrow v+1} = \omega_0 (1 - 2x_e (v+1)).\)&lt;/p&gt;
+
+&lt;p&gt;This predicts decreasing line spacing and the existence of overtones.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-electronic-spectra-and-vibronic-structure&quot;&gt;3. Electronic Spectra and Vibronic Structure&lt;/h3&gt;
+
+&lt;p&gt;Electronic energy transitions occur between electronic potential curves:
+\(E_{\text{el}} \gg E_{\text{vib}} \gg E_{\text{rot}}.\)&lt;/p&gt;
+
+&lt;p&gt;Using the Born-Oppenheimer approximation:
+\(E_{\text{total}} = E_{\text{el}} + E_{\text{vib}} + E_{\text{rot}}.\)&lt;/p&gt;
+
+&lt;p&gt;During an electronic transition, the vibrational and rotational structures superimpose, giving &lt;strong&gt;vibronic&lt;/strong&gt; and &lt;strong&gt;rovibronic&lt;/strong&gt; bands.&lt;/p&gt;
+
+&lt;p&gt;The Franck–Condon principle describes intensity distribution:
+\(I_{v&apos;v&apos;&apos;} \propto |\langle \psi_{v&apos;} | \psi_{v&apos;&apos;} \rangle|^2.\)&lt;/p&gt;
+
+&lt;p&gt;Transition probability depends on the overlap of vibrational wavefunctions.&lt;/p&gt;
+
+&lt;h2 id=&quot;corollaries--deductions--conclusions&quot;&gt;Corollaries / Deductions / Conclusions&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Rotational spectra provide direct measurement of bond length through moment of inertia, enabling accurate molecular structural determination.&lt;/li&gt;
+  &lt;li&gt;Vibrational spectra reveal force constants, anharmonicity parameters, and molecular stability, essential for understanding chemical bonding.&lt;/li&gt;
+  &lt;li&gt;The superposition of rotational and vibrational transitions on electronic transitions produces complex band spectra, offering deep insight into molecular potential energy surfaces.&lt;/li&gt;
+  &lt;li&gt;Selection rules for rotational, vibrational, and electronic transitions allow prediction of spectral patterns and intensities.&lt;/li&gt;
+  &lt;li&gt;Molecular spectra serve as unique fingerprints, allowing identification of molecules in laboratory, atmospheric, astrophysical, and plasma environments.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">Rotational, Vibrational and Electronic Spectra of Diatomic Molecules</summary></entry><entry><title type="html">JET - Physical Science</title><link href="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html" rel="alternate" type="text/html" title="JET - Physical Science" /><published>2025-11-03T10:30:00+05:30</published><updated>2025-11-03T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/03/JET</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html">&lt;p&gt;These topics will be covered here, and the reading materials can be accessed by clicking on the hyperlinks.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Vector Algebra &amp;amp; Calculus
@@ -171,7 +261,7 @@ Red (2), Violet (7), Yellow ($10^4$), Gold (±5%)&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;(Paper PHY-S-05T – Unit 1)&lt;/em&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://rajeshphy.github.io/SKMU/2025/11/19/Resistors.html&quot;&gt;Resistors: types, characteristics, and colour coding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/SKMU/lecture/2025/11/19/Resistors.html&quot;&gt;Resistors: types, characteristics, and colour coding&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Capacitors: types, characteristics, and colour coding&lt;/li&gt;
   &lt;li&gt;Star and delta connections of resistors and capacitors&lt;/li&gt;
   &lt;li&gt;Chokes and transformers&lt;/li&gt;
@@ -203,9 +293,7 @@ Red (2), Violet (7), Yellow ($10^4$), Gold (±5%)&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;(Paper PHY-C-07 – Unit 2)&lt;/em&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Rotational spectra of diatomic molecules&lt;/li&gt;
-  &lt;li&gt;Vibrational spectra of diatomic molecules&lt;/li&gt;
-  &lt;li&gt;Electronic spectra of diatomic molecules&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/SKMU/lecture/2025/11/04/Molecular-Spectra.html&quot;&gt;Rotational, Vibrational &amp;amp; Electronic spectra of diatomic molecules&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Vibrational analysis of band systems&lt;/li&gt;
   &lt;li&gt;Franck–Condon principle&lt;/li&gt;
   &lt;li&gt;Infrared spectra of diatomic molecules&lt;/li&gt;
@@ -1415,183 +1503,4 @@ Thus, the band gap is approximately equal to the Fourier component of the potent
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation</summary></entry><entry><title type="html">Small Oscillations</title><link href="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html" rel="alternate" type="text/html" title="Small Oscillations" /><published>2025-05-23T09:47:26+05:30</published><updated>2025-05-23T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/23/Small-Oscillation.html">&lt;h1 id=&quot;small-oscillations-normal-modes-of-vibration-coupled-oscillators&quot;&gt;Small Oscillations, Normal Modes of Vibration, Coupled Oscillators&lt;/h1&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Understand the concept of small oscillations and linearization near equilibrium.&lt;/li&gt;
-  &lt;li&gt;Learn the definition and significance of normal modes in multi-degree systems.&lt;/li&gt;
-  &lt;li&gt;Analyze coupled oscillators and determine their normal frequencies and mode shapes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Small Oscillations&lt;/strong&gt;: Oscillations near equilibrium where the restoring forces can be approximated as linear.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Normal Modes&lt;/strong&gt;: Independent patterns of oscillation in which all parts of the system oscillate at the same frequency.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Coupled Oscillators&lt;/strong&gt;: Systems where two or more oscillating components influence each other through interaction forces.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;small-oscillations&quot;&gt;Small Oscillations&lt;/h3&gt;
-
-&lt;p&gt;In mechanical systems, small oscillations occur when the system is displaced slightly from its equilibrium position. If the displacements are small, we can use a &lt;strong&gt;Taylor expansion&lt;/strong&gt; to approximate the potential energy:&lt;/p&gt;
-
-&lt;p&gt;Let the potential energy near equilibrium be:&lt;/p&gt;
-
-\[V(q_1, q_2, ..., q_n) \approx V_0 + \frac{1}{2} \sum_{i,j} V_{ij} q_i q_j\]
-
-&lt;p&gt;Here, $q_i$ are the generalized coordinates, and 
-\(V_{ij} = \left.\frac{\partial^2 V}{\partial q_i \partial q_j}\right|_{\text{eq}}\) 
-is the Hessian matrix of second derivatives evaluated at equilibrium.&lt;/p&gt;
-
-&lt;p&gt;The kinetic energy is usually:&lt;/p&gt;
-
-\[T = \frac{1}{2} \sum_{i,j} T_{ij} \dot{q}_i \dot{q}_j\]
-
-&lt;p&gt;The Lagrangian becomes:&lt;/p&gt;
-
-\[L = T - V = \frac{1}{2} \sum_{i,j} \left( T_{ij} \dot{q}_i \dot{q}_j - V_{ij} q_i q_j \right)\]
-
-&lt;p&gt;This leads to the equations of motion:&lt;/p&gt;
-
-\[\sum_j \left( T_{ij} \ddot{q}_j + V_{ij} q_j \right) = 0\]
-
-&lt;h3 id=&quot;normal-modes-of-vibration&quot;&gt;Normal Modes of Vibration&lt;/h3&gt;
-
-&lt;p&gt;We look for solutions of the form:&lt;/p&gt;
-
-\[q_j(t) = a_j e^{i\omega t}\]
-
-&lt;p&gt;Substituting into the equation of motion gives:&lt;/p&gt;
-
-\[\sum_j \left( -\omega^2 T_{ij} + V_{ij} \right) a_j = 0\]
-
-&lt;p&gt;This is a &lt;strong&gt;generalized eigenvalue problem&lt;/strong&gt;:&lt;/p&gt;
-
-\[\left( V - \omega^2 T \right) \vec{a} = 0\]
-
-&lt;p&gt;Non-trivial solutions exist when:&lt;/p&gt;
-
-\[\det(V - \omega^2 T) = 0\]
-
-&lt;p&gt;Solving this gives the &lt;strong&gt;normal frequencies&lt;/strong&gt; $\omega_k$ and associated &lt;strong&gt;normal modes&lt;/strong&gt; $\vec{a}^{(k)}$.&lt;/p&gt;
-
-&lt;h3 id=&quot;coupled-oscillators&quot;&gt;Coupled Oscillators&lt;/h3&gt;
-
-&lt;p&gt;Consider two identical masses $m$ connected by three springs (spring constant $k$ for outer and $k’$ for middle spring):&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/images/Lecture/oscillations.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:50%;&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Let $x_1$ and $x_2$ be the displacements from equilibrium. The Lagrangian is:&lt;/p&gt;
-
-\[T = \frac{1}{2} m \dot{x}_1^2 + \frac{1}{2} m \dot{x}_2^2\]
-
-\[V = \frac{1}{2} k x_1^2 + \frac{1}{2} k x_2^2 + \frac{1}{2} k&apos; (x_1 - x_2)^2\]
-
-&lt;p&gt;Expanding the potential:&lt;/p&gt;
-
-\[V = \frac{1}{2}(k + k&apos;) x_1^2 + \frac{1}{2}(k + k&apos;) x_2^2 - k&apos; x_1 x_2\]
-
-&lt;p&gt;Equations of motion:&lt;/p&gt;
-
-\[m \ddot{x}_1 = -(k + k&apos;) x_1 + k&apos; x_2\]
-
-\[m \ddot{x}_2 = k&apos; x_1 - (k + k&apos;) x_2\]
-
-&lt;p&gt;Assume solutions:&lt;/p&gt;
-
-\[x_j(t) = a_j e^{i\omega t}\]
-
-&lt;p&gt;We get:&lt;/p&gt;
-
-\[\begin{bmatrix}
-k + k&apos; - m\omega^2 &amp;amp; -k&apos; \\
--k&apos; &amp;amp; k + k&apos; - m\omega^2
-\end{bmatrix}
-\begin{bmatrix}
-a_1 \\
-a_2
-\end{bmatrix}
-= 0\]
-
-&lt;p&gt;Solving the determinant gives:&lt;/p&gt;
-
-\[\omega_1 = \sqrt{\frac{k}{m}}, \quad \omega_2 = \sqrt{\frac{k + 2k&apos;}{m}}\]
-
-&lt;p&gt;Corresponding normal modes:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Mode 1: $a_1 = a_2$ (in-phase)&lt;/li&gt;
-  &lt;li&gt;Mode 2: $a_1 = -a_2$ (out-of-phase)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
-Problem: Two equal masses connected by a spring $k’$ and attached to walls by springs $k$. Find the normal modes.&lt;br /&gt;
-Solution:&lt;br /&gt;
-This is similar to the coupled oscillator case above. The normal frequencies are:&lt;/p&gt;
-
-\[\omega_1 = \sqrt{\frac{k}{m}}, \quad \omega_2 = \sqrt{\frac{3k}{m}}\]
-
-    &lt;p&gt;Modes: $x_1 = x_2$ and $x_1 = -x_2$.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
-Problem: A mass $m$ connected to two fixed walls with identical springs $k$. Find the frequency of oscillation.&lt;br /&gt;
-Solution:&lt;br /&gt;
-The effective force is:&lt;/p&gt;
-
-\[F = -2k x \Rightarrow m \ddot{x} = -2k x\]
-
-    &lt;p&gt;So:&lt;/p&gt;
-
-\[\omega = \sqrt{\frac{2k}{m}}\]
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Small oscillations allow linear approximation of complex systems near equilibrium.&lt;/li&gt;
-  &lt;li&gt;Normal modes simplify multi-body motion into independent harmonic oscillators.&lt;/li&gt;
-  &lt;li&gt;In coupled oscillators, interaction between bodies leads to splitting of frequencies.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Short Answer:
-    &lt;ol&gt;
-      &lt;li&gt;What are normal modes in a mechanical system?&lt;/li&gt;
-      &lt;li&gt;Define small oscillations and explain their significance in classical mechanics.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Numerical:
-    &lt;ol&gt;
-      &lt;li&gt;Two masses $m$ connected by a spring $k’$ and to walls with springs $k$. Find normal frequencies.&lt;/li&gt;
-      &lt;li&gt;A system has $T = \frac{1}{2}m (\dot{x}^2 + \dot{y}^2)$ and $V = \frac{1}{2}k (x^2 + y^2 + 2xy)$. Find the normal modes.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;MCQs:
-    &lt;ol&gt;
-      &lt;li&gt;In normal mode motion:
-        &lt;ul&gt;
-          &lt;li&gt;(A) All parts move with different frequencies&lt;/li&gt;
-          &lt;li&gt;(B) All parts move independently&lt;/li&gt;
-          &lt;li&gt;(C) All parts move with the same frequency&lt;/li&gt;
-          &lt;li&gt;(D) Motion is always in phase&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (C)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;The condition for small oscillations to be valid is:
-        &lt;ul&gt;
-          &lt;li&gt;(A) Displacement is arbitrary&lt;/li&gt;
-          &lt;li&gt;(B) Restoring force is constant&lt;/li&gt;
-          &lt;li&gt;(C) Displacement is near equilibrium and force is approximately linear&lt;/li&gt;
-          &lt;li&gt;(D) Acceleration is zero&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (C)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Small Oscillations, Normal Modes of Vibration, Coupled Oscillators</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation</summary></entry></feed>
