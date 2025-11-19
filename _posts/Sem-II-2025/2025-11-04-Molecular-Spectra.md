@@ -123,7 +123,7 @@ $$
 Transition probability depends on the overlap of vibrational wavefunctions.
 
 
-## Corollaries / Deductions / Conclusions
+## Deductions 
 
 1. Rotational spectra provide direct measurement of bond length through moment of inertia, enabling accurate molecular structural determination.
 2. Vibrational spectra reveal force constants, anharmonicity parameters, and molecular stability, essential for understanding chemical bonding.
