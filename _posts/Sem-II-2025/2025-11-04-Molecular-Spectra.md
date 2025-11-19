@@ -23,7 +23,6 @@ Each component is quantized, meaning that the molecule can only occupy discrete 
 
 **Electronic spectra** involve transitions of electrons between molecular electronic states, usually accompanied by simultaneous vibrational and rotational transitions. This leads to the formation of complex band structures known as *vibronic* and *rovibronic* spectra. Electronic transitions reveal deeper details of molecular potential energy curves and dissociation energies.
 
-Understanding rotational, vibrational, and electronic spectra is fundamental in physics and chemistry because these spectra provide real-time molecular fingerprints. They reveal physical constants, structural properties, bonding strength, thermodynamic parameters, and even the dynamics of chemical reactions. This makes molecular spectroscopy invaluable not only for academic research but also in astrophysics, atmospheric science, plasma diagnostics, material characterization, and environmental monitoring.
 
  
 *Potential energy curve of a diatomic molecule showing rotational, vibrational, and electronic energy levels.*  
@@ -37,34 +36,41 @@ Understanding rotational, vibrational, and electronic spectra is fundamental in 
 
 ### 1. Rotational Spectra: Quantum Rigid Rotor
 The rotational motion of a diatomic molecule can be modeled as a rigid rotor with moment of inertia:
+
 $$
 I = \mu r_0^2,
 $$
+
 where  
 $ \mu = \frac{m_1 m_2}{m_1 + m_2} $ is the reduced mass  
 and $ r_0 $ is the equilibrium bond length.
 
 The rotational energy levels are:
+
 $$
 E_J = \frac{\hbar^2}{2I} J(J+1),
 $$
 where $ J = 0, 1, 2, \dots $.
 
 The selection rule for rotational transitions is:
+
 $$
 \Delta J = \pm 1.
 $$
 
 Thus the transition energy becomes:
+
 $$
 \Delta E = E_{J+1} - E_J = \frac{\hbar^2}{2I}[(J+1)(J+2) - J(J+1)] = \frac{\hbar^2}{I}(J+1).
 $$
 
 In terms of wavenumber:
+
 $$
 \tilde{\nu}_{J \rightarrow J+1} = 2B(J+1),
 $$
 where
+
 $$
 B = \frac{h}{8\pi^2 c I}.
 $$
@@ -76,6 +82,7 @@ This produces an evenly spaced spectral line series.
 
 #### Harmonic oscillator approximation
 The vibrational energy levels of a diatomic molecule are:
+
 $$
 E_v = \left(v + \frac{1}{2}\right)\hbar \omega_0,
 $$
@@ -83,18 +90,21 @@ where $ v = 0, 1, 2, \ldots $,
 and $ \omega_0 = \sqrt{\frac{k}{\mu}} $ with $ k $ being the force constant.
 
 Selection rule:
+
 $$
 \Delta v = \pm 1.
 $$
 
 #### Anharmonic oscillator correction
 Real molecules deviate from perfect harmonicity, requiring:
+
 $$
 E_v = \left(v + \frac{1}{2}\right)\hbar \omega_0 - \left(v + \frac{1}{2}\right)^2\hbar \omega_0 x_e,
 $$
 where $ x_e $ is the anharmonicity constant.
 
 The transition wavenumber becomes:
+
 $$
 \tilde{\nu}_{v \rightarrow v+1} = \omega_0 (1 - 2x_e (v+1)).
 $$
@@ -104,11 +114,13 @@ This predicts decreasing line spacing and the existence of overtones.
 ### 3. Electronic Spectra and Vibronic Structure
 
 Electronic energy transitions occur between electronic potential curves:
+
 $$
 E_{\text{el}} \gg E_{\text{vib}} \gg E_{\text{rot}}.
 $$
 
 Using the Born-Oppenheimer approximation:
+
 $$
 E_{\text{total}} = E_{\text{el}} + E_{\text{vib}} + E_{\text{rot}}.
 $$
@@ -116,6 +128,7 @@ $$
 During an electronic transition, the vibrational and rotational structures superimpose, giving **vibronic** and **rovibronic** bands.
 
 The Franck–Condon principle describes intensity distribution:
+
 $$
 I_{v'v''} \propto |\langle \psi_{v'} | \psi_{v''} \rangle|^2.
 $$

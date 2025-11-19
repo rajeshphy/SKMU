@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-19T13:09:48+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Resistors</title><link href="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html" rel="alternate" type="text/html" title="Resistors" /><published>2025-11-19T10:30:00+05:30</published><updated>2025-11-19T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/19/Resistors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html">&lt;h1 id=&quot;resistors-types-characteristics-and-colour-coding&quot;&gt;Resistors: Types, Characteristics, and Colour Coding&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-19T13:16:41+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Resistors</title><link href="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html" rel="alternate" type="text/html" title="Resistors" /><published>2025-11-19T10:30:00+05:30</published><updated>2025-11-19T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/19/Resistors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html">&lt;h1 id=&quot;resistors-types-characteristics-and-colour-coding&quot;&gt;Resistors: Types, Characteristics, and Colour Coding&lt;/h1&gt;
 
 &lt;p&gt;A resistor is one of the most fundamental passive components used in electrical and electronic circuits. Its primary function is to oppose or limit the flow of electric current, thereby controlling voltage levels, dividing currents, reducing power, and protecting sensitive components. Resistors operate based on the principle that certain materials inherently resist the motion of electrons. This resistance is quantified in ohms (Ω), named after Georg Simon Ohm, who formulated the foundational relationship among voltage (V), current (I), and resistance (R).&lt;/p&gt;
 
@@ -112,66 +112,80 @@ Each component is quantized, meaning that the molecule can only occupy discrete 
 &lt;/div&gt;
 
 &lt;h3 id=&quot;1-rotational-spectra-quantum-rigid-rotor&quot;&gt;1. Rotational Spectra: Quantum Rigid Rotor&lt;/h3&gt;
-&lt;p&gt;The rotational motion of a diatomic molecule can be modeled as a rigid rotor with moment of inertia:
-\(I = \mu r_0^2,\)
-where&lt;br /&gt;
+&lt;p&gt;The rotational motion of a diatomic molecule can be modeled as a rigid rotor with moment of inertia:&lt;/p&gt;
+
+\[I = \mu r_0^2,\]
+
+&lt;p&gt;where&lt;br /&gt;
 $ \mu = \frac{m_1 m_2}{m_1 + m_2} $ is the reduced mass&lt;br /&gt;
 and $ r_0 $ is the equilibrium bond length.&lt;/p&gt;
 
-&lt;p&gt;The rotational energy levels are:
-\(E_J = \frac{\hbar^2}{2I} J(J+1),\)
+&lt;p&gt;The rotational energy levels are:&lt;/p&gt;
+
+&lt;p&gt;\(E_J = \frac{\hbar^2}{2I} J(J+1),\)
 where $ J = 0, 1, 2, \dots $.&lt;/p&gt;
 
-&lt;p&gt;The selection rule for rotational transitions is:
-\(\Delta J = \pm 1.\)&lt;/p&gt;
+&lt;p&gt;The selection rule for rotational transitions is:&lt;/p&gt;
 
-&lt;p&gt;Thus the transition energy becomes:
-\(\Delta E = E_{J+1} - E_J = \frac{\hbar^2}{2I}[(J+1)(J+2) - J(J+1)] = \frac{\hbar^2}{I}(J+1).\)&lt;/p&gt;
+\[\Delta J = \pm 1.\]
 
-&lt;p&gt;In terms of wavenumber:
-\(\tilde{\nu}_{J \rightarrow J+1} = 2B(J+1),\)
-where
-\(B = \frac{h}{8\pi^2 c I}.\)&lt;/p&gt;
+&lt;p&gt;Thus the transition energy becomes:&lt;/p&gt;
+
+\[\Delta E = E_{J+1} - E_J = \frac{\hbar^2}{2I}[(J+1)(J+2) - J(J+1)] = \frac{\hbar^2}{I}(J+1).\]
+
+&lt;p&gt;In terms of wavenumber:&lt;/p&gt;
+
+&lt;p&gt;\(\tilde{\nu}_{J \rightarrow J+1} = 2B(J+1),\)
+where&lt;/p&gt;
+
+\[B = \frac{h}{8\pi^2 c I}.\]
 
 &lt;p&gt;This produces an evenly spaced spectral line series.&lt;/p&gt;
 
 &lt;h3 id=&quot;2-vibrational-spectra-harmonic-and-anharmonic-oscillator&quot;&gt;2. Vibrational Spectra: Harmonic and Anharmonic Oscillator&lt;/h3&gt;
 
 &lt;h4 id=&quot;harmonic-oscillator-approximation&quot;&gt;Harmonic oscillator approximation&lt;/h4&gt;
-&lt;p&gt;The vibrational energy levels of a diatomic molecule are:
-\(E_v = \left(v + \frac{1}{2}\right)\hbar \omega_0,\)
+&lt;p&gt;The vibrational energy levels of a diatomic molecule are:&lt;/p&gt;
+
+&lt;p&gt;\(E_v = \left(v + \frac{1}{2}\right)\hbar \omega_0,\)
 where $ v = 0, 1, 2, \ldots $,&lt;br /&gt;
 and $ \omega_0 = \sqrt{\frac{k}{\mu}} $ with $ k $ being the force constant.&lt;/p&gt;
 
-&lt;p&gt;Selection rule:
-\(\Delta v = \pm 1.\)&lt;/p&gt;
+&lt;p&gt;Selection rule:&lt;/p&gt;
+
+\[\Delta v = \pm 1.\]
 
 &lt;h4 id=&quot;anharmonic-oscillator-correction&quot;&gt;Anharmonic oscillator correction&lt;/h4&gt;
-&lt;p&gt;Real molecules deviate from perfect harmonicity, requiring:
-\(E_v = \left(v + \frac{1}{2}\right)\hbar \omega_0 - \left(v + \frac{1}{2}\right)^2\hbar \omega_0 x_e,\)
+&lt;p&gt;Real molecules deviate from perfect harmonicity, requiring:&lt;/p&gt;
+
+&lt;p&gt;\(E_v = \left(v + \frac{1}{2}\right)\hbar \omega_0 - \left(v + \frac{1}{2}\right)^2\hbar \omega_0 x_e,\)
 where $ x_e $ is the anharmonicity constant.&lt;/p&gt;
 
-&lt;p&gt;The transition wavenumber becomes:
-\(\tilde{\nu}_{v \rightarrow v+1} = \omega_0 (1 - 2x_e (v+1)).\)&lt;/p&gt;
+&lt;p&gt;The transition wavenumber becomes:&lt;/p&gt;
+
+\[\tilde{\nu}_{v \rightarrow v+1} = \omega_0 (1 - 2x_e (v+1)).\]
 
 &lt;p&gt;This predicts decreasing line spacing and the existence of overtones.&lt;/p&gt;
 
 &lt;h3 id=&quot;3-electronic-spectra-and-vibronic-structure&quot;&gt;3. Electronic Spectra and Vibronic Structure&lt;/h3&gt;
 
-&lt;p&gt;Electronic energy transitions occur between electronic potential curves:
-\(E_{\text{el}} \gg E_{\text{vib}} \gg E_{\text{rot}}.\)&lt;/p&gt;
+&lt;p&gt;Electronic energy transitions occur between electronic potential curves:&lt;/p&gt;
 
-&lt;p&gt;Using the Born-Oppenheimer approximation:
-\(E_{\text{total}} = E_{\text{el}} + E_{\text{vib}} + E_{\text{rot}}.\)&lt;/p&gt;
+\[E_{\text{el}} \gg E_{\text{vib}} \gg E_{\text{rot}}.\]
+
+&lt;p&gt;Using the Born-Oppenheimer approximation:&lt;/p&gt;
+
+\[E_{\text{total}} = E_{\text{el}} + E_{\text{vib}} + E_{\text{rot}}.\]
 
 &lt;p&gt;During an electronic transition, the vibrational and rotational structures superimpose, giving &lt;strong&gt;vibronic&lt;/strong&gt; and &lt;strong&gt;rovibronic&lt;/strong&gt; bands.&lt;/p&gt;
 
-&lt;p&gt;The Franck–Condon principle describes intensity distribution:
-\(I_{v&apos;v&apos;&apos;} \propto |\langle \psi_{v&apos;} | \psi_{v&apos;&apos;} \rangle|^2.\)&lt;/p&gt;
+&lt;p&gt;The Franck–Condon principle describes intensity distribution:&lt;/p&gt;
+
+\[I_{v&apos;v&apos;&apos;} \propto |\langle \psi_{v&apos;} | \psi_{v&apos;&apos;} \rangle|^2.\]
 
 &lt;p&gt;Transition probability depends on the overlap of vibrational wavefunctions.&lt;/p&gt;
 
-&lt;h2 id=&quot;corollaries--deductions--conclusions&quot;&gt;Corollaries / Deductions / Conclusions&lt;/h2&gt;
+&lt;h2 id=&quot;deductions&quot;&gt;Deductions&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Rotational spectra provide direct measurement of bond length through moment of inertia, enabling accurate molecular structural determination.&lt;/li&gt;
