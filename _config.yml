@@ -13,7 +13,7 @@ twitter_username:
 github_username: 
 logo: /assets/icons/logo.png # path of site logo, e.g. "/assets/images/logo.png"
 search:  true # false (default)
-comments: true
+comments: false
 disqus:
   shortname: consultt-github-io
 search_full_content: true # true, false (default)
