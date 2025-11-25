@@ -1,0 +1,29 @@
+{
+  "title": "Divergence Theorem Applications: Hard Level",
+  "description": "Answer all questions. Each carries 1 mark. Choose the most appropriate option.",
+  "quizSettings": {
+    "isQuiz": true
+  },
+  "questions": [
+    {
+      "title": "Using the Divergence Theorem, the flux of $\\vec{A} = \\frac{5r^{2}}{4}\\hat{r}$ through the boundary of the region $1 \\le r \\le 2$ is equal to :",
+      "options": [
+        "$65\\pi$ over the given volume",
+        "$75\\pi$ over the given volume",
+        "$85\\pi$ over the given volume",
+        "$95\\pi$ over the given volume"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "The region is bounded by $r=4$, $\\theta=0$, and $\\theta = \\frac{\\pi}{4}$. The flux contribution from the surfaces is approximately:",
+      "options": [
+        "$589$",
+        "$599$",
+        "600",
+        "Zero"
+      ],
+      "correct": 0
+    }
+  ]
+}

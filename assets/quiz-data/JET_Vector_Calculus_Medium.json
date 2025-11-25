@@ -1,20 +1,51 @@
 {
-  "title": "Gradient, Divergence, and Curl: Medium Level",
+  "title": "Divergence Theorem Applications: Medium Level",
   "description": "Answer all questions. Each carries 1 mark. Choose the most appropriate option.",
   "quizSettings": {
     "isQuiz": true
   },
   "questions": [
+    {
+      "title": "For the vector field $\\vec{A} = \\frac{5r^{2}}{4} \\hat{r}$, the divergence $\\vec{\\nabla} \u22c5 \\vec{A}$ in spherical coordinates is:",
+      "options": [
+        "$\\frac{5}{2} r$",
+        "$\\frac{15}{4} r$",
+        "$5r$",
+        "$\\frac{5}{4} r^{2}$"
+      ],
+      "correct": 2
+    },
+    {
+      "title": "The Divergence Theorem relates:",
+      "options": [
+        "Line integral of a vector field to the surface integral",
+        "Volume integral of divergence to the surface integral of the field",
+        "Surface integral of curl to the line integral",
+        "Gradient of a scalar to the flux"
+      ],
+      "correct": 1
+    },
+    
+    {
+      "title": "In the region $1 \\le r \\le 2$ and $0 \\le \\theta \\le \\pi/4$, the volume element in spherical coordinates is:",
+      "options": [
+        "$r^2 \\sin\\theta \\, dr \\, d\\theta \\, d\\phi$",
+        "$r \\sin\\theta \\, dr \\, d\\theta \\, d\\phi$",
+        "$r^2 \\, dr \\, d\\theta \\, d\\phi$",
+        "$r \\, dr \\, d\\theta$"
+      ],
+      "correct": 0
+    },
+    {
+      "title": "For a purely radial vector field $\\vec{A} = A_r(r) \\hat{r}$, the flux through a spherical surface depends only on:",
+      "options": [
+        "The angular part of the vector field",
+        "The value of $A_r$ at the boundary surface",
+        "The divergence of $A$ everywhere",
+        "The curl of $A$"
+      ],
+      "correct": 1
+    }
 
-{
-  "title": "The volume integral $I = \\iiint_{V} \\vec{A} \\cdot (\\vec{\\nabla} \\times \\vec{A})\\, d^3x$ is taken over a volume $V$ bounded by a surface $\\Sigma$. When the vector field $\\vec{A}$ is changed to $\\vec{A} + \\vec{\\nabla}\\Lambda$, the integral changes to $I + \\Delta I$. Then $\\Delta I$ can be expressed as:",
-  "options": [
-    "$\\iiint_{V} \\vec{\\nabla} \\cdot (\\vec{\\nabla}\\Lambda \\times \\vec{A})\\, d^3x$",
-    "$-\\iiint_{V} \\nabla^2\\Lambda\\, d^3x$",
-    "$-\\oiint_{\\Sigma} (\\vec{\\nabla}\\Lambda \\times \\vec{A}) \\cdot \\hat{n}\\, ds$",
-    "$\\oiint_{\\Sigma} (\\vec{\\nabla}\\Lambda) \\cdot \\hat{n}\\, ds$"
-  ],
-  "correct": 2
-}
   ]
 }
