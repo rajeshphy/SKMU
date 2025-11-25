@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-25T08:31:46+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Resistors</title><link href="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html" rel="alternate" type="text/html" title="Resistors" /><published>2025-11-19T10:30:00+05:30</published><updated>2025-11-19T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/19/Resistors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html">&lt;h1 id=&quot;resistors-types-characteristics-and-colour-coding&quot;&gt;Resistors: Types, Characteristics, and Colour Coding&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-25T09:05:47+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Resistors</title><link href="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html" rel="alternate" type="text/html" title="Resistors" /><published>2025-11-19T10:30:00+05:30</published><updated>2025-11-19T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/19/Resistors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html">&lt;h1 id=&quot;resistors-types-characteristics-and-colour-coding&quot;&gt;Resistors: Types, Characteristics, and Colour Coding&lt;/h1&gt;
 
 &lt;p&gt;A resistor is one of the most fundamental passive components used in electrical and electronic circuits. Its primary function is to oppose or limit the flow of electric current, thereby controlling voltage levels, dividing currents, reducing power, and protecting sensitive components. Resistors operate based on the principle that certain materials inherently resist the motion of electrons. This resistance is quantified in ohms (Ω), named after Georg Simon Ohm, who formulated the foundational relationship among voltage (V), current (I), and resistance (R).&lt;/p&gt;
 
@@ -89,7 +89,148 @@ fourth band gives tolerance.&lt;/p&gt;
 &lt;p&gt;Example:&lt;br /&gt;
 Red (2), Violet (7), Yellow ($10^4$), Gold (±5%)&lt;/p&gt;
 
-\[R = (10 \times 2 + 7) \times 10^{4} = 27 \times 10^{4} = 270\,000 \ \Omega = 270 \text{k}\Omega \ (\pm 5\%)\]</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">Resistors: Types, Characteristics, and Colour Coding</summary></entry><entry><title type="html">Molecular Spectra</title><link href="http://localhost:4000/SKMU/lecture/2025/11/04/Molecular-Spectra.html" rel="alternate" type="text/html" title="Molecular Spectra" /><published>2025-11-04T10:30:00+05:30</published><updated>2025-11-04T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/04/Molecular-Spectra</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/04/Molecular-Spectra.html">&lt;h1 id=&quot;rotational-vibrational-and-electronic-spectra-of-diatomic-molecules&quot;&gt;Rotational, Vibrational and Electronic Spectra of Diatomic Molecules&lt;/h1&gt;
+\[R = (10 \times 2 + 7) \times 10^{4} = 27 \times 10^{4} = 270\,000 \ \Omega = 270 \text{k}\Omega \ (\pm 5\%)\]</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">Resistors: Types, Characteristics, and Colour Coding</summary></entry><entry><title type="html">Frame Of Reference</title><link href="http://localhost:4000/SKMU/lecture/2025/11/08/Frames.html" rel="alternate" type="text/html" title="Frame Of Reference" /><published>2025-11-08T10:30:00+05:30</published><updated>2025-11-08T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/08/Frames</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/08/Frames.html">&lt;p&gt;In the study of scattering theory, nuclear reactions, and collision processes, the distinction between the &lt;strong&gt;Laboratory (Lab) reference frame&lt;/strong&gt; and the &lt;strong&gt;Centre-of-Mass (CM) reference frame&lt;/strong&gt; plays a central role. These two frames provide different perspectives for describing the motion, momentum transfer, and angular distribution of interacting particles. Since observations in an experiment are made in the laboratory frame, but theoretical simplicity often arises in the centre-of-mass frame, understanding the transformation between these two coordinate systems becomes essential.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Laboratory frame&lt;/strong&gt; is the frame in which the experimental apparatus is at rest. In scattering experiments, a projectile particle (like an electron, neutron, or α-particle) is accelerated toward a stationary target. Measurements such as scattering angle, energy of outgoing particles, and cross-sections are typically recorded in this frame. The dynamics here are often complicated due to the asymmetry introduced by one particle being initially at rest.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Centre-of-Mass frame&lt;/strong&gt;, on the other hand, is the frame in which the total momentum of the entire system is zero. Here, both particles move toward one another with equal and opposite momenta before collision. This symmetry significantly simplifies calculations of scattering amplitude, angular momentum, and differential cross-sections. Quantum scattering theory, especially partial-wave analysis, is most conveniently formulated in the CM frame because conservation laws take their simplest form.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Quantum/Frame.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Transformation between the two frames involves relating the velocities, energies, and scattering angles. For a projectile of mass $ m_1 $ colliding with a target of mass $ m_2 $, the velocity of the centre of mass is&lt;/p&gt;
+
+\[\mathbf{V}_{CM} = \frac{m_1 \mathbf{v}_1 + m_2 \mathbf{v}_2}{m_1 + m_2}.\]
+
+&lt;p&gt;In most practical cases, the target is initially at rest, leading to&lt;/p&gt;
+
+\[\mathbf{V}_{CM} = \frac{m_1}{m_1 + m_2}\mathbf{v}_1.\]
+
+&lt;p&gt;Energies also transform differently between the two frames. The CM kinetic energy,&lt;/p&gt;
+
+\[E_{CM} = \frac{1}{2}\mu v_{\text{rel}}^2,\]
+
+&lt;p&gt;depends on the &lt;strong&gt;reduced mass&lt;/strong&gt; $ \mu = \frac{m_1 m_2}{m_1 + m_2} $ and the &lt;strong&gt;relative velocity&lt;/strong&gt; $ v_{\text{rel}} $. The laboratory kinetic energy of the projectile is&lt;/p&gt;
+
+\[E_{Lab} = \frac{1}{2}m_1 v_1^2.\]
+
+&lt;p&gt;Thus,&lt;/p&gt;
+
+\[E_{CM} = \frac{m_2}{m_1 + m_2} E_{Lab},\]
+
+&lt;p&gt;which shows that only a fraction of the laboratory energy contributes to the actual interaction.&lt;/p&gt;
+
+&lt;p&gt;One of the most important aspects is the relation between &lt;strong&gt;scattering angles&lt;/strong&gt;:&lt;/p&gt;
+
+\[\tan\theta_{Lab} = \frac{\sin\theta_{CM}}{\cos\theta_{CM} + \frac{m_1}{m_2}}.\]
+
+&lt;p&gt;For elastic scattering involving equal masses $ m_1 = m_2 $, this simplifies dramatically, and the maximum lab scattering angle becomes $ 90^\circ $. For high mass targets, the CM and lab angles become nearly identical.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;supplementary-readings&quot;&gt;Supplementary Readings&lt;/h1&gt;
+
+&lt;h3 id=&quot;1-centre-of-mass-velocity&quot;&gt;1. Centre-of-Mass Velocity&lt;/h3&gt;
+&lt;p&gt;Consider two particles of masses $ m_1 $ and $ m_2 $, velocities $ \mathbf{v}_1 $ and $ \mathbf{v}_2 $. The CM velocity:&lt;/p&gt;
+
+\[\mathbf{V}_{CM} = \frac{m_1\mathbf{v}_1 + m_2\mathbf{v}_2}{m_1 + m_2}.\]
+
+&lt;p&gt;For a stationary target: $ \mathbf{v}_2 = 0 $,&lt;/p&gt;
+
+\[\mathbf{V}_{CM} = \frac{m_1}{m_1 + m_2}\mathbf{v}_1.\]
+
+&lt;h3 id=&quot;2-relative-velocity-and-reduced-mass&quot;&gt;2. Relative Velocity and Reduced Mass&lt;/h3&gt;
+&lt;p&gt;The relative velocity is:&lt;/p&gt;
+
+\[\mathbf{v}_{rel} = \mathbf{v}_1 - \mathbf{v}_2 = \mathbf{v}_1.\]
+
+&lt;p&gt;The reduced mass $ \mu $ is:&lt;/p&gt;
+
+\[\mu = \frac{m_1 m_2}{m_1 + m_2}.\]
+
+&lt;h3 id=&quot;3-energy-transformation&quot;&gt;3. Energy Transformation&lt;/h3&gt;
+&lt;p&gt;Laboratory frame projectile energy:&lt;/p&gt;
+
+\[E_{Lab} = \frac{1}{2}m_1 v_1^2.\]
+
+&lt;p&gt;CM frame kinetic energy:&lt;/p&gt;
+
+\[E_{CM} = \frac{1}{2}\mu v_1^2.\]
+
+&lt;p&gt;Thus,&lt;/p&gt;
+
+\[E_{CM} = \frac{m_2}{m_1 + m_2} E_{Lab}.\]
+
+&lt;h3 id=&quot;4-transformation-of-scattering-angles&quot;&gt;4. Transformation of Scattering Angles&lt;/h3&gt;
+&lt;p&gt;The relation between CM and Lab angles (elastic scattering):&lt;/p&gt;
+
+\[\tan\theta_{Lab} = \frac{\sin\theta_{CM}}{\cos\theta_{CM} + \frac{m_1}{m_2}}.\]
+
+&lt;p&gt;For $ m_1 = m_2 $:&lt;/p&gt;
+
+\[\tan\theta_{Lab} = \frac{\sin\theta_{CM}}{\cos\theta_{CM} + 1}.\]
+
+&lt;p&gt;For $ m_2 \gg m_1 $ (heavy target):&lt;/p&gt;
+
+\[\theta_{Lab} \approx \theta_{CM}.\]
+
+&lt;h3 id=&quot;5-differential-cross-section-transformation&quot;&gt;5. Differential Cross-Section Transformation&lt;/h3&gt;
+&lt;p&gt;Cross-section transforms as:&lt;/p&gt;
+
+\[\left(\frac{d\sigma}{d\Omega}\right)_{Lab} 
+= \left(\frac{d\sigma}{d\Omega}\right)_{CM}
+\left|\frac{\sin\theta_{CM}}{\sin\theta_{Lab}}\cdot
+\frac{d\theta_{CM}}{d\theta_{Lab}}\right|.\]
+
+&lt;p&gt;This relation is essential for interpreting experimental scattering data using theoretical predictions derived in the CM frame.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">In the study of scattering theory, nuclear reactions, and collision processes, the distinction between the Laboratory (Lab) reference frame and the Centre-of-Mass (CM) reference frame plays a central role. These two frames provide different perspectives for describing the motion, momentum transfer, and angular distribution of interacting particles. Since observations in an experiment are made in the laboratory frame, but theoretical simplicity often arises in the centre-of-mass frame, understanding the transformation between these two coordinate systems becomes essential.</summary></entry><entry><title type="html">Alpha Scattering</title><link href="http://localhost:4000/SKMU/lecture/2025/11/07/Alpha-Scattering.html" rel="alternate" type="text/html" title="Alpha Scattering" /><published>2025-11-07T10:30:00+05:30</published><updated>2025-11-07T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/07/Alpha-Scattering</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/07/Alpha-Scattering.html">&lt;p&gt;Alpha (α) scattering refers to the interaction of alpha particles—helium nuclei consisting of two protons and two neutrons—with atomic nuclei or atoms. The study of α-scattering has played one of the most pivotal roles in the development of modern physics. Historically, Rutherford’s α-scattering experiments in 1909 led to the discovery of the atomic nucleus and gave rise to the planetary model of the atom. These experiments showed that most α-particles pass through thin metal foils with little deflection, while a very small fraction undergo large-angle scattering, revealing the presence of a compact and massive nucleus.&lt;/p&gt;
+
+&lt;p&gt;In quantum scattering theory, α-particles interacting with atomic nuclei are treated through the Coulomb potential, since both projectile and target carry positive charge. The long-range nature of the Coulomb field makes α-scattering distinct from short-range nuclear scattering. Classical mechanics provides a useful description in terms of trajectories, impact parameters, and scattering angles, but a complete interpretation requires quantum mechanics, especially at low energies or when nuclear forces become relevant.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Quantum/Alpha.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The Coulomb interaction between an α-particle of charge $ +2e $ and a nucleus of charge $ +Ze $ is given by:&lt;/p&gt;
+
+\[V(r) = \frac{2Ze^2}{4\pi\epsilon_0 r}.\]
+
+&lt;p&gt;This central potential leads to hyperbolic trajectories, where the deflection angle depends on the impact parameter. Rutherford derived the differential cross-section in classical terms and predicted an angular distribution:&lt;/p&gt;
+
+\[\frac{d\sigma}{d\Omega} \propto \frac{1}{\sin^4(\theta/2)}.\]
+
+&lt;p&gt;This formula matched experimental data exceptionally well for large impact parameters (i.e., small scattering angles), demonstrating that the Coulomb potential dominates the interaction.&lt;/p&gt;
+
+&lt;p&gt;Quantum mechanically, α-scattering is treated using partial waves, similar to other scattering processes. The phase shifts are determined by comparing the asymptotic form of the wavefunction with Coulomb-modified spherical waves. The scattering amplitude is influenced by both the long-range Coulomb field and, if the α-particle approaches close enough, the short-range nuclear potential. This leads to resonances, enhanced cross-sections, and deviations from the simple Rutherford formula at small distances. Such quantum effects have been crucial in understanding nuclear sizes, nuclear charge distributions, and the onset of nuclear forces.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;supplementary-readings&quot;&gt;Supplementary Readings&lt;/h1&gt;
+
+&lt;h3 id=&quot;coulomb-potential&quot;&gt;Coulomb Potential&lt;/h3&gt;
+&lt;p&gt;The α-particle experiences the potential:
+\(V(r) = \frac{2Ze^2}{4\pi\epsilon_0 r}.\)&lt;/p&gt;
+
+&lt;h3 id=&quot;classical-scattering&quot;&gt;Classical Scattering&lt;/h3&gt;
+&lt;p&gt;Using impact parameter $ b $ and scattering angle $ \theta $,
+\(\cot\left(\frac{\theta}{2}\right) = \frac{2bE}{k},\)
+where&lt;br /&gt;
+\(k = \frac{2Ze^2}{4\pi\epsilon_0}.\)&lt;/p&gt;
+
+&lt;h3 id=&quot;rutherford-differential-cross-section&quot;&gt;Rutherford Differential Cross-Section&lt;/h3&gt;
+&lt;p&gt;Expressing cross-section in terms of impact parameter:
+\(\frac{d\sigma}{d\Omega} = \left(\frac{k}{4E}\right)^2 \frac{1}{\sin^4(\theta/2)}.\)&lt;/p&gt;
+
+&lt;h3 id=&quot;quantum-mechanical-scattering&quot;&gt;Quantum Mechanical Scattering&lt;/h3&gt;
+&lt;p&gt;The wavefunction in presence of Coulomb potential behaves as:
+\(\psi(r,\theta) \sim e^{i\mathbf{k\cdot r}} + f_C(\theta)\frac{e^{ikr}}{r}.\)&lt;/p&gt;
+
+&lt;p&gt;The Coulomb scattering amplitude:
+\(f_C(\theta) = -\frac{\eta}{2k\sin^2(\theta/2)} e^{-2i\eta \ln[\sin(\theta/2)]},\)
+with Sommerfeld parameter:
+\(\eta = \frac{Z_1 Z_2 e^2}{4\pi\epsilon_0\hbar v}.\)&lt;/p&gt;
+
+&lt;p&gt;Quantum deviations from Rutherford formula appear when nuclear forces influence scattering, often at large angles.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">Alpha (α) scattering refers to the interaction of alpha particles—helium nuclei consisting of two protons and two neutrons—with atomic nuclei or atoms. The study of α-scattering has played one of the most pivotal roles in the development of modern physics. Historically, Rutherford’s α-scattering experiments in 1909 led to the discovery of the atomic nucleus and gave rise to the planetary model of the atom. These experiments showed that most α-particles pass through thin metal foils with little deflection, while a very small fraction undergo large-angle scattering, revealing the presence of a compact and massive nucleus.</summary></entry><entry><title type="html">Molecular Spectra</title><link href="http://localhost:4000/SKMU/lecture/2025/11/04/Molecular-Spectra.html" rel="alternate" type="text/html" title="Molecular Spectra" /><published>2025-11-04T10:30:00+05:30</published><updated>2025-11-04T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/04/Molecular-Spectra</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/04/Molecular-Spectra.html">&lt;h1 id=&quot;rotational-vibrational-and-electronic-spectra-of-diatomic-molecules&quot;&gt;Rotational, Vibrational and Electronic Spectra of Diatomic Molecules&lt;/h1&gt;
 
 &lt;p&gt;The study of rotational, vibrational, and electronic spectra of diatomic molecules is a central part of molecular spectroscopy, offering deep insight into the quantized energy structure of molecules. Unlike atoms—which exhibit only electronic transitions—molecules possess additional degrees of freedom associated with rotation and vibration. These extra degrees of freedom produce distinct regions in the electromagnetic spectrum, each corresponding to well-defined transitions governed by quantum mechanics.&lt;/p&gt;
 
@@ -193,7 +334,61 @@ where $ x_e $ is the anharmonicity constant.&lt;/p&gt;
   &lt;li&gt;The superposition of rotational and vibrational transitions on electronic transitions produces complex band spectra, offering deep insight into molecular potential energy surfaces.&lt;/li&gt;
   &lt;li&gt;Selection rules for rotational, vibrational, and electronic transitions allow prediction of spectral patterns and intensities.&lt;/li&gt;
   &lt;li&gt;Molecular spectra serve as unique fingerprints, allowing identification of molecules in laboratory, atmospheric, astrophysical, and plasma environments.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">Rotational, Vibrational and Electronic Spectra of Diatomic Molecules</summary></entry><entry><title type="html">JET - Physical Science</title><link href="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html" rel="alternate" type="text/html" title="JET - Physical Science" /><published>2025-11-03T10:30:00+05:30</published><updated>2025-11-03T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/03/JET</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html">&lt;p&gt;These topics will be covered here, and the reading materials can be accessed by clicking on the hyperlinks.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">Rotational, Vibrational and Electronic Spectra of Diatomic Molecules</summary></entry><entry><title type="html">3D Collision</title><link href="http://localhost:4000/SKMU/lecture/2025/11/04/3D-Collision.html" rel="alternate" type="text/html" title="3D Collision" /><published>2025-11-04T10:30:00+05:30</published><updated>2025-11-04T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/04/3D-Collision</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/04/3D-Collision.html">&lt;p&gt;The theory of collision in three dimensions is a fundamental aspect of quantum scattering, describing how a particle interacts with a potential when motion is not restricted to a single line but occurs in full three-dimensional space. Unlike one-dimensional scattering, where the particle approaches the potential from the left or right, three-dimensional collisions require the description of wave propagation in spherical geometry. This approach is crucial in understanding atomic, nuclear, and molecular processes where interactions occur isotropically.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Quantum/Scattering-fig.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In three dimensions, a free particle is represented by a plane wave of the form&lt;br /&gt;
+\(\psi_{\text{inc}} = e^{i\mathbf{k}\cdot\mathbf{r}},\)
+where $ \mathbf{k} $ is the incident wave vector. When the particle encounters a scattering potential $ V(r) $, the scattered part of the wave appears as an outgoing spherical wave. The total wavefunction becomes&lt;br /&gt;
+\(\psi(\mathbf{r}) = e^{i\mathbf{k}\cdot\mathbf{r}} + f(\theta,\phi)\frac{e^{ikr}}{r},\)
+where $ f(\theta,\phi) $ is the scattering amplitude, fully encapsulating the angular distribution of the scattered particles.&lt;/p&gt;
+
+&lt;p&gt;The solution to the Schrödinger equation in three dimensions is typically expressed using spherical coordinates due to the central nature of most scattering potentials. The angular dependence is treated using spherical harmonics $ Y_{\ell m}(\theta,\phi) $, while the radial part is determined by solving a differential equation for each angular momentum quantum number $ \ell $. This leads to &lt;strong&gt;partial wave analysis&lt;/strong&gt;, one of the most powerful methods in quantum scattering theory.&lt;/p&gt;
+
+&lt;p&gt;When a particle collides with a spherically symmetric potential, angular momentum is conserved, enabling decomposition of the incident wave into partial waves. Each partial wave experiences a phase shift $ \delta_\ell $ due to the potential. These phase shifts measure how much each wave is delayed or advanced relative to a free particle. The total scattering amplitude is obtained by summing contributions from all partial waves:
+\(f(\theta) = \sum_{\ell=0}^{\infty}(2\ell+1)\frac{e^{2i\delta_\ell}-1}{2ik}P_\ell(\cos\theta),\)
+where $ P_\ell(\cos\theta) $ are Legendre polynomials.&lt;/p&gt;
+
+&lt;p&gt;The measurable quantity in scattering, the &lt;strong&gt;differential cross-section&lt;/strong&gt;, is given by&lt;br /&gt;
+\(\frac{d\sigma}{d\Omega} = |f(\theta,\phi)|^2.\)
+This describes how the intensity of scattered particles varies with direction. The &lt;strong&gt;total cross-section&lt;/strong&gt; is obtained by integrating over all angles. Three-dimensional scattering theory is essential for interpreting low-energy nuclear collisions, electron-atom scattering, neutron scattering, and molecular collisions.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;supplementary-readings&quot;&gt;Supplementary Readings&lt;/h1&gt;
+
+&lt;h3 id=&quot;schrödinger-equation-in-3d&quot;&gt;Schrödinger Equation in 3D&lt;/h3&gt;
+&lt;p&gt;For a particle with energy $ E = \frac{\hbar^2 k^2}{2m} $, the time-independent Schrödinger equation is:&lt;/p&gt;
+
+\[\nabla^2\psi + k^2\psi = \frac{2m}{\hbar^2}V(r)\psi.\]
+
+&lt;h3 id=&quot;spherical-decomposition&quot;&gt;Spherical Decomposition&lt;/h3&gt;
+&lt;p&gt;Using spherical symmetry,
+\(\psi(r,\theta,\phi) = \sum_{\ell,m} R_\ell(r) Y_{\ell m}(\theta,\phi).\)&lt;/p&gt;
+
+&lt;h3 id=&quot;radial-equation&quot;&gt;Radial Equation&lt;/h3&gt;
+&lt;p&gt;The radial function satisfies:
+\(\frac{d^2u_\ell}{dr^2} + 
+\left[k^2 - \frac{\ell(\ell+1)}{r^2} - \frac{2mV(r)}{\hbar^2}\right]u_\ell = 0,\)
+where $ u_\ell = rR_\ell $.&lt;/p&gt;
+
+&lt;h3 id=&quot;asymptotic-form&quot;&gt;Asymptotic Form&lt;/h3&gt;
+&lt;p&gt;For large $ r $,
+\(u_\ell(r) \sim \sin\left(kr - \frac{\ell\pi}{2} + \delta_\ell\right).\)&lt;/p&gt;
+
+&lt;h3 id=&quot;scattering-amplitude&quot;&gt;Scattering Amplitude&lt;/h3&gt;
+&lt;p&gt;Using partial wave expansion:
+\(f(\theta) = \frac{1}{k} \sum_{\ell=0}^{\infty}(2\ell+1)e^{i\delta_\ell}\sin\delta_\ell\, P_\ell(\cos\theta).\)&lt;/p&gt;
+
+&lt;h3 id=&quot;differential-cross-section&quot;&gt;Differential Cross-Section&lt;/h3&gt;
+&lt;p&gt;\(\frac{d\sigma}{d\Omega} = |f(\theta)|^2.\)&lt;/p&gt;
+
+&lt;h3 id=&quot;total-cross-section&quot;&gt;Total Cross-Section&lt;/h3&gt;
+&lt;p&gt;\(\sigma_{\text{tot}} = \frac{4\pi}{k^2} 
+\sum_{\ell=0}^{\infty}(2\ell+1)\sin^2\delta_\ell.\)&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">The theory of collision in three dimensions is a fundamental aspect of quantum scattering, describing how a particle interacts with a potential when motion is not restricted to a single line but occurs in full three-dimensional space. Unlike one-dimensional scattering, where the particle approaches the potential from the left or right, three-dimensional collisions require the description of wave propagation in spherical geometry. This approach is crucial in understanding atomic, nuclear, and molecular processes where interactions occur isotropically.</summary></entry><entry><title type="html">JET - Physical Science</title><link href="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html" rel="alternate" type="text/html" title="JET - Physical Science" /><published>2025-11-03T10:30:00+05:30</published><updated>2025-11-03T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/03/JET</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html">&lt;p&gt;These topics will be covered here, and the reading materials can be accessed by clicking on the hyperlinks.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Vector Algebra &amp;amp; Calculus
@@ -290,18 +485,13 @@ where $ x_e $ is the anharmonicity constant.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;(Paper PHY-C-06 QM – Unit 2)&lt;/em&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Collision in three dimensions&lt;/li&gt;
-  &lt;li&gt;α-scattering and its theoretical interpretation&lt;/li&gt;
-  &lt;li&gt;Laboratory vs. Centre-of-Mass reference frames&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/SKMU/lecture/2024/07/12/Scattering.html&quot;&gt;Scattering&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Scattering amplitude&lt;/li&gt;
-  &lt;li&gt;Differential scattering cross section&lt;/li&gt;
-  &lt;li&gt;Total scattering cross section&lt;/li&gt;
-  &lt;li&gt;Scattering by spherically symmetric potentials&lt;/li&gt;
-  &lt;li&gt;Partial wave analysis and phase shifts&lt;/li&gt;
-  &lt;li&gt;Born approximation&lt;br /&gt;
-&lt;em&gt;(Lectures: 14)&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/SKMU/lecture/2025/11/04/3D-Collision.html&quot;&gt;Collision in three dimensions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/SKMU/lecture/2025/11/07/Alpha-Scattering.html&quot;&gt;α-scattering and its theoretical interpretation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/SKMU/lecture/2025/11/08/Frames.html&quot;&gt;Laboratory vs. Centre-of-Mass reference frames&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/SKMU/lecture/2024/07/12/Scattering.html&quot;&gt;Quantum Scattering&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;(Lectures: 14)&lt;/em&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;3-molecular-spectroscopy&quot;&gt;3. Molecular Spectroscopy&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;(Paper PHY-C-07 – Unit 2)&lt;/em&gt;&lt;/p&gt;
@@ -1090,431 +1280,4 @@ Write a Python program to sort a list of numbers in &lt;strong&gt;descending ord
   &lt;li&gt;$ \omega \ll \omega_0 \Rightarrow \varepsilon_1 &amp;gt; \varepsilon_\infty $&lt;/li&gt;
   &lt;li&gt;$ \omega \gg \omega_0 \Rightarrow \varepsilon_1 \rightarrow \varepsilon_\infty $&lt;/li&gt;
   &lt;li&gt;Peak in $ \varepsilon_2(\omega) $ at resonance $ \omega = \omega_0 $&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives:</summary></entry><entry><title type="html">Polarons</title><link href="http://localhost:4000/SKMU/lecture/2025/07/03/Polarons.html" rel="alternate" type="text/html" title="Polarons" /><published>2025-07-03T11:30:00+05:30</published><updated>2025-07-03T11:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/07/03/Polarons</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/07/03/Polarons.html">&lt;p&gt;In solid-state physics, &lt;strong&gt;polarons&lt;/strong&gt; are quasiparticles formed due to the interaction of an electron (or hole) with the phonons (quantized lattice vibrations) in an ionic crystal. This interaction leads to a modification of the electron’s motion, as it becomes “dressed” with a polarization cloud of lattice distortion.&lt;/p&gt;
-
-&lt;p&gt;A key observable effect of electron-phonon interaction is the &lt;strong&gt;temperature dependence of electrical resistivity&lt;/strong&gt;. As temperature increases:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The number of phonons increases.&lt;/li&gt;
-  &lt;li&gt;This leads to &lt;strong&gt;more scattering of electrons&lt;/strong&gt;, which increases the resistivity.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Example: In pure copper,&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;At 0 °C, resistivity ≈ 1.55 μΩ·cm&lt;/li&gt;
-  &lt;li&gt;At 100 °C, resistivity ≈ 2.28 μΩ·cm&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Above the &lt;strong&gt;Debye temperature&lt;/strong&gt; (θ&lt;sub&gt;D&lt;/sub&gt; ≈ 70 °C for Cu), the phonon population becomes roughly proportional to the &lt;strong&gt;absolute temperature (T)&lt;/strong&gt;, so:&lt;/p&gt;
-
-\[\rho(T) \propto T\]
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;vibrational-modes-in-ionic-crystals&quot;&gt;Vibrational Modes in Ionic Crystals&lt;/h2&gt;
-
-&lt;p&gt;In a crystal, atoms vibrate about their equilibrium positions, leading to the formation of &lt;strong&gt;phonon branches&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Acoustic Modes&lt;/strong&gt;: Low-energy vibrations where atoms move in phase.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Optical Modes&lt;/strong&gt;: Higher-energy modes where adjacent atoms in the basis move out of phase.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/images/Lecture/polarons.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:50%;&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Assuming nearest-neighbor interactions and identical force constants $ C $, we get:&lt;/p&gt;
-
-\[M_1 \ddot{u}_n = C (v_{n} + v_{n-1} - 2 u_n)\]
-
-\[M_2 \ddot{v}_n = C (u_{n+1} + u_n - 2 v_n)\]
-
-&lt;p&gt;We assume traveling wave solutions:&lt;/p&gt;
-
-\[u_n = u\, e^{i(kna - \omega t)}, \quad v_n = v\, e^{i(kna - \omega t)}\]
-
-&lt;p&gt;Substituting these into the equations yields a system of homogeneous linear equations for $ u $ and $ v $, leading to the &lt;strong&gt;dispersion relation&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;The frequency solutions $ \omega(k) $ show two branches:&lt;/p&gt;
-
-&lt;h3 id=&quot;acoustic-branch&quot;&gt;Acoustic Branch&lt;/h3&gt;
-
-\[\omega^2 \approx \frac{\frac{1}{2}C a^2 k^2}{M_1 + M_2} \quad \text{(for small $ k $)}\]
-
-&lt;ul&gt;
-  &lt;li&gt;Both atoms move in phase.&lt;/li&gt;
-  &lt;li&gt;Represents &lt;strong&gt;long-wavelength sound waves&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;optical-branch&quot;&gt;Optical Branch&lt;/h3&gt;
-
-\[\omega^2 \approx \frac{2C}{M_1 M_2}(M_1 + M_2)\]
-
-&lt;ul&gt;
-  &lt;li&gt;Atoms move &lt;strong&gt;out of phase&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;Can be excited by &lt;strong&gt;electromagnetic radiation&lt;/strong&gt; (especially when atoms are oppositely charged).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;At zone boundary $ K_{\text{max}} = \pi/a $:&lt;/p&gt;
-
-\[\omega_1^2 = \frac{2C}{M_1}, \quad \omega_2^2 = \frac{2C}{M_2}\]
-
-&lt;p&gt;This gives rise to a &lt;strong&gt;frequency gap&lt;/strong&gt; in the phonon spectrum.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/images/Lecture/polarons-modes.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:50%;&quot; /&gt;
-&lt;/div&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">In solid-state physics, polarons are quasiparticles formed due to the interaction of an electron (or hole) with the phonons (quantized lattice vibrations) in an ionic crystal. This interaction leads to a modification of the electron’s motion, as it becomes “dressed” with a polarization cloud of lattice distortion.</summary></entry><entry><title type="html">Polaritons</title><link href="http://localhost:4000/SKMU/lecture/2025/07/02/Polaritons.html" rel="alternate" type="text/html" title="Polaritons" /><published>2025-07-02T09:47:26+05:30</published><updated>2025-07-02T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/07/02/Polaritons</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/07/02/Polaritons.html">&lt;p&gt;In solid-state physics, &lt;strong&gt;polaritons&lt;/strong&gt; are quasiparticles arising from the &lt;strong&gt;strong coupling of photons&lt;/strong&gt; with &lt;strong&gt;optical phonons&lt;/strong&gt; in a crystal. These coupled modes play a central role in understanding the optical properties of ionic crystals, particularly in the infrared frequency range.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-are-polaritons&quot;&gt;What are Polaritons?&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Polaritons&lt;/strong&gt; are quanta of a coupled electromagnetic field and lattice vibration (phonon).&lt;/li&gt;
-  &lt;li&gt;They arise when &lt;strong&gt;transverse optical (TO) phonons&lt;/strong&gt; interact with &lt;strong&gt;transverse electromagnetic waves&lt;/strong&gt; (photons).&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;This interaction modifies the propagation of waves through the crystal and leads to &lt;strong&gt;mixed electric-mechanical excitations&lt;/strong&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Resonance occurs when:
-    &lt;ul&gt;
-      &lt;li&gt;Frequencies match: $ \omega_{\text{photon}} \approx \omega_{\text{phonon}} $&lt;/li&gt;
-      &lt;li&gt;Wavevectors match: $ k_{\text{photon}} \approx k_{\text{phonon}} $&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;This coupling introduces &lt;strong&gt;new dispersion relations&lt;/strong&gt; that deviate from the uncoupled phonon and photon dispersions.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;electromagnetic-wave-equation-with-polarization&quot;&gt;Electromagnetic Wave Equation with Polarization&lt;/h2&gt;
-
-&lt;p&gt;In the presence of polarization $ \vec{P} $, Maxwell’s equations in CGS units give:&lt;/p&gt;
-
-\[\frac{1}{c^2} \frac{\partial^2 \vec{E}}{\partial t^2} = \nabla^2 (\vec{E} + 4\pi \vec{P})\]
-
-&lt;ul&gt;
-  &lt;li&gt;The &lt;strong&gt;polarization $ \vec{P} $&lt;/strong&gt; is induced by displacement of ions:
-\(\vec{P} = N q \vec{u}\)
-where:
-    &lt;ul&gt;
-      &lt;li&gt;$ N $: number of ion pairs per unit volume&lt;/li&gt;
-      &lt;li&gt;$ q $: effective charge&lt;/li&gt;
-      &lt;li&gt;$ \vec{u} $: relative ionic displacement&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The equation of motion for $ \vec{P} $ is that of a driven harmonic oscillator:&lt;/p&gt;
-
-\[\frac{d^2 \vec{P}}{dt^2} + \omega_T^2 \vec{P} = \frac{N q^2}{M} \vec{E}\]
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;derivation&quot;&gt;Derivation:&lt;/h2&gt;
-
-&lt;p&gt;The polarization is the dipole moment per unit volume:&lt;/p&gt;
-
-\[\vec{P} = N q \vec{u} \tag{2}\]
-
-&lt;p&gt;The ions obey Newton’s second law under a restoring force and the applied electric field:&lt;/p&gt;
-
-\[M \frac{d^2 \vec{u}}{dt^2} = -M \omega_T^2 \vec{u} + q \vec{E} \tag{3}\]
-
-&lt;ul&gt;
-  &lt;li&gt;The $-\omega_T^2$ term represents the restoring force due to the lattice (transverse optical phonon).&lt;/li&gt;
-  &lt;li&gt;The $q \vec{E}$ term represents the force from the external electric field.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;From equation (2):&lt;/p&gt;
-
-\[\vec{u} = \frac{\vec{P}}{N q}\]
-
-&lt;p&gt;Differentiate twice with respect to time:&lt;/p&gt;
-
-\[\frac{d^2 \vec{u}}{dt^2} = \frac{1}{N q} \frac{d^2 \vec{P}}{dt^2}\]
-
-&lt;p&gt;Substitute into Newton’s law (3):&lt;/p&gt;
-
-\[M \cdot \frac{1}{N q} \cdot \frac{d^2 \vec{P}}{dt^2} = -M \omega_T^2 \cdot \frac{\vec{P}}{N q} + q \vec{E}\]
-
-&lt;p&gt;Multiply both sides by $\frac{N q}{M}$:&lt;/p&gt;
-
-\[\frac{d^2 \vec{P}}{dt^2} = -\omega_T^2 \vec{P} + \frac{N q^2}{M} \vec{E}\]
-
-&lt;p&gt;Rearranged:&lt;/p&gt;
-
-\[\frac{d^2 \vec{P}}{dt^2} + \omega_T^2 \vec{P} = \frac{N q^2}{M} \vec{E} \tag{4}\]
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;polariton-dispersion-relation&quot;&gt;Polariton Dispersion Relation&lt;/h2&gt;
-
-&lt;p&gt;Combining the above equations, the &lt;strong&gt;dispersion relation&lt;/strong&gt; for polaritons becomes:&lt;/p&gt;
-
-\[\varepsilon(\omega) = \varepsilon(\infty) + \frac{4\pi N q^2 / M}{\omega_T^2 - \omega^2}\]
-
-&lt;p&gt;At $ K = 0 $, two solutions emerge:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;$ \omega = 0 $: corresponds to a free photon&lt;/li&gt;
-  &lt;li&gt;$ \omega = \omega_T $: transverse optical phonon frequency in absence of coupling&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The above equation can be obtained under the assumption of time-harmonic (monochromatic) solutions of the form:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;$\vec{E}(\vec{r}, t) = \vec{E}_0 e^{i(\vec{k} \cdot \vec{r} - \omega t)}$&lt;/li&gt;
-  &lt;li&gt;$\vec{P}(\vec{r}, t) = \vec{P}_0 e^{i(\vec{k} \cdot \vec{r} - \omega t)}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Then:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;$\frac{\partial^2}{\partial t^2} \rightarrow -\omega^2$&lt;/li&gt;
-  &lt;li&gt;$\nabla^2 \rightarrow -k^2$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;when plugged into the equation for $\vec{P}$ we get $\vec{P}_0$ as:&lt;/p&gt;
-
-\[\vec{P}_0 = \frac{N q^2 / M}{\omega_T^2 - \omega^2} \vec{E}_0 \tag{3}\]
-
-&lt;p&gt;Finally from Maxwell’s Equation we get&lt;/p&gt;
-
-\[-\frac{\omega^2}{c^2} \vec{E}_0 = -k^2 \left( \vec{E}_0 + 4\pi \vec{P}_0 \right)\]
-
-&lt;p&gt;Cancel negative signs and factor:
-\(\frac{\omega^2}{c^2} = k^2 \left(1 + \frac{4\pi N q^2 / M}{\omega_T^2 - \omega^2} \right)\)&lt;/p&gt;
-
-&lt;p&gt;Now define the frequency-dependent dielectric function:&lt;/p&gt;
-
-\[\varepsilon(\omega) = 1 + \frac{4\pi N q^2 / M}{\omega_T^2 - \omega^2}\]</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">In solid-state physics, polaritons are quasiparticles arising from the strong coupling of photons with optical phonons in a crystal. These coupled modes play a central role in understanding the optical properties of ionic crystals, particularly in the infrared frequency range.</summary></entry><entry><title type="html">Tight-Binding Approximation</title><link href="http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding.html" rel="alternate" type="text/html" title="Tight-Binding Approximation" /><published>2025-05-26T09:47:26+05:30</published><updated>2025-05-26T09:47:26+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/05/26/Tight-Binding.html">&lt;h1 id=&quot;nearly-free-electron-model-and-energy-bands-in-one-dimension-tight-binding-approximation&quot;&gt;Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation&lt;/h1&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;:&lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Understand the basic assumptions of the nearly free electron model and how it modifies the free electron theory.&lt;/li&gt;
-  &lt;li&gt;Analyze the formation of energy bands and gaps due to weak periodic potentials.&lt;/li&gt;
-  &lt;li&gt;Learn the tight-binding approximation and how it leads to discrete energy levels forming bands.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Key Concepts / Definitions&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Nearly Free Electron Model&lt;/strong&gt;: A quantum mechanical model where electrons are treated as nearly free, slightly perturbed by a weak periodic potential.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Energy Band&lt;/strong&gt;: A range of allowed energies for an electron in a crystal due to the periodic potential.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Tight-Binding Approximation&lt;/strong&gt;: An approach assuming electrons are tightly bound to atoms but can hop to neighboring sites, resulting in band formation.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;nearly-free-electron-model-nfem&quot;&gt;Nearly Free Electron Model (NFEM)&lt;/h3&gt;
-
-&lt;p&gt;In the free electron model, electrons move in a constant potential, leading to continuous energy levels described by:&lt;/p&gt;
-
-\[E = \frac{\hbar^2 k^2}{2m}\]
-
-&lt;p&gt;However, in a crystal, electrons feel a &lt;strong&gt;periodic potential&lt;/strong&gt; due to the lattice:&lt;/p&gt;
-
-\[V(x) = V(x + a)\]
-
-&lt;p&gt;where $a$ is the lattice spacing. Bloch’s theorem tells us the solutions are of the form:&lt;/p&gt;
-
-\[\psi_k(x) = e^{ikx} u_k(x)\]
-
-&lt;p&gt;where $u_k(x)$ has the same periodicity as the lattice.&lt;/p&gt;
-
-&lt;p&gt;Due to the periodic potential, energy levels are no longer continuous. Instead, &lt;strong&gt;band gaps&lt;/strong&gt; open at the Brillouin zone boundaries where Bragg reflection occurs. For 1D, the Bragg condition is:&lt;/p&gt;
-
-\[k = \pm \frac{n\pi}{a}, \quad n = 1, 2, 3, \ldots\]
-
-&lt;p&gt;Near these points, the electron wavefunctions interfere destructively, leading to a &lt;strong&gt;forbidden energy gap&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;This model modifies the dispersion relation near the zone boundaries, and leads to &lt;strong&gt;energy bands&lt;/strong&gt; separated by &lt;strong&gt;gaps&lt;/strong&gt;. The first Brillouin zone extends from $- \frac{\pi}{a}$ to $+ \frac{\pi}{a}$.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h1 id=&quot;the-tight-binding-model&quot;&gt;The Tight-Binding Model&lt;/h1&gt;
-
-&lt;p&gt;The tight-binding model is a discrete approximation for understanding electron motion in solids. In this framework, space is replaced by a lattice of discrete points, corresponding to atomic positions in a crystalline solid. An electron is allowed to sit only on these discrete sites and can hop to neighboring sites due to quantum tunneling.&lt;/p&gt;
-
-&lt;p&gt;We begin by considering a one-dimensional lattice of atoms, described by $ N $ points along a line, each separated by a lattice constant $ a $. A single electron is considered, which can reside on any of these lattice sites but not in between. This assumption is central to the &lt;strong&gt;tight-binding approximation&lt;/strong&gt;, which models electrons as being tightly bound to atoms with a small probability to move to neighboring sites.&lt;/p&gt;
-
-&lt;p&gt;Let $ \ket{n} $ denote the state where the electron is located at the $ n $-th site. These states are orthogonal:&lt;/p&gt;
-
-\[&amp;lt; n | m &amp;gt; = \delta_{nm}\]
-
-&lt;p&gt;The Hilbert space is $ N $-dimensional and spanned by the orthonormal set $ { |n&amp;gt; }_{n=1}^N $.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/images/Lecture/tight.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:50%;&quot; /&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;hamiltonian-without-hopping&quot;&gt;Hamiltonian Without Hopping&lt;/h3&gt;
-
-&lt;p&gt;If the electron is bound to its site and never hops, the Hamiltonian $ H_0 $ is given by:&lt;/p&gt;
-
-\[H_0 = E_0 \sum_{n} |n&amp;gt;&amp;lt; n|\]
-
-&lt;p&gt;Each $ \ket{n}$ is an eigenstate with energy $ E_0 $. This Hamiltonian describes electrons that are completely localized and hence is trivial.&lt;/p&gt;
-
-&lt;h3 id=&quot;introducing-hopping&quot;&gt;Introducing Hopping&lt;/h3&gt;
-
-&lt;p&gt;To incorporate tunneling between sites, we modify the Hamiltonian. Quantum time evolution implies that to move an electron from one site to another, the Hamiltonian should include terms like $ |m&amp;gt;&amp;lt; n| $, which annihilates an electron at site $ n $ and creates one at site $ m $.&lt;/p&gt;
-
-&lt;p&gt;To keep the model local (i.e., allow only hopping to nearest neighbors), the full tight-binding Hamiltonian becomes:&lt;/p&gt;
-
-\[H = E_0 \sum_{n} | n&amp;gt;&amp;lt; n| - t \sum_{n} \left( |n&amp;gt;&amp;lt; n+1| + |n+1&amp;gt;&amp;lt; n| \right)\]
-
-&lt;p&gt;Here, $ t $ is the &lt;strong&gt;hopping parameter&lt;/strong&gt;, determining the strength of tunneling. It must be real to ensure $ H $ is Hermitian.&lt;/p&gt;
-
-&lt;p&gt;We impose &lt;strong&gt;periodic boundary conditions&lt;/strong&gt; by identifying $|N+1&amp;gt; \equiv \ket{1} $, effectively wrapping the 1D lattice into a circle. This simplifies calculations and makes the model translationally invariant.&lt;/p&gt;
-
-&lt;h3 id=&quot;solving-the-model&quot;&gt;Solving the Model&lt;/h3&gt;
-
-&lt;p&gt;We look for energy eigenstates of $ H $. A general state is:&lt;/p&gt;
-
-\[|\psi&amp;gt; = \sum_{m} c_m |m&amp;gt;\]
-
-&lt;p&gt;and when operated by $&amp;lt;n|$ we get&lt;/p&gt;
-
-\[\psi_n=&amp;lt;n|\psi&amp;gt;\]
-
-&lt;p&gt;Substituting into the Schrödinger equation $ H|\psi&amp;gt; = E|\psi&amp;gt; $ and projecting onto $ &amp;lt; n| $, we obtain:&lt;/p&gt;
-
-\[E_0 \psi_n - t (\psi_{n+1} + \psi_{n-1}) = E \psi_n\]
-
-&lt;p&gt;This is a second-order difference equation, often solved by the ansatz:&lt;/p&gt;
-
-\[\psi_n = e^{ikna}\]
-
-&lt;p&gt;or normalized as:&lt;/p&gt;
-
-\[\psi_n = \frac{1}{\sqrt{N}} e^{ikna}\]
-
-&lt;p&gt;Here, $ k $ is the &lt;strong&gt;wavenumber&lt;/strong&gt;, analogous to momentum. Substituting into the difference equation gives the &lt;strong&gt;energy dispersion relation&lt;/strong&gt;:&lt;/p&gt;
-
-\[E(k) = E_0 - 2t \cos(ka)\]
-
-&lt;p&gt;This relation defines a &lt;strong&gt;band&lt;/strong&gt; of allowed energies:&lt;/p&gt;
-
-\[E(k) \in [E_0 - 2t, E_0 + 2t]\]
-
-&lt;p&gt;The total width of the band is $ 4t $, referred to as the &lt;strong&gt;bandwidth&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;brillouin-zone-and-quantization&quot;&gt;Brillouin Zone and Quantization&lt;/h3&gt;
-
-&lt;p&gt;Due to periodicity, $ k $ is defined modulo $ 2\pi/a $, and lies within the &lt;strong&gt;Brillouin zone&lt;/strong&gt;:&lt;/p&gt;
-
-\[k \in \left( -\frac{\pi}{a}, \frac{\pi}{a} \right]\]
-
-&lt;p&gt;Periodicity also requires:&lt;/p&gt;
-
-\[\psi_{n+N} = \psi_n \Rightarrow e^{ikNa} = 1 \Rightarrow k = \frac{2\pi}{Na} \cdot m,\quad m \in \mathbb{Z}\]
-
-&lt;p&gt;Thus, $ k $ is quantized in units of $ 2\pi/(Na) $, giving exactly $ N $ distinct values, consistent with the Hilbert space dimension.&lt;/p&gt;
-
-&lt;h3 id=&quot;physical-interpretation&quot;&gt;Physical Interpretation&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Delocalization&lt;/strong&gt;: Even for arbitrarily small $ t $, the eigenstates become completely delocalized across the entire lattice. The presence of any hopping term destroys the localization of the $ H_0 $ eigenstates.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Degeneracy Lifting&lt;/strong&gt;: The degeneracy of $ H_0 $ is lifted. The spectrum now forms a band with energy varying with $ k $.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Effective Mass&lt;/strong&gt;: For small $ k \ll \pi/a $, we can expand the cosine:&lt;/p&gt;
-
-\[\cos(ka) \approx 1 - \frac{(ka)^2}{2}
-\Rightarrow
-E(k) \approx (E_0 - 2t) + ta^2 k^2\]
-
-    &lt;p&gt;This is similar to a free particle dispersion:&lt;/p&gt;
-
-\[E_{\text{free}} = \frac{\hbar^2 k^2}{2m}\]
-
-    &lt;p&gt;Hence, the electron behaves as if it moves in a continuum with &lt;strong&gt;effective mass&lt;/strong&gt;:&lt;/p&gt;
-
-\[m^* = \frac{\hbar^2}{2ta^2}\]
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Position-Momentum Reciprocity&lt;/strong&gt;:&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Making space finite or periodic quantizes momentum (as in the particle-in-a-box model).&lt;/li&gt;
-      &lt;li&gt;Making space discrete (as in tight-binding) makes momentum periodic, confined within the Brillouin zone.&lt;/li&gt;
-      &lt;li&gt;This reflects a fundamental duality: &lt;strong&gt;discreteness in one domain implies compactness in the other&lt;/strong&gt;, a manifestation of Fourier duality.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The tight-binding model, despite its simplicity, captures key features of electron dynamics in solids: band formation, delocalization, and the emergence of effective mass. It serves as a starting point for more complex models including multi-band structures, disorder, and interactions.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;:&lt;br /&gt;
-&lt;strong&gt;Problem&lt;/strong&gt;: For a 1D crystal with lattice constant $a = 2$ Å and hopping integral $t = 2$ eV, find the energy at $k = 0$ and $k = \frac{\pi}{a}$ in the tight-binding approximation.&lt;br /&gt;
-&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
-Given:&lt;br /&gt;
-\(E(k) = E_0 - 2t \cos(ka)\)&lt;br /&gt;
-At $k = 0$:&lt;br /&gt;
-\(E(0) = E_0 - 2t = E_0 - 4 \, \text{eV}\)&lt;br /&gt;
-At $k = \frac{\pi}{a}$:&lt;br /&gt;
-\(E\left(\frac{\pi}{a}\right) = E_0 - 2t \cos(\pi) = E_0 + 2t = E_0 + 4 \, \text{eV}\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;:&lt;br /&gt;
-&lt;strong&gt;Problem&lt;/strong&gt;: Estimate the width of the first band gap in a nearly free electron model for a weak periodic potential $V(x) = V_0 \cos\left(\frac{2\pi x}{a}\right)$.&lt;br /&gt;
-&lt;strong&gt;Solution&lt;/strong&gt;:&lt;br /&gt;
-Band gap opens at $k = \pm \frac{\pi}{a}$. The energy gap is approximately:&lt;br /&gt;
-\(\Delta E \approx |V_G| = \left| \frac{1}{a} \int_0^a V(x) e^{-i \frac{2\pi x}{a}} dx \right| = |V_0|\)&lt;br /&gt;
-Thus, the band gap is approximately equal to the Fourier component of the potential at the reciprocal lattice vector $G = \frac{2\pi}{a}$.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Important Points / Summary&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Nearly free electron model explains the origin of band gaps due to Bragg reflection in periodic potentials.&lt;/li&gt;
-  &lt;li&gt;The formation of allowed and forbidden energy regions leads to conduction and valence bands.&lt;/li&gt;
-  &lt;li&gt;Tight-binding model is useful for materials with localized electrons and predicts cosine-shaped energy bands.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Practice Questions&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Short Answer:
-    &lt;ol&gt;
-      &lt;li&gt;What is the physical significance of a band gap in solids?&lt;/li&gt;
-      &lt;li&gt;Explain why energy gaps appear at the Brillouin zone boundaries in the nearly free electron model.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Numerical:
-    &lt;ol&gt;
-      &lt;li&gt;Calculate the bandwidth for a tight-binding band with $t = 1.5$ eV.&lt;/li&gt;
-      &lt;li&gt;If the periodic potential has strength $V_0 = 0.8$ eV, estimate the band gap at $k = \pm \frac{\pi}{a}$.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;MCQs:
-    &lt;ol&gt;
-      &lt;li&gt;In the tight-binding model, the energy dispersion relation is:
-        &lt;ul&gt;
-          &lt;li&gt;(A) $E(k) = \frac{\hbar^2 k^2}{2m}$&lt;/li&gt;
-          &lt;li&gt;(B) $E(k) = E_0 - 2t \cos(ka)$&lt;/li&gt;
-          &lt;li&gt;(C) $E(k) = E_0 + tk$&lt;/li&gt;
-          &lt;li&gt;(D) $E(k) = E_0 + t \sin(ka)$&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (B)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;The first Brillouin zone for a 1D crystal with lattice spacing $a$ extends from:
-        &lt;ul&gt;
-          &lt;li&gt;(A) $0$ to $\frac{2\pi}{a}$&lt;/li&gt;
-          &lt;li&gt;(B) $-\frac{\pi}{a}$ to $\frac{\pi}{a}$&lt;/li&gt;
-          &lt;li&gt;(C) $-\frac{2\pi}{a}$ to $\frac{2\pi}{a}$&lt;/li&gt;
-          &lt;li&gt;(D) $0$ to $\frac{\pi}{a}$&lt;br /&gt;
-&lt;strong&gt;Answer&lt;/strong&gt;: (B)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Nearly Free Electron Model and Energy Bands in One Dimension, Tight-Binding Approximation</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives:</summary></entry></feed>
