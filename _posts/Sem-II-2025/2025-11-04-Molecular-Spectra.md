@@ -3,7 +3,6 @@ layout: post
 title: "Molecular Spectra"
 date: 2025-11-04 10:30:00 +0530
 categories: lecture
-comments: true
 tags: MSc 
 ---
 

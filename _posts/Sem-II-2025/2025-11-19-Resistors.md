@@ -3,7 +3,6 @@ layout: post
 title: "Resistors"
 date: 2025-11-19 10:30:00 +0530
 categories: lecture
-comments: true
 tags: MSc 
 ---
 
