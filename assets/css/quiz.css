@@ -23,7 +23,7 @@
 #quiz-container img {
   display: block;                   /* centers the image */
   margin: 0.8rem auto;              /* vertical spacing, auto horizontal centering */
-  width: 40%;                       /* occupy only 40% of the quiz box */
+  width: 55%;                       /* occupy only 40% of the quiz box */
   height: auto;                     /* maintain aspect ratio */
   }
 
@@ -185,4 +185,81 @@
   .options-grid {
     grid-template-columns: 1fr;
   }
+}
+
+
+/* === Final Percentage result look === */
+/* Fade-in animation */
+.fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Premium Score Container */
+.score-card {
+  text-align: center;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 15px;
+  background: #ffffffdd;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.12);
+  backdrop-filter: blur(6px);
+}
+
+/* Title Styling */
+.score-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+/* Stats Line */
+.score-stats {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Circular Percentage Badge */
+.percent-circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #ff2b2b, #c40000);
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-top: 20px;
+  box-shadow: 0 0 15px rgba(255,0,0,0.6);
+  animation: blink 1.2s infinite ease-in-out;
+}
+
+/* Blinking effect */
+@keyframes blink {
+  0% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.08); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* Restart Button Premium Look */
+#restart-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#restart-btn:hover {
+  background: #0056cc;
+  transform: translateY(-2px);
 }

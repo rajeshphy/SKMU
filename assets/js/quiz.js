@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let current = 0;
         let score = 0;
 
-        // Reset quiz container each time
+        // RESET quiz container UI
         quizContainer.innerHTML = `
           <h2 id="quiz-title" class="quiz-title">${data.title || "Quiz"}</h2>
           <div id="question-container" class="question-container">
@@ -38,7 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
           <div id="result" class="result"></div>
         `;
 
-        const titleEl = document.getElementById("quiz-title");
         const qEl = document.getElementById("question");
         const optionBtns = Array.from(document.querySelectorAll(".option"));
         const nextBtn = document.getElementById("next-btn");
@@ -48,8 +47,8 @@ document.addEventListener("DOMContentLoaded", () => {
         function showQuestion() {
           nextBtn.style.display = "none";
           resultEl.textContent = "";
-          const q = questions[current];
 
+          const q = questions[current];
           qEl.innerHTML = `${current + 1}. ${q.title}`;
 
           optionBtns.forEach((btn, i) => {
@@ -59,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
             btn.onclick = () => selectAnswer(btn, i, q.correct);
           });
 
-          if (window.MathJax && window.MathJax.typesetPromise) {
+          if (window.MathJax?.typesetPromise) {
             MathJax.typesetClear();
             MathJax.typesetPromise();
           }
@@ -78,13 +77,13 @@ document.addEventListener("DOMContentLoaded", () => {
             optionBtns[correctIndex].classList.add("correct");
           }
 
-          if (window.MathJax && window.MathJax.typesetPromise) {
+          if (window.MathJax?.typesetPromise) {
             MathJax.typesetClear();
             MathJax.typesetPromise();
           }
         }
 
-        // ---------------- NEXT BUTTON ----------------
+        // ---------------- NEXT QUESTION ----------------
         nextBtn.onclick = () => {
           current++;
           if (current < questions.length) showQuestion();
@@ -95,15 +94,35 @@ document.addEventListener("DOMContentLoaded", () => {
         function finishQuiz() {
           const total = questions.length;
           const percent = ((score / total) * 100).toFixed(1);
+          const incorrect = total - score;
+
           quizContainer.innerHTML = `
-            <h2>✅ ${data.title}</h2>
-            <p>You answered ${total} questions.</p>
-            <p><strong>Score:</strong> ${score} / ${total} (${percent}%)</p>
-            <button id="restart-btn" class="btn next-btn">Restart Quiz</button>
+            <div class="score-card fade-in">
+
+              <div class="score-title">🎉 Quiz Result</div>
+
+              <div class="score-stats">
+                You got <strong>${score}</strong> correct and <strong>${incorrect}</strong> incorrect.
+              </div>
+
+              <div class="percent-circle fade-in">
+                ${percent}%
+              </div>
+				
+			<div class="score-stats">
+                Your Score: <strong>${score}</strong> / ${total}
+              </div>
+              
+              <div>
+                <button id="restart-btn">🔄 Restart Quiz</button>
+              </div>
+
+            </div>
           `;
+
           document.getElementById("restart-btn").onclick = () => location.reload();
 
-          if (window.MathJax && window.MathJax.typesetPromise) {
+          if (window.MathJax?.typesetPromise) {
             MathJax.typesetPromise();
           }
         }
@@ -123,7 +142,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const file = btn.getAttribute("data-file");
       quizSection.style.display = "block";
 
-      // Visually mark selected level
+      // Highlight selected level
       levelButtons.forEach(b => b.classList.remove("active-level"));
       btn.classList.add("active-level");
 
@@ -132,7 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // ---------------- AUTO LOAD SINGLE QUIZ (if any) ----------------
+  // ---------------- AUTO LOAD PRE-ASSIGNED QUIZ ----------------
   const presetFile = quizContainer?.getAttribute("data-quiz");
   if (presetFile) loadQuiz(presetFile);
 });
