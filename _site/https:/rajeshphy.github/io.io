@@ -1,4 +1,202 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-25T14:09:48+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Resistors</title><link href="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html" rel="alternate" type="text/html" title="Resistors" /><published>2025-11-19T10:30:00+05:30</published><updated>2025-11-19T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/19/Resistors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html">&lt;h1 id=&quot;resistors-types-characteristics-and-colour-coding&quot;&gt;Resistors: Types, Characteristics, and Colour Coding&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-27T13:25:59+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: Lecture-III</title><link href="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L3.html" rel="alternate" type="text/html" title="JET: Lecture-III " /><published>2025-11-27T10:30:00+05:30</published><updated>2025-11-27T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L3</id><content type="html" xml:base="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L3.html">&lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
+  &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
+              padding:1.2rem 1.5rem;max-width:560px;width:100%;font-family:&apos;Inter&apos;,sans-serif;
+              border:1px solid #d9e6b2;&quot;&gt;
+
+    &lt;h2 style=&quot;text-align:center;color:#3b4c00;margin-bottom:0.8rem;
+               font-size:1.4rem;font-weight:700;&quot;&gt;QUIZ&lt;/h2&gt;
+
+
+    &lt;!-- === Difficulty selector === --&gt;
+    &lt;div id=&quot;quiz-level-selector&quot; style=&quot;text-align:center;margin-bottom:1rem;display:flex;justify-content:center;gap:0.4rem;flex-wrap:wrap;&quot;&gt;
+      &lt;button class=&quot;level-btn&quot; data-file=&quot;L3_Easy.json&quot;&gt;Easy&lt;/button&gt;
+      &lt;button class=&quot;level-btn&quot; data-file=&quot;L3_Medium.json&quot;&gt;Medium&lt;/button&gt;
+      &lt;button class=&quot;level-btn&quot; data-file=&quot;L3_Hard.json&quot;&gt;Hard&lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;!-- === Quiz container (initially hidden) === --&gt;
+    &lt;div id=&quot;quiz-section&quot; style=&quot;display:none;&quot;&gt;
+      &lt;div class=&quot;quiz-wrapper&quot;&gt;
+  &lt;div id=&quot;quiz-container&quot; data-quiz=&quot;&quot;&gt;
+    &lt;h2 id=&quot;quiz-title&quot; class=&quot;quiz-title&quot;&gt;&lt;/h2&gt;
+
+    &lt;div id=&quot;question-container&quot; class=&quot;question-container&quot;&gt;
+      &lt;div id=&quot;question&quot; class=&quot;question-text&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;answer-buttons&quot; class=&quot;options-grid&quot;&gt;
+        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
+        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
+        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
+        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;button id=&quot;next-btn&quot; class=&quot;btn next-btn&quot;&gt;Next&lt;/button&gt;
+    &lt;div id=&quot;result&quot; class=&quot;result&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- ✅ Stylesheet --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/SKMU/assets/css/quiz.css&quot; /&gt;
+
+&lt;!-- ✅ Quiz Script --&gt;
+&lt;script src=&quot;/SKMU/assets/js/quiz.js&quot;&gt;&lt;/script&gt;
+
+
+&lt;!-- ✅ Pass baseurl to JS (for blogs inside subfolders like /SKMU/) --&gt;
+&lt;script&gt;
+  window.quizBaseUrl = &quot;/SKMU&quot;;
+&lt;/script&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-line-integrals&quot;&gt;&lt;strong&gt;1. Line Integrals&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;A &lt;strong&gt;line integral&lt;/strong&gt; measures the value of a scalar or vector field &lt;strong&gt;along a curve&lt;/strong&gt;.&lt;br /&gt;
+The curve may be in 2D or 3D and is usually parametrized as $ \mathbf{r}(t) $.&lt;/p&gt;
+
+&lt;p&gt;For a scalar field $ \phi(x, y, z) $, the line integral along a curve $ C $ is:&lt;/p&gt;
+
+\[\int_C \phi \, ds\]
+
+&lt;p&gt;where&lt;/p&gt;
+
+\[ds = |\mathbf{r}&apos;(t)|\, dt\]
+
+&lt;p&gt;This gives the &lt;strong&gt;accumulated value&lt;/strong&gt; of the scalar field along the path.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Physical meaning:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Total mass of a thin wire with density $ \phi $.&lt;/li&gt;
+  &lt;li&gt;Total temperature along a path.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For a vector field $ \mathbf{A} $, line integral is:&lt;/p&gt;
+
+\[\int_C \mathbf{A} \cdot d\mathbf{r}\]
+
+&lt;p&gt;where $ d\mathbf{r} = dx\, \hat{i} + dy\, \hat{j} + dz\, \hat{k} $.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Interpretation:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Measures the &lt;strong&gt;work done&lt;/strong&gt; by a force field along a path.&lt;br /&gt;
+\(W = \int_C \mathbf{F} \cdot d\mathbf{r}\)&lt;/li&gt;
+  &lt;li&gt;Circulation of a vector field.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; For a &lt;strong&gt;conservative field&lt;/strong&gt; $ \mathbf{A} = \nabla \phi $:&lt;/p&gt;
+
+\[\int_C \mathbf{A} \cdot d\mathbf{r} = \phi(B) - \phi(A)\]
+
+&lt;p&gt;i.e., path-independent.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-surface-integrals&quot;&gt;&lt;strong&gt;2. Surface Integrals&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;A &lt;strong&gt;surface integral&lt;/strong&gt; measures how a scalar or vector field interacts with a &lt;strong&gt;surface&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;For a scalar field $ \phi $, over surface $ S $:&lt;/p&gt;
+
+\[\iint_S \phi \, dS\]
+
+&lt;p&gt;where $ dS = |\mathbf{r}_u \times \mathbf{r}_v| \, du\, dv $.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Physical meaning:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Total mass on a thin sheet.&lt;/li&gt;
+  &lt;li&gt;Total heat radiated by a surface.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Flux of vector field $ \mathbf{A} $ across a surface:&lt;/p&gt;
+
+\[\iint_S \mathbf{A} \cdot d\mathbf{S}\]
+
+&lt;p&gt;where&lt;/p&gt;
+
+\[d\mathbf{S} = \hat{n}\, dS\]
+
+&lt;p&gt;This measures how much of the field &lt;strong&gt;passes through&lt;/strong&gt; the surface.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Electric flux:&lt;br /&gt;
+\(\Phi_E = \iint_S \mathbf{E} \cdot d\mathbf{S}\)&lt;/li&gt;
+  &lt;li&gt;Magnetic flux:&lt;br /&gt;
+\(\Phi_B = \iint_S \mathbf{B} \cdot d\mathbf{S}\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Flux is positive:&lt;/strong&gt; when the field flows along outward normal.&lt;br /&gt;
+&lt;strong&gt;Flux is negative:&lt;/strong&gt; when it flows inward.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-volume-integrals&quot;&gt;&lt;strong&gt;3. Volume Integrals&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;A &lt;strong&gt;volume integral&lt;/strong&gt; gives the accumulated value of a field inside a 3D region.&lt;/p&gt;
+
+\[\iiint_V \phi \, dV\]
+
+&lt;p&gt;For Cartesian:&lt;br /&gt;
+\(dV = dx\, dy\, dz\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Physical meaning:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Total mass of a 3D body with density $ \rho(x,y,z) $.&lt;/li&gt;
+  &lt;li&gt;Total charge if $ \rho $ is charge density.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;comparison-table&quot;&gt;Comparison Table&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Integral Type&lt;/th&gt;
+      &lt;th&gt;Field Type&lt;/th&gt;
+      &lt;th&gt;Expression&lt;/th&gt;
+      &lt;th&gt;Meaning&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Line (scalar)&lt;/td&gt;
+      &lt;td&gt;$ \phi $&lt;/td&gt;
+      &lt;td&gt;$ \int_C \phi\, ds $&lt;/td&gt;
+      &lt;td&gt;Total value along path&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Line (vector)&lt;/td&gt;
+      &lt;td&gt;$ \mathbf{A} $&lt;/td&gt;
+      &lt;td&gt;$ \int_C \mathbf{A}\cdot d\mathbf{r} $&lt;/td&gt;
+      &lt;td&gt;Work done / circulation&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Surface (scalar)&lt;/td&gt;
+      &lt;td&gt;$ \phi $&lt;/td&gt;
+      &lt;td&gt;$ \iint_S \phi\, dS $&lt;/td&gt;
+      &lt;td&gt;Total over a surface&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Surface (vector)&lt;/td&gt;
+      &lt;td&gt;$ \mathbf{A} $&lt;/td&gt;
+      &lt;td&gt;$ \iint_S \mathbf{A}\cdot d\mathbf{S} $&lt;/td&gt;
+      &lt;td&gt;Flux through surface&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Volume (scalar)&lt;/td&gt;
+      &lt;td&gt;$ \phi $&lt;/td&gt;
+      &lt;td&gt;$ \iiint_V \phi\, dV $&lt;/td&gt;
+      &lt;td&gt;Total in volume&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Volume (vector)&lt;/td&gt;
+      &lt;td&gt;$ \mathbf{A} $&lt;/td&gt;
+      &lt;td&gt;$ \iiint_V \mathbf{A}\, dV $&lt;/td&gt;
+      &lt;td&gt;Integrated vector value&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html"></summary></entry><entry><title type="html">Resistors</title><link href="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html" rel="alternate" type="text/html" title="Resistors" /><published>2025-11-19T10:30:00+05:30</published><updated>2025-11-19T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/19/Resistors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html">&lt;h1 id=&quot;resistors-types-characteristics-and-colour-coding&quot;&gt;Resistors: Types, Characteristics, and Colour Coding&lt;/h1&gt;
 
 &lt;p&gt;A resistor is one of the most fundamental passive components used in electrical and electronic circuits. Its primary function is to oppose or limit the flow of electric current, thereby controlling voltage levels, dividing currents, reducing power, and protecting sensitive components. Resistors operate based on the principle that certain materials inherently resist the motion of electrons. This resistance is quantified in ohms (Ω), named after Georg Simon Ohm, who formulated the foundational relationship among voltage (V), current (I), and resistance (R).&lt;/p&gt;
 
@@ -395,7 +593,7 @@ where $ u_\ell = rR_\ell $.&lt;/p&gt;
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;/SKMU/physics/mathematics/2022/11/03/JET-Paper-2-L1.html&quot;&gt;Vector algebra: addition, scalar and vector products, triple products&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;/SKMU/physics/mathematics/2022/11/06/JET-Paper-2-L2.html&quot;&gt;Gradient, divergence, and curl — physical interpretation&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Line, surface, and volume integrals&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L3.html&quot;&gt;Line, surface, and volume integrals&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;Integral theorems: Gauss, Green, and Stokes&lt;/li&gt;
       &lt;li&gt;Scalar and vector potentials; Laplacian operator&lt;/li&gt;
       &lt;li&gt;Curvilinear coordinates (cylindrical and spherical) and scale factors&lt;/li&gt;
@@ -1037,247 +1235,4 @@ Write a Python program to sort a list of numbers in &lt;strong&gt;descending ord
       &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;plt.plot(x, y)&lt;/code&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives: Review all built-in, NumPy, and math functions used across typical numerical methods problems given at the end of this page. Understand and apply key numerical methods including root finding, interpolation, curve fitting, numerical integration, and solving ODEs. Practice basic numerical algorithms using Python.</summary></entry><entry><title type="html">Interaction of Solids with EM Field</title><link href="http://localhost:4000/SKMU/lecture/2025/07/08/Drude-Model.html" rel="alternate" type="text/html" title="Interaction of Solids with EM Field" /><published>2025-07-08T10:30:00+05:30</published><updated>2025-07-08T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/07/08/Drude-Model</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/07/08/Drude-Model.html">&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Understand how solids interact with electromagnetic (EM) waves.&lt;/li&gt;
-  &lt;li&gt;Introduce classical free-electron models of electrical conduction.&lt;/li&gt;
-  &lt;li&gt;Derive electrical conductivity using the Drude model.&lt;/li&gt;
-  &lt;li&gt;Identify the limitations of the Drude model.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;When an electromagnetic field interacts with a solid, it can:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Induce currents (conductivity)&lt;/li&gt;
-  &lt;li&gt;Polarize the material (dielectric response)&lt;/li&gt;
-  &lt;li&gt;Be reflected, transmitted, or absorbed depending on the material properties&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The interaction depends on:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The &lt;strong&gt;electronic structure&lt;/strong&gt; of the solid&lt;/li&gt;
-  &lt;li&gt;The &lt;strong&gt;frequency&lt;/strong&gt; of the electromagnetic radiation&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Scattering mechanisms&lt;/strong&gt; inside the solid&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Classical Free Electron Theory (Drude Model)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;Drude Model&lt;/strong&gt; (1900) is the earliest attempt to explain electrical and thermal conductivity in metals using classical physics.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Assumptions:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Electrons behave like classical particles.&lt;/li&gt;
-  &lt;li&gt;Electrons undergo random collisions (scattering) with fixed positive ions.&lt;/li&gt;
-  &lt;li&gt;Between collisions, electrons accelerate freely under the influence of electric field &lt;strong&gt;E&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;The average time between collisions is called the &lt;strong&gt;relaxation time&lt;/strong&gt; $ \tau $.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;An external electric field $ \mathbf{E} $ applies a force $ \mathbf{F} = -e\mathbf{E} $ on each electron.&lt;/p&gt;
-
-&lt;p&gt;The equation of motion becomes:&lt;/p&gt;
-
-\[m \frac{d\mathbf{v}}{dt} = -e\mathbf{E} - \frac{m\mathbf{v}}{\tau}\]
-
-&lt;p&gt;In steady state ($ \frac{d\mathbf{v}}{dt} = 0 $):&lt;/p&gt;
-
-\[\mathbf{v}_{\text{avg}} = -\frac{e\tau}{m} \mathbf{E}\]
-
-&lt;p&gt;&lt;strong&gt;Electrical Conductivity&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Current density $ \mathbf{J} $ is given by:&lt;/p&gt;
-
-\[\mathbf{J} = -ne\mathbf{v}_{\text{avg}} = \frac{ne^2\tau}{m} \mathbf{E}\]
-
-&lt;p&gt;Hence, electrical &lt;strong&gt;conductivity&lt;/strong&gt; $ \sigma $ is:&lt;/p&gt;
-
-\[\sigma = \frac{ne^2\tau}{m}\]
-
-&lt;ul&gt;
-  &lt;li&gt;$ n $: Number of free electrons per unit volume&lt;/li&gt;
-  &lt;li&gt;$ e $: Charge of electron&lt;/li&gt;
-  &lt;li&gt;$ \tau $: Relaxation time&lt;/li&gt;
-  &lt;li&gt;$ m $: Mass of electron&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So:&lt;/p&gt;
-
-\[\mathbf{J} = \sigma \mathbf{E}\]
-
-&lt;p&gt;&lt;strong&gt;Limitations of the Drude Model&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Fails to explain temperature dependence of conductivity accurately.&lt;/li&gt;
-  &lt;li&gt;Cannot explain positive Hall coefficient in some metals.&lt;/li&gt;
-  &lt;li&gt;Does not account for quantum statistics (Fermi-Dirac distribution).&lt;/li&gt;
-  &lt;li&gt;Over-simplifies electron-lattice interactions.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;macroscopic-theory-of-optical-constants-dispersion-and-absorption&quot;&gt;Macroscopic Theory of Optical Constants, Dispersion, and Absorption&lt;/h3&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:darkred&quot;&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/span&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Understand how electromagnetic waves propagate in a medium.&lt;/li&gt;
-  &lt;li&gt;Define key optical constants: refractive index, absorption coefficient, and dielectric function.&lt;/li&gt;
-  &lt;li&gt;Relate microscopic material properties to macroscopic electromagnetic behavior.&lt;/li&gt;
-  &lt;li&gt;Derive expressions for the complex dielectric function and refractive index.&lt;/li&gt;
-  &lt;li&gt;Explore the Lorentz oscillator model and dispersion formulas.&lt;/li&gt;
-  &lt;li&gt;Connect theory with observable properties of materials.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Electromagnetic Wave in Matter&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Maxwell’s equations in a linear, isotropic, homogeneous medium (no free charge/current):&lt;/p&gt;
-
-\[\nabla \cdot \mathbf{D} = 0, \quad \nabla \cdot \mathbf{B} = 0\]
-
-\[\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}, \quad \nabla \times \mathbf{H} = \frac{\partial \mathbf{D}}{\partial t}\]
-
-&lt;p&gt;Constitutive relations:&lt;/p&gt;
-
-\[\mathbf{D} = \varepsilon \mathbf{E}, \quad \mathbf{B} = \mu \mathbf{H}\]
-
-&lt;p&gt;For optical frequencies, $ \mu \approx \mu_0 $, so we focus on dielectric function $ \varepsilon(\omega) $.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Wave Equation in Dielectric Medium&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The wave equation for the electric field becomes:&lt;/p&gt;
-
-\[\nabla^2 \mathbf{E} - \mu_0 \varepsilon \frac{\partial^2 \mathbf{E}}{\partial t^2} = 0\]
-
-&lt;p&gt;Assume a plane wave solution:&lt;/p&gt;
-
-\[\mathbf{E}(z,t) = \mathbf{E}_0 e^{i(kz - \omega t)}\]
-
-&lt;p&gt;With:&lt;/p&gt;
-
-\[k = \omega \sqrt{\mu_0 \varepsilon(\omega)} = \frac{\omega n(\omega)}{c}\]
-
-&lt;p&gt;&lt;strong&gt;Complex Dielectric Function and Optical Constants&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;We define a &lt;strong&gt;complex dielectric function&lt;/strong&gt;:&lt;/p&gt;
-
-\[\varepsilon(\omega) = \varepsilon_1(\omega) + i \varepsilon_2(\omega)\]
-
-&lt;ul&gt;
-  &lt;li&gt;$ \varepsilon_1(\omega) $: describes &lt;strong&gt;dispersion&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;$ \varepsilon_2(\omega) $: describes &lt;strong&gt;absorption&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The &lt;strong&gt;complex refractive index&lt;/strong&gt; is:&lt;/p&gt;
-
-\[\tilde{n}(\omega) = n(\omega) + i\kappa(\omega)\]
-
-&lt;p&gt;where:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;$n(\omega)$: refractive index (phase velocity)&lt;/li&gt;
-  &lt;li&gt;$\kappa(\omega)$: extinction coefficient (attenuation)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Relationship to dielectric function:&lt;/p&gt;
-
-\[\varepsilon(\omega) = \tilde{n}^2(\omega) = (n + i\kappa)^2\]
-
-&lt;p&gt;Expanding:&lt;/p&gt;
-
-\[\varepsilon_1 = n^2 - \kappa^2, \quad \varepsilon_2 = 2n\kappa\]
-
-&lt;p&gt;&lt;strong&gt;Absorption Coefficient&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The wave propagates as:&lt;/p&gt;
-
-\[E(z) = E_0 e^{i(kz - \omega t)} = E_0 e^{-\alpha z/2} e^{i(k&apos; z - \omega t)}\]
-
-&lt;p&gt;The &lt;strong&gt;absorption coefficient&lt;/strong&gt; $ \alpha $ is related to $ \kappa $ by:&lt;/p&gt;
-
-\[\alpha = \frac{4\pi \kappa}{\lambda}\]
-
-&lt;p&gt;This describes how the wave amplitude decays exponentially inside the material.&lt;/p&gt;
-
-&lt;h3 id=&quot;dispersion-and-absorption-in-solids&quot;&gt;Dispersion and Absorption in Solids&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;What is Dispersion?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Dispersion&lt;/strong&gt; refers to the frequency dependence of the refractive index $n(\omega)$ or dielectric function $\varepsilon(\omega)$.&lt;/p&gt;
-
-&lt;p&gt;It causes:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Wavelength-dependent phase velocity&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Color separation&lt;/strong&gt; in a prism&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Mathematically:&lt;/p&gt;
-
-\[n(\omega) = \text{Re}[\tilde{n}(\omega)] = \sqrt{\frac{\sqrt{\varepsilon_1^2 + \varepsilon_2^2} + \varepsilon_1}{2}}\]
-
-&lt;p&gt;&lt;strong&gt;What is Absorption?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Absorption transfers EM energy to internal degrees of freedom (electrons/phonons).&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Represented by $ \varepsilon_2(\omega) $ or $\kappa$&lt;/li&gt;
-  &lt;li&gt;Intensity decay:&lt;/li&gt;
-&lt;/ul&gt;
-
-\[I(z) = I_0 e^{-\alpha z}, \quad \text{where} \quad \alpha = \frac{4\pi \kappa}{\lambda}\]
-
-&lt;p&gt;&lt;strong&gt;Lorentz Oscillator Model&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Bound electrons behave like damped harmonic oscillators:&lt;/p&gt;
-
-\[m \frac{d^2 x}{dt^2} + m\gamma \frac{dx}{dt} + m\omega_0^2 x = -eE e^{-i\omega t}\]
-
-&lt;p&gt;Solution gives displacement:&lt;/p&gt;
-
-\[x(\omega) = \frac{-eE_0}{m(\omega_0^2 - \omega^2 - i\gamma \omega)}\]
-
-&lt;p&gt;Polarization:&lt;/p&gt;
-
-\[P(\omega) = N e x(\omega) = \frac{Ne^2}{m} \cdot \frac{1}{\omega_0^2 - \omega^2 - i\gamma \omega} E(\omega)\]
-
-&lt;p&gt;Dielectric function:&lt;/p&gt;
-
-\[\varepsilon(\omega) = 1 + \frac{Ne^2}{\varepsilon_0 m} \cdot \frac{1}{\omega_0^2 - \omega^2 - i\gamma \omega}\]
-
-&lt;p&gt;&lt;strong&gt;Dispersion Formula and Applications&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;We typically write the dielectric function as:&lt;/p&gt;
-
-\[\varepsilon(\omega) = \varepsilon_\infty + \frac{f}{\omega_0^2 - \omega^2 - i\gamma \omega}\]
-
-&lt;p&gt;Where:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;$\varepsilon_\infty$: high-frequency contribution&lt;/li&gt;
-  &lt;li&gt;$f = \frac{Ne^2}{\varepsilon_0 m}$: oscillator strength&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Splitting into Real and Imaginary Parts&lt;/strong&gt;&lt;/p&gt;
-
-\[\varepsilon(\omega) = \varepsilon_1(\omega) + i \varepsilon_2(\omega)\]
-
-&lt;p&gt;&lt;strong&gt;Real part (dispersion):&lt;/strong&gt;&lt;/p&gt;
-
-\[\varepsilon_1(\omega) = \varepsilon_\infty + \frac{f(\omega_0^2 - \omega^2)}{(\omega_0^2 - \omega^2)^2 + (\gamma \omega)^2}\]
-
-&lt;p&gt;&lt;strong&gt;Imaginary part (absorption):&lt;/strong&gt;&lt;/p&gt;
-
-\[\varepsilon_2(\omega) = \frac{f \gamma \omega}{(\omega_0^2 - \omega^2)^2 + (\gamma \omega)^2}\]
-
-&lt;p&gt;&lt;strong&gt;Physical Interpretation&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$\varepsilon_1(\omega)$ shows &lt;strong&gt;strong frequency dependence&lt;/strong&gt; near $ \omega_0 $&lt;/li&gt;
-  &lt;li&gt;$\varepsilon_2(\omega)$ &lt;strong&gt;peaks&lt;/strong&gt; at $ \omega = \omega_0 $&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Frequency Behavior:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$ \omega \ll \omega_0 \Rightarrow \varepsilon_1 &amp;gt; \varepsilon_\infty $&lt;/li&gt;
-  &lt;li&gt;$ \omega \gg \omega_0 \Rightarrow \varepsilon_1 \rightarrow \varepsilon_\infty $&lt;/li&gt;
-  &lt;li&gt;Peak in $ \varepsilon_2(\omega) $ at resonance $ \omega = \omega_0 $&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives:</summary></entry></feed>
+&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><category term="SEM-IV" /><summary type="html">Learning Objectives: Review all built-in, NumPy, and math functions used across typical numerical methods problems given at the end of this page. Understand and apply key numerical methods including root finding, interpolation, curve fitting, numerical integration, and solving ODEs. Practice basic numerical algorithms using Python.</summary></entry></feed>

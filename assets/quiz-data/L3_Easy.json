@@ -1,0 +1,84 @@
+{
+  "title": "Line, Surface, and Volume Integrals – Easy Level",
+  "description": "Answer all questions. Each carries 1 mark. Choose the most appropriate option.",
+  "quizSettings": {
+    "isQuiz": true
+  },
+  "questions": [
+    {
+      "title": "A line integral is evaluated over a",
+      "options": ["Curve or path", "Surface", "Volume", "Point"],
+      "correct": 0
+    },
+    {
+      "title": "A surface integral is represented as",
+      "options": ["$$\\int \\vec{A} \\cdot d\\vec{r}$$", "$$\\int \\vec{A} \\cdot d\\vec{S}$$", "$$\\int f(x,y,z) dV$$", "$$\\int f(x) dx$$"],
+      "correct": 1
+    },
+    {
+      "title": "A volume integral is represented as",
+      "options": ["$$\\int f(x,y,z) dV$$", "$$\\int f(x) dx$$", "$$\\int \\vec{A} \\cdot d\\vec{S}$$", "$$\\int \\vec{A} \\cdot d\\vec{r}$$"],
+      "correct": 0
+    },
+    {
+      "title": "The quantity $$d\\vec{r}$$ in a line integral represents",
+      "options": ["A small area element", "A small volume element", "A small displacement vector", "A constant vector"],
+      "correct": 2
+    },
+    {
+      "title": "Surface integrals are used to compute",
+      "options": ["Work done", "Flux through a surface", "Length of a curve", "Divergence of a vector"],
+      "correct": 1
+    },
+    {
+      "title": "Volume integrals are commonly used to calculate",
+      "options": ["Area of a surface", "Flux of a field", "Total mass or charge in a region", "Work done along a curve"],
+      "correct": 2
+    },
+    {
+      "title": "The surface integral $$\\int \\vec{A} \\cdot d\\vec{S}$$ gives",
+      "options": ["Circulation of a vector field", "Flux of a vector field", "Gradient of a scalar field", "Divergence of a vector field"],
+      "correct": 1
+    },
+    {
+      "title": "The symbol $$dS$$ represents",
+      "options": ["Volume element", "Area element", "Line element", "Scalar field"],
+      "correct": 1
+    },
+    {
+      "title": "The line integral $$\\int \\vec{F} \\cdot d\\vec{r}$$ represents",
+      "options": ["Flux", "Work done by a force", "Mass", "Charge density"],
+      "correct": 1
+    },
+    {
+      "title": "Which integral calculates total amount of a scalar field in a region?",
+      "options": ["Line integral", "Surface integral", "Volume integral", "Divergence integral"],
+      "correct": 2
+    },
+    {
+      "title": "For a closed surface, the surface integral measures",
+      "options": ["Total energy", "Total flux through the surface", "Total work done", "Total displacement"],
+      "correct": 1
+    },
+    {
+      "title": "Line integrals are evaluated using which element?",
+      "options": ["$$dV$$", "$$dS$$", "$$d\\vec{r}$$", "$$dx dy dz$$"],
+      "correct": 2
+    },
+    {
+      "title": "Volume element in Cartesian coordinates is",
+      "options": ["$$dx$$", "$$dx dy$$", "$$dx dy dz$$", "$$r dr d\\theta$$"],
+      "correct": 2
+    },
+    {
+      "title": "Surface integrals are useful in applying which theorem?",
+      "options": ["Gauss’s divergence theorem", "Lagrange’s theorem", "Green’s line theorem", "Taylor’s theorem"],
+      "correct": 0
+    },
+    {
+      "title": "Line integrals are used in which of the following problems?",
+      "options": ["Flux calculation", "Work done by a force", "Finding total charge", "Calculating divergence"],
+      "correct": 1
+    }
+  ]
+}
