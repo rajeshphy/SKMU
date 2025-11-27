@@ -34,6 +34,16 @@
         "$\\dfrac{3\\pi}{2}$"
       ],
       "correct": 0
-    }
+    },
+    {
+  "title": "Evaluate the line integral\n$$\n\\int_{C} \\mathbf{F} \\cdot d\\mathbf{r},\n$$\nwhere $C$ is a piecewise smooth curve from $(-1,4)$ to $(1,2)$ and\n$$\n\\mathbf{F}(x,y)=2xy\\,\\mathbf{i} + (x^2 - y)\\,\\mathbf{j}\n$$\nas shown in the figure.<br><br><img src='/SKMU/assets/quiz-data/IMG/L3-H4.jpg' alt='None' >",
+  "options": [
+    "$2$",
+    "$3$",
+    "$4$",
+    "$6$"
+  ],
+  "correct": 2
+}
   ]
 }
