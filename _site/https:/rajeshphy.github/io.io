@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-27T22:59:23+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: Lecture-III</title><link href="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L3.html" rel="alternate" type="text/html" title="JET: Lecture-III " /><published>2025-11-27T10:30:00+05:30</published><updated>2025-11-27T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L3</id><content type="html" xml:base="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L3.html">&lt;h1 id=&quot;line-surface-and-volume-integral&quot;&gt;Line, Surface and Volume Integral&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-27T23:14:06+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: Lecture-III</title><link href="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L3.html" rel="alternate" type="text/html" title="JET: Lecture-III " /><published>2025-11-27T10:30:00+05:30</published><updated>2025-11-27T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L3</id><content type="html" xml:base="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L3.html">&lt;h1 id=&quot;line-surface-and-volume-integral&quot;&gt;Line, Surface and Volume Integral&lt;/h1&gt;
 
 &lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
   &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
@@ -70,12 +70,6 @@ The curve may be in 2D or 3D and is usually parametrized as $ \mathbf{r}(t) $.&l
 
 &lt;p&gt;This gives the &lt;strong&gt;accumulated value&lt;/strong&gt; of the scalar field along the path.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Physical meaning:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Total mass of a thin wire with density $ \phi $.&lt;/li&gt;
-  &lt;li&gt;Total temperature along a path.&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;p&gt;For a vector field $ \mathbf{A} $, line integral is:&lt;/p&gt;
 
 \[\int_C \mathbf{A} \cdot d\mathbf{r}\]
@@ -94,6 +88,31 @@ The curve may be in 2D or 3D and is usually parametrized as $ \mathbf{r}(t) $.&l
 \[\int_C \mathbf{A} \cdot d\mathbf{r} = \phi(B) - \phi(A)\]
 
 &lt;p&gt;i.e., path-independent.&lt;/p&gt;
+
+&lt;h2 id=&quot;11-differential-length-elements-dmathbfl&quot;&gt;&lt;strong&gt;1.1 Differential Length Elements $d\mathbf{l}$&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Coordinate System&lt;/th&gt;
+      &lt;th&gt;Differential Length Vector&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Cartesian&lt;/strong&gt; $(x, y, z)$&lt;/td&gt;
+      &lt;td&gt;$ d\mathbf{l} = dx\,\hat{i} + dy\,\hat{j} + dz\,\hat{k} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Cylindrical&lt;/strong&gt; $(r, \theta, z)$&lt;/td&gt;
+      &lt;td&gt;$ d\mathbf{l} = dr\,\hat{r} + r\,d\theta\,\hat{\theta} + dz\,\hat{z} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Spherical&lt;/strong&gt; $(r, \theta, \phi)$&lt;/td&gt;
+      &lt;td&gt;$ d\mathbf{l} = dr\,\hat{r} + r\,d\theta\,\hat{\theta} + r\sin\theta\, d\phi\,\hat{\phi} $&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;h2 id=&quot;2-surface-integrals&quot;&gt;&lt;strong&gt;2. Surface Integrals&lt;/strong&gt;&lt;/h2&gt;
 
@@ -132,6 +151,85 @@ The curve may be in 2D or 3D and is usually parametrized as $ \mathbf{r}(t) $.&l
 &lt;p&gt;&lt;strong&gt;Flux is positive:&lt;/strong&gt; when the field flows along outward normal.&lt;br /&gt;
 &lt;strong&gt;Flux is negative:&lt;/strong&gt; when it flows inward.&lt;/p&gt;
 
+&lt;h2 id=&quot;21-differential-surface-elements-dmathbfs&quot;&gt;&lt;strong&gt;2.1 Differential Surface Elements $d\mathbf{S}$&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Surface elements depend on which surface is being used (constant coordinate).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cartesian Coordinates&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Surface&lt;/th&gt;
+      &lt;th&gt;Differential Area Vector&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$x=\text{constant}$&lt;/td&gt;
+      &lt;td&gt;$ d\mathbf{S} = dy\,dz\, \hat{i} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$y=\text{constant}$&lt;/td&gt;
+      &lt;td&gt;$ d\mathbf{S} = dx\,dz\, \hat{j} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$z=\text{constant}$&lt;/td&gt;
+      &lt;td&gt;$ d\mathbf{S} = dx\,dy\, \hat{k} $&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Cylindrical Coordinates&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Surface&lt;/th&gt;
+      &lt;th&gt;Differential Area Vector&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$r=\text{constant}$&lt;/td&gt;
+      &lt;td&gt;$ d\mathbf{S} = (r\, d\theta\, dz)\, \hat{r} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$\theta=\text{constant}$&lt;/td&gt;
+      &lt;td&gt;$ d\mathbf{S} = (dr\, dz)\, \hat{\theta} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$z=\text{constant}$&lt;/td&gt;
+      &lt;td&gt;$ d\mathbf{S} = (r\, dr\, d\theta)\, \hat{z} $&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Spherical Coordinates&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Surface&lt;/th&gt;
+      &lt;th&gt;Differential Area Vector&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$r=\text{constant}$&lt;/td&gt;
+      &lt;td&gt;$ d\mathbf{S} = (r^2 \sin\theta\, d\theta\, d\phi)\, \hat{r} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$\theta=\text{constant}$&lt;/td&gt;
+      &lt;td&gt;$ d\mathbf{S} = (r \sin\theta\, dr\, d\phi)\, \hat{\theta} $&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$\phi=\text{constant}$&lt;/td&gt;
+      &lt;td&gt;$ d\mathbf{S} = (r\, dr\, d\theta)\, \hat{\phi} $&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h2 id=&quot;3-volume-integrals&quot;&gt;&lt;strong&gt;3. Volume Integrals&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;p&gt;A &lt;strong&gt;volume integral&lt;/strong&gt; gives the accumulated value of a field inside a 3D region.&lt;/p&gt;
@@ -147,55 +245,27 @@ The curve may be in 2D or 3D and is usually parametrized as $ \mathbf{r}(t) $.&l
   &lt;li&gt;Total charge if $ \rho $ is charge density.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;comparison-table&quot;&gt;Comparison Table&lt;/h2&gt;
+&lt;h2 id=&quot;31-differential-volume-elements-dv&quot;&gt;&lt;strong&gt;3.1 Differential Volume Elements $dV$&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Integral Type&lt;/th&gt;
-      &lt;th&gt;Field Type&lt;/th&gt;
-      &lt;th&gt;Expression&lt;/th&gt;
-      &lt;th&gt;Meaning&lt;/th&gt;
+      &lt;th&gt;Coordinate System&lt;/th&gt;
+      &lt;th&gt;Differential Volume&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;Line (scalar)&lt;/td&gt;
-      &lt;td&gt;$ \phi $&lt;/td&gt;
-      &lt;td&gt;$ \int_C \phi\, ds $&lt;/td&gt;
-      &lt;td&gt;Total value along path&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Cartesian&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;$ dV = dx\, dy\, dz $&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Line (vector)&lt;/td&gt;
-      &lt;td&gt;$ \mathbf{A} $&lt;/td&gt;
-      &lt;td&gt;$ \int_C \mathbf{A}\cdot d\mathbf{r} $&lt;/td&gt;
-      &lt;td&gt;Work done / circulation&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Cylindrical&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;$ dV = r\, dr\, d\theta\, dz $&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Surface (scalar)&lt;/td&gt;
-      &lt;td&gt;$ \phi $&lt;/td&gt;
-      &lt;td&gt;$ \iint_S \phi\, dS $&lt;/td&gt;
-      &lt;td&gt;Total over a surface&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Surface (vector)&lt;/td&gt;
-      &lt;td&gt;$ \mathbf{A} $&lt;/td&gt;
-      &lt;td&gt;$ \iint_S \mathbf{A}\cdot d\mathbf{S} $&lt;/td&gt;
-      &lt;td&gt;Flux through surface&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Volume (scalar)&lt;/td&gt;
-      &lt;td&gt;$ \phi $&lt;/td&gt;
-      &lt;td&gt;$ \iiint_V \phi\, dV $&lt;/td&gt;
-      &lt;td&gt;Total in volume&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Volume (vector)&lt;/td&gt;
-      &lt;td&gt;$ \mathbf{A} $&lt;/td&gt;
-      &lt;td&gt;$ \iiint_V \mathbf{A}\, dV $&lt;/td&gt;
-      &lt;td&gt;Integrated vector value&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Spherical&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;$ dV = r^2 \sin\theta\, dr\, d\theta\, d\phi $&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Line, Surface and Volume Integral</summary></entry><entry><title type="html">Resistors</title><link href="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html" rel="alternate" type="text/html" title="Resistors" /><published>2025-11-19T10:30:00+05:30</published><updated>2025-11-19T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/19/Resistors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html">&lt;h1 id=&quot;resistors-types-characteristics-and-colour-coding&quot;&gt;Resistors: Types, Characteristics, and Colour Coding&lt;/h1&gt;
@@ -593,9 +663,15 @@ where $ u_\ell = rR_\ell $.&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;Vector Algebra &amp;amp; Calculus
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;/SKMU/physics/mathematics/2022/11/03/JET-Paper-2-L1.html&quot;&gt;Vector algebra: addition, scalar and vector products, triple products&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;/SKMU/physics/mathematics/2022/11/06/JET-Paper-2-L2.html&quot;&gt;Gradient, divergence, and curl — physical interpretation&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L3.html&quot;&gt;Line, surface, and volume integrals&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;/SKMU/physics/mathematics/2022/11/03/JET-Paper-2-L1.html&quot;&gt;Vector algebra: addition, scalar and vector products, triple products&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;/SKMU/physics/mathematics/2022/11/06/JET-Paper-2-L2.html&quot;&gt;Gradient, divergence, and curl — physical interpretation&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L3.html&quot;&gt;Line, surface, and volume integrals&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
       &lt;li&gt;Integral theorems: Gauss, Green, and Stokes&lt;/li&gt;
       &lt;li&gt;Scalar and vector potentials; Laplacian operator&lt;/li&gt;
       &lt;li&gt;Curvilinear coordinates (cylindrical and spherical) and scale factors&lt;/li&gt;
