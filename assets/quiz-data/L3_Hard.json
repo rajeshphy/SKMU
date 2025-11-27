@@ -1,0 +1,39 @@
+{
+  "title": "Line, Surface & Volume Integrals – Hard Level",
+  "description": "Answer all questions. Each carries 1 mark. Choose the most appropriate option.",
+  "quizSettings": {
+    "isQuiz": true
+  },
+  "questions": [
+    {
+      "title": "Evaluate the line integral\n$$\n\\int_{C} (x^{2} - y + 3z) \\, ds\n$$\nwhere $C$ is the straignt line segment from $(0,0,0)$ to $(1,2,1)$. <br><br><img src='/SKMU/assets/quiz-data/IMG/L3-H1.jpg' alt='Vector diagram' >",
+      "options": [
+        "$\\dfrac{7\\sqrt{6}}{6}$",
+        "$\\dfrac{5\\sqrt{6}}{6}$",
+        "$\\dfrac{4\\sqrt{6}}{3}$",
+        "$\\sqrt{6}$"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "Find the mass of the spring in the shape of the circular helix\n$$\n\\mathbf{r}(t)=\\frac{1}{\\sqrt{2}}(\\cos t\\,\\mathbf{i}+\\sin t\\,\\mathbf{j}+t\\,\\mathbf{k}),\n\\quad 0 \\le t \\le 6\\pi,\n$$\nif the density is $\\rho(x,y,z)=1+z$. <br><br><img src='/SKMU/assets/quiz-data/IMG/L3-H2.jpg' alt='None' >",
+      "options": [
+        "$3\\pi\\left(1+\\frac{6\\pi}{\\sqrt{2}}\\right)$",
+        "$12\\pi\\left(1+\\frac{3\\pi}{2}\\right)$",
+        "$6\\pi\\left(1+\\frac{3\\pi}{\\sqrt{2}}\\right)$",
+        "$6\\pi\\left(1+\\frac{\\pi}{\\sqrt{2}}\\right)$"
+      ],
+      "correct": 2
+    },
+    {
+      "title": "Find the work done by the force field\n$$\n\\mathbf{F}(x,y,z)= -\\frac{1}{2}x\\,\\mathbf{i}-\\frac{1}{2}y\\,\\mathbf{j}+\\frac{1}{4}z\\,\\mathbf{k}\n$$\non a particle moving along the helix\n$$\n\\mathbf{r}(t)=\\cos t\\,\\mathbf{i}+\\sin t\\,\\mathbf{j}+t\\,\\mathbf{k},\n$$\nfrom $(1,0,0)$ to $(-1,0,3\\pi)$.<br><br><img src='/SKMU/assets/quiz-data/IMG/L3-H3.jpg' alt='None' >",
+      "options": [
+        "$\\dfrac{3\\pi}{4}$",
+        "$\\dfrac{\\pi}{2}$",
+        "$\\dfrac{5\\pi}{4}$",
+        "$\\dfrac{3\\pi}{2}$"
+      ],
+      "correct": 0
+    }
+  ]
+}
