@@ -1,0 +1,17 @@
+{
+  "title": "Number System – Hard Level",
+  "description": "Answer all questions. Each carries 1 mark.",
+  "quizSettings": { "isQuiz": true },
+  "questions": [
+    {
+      "title": "In a sequence of 24 positive integers, the product of any two consecutive integers is 24. If the 17th term is 6, what is the 7th term?",
+      "options": ["24", "4", "6", "17"],
+      "correct": 2
+    },
+    {
+      "title": "Two runners take 6 and 8 minutes to complete a round on a circular track. After how many minutes will they meet again at the starting point?",
+      "options": ["8", "24", "32", "60"],
+      "correct": 1
+    }
+  ]
+}

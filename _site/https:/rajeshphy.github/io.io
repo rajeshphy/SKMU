@@ -1,4 +1,158 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-27T23:45:56+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: Lecture-V</title><link href="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L5.html" rel="alternate" type="text/html" title="JET: Lecture-V" /><published>2025-11-27T10:30:00+05:30</published><updated>2025-11-27T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L5</id><content type="html" xml:base="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L5.html">&lt;h2 id=&quot;1-scalar-and-vector-potentials&quot;&gt;&lt;strong&gt;1. Scalar and Vector Potentials&lt;/strong&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-11-29T09:28:39+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: English-Lecture-I</title><link href="http://localhost:4000/SKMU/english/2025/11/28/JET-Paper-1-L1.html" rel="alternate" type="text/html" title="JET: English-Lecture-I " /><published>2025-11-28T10:30:00+05:30</published><updated>2025-11-28T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/english/2025/11/28/JET-Paper-1-L1</id><content type="html" xml:base="http://localhost:4000/SKMU/english/2025/11/28/JET-Paper-1-L1.html">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Number System&lt;/b&gt;&lt;/h1&gt;
+
+&lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
+  &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
+              padding:1.2rem 1.5rem;max-width:560px;width:100%;font-family:&apos;Inter&apos;,sans-serif;
+              border:1px solid #d9e6b2;&quot;&gt;
+
+    &lt;h2 style=&quot;text-align:center;color:#3b4c00;margin-bottom:0.8rem;
+               font-size:1.4rem;font-weight:700;&quot;&gt;QUIZ&lt;/h2&gt;
+               
+    &lt;!-- === Difficulty selector === --&gt;
+    &lt;div id=&quot;quiz-level-selector&quot; style=&quot;text-align:center;margin-bottom:1rem;display:flex;justify-content:center;gap:0.4rem;flex-wrap:wrap;&quot;&gt;
+      &lt;button class=&quot;level-btn&quot; data-file=&quot;E_I_Easy.json&quot;&gt;Easy&lt;/button&gt;
+      &lt;button class=&quot;level-btn&quot; data-file=&quot;E_I_Medium.json&quot;&gt;Medium&lt;/button&gt;
+      &lt;button class=&quot;level-btn&quot; data-file=&quot;E_I_Hard.json&quot;&gt;Hard&lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;!-- === Quiz container (initially hidden) === --&gt;
+    &lt;div id=&quot;quiz-section&quot; style=&quot;display:none;&quot;&gt;
+      &lt;div class=&quot;quiz-wrapper&quot;&gt;
+  &lt;div id=&quot;quiz-container&quot; data-quiz=&quot;&quot;&gt;
+    &lt;h2 id=&quot;quiz-title&quot; class=&quot;quiz-title&quot;&gt;&lt;/h2&gt;
+
+    &lt;div id=&quot;question-container&quot; class=&quot;question-container&quot;&gt;
+      &lt;div id=&quot;question&quot; class=&quot;question-text&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;answer-buttons&quot; class=&quot;options-grid&quot;&gt;
+        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
+        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
+        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
+        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;button id=&quot;next-btn&quot; class=&quot;btn next-btn&quot;&gt;Next&lt;/button&gt;
+    &lt;div id=&quot;result&quot; class=&quot;result&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- ✅ Stylesheet --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/SKMU/assets/css/quiz.css&quot; /&gt;
+
+&lt;!-- ✅ Quiz Script --&gt;
+&lt;script src=&quot;/SKMU/assets/js/quiz.js&quot;&gt;&lt;/script&gt;
+
+
+&lt;!-- ✅ Pass baseurl to JS (for blogs inside subfolders like /SKMU/) --&gt;
+&lt;script&gt;
+  window.quizBaseUrl = &quot;/SKMU&quot;;
+&lt;/script&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;number-basics&quot;&gt;Number Basics&lt;/h2&gt;
+
+&lt;p&gt;Numbers form the foundation of all mathematical reasoning, and they can be organized into well-defined types that together create a unified numerical system. The major categories are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Natural Numbers&lt;/strong&gt;: \(\mathbb{N} = \{1,2,3,\dots\}\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Whole Numbers&lt;/strong&gt;: \(\{0,1,2,3,\dots\}\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Integers&lt;/strong&gt;: \(\mathbb{Z} = \{\dots,-3,-2,-1,0,1,2,3,\dots\}\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Rational Numbers&lt;/strong&gt;: \(\mathbb{Q} = \left\{\frac{p}{q} : p,q \in \mathbb{Z},\, q \neq 0\right\}\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Irrational Numbers&lt;/strong&gt;: numbers not expressible as any fraction, e.g., \(\sqrt{2},\,\pi,\,e\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Real Numbers&lt;/strong&gt;: \(\mathbb{R} = \mathbb{Q} \cup (\text{irrationals})\)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Complex Numbers&lt;/strong&gt;: \(\mathbb{C} = \{a + bi : a,b \in \mathbb{R}\}\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All these categories work together to build the complete number system. Natural and whole numbers support counting, integers allow direction, rational and irrational numbers fill the number line, and real numbers create a continuous spectrum. Complex numbers extend this by capturing quantities involving the imaginary unit \(i=\sqrt{-1}\). Despite their differences, all types interact through consistent rules, forming the backbone of algebra and quantitative reasoning.&lt;/p&gt;
+
+&lt;h2 id=&quot;cyclic-behaviour-of-last-digits&quot;&gt;Cyclic Behaviour of Last Digits&lt;/h2&gt;
+
+&lt;p&gt;Many number system problems rely on the fact that the last digit of powers repeats in a cycle.&lt;br /&gt;
+For example, powers of 7 follow the pattern:&lt;/p&gt;
+
+&lt;p&gt;7 → 9 → 3 → 1 → (repeats)&lt;/p&gt;
+
+&lt;p&gt;Since 17 ends with 7, the powers of 17 have the same last-digit cycle.&lt;br /&gt;
+Thus, questions like how many numbers in&lt;br /&gt;
+{17¹, 17², …, 17³⁰⁰}&lt;br /&gt;
+end in digit 3 become a matter of cycle counting, not calculation.&lt;/p&gt;
+
+&lt;p&gt;This idea makes huge powers manageable and predictable.&lt;/p&gt;
+
+&lt;h2 id=&quot;comparing-large-exponential-numbers&quot;&gt;Comparing Large Exponential Numbers&lt;/h2&gt;
+
+&lt;p&gt;Expressions such as&lt;br /&gt;
+2⁵⁰, 3⁴⁰, 4³⁰, 5²⁰&lt;br /&gt;
+cannot be computed directly. Instead, we convert them to comparable bases.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;br /&gt;
+4³⁰ = (2²)³⁰ = 2⁶⁰&lt;/p&gt;
+
+&lt;p&gt;Now everything is expressed in terms of powers of 2, and comparison becomes simple.&lt;/p&gt;
+
+&lt;p&gt;Understanding such transformations allows large exponent problems to be solved logically instead of numerically.&lt;/p&gt;
+
+&lt;h2 id=&quot;prime-factorization-and-divisibility-structure&quot;&gt;Prime Factorization and Divisibility Structure&lt;/h2&gt;
+
+&lt;p&gt;Prime factorization is central to divisibility, gcd–lcm, perfect squares, and factor-counting questions.&lt;br /&gt;
+Every integer has a unique prime factor representation.&lt;/p&gt;
+
+&lt;p&gt;Knowing this structure helps determine:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Whether a number is divisible by another&lt;/li&gt;
+  &lt;li&gt;How many factors it has&lt;/li&gt;
+  &lt;li&gt;Whether it is a perfect square&lt;/li&gt;
+  &lt;li&gt;The gcd or lcm of two numbers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Factorization is not mere arithmetic; it reveals the internal geometry of numbers.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Number System</summary></entry><entry><title type="html">JET - Paper-I</title><link href="http://localhost:4000/SKMU/lecture/2025/11/28/JET-English.html" rel="alternate" type="text/html" title="JET - Paper-I" /><published>2025-11-28T10:30:00+05:30</published><updated>2025-11-28T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/28/JET-English</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/28/JET-English.html">&lt;p&gt;These topics will be covered from the subject &lt;strong&gt;General Paper on Teaching &amp;amp; Research Aptitude&lt;/strong&gt; (Code No. 00, Paper-I), and the reading materials can be accessed by clicking on the hyperlinks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Unit V. Mathematical Reasoning &amp;amp; Aptitude&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Types of reasoning&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;/SKMU/english/2025/11/28/JET-Paper-1-L1.html&quot;&gt;Number Basics&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Number series, letter series, codes and relationships&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mathematical aptitude: fractions, time &amp;amp; distance, ratio, proportion and percentage&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Profit &amp;amp; loss, interest and discounting, averages&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Unit VII. Data Interpretation&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sources, acquisition and classification of data&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Quantitative and qualitative data&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Graphical representation: bar-chart, histogram, pie-chart, table-chart, line-chart&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mapping of data&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Data interpretation&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Data and governance&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="JET" /><summary type="html">These topics will be covered from the subject General Paper on Teaching &amp;amp; Research Aptitude (Code No. 00, Paper-I), and the reading materials can be accessed by clicking on the hyperlinks.</summary></entry><entry><title type="html">JET: Lecture-V</title><link href="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L5.html" rel="alternate" type="text/html" title="JET: Lecture-V" /><published>2025-11-27T10:30:00+05:30</published><updated>2025-11-27T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L5</id><content type="html" xml:base="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L5.html">&lt;h2 id=&quot;1-scalar-and-vector-potentials&quot;&gt;&lt;strong&gt;1. Scalar and Vector Potentials&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;p&gt;In classical field theory (electromagnetism, fluid dynamics, gravitation), many vector fields can be expressed in terms of &lt;em&gt;potentials&lt;/em&gt;.&lt;/p&gt;
 
@@ -1069,145 +1223,4 @@ where $ u_\ell = rR_\ell $.&lt;/p&gt;
 
 &lt;h3 id=&quot;total-cross-section&quot;&gt;Total Cross-Section&lt;/h3&gt;
 &lt;p&gt;\(\sigma_{\text{tot}} = \frac{4\pi}{k^2} 
-\sum_{\ell=0}^{\infty}(2\ell+1)\sin^2\delta_\ell.\)&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">The theory of collision in three dimensions is a fundamental aspect of quantum scattering, describing how a particle interacts with a potential when motion is not restricted to a single line but occurs in full three-dimensional space. Unlike one-dimensional scattering, where the particle approaches the potential from the left or right, three-dimensional collisions require the description of wave propagation in spherical geometry. This approach is crucial in understanding atomic, nuclear, and molecular processes where interactions occur isotropically.</summary></entry><entry><title type="html">JET - Physical Science</title><link href="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html" rel="alternate" type="text/html" title="JET - Physical Science" /><published>2025-11-03T10:30:00+05:30</published><updated>2025-11-03T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/03/JET</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/03/JET.html">&lt;p&gt;These topics will be covered here, and the reading materials can be accessed by clicking on the hyperlinks.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Vector Algebra &amp;amp; Calculus
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;/SKMU/physics/mathematics/2022/11/03/JET-Paper-2-L1.html&quot;&gt;Vector algebra: addition, scalar and vector products, triple products&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;/SKMU/physics/mathematics/2022/11/06/JET-Paper-2-L2.html&quot;&gt;Gradient, divergence, and curl — physical interpretation&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L3.html&quot;&gt;Line, surface, and volume integrals&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L4.html&quot;&gt;Integral theorems: Gauss, Green, and Stokes&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L5.html&quot;&gt;Scalar and vector potentials; Laplacian operator&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Curvilinear coordinates (cylindrical and spherical) and scale factors&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Linear Algebra
-    &lt;ul&gt;
-      &lt;li&gt;Vector spaces, linear dependence and independence&lt;/li&gt;
-      &lt;li&gt;Basis and dimension, subspaces&lt;/li&gt;
-      &lt;li&gt;Matrices and determinants, adjoint and inverse&lt;/li&gt;
-      &lt;li&gt;Rank of a matrix and linear transformations&lt;/li&gt;
-      &lt;li&gt;Eigenvalues and eigenvectors; characteristic equation&lt;/li&gt;
-      &lt;li&gt;Hermitian, skew-Hermitian, unitary, and orthogonal matrices&lt;/li&gt;
-      &lt;li&gt;Diagonalization and spectral theorem&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Ordinary Differential Equations (ODE) &amp;amp; Special Functions
-    &lt;ul&gt;
-      &lt;li&gt;First and second order differential equations&lt;/li&gt;
-      &lt;li&gt;Linear differential equations with constant coefficients&lt;/li&gt;
-      &lt;li&gt;Series solutions — Frobenius method&lt;/li&gt;
-      &lt;li&gt;Legendre, Bessel, Hermite, and Laguerre equations and their properties&lt;/li&gt;
-      &lt;li&gt;Orthogonality of functions&lt;/li&gt;
-      &lt;li&gt;Sturm–Liouville problems&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Computational Techniques
-    &lt;ul&gt;
-      &lt;li&gt;Numerical methods: root finding (bisection, Newton–Raphson)&lt;/li&gt;
-      &lt;li&gt;Numerical differentiation and integration (Trapezoidal, Simpson)&lt;/li&gt;
-      &lt;li&gt;Runge–Kutta methods for ODEs&lt;/li&gt;
-      &lt;li&gt;Error analysis and propagation&lt;/li&gt;
-      &lt;li&gt;Finite difference methods&lt;/li&gt;
-      &lt;li&gt;Basics of programming for physics simulations&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Thermodynamics
-    &lt;ul&gt;
-      &lt;li&gt;Laws of thermodynamics and their applications&lt;/li&gt;
-      &lt;li&gt;Thermodynamic systems, variables, and equations of state&lt;/li&gt;
-      &lt;li&gt;Maxwell’s relations and thermodynamic potentials&lt;/li&gt;
-      &lt;li&gt;Clausius–Clapeyron equation&lt;/li&gt;
-      &lt;li&gt;Joule–Thomson effect, adiabatic and isothermal processes&lt;/li&gt;
-      &lt;li&gt;Thermodynamic equilibrium and stability&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Statistical Physics
-    &lt;ul&gt;
-      &lt;li&gt;Microstates and macrostates, ensembles (microcanonical, canonical, grand canonical)&lt;/li&gt;
-      &lt;li&gt;Boltzmann distribution and partition function&lt;/li&gt;
-      &lt;li&gt;Maxwell–Boltzmann, Bose–Einstein, and Fermi–Dirac statistics&lt;/li&gt;
-      &lt;li&gt;Classical and quantum limits of ideal gases&lt;/li&gt;
-      &lt;li&gt;Blackbody radiation and Planck’s distribution&lt;/li&gt;
-      &lt;li&gt;Fluctuations, equipartition theorem, and entropy&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-reference-books&quot;&gt;📚 Reference Books&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;Mathematical Methods for Physicists&lt;/em&gt; — Arfken &amp;amp; Weber&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Linear Algebra and Its Applications&lt;/em&gt; — Gilbert Strang&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Thermal Physics&lt;/em&gt; — Zemansky &amp;amp; Dittman&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Statistical Mechanics&lt;/em&gt; — Pathria &amp;amp; Beale&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Mathematical Physics&lt;/em&gt; — B. S. Rajput / H. K. Dass&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="JET" /><summary type="html">These topics will be covered here, and the reading materials can be accessed by clicking on the hyperlinks.</summary></entry><entry><title type="html">MSC Sem-II</title><link href="http://localhost:4000/SKMU/lecture/2025/11/02/Sem-II.html" rel="alternate" type="text/html" title="MSC Sem-II" /><published>2025-11-02T10:30:00+05:30</published><updated>2025-11-02T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/02/Sem-II</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/02/Sem-II.html">&lt;p&gt;These topics will be covered here, and the reading materials can be accessed by clicking on the hyperlinks.&lt;/p&gt;
-
-&lt;h1 id=&quot;1-passive-devices--instrumentation&quot;&gt;1. Passive Devices &amp;amp; Instrumentation&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;(Paper PHY-S-05T – Unit 1)&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/SKMU/lecture/2025/11/19/Resistors.html&quot;&gt;Resistors: types, characteristics, and colour coding&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Capacitors: types, characteristics, and colour coding&lt;/li&gt;
-  &lt;li&gt;Star and delta connections of resistors and capacitors&lt;/li&gt;
-  &lt;li&gt;Chokes and transformers&lt;/li&gt;
-  &lt;li&gt;Multimeter (Analog and Digital): working principles and applications&lt;/li&gt;
-  &lt;li&gt;Cathode Ray Oscilloscope (CRO): waveforms and Lissajous figures&lt;/li&gt;
-  &lt;li&gt;AF and RF oscillators&lt;/li&gt;
-  &lt;li&gt;Usage of breadboard&lt;br /&gt;
-&lt;em&gt;(Lectures: 10)&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;2-theory-of-quantum-scattering&quot;&gt;2. Theory of Quantum Scattering&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;(Paper PHY-C-06 QM – Unit 2)&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/SKMU/lecture/2025/11/04/3D-Collision.html&quot;&gt;Collision in three dimensions&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/SKMU/lecture/2025/11/07/Alpha-Scattering.html&quot;&gt;α-scattering and its theoretical interpretation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/SKMU/lecture/2025/11/08/Frames.html&quot;&gt;Laboratory vs. Centre-of-Mass reference frames&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/SKMU/lecture/2024/07/12/Scattering.html&quot;&gt;Quantum Scattering&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;(Lectures: 14)&lt;/em&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;3-molecular-spectroscopy&quot;&gt;3. Molecular Spectroscopy&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;(Paper PHY-C-07 – Unit 2)&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/SKMU/lecture/2025/11/04/Molecular-Spectra.html&quot;&gt;Rotational, Vibrational &amp;amp; Electronic spectra of diatomic molecules&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Vibrational analysis of band systems&lt;/li&gt;
-  &lt;li&gt;Franck–Condon principle&lt;/li&gt;
-  &lt;li&gt;Infrared spectra of diatomic molecules&lt;/li&gt;
-  &lt;li&gt;Raman spectra of diatomic molecules&lt;br /&gt;
-&lt;em&gt;(Lectures: 10)&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-reference-books&quot;&gt;📚 Reference Books&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;Electronics Devices and Circuits&lt;/em&gt; — Boylestad &amp;amp; Nashelsky&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Electronic Principles&lt;/em&gt; — Malvino&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Introduction to Quantum Mechanics&lt;/em&gt; — David J. Griffiths / J. J. Sakurai&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Quantum Mechanics&lt;/em&gt; — L. I. Schiff&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Molecular Spectra and Molecular Structure&lt;/em&gt; — G. Herzberg&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Fundamentals of Molecular Spectroscopy&lt;/em&gt; — C. N. Banwell&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Introduction to Atomic and Molecular Spectroscopy&lt;/em&gt; — White&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">These topics will be covered here, and the reading materials can be accessed by clicking on the hyperlinks.</summary></entry></feed>
+\sum_{\ell=0}^{\infty}(2\ell+1)\sin^2\delta_\ell.\)&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">The theory of collision in three dimensions is a fundamental aspect of quantum scattering, describing how a particle interacts with a potential when motion is not restricted to a single line but occurs in full three-dimensional space. Unlike one-dimensional scattering, where the particle approaches the potential from the left or right, three-dimensional collisions require the description of wave propagation in spherical geometry. This approach is crucial in understanding atomic, nuclear, and molecular processes where interactions occur isotropically.</summary></entry></feed>
