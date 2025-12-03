@@ -5,7 +5,6 @@ date: 2025-12-02 10:00:00 +0530
 categories: lecture
 tags: MSc 
 permalink: /franck-condon-principle/
-
 ---
 
 The Franck–Condon principle is one of the most fundamental concepts in molecular spectroscopy, explaining why vibrational structures appear in electronic spectra of molecules and why certain transitions are more intense than others. When a molecule undergoes an electronic transition—whether by absorption or emission of radiation—the change in the electronic state occurs on a timescale much faster than nuclear motion. Electrons are extremely light compared to nuclei; therefore, their transitions happen almost instantaneously relative to the vibrational and rotational movement of the nuclei. As a consequence of this difference in timescales, the nuclei can be considered “frozen” during the electronic transition. This approximation is the core of the Franck–Condon principle and leads to a vertical transition between potential energy curves on a Born–Oppenheimer energy diagram.
