@@ -26,7 +26,7 @@
       "correct": 2
     },
     {
-      "title": "Find the work done by the force field\n$$\n\\mathbf{F}(x,y,z)= -\\frac{1}{2}x\\,\\mathbf{i}-\\frac{1}{2}y\\,\\mathbf{j}+\\frac{1}{4}z\\,\\mathbf{k}\n$$\non a particle moving along the helix\n$$\n\\mathbf{r}(t)=\\cos t\\,\\mathbf{i}+\\sin t\\,\\mathbf{j}+t\\,\\mathbf{k},\n$$\nfrom $(1,0,0)$ to $(-1,0,3\\pi)$.<br><br><img src='/SKMU/assets/quiz-data/IMG/L3-H3.jpg' alt='None' >",
+      "title": "Find the work done by the force field\n$$\n\\mathbf{F}(x,y,z)= -\\frac{1}{2}x\\,\\mathbf{i}-\\frac{1}{2}y\\,\\mathbf{j}+\\frac{1}{4}\\,\\mathbf{k}\n$$\non a particle moving along the helix\n$$\n\\mathbf{r}(t)=\\cos t\\,\\mathbf{i}+\\sin t\\,\\mathbf{j}+t\\,\\mathbf{k},\n$$\nfrom $(1,0,0)$ to $(-1,0,3\\pi)$.<br><br><img src='/SKMU/assets/quiz-data/IMG/L3-H3.jpg' alt='None' >",
       "options": [
         "$\\dfrac{3\\pi}{4}$",
         "$\\dfrac{\\pi}{2}$",
