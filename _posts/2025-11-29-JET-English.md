@@ -13,7 +13,7 @@ These topics will be covered from the subject **General Paper on Teaching & Rese
 
    - [Number Basics](/SKMU/english/2025/11/28/JET-Paper-1-L1.html)
    
-   - Number series, letter series, codes and relationships  
+   - [Number series, letter series, codes and relationships](/SKMU/english/2025/12/06/JET-Paper-1-L2.html)  
    
    - Mathematical aptitude: fractions, time & distance, ratio, proportion and percentage  
    
