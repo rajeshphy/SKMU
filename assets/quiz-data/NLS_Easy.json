@@ -1,0 +1,57 @@
+{
+  "title": "Number & Letter Series – Easy Level",
+  "description": "Answer all questions. Each carries 1 mark.",
+  "quizSettings": { "isQuiz": true },
+  "questions": [
+    {
+      "title": "What comes next in the series: 2, 4, 6, 8, ?",
+      "options": ["10", "12", "14", "16"],
+      "correct": 0
+    },
+    {
+      "title": "Identify the next number: 5, 10, 15, 20, ?",
+      "options": ["25", "22", "30", "40"],
+      "correct": 0
+    },
+    {
+      "title": "Find the next term: 1, 4, 9, 16, ?",
+      "options": ["20", "25", "30", "36"],
+      "correct": 1
+    },
+    {
+      "title": "What comes next: A, C, E, G, ?",
+      "options": ["I", "H", "J", "K"],
+      "correct": 0
+    },
+    {
+      "title": "Find the missing term: 3, 6, 12, 24, ?",
+      "options": ["36", "40", "46", "48"],
+      "correct": 3
+    },
+    {
+      "title": "Next letter in the series: B, D, F, H, ?",
+      "options": ["I", "J", "K", "L"],
+      "correct": 1
+    },
+    {
+      "title": "What comes next: 10, 20, 30, 40, ?",
+      "options": ["60", "45", "50", "55"],
+      "correct": 2
+    },
+    {
+      "title": "Find the next number: 7, 14, 21, 28, ?",
+      "options": ["32", "33", "34", "35"],
+      "correct": 3
+    },
+    {
+      "title": "What comes next: A, B, D, G, ?",
+      "options": ["J", "K", "H", "I"],
+      "correct": 1
+    },
+    {
+      "title": "Identify the next letter: M, O, Q, S, ?",
+      "options": ["T", "U", "V", "W"],
+      "correct": 1
+    }
+  ]
+}

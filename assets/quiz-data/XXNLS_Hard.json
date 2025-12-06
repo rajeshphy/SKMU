@@ -1,0 +1,27 @@
+{
+  "title": "Number & Letter Series – Hard Level",
+  "description": "Advanced pattern identification based on difference, alternation, and coding.",
+  "quizSettings": { "isQuiz": true },
+  "questions": [
+    {
+      "title": "Find the next number: -1, 5, 15, 29, ?",
+      "options": ["39", "43", "47", "51"],
+      "correct": 2
+    },
+    {
+      "title": "Find the next letter group: ZAH, BCL, DGP, ?",
+      "options": ["HKT", "HKS", "IKT", "JKT"],
+      "correct": 0
+    },
+    {
+      "title": "If VARANASI is coded as WCUESGZQ, what is the code for KOLKATA?",
+      "options": ["MQNGMCVC", "MPNGNDWD", "MQOGNEWE", "MQPFNDVC"],
+      "correct": 0
+    },
+    {
+      "title": "What is the next term in the series: 2, 6, 18, 54, ?",
+      "options": ["108", "156", "162", "216"],
+      "correct": 2
+    }
+  ]
+}
