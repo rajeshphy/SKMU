@@ -1,16 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-10T13:52:07+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Star &amp;amp; Delta</title><link href="http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta.html" rel="alternate" type="text/html" title="Star &amp; Delta" /><published>2025-12-10T10:30:00+05:30</published><updated>2025-12-10T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta.html">&lt;p&gt;Star (also called Wye or Y) and Delta (Δ) connections are fundamental network configurations used extensively in electrical engineering, circuit design, and power system analysis. These connections help simplify complex three-phase networks, making them easier to analyze for voltage, current, impedance, and power calculations. The star connection consists of three circuit elements whose one end is connected to a common junction known as the star point or neutral point, while the other ends form the three independent phase terminals. This configuration resembles the shape of the letter ‘Y’. It is widely used in power transmission systems, distribution networks, and balanced load connections due to its ability to provide two voltage levels—phase and line voltages.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-10T14:13:43+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Star &amp;amp; Delta</title><link href="http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta.html" rel="alternate" type="text/html" title="Star &amp; Delta" /><published>2025-12-10T10:30:00+05:30</published><updated>2025-12-10T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta.html">&lt;p&gt;Star (also called Wye or Y) and Delta (Δ) connections are fundamental network configurations used extensively in electrical engineering, circuit design, and power system analysis. These connections help simplify complex three-phase networks, making them easier to analyze for voltage, current, impedance, and power calculations. The star connection consists of three circuit elements whose one end is connected to a common junction known as the star point or neutral point, while the other ends form the three independent phase terminals. This configuration resembles the shape of the letter ‘Y’. It is widely used in power transmission systems, distribution networks, and balanced load connections due to its ability to provide two voltage levels—phase and line voltages.&lt;/p&gt;
 
 &lt;p&gt;In contrast, the delta connection forms a closed loop that resembles a triangle. Here, each of the three elements connects end-to-end such that the junction of any two elements forms a phase terminal. Delta connections do not have a neutral point, and all three wires carry the phase currents. This setup is commonly found in motor windings, transformers for high-power applications, and circuits requiring higher starting torque or robustness under unbalanced loads. One of the main advantages of delta configuration is that the line voltage and phase voltage remain equal, simplifying certain types of power analysis.&lt;/p&gt;
 
 &lt;p&gt;The importance of star and delta connections extends beyond resistive networks; they are equally applicable to capacitors and inductors. The transformation between star and delta (and vice versa) helps reduce complex circuit networks into simpler equivalent circuits. For resistors, the star-to-delta (Y–Δ) and delta-to-star (Δ–Y) transformations allow conversion of networks that cannot be simplified using series or parallel rules alone. These transformations are vital tools in network analysis, especially when dealing with bridge circuits or irregular mesh topologies.&lt;/p&gt;
 
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/Star-Delta-Conversion.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+
 &lt;p&gt;Similarly, capacitors and inductors also follow analogous transformation rules, although the formulas differ due to the impedance behavior of reactive components. In a star-connected capacitor network, equivalent capacitance behaves differently compared to a delta-connected network—mainly reversing the mathematical pattern seen in resistors. For inductors, since the inductive reactance is proportional to frequency, star–delta transformations are especially useful in AC circuit analysis, resonant circuits, impedance matching, and filter design.&lt;/p&gt;
 
 &lt;p&gt;In three-phase systems, star and delta connections significantly influence the resulting voltages, currents, and power distribution. For example, in star connections, the line voltage is √3 times the phase voltage, allowing systems to operate at lower insulation requirements since individual elements experience lower voltage. Meanwhile, delta connections provide higher line currents for the same element rating due to the √3 factor difference between line and phase currents. These relationships influence the design of power transmission systems, motor starting methods, and transformer windings. Star connections are generally preferred for long-distance transmission due to lower power loss, while delta connections are more suitable for short-distance, high-power applications.&lt;/p&gt;
 
+&lt;h1 id=&quot;three-phase-electrical-terms&quot;&gt;Three-Phase Electrical Terms&lt;/h1&gt;
+
+&lt;p&gt;In three-phase electrical engineering, several key terms describe how voltages and currents behave depending on whether the system is connected in a &lt;strong&gt;Star (Y)&lt;/strong&gt; or &lt;strong&gt;Delta (Δ)&lt;/strong&gt; configuration. The proper understanding of &lt;em&gt;line voltage&lt;/em&gt;, &lt;em&gt;phase voltage&lt;/em&gt;, &lt;em&gt;line current&lt;/em&gt;, &lt;em&gt;phase current&lt;/em&gt;, &lt;em&gt;neutral point&lt;/em&gt;, and &lt;em&gt;phase sequence&lt;/em&gt; is essential for analyzing power systems, transformers, motors, and three-phase loads. These terms determine the magnitude of electrical quantities delivered to devices, the insulation required, the current distribution, and the total power transfer capability of the system. Because three-phase systems consist of three sinusoidal voltages displaced by 120° from one another, the way these voltages are connected affects the resulting relationship between line and phase quantities.&lt;/p&gt;
+
 &lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/img/Electronics/Star-Delta-Conversion.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/LV-Star-Connection.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:auto;&quot; /&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Line Voltage ( $ V_L $ )&lt;/strong&gt; refers to the voltage measured between any two of the three line conductors in a three-phase system (e.g., between R–Y, Y–B, or B–R). This is the voltage typically available for industrial loads or for interconnection between electrical equipment.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/PV-Star-Connection.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Phase Voltage ( $ V_P $ )&lt;/strong&gt;, however, is the voltage appearing across a single phase element of the load or transformer winding. In a star-connected system, the phase voltage is lower because each phase is connected from the line to the neutral point. This relationship creates the well-known equation $ V_L = \sqrt{3}\, V_P $ as shown in figure below.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/PV-Phase.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In delta systems, the phase voltage is directly across each closed-loop branch, which also happens to be the voltage between any two lines, making $ V_L = V_P $.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Line Current ( $ I_L $ )&lt;/strong&gt; is the current flowing through each of the line conductors.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Phase Current ( $ I_P $ )&lt;/strong&gt; is the current flowing through each individual load element (resistor, inductor, capacitor, or transformer winding). In star connections, since each line conductor is directly connected to one of the phase windings, line and phase currents are identical: $ I_L = I_P $. In a delta connection, each line conductor supplies the current for two branches of the delta loop, resulting in the relationship $ I_L = \sqrt{3}\, I_P $. Thus, delta systems carry higher line currents but operate at the same voltage in each branch.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;neutral point&lt;/strong&gt; exists only in star connections, where the three phase ends meet. It provides a return path for unbalanced loads and allows both single-phase and three-phase voltages to be supplied simultaneously. Delta connections lack a neutral, meaning loads must be balanced to avoid circulating currents. Another important term is the &lt;strong&gt;phase sequence&lt;/strong&gt;, which refers to the order in which voltages reach their maximum value (e.g., R-Y-B or R-B-Y). Phase sequence determines the direction of rotation of three-phase motors and ensures proper synchronisation between generators and power grids.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Three-phase power&lt;/strong&gt; also depends on these quantities. The total power delivered is given by:&lt;/p&gt;
+
+\[P = \sqrt{3}\, V_L I_L \cos\phi = 3 V_P I_P \cos\phi,\]
+
+&lt;p&gt;showing the equivalence of star and delta formulas when correct relations are applied. These relationships form the foundation of power system engineering and allow safe, reliable, and predictable operation of three-phase equipment.&lt;/p&gt;
+
+&lt;h3 id=&quot;derivation-of-line-and-phase-voltage-relation-in-star-y-connection&quot;&gt;&lt;strong&gt;Derivation of Line and Phase Voltage Relation in Star (Y) Connection&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;In a star system, phase voltage is between a line conductor and neutral:&lt;/p&gt;
+
+\[V_{RN} = V_P,\quad V_{YN} = V_P,\quad V_{BN} = V_P.\]
+
+&lt;p&gt;Line voltage is measured between two lines, e.g., between R and Y:&lt;/p&gt;
+
+\[V_{RY} = V_{RN} - V_{YN}.\]
+
+&lt;p&gt;Represent phase voltages as 120°-displaced phasors:&lt;/p&gt;
+
+\[V_{RN} = V_P \angle 0^\circ,\quad
+V_{YN} = V_P \angle -120^\circ.\]
+
+&lt;p&gt;Thus,&lt;/p&gt;
+
+\[V_{RY} = V_P\angle 0^\circ - V_P\angle -120^\circ.\]
+
+&lt;p&gt;Compute magnitude:&lt;/p&gt;
+
+\[|V_{RY}| = \sqrt{V_P^2 + V_P^2 - 2V_P^2\cos(120^\circ)}
+= \sqrt{3V_P^2} = \sqrt{3}V_P.\]
+
+&lt;p&gt;Hence,&lt;/p&gt;
+
+\[V_L = \sqrt{3}\, V_P.\]
+
+&lt;h3 id=&quot;derivation-of-line-and-phase-current-relation-in-delta-δ-connection&quot;&gt;&lt;strong&gt;Derivation of Line and Phase Current Relation in Delta (Δ) Connection&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;In delta, phase voltage = line voltage:&lt;/p&gt;
+
+\[V_{P} = V_L.\]
+
+&lt;p&gt;But each line current is the vector sum of currents of two delta branches:&lt;/p&gt;
+
+\[I_L = |I_{12} - I_{31}|.\]
+
+&lt;p&gt;Using phasor separation of 120°:&lt;/p&gt;
+
+\[I_L = \sqrt{3} I_P.\]
+
+&lt;p&gt;Thus delta carries larger line current.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h3 id=&quot;stardelta-yδ-transformation-for-resistors&quot;&gt;&lt;strong&gt;Star–Delta (Y–Δ) Transformation for Resistors&lt;/strong&gt;&lt;/h3&gt;
 
