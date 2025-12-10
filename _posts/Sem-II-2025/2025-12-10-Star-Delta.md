@@ -126,7 +126,7 @@ For three-phase transformers:
 Three-phase power:
 
 $$
-P = \sqrt{3} V_L I_L \cos\phi = 3 V_P I_P \cos\phi.
+P = \sqrt{3} V_L I_L\cos\phi = 3 V_P I_P \cos\phi.
 $$
 
 These transformations allow equivalent modeling of transformer windings and other AC systems.
