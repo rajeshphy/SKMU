@@ -6,9 +6,6 @@ categories: lecture
 tags: MSc 
 ---
 
-# Star and Delta Connections of Resistors and Capacitors
-
-## Definition / Description / Context
 
 Star (also called Wye or Y) and Delta (Δ) connections are fundamental network configurations used extensively in electrical engineering, circuit design, and power system analysis. These connections help simplify complex three-phase networks, making them easier to analyze for voltage, current, impedance, and power calculations. The star connection consists of three circuit elements whose one end is connected to a common junction known as the star point or neutral point, while the other ends form the three independent phase terminals. This configuration resembles the shape of the letter ‘Y’. It is widely used in power transmission systems, distribution networks, and balanced load connections due to its ability to provide two voltage levels—phase and line voltages.
 
@@ -20,19 +17,13 @@ Similarly, capacitors and inductors also follow analogous transformation rules, 
 
 In three-phase systems, star and delta connections significantly influence the resulting voltages, currents, and power distribution. For example, in star connections, the line voltage is √3 times the phase voltage, allowing systems to operate at lower insulation requirements since individual elements experience lower voltage. Meanwhile, delta connections provide higher line currents for the same element rating due to the √3 factor difference between line and phase currents. These relationships influence the design of power transmission systems, motor starting methods, and transformer windings. Star connections are generally preferred for long-distance transmission due to lower power loss, while delta connections are more suitable for short-distance, high-power applications.
 
-Overall, star and delta connections form the backbone of network transformation techniques used across resistive, capacitive, inductive, and three-phase systems. Their analysis provides engineers with a standardized framework for interpreting complex circuits, optimizing power distribution, and ensuring reliable system operation.
 
----
-
-## Relevant Figure(s) / Image(s)
-
-**Figure Placeholder:**  
-Images showing star and delta resistor networks, capacitor networks, and AC system transformer connections.
-
-![](figures/0-3-FIGURE.jpg)
-![](figures/2-2-FIGURE.jpg)
-![](figures/2-3-FIGURE.jpg)
-![](figures/2-4-FIGURE.jpg)
+<div style="text-align: center;">
+  <img src="/SKMU/assets/img/Electronics/Star-Delta-Conversion.png" 
+       alt="Interaction Process" 
+       class="my-custom-class" 
+       style="max-width:100%; height:auto;">
+</div>
 
 
 ### **Star–Delta (Y–Δ) Transformation for Resistors**
@@ -42,9 +33,13 @@ The Δ resistances are given by:
 
 $$
 R_{12} = \frac{R_1 R_2 + R_2 R_3 + R_3 R_1}{R_3},
-\quad
+$$
+
+$$
 R_{23} = \frac{R_1 R_2 + R_2 R_3 + R_3 R_1}{R_1},
-\quad
+$$
+
+$$
 R_{31} = \frac{R_1 R_2 + R_2 R_3 + R_3 R_1}{R_2}.
 $$
 
@@ -52,9 +47,13 @@ Conversely, the Y resistances from Δ network:
 
 $$
 R_1 = \frac{R_{12} R_{31}}{R_{12} + R_{23} + R_{31}},
-\quad
+$$
+
+$$
 R_2 = \frac{R_{12} R_{23}}{R_{12} + R_{23} + R_{31}},
-\quad
+$$
+
+$$
 R_3 = \frac{R_{23} R_{31}}{R_{12} + R_{23} + R_{31}}.
 $$
 
@@ -64,9 +63,13 @@ For capacitors, since their equivalent impedance behaves inversely to capacitanc
 
 $$
 C_{12} = \frac{C_1 C_2}{C_1 + C_2 + C_3},
-\quad
+$$
+
+$$
 C_{23} = \frac{C_2 C_3}{C_1 + C_2 + C_3},
-\quad
+$$
+
+$$
 C_{31} = \frac{C_3 C_1}{C_1 + C_2 + C_3}.
 $$
 
@@ -74,9 +77,13 @@ The reverse Δ–Y transformation:
 
 $$
 C_1 = \frac{C_{12} + C_{31} - C_{23}}{2},
-\quad
+$$
+
+$$
 C_2 = \frac{C_{12} + C_{23} - C_{31}}{2},
-\quad
+$$
+
+$$
 C_3 = \frac{C_{23} + C_{31} - C_{12}}{2}.
 $$
 
@@ -86,9 +93,13 @@ Inductors follow the same pattern as resistors because inductive reactance $ X_L
 
 $$
 L_{12} = \frac{L_1 L_2 + L_2 L_3 + L_3 L_1}{L_3},
-\quad
+$$
+
+$$
 L_{23} = \frac{L_1 L_2 + L_2 L_3 + L_3 L_1}{L_1},
-\quad
+$$
+
+$$
 L_{31} = \frac{L_1 L_2 + L_2 L_3 + L_3 L_1}{L_2}.
 $$
 

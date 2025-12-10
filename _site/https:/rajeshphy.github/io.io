@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-10T12:13:17+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Star &amp;amp; Delta</title><link href="http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta.html" rel="alternate" type="text/html" title="Star &amp; Delta" /><published>2025-12-10T10:30:00+05:30</published><updated>2025-12-10T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta.html">&lt;h1 id=&quot;star-and-delta-connections-of-resistors-and-capacitors&quot;&gt;Star and Delta Connections of Resistors and Capacitors&lt;/h1&gt;
-
-&lt;h2 id=&quot;definition--description--context&quot;&gt;Definition / Description / Context&lt;/h2&gt;
-
-&lt;p&gt;Star (also called Wye or Y) and Delta (Δ) connections are fundamental network configurations used extensively in electrical engineering, circuit design, and power system analysis. These connections help simplify complex three-phase networks, making them easier to analyze for voltage, current, impedance, and power calculations. The star connection consists of three circuit elements whose one end is connected to a common junction known as the star point or neutral point, while the other ends form the three independent phase terminals. This configuration resembles the shape of the letter ‘Y’. It is widely used in power transmission systems, distribution networks, and balanced load connections due to its ability to provide two voltage levels—phase and line voltages.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-10T13:49:30+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Star &amp;amp; Delta</title><link href="http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta.html" rel="alternate" type="text/html" title="Star &amp; Delta" /><published>2025-12-10T10:30:00+05:30</published><updated>2025-12-10T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta.html">&lt;p&gt;Star (also called Wye or Y) and Delta (Δ) connections are fundamental network configurations used extensively in electrical engineering, circuit design, and power system analysis. These connections help simplify complex three-phase networks, making them easier to analyze for voltage, current, impedance, and power calculations. The star connection consists of three circuit elements whose one end is connected to a common junction known as the star point or neutral point, while the other ends form the three independent phase terminals. This configuration resembles the shape of the letter ‘Y’. It is widely used in power transmission systems, distribution networks, and balanced load connections due to its ability to provide two voltage levels—phase and line voltages.&lt;/p&gt;
 
 &lt;p&gt;In contrast, the delta connection forms a closed loop that resembles a triangle. Here, each of the three elements connects end-to-end such that the junction of any two elements forms a phase terminal. Delta connections do not have a neutral point, and all three wires carry the phase currents. This setup is commonly found in motor windings, transformers for high-power applications, and circuits requiring higher starting torque or robustness under unbalanced loads. One of the main advantages of delta configuration is that the line voltage and phase voltage remain equal, simplifying certain types of power analysis.&lt;/p&gt;
 
@@ -12,66 +8,56 @@
 
 &lt;p&gt;In three-phase systems, star and delta connections significantly influence the resulting voltages, currents, and power distribution. For example, in star connections, the line voltage is √3 times the phase voltage, allowing systems to operate at lower insulation requirements since individual elements experience lower voltage. Meanwhile, delta connections provide higher line currents for the same element rating due to the √3 factor difference between line and phase currents. These relationships influence the design of power transmission systems, motor starting methods, and transformer windings. Star connections are generally preferred for long-distance transmission due to lower power loss, while delta connections are more suitable for short-distance, high-power applications.&lt;/p&gt;
 
-&lt;p&gt;Overall, star and delta connections form the backbone of network transformation techniques used across resistive, capacitive, inductive, and three-phase systems. Their analysis provides engineers with a standardized framework for interpreting complex circuits, optimizing power distribution, and ensuring reliable system operation.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;relevant-figures--images&quot;&gt;Relevant Figure(s) / Image(s)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Figure Placeholder:&lt;/strong&gt;&lt;br /&gt;
-Images showing star and delta resistor networks, capacitor networks, and AC system transformer connections.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;figures/0-3-FIGURE.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;figures/2-2-FIGURE.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;figures/2-3-FIGURE.jpg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;figures/2-4-FIGURE.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/Star-Delta-Conversion.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;stardelta-yδ-transformation-for-resistors&quot;&gt;&lt;strong&gt;Star–Delta (Y–Δ) Transformation for Resistors&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;p&gt;Consider a star network with resistances $ R_1, R_2, R_3 $ connected to a central neutral point. The equivalent delta network contains resistances $ R_{12}, R_{23}, R_{31} $.&lt;br /&gt;
 The Δ resistances are given by:&lt;/p&gt;
 
-\[R_{12} = \frac{R_1 R_2 + R_2 R_3 + R_3 R_1}{R_3},
-\quad
-R_{23} = \frac{R_1 R_2 + R_2 R_3 + R_3 R_1}{R_1},
-\quad
-R_{31} = \frac{R_1 R_2 + R_2 R_3 + R_3 R_1}{R_2}.\]
+\[R_{12} = \frac{R_1 R_2 + R_2 R_3 + R_3 R_1}{R_3},\]
+
+\[R_{23} = \frac{R_1 R_2 + R_2 R_3 + R_3 R_1}{R_1},\]
+
+\[R_{31} = \frac{R_1 R_2 + R_2 R_3 + R_3 R_1}{R_2}.\]
 
 &lt;p&gt;Conversely, the Y resistances from Δ network:&lt;/p&gt;
 
-\[R_1 = \frac{R_{12} R_{31}}{R_{12} + R_{23} + R_{31}},
-\quad
-R_2 = \frac{R_{12} R_{23}}{R_{12} + R_{23} + R_{31}},
-\quad
-R_3 = \frac{R_{23} R_{31}}{R_{12} + R_{23} + R_{31}}.\]
+\[R_1 = \frac{R_{12} R_{31}}{R_{12} + R_{23} + R_{31}},\]
+
+\[R_2 = \frac{R_{12} R_{23}}{R_{12} + R_{23} + R_{31}},\]
+
+\[R_3 = \frac{R_{23} R_{31}}{R_{12} + R_{23} + R_{31}}.\]
 
 &lt;h3 id=&quot;stardelta-transformation-for-capacitors&quot;&gt;&lt;strong&gt;Star–Delta Transformation for Capacitors&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;p&gt;For capacitors, since their equivalent impedance behaves inversely to capacitance:&lt;/p&gt;
 
-\[C_{12} = \frac{C_1 C_2}{C_1 + C_2 + C_3},
-\quad
-C_{23} = \frac{C_2 C_3}{C_1 + C_2 + C_3},
-\quad
-C_{31} = \frac{C_3 C_1}{C_1 + C_2 + C_3}.\]
+\[C_{12} = \frac{C_1 C_2}{C_1 + C_2 + C_3},\]
+
+\[C_{23} = \frac{C_2 C_3}{C_1 + C_2 + C_3},\]
+
+\[C_{31} = \frac{C_3 C_1}{C_1 + C_2 + C_3}.\]
 
 &lt;p&gt;The reverse Δ–Y transformation:&lt;/p&gt;
 
-\[C_1 = \frac{C_{12} + C_{31} - C_{23}}{2},
-\quad
-C_2 = \frac{C_{12} + C_{23} - C_{31}}{2},
-\quad
-C_3 = \frac{C_{23} + C_{31} - C_{12}}{2}.\]
+\[C_1 = \frac{C_{12} + C_{31} - C_{23}}{2},\]
+
+\[C_2 = \frac{C_{12} + C_{23} - C_{31}}{2},\]
+
+\[C_3 = \frac{C_{23} + C_{31} - C_{12}}{2}.\]
 
 &lt;h3 id=&quot;stardelta-transformation-for-inductors&quot;&gt;&lt;strong&gt;Star–Delta Transformation for Inductors&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;p&gt;Inductors follow the same pattern as resistors because inductive reactance $ X_L = \omega L $ is proportional to $ L $:&lt;/p&gt;
 
-\[L_{12} = \frac{L_1 L_2 + L_2 L_3 + L_3 L_1}{L_3},
-\quad
-L_{23} = \frac{L_1 L_2 + L_2 L_3 + L_3 L_1}{L_1},
-\quad
-L_{31} = \frac{L_1 L_2 + L_2 L_3 + L_3 L_1}{L_2}.\]
+\[L_{12} = \frac{L_1 L_2 + L_2 L_3 + L_3 L_1}{L_3},\]
+
+\[L_{23} = \frac{L_1 L_2 + L_2 L_3 + L_3 L_1}{L_1},\]
+
+\[L_{31} = \frac{L_1 L_2 + L_2 L_3 + L_3 L_1}{L_2}.\]
 
 &lt;p&gt;Reverse transformation:&lt;/p&gt;
 
@@ -96,7 +82,7 @@ L_{31} = \frac{L_1 L_2 + L_2 L_3 + L_3 L_1}{L_2}.\]
 
 \[P = \sqrt{3} V_L I_L \cos\phi = 3 V_P I_P \cos\phi.\]
 
-&lt;p&gt;These transformations allow equivalent modeling of transformer windings and other AC systems.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">Star and Delta Connections of Resistors and Capacitors</summary></entry><entry><title type="html">JET: English-Lecture-II</title><link href="http://localhost:4000/SKMU/english/2025/12/06/JET-Paper-1-L2.html" rel="alternate" type="text/html" title="JET: English-Lecture-II " /><published>2025-12-06T10:30:00+05:30</published><updated>2025-12-06T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/english/2025/12/06/JET-Paper-1-L2</id><content type="html" xml:base="http://localhost:4000/SKMU/english/2025/12/06/JET-Paper-1-L2.html">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Number &amp;amp; Letter Series&lt;/b&gt;&lt;/h1&gt;
+&lt;p&gt;These transformations allow equivalent modeling of transformer windings and other AC systems.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">Star (also called Wye or Y) and Delta (Δ) connections are fundamental network configurations used extensively in electrical engineering, circuit design, and power system analysis. These connections help simplify complex three-phase networks, making them easier to analyze for voltage, current, impedance, and power calculations. The star connection consists of three circuit elements whose one end is connected to a common junction known as the star point or neutral point, while the other ends form the three independent phase terminals. This configuration resembles the shape of the letter ‘Y’. It is widely used in power transmission systems, distribution networks, and balanced load connections due to its ability to provide two voltage levels—phase and line voltages.</summary></entry><entry><title type="html">JET: English-Lecture-II</title><link href="http://localhost:4000/SKMU/english/2025/12/06/JET-Paper-1-L2.html" rel="alternate" type="text/html" title="JET: English-Lecture-II " /><published>2025-12-06T10:30:00+05:30</published><updated>2025-12-06T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/english/2025/12/06/JET-Paper-1-L2</id><content type="html" xml:base="http://localhost:4000/SKMU/english/2025/12/06/JET-Paper-1-L2.html">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Number &amp;amp; Letter Series&lt;/b&gt;&lt;/h1&gt;
 
 &lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
   &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
