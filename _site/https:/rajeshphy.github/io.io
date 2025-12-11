@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-10T14:13:43+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Star &amp;amp; Delta</title><link href="http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta.html" rel="alternate" type="text/html" title="Star &amp; Delta" /><published>2025-12-10T10:30:00+05:30</published><updated>2025-12-10T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta.html">&lt;p&gt;Star (also called Wye or Y) and Delta (Δ) connections are fundamental network configurations used extensively in electrical engineering, circuit design, and power system analysis. These connections help simplify complex three-phase networks, making them easier to analyze for voltage, current, impedance, and power calculations. The star connection consists of three circuit elements whose one end is connected to a common junction known as the star point or neutral point, while the other ends form the three independent phase terminals. This configuration resembles the shape of the letter ‘Y’. It is widely used in power transmission systems, distribution networks, and balanced load connections due to its ability to provide two voltage levels—phase and line voltages.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-11T09:56:28+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Star &amp;amp; Delta Connection</title><link href="http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta.html" rel="alternate" type="text/html" title="Star &amp; Delta Connection" /><published>2025-12-10T10:30:00+05:30</published><updated>2025-12-10T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta.html">&lt;p&gt;Star (also called Wye or Y) and Delta (Δ) connections are fundamental network configurations used extensively in electrical engineering, circuit design, and power system analysis. These connections help simplify complex three-phase networks, making them easier to analyze for voltage, current, impedance, and power calculations. The star connection consists of three circuit elements whose one end is connected to a common junction known as the star point or neutral point, while the other ends form the three independent phase terminals. This configuration resembles the shape of the letter ‘Y’. It is widely used in power transmission systems, distribution networks, and balanced load connections due to its ability to provide two voltage levels—phase and line voltages.&lt;/p&gt;
 
 &lt;p&gt;In contrast, the delta connection forms a closed loop that resembles a triangle. Here, each of the three elements connects end-to-end such that the junction of any two elements forms a phase terminal. Delta connections do not have a neutral point, and all three wires carry the phase currents. This setup is commonly found in motor windings, transformers for high-power applications, and circuits requiring higher starting torque or robustness under unbalanced loads. One of the main advantages of delta configuration is that the line voltage and phase voltage remain equal, simplifying certain types of power analysis.&lt;/p&gt;
 
@@ -2004,59 +2004,72 @@ The curve may be in 2D or 3D and is usually parametrized as $ \mathbf{r}(t) $.&l
       &lt;td&gt;$ dV = r^2 \sin\theta\, dr\, d\theta\, d\phi $&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Line, Surface and Volume Integral</summary></entry><entry><title type="html">JET: Lecture-IV</title><link href="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L4.html" rel="alternate" type="text/html" title="JET: Lecture-IV" /><published>2025-11-27T10:30:00+05:30</published><updated>2025-11-27T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L4</id><content type="html" xml:base="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L4.html">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Integral Theorems: Gauss, Green, and Stokes&lt;/b&gt;&lt;/h1&gt;
+&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Line, Surface and Volume Integral</summary></entry><entry><title type="html">JET: Lecture-IV</title><link href="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L4.html" rel="alternate" type="text/html" title="JET: Lecture-IV" /><published>2025-11-27T10:30:00+05:30</published><updated>2025-11-27T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L4</id><content type="html" xml:base="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L4.html">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Integral Theorems&lt;/b&gt;&lt;/h1&gt;
+
+&lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
+  &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
+              padding:1.2rem 1.5rem;max-width:560px;width:100%;font-family:&apos;Inter&apos;,sans-serif;
+              border:1px solid #d9e6b2;&quot;&gt;
+
+    &lt;h2 style=&quot;text-align:center;color:#3b4c00;margin-bottom:0.8rem;
+               font-size:1.4rem;font-weight:700;&quot;&gt;QUIZ&lt;/h2&gt;
+
+
+    &lt;!-- === Difficulty selector === --&gt;
+    &lt;div id=&quot;quiz-level-selector&quot; style=&quot;text-align:center;margin-bottom:1rem;display:flex;justify-content:center;gap:0.4rem;flex-wrap:wrap;&quot;&gt;
+      &lt;button class=&quot;level-btn&quot; data-file=&quot;L4_Green.json&quot;&gt;Green&lt;/button&gt;
+      &lt;button class=&quot;level-btn&quot; data-file=&quot;L4_Stokes.json&quot;&gt;Stokes&lt;/button&gt;
+      &lt;button class=&quot;level-btn&quot; data-file=&quot;L4_Gauss.json&quot;&gt;Gauss&lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;!-- === Quiz container (initially hidden) === --&gt;
+    &lt;div id=&quot;quiz-section&quot; style=&quot;display:none;&quot;&gt;
+      &lt;div class=&quot;quiz-wrapper&quot;&gt;
+  &lt;div id=&quot;quiz-container&quot; data-quiz=&quot;&quot;&gt;
+    &lt;h2 id=&quot;quiz-title&quot; class=&quot;quiz-title&quot;&gt;&lt;/h2&gt;
+
+    &lt;div id=&quot;question-container&quot; class=&quot;question-container&quot;&gt;
+      &lt;div id=&quot;question&quot; class=&quot;question-text&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;answer-buttons&quot; class=&quot;options-grid&quot;&gt;
+        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
+        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
+        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
+        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;button id=&quot;next-btn&quot; class=&quot;btn next-btn&quot;&gt;Next&lt;/button&gt;
+    &lt;div id=&quot;result&quot; class=&quot;result&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- ✅ Stylesheet --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/SKMU/assets/css/quiz.css&quot; /&gt;
+
+&lt;!-- ✅ Quiz Script --&gt;
+&lt;script src=&quot;/SKMU/assets/js/quiz.js&quot;&gt;&lt;/script&gt;
+
+
+&lt;!-- ✅ Pass baseurl to JS (for blogs inside subfolders like /SKMU/) --&gt;
+&lt;script&gt;
+  window.quizBaseUrl = &quot;/SKMU&quot;;
+&lt;/script&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;Vector calculus connects &lt;strong&gt;line&lt;/strong&gt;, &lt;strong&gt;surface&lt;/strong&gt;, and &lt;strong&gt;volume integrals&lt;/strong&gt; through three powerful theorems:&lt;br /&gt;
 &lt;strong&gt;Gauss’s Divergence Theorem&lt;/strong&gt;, &lt;strong&gt;Green’s Theorem&lt;/strong&gt;, and &lt;strong&gt;Stokes’ Theorem&lt;/strong&gt;.&lt;br /&gt;
 These theorems convert integrals from one form to another and are central in &lt;strong&gt;electromagnetism&lt;/strong&gt;, &lt;strong&gt;fluid flow&lt;/strong&gt;, and &lt;strong&gt;mathematical physics&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h1 id=&quot;1-gausss-divergence-theorem&quot;&gt;&lt;strong&gt;1. Gauss’s Divergence Theorem&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;h2 id=&quot;statement&quot;&gt;&lt;strong&gt;Statement&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Gauss’s theorem relates the &lt;strong&gt;flux of a vector field through a closed surface&lt;/strong&gt; to the &lt;strong&gt;divergence of the field inside the volume&lt;/strong&gt;.&lt;/p&gt;
-
-\[\iiint_V (\nabla\cdot \mathbf{A})\, dV 
-= \iint_{\partial V} \mathbf{A}\cdot d\mathbf{S}\]
-
-&lt;p&gt;&lt;strong&gt;Left Side&lt;/strong&gt; → Divergence integrated over the volume&lt;br /&gt;
-&lt;strong&gt;Right Side&lt;/strong&gt; → Net flux through the surface bounding the volume&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$V$ = volume&lt;/li&gt;
-  &lt;li&gt;$\partial V$ = closed surface bounding $V$&lt;/li&gt;
-  &lt;li&gt;$d\mathbf{S} = \hat{n}\, dS$ (outward normal)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;physical-meaning&quot;&gt;&lt;strong&gt;Physical Meaning&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Divergence measures &lt;strong&gt;net “outflow”&lt;/strong&gt; of the vector field from a point.&lt;/li&gt;
-  &lt;li&gt;Gauss’s theorem says:&lt;br /&gt;
-&lt;strong&gt;Total outflow from a volume = sum of divergence at each point inside.&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is exactly how &lt;strong&gt;Gauss’s law in electrostatics&lt;/strong&gt; is written.&lt;/p&gt;
-
-&lt;h2 id=&quot;example-electrostatics&quot;&gt;&lt;strong&gt;Example (Electrostatics)&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Electric flux through a closed surface:&lt;/p&gt;
-
-\[\iint_S \mathbf{E} \cdot d\mathbf{S} = \frac{Q_{\text{enc}}}{\varepsilon_0}\]
-
-&lt;p&gt;Taking divergence:&lt;/p&gt;
-
-\[\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}\]
-
-&lt;p&gt;Using Gauss theorem:&lt;/p&gt;
-
-\[\iiint_V \frac{\rho}{\varepsilon_0}\, dV = \iint_S \mathbf{E}\cdot d\mathbf{S}\]
-
-&lt;h1 id=&quot;2-greens-theorem&quot;&gt;&lt;strong&gt;2. Green’s Theorem&lt;/strong&gt;&lt;/h1&gt;
+&lt;h1 id=&quot;1-greens-theorem&quot;&gt;&lt;strong&gt;1. Green’s Theorem&lt;/strong&gt;&lt;/h1&gt;
 
 &lt;p&gt;Green’s theorem connects a &lt;strong&gt;line integral around a closed curve&lt;/strong&gt; with a &lt;strong&gt;double integral over the enclosed area&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;statement-1&quot;&gt;&lt;strong&gt;Statement&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;statement&quot;&gt;&lt;strong&gt;Statement&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;p&gt;For a vector field&lt;br /&gt;
 $\mathbf{A} = P(x,y)\,\hat{i} + Q(x,y)\,\hat{j}$,&lt;/p&gt;
@@ -2102,6 +2115,48 @@ Using $P=-y/2, Q=x/2$&lt;/p&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h1 id=&quot;2-gausss-divergence-theorem&quot;&gt;&lt;strong&gt;2. Gauss’s Divergence Theorem&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;statement-1&quot;&gt;&lt;strong&gt;Statement&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Gauss’s theorem relates the &lt;strong&gt;flux of a vector field through a closed surface&lt;/strong&gt; to the &lt;strong&gt;divergence of the field inside the volume&lt;/strong&gt;.&lt;/p&gt;
+
+\[\iiint_V (\nabla\cdot \mathbf{A})\, dV 
+= \iint_{\partial V} \mathbf{A}\cdot d\mathbf{S}\]
+
+&lt;p&gt;&lt;strong&gt;Left Side&lt;/strong&gt; → Divergence integrated over the volume&lt;br /&gt;
+&lt;strong&gt;Right Side&lt;/strong&gt; → Net flux through the surface bounding the volume&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$V$ = volume&lt;/li&gt;
+  &lt;li&gt;$\partial V$ = closed surface bounding $V$&lt;/li&gt;
+  &lt;li&gt;$d\mathbf{S} = \hat{n}\, dS$ (outward normal)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;physical-meaning&quot;&gt;&lt;strong&gt;Physical Meaning&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Divergence measures &lt;strong&gt;net “outflow”&lt;/strong&gt; of the vector field from a point.&lt;/li&gt;
+  &lt;li&gt;Gauss’s theorem says:&lt;br /&gt;
+&lt;strong&gt;Total outflow from a volume = sum of divergence at each point inside.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is exactly how &lt;strong&gt;Gauss’s law in electrostatics&lt;/strong&gt; is written.&lt;/p&gt;
+
+&lt;h2 id=&quot;example-electrostatics&quot;&gt;&lt;strong&gt;Example (Electrostatics)&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Electric flux through a closed surface:&lt;/p&gt;
+
+\[\iint_S \mathbf{E} \cdot d\mathbf{S} = \frac{Q_{\text{enc}}}{\varepsilon_0}\]
+
+&lt;p&gt;Taking divergence:&lt;/p&gt;
+
+\[\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}\]
+
+&lt;p&gt;Using Gauss theorem:&lt;/p&gt;
+
+\[\iiint_V \frac{\rho}{\varepsilon_0}\, dV = \iint_S \mathbf{E}\cdot d\mathbf{S}\]
 
 &lt;h1 id=&quot;3-stokes-theorem&quot;&gt;&lt;strong&gt;3. Stokes’ Theorem&lt;/strong&gt;&lt;/h1&gt;
 
@@ -2174,7 +2229,7 @@ Using $P=-y/2, Q=x/2$&lt;/p&gt;
 &lt;/table&gt;
 
 &lt;p&gt;&lt;strong&gt;Green is a special case of Stokes.&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt;Gauss is the divergence counterpart.&lt;/strong&gt;&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Integral Theorems: Gauss, Green, and Stokes</summary></entry><entry><title type="html">Resistors</title><link href="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html" rel="alternate" type="text/html" title="Resistors" /><published>2025-11-19T10:30:00+05:30</published><updated>2025-11-19T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/19/Resistors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html">&lt;h1 id=&quot;resistors-types-characteristics-and-colour-coding&quot;&gt;Resistors: Types, Characteristics, and Colour Coding&lt;/h1&gt;
+&lt;strong&gt;Gauss is the divergence counterpart.&lt;/strong&gt;&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Integral Theorems</summary></entry><entry><title type="html">Resistors</title><link href="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html" rel="alternate" type="text/html" title="Resistors" /><published>2025-11-19T10:30:00+05:30</published><updated>2025-11-19T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/19/Resistors</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/19/Resistors.html">&lt;h1 id=&quot;resistors-types-characteristics-and-colour-coding&quot;&gt;Resistors: Types, Characteristics, and Colour Coding&lt;/h1&gt;
 
 &lt;p&gt;A resistor is one of the most fundamental passive components used in electrical and electronic circuits. Its primary function is to oppose or limit the flow of electric current, thereby controlling voltage levels, dividing currents, reducing power, and protecting sensitive components. Resistors operate based on the principle that certain materials inherently resist the motion of electrons. This resistance is quantified in ohms (Ω), named after Georg Simon Ohm, who formulated the foundational relationship among voltage (V), current (I), and resistance (R).&lt;/p&gt;
 

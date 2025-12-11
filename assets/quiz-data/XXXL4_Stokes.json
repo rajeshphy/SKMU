@@ -1,0 +1,19 @@
+{
+  "title": "Problems: Stokes Theorem",
+  "description": "Answer all questions. Each carries 1 mark. Choose the most appropriate option.",
+  "quizSettings": {
+    "isQuiz": true
+  },
+  "questions": [
+    {
+      "title": "",
+      "options": ["", "", "", ""],
+      "correct": 0
+    },
+    {
+      "title": "",
+      "options": ["$$\\int \\vec{A} \\cdot d\\vec{r}$$", "$$\\int \\vec{A} \\cdot d\\vec{S}$$", "$$\\int f(x,y,z) dV$$", "$$\\int f(x) dx$$"],
+      "correct": 1
+    }
+  ]
+}
