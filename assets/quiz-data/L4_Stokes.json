@@ -1,0 +1,19 @@
+{
+  "title": "Problems: Stokes Theorem",
+  "description": "Answer all questions. Each carries 1 mark. Choose the most appropriate option.",
+  "quizSettings": {
+    "isQuiz": true
+  },
+  "questions": [
+    {
+      "title": "An object moves in the force field\n$$\n\\mathbf{F}(x,y) = (x+y)\\,\\mathbf{i} + (x^{2}+1)\\,\\mathbf{j},\n$$\nfrom $(0,0)$ to $(0,1)$ as shown in the figure.<br><br>\n(a) Find the work done if the object moves along the path $x = 0$, $0 \\le y \\le 1$.<br>\n(b) Find the work done along the path $x = y - y^{2}$, $0 \\le y \\le 1$.<br>\n(c) If the object instead moves along the path $x = c(y - y^{2})$, $c>0$, find the value of $c$ that minimizes the work.\n<br><br><img src='/SKMU/assets/quiz-data/IMG/L4-H4.jpg' alt='Work diagram'>",
+      "options": [
+        "(a) 1, (b) $\\frac{13}{15}$, (c) $\\frac{5}{2}$",
+        "(a) 1, (b) $\\frac{2}{5}$, (c) 2",
+        "(a) 0, (b) $\\frac{13}{15}$, (c) 3",
+        "(a) 1, (b) $\\frac{3}{5}$, (c) 1"
+      ],
+      "correct": 0
+    }
+  ]
+}
