@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-12T11:03:06+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: English-Lecture-III</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-III" rel="alternate" type="text/html" title="JET: English-Lecture-III " /><published>2025-12-12T08:30:00+05:30</published><updated>2025-12-12T08:30:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L3</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-III">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Time &amp;amp; Distance&lt;/b&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-12T20:33:55+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Quantum Mechanics in Momentum Space by M Lieber</title><link href="http://localhost:4000/SKMU/M-Lieber-1975/" rel="alternate" type="text/html" title="Quantum Mechanics in Momentum Space by M Lieber" /><published>2025-12-12T12:00:00+05:30</published><updated>2025-12-12T12:00:00+05:30</updated><id>http://localhost:4000/SKMU/Lieber</id><content type="html" xml:base="http://localhost:4000/SKMU/M-Lieber-1975/">&lt;p&gt;By M. Lieber
+Received 18 June 1974&lt;/p&gt;
+
+&lt;p&gt;Schrodinger equation in momentum space is obtained by Fourier transforming the coordinate space equation. Lets consider the time-independent Schrodinger equation in one dimension in position space:&lt;/p&gt;
+
+\[\frac{p^2}{2m} \Psi(x) + V(x) \Psi(x) = E \Psi(x) \tag{1}\]
+
+&lt;p&gt;or equivalently,&lt;/p&gt;
+
+\[\left(E-\frac{p^2}{2m}\right) \Psi(x)=  V(x) \Psi(x) \tag{2}\]
+
+&lt;p&gt;To transform this into momentum space, we take the Fourier transform of both sides. The Fourier transform of the wave function is given by:&lt;/p&gt;
+
+\[\Phi(p) = \frac{1}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} \Psi(x) e^{-ipx/\hbar} dx\]
+
+&lt;p&gt;Applying the Fourier transform to (2), we have:&lt;/p&gt;
+
+\[\begin{aligned} \frac{1}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} \left(E-\frac{p^2}{2m}\right) \Psi(x) e^{-ipx/\hbar} dx &amp;amp;= \frac{1}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} V(x) \Psi(x) e^{-ipx/\hbar} dx\\
+\left(E-\frac{p^2}{2m}\right) \phi(p) &amp;amp;= \frac{1}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} \tilde{V}(p-p&apos;) \phi(p&apos;) dp&apos;
+\end{aligned}\tag{3}\]
+
+&lt;p&gt;where $ \tilde{V}(p-p’) $ is the Fourier transform of the potential $ V(x) $:&lt;/p&gt;
+
+\[\tilde{V}(p) = \frac{1}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} V(x) e^{-ipx/\hbar} dx\]
+
+&lt;p&gt;Thus, the Schrodinger equation in momentum space becomes:&lt;/p&gt;
+
+\[\boxed{ \left(E-\frac{p^2}{2m}\right) \phi(p) = \frac{1}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} \tilde{V}(p-p&apos;) \phi(p&apos;) dp&apos; } \tag{4}\]
+
+&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">By M. Lieber Received 18 June 1974</summary></entry><entry><title type="html">JET: English-Lecture-III</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-III" rel="alternate" type="text/html" title="JET: English-Lecture-III " /><published>2025-12-12T08:30:00+05:30</published><updated>2025-12-12T08:30:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L3</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-III">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Time &amp;amp; Distance&lt;/b&gt;&lt;/h1&gt;
 
 &lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
   &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
@@ -546,460 +575,7 @@ Next diff = 18&lt;br /&gt;
 &lt;h3 id=&quot;c-coding-decoding&quot;&gt;&lt;strong&gt;(C) Coding-Decoding&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;If VARANASI → WCUESGZQ&lt;br /&gt;
 Apply same shifts to KOLKATA.&lt;br /&gt;
-(Final answer depends on detailed rule → taught above.)&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Number &amp;amp; Letter Series</summary></entry><entry><title type="html">Fock-German</title><link href="http://localhost:4000/SKMU/fock-german/" rel="alternate" type="text/html" title="Fock-German" /><published>2025-12-03T10:00:00+05:30</published><updated>2025-12-03T10:00:00+05:30</updated><id>http://localhost:4000/SKMU/Fock-German</id><content type="html" xml:base="http://localhost:4000/SKMU/fock-german/">&lt;h1 id=&quot;theory-of-the-hydrogen-atom&quot;&gt;Theory of the Hydrogen Atom&lt;/h1&gt;
-
-&lt;p&gt;By V. Fock, Leningrad&lt;br /&gt;
-Received August 1935&lt;/p&gt;
-
-&lt;p&gt;The Schrödinger equation for the hydrogen atom in momentum space turns out to be identical to the integral equation for the spherical functions of three-dimensional potential theory. Consequently, the transformation group of the hydrogen equation is the four-dimensional rotation group, and the degeneracy of the hydrogen energy levels with respect to the azimuthal quantum number is thereby explained. The potential-theoretical interpretation of the Schrödinger equation allows one to derive numerous relations (addition theorems, etc.) that lead to a wide range of physical applications. The method also makes it possible to evaluate, almost without explicit computation, the infinite sums that appear in the theory of the Compton effect on bound electrons and in related problems. Using a simplified atomic model, one can further obtain explicit expressions for the density matrix in momentum space, atomic form factors, screening potentials, and similar quantities.&lt;/p&gt;
-
-&lt;p&gt;It has long been known that the energy levels of the hydrogen atom are degenerate with respect to the azimuthal quantum number $l$; this is sometimes referred to as an “accidental” degeneracy. However, every degeneracy of eigenvalues is associated with the transformation group of the corresponding equation—for example, the degeneracy with respect to the magnetic quantum number $m$ is associated with the ordinary rotation group. The group corresponding to the “accidental” degeneracy of the hydrogen spectrum, however, had not been identified until now.&lt;/p&gt;
-
-&lt;p&gt;In this work we show that this group is equivalent to the four-dimensional rotation group.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-schrödinger-equation-of-a-hydrogen-like-atom-in-momentum-space&quot;&gt;The Schrödinger Equation of a Hydrogen-like Atom in Momentum Space&lt;/h3&gt;
-
-\[\frac{1}{2m} p^{2} \psi(\mathbf{p})
-- \frac{Z e^{2}}{2\pi^{2}\hbar}
-\int
-\frac{\psi(\mathbf{p}&apos;)\,(\mathrm{d}\mathbf{p}&apos;)}
-{|\mathbf{p}-\mathbf{p}&apos;|^{2}}
-= E\,\psi(\mathbf{p}),\]
-
-&lt;p&gt;where $(\mathrm{d}\mathbf{p}’) = \mathrm{d}p_x’\,\mathrm{d}p_y’\,\mathrm{d}p_z’$ denotes the volume element in momentum space.&lt;br /&gt;
-We denote the discrete spectrum by $E$ and introduce the mean quadratic momentum&lt;/p&gt;
-
-\[p_{0} = \sqrt{-2mE}. \tag{2}\]
-
-&lt;p&gt;We now use the components of the momentum vector $\mathbf{p}$, divided by $p_{0}$, as coordinates on a hypersphere through a stereographic projection from Euclidean momentum space. The rectangular coordinates on the hypersphere are&lt;/p&gt;
-
-\[\begin{aligned}
-\xi &amp;amp;= \frac{2 p_{0} p_{x}}{p_{0}^{2} + p^{2}}
-   = \sin\alpha\,\sin\vartheta\,\cos\varphi, \\
-\eta &amp;amp;= \frac{2 p_{0} p_{y}}{p_{0}^{2} + p^{2}}
-   = \sin\alpha\,\sin\vartheta\,\sin\varphi, \\
-\zeta &amp;amp;= \frac{2 p_{0} p_{z}}{p_{0}^{2} + p^{2}}
-   = \sin\alpha\,\cos\vartheta, \\
-\chi &amp;amp;= \frac{p_{0}^{2} - p^{2}}{p_{0}^{2} + p^{2}}
-   = \cos\alpha .
-\end{aligned} \tag{8}\]
-
-&lt;p&gt;The angles $\alpha$, $\vartheta$, and $\varphi$ are the angular coordinates on the hypersphere; the angles $\vartheta$ and $\varphi$ coincide with the usual spherical coordinates in momentum space. The surface element on the unit hypersphere is&lt;/p&gt;
-
-\[\mathrm{d}\Omega
-= \sin^{2}\alpha\;\mathrm{d}\alpha\;
-  \sin\vartheta\;\mathrm{d}\vartheta\;\mathrm{d}\varphi,\]
-
-&lt;p&gt;and is related to the momentum-space volume element by&lt;/p&gt;
-
-\[(\mathrm{d}\mathbf{p})
-= \mathrm{d}p_x\,\mathrm{d}p_y\,\mathrm{d}p_z
-= p^{2}\,\mathrm{d}p\,
-  \sin\vartheta\,\mathrm{d}\vartheta\,\mathrm{d}\varphi
-= \frac{1}{8 p_{0}^{3}}
-  (p_{0}^{2} + p^{2})^{3}\,
-  \mathrm{d}\Omega .\]
-
-&lt;p&gt;For convenience we introduce the parameter&lt;/p&gt;
-
-&lt;p&gt;\(\boldsymbol{\lambda}
-= \frac{Z m e^{2}}{h\, p_{0}}
-= \frac{Z m e^{2}}{h\,\sqrt{-2mE}} .\)
-(6)&lt;/p&gt;
-
-&lt;p&gt;We now introduce a new function&lt;/p&gt;
-
-\[\boldsymbol{\Psi}(\alpha,\vartheta,\varphi)
-= \frac{\pi}{\sqrt{8}}\; p_{0}^{-5/2}
-\left(p_{0}^{2} + p^{2}\right)^{1/2}
-\boldsymbol{\psi}(\mathbf{p}),\]
-
-&lt;p&gt;(7)&lt;/p&gt;
-
-&lt;p&gt;so that the Schrödinger equation (1) takes the form&lt;/p&gt;
-
-\[\boldsymbol{\Psi}(\alpha,\vartheta,\varphi)
-= \frac{\boldsymbol{\lambda}}{2\pi^{2}}
-\int
-\frac{
-\boldsymbol{\Psi}(\alpha&apos;,\vartheta&apos;,\varphi&apos;)\,
-\mathrm{d}\Omega&apos;
-}{
-4 \sin^{2}\!\left(\frac{\omega}{2}\right)
-}.
-\tag{8}\]
-
-&lt;p&gt;Here $4\sin^{2}(\omega/2)$ in the integrand represents the square of the&lt;br /&gt;
-four-dimensional distance between the two points&lt;br /&gt;
-$(\alpha,\vartheta,\varphi)$ and $(\alpha’,\vartheta’,\varphi’)$ on the hypersphere:&lt;/p&gt;
-
-\[4 \sin^{2}\frac{\omega}{2}
-= (\xi-\xi&apos;)^{2}
-+ (\eta-\eta&apos;)^{2}
-+ (\zeta-\zeta&apos;)^{2}
-+ (\chi-\chi&apos;)^{2}.
-\tag{9}\]
-
-&lt;p&gt;The quantity $\omega$ is therefore the central angle, i.e., the length of the
-arc of the great circle connecting these points. We have&lt;/p&gt;
-
-\[\cos\omega
-= \cos\alpha\,\cos\alpha&apos;
-+ \sin\alpha\,\sin\alpha&apos;\,\cos\gamma,\]
-
-&lt;p&gt;where $\cos\gamma$ has its usual meaning:&lt;/p&gt;
-
-\[\cos\gamma
-= \cos\vartheta\,\cos\vartheta&apos;
-+ \sin\vartheta\,\sin\vartheta&apos;\,
-  \cos(\varphi-\varphi&apos;).\]
-
-&lt;p&gt;The constant factor in (7) is chosen so that the normalization condition
-for $\Psi$ becomes&lt;/p&gt;
-
-\[\frac{1}{2\pi^{3}}
-\int |\boldsymbol{\Psi}(\alpha,\vartheta,\varphi)|^{2}\,
-\mathrm{d}\Omega
-=
-\int
-\frac{p_{0}^{2} + p^{2}}{2 p_{0}^{3}}
-|\psi(\mathbf{p})|^{2}\,
-(\mathrm{d}\mathbf{p})
-=
-\int |\psi(\mathbf{p})|^{2}\,(\mathrm{d}\mathbf{p})
-= 1 .
-\tag{7}\]
-
-&lt;p&gt;Since the surface area of the four-dimensional unit sphere is
-$2\pi^{2}$, this normalization condition is, in particular, satisfied by the
-constant function $\Psi = 1$.
-We now want to show that equation (8) is precisely the integral equation for the spherical functions of a four-dimensional sphere.&lt;/p&gt;
-
-&lt;p&gt;We define the coordinates&lt;/p&gt;
-
-&lt;p&gt;We define&lt;/p&gt;
-
-\[x_1 = r \, \xi, \quad
-x_2 = r \, \eta, \quad
-x_3 = r \, \zeta, \quad
-x_4 = r \, \chi,\]
-
-&lt;p&gt;and consider the Laplace equation in four-dimensional Cartesian coordinates:&lt;/p&gt;
-
-\[\frac{\partial^2 u}{\partial x_1^2}
-+ \frac{\partial^2 u}{\partial x_2^2}
-+ \frac{\partial^2 u}{\partial x_3^2}
-+ \frac{\partial^2 u}{\partial x_4^2}
-= 0.\]
-
-&lt;p&gt;The function
-\(G = \frac{1}{2R^{2}} + \frac{1}{2R_{1}^{2}}\)
-with
-\(R^{2}
-= r^{2} - 2 r r&apos; \cos\omega + r&apos;^{2},
-\qquad
-R_{1}^{2}
-= 1 - 2 r r&apos; \cos\omega + r^{2} r&apos;^{2}\)
-can be regarded as a Green’s function of this form; on the sphere it satisfies the boundary condition
-\(\frac{\partial G}{\partial r&apos;} + G = 0
-\qquad (r&apos; = 1).\)&lt;/p&gt;
-
-&lt;p&gt;A harmonic function&lt;br /&gt;
-$u(x_{1},x_{2},x_{3},x_{4})$&lt;br /&gt;
-inside the unit sphere can, by Green’s theorem, be written in terms of the boundary values of $\partial u / \partial r + u$ as&lt;/p&gt;
-
-\[u(x_{1},x_{2},x_{3},x_{4})
-= \frac{1}{2\pi^{2}}
-\int
-\left(
-\frac{\partial u}{\partial r&apos;}
-+ u
-\right)(\Omega&apos;)\,
-\mathrm{d}\Omega&apos; .\]
-
-&lt;p&gt;For a harmonic polynomial of degree $n-1$,&lt;/p&gt;
-
-\[u = r^{\,n-1}\, \Psi_{n}(\alpha,\vartheta,\varphi)
-\qquad (n = 1,2,\ldots),\]
-
-&lt;p&gt;we have&lt;/p&gt;
-
-\[\left(
-\frac{\partial u}{\partial r} + u
-\right)_{r=1}
-= n\,u
-= n\,\Psi_{n}(\alpha,\vartheta,\varphi).\]
-
-&lt;p&gt;Substituting these expressions into equation (16) and using (18) together with (14) for $r’ = 1$, we obtain
-\(r^{n}\,\Psi_{n}(\alpha,\vartheta,\varphi)
-= \frac{n}{2\pi^{2}}
-\int
-\frac{
-\Psi_{n}(\alpha&apos;,\vartheta&apos;,\varphi&apos;)
-}{
-1 - 2 r \cos\omega + r^{2}
-}
-\,\mathrm{d}\Omega&apos; .\)
-This equation also remains valid for $r = 1$, and in that case it coincides with the Schrödinger equation (8), where the parameter $\lambda$ becomes the integer $n$; that is,
-\(\lambda
-= \frac{Z m e^{2}}{h \sqrt{-2 m E}}
-= n ,\)
-which clearly has the meaning of a quantum number.&lt;/p&gt;
-
-&lt;p&gt;Thus we have shown that the Schrödinger equation (1) or (8) is solved by four-dimensional spherical functions. At the same time, the transformation group of the Schrödinger equation is identified: this group is evidently the four-dimensional rotation group.&lt;/p&gt;
-
-&lt;p&gt;For the four-dimensional spherical functions we choose the following explicit representation. We set
-\(\Psi_{n l m}(\alpha,\vartheta,\varphi)
-= \Pi_{n l}(\alpha)\, Y_{l m}(\vartheta,\varphi),\)
-where $l$ and $m$ are the azimuthal and magnetic quantum numbers, respectively, and where $Y_{lm}(\vartheta,\varphi)$ satisfy the normalization condition
-\(\frac{1}{4\pi}
-\int_{0}^{\pi}
-\int_{0}^{2\pi}
-|Y_{lm}(\vartheta,\varphi)|^{2}\,
-\sin\vartheta\,\mathrm{d}\vartheta\,\mathrm{d}\varphi
-= 1 .\)&lt;/p&gt;
-
-&lt;p&gt;Furthermore,
-\(M_{l} = \sqrt{n^{2}(n^{2}-1)\cdots (n^{2}-l^{2})},\)
-and therefore we require
-\(\frac{2}{\pi}
-\int_{0}^{\pi}
-\Pi_{l}^{2}(n,\alpha)\,
-\sin^{2}\alpha\,\mathrm{d}\alpha
-= 1 .\)&lt;/p&gt;
-
-&lt;p&gt;The normalized function $\Pi_{l}(n,\alpha)$ can be defined using either of the two equivalent expressions
-\(\Pi_{l}(n,\alpha)
-=
-\frac{M_{l}}{\sin^{l+1}\alpha}
-\int_{0}^{\alpha}
-\cos(n\beta)\,
-\frac{(\cos\beta - \cos\alpha)^{l}}{l!}\,
-\mathrm{d}\beta ,\)
-or
-\(\Pi_{l}(n,\alpha)
-=
-\frac{\sin^{l}\alpha}{M_{l}}\,
-\frac{\mathrm{d}^{\,l+1}(\cos n\alpha)}
-{\mathrm{d}(\cos\alpha)^{\,l+1}} .\)&lt;/p&gt;
-
-&lt;p&gt;For $l = 0$ one obtains
-\(\Pi_{0}(n,\alpha)
-= \frac{\sin(n\alpha)}{\sin\alpha}.\)&lt;/p&gt;
-
-&lt;p&gt;For complex values of $n$, the functions $\Pi_{l}$ and the relations corresponding to $(25^{*})$ remain valid. In particular, we have the recurrence relations&lt;/p&gt;
-
-\[-\,\frac{\mathrm{d}\Pi_{l}}{\mathrm{d}\alpha}
-+ l\,\cot\alpha\,\Pi_{l}
-=
-\sqrt{n^{2}-(l+1)^{2}}\,\Pi_{l+1},\]
-
-\[\frac{\mathrm{d}\Pi_{l}}{\mathrm{d}\alpha}
-+ (l+1)\,\cot\alpha\,\Pi_{l}
-=
-\sqrt{n^{2}-l^{2}}\,\Pi_{l-1},\]
-
-&lt;p&gt;which together lead to the differential equation&lt;/p&gt;
-
-\[\frac{\mathrm{d}^{2}\Pi_{l}}{\mathrm{d}\alpha^{2}}
-+
-2\cot\alpha\,
-\frac{\mathrm{d}\Pi_{l}}{\mathrm{d}\alpha}
--
-\frac{l(l+1)}{\sin^{2}\alpha}\,
-\Pi_{l}
-+
-(n^{2}-1)\,\Pi_{l}
-= 0 .\]
-
-&lt;p&gt;We now proceed to the derivation of the addition theorem for four-dimensional spherical functions. Equation (19) is an identity with respect to $r$. If one expands the integrand in powers of $r$,&lt;/p&gt;
-
-\[\frac{1}{1-2 r \cos \omega + r^{2}}
-=
-\sum_{k=1}^{\infty}
-r^{k-1}\,
-\frac{\sin (k \omega)}{\sin \omega},\]
-
-&lt;p&gt;and compares the coefficients, one obtains&lt;/p&gt;
-
-\[\frac{n}{2 \pi^{2}}
-\int
-\Psi_{n}(\boldsymbol{\alpha}&apos;, \vartheta&apos;, \varphi&apos;)\,
-\frac{\sin(k \omega)}{\sin \omega}\,
-\mathrm{d}\Omega&apos;
-=
-\delta_{k n}\,
-\Psi_{n}(\boldsymbol{\alpha}, \vartheta, \varphi).\]
-
-&lt;p&gt;Now, $n \, \frac{\sin n \omega}{\sin \omega}$, as a function of $\alpha’, \vartheta’, \varphi’$, is itself a four-dimensional spherical function, which can be expanded in terms of $\Psi_{n l m}(\boldsymbol{\alpha}’, \vartheta’, \varphi’)$. The coefficients of this expansion can be obtained from the above relation (for $k=n$). In this way, one obtains the addition theorem:
-\(n \cdot \frac{\sin n \omega}{\sin \omega}
-=
-\sum_{l=0}^{n-1} \sum_{m=-l}^{+l}
-\overline{\Psi}_{n l m}(\boldsymbol{x}, \vartheta, \varphi)\,
-\Psi_{n l m}(\boldsymbol{x}&apos;, \vartheta&apos;, \varphi&apos;).\)&lt;/p&gt;
-
-&lt;p&gt;Using the spherical functions $\Psi_n$ in this form, one can write the expansion
-\(n \frac{\sin n \omega}{\sin \omega}
-=
-\sum_{l=0}^{\infty}
-\Pi_l(n,\alpha)\,
-\Pi_l(n,\alpha&apos;)\,
-(2l+1)\,
-P_l(\cos \gamma),\)
-where $P_l$ denotes the Legendre polynomial and $\cos\gamma$ has the usual meaning.&lt;br /&gt;
-We have written the upper summation limit as $l=\infty$ to indicate that formula (32) remains valid for complex values of $n$ and $\alpha$.&lt;br /&gt;
-If $n$ is an integer, the series terminates at $l = n-1$.&lt;/p&gt;
-
-&lt;p&gt;We have given the geometric interpretation of the integral equation (1) for the case of the point spectrum. In the case of the continuous spectrum $(E&amp;gt;0)$, the Schrödinger equation can be written as a system of two integral equations connecting the values of the desired function on the two sheets of the hyperboloid.&lt;/p&gt;
-
-&lt;p&gt;One may also describe the situation without reference to a fourth dimension.&lt;br /&gt;
-For the point spectrum, the geometry in momentum space is that of a Riemannian sphere with constant positive curvature, whereas for the continuous spectrum the geometry is that of Lobachevskian space with constant negative curvature.&lt;/p&gt;
-
-&lt;p&gt;The geometric interpretation of the integral equation is less intuitive for the continuous spectrum than for the point spectrum.&lt;br /&gt;
-For practical applications, it is therefore advantageous to first derive the formulas for the point spectrum and only in the final result treat the principal quantum number $n$ as purely imaginary.&lt;br /&gt;
-This is possible because the functions $\Pi_l(n,\alpha)$ are analytic in $n$ and $\alpha$, and for purely imaginary values of $n$ and $\alpha$ differ only by a constant factor from the corresponding functions of the continuous spectrum.&lt;/p&gt;
-
-&lt;p&gt;We now indicate briefly some problems that can be treated advantageously by means of the above “geometric’’ theory of hydrogen-like atoms.&lt;br /&gt;
-In some applications, for example in the theory of the Compton effect on bound electrons or in the theory of inelastic collisions with atoms, one needs the norm of the projection of a given function $\varphi$ onto the subspace of the Hilbert space defined by the principal quantum number $n$.&lt;br /&gt;
-This norm is defined by the sum
-\(N
-=
-\int |P_n \varphi|^{2} \, \mathrm{d}\tau
-=
-\sum_{l m}
-\left|
-\int
-\overline{\psi}_{n l m}\,
-\varphi \,\mathrm{d}\tau
-\right|^{2}.\)
-Here, the summation over $l$ is often very difficult, especially when it involves an infinite series (continuous spectrum).&lt;br /&gt;
-The introduction of parabolic quantum numbers allows the sum to be evaluated in some cases, but the calculations remain cumbersome.&lt;/p&gt;
-
-&lt;p&gt;If one uses the transformation group of the Schrödinger equation together with the addition theorem (31) for the eigenfunctions, the summation can be performed more easily; the entire sum (33) is often simpler to compute than a single term.&lt;/p&gt;
-
-&lt;p&gt;Analogous simplifications occur in the calculation of the norm of the projection of an operator $L$ onto the $n$-th subspace, i.e., in evaluating the double sum
-\(N(L)
-=
-\sum_{l m} \sum_{l&apos; m&apos;}
-\left|
-\int
-\overline{\psi}_{n l m}\,
-L\,\psi_{n l&apos; m&apos;}\,
-\mathrm{d}\tau
-\right|^{2}.\)&lt;/p&gt;
-
-&lt;p&gt;Expressions of the form (34) appear, for example, in the calculation of atomic form factors, where the operator $L$ in momentum space takes the form
-\(L = e^{-\,\mathbf{f}\cdot \frac{\partial}{\partial \mathbf{p}}}; 
-\qquad
-L \psi(\mathbf{p}) = \psi(\mathbf{p}-\mathbf{f}).\)&lt;/p&gt;
-
-&lt;p&gt;These expressions are invariant under a change of orthogonal system $\psi_{n l m}$.&lt;br /&gt;
-A four-dimensional rotation of the coordinates produces a new orthogonal system, leaving the sums (33) and (34) unchanged.&lt;br /&gt;
-Such a rotation can be chosen to simplify the integrals in (33) and (34), or even make them vanish.&lt;br /&gt;
-Thus, the operator $L$ defined by (35), which shifts the origin in momentum space, can essentially be reduced to the operation $p \to \lambda p$.&lt;br /&gt;
-This gives $\psi(\lambda p)$ and leads to a simpler sum, as the angular dependence $(\vartheta, \varphi)$ remains as in the usual spherical functions.&lt;/p&gt;
-
-&lt;p&gt;The projection $P_n \varphi$ of a function $\varphi$ onto the subspace corresponding to principal quantum number $n$ is
-\(P_n \varphi
-=
-\sum_{l m}
-\psi_{n l m}
-\left[
-\int \overline{\psi}_{n l m}\,
-\varphi\,\mathrm{d}\tau
-\right].\)&lt;/p&gt;
-
-&lt;p&gt;The projection operator $P_n$ has the kernel
-\(\varrho_n(\mathbf{p}&apos;,\mathbf{p})
-=
-\sum_{l m}
-\overline{\psi}_{n l m}(\mathbf{p}&apos;) \psi_{n l m}(\mathbf{p}).\)&lt;/p&gt;
-
-&lt;p&gt;The functions $\psi_{n l m}$ can be expressed through four-dimensional spherical functions.&lt;br /&gt;
-Since the “mean square momentum’’ $p_0$ depends on the principal quantum number $n$, we now denote it by $p_n$.&lt;br /&gt;
-Instead of (7), we then have
-\(\Psi_{n l m}(\boldsymbol{\alpha},\vartheta,\varphi)
-=
-\frac{\pi}{\sqrt{8}}\,
-p_n^{-5/2}\,
-(p_n^{2}+p^{2})^{2}\,
-\psi_{n l m}(\mathbf{p}).\)&lt;/p&gt;
-
-&lt;p&gt;Inserting (38) into (37) and using the addition theorem (31), one obtains
-\(\varrho_n(\mathbf{p}&apos;,\mathbf{p})
-=
-\frac{8 p_n^{5}}
-{\pi^{2}(p_n^{2}+p^{2})^{2}(p_n^{2}+p&apos;^{2})^{2}}
-\cdot
-n \frac{\sin n\omega}{\sin \omega},\)
-and for $\mathbf{p}’ = \mathbf{p}$
-\(\varrho_n(\mathbf{p},\mathbf{p})
-=
-\frac{8 p_n^{5} n^{2}}
-{\pi^{2}(p_n^{2}+p^{2})^{4}}.\)&lt;/p&gt;
-
-&lt;p&gt;The integral
-\(4\pi \int_{0}^{\infty} \varrho_n(\mathbf{p},\mathbf{p})\,p^{2}\,\mathrm{d}p
-=
-n^{2}\)
-equals the dimension of the subspace corresponding to the principal quantum number $n$.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;The success of the Bohr model for the periodic system of elements, as well as the applicability of the Ritz formula for energy levels, shows that it is a reasonable approximation to treat the electrons in an atom as moving in a Coulomb field.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;It is therefore natural to consider the following atomic model. All electrons with the principal quantum number $n$ belong to the $n$-th shell. The electrons of the $n$-th large shell are described by hydrogen-like wave functions with an effective nuclear charge $Z_{n}$. One can introduce the mean square momentum $p_{n}$ corresponding to $Z_{n}$ through the relation&lt;/p&gt;
-
-\[Z_{n} = n \, p_{n} \, \frac{a}{h} \, ( a \,\text{hydrogen radius} ),\]
-
-&lt;p&gt;which defines their relationship.&lt;/p&gt;
-
-&lt;p&gt;Under these assumptions, one can calculate the energy of an atom as a function of the nuclear charge $Z$ and the parameters $p_{n}$, and the values of $p_{n}$ can be determined from the condition of minimum energy. It should be noted that under these assumptions, the wave functions of electrons within a large shell are mutually orthogonal, but they are not orthogonal to the functions of a different shell. It is therefore consistent to neglect the exchange energy between electrons of different shells and to consider only the exchange energy within each shell.&lt;/p&gt;
-
-&lt;p&gt;This approach yields very satisfactory results. For $\mathrm{Na}^{+} (Z=11)$ one obtains (in atomic units):&lt;/p&gt;
-
-\[p_{\bf 1} = 10.63 \, ; \quad p_{\bf 2} = 3.45 \quad (Z=11)\]
-
-&lt;p&gt;and for $\mathrm{Al^{3+}} (Z=13)$&lt;/p&gt;
-
-\[p_{\bf 1} = 12.62 \, ; \quad p_{\bf 2} = 4.45 \quad (Z=13).\]
-
-&lt;p&gt;A simple analytical expression can be derived for $p_{\bf 2}$. Using the above value of $p_{\bf 1}$, this expression differs only slightly from that calculated by Hartree using the more complex numerical method (“self-consistent field”), and may even be somewhat more accurate, since for the sodium atom it lies between the self-consistent field results with and without exchange.&lt;/p&gt;
-
-&lt;p&gt;For atoms with three large shells, namely $\mathrm{Cu^{+}} (Z=29)$ and $\mathrm{Zn^{2+}} (Z=30)$, analogous calculations give:&lt;/p&gt;
-
-\[p_{\bf 1} = 28.59 \, ; \quad p_{\bf 2} = 10.64 \, ; \quad p_{\bf 3} = 5.47 \quad (Z=29)\]
-
-\[p_{\bf 1} = 29.59 \, ; \quad p_{\bf 2} = 11.09 \, ; \quad p_{\bf 3} = 5.84 \quad (Z=30)\]
-
-&lt;p&gt;The deviation of the shielding potential from Hartree’s calculation is somewhat larger for Cu (three shells) than for $\mathrm{Na^{+}}$ and $\mathrm{Al^{3+}}$ (two shells), exceeding about 10% of the total value.&lt;/p&gt;
-
-&lt;p&gt;The accuracy of this atomic model thus appears to meet fairly high standards for atoms that are not too heavy.&lt;/p&gt;
-
-&lt;p&gt;Insofar as our atomic model applies, the density matrix of an atom in momentum space can be obtained as the sum of the expressions for the large shells present in the atom. The knowledge of the density matrix allows — as emphasized by Dirac — the calculation of all atomic properties, particularly atomic form factors.&lt;/p&gt;
-
-&lt;p&gt;As an example, the atomic form factor $F_n$ for the $n$-th large shell is&lt;/p&gt;
-
-\[F_n = \int e^{i \mathbf{f} \cdot \mathbf{r}} \varrho_n(\mathbf{r},\mathbf{r}) \, \mathrm{d}\tau
-= \int \varrho_n(\mathbf{p},\mathbf{p}-\mathbf{f}) \, \mathrm{d}\mathbf{p}.\]
-
-&lt;p&gt;Substituting for $\varrho_n(\mathbf{p},\mathbf{p}-\mathbf{f})$ the expression from (9), the integral can be evaluated in closed form. With the abbreviation&lt;/p&gt;
-
-\[x = \frac{4 p_n^2 - k^2}{4 p_n^2 + k^2},\]
-
-&lt;p&gt;one obtains&lt;/p&gt;
-
-\[F_n = F_n(x) = \frac{1}{4 n^2} T_n&apos;(x) (1+x)^2 \left\{ P_n&apos;(x) + P_{n-1}&apos;(x) \right\},\]
-
-&lt;p&gt;where $T_n’(x)$ denotes the derivative of the Chebyshev polynomial&lt;/p&gt;
-
-\[T_n(x) = \cos(n \arccos x),\]
-
-&lt;p&gt;and $P_n’(x)$ denotes the derivative of the Legendre polynomial $P_n(x)$. For $k=0$, $x=1$ and $F_n(1) = n^2$.&lt;/p&gt;
-
-&lt;p&gt;The sum of these expressions for the large shells present in the atom is proportional to the charge density in momentum space. This can be compared with the charge density calculated from the Fermi statistical atom model, which is less accurate. For $\mathrm{Ne} (Z=10)$ and $\mathrm{Na^{+}} (Z=11)$, good agreement is found for large $p$, while for small $p$ (about $p&amp;lt;2$ atomic units) the Fermi model overestimates the charge density.&lt;/p&gt;
-
-&lt;p&gt;Finally, it should be noted that our method, which uses these simplifications, can probably also be applied to atoms with unfilled shells.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">Theory of the Hydrogen Atom</summary></entry><entry><title type="html">Fock</title><link href="http://localhost:4000/SKMU/fock/" rel="alternate" type="text/html" title="Fock" /><published>2025-12-03T10:00:00+05:30</published><updated>2025-12-03T10:00:00+05:30</updated><id>http://localhost:4000/SKMU/Fock</id><content type="html" xml:base="http://localhost:4000/SKMU/fock/">&lt;p&gt;On the Theory of the Hydrogen Atom&lt;br /&gt;
+(Final answer depends on detailed rule → taught above.)&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Number &amp;amp; Letter Series</summary></entry><entry><title type="html">Fock</title><link href="http://localhost:4000/SKMU/fock/" rel="alternate" type="text/html" title="Fock" /><published>2025-12-03T10:00:00+05:30</published><updated>2025-12-03T10:00:00+05:30</updated><id>http://localhost:4000/SKMU/Fock</id><content type="html" xml:base="http://localhost:4000/SKMU/fock/">&lt;p&gt;On the Theory of the Hydrogen Atom&lt;br /&gt;
 by V. Fock, Leningrad&lt;br /&gt;
 (Received August 5, 1935)&lt;/p&gt;
 
@@ -1522,7 +1098,505 @@ This quantity can be compared with the charge density obtained from &lt;strong&g
 
 &lt;hr /&gt;
 
-&lt;p&gt;¹ P. A. M. Dirac, &lt;em&gt;Proc. Roy. Soc.&lt;/em&gt; A &lt;strong&gt;133&lt;/strong&gt;, 60 (1931).&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">On the Theory of the Hydrogen Atom by V. Fock, Leningrad (Received August 5, 1935)</summary></entry><entry><title type="html">JET: English-Lecture-I</title><link href="http://localhost:4000/SKMU/english/2025/11/28/JET-Paper-1-L1.html" rel="alternate" type="text/html" title="JET: English-Lecture-I " /><published>2025-11-28T10:30:00+05:30</published><updated>2025-11-28T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/english/2025/11/28/JET-Paper-1-L1</id><content type="html" xml:base="http://localhost:4000/SKMU/english/2025/11/28/JET-Paper-1-L1.html">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Number System&lt;/b&gt;&lt;/h1&gt;
+&lt;p&gt;¹ P. A. M. Dirac, &lt;em&gt;Proc. Roy. Soc.&lt;/em&gt; A &lt;strong&gt;133&lt;/strong&gt;, 60 (1931).&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">On the Theory of the Hydrogen Atom by V. Fock, Leningrad (Received August 5, 1935)</summary></entry><entry><title type="html">Fock-German</title><link href="http://localhost:4000/SKMU/fock-german/" rel="alternate" type="text/html" title="Fock-German" /><published>2025-12-03T10:00:00+05:30</published><updated>2025-12-03T10:00:00+05:30</updated><id>http://localhost:4000/SKMU/Fock-German</id><content type="html" xml:base="http://localhost:4000/SKMU/fock-german/">&lt;h1 id=&quot;theory-of-the-hydrogen-atom&quot;&gt;Theory of the Hydrogen Atom&lt;/h1&gt;
+
+&lt;p&gt;By V. Fock, Leningrad&lt;br /&gt;
+Received August 1935&lt;/p&gt;
+
+&lt;p&gt;The Schrödinger equation for the hydrogen atom in momentum space turns out to be identical to the integral equation for the spherical functions of three-dimensional potential theory. Consequently, the transformation group of the hydrogen equation is the four-dimensional rotation group, and the degeneracy of the hydrogen energy levels with respect to the azimuthal quantum number is thereby explained. The potential-theoretical interpretation of the Schrödinger equation allows one to derive numerous relations (addition theorems, etc.) that lead to a wide range of physical applications. The method also makes it possible to evaluate, almost without explicit computation, the infinite sums that appear in the theory of the Compton effect on bound electrons and in related problems. Using a simplified atomic model, one can further obtain explicit expressions for the density matrix in momentum space, atomic form factors, screening potentials, and similar quantities.&lt;/p&gt;
+
+&lt;p&gt;It has long been known that the energy levels of the hydrogen atom are degenerate with respect to the azimuthal quantum number $l$; this is sometimes referred to as an “accidental” degeneracy. However, every degeneracy of eigenvalues is associated with the transformation group of the corresponding equation—for example, the degeneracy with respect to the magnetic quantum number $m$ is associated with the ordinary rotation group. The group corresponding to the “accidental” degeneracy of the hydrogen spectrum, however, had not been identified until now.&lt;/p&gt;
+
+&lt;p&gt;In this work we show that this group is equivalent to the four-dimensional rotation group.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-schrödinger-equation-of-a-hydrogen-like-atom-in-momentum-space&quot;&gt;The Schrödinger Equation of a Hydrogen-like Atom in Momentum Space&lt;/h3&gt;
+
+\[\frac{1}{2m} p^{2} \psi(\mathbf{p})
+- \frac{Z e^{2}}{2\pi^{2}\hbar}
+\int
+\frac{\psi(\mathbf{p}&apos;)\,(\mathrm{d}\mathbf{p}&apos;)}
+{|\mathbf{p}-\mathbf{p}&apos;|^{2}}
+= E\,\psi(\mathbf{p}),\]
+
+&lt;p&gt;where $(\mathrm{d}\mathbf{p}’) = \mathrm{d}p_x’\,\mathrm{d}p_y’\,\mathrm{d}p_z’$ denotes the volume element in momentum space.&lt;br /&gt;
+We denote the discrete spectrum by $E$ and introduce the mean quadratic momentum&lt;/p&gt;
+
+\[p_{0} = \sqrt{-2mE}. \tag{2}\]
+
+&lt;p&gt;We now use the components of the momentum vector $\mathbf{p}$, divided by $p_{0}$, as coordinates on a hypersphere through a stereographic projection from Euclidean momentum space. The rectangular coordinates on the hypersphere are&lt;/p&gt;
+
+\[\begin{aligned}
+\xi &amp;amp;= \frac{2 p_{0} p_{x}}{p_{0}^{2} + p^{2}}
+   = \sin\alpha\,\sin\vartheta\,\cos\varphi, \\
+\eta &amp;amp;= \frac{2 p_{0} p_{y}}{p_{0}^{2} + p^{2}}
+   = \sin\alpha\,\sin\vartheta\,\sin\varphi, \\
+\zeta &amp;amp;= \frac{2 p_{0} p_{z}}{p_{0}^{2} + p^{2}}
+   = \sin\alpha\,\cos\vartheta, \\
+\chi &amp;amp;= \frac{p_{0}^{2} - p^{2}}{p_{0}^{2} + p^{2}}
+   = \cos\alpha .
+\end{aligned} \tag{8}\]
+
+&lt;p&gt;The angles $\alpha$, $\vartheta$, and $\varphi$ are the angular coordinates on the hypersphere; the angles $\vartheta$ and $\varphi$ coincide with the usual spherical coordinates in momentum space. The surface element on the unit hypersphere is&lt;/p&gt;
+
+\[\mathrm{d}\Omega
+= \sin^{2}\alpha\;\mathrm{d}\alpha\;
+  \sin\vartheta\;\mathrm{d}\vartheta\;\mathrm{d}\varphi,\]
+
+&lt;p&gt;and is related to the momentum-space volume element by&lt;/p&gt;
+
+\[(\mathrm{d}\mathbf{p})
+= \mathrm{d}p_x\,\mathrm{d}p_y\,\mathrm{d}p_z
+= p^{2}\,\mathrm{d}p\,
+  \sin\vartheta\,\mathrm{d}\vartheta\,\mathrm{d}\varphi
+= \frac{1}{8 p_{0}^{3}}
+  (p_{0}^{2} + p^{2})^{3}\,
+  \mathrm{d}\Omega .\]
+
+&lt;p&gt;For convenience we introduce the parameter&lt;/p&gt;
+
+&lt;p&gt;\(\boldsymbol{\lambda}
+= \frac{Z m e^{2}}{h\, p_{0}}
+= \frac{Z m e^{2}}{h\,\sqrt{-2mE}} .\)
+(6)&lt;/p&gt;
+
+&lt;p&gt;We now introduce a new function&lt;/p&gt;
+
+\[\boldsymbol{\Psi}(\alpha,\vartheta,\varphi)
+= \frac{\pi}{\sqrt{8}}\; p_{0}^{-5/2}
+\left(p_{0}^{2} + p^{2}\right)^{1/2}
+\boldsymbol{\psi}(\mathbf{p}),\]
+
+&lt;p&gt;(7)&lt;/p&gt;
+
+&lt;p&gt;so that the Schrödinger equation (1) takes the form&lt;/p&gt;
+
+\[\boldsymbol{\Psi}(\alpha,\vartheta,\varphi)
+= \frac{\boldsymbol{\lambda}}{2\pi^{2}}
+\int
+\frac{
+\boldsymbol{\Psi}(\alpha&apos;,\vartheta&apos;,\varphi&apos;)\,
+\mathrm{d}\Omega&apos;
+}{
+4 \sin^{2}\!\left(\frac{\omega}{2}\right)
+}.
+\tag{8}\]
+
+&lt;p&gt;Here $4\sin^{2}(\omega/2)$ in the integrand represents the square of the&lt;br /&gt;
+four-dimensional distance between the two points&lt;br /&gt;
+$(\alpha,\vartheta,\varphi)$ and $(\alpha’,\vartheta’,\varphi’)$ on the hypersphere:&lt;/p&gt;
+
+\[4 \sin^{2}\frac{\omega}{2}
+= (\xi-\xi&apos;)^{2}
++ (\eta-\eta&apos;)^{2}
++ (\zeta-\zeta&apos;)^{2}
++ (\chi-\chi&apos;)^{2}.
+\tag{9}\]
+
+&lt;p&gt;The quantity $\omega$ is therefore the central angle, i.e., the length of the
+arc of the great circle connecting these points. We have&lt;/p&gt;
+
+\[\cos\omega
+= \cos\alpha\,\cos\alpha&apos;
++ \sin\alpha\,\sin\alpha&apos;\,\cos\gamma,\]
+
+&lt;p&gt;where $\cos\gamma$ has its usual meaning:&lt;/p&gt;
+
+\[\cos\gamma
+= \cos\vartheta\,\cos\vartheta&apos;
++ \sin\vartheta\,\sin\vartheta&apos;\,
+  \cos(\varphi-\varphi&apos;).\]
+
+&lt;p&gt;The constant factor in (7) is chosen so that the normalization condition
+for $\Psi$ becomes&lt;/p&gt;
+
+\[\frac{1}{2\pi^{3}}
+\int |\boldsymbol{\Psi}(\alpha,\vartheta,\varphi)|^{2}\,
+\mathrm{d}\Omega
+=
+\int
+\frac{p_{0}^{2} + p^{2}}{2 p_{0}^{3}}
+|\psi(\mathbf{p})|^{2}\,
+(\mathrm{d}\mathbf{p})
+=
+\int |\psi(\mathbf{p})|^{2}\,(\mathrm{d}\mathbf{p})
+= 1 .
+\tag{7}\]
+
+&lt;p&gt;Since the surface area of the four-dimensional unit sphere is
+$2\pi^{2}$, this normalization condition is, in particular, satisfied by the
+constant function $\Psi = 1$.
+We now want to show that equation (8) is precisely the integral equation for the spherical functions of a four-dimensional sphere.&lt;/p&gt;
+
+&lt;p&gt;We define the coordinates&lt;/p&gt;
+
+&lt;p&gt;We define&lt;/p&gt;
+
+\[x_1 = r \, \xi, \quad
+x_2 = r \, \eta, \quad
+x_3 = r \, \zeta, \quad
+x_4 = r \, \chi,\]
+
+&lt;p&gt;and consider the Laplace equation in four-dimensional Cartesian coordinates:&lt;/p&gt;
+
+\[\frac{\partial^2 u}{\partial x_1^2}
++ \frac{\partial^2 u}{\partial x_2^2}
++ \frac{\partial^2 u}{\partial x_3^2}
++ \frac{\partial^2 u}{\partial x_4^2}
+= 0.\]
+
+&lt;p&gt;The function
+\(G = \frac{1}{2R^{2}} + \frac{1}{2R_{1}^{2}}\)
+with
+\(R^{2}
+= r^{2} - 2 r r&apos; \cos\omega + r&apos;^{2},
+\qquad
+R_{1}^{2}
+= 1 - 2 r r&apos; \cos\omega + r^{2} r&apos;^{2}\)
+can be regarded as a Green’s function of this form; on the sphere it satisfies the boundary condition
+\(\frac{\partial G}{\partial r&apos;} + G = 0
+\qquad (r&apos; = 1).\)&lt;/p&gt;
+
+&lt;p&gt;A harmonic function&lt;br /&gt;
+$u(x_{1},x_{2},x_{3},x_{4})$&lt;br /&gt;
+inside the unit sphere can, by Green’s theorem, be written in terms of the boundary values of $\partial u / \partial r + u$ as&lt;/p&gt;
+
+\[u(x_{1},x_{2},x_{3},x_{4})
+= \frac{1}{2\pi^{2}}
+\int
+\left(
+\frac{\partial u}{\partial r&apos;}
++ u
+\right)(\Omega&apos;)\,
+\mathrm{d}\Omega&apos; .\]
+
+&lt;p&gt;For a harmonic polynomial of degree $n-1$,&lt;/p&gt;
+
+\[u = r^{\,n-1}\, \Psi_{n}(\alpha,\vartheta,\varphi)
+\qquad (n = 1,2,\ldots),\]
+
+&lt;p&gt;we have&lt;/p&gt;
+
+\[\left(
+\frac{\partial u}{\partial r} + u
+\right)_{r=1}
+= n\,u
+= n\,\Psi_{n}(\alpha,\vartheta,\varphi).\]
+
+&lt;p&gt;Substituting these expressions into equation (16) and using (18) together with (14) for $r’ = 1$, we obtain
+\(r^{n}\,\Psi_{n}(\alpha,\vartheta,\varphi)
+= \frac{n}{2\pi^{2}}
+\int
+\frac{
+\Psi_{n}(\alpha&apos;,\vartheta&apos;,\varphi&apos;)
+}{
+1 - 2 r \cos\omega + r^{2}
+}
+\,\mathrm{d}\Omega&apos; .\)
+This equation also remains valid for $r = 1$, and in that case it coincides with the Schrödinger equation (8), where the parameter $\lambda$ becomes the integer $n$; that is,
+\(\lambda
+= \frac{Z m e^{2}}{h \sqrt{-2 m E}}
+= n ,\)
+which clearly has the meaning of a quantum number.&lt;/p&gt;
+
+&lt;p&gt;Thus we have shown that the Schrödinger equation (1) or (8) is solved by four-dimensional spherical functions. At the same time, the transformation group of the Schrödinger equation is identified: this group is evidently the four-dimensional rotation group.&lt;/p&gt;
+
+&lt;p&gt;For the four-dimensional spherical functions we choose the following explicit representation. We set
+\(\Psi_{n l m}(\alpha,\vartheta,\varphi)
+= \Pi_{n l}(\alpha)\, Y_{l m}(\vartheta,\varphi),\)
+where $l$ and $m$ are the azimuthal and magnetic quantum numbers, respectively, and where $Y_{lm}(\vartheta,\varphi)$ satisfy the normalization condition
+\(\frac{1}{4\pi}
+\int_{0}^{\pi}
+\int_{0}^{2\pi}
+|Y_{lm}(\vartheta,\varphi)|^{2}\,
+\sin\vartheta\,\mathrm{d}\vartheta\,\mathrm{d}\varphi
+= 1 .\)&lt;/p&gt;
+
+&lt;p&gt;Furthermore,
+\(M_{l} = \sqrt{n^{2}(n^{2}-1)\cdots (n^{2}-l^{2})},\)
+and therefore we require
+\(\frac{2}{\pi}
+\int_{0}^{\pi}
+\Pi_{l}^{2}(n,\alpha)\,
+\sin^{2}\alpha\,\mathrm{d}\alpha
+= 1 .\)&lt;/p&gt;
+
+&lt;p&gt;The normalized function $\Pi_{l}(n,\alpha)$ can be defined using either of the two equivalent expressions
+\(\Pi_{l}(n,\alpha)
+=
+\frac{M_{l}}{\sin^{l+1}\alpha}
+\int_{0}^{\alpha}
+\cos(n\beta)\,
+\frac{(\cos\beta - \cos\alpha)^{l}}{l!}\,
+\mathrm{d}\beta ,\)
+or
+\(\Pi_{l}(n,\alpha)
+=
+\frac{\sin^{l}\alpha}{M_{l}}\,
+\frac{\mathrm{d}^{\,l+1}(\cos n\alpha)}
+{\mathrm{d}(\cos\alpha)^{\,l+1}} .\)&lt;/p&gt;
+
+&lt;p&gt;For $l = 0$ one obtains
+\(\Pi_{0}(n,\alpha)
+= \frac{\sin(n\alpha)}{\sin\alpha}.\)&lt;/p&gt;
+
+&lt;p&gt;For complex values of $n$, the functions $\Pi_{l}$ and the relations corresponding to $(25^{*})$ remain valid. In particular, we have the recurrence relations&lt;/p&gt;
+
+\[-\,\frac{\mathrm{d}\Pi_{l}}{\mathrm{d}\alpha}
++ l\,\cot\alpha\,\Pi_{l}
+=
+\sqrt{n^{2}-(l+1)^{2}}\,\Pi_{l+1},\]
+
+\[\frac{\mathrm{d}\Pi_{l}}{\mathrm{d}\alpha}
++ (l+1)\,\cot\alpha\,\Pi_{l}
+=
+\sqrt{n^{2}-l^{2}}\,\Pi_{l-1},\]
+
+&lt;p&gt;which together lead to the differential equation&lt;/p&gt;
+
+\[\frac{\mathrm{d}^{2}\Pi_{l}}{\mathrm{d}\alpha^{2}}
++
+2\cot\alpha\,
+\frac{\mathrm{d}\Pi_{l}}{\mathrm{d}\alpha}
+-
+\frac{l(l+1)}{\sin^{2}\alpha}\,
+\Pi_{l}
++
+(n^{2}-1)\,\Pi_{l}
+= 0 .\]
+
+&lt;p&gt;We now proceed to the derivation of the addition theorem for four-dimensional spherical functions. Equation (19) is an identity with respect to $r$. If one expands the integrand in powers of $r$,&lt;/p&gt;
+
+\[\frac{1}{1-2 r \cos \omega + r^{2}}
+=
+\sum_{k=1}^{\infty}
+r^{k-1}\,
+\frac{\sin (k \omega)}{\sin \omega},\]
+
+&lt;p&gt;and compares the coefficients, one obtains&lt;/p&gt;
+
+\[\frac{n}{2 \pi^{2}}
+\int
+\Psi_{n}(\boldsymbol{\alpha}&apos;, \vartheta&apos;, \varphi&apos;)\,
+\frac{\sin(k \omega)}{\sin \omega}\,
+\mathrm{d}\Omega&apos;
+=
+\delta_{k n}\,
+\Psi_{n}(\boldsymbol{\alpha}, \vartheta, \varphi).\]
+
+&lt;p&gt;Now, $n \, \frac{\sin n \omega}{\sin \omega}$, as a function of $\alpha’, \vartheta’, \varphi’$, is itself a four-dimensional spherical function, which can be expanded in terms of $\Psi_{n l m}(\boldsymbol{\alpha}’, \vartheta’, \varphi’)$. The coefficients of this expansion can be obtained from the above relation (for $k=n$). In this way, one obtains the addition theorem:
+\(n \cdot \frac{\sin n \omega}{\sin \omega}
+=
+\sum_{l=0}^{n-1} \sum_{m=-l}^{+l}
+\overline{\Psi}_{n l m}(\boldsymbol{x}, \vartheta, \varphi)\,
+\Psi_{n l m}(\boldsymbol{x}&apos;, \vartheta&apos;, \varphi&apos;).\)&lt;/p&gt;
+
+&lt;p&gt;Using the spherical functions $\Psi_n$ in this form, one can write the expansion
+\(n \frac{\sin n \omega}{\sin \omega}
+=
+\sum_{l=0}^{\infty}
+\Pi_l(n,\alpha)\,
+\Pi_l(n,\alpha&apos;)\,
+(2l+1)\,
+P_l(\cos \gamma),\)
+where $P_l$ denotes the Legendre polynomial and $\cos\gamma$ has the usual meaning.&lt;br /&gt;
+We have written the upper summation limit as $l=\infty$ to indicate that formula (32) remains valid for complex values of $n$ and $\alpha$.&lt;br /&gt;
+If $n$ is an integer, the series terminates at $l = n-1$.&lt;/p&gt;
+
+&lt;p&gt;We have given the geometric interpretation of the integral equation (1) for the case of the point spectrum. In the case of the continuous spectrum $(E&amp;gt;0)$, the Schrödinger equation can be written as a system of two integral equations connecting the values of the desired function on the two sheets of the hyperboloid.&lt;/p&gt;
+
+&lt;p&gt;One may also describe the situation without reference to a fourth dimension.&lt;br /&gt;
+For the point spectrum, the geometry in momentum space is that of a Riemannian sphere with constant positive curvature, whereas for the continuous spectrum the geometry is that of Lobachevskian space with constant negative curvature.&lt;/p&gt;
+
+&lt;p&gt;The geometric interpretation of the integral equation is less intuitive for the continuous spectrum than for the point spectrum.&lt;br /&gt;
+For practical applications, it is therefore advantageous to first derive the formulas for the point spectrum and only in the final result treat the principal quantum number $n$ as purely imaginary.&lt;br /&gt;
+This is possible because the functions $\Pi_l(n,\alpha)$ are analytic in $n$ and $\alpha$, and for purely imaginary values of $n$ and $\alpha$ differ only by a constant factor from the corresponding functions of the continuous spectrum.&lt;/p&gt;
+
+&lt;p&gt;We now indicate briefly some problems that can be treated advantageously by means of the above “geometric’’ theory of hydrogen-like atoms.&lt;br /&gt;
+In some applications, for example in the theory of the Compton effect on bound electrons or in the theory of inelastic collisions with atoms, one needs the norm of the projection of a given function $\varphi$ onto the subspace of the Hilbert space defined by the principal quantum number $n$.&lt;br /&gt;
+This norm is defined by the sum
+\(N
+=
+\int |P_n \varphi|^{2} \, \mathrm{d}\tau
+=
+\sum_{l m}
+\left|
+\int
+\overline{\psi}_{n l m}\,
+\varphi \,\mathrm{d}\tau
+\right|^{2}.\)
+Here, the summation over $l$ is often very difficult, especially when it involves an infinite series (continuous spectrum).&lt;br /&gt;
+The introduction of parabolic quantum numbers allows the sum to be evaluated in some cases, but the calculations remain cumbersome.&lt;/p&gt;
+
+&lt;p&gt;If one uses the transformation group of the Schrödinger equation together with the addition theorem (31) for the eigenfunctions, the summation can be performed more easily; the entire sum (33) is often simpler to compute than a single term.&lt;/p&gt;
+
+&lt;p&gt;Analogous simplifications occur in the calculation of the norm of the projection of an operator $L$ onto the $n$-th subspace, i.e., in evaluating the double sum
+\(N(L)
+=
+\sum_{l m} \sum_{l&apos; m&apos;}
+\left|
+\int
+\overline{\psi}_{n l m}\,
+L\,\psi_{n l&apos; m&apos;}\,
+\mathrm{d}\tau
+\right|^{2}.\)&lt;/p&gt;
+
+&lt;p&gt;Expressions of the form (34) appear, for example, in the calculation of atomic form factors, where the operator $L$ in momentum space takes the form
+\(L = e^{-\,\mathbf{f}\cdot \frac{\partial}{\partial \mathbf{p}}}; 
+\qquad
+L \psi(\mathbf{p}) = \psi(\mathbf{p}-\mathbf{f}).\)&lt;/p&gt;
+
+&lt;p&gt;These expressions are invariant under a change of orthogonal system $\psi_{n l m}$.&lt;br /&gt;
+A four-dimensional rotation of the coordinates produces a new orthogonal system, leaving the sums (33) and (34) unchanged.&lt;br /&gt;
+Such a rotation can be chosen to simplify the integrals in (33) and (34), or even make them vanish.&lt;br /&gt;
+Thus, the operator $L$ defined by (35), which shifts the origin in momentum space, can essentially be reduced to the operation $p \to \lambda p$.&lt;br /&gt;
+This gives $\psi(\lambda p)$ and leads to a simpler sum, as the angular dependence $(\vartheta, \varphi)$ remains as in the usual spherical functions.&lt;/p&gt;
+
+&lt;p&gt;The projection $P_n \varphi$ of a function $\varphi$ onto the subspace corresponding to principal quantum number $n$ is
+\(P_n \varphi
+=
+\sum_{l m}
+\psi_{n l m}
+\left[
+\int \overline{\psi}_{n l m}\,
+\varphi\,\mathrm{d}\tau
+\right].\)&lt;/p&gt;
+
+&lt;p&gt;The projection operator $P_n$ has the kernel
+\(\varrho_n(\mathbf{p}&apos;,\mathbf{p})
+=
+\sum_{l m}
+\overline{\psi}_{n l m}(\mathbf{p}&apos;) \psi_{n l m}(\mathbf{p}).\)&lt;/p&gt;
+
+&lt;p&gt;The functions $\psi_{n l m}$ can be expressed through four-dimensional spherical functions.&lt;br /&gt;
+Since the “mean square momentum’’ $p_0$ depends on the principal quantum number $n$, we now denote it by $p_n$.&lt;br /&gt;
+Instead of (7), we then have
+\(\Psi_{n l m}(\boldsymbol{\alpha},\vartheta,\varphi)
+=
+\frac{\pi}{\sqrt{8}}\,
+p_n^{-5/2}\,
+(p_n^{2}+p^{2})^{2}\,
+\psi_{n l m}(\mathbf{p}).\)&lt;/p&gt;
+
+&lt;p&gt;Inserting (38) into (37) and using the addition theorem (31), one obtains
+\(\varrho_n(\mathbf{p}&apos;,\mathbf{p})
+=
+\frac{8 p_n^{5}}
+{\pi^{2}(p_n^{2}+p^{2})^{2}(p_n^{2}+p&apos;^{2})^{2}}
+\cdot
+n \frac{\sin n\omega}{\sin \omega},\)
+and for $\mathbf{p}’ = \mathbf{p}$
+\(\varrho_n(\mathbf{p},\mathbf{p})
+=
+\frac{8 p_n^{5} n^{2}}
+{\pi^{2}(p_n^{2}+p^{2})^{4}}.\)&lt;/p&gt;
+
+&lt;p&gt;The integral
+\(4\pi \int_{0}^{\infty} \varrho_n(\mathbf{p},\mathbf{p})\,p^{2}\,\mathrm{d}p
+=
+n^{2}\)
+equals the dimension of the subspace corresponding to the principal quantum number $n$.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The success of the Bohr model for the periodic system of elements, as well as the applicability of the Ritz formula for energy levels, shows that it is a reasonable approximation to treat the electrons in an atom as moving in a Coulomb field.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It is therefore natural to consider the following atomic model. All electrons with the principal quantum number $n$ belong to the $n$-th shell. The electrons of the $n$-th large shell are described by hydrogen-like wave functions with an effective nuclear charge $Z_{n}$. One can introduce the mean square momentum $p_{n}$ corresponding to $Z_{n}$ through the relation&lt;/p&gt;
+
+\[Z_{n} = n \, p_{n} \, \frac{a}{h} \, ( a \,\text{hydrogen radius} ),\]
+
+&lt;p&gt;which defines their relationship.&lt;/p&gt;
+
+&lt;p&gt;Under these assumptions, one can calculate the energy of an atom as a function of the nuclear charge $Z$ and the parameters $p_{n}$, and the values of $p_{n}$ can be determined from the condition of minimum energy. It should be noted that under these assumptions, the wave functions of electrons within a large shell are mutually orthogonal, but they are not orthogonal to the functions of a different shell. It is therefore consistent to neglect the exchange energy between electrons of different shells and to consider only the exchange energy within each shell.&lt;/p&gt;
+
+&lt;p&gt;This approach yields very satisfactory results. For $\mathrm{Na}^{+} (Z=11)$ one obtains (in atomic units):&lt;/p&gt;
+
+\[p_{\bf 1} = 10.63 \, ; \quad p_{\bf 2} = 3.45 \quad (Z=11)\]
+
+&lt;p&gt;and for $\mathrm{Al^{3+}} (Z=13)$&lt;/p&gt;
+
+\[p_{\bf 1} = 12.62 \, ; \quad p_{\bf 2} = 4.45 \quad (Z=13).\]
+
+&lt;p&gt;A simple analytical expression can be derived for $p_{\bf 2}$. Using the above value of $p_{\bf 1}$, this expression differs only slightly from that calculated by Hartree using the more complex numerical method (“self-consistent field”), and may even be somewhat more accurate, since for the sodium atom it lies between the self-consistent field results with and without exchange.&lt;/p&gt;
+
+&lt;p&gt;For atoms with three large shells, namely $\mathrm{Cu^{+}} (Z=29)$ and $\mathrm{Zn^{2+}} (Z=30)$, analogous calculations give:&lt;/p&gt;
+
+\[p_{\bf 1} = 28.59 \, ; \quad p_{\bf 2} = 10.64 \, ; \quad p_{\bf 3} = 5.47 \quad (Z=29)\]
+
+\[p_{\bf 1} = 29.59 \, ; \quad p_{\bf 2} = 11.09 \, ; \quad p_{\bf 3} = 5.84 \quad (Z=30)\]
+
+&lt;p&gt;The deviation of the shielding potential from Hartree’s calculation is somewhat larger for Cu (three shells) than for $\mathrm{Na^{+}}$ and $\mathrm{Al^{3+}}$ (two shells), exceeding about 10% of the total value.&lt;/p&gt;
+
+&lt;p&gt;The accuracy of this atomic model thus appears to meet fairly high standards for atoms that are not too heavy.&lt;/p&gt;
+
+&lt;p&gt;Insofar as our atomic model applies, the density matrix of an atom in momentum space can be obtained as the sum of the expressions for the large shells present in the atom. The knowledge of the density matrix allows — as emphasized by Dirac — the calculation of all atomic properties, particularly atomic form factors.&lt;/p&gt;
+
+&lt;p&gt;As an example, the atomic form factor $F_n$ for the $n$-th large shell is&lt;/p&gt;
+
+\[F_n = \int e^{i \mathbf{f} \cdot \mathbf{r}} \varrho_n(\mathbf{r},\mathbf{r}) \, \mathrm{d}\tau
+= \int \varrho_n(\mathbf{p},\mathbf{p}-\mathbf{f}) \, \mathrm{d}\mathbf{p}.\]
+
+&lt;p&gt;Substituting for $\varrho_n(\mathbf{p},\mathbf{p}-\mathbf{f})$ the expression from (9), the integral can be evaluated in closed form. With the abbreviation&lt;/p&gt;
+
+\[x = \frac{4 p_n^2 - k^2}{4 p_n^2 + k^2},\]
+
+&lt;p&gt;one obtains&lt;/p&gt;
+
+\[F_n = F_n(x) = \frac{1}{4 n^2} T_n&apos;(x) (1+x)^2 \left\{ P_n&apos;(x) + P_{n-1}&apos;(x) \right\},\]
+
+&lt;p&gt;where $T_n’(x)$ denotes the derivative of the Chebyshev polynomial&lt;/p&gt;
+
+\[T_n(x) = \cos(n \arccos x),\]
+
+&lt;p&gt;and $P_n’(x)$ denotes the derivative of the Legendre polynomial $P_n(x)$. For $k=0$, $x=1$ and $F_n(1) = n^2$.&lt;/p&gt;
+
+&lt;p&gt;The sum of these expressions for the large shells present in the atom is proportional to the charge density in momentum space. This can be compared with the charge density calculated from the Fermi statistical atom model, which is less accurate. For $\mathrm{Ne} (Z=10)$ and $\mathrm{Na^{+}} (Z=11)$, good agreement is found for large $p$, while for small $p$ (about $p&amp;lt;2$ atomic units) the Fermi model overestimates the charge density.&lt;/p&gt;
+
+&lt;p&gt;Finally, it should be noted that our method, which uses these simplifications, can probably also be applied to atoms with unfilled shells.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">Theory of the Hydrogen Atom</summary></entry><entry><title type="html">JET - Paper-I</title><link href="http://localhost:4000/SKMU/lecture/2025/11/28/JET-English.html" rel="alternate" type="text/html" title="JET - Paper-I" /><published>2025-11-28T10:30:00+05:30</published><updated>2025-11-28T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/28/JET-English</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/28/JET-English.html">&lt;p&gt;These topics will be covered from the subject &lt;strong&gt;General Paper on Teaching &amp;amp; Research Aptitude&lt;/strong&gt; (Code No. 00, Paper-I), and the reading materials can be accessed by clicking on the hyperlinks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Unit V. Mathematical Reasoning &amp;amp; Aptitude&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Types of reasoning&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;/SKMU/english/2025/11/28/JET-Paper-1-L1.html&quot;&gt;Number Basics&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;/SKMU/english/2025/12/06/JET-Paper-1-L2.html&quot;&gt;Number series, letter series, codes and relationships&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mathematical aptitude:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;/SKMU/JET-English-Lecture-III&quot;&gt;time &amp;amp; distance&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;ratio&lt;/li&gt;
+      &lt;li&gt;proportion&lt;/li&gt;
+      &lt;li&gt;percentage&lt;/li&gt;
+      &lt;li&gt;fractions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Profit &amp;amp; loss, interest and discounting, averages&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Unit VII. Data Interpretation&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sources, acquisition and classification of data&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Quantitative and qualitative data&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Graphical representation: bar-chart, histogram, pie-chart, table-chart, line-chart&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mapping of data&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Data interpretation&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Data and governance&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="JET" /><summary type="html">These topics will be covered from the subject General Paper on Teaching &amp;amp; Research Aptitude (Code No. 00, Paper-I), and the reading materials can be accessed by clicking on the hyperlinks.</summary></entry><entry><title type="html">JET: English-Lecture-I</title><link href="http://localhost:4000/SKMU/english/2025/11/28/JET-Paper-1-L1.html" rel="alternate" type="text/html" title="JET: English-Lecture-I " /><published>2025-11-28T10:30:00+05:30</published><updated>2025-11-28T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/english/2025/11/28/JET-Paper-1-L1</id><content type="html" xml:base="http://localhost:4000/SKMU/english/2025/11/28/JET-Paper-1-L1.html">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Number System&lt;/b&gt;&lt;/h1&gt;
 
 &lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
   &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
@@ -1635,52 +1709,7 @@ Every integer has a unique prime factor representation.&lt;/p&gt;
   &lt;li&gt;The gcd or lcm of two numbers&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Factorization is not mere arithmetic; it reveals the internal geometry of numbers.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Number System</summary></entry><entry><title type="html">JET - Paper-I</title><link href="http://localhost:4000/SKMU/lecture/2025/11/28/JET-English.html" rel="alternate" type="text/html" title="JET - Paper-I" /><published>2025-11-28T10:30:00+05:30</published><updated>2025-11-28T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/28/JET-English</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/28/JET-English.html">&lt;p&gt;These topics will be covered from the subject &lt;strong&gt;General Paper on Teaching &amp;amp; Research Aptitude&lt;/strong&gt; (Code No. 00, Paper-I), and the reading materials can be accessed by clicking on the hyperlinks.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Unit V. Mathematical Reasoning &amp;amp; Aptitude&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Types of reasoning&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;/SKMU/english/2025/11/28/JET-Paper-1-L1.html&quot;&gt;Number Basics&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;/SKMU/english/2025/12/06/JET-Paper-1-L2.html&quot;&gt;Number series, letter series, codes and relationships&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Mathematical aptitude:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;/SKMU/JET-English-Lecture-III&quot;&gt;time &amp;amp; distance&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;ratio&lt;/li&gt;
-      &lt;li&gt;proportion&lt;/li&gt;
-      &lt;li&gt;percentage&lt;/li&gt;
-      &lt;li&gt;fractions&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Profit &amp;amp; loss, interest and discounting, averages&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Unit VII. Data Interpretation&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Sources, acquisition and classification of data&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Quantitative and qualitative data&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Graphical representation: bar-chart, histogram, pie-chart, table-chart, line-chart&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Mapping of data&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Data interpretation&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Data and governance&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="JET" /><summary type="html">These topics will be covered from the subject General Paper on Teaching &amp;amp; Research Aptitude (Code No. 00, Paper-I), and the reading materials can be accessed by clicking on the hyperlinks.</summary></entry><entry><title type="html">JET: Lecture-V</title><link href="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L5.html" rel="alternate" type="text/html" title="JET: Lecture-V" /><published>2025-11-27T10:30:00+05:30</published><updated>2025-11-27T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L5</id><content type="html" xml:base="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L5.html">&lt;h2 id=&quot;1-scalar-and-vector-potentials&quot;&gt;&lt;strong&gt;1. Scalar and Vector Potentials&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Factorization is not mere arithmetic; it reveals the internal geometry of numbers.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Number System</summary></entry><entry><title type="html">JET: Lecture-V</title><link href="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L5.html" rel="alternate" type="text/html" title="JET: Lecture-V" /><published>2025-11-27T10:30:00+05:30</published><updated>2025-11-27T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L5</id><content type="html" xml:base="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L5.html">&lt;h2 id=&quot;1-scalar-and-vector-potentials&quot;&gt;&lt;strong&gt;1. Scalar and Vector Potentials&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;p&gt;In classical field theory (electromagnetism, fluid dynamics, gravitation), many vector fields can be expressed in terms of &lt;em&gt;potentials&lt;/em&gt;.&lt;/p&gt;
 
@@ -1921,277 +1950,7 @@ $\nabla (\partial \phi/\partial t)$.&lt;/p&gt;
 \[\nabla^2 \vec{A} - \frac{1}{c^2}\frac{\partial^2 \vec{A}}{\partial t^2}
 = -\mu_0 \vec{J}\]
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">1. Scalar and Vector Potentials</summary></entry><entry><title type="html">JET: Lecture-III</title><link href="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L3.html" rel="alternate" type="text/html" title="JET: Lecture-III " /><published>2025-11-27T10:30:00+05:30</published><updated>2025-11-27T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L3</id><content type="html" xml:base="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L3.html">&lt;h1 id=&quot;line-surface-and-volume-integral&quot;&gt;Line, Surface and Volume Integral&lt;/h1&gt;
-
-&lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
-  &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
-              padding:1.2rem 1.5rem;max-width:560px;width:100%;font-family:&apos;Inter&apos;,sans-serif;
-              border:1px solid #d9e6b2;&quot;&gt;
-
-    &lt;h2 style=&quot;text-align:center;color:#3b4c00;margin-bottom:0.8rem;
-               font-size:1.4rem;font-weight:700;&quot;&gt;QUIZ&lt;/h2&gt;
-
-
-    &lt;!-- === Difficulty selector === --&gt;
-    &lt;div id=&quot;quiz-level-selector&quot; style=&quot;text-align:center;margin-bottom:1rem;display:flex;justify-content:center;gap:0.4rem;flex-wrap:wrap;&quot;&gt;
-      &lt;button class=&quot;level-btn&quot; data-file=&quot;L3_Easy.json&quot;&gt;Easy&lt;/button&gt;
-      &lt;button class=&quot;level-btn&quot; data-file=&quot;L3_Medium.json&quot;&gt;Medium&lt;/button&gt;
-      &lt;button class=&quot;level-btn&quot; data-file=&quot;L3_Hard.json&quot;&gt;Hard&lt;/button&gt;
-    &lt;/div&gt;
-
-    &lt;!-- === Quiz container (initially hidden) === --&gt;
-    &lt;div id=&quot;quiz-section&quot; style=&quot;display:none;&quot;&gt;
-      &lt;div class=&quot;quiz-wrapper&quot;&gt;
-  &lt;div id=&quot;quiz-container&quot; data-quiz=&quot;&quot;&gt;
-    &lt;h2 id=&quot;quiz-title&quot; class=&quot;quiz-title&quot;&gt;&lt;/h2&gt;
-
-    &lt;div id=&quot;question-container&quot; class=&quot;question-container&quot;&gt;
-      &lt;div id=&quot;question&quot; class=&quot;question-text&quot;&gt;&lt;/div&gt;
-      &lt;div id=&quot;answer-buttons&quot; class=&quot;options-grid&quot;&gt;
-        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
-        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
-        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
-        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;button id=&quot;next-btn&quot; class=&quot;btn next-btn&quot;&gt;Next&lt;/button&gt;
-    &lt;div id=&quot;result&quot; class=&quot;result&quot;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;!-- ✅ Stylesheet --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/SKMU/assets/css/quiz.css&quot; /&gt;
-
-&lt;!-- ✅ Quiz Script --&gt;
-&lt;script src=&quot;/SKMU/assets/js/quiz.js&quot;&gt;&lt;/script&gt;
-
-
-&lt;!-- ✅ Pass baseurl to JS (for blogs inside subfolders like /SKMU/) --&gt;
-&lt;script&gt;
-  window.quizBaseUrl = &quot;/SKMU&quot;;
-&lt;/script&gt;
-    &lt;/div&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;1-line-integrals&quot;&gt;&lt;strong&gt;1. Line Integrals&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;A &lt;strong&gt;line integral&lt;/strong&gt; measures the value of a scalar or vector field &lt;strong&gt;along a curve&lt;/strong&gt;.&lt;br /&gt;
-The curve may be in 2D or 3D and is usually parametrized as $ \mathbf{r}(t) $.&lt;/p&gt;
-
-&lt;p&gt;For a scalar field $ \phi(x, y, z) $, the line integral along a curve $ C $ is:&lt;/p&gt;
-
-\[\int_C \phi \, ds\]
-
-&lt;p&gt;where&lt;/p&gt;
-
-\[ds = |\mathbf{r}&apos;(t)|\, dt\]
-
-&lt;p&gt;This gives the &lt;strong&gt;accumulated value&lt;/strong&gt; of the scalar field along the path.&lt;/p&gt;
-
-&lt;p&gt;For a vector field $ \mathbf{A} $, line integral is:&lt;/p&gt;
-
-\[\int_C \mathbf{A} \cdot d\mathbf{r}\]
-
-&lt;p&gt;where $ d\mathbf{r} = dx\, \hat{i} + dy\, \hat{j} + dz\, \hat{k} $.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Interpretation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Measures the &lt;strong&gt;work done&lt;/strong&gt; by a force field along a path.&lt;br /&gt;
-\(W = \int_C \mathbf{F} \cdot d\mathbf{r}\)&lt;/li&gt;
-  &lt;li&gt;Circulation of a vector field.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; For a &lt;strong&gt;conservative field&lt;/strong&gt; $ \mathbf{A} = \nabla \phi $:&lt;/p&gt;
-
-\[\int_C \mathbf{A} \cdot d\mathbf{r} = \phi(B) - \phi(A)\]
-
-&lt;p&gt;i.e., path-independent.&lt;/p&gt;
-
-&lt;h2 id=&quot;11-differential-length-elements-dmathbfl&quot;&gt;&lt;strong&gt;1.1 Differential Length Elements $d\mathbf{l}$&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Coordinate System&lt;/th&gt;
-      &lt;th&gt;Differential Length Vector&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Cartesian&lt;/strong&gt; $(x, y, z)$&lt;/td&gt;
-      &lt;td&gt;$ d\mathbf{l} = dx\,\hat{i} + dy\,\hat{j} + dz\,\hat{k} $&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Cylindrical&lt;/strong&gt; $(r, \theta, z)$&lt;/td&gt;
-      &lt;td&gt;$ d\mathbf{l} = dr\,\hat{r} + r\,d\theta\,\hat{\theta} + dz\,\hat{z} $&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Spherical&lt;/strong&gt; $(r, \theta, \phi)$&lt;/td&gt;
-      &lt;td&gt;$ d\mathbf{l} = dr\,\hat{r} + r\,d\theta\,\hat{\theta} + r\sin\theta\, d\phi\,\hat{\phi} $&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;2-surface-integrals&quot;&gt;&lt;strong&gt;2. Surface Integrals&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;A &lt;strong&gt;surface integral&lt;/strong&gt; measures how a scalar or vector field interacts with a &lt;strong&gt;surface&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;For a scalar field $ \phi $, over surface $ S $:&lt;/p&gt;
-
-\[\iint_S \phi \, dS\]
-
-&lt;p&gt;where $ dS = |\mathbf{r}_u \times \mathbf{r}_v| \, du\, dv $.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Physical meaning:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Total mass on a thin sheet.&lt;/li&gt;
-  &lt;li&gt;Total heat radiated by a surface.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Flux of vector field $ \mathbf{A} $ across a surface:&lt;/p&gt;
-
-\[\iint_S \mathbf{A} \cdot d\mathbf{S}\]
-
-&lt;p&gt;where&lt;/p&gt;
-
-\[d\mathbf{S} = \hat{n}\, dS\]
-
-&lt;p&gt;This measures how much of the field &lt;strong&gt;passes through&lt;/strong&gt; the surface.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Electric flux:&lt;br /&gt;
-\(\Phi_E = \iint_S \mathbf{E} \cdot d\mathbf{S}\)&lt;/li&gt;
-  &lt;li&gt;Magnetic flux:&lt;br /&gt;
-\(\Phi_B = \iint_S \mathbf{B} \cdot d\mathbf{S}\)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Flux is positive:&lt;/strong&gt; when the field flows along outward normal.&lt;br /&gt;
-&lt;strong&gt;Flux is negative:&lt;/strong&gt; when it flows inward.&lt;/p&gt;
-
-&lt;h2 id=&quot;21-differential-surface-elements-dmathbfs&quot;&gt;&lt;strong&gt;2.1 Differential Surface Elements $d\mathbf{S}$&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Surface elements depend on which surface is being used (constant coordinate).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cartesian Coordinates&lt;/strong&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Surface&lt;/th&gt;
-      &lt;th&gt;Differential Area Vector&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;$x=\text{constant}$&lt;/td&gt;
-      &lt;td&gt;$ d\mathbf{S} = dy\,dz\, \hat{i} $&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;$y=\text{constant}$&lt;/td&gt;
-      &lt;td&gt;$ d\mathbf{S} = dx\,dz\, \hat{j} $&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;$z=\text{constant}$&lt;/td&gt;
-      &lt;td&gt;$ d\mathbf{S} = dx\,dy\, \hat{k} $&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;Cylindrical Coordinates&lt;/strong&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Surface&lt;/th&gt;
-      &lt;th&gt;Differential Area Vector&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;$r=\text{constant}$&lt;/td&gt;
-      &lt;td&gt;$ d\mathbf{S} = (r\, d\theta\, dz)\, \hat{r} $&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;$\theta=\text{constant}$&lt;/td&gt;
-      &lt;td&gt;$ d\mathbf{S} = (dr\, dz)\, \hat{\theta} $&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;$z=\text{constant}$&lt;/td&gt;
-      &lt;td&gt;$ d\mathbf{S} = (r\, dr\, d\theta)\, \hat{z} $&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;Spherical Coordinates&lt;/strong&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Surface&lt;/th&gt;
-      &lt;th&gt;Differential Area Vector&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;$r=\text{constant}$&lt;/td&gt;
-      &lt;td&gt;$ d\mathbf{S} = (r^2 \sin\theta\, d\theta\, d\phi)\, \hat{r} $&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;$\theta=\text{constant}$&lt;/td&gt;
-      &lt;td&gt;$ d\mathbf{S} = (r \sin\theta\, dr\, d\phi)\, \hat{\theta} $&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;$\phi=\text{constant}$&lt;/td&gt;
-      &lt;td&gt;$ d\mathbf{S} = (r\, dr\, d\theta)\, \hat{\phi} $&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;3-volume-integrals&quot;&gt;&lt;strong&gt;3. Volume Integrals&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;A &lt;strong&gt;volume integral&lt;/strong&gt; gives the accumulated value of a field inside a 3D region.&lt;/p&gt;
-
-\[\iiint_V \phi \, dV\]
-
-&lt;p&gt;For Cartesian:&lt;br /&gt;
-\(dV = dx\, dy\, dz\)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Physical meaning:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Total mass of a 3D body with density $ \rho(x,y,z) $.&lt;/li&gt;
-  &lt;li&gt;Total charge if $ \rho $ is charge density.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;31-differential-volume-elements-dv&quot;&gt;&lt;strong&gt;3.1 Differential Volume Elements $dV$&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Coordinate System&lt;/th&gt;
-      &lt;th&gt;Differential Volume&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Cartesian&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;$ dV = dx\, dy\, dz $&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Cylindrical&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;$ dV = r\, dr\, d\theta\, dz $&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Spherical&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;$ dV = r^2 \sin\theta\, dr\, d\theta\, d\phi $&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Line, Surface and Volume Integral</summary></entry><entry><title type="html">JET: Lecture-IV</title><link href="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L4.html" rel="alternate" type="text/html" title="JET: Lecture-IV" /><published>2025-11-27T10:30:00+05:30</published><updated>2025-11-27T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L4</id><content type="html" xml:base="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L4.html">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Integral Theorems&lt;/b&gt;&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">1. Scalar and Vector Potentials</summary></entry><entry><title type="html">JET: Lecture-IV</title><link href="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L4.html" rel="alternate" type="text/html" title="JET: Lecture-IV" /><published>2025-11-27T10:30:00+05:30</published><updated>2025-11-27T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L4</id><content type="html" xml:base="http://localhost:4000/SKMU/physics/mathematics/2025/11/27/JET-Paper-2-L4.html">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Integral Theorems&lt;/b&gt;&lt;/h1&gt;
 
 &lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
   &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
