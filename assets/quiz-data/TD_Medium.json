@@ -1,0 +1,91 @@
+{
+  "title": "Time & Distance – Medium Level",
+  "description": "Answer all questions. Each carries 1 mark.",
+  "quizSettings": { "isQuiz": true },
+  "questions": [
+    {
+      "title": "A car travels 150 km in 3 hours. What is its speed?",
+      "options": ["40 km/h", "45 km/h", "50 km/h", "60 km/h"],
+      "correct": 2
+    },
+    {
+      "title": "A man walks at 6 km/h. How much time will he take to cover 15 km?",
+      "options": ["2 hours", "2.5 hours", "3 hours", "3.5 hours"],
+      "correct": 1
+    },
+    {
+      "title": "Convert 20 m/s to km/h.",
+      "options": ["48 km/h", "54 km/h", "60 km/h", "72 km/h"],
+      "correct": 3
+    },
+    {
+      "title": "A train of length 300 m passes a pole in 15 seconds. Its speed is:",
+      "options": ["60 km/h", "70 km/h", "72 km/h", "80 km/h"],
+      "correct": 2
+    },
+    {
+      "title": "A 400 m train passes a 200 m platform in 30 seconds. Find speed.",
+      "options": ["48 km/h", "60 km/h", "72 km/h", "96 km/h"],
+      "correct": 2
+    },
+
+    {
+      "title": "A boat moves upstream at 8 km/h and downstream at 12 km/h. Speed of stream = ?",
+      "options": ["1 km/h", "2 km/h", "3 km/h", "4 km/h"],
+      "correct": 1
+    },
+    {
+      "title": "Boat speed in still water if upstream = 6 km/h and downstream = 14 km/h.",
+      "options": ["7 km/h", "8 km/h", "9 km/h", "10 km/h"],
+      "correct": 3
+    },
+    {
+      "title": "A person runs at 12 km/h. How long to complete 1.5 km?",
+      "options": ["5 min", "6 min", "7.5 min", "10 min"],
+      "correct": 2
+    },
+    {
+      "title": "Average speed: A car travels 40 km at 20 km/h and 40 km at 40 km/h.",
+      "options": ["25.66 km/h", "26.66 km/h", "28.66 km/h", "30.66 km/h"],
+      "correct": 1
+    },
+    {
+      "title": "Two people run on a circular track of 300 m at speeds 6 m/s and 4 m/s. When will they meet?",
+      "options": ["120 s", "150 s", "250 s", "300 s"],
+      "correct": 1
+    },
+    {
+      "title": "A cyclist travels 18 km at 9 km/h and returns at 6 km/h. Average speed?",
+      "options": ["7 km/h", "7.2 km/h", "7.5 km/h", "8 km/h"],
+      "correct": 1
+    },
+    {
+      "title": "If Speed = 54 km/h, time to cover 750 m is:",
+      "options": ["30 s", "40 s", "50 s", "60 s"],
+      "correct": 2
+    },
+    {
+      "title": "A bus reduces its speed by 20%. If original speed is 50 km/h, new speed is:",
+      "options": ["35 km/h", "38 km/h", "40 km/h", "45 km/h"],
+      "correct": 2
+    },
+
+    {
+      "title": "Two cyclists start from same point in opposite directions at 8 km/h and 12 km/h. Distance between them after 1.5 hours?",
+      "options": ["25 km", "28 km", "30 km", "32 km"],
+      "correct": 2
+    },
+    
+    {
+      "title": "Train A runs at 40 km/h, Train B at 60 km/h in same direction. Relative speed?",
+      "options": ["10 km/h", "15 km/h", "20 km/h", "25 km/h"],
+      "correct": 2
+    },
+
+    {
+      "title": "A man runs 10 km at 5 km/h and another 10 km at 10 km/h. Average speed?",
+      "options": ["6.5 km/h", "6.67 km/h", "7 km/h", "7.5 km/h"],
+      "correct": 1
+    }
+  ]
+}

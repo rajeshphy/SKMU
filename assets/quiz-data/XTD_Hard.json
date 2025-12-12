@@ -1,0 +1,27 @@
+{
+  "title": "Time & Distance – Hard Level",
+  "description": "Answer all questions. Each carries 1 mark.",
+  "quizSettings": { "isQuiz": true },
+  "questions": [
+    {
+      "title": "Two trains of 200 m each cross each other in 20 seconds at combined speed 72 km/h. The relative speed in m/s is:",
+      "options": ["10 m/s", "15 m/s", "20 m/s", "25 m/s"],
+      "correct": 2
+    },
+    {
+      "title": "A train 150 m long crosses a man walking at 3 km/h opposite to train direction in 6 seconds. Train speed?",
+      "options": ["72 km/h", "75 km/h", "80 km/h", "90 km/h"],
+      "correct": 2
+    },
+{
+      "title": "A 500 m train crosses a platform in 50 seconds at 54 km/h. Platform length?",
+      "options": ["250 m", "350 m", "450 m", "500 m"],
+      "correct": 2
+    },
+    {
+      "title": "A boat takes 3 hours to go downstream 24 km and 4 hours upstream same distance. Still water speed?",
+      "options": ["7 km/h", "8 km/h", "9 km/h", "10 km/h"],
+      "correct": 1
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "title": "Time & Distance – Easy Level",
+  "description": "Answer all questions. Each carries 1 mark.",
+  "quizSettings": { "isQuiz": true },
+  "questions": [
+    {
+      "title": "If a car moves at 50 km/h for 2 hours, what distance does it cover?",
+      "options": ["50 km", "75 km", "100 km", "120 km"],
+      "correct": 2
+    },
+    {
+      "title": "Which formula is correct?",
+      "options": ["Speed = Time × Distance", "Speed = Distance ÷ Time", "Time = Speed × Distance", "Distance = Time ÷ Speed"],
+      "correct": 1
+    },
+    {
+      "title": "Convert 36 km/h to m/s.",
+      "options": ["5 m/s", "8 m/s", "10 m/s", "12 m/s"],
+      "correct": 2
+    },
+    {
+      "title": "A train of 200 m passes a pole. What is the distance covered?",
+      "options": ["Train length", "Pole length", "Train length + pole height", "Zero"],
+      "correct": 0
+    },
+    {
+      "title": "If Speed = 20 m/s and Time = 5 s, Distance = ?",
+      "options": ["50 m", "75 m", "100 m", "120 m"],
+      "correct": 2
+    },
+    {
+      "title": "1 m/s equals how many km/h?",
+      "options": ["1.8", "3.6", "5.4", "18"],
+      "correct": 1
+    },
+    {
+      "title": "Downstream speed formula is:",
+      "options": ["u − v", "u × v", "u + v", "u ÷ v"],
+      "correct": 2
+    },
+    {
+      "title": "Two trains move in opposite directions at 30 km/h and 40 km/h. Relative speed?",
+      "options": ["10 km/h", "30 km/h", "40 km/h", "70 km/h"],
+      "correct": 3
+    },
+    {
+      "title": "A bike covers 80 km in 4 hours. What is its speed?",
+      "options": ["10 km/h", "20 km/h", "30 km/h", "40 km/h"],
+      "correct": 1
+    },
+    {
+      "title": "If a train passes a platform, distance covered is:",
+      "options": ["Platform length only", "Train length only", "Train length + platform length", "Train speed × platform length"],
+      "correct": 2
+    }
+  ]
+}

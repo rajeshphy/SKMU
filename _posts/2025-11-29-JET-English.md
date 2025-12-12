@@ -15,7 +15,12 @@ These topics will be covered from the subject **General Paper on Teaching & Rese
    
    - [Number series, letter series, codes and relationships](/SKMU/english/2025/12/06/JET-Paper-1-L2.html)  
    
-   - Mathematical aptitude: fractions, time & distance, ratio, proportion and percentage  
+   - Mathematical aptitude: 
+      - [time & distance](/SKMU/english/2025/12/12/JET-Paper-1-L3.html)
+      - ratio
+      - proportion
+      - percentage  
+      - fractions
    
    - Profit & loss, interest and discounting, averages  
 
