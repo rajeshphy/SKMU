@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-12T20:36:10+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Quantum Mechanics in Momentum Space by M Lieber</title><link href="http://localhost:4000/SKMU/M-Lieber-1975/" rel="alternate" type="text/html" title="Quantum Mechanics in Momentum Space by M Lieber" /><published>2025-12-12T12:00:00+05:30</published><updated>2025-12-12T12:00:00+05:30</updated><id>http://localhost:4000/SKMU/Lieber</id><content type="html" xml:base="http://localhost:4000/SKMU/M-Lieber-1975/">&lt;p&gt;By M. Lieber
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-12T20:56:47+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Quantum Mechanics in Momentum Space by M Lieber</title><link href="http://localhost:4000/SKMU/M-Lieber-1975/" rel="alternate" type="text/html" title="Quantum Mechanics in Momentum Space by M Lieber" /><published>2025-12-12T12:00:00+05:30</published><updated>2025-12-12T12:00:00+05:30</updated><id>http://localhost:4000/SKMU/Lieber</id><content type="html" xml:base="http://localhost:4000/SKMU/M-Lieber-1975/">&lt;p&gt;By M. Lieber
 Received 18 June 1974&lt;/p&gt;
 
 &lt;p&gt;Schrodinger equation in momentum space is obtained by Fourier transforming the coordinate space equation. Lets consider the time-independent Schrodinger equation in one dimension in position space:&lt;/p&gt;
@@ -27,7 +27,47 @@ Received 18 June 1974&lt;/p&gt;
 
 \[\color{brown}{\boxed{ \left(E-\frac{p^2}{2m}\right) \phi(p) = \frac{1}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} \tilde{V}(p-p&apos;) \phi(p&apos;) dp&apos; }} \tag{4}\]
 
-&lt;hr /&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">By M. Lieber Received 18 June 1974</summary></entry><entry><title type="html">JET: English-Lecture-III</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-III" rel="alternate" type="text/html" title="JET: English-Lecture-III " /><published>2025-12-12T08:30:00+05:30</published><updated>2025-12-12T08:30:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L3</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-III">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Time &amp;amp; Distance&lt;/b&gt;&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;consider-potential-vx--v_0-deltax&quot;&gt;Consider potential $V(x) = V_0 \delta(x)$&lt;/h1&gt;
+
+&lt;p&gt;For the delta function potential, the Fourier transform is:&lt;/p&gt;
+
+\[\tilde{V}(p) = \frac{V_0}{\sqrt{2\pi \hbar}}\]
+
+&lt;p&gt;Substituting this into (4), we get:&lt;/p&gt;
+
+\[\left(E-\frac{p^2}{2m}\right) \phi(p) = \frac{V_0}{2\pi \hbar} \int_{-\infty}^{\infty} \phi(p&apos;) dp&apos; \tag{5}\]
+
+&lt;p&gt;Let $ C = \int_{-\infty}^{\infty} \phi(p’) dp’ $. Then (5) becomes:&lt;/p&gt;
+
+\[\left(E-\frac{p^2}{2m}\right) \phi(p) = \frac{V_0}{2\pi \hbar} C \tag{6}\]
+
+&lt;p&gt;Rearranging (6), we have:&lt;/p&gt;
+
+\[\phi(p) = \frac{V_0 C}{2\pi \hbar \left(E-\frac{p^2}{2m}\right)} \tag{7}\]
+
+&lt;p&gt;To find $ C $, we integrate both sides of (7) over all $ p $:&lt;/p&gt;
+
+\[C = \int_{-\infty}^{\infty} \phi(p) dp = \frac{V_0 C}{2\pi \hbar} \int_{-\infty}^{\infty} \frac{dp}{E-\frac{p^2}{2m}} \tag{8}\]
+
+&lt;p&gt;The integral on the right side can be evaluated using contour integration techniques. The result is:&lt;/p&gt;
+
+\[\int_{-\infty}^{\infty} \frac{dp}{E-\frac{p^2}{2m}} = -\pi \sqrt{\frac{2m}{-E}} \quad \text{for } E &amp;lt; 0\]
+
+&lt;p&gt;Substituting this back into (8), we get:&lt;/p&gt;
+
+\[C = \frac{V_0 C}{2\pi \hbar} \left(-\pi \sqrt{\frac{2m}{-E}}\right)\]
+
+&lt;p&gt;This leads to the condition for non-trivial solutions (i.e., $ C \neq 0 $):&lt;/p&gt;
+
+\[1 = -\frac{V_0}{2\hbar} \sqrt{\frac{2m}{-E}}\]
+
+&lt;p&gt;Solving for $ E $, we find the bound state energy:&lt;/p&gt;
+
+\[E = -\frac{m V_0^2}{2 \hbar^2} \tag{9}\]
+
+&lt;p&gt;Thus, the bound state energy for a particle in a delta function potential well is given by (9). The corresponding momentum space wave function can be obtained from (7) using the value of $ E $ found above.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">By M. Lieber Received 18 June 1974</summary></entry><entry><title type="html">JET: English-Lecture-III</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-III" rel="alternate" type="text/html" title="JET: English-Lecture-III " /><published>2025-12-12T08:30:00+05:30</published><updated>2025-12-12T08:30:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L3</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-III">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Time &amp;amp; Distance&lt;/b&gt;&lt;/h1&gt;
 
 &lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
   &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
