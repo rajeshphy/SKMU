@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-12T20:56:47+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Quantum Mechanics in Momentum Space by M Lieber</title><link href="http://localhost:4000/SKMU/M-Lieber-1975/" rel="alternate" type="text/html" title="Quantum Mechanics in Momentum Space by M Lieber" /><published>2025-12-12T12:00:00+05:30</published><updated>2025-12-12T12:00:00+05:30</updated><id>http://localhost:4000/SKMU/Lieber</id><content type="html" xml:base="http://localhost:4000/SKMU/M-Lieber-1975/">&lt;p&gt;By M. Lieber
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-13T09:27:30+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Quantum Mechanics in Momentum Space by M Lieber</title><link href="http://localhost:4000/SKMU/M-Lieber-1975/" rel="alternate" type="text/html" title="Quantum Mechanics in Momentum Space by M Lieber" /><published>2025-12-12T12:00:00+05:30</published><updated>2025-12-12T12:00:00+05:30</updated><id>http://localhost:4000/SKMU/Lieber</id><content type="html" xml:base="http://localhost:4000/SKMU/M-Lieber-1975/">&lt;p&gt;By M. Lieber
 Received 18 June 1974&lt;/p&gt;
 
 &lt;p&gt;Schrodinger equation in momentum space is obtained by Fourier transforming the coordinate space equation. Lets consider the time-independent Schrodinger equation in one dimension in position space:&lt;/p&gt;
@@ -26,8 +26,6 @@ Received 18 June 1974&lt;/p&gt;
 &lt;p&gt;Thus, the Schrodinger equation in momentum space becomes:&lt;/p&gt;
 
 \[\color{brown}{\boxed{ \left(E-\frac{p^2}{2m}\right) \phi(p) = \frac{1}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} \tilde{V}(p-p&apos;) \phi(p&apos;) dp&apos; }} \tag{4}\]
-
-&lt;hr /&gt;
 
 &lt;h1 id=&quot;consider-potential-vx--v_0-deltax&quot;&gt;Consider potential $V(x) = V_0 \delta(x)$&lt;/h1&gt;
 
@@ -67,7 +65,29 @@ Received 18 June 1974&lt;/p&gt;
 
 \[E = -\frac{m V_0^2}{2 \hbar^2} \tag{9}\]
 
-&lt;p&gt;Thus, the bound state energy for a particle in a delta function potential well is given by (9). The corresponding momentum space wave function can be obtained from (7) using the value of $ E $ found above.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">By M. Lieber Received 18 June 1974</summary></entry><entry><title type="html">JET: English-Lecture-III</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-III" rel="alternate" type="text/html" title="JET: English-Lecture-III " /><published>2025-12-12T08:30:00+05:30</published><updated>2025-12-12T08:30:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L3</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-III">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Time &amp;amp; Distance&lt;/b&gt;&lt;/h1&gt;
+&lt;p&gt;Thus, the bound state energy for a particle in a delta function potential well is given by (9). The corresponding momentum space wave function can be obtained from (7) using the value of $ E $ found above.&lt;/p&gt;
+
+\[\color{brown}{\boxed{ E = -\frac{m V_0^2}{2 \hbar^2} }}\]
+
+&lt;p&gt;Putting eqn (9) back into (7) gives the momentum space wave function for the bound state.&lt;/p&gt;
+
+\[\phi(p) = -\frac{mV_0 C}{\pi \hbar \left(\frac{m^2 V_0^2}{ \hbar^2}+p^2\right)}\]
+
+&lt;p&gt;Upon normalization, we can determine the constant $ C $ which comes out to be:&lt;/p&gt;
+
+\[C = -\frac{m V_0 \sqrt{\frac{2 \pi\hbar}{m V_0}}}{\hbar }\]
+
+&lt;p&gt;Therefore, the normalized momentum space wave function is:&lt;/p&gt;
+
+\[\phi(p) = \sqrt{\frac{2}{\pi}} \left(\frac{m V_0}{\hbar}\right)^{3/2}\frac{1}{\left(\frac{m^2 V_0^2}{ \hbar^2}+p^2\right)}\]
+
+&lt;p&gt;The plot of the momentum space wave function is shown below with respect to momentum p.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/Research-IMG/M-Lieber-1975-1.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This completes the derivation of the Schrodinger equation in momentum space and its solution for a delta function potential.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">By M. Lieber Received 18 June 1974</summary></entry><entry><title type="html">JET: English-Lecture-III</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-III" rel="alternate" type="text/html" title="JET: English-Lecture-III " /><published>2025-12-12T08:30:00+05:30</published><updated>2025-12-12T08:30:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L3</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-III">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Time &amp;amp; Distance&lt;/b&gt;&lt;/h1&gt;
 
 &lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
   &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
