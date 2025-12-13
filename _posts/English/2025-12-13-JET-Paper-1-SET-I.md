@@ -102,7 +102,7 @@ permalink: JET-English-PRACTICE-SET-I
 
 
 
-10.If January 1st, 2007 is Monday, what was the day on 1st January 1995? 
+10. If January 1st, 2007 is Monday, what was the day on 1st January 1995? 
 [June–2008]
 
     (a) Sunday  
