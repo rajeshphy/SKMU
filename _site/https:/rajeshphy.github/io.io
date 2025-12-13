@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-13T21:40:04+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: English-PRACTICE SET-I</title><link href="http://localhost:4000/SKMU/JET-English-PRACTICE%20SET-I" rel="alternate" type="text/html" title="JET: English-PRACTICE SET-I" /><published>2025-12-13T11:00:00+05:30</published><updated>2025-12-13T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-SET-I</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-PRACTICE%20SET-I">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;PRACTICE SET-I&lt;/b&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-13T21:43:12+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: English-PRACTICE SET-I</title><link href="http://localhost:4000/SKMU/JET-English-PRACTICE-SET-I" rel="alternate" type="text/html" title="JET: English-PRACTICE SET-I" /><published>2025-12-13T11:00:00+05:30</published><updated>2025-12-13T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-SET-I</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-PRACTICE-SET-I">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;PRACTICE SET-I&lt;/b&gt;&lt;/h1&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -2381,6 +2381,11 @@ Every integer has a unique prime factor representation.&lt;/p&gt;
 
 &lt;p&gt;Join Whatsapp Group: &lt;a href=&quot;https://chat.whatsapp.com/Ga8FGAQFO9d0NAlggvQmzn?mode=hqrc&quot;&gt;Click Here&lt;/a&gt;&lt;/p&gt;
 
+&lt;h1 id=&quot;practice-sets&quot;&gt;Practice Sets:&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/SKMU/JET-English-PRACTICE-SET-I&quot;&gt;Practice Set-I&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;&lt;strong&gt;Unit V. Mathematical Reasoning &amp;amp; Aptitude&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;
@@ -2394,11 +2399,21 @@ Every integer has a unique prime factor representation.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Mathematical aptitude:
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;/SKMU/JET-English-Lecture-III&quot;&gt;time &amp;amp; distance&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;/SKMU/2025/12/13/JET-Paper-1-L4.html&quot;&gt;ratio&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;proportion&lt;/li&gt;
-      &lt;li&gt;percentage&lt;/li&gt;
-      &lt;li&gt;fractions&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;/SKMU/JET-English-Lecture-III&quot;&gt;time &amp;amp; distance&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;/SKMU/2025/12/13/JET-Paper-1-L4.html&quot;&gt;ratio&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;proportion&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;percentage&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;fractions&lt;/p&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Profit &amp;amp; loss, interest and discounting, averages&lt;/li&gt;

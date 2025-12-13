@@ -3,7 +3,7 @@ layout: post
 title: "JET: English-PRACTICE SET-I"
 date: 2025-12-13 11:00:00 +0530
 categories: [English]
-permalink: JET-English-PRACTICE SET-I
+permalink: JET-English-PRACTICE-SET-I
 ---
 
 <h1 align="center" style="color:blue;"><b>PRACTICE SET-I</b></h1>
