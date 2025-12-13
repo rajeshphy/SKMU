@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-13T21:43:12+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: English-PRACTICE SET-I</title><link href="http://localhost:4000/SKMU/JET-English-PRACTICE-SET-I" rel="alternate" type="text/html" title="JET: English-PRACTICE SET-I" /><published>2025-12-13T11:00:00+05:30</published><updated>2025-12-13T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-SET-I</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-PRACTICE-SET-I">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;PRACTICE SET-I&lt;/b&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-13T21:52:59+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: English-PRACTICE SET-I</title><link href="http://localhost:4000/SKMU/JET-English-PRACTICE-SET-I" rel="alternate" type="text/html" title="JET: English-PRACTICE SET-I" /><published>2025-12-13T11:00:00+05:30</published><updated>2025-12-13T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-SET-I</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-PRACTICE-SET-I">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;PRACTICE SET-I&lt;/b&gt;&lt;/h1&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;How many 25 paise and 50 paise coins are there in a bag, if the total amount is ₹7.20?&lt;br /&gt;
+    &lt;p&gt;A bag contains an equal number of one rupee, 50 paise and 25 paise coins. If the total amount in the bag is Rs 35, how many coins of each type are there ?
 [December–2004]&lt;/p&gt;
 
     &lt;p&gt;(a) 15&lt;br /&gt;
@@ -29,7 +29,7 @@
  (d) 45 minutes past 5&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;What day of the week lies on January 1, 1996?&lt;br /&gt;
+    &lt;p&gt;January 1, 1995 was Sunday. What day of the week lies on January 1, 1996 ? 
 [December–2005]&lt;/p&gt;
 
     &lt;p&gt;(a) Sunday&lt;br /&gt;
@@ -83,15 +83,18 @@
  (c) 50 minutes past 3&lt;br /&gt;
  (d) 55 minutes past 3&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What day of the week was January 1, 1995?&lt;br /&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;10.If January 1st, 2007 is Monday, what was the day on 1st January 1995? 
 [June–2008]&lt;/p&gt;
 
-    &lt;p&gt;(a) Sunday&lt;br /&gt;
-(b) Monday&lt;br /&gt;
-(c) Friday&lt;br /&gt;
-(d) Saturday&lt;/p&gt;
-  &lt;/li&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(a) Sunday  
+(b) Monday  
+(c) Friday  
+(d) Saturday
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;There are five books A, B, C, D and E.&lt;br /&gt;
 Book C lies above D, book E is below A, and B is below E. Which book is at the bottom?&lt;br /&gt;
@@ -142,7 +145,7 @@ Which directions are the ladies facing?&lt;br /&gt;
 (d) 1024&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;What day of the week was January 1, 1962?&lt;br /&gt;
+    &lt;p&gt;January 1, 1995 was a Sunday. What day of the week lies on January 1, 1996 ?
 [December–2009]&lt;/p&gt;
 
     &lt;p&gt;(a) Sunday&lt;br /&gt;
@@ -151,7 +154,7 @@ Which directions are the ladies facing?&lt;br /&gt;
 (d) Saturday&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;January 12, 1979 was a Saturday. What day of the week was January 12, 1981?&lt;br /&gt;
+    &lt;p&gt;On January 12, 1980, it was a Saturday. The day of the week on January 12, 1979 was&lt;br /&gt;
 [June–2010]&lt;/p&gt;
 
     &lt;p&gt;(a) Thursday&lt;br /&gt;
@@ -162,7 +165,7 @@ Which directions are the ladies facing?&lt;br /&gt;
   &lt;li&gt;
     &lt;p&gt;Mr. A, Miss B, Mr. C and Miss D are sitting around a table. They follow different trades: tailor, barber, washerman and cook.&lt;/p&gt;
 
-    &lt;p&gt;(i) Miss B sits opposite to the cook&lt;br /&gt;
+    &lt;p&gt;(i) Mr A sits opposite to the cook&lt;br /&gt;
 (ii) Miss B sits to the right of the barber&lt;br /&gt;
 (iii) The washerman sits to the right of the barber&lt;br /&gt;
 (iv) Miss D sits opposite to Mr. C&lt;/p&gt;
@@ -221,11 +224,7 @@ Find the value of&lt;br /&gt;
 (d) 14&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;A, B, C, D, E and F are sitting around a round table.&lt;br /&gt;
-A is between E and F.&lt;br /&gt;
-E is opposite to D.&lt;br /&gt;
-C is not between A and D and is not a neighbour of E.&lt;br /&gt;
-Who is sitting opposite to B?&lt;/p&gt;
+    &lt;p&gt;A, B, C, D, E and F are sitting around a round table. A is between E and F. E is opposite to D and C is not in either of the neighbouring seats of E. The person opposite to B is&lt;/p&gt;
 
 \[[\mathbf{September\text{–}2013}]\]
 
@@ -353,18 +352,6 @@ Who among the teachers is teaching the maximum number of subjects?&lt;br /&gt;
 (b) Monika&lt;br /&gt;
 (c) Vineet&lt;br /&gt;
 (d) Jacob&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;In a class of 35 students, Rajan is placed seventh from the bottom, whereas Karan is placed ninth from the top. Divya is placed exactly in between the two. What is the difference in the positions of Rajan and Divya?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If &lt;strong&gt;a&lt;/strong&gt; is inversely proportional to &lt;strong&gt;b&lt;/strong&gt;, and &lt;strong&gt;b&lt;/strong&gt; is inversely proportional to &lt;strong&gt;c&lt;/strong&gt;, then:&lt;br /&gt;
-[2nd Dec. 2019 – 1st Shift]&lt;/p&gt;
-
-    &lt;p&gt;(a) A&lt;br /&gt;
-(b) B&lt;br /&gt;
-(c) D&lt;br /&gt;
-(d) C and E&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">PRACTICE SET-I</summary></entry><entry><title type="html">JET: English-Lecture-IV</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-IV" rel="alternate" type="text/html" title="JET: English-Lecture-IV" /><published>2025-12-13T08:00:00+05:30</published><updated>2025-12-13T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L4</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-IV">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Ratio&lt;/b&gt;&lt;/h1&gt;
 

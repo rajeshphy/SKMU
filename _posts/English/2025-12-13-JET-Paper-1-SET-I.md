@@ -10,7 +10,7 @@ permalink: JET-English-PRACTICE-SET-I
 
 
 
-1. How many 25 paise and 50 paise coins are there in a bag, if the total amount is ₹7.20?  
+1. A bag contains an equal number of one rupee, 50 paise and 25 paise coins. If the total amount in the bag is Rs 35, how many coins of each type are there ?
 [December–2004]
 
     (a) 15  
@@ -40,7 +40,7 @@ permalink: JET-English-PRACTICE-SET-I
 
 
 
-4. What day of the week lies on January 1, 1996?  
+4. January 1, 1995 was Sunday. What day of the week lies on January 1, 1996 ? 
 [December–2005]
 
     (a) Sunday  
@@ -102,7 +102,7 @@ permalink: JET-English-PRACTICE-SET-I
 
 
 
-10. What day of the week was January 1, 1995?  
+10.If January 1st, 2007 is Monday, what was the day on 1st January 1995? 
 [June–2008]
 
     (a) Sunday  
@@ -170,7 +170,7 @@ Which directions are the ladies facing?
 
 
 
-16. What day of the week was January 1, 1962?  
+16. January 1, 1995 was a Sunday. What day of the week lies on January 1, 1996 ?
 [December–2009]
 
     (a) Sunday  
@@ -180,7 +180,7 @@ Which directions are the ladies facing?
 
 
 
-17. January 12, 1979 was a Saturday. What day of the week was January 12, 1981?  
+17. On January 12, 1980, it was a Saturday. The day of the week on January 12, 1979 was  
 [June–2010]
 
     (a) Thursday  
@@ -192,7 +192,7 @@ Which directions are the ladies facing?
 
 18. Mr. A, Miss B, Mr. C and Miss D are sitting around a table. They follow different trades: tailor, barber, washerman and cook.
 
-    (i) Miss B sits opposite to the cook  
+    (i) Mr A sits opposite to the cook  
     (ii) Miss B sits to the right of the barber  
     (iii) The washerman sits to the right of the barber  
     (iv) Miss D sits opposite to Mr. C  
@@ -260,11 +260,7 @@ Find the value of
 
 
 
-23. A, B, C, D, E and F are sitting around a round table.  
-A is between E and F.  
-E is opposite to D.  
-C is not between A and D and is not a neighbour of E.  
-Who is sitting opposite to B?
+23. A, B, C, D, E and F are sitting around a round table. A is between E and F. E is opposite to D and C is not in either of the neighbouring seats of E. The person opposite to B is
 
     $$
     [\mathbf{September\text{–}2013}]
@@ -392,14 +388,3 @@ Who among the teachers is teaching the maximum number of subjects?
     (b) Monika  
     (c) Vineet  
     (d) Jacob  
-
-37. In a class of 35 students, Rajan is placed seventh from the bottom, whereas Karan is placed ninth from the top. Divya is placed exactly in between the two. What is the difference in the positions of Rajan and Divya?
-
-38. If **a** is inversely proportional to **b**, and **b** is inversely proportional to **c**, then:  
-[2nd Dec. 2019 – 1st Shift]
-
-    (a) A  
-    (b) B  
-    (c) D  
-    (d) C and E  
-
