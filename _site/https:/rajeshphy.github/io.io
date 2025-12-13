@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-13T09:27:30+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Quantum Mechanics in Momentum Space by M Lieber</title><link href="http://localhost:4000/SKMU/M-Lieber-1975/" rel="alternate" type="text/html" title="Quantum Mechanics in Momentum Space by M Lieber" /><published>2025-12-12T12:00:00+05:30</published><updated>2025-12-12T12:00:00+05:30</updated><id>http://localhost:4000/SKMU/Lieber</id><content type="html" xml:base="http://localhost:4000/SKMU/M-Lieber-1975/">&lt;p&gt;By M. Lieber
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-13T09:39:56+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Quantum Mechanics in Momentum Space by M Lieber</title><link href="http://localhost:4000/SKMU/M-Lieber-1975/" rel="alternate" type="text/html" title="Quantum Mechanics in Momentum Space by M Lieber" /><published>2025-12-12T12:00:00+05:30</published><updated>2025-12-12T12:00:00+05:30</updated><id>http://localhost:4000/SKMU/Lieber</id><content type="html" xml:base="http://localhost:4000/SKMU/M-Lieber-1975/">&lt;p&gt;By M. Lieber
 Received 18 June 1974&lt;/p&gt;
 
 &lt;p&gt;Schrodinger equation in momentum space is obtained by Fourier transforming the coordinate space equation. Lets consider the time-independent Schrodinger equation in one dimension in position space:&lt;/p&gt;
@@ -79,7 +79,7 @@ Received 18 June 1974&lt;/p&gt;
 
 &lt;p&gt;Therefore, the normalized momentum space wave function is:&lt;/p&gt;
 
-\[\phi(p) = \sqrt{\frac{2}{\pi}} \left(\frac{m V_0}{\hbar}\right)^{3/2}\frac{1}{\left(\frac{m^2 V_0^2}{ \hbar^2}+p^2\right)}\]
+\[\phi(p) = \sqrt{\frac{2}{\pi}} \left(\frac{m V_0}{\hbar}\right)^{3/2}\frac{1}{\left[\left(\frac{m V_0}{ \hbar}\right)^2+p^2\right]}\]
 
 &lt;p&gt;The plot of the momentum space wave function is shown below with respect to momentum p.&lt;/p&gt;
 
@@ -87,7 +87,69 @@ Received 18 June 1974&lt;/p&gt;
   &lt;img src=&quot;/SKMU/assets/Research-IMG/M-Lieber-1975-1.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
 &lt;/div&gt;
 
-&lt;p&gt;This completes the derivation of the Schrodinger equation in momentum space and its solution for a delta function potential.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">By M. Lieber Received 18 June 1974</summary></entry><entry><title type="html">JET: English-Lecture-III</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-III" rel="alternate" type="text/html" title="JET: English-Lecture-III " /><published>2025-12-12T08:30:00+05:30</published><updated>2025-12-12T08:30:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L3</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-III">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Time &amp;amp; Distance&lt;/b&gt;&lt;/h1&gt;
+&lt;p&gt;The coordinate space wave function can be obtained by inverse Fourier transforming the momentum space wave function. Here contour integration can be used to evaluate the integral as the case for positve and negative x can be treated separately. The final result for the coordinate space wave function is:&lt;/p&gt;
+
+\[\Psi(x) = \sqrt{\frac{m V_0}{\hbar^2}} e^{-\frac{m V_0}{\hbar^2}|x|}\]
+
+&lt;p&gt;Note $V_0$ is a positive quantity here representing the depth of the potential well.
+The plot of the coordinate space wave function is shown below with respect to position x.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/Research-IMG/M-Lieber-1975-2.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This completes the solution of the Schrodinger equation in momentum space for a delta function potential well, yielding both the bound state energy and the corresponding wave functions in momentum and coordinate space.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;contour-integration-techniques-for-evaluating-integrals&quot;&gt;Contour integration techniques for evaluating integrals&lt;/h1&gt;
+
+&lt;p&gt;Given an wave function in momentum space of the form:&lt;/p&gt;
+
+\[\phi(p) = \frac{A}{(p^2 + \alpha^2)}\]
+
+&lt;p&gt;To find the corresponding coordinate space wave function, we perform the inverse Fourier transform:&lt;/p&gt;
+
+\[\Psi(x) = \frac{1}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} \phi(p) e^{ipx/\hbar} dp = \frac{A}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} \frac{e^{ipx/\hbar}}{(p^2 + \alpha^2)} dp\]
+
+&lt;p&gt;To evaluate this integral, we can use contour integration techniques from complex analysis. The integrand has poles at $ p = i\alpha $ and $ p = -i\alpha $. Depending on the sign of $ x $, we will close the contour in the upper or lower half-plane.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Case 1: $ x &amp;gt; 0 $&lt;/strong&gt;
+For $ x &amp;gt; 0 $, we close the contour in the upper half-plane. The only pole inside this contour is at $ p = i\alpha $. Using the residue theorem, we calculate the residue at this pole:&lt;/li&gt;
+&lt;/ol&gt;
+
+\[\text{Res}\left(\frac{e^{ipx/\hbar}}{p^2 + \alpha^2}, p = i\alpha\right) = \lim_{p \to i\alpha} (p - i\alpha) \frac{e^{ipx/\hbar}}{(p - i\alpha)(p + i\alpha)} = \frac{e^{i(i\alpha)x/\hbar}}{2i\alpha} = \frac{e^{-\alpha x/\hbar}}{2i\alpha}\]
+
+&lt;p&gt;Applying the residue theorem, we have:&lt;/p&gt;
+
+\[\int_{-\infty}^{\infty} \frac{e^{ipx/\hbar}}{(p^2 + \alpha^2)} dp = 2\pi i \cdot \text{Res} = 2\pi i \cdot \frac{e^{-\alpha x/\hbar}}{2i\alpha} = \frac{\pi e^{-\alpha x/\hbar}}{\alpha}\]
+
+&lt;p&gt;Thus, for $ x &amp;gt; 0 $:&lt;/p&gt;
+
+\[\Psi(x) = \frac{A}{\sqrt{2\pi \hbar}} \cdot \frac{\pi e^{-\alpha x/\hbar}}{\alpha} = \frac{A \sqrt{\pi}}{\alpha \sqrt{2\hbar}} e^{-\alpha x/\hbar}\]
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Case 2: $ x &amp;lt; 0 $&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For $ x &amp;lt; 0 $, we close the contour in the lower half-plane. The only pole inside this contour is at $ p = -i\alpha $. Calculating the residue at this pole:&lt;/p&gt;
+
+\[\text{Res}\left(\frac{e^{ipx/\hbar}}{p^2 + \alpha^2}, p = -i\alpha\right) = \lim_{p \to -i\alpha} (p + i\alpha) \frac{e^{ipx/\hbar}}{(p - i\alpha)(p + i\alpha)} = \frac{e^{i(-i\alpha)x/\hbar}}{-2i\alpha} = \frac{e^{\alpha x/\hbar}}{-2i\alpha}\]
+
+&lt;p&gt;Applying the residue theorem, we have:&lt;/p&gt;
+
+\[\int_{-\infty}^{\infty} \frac{e^{ipx/\hbar}}{(p^2 + \alpha^2)} dp = 2\pi i \cdot \text{Res} = 2\pi i \cdot \frac{e^{\alpha x/\hbar}}{-2i\alpha} = -\frac{\pi e^{\alpha x/\hbar}}{\alpha}\]
+
+&lt;p&gt;Thus, for $ x &amp;lt; 0 $:&lt;/p&gt;
+
+\[\Psi(x) = \frac{A}{\sqrt{2\pi \hbar}} \cdot \left(-\frac{\pi e^{\alpha x/\hbar}}{\alpha}\right) = -\frac{A \sqrt{\pi}}{\alpha \sqrt{2\hbar}} e^{\alpha x/\hbar}\]
+
+&lt;p&gt;Combining both cases, we can write the coordinate space wave function as:&lt;/p&gt;
+
+\[\Psi(x) = \frac{A \sqrt{\pi}}{\alpha \sqrt{2\hbar}} e^{-\alpha |x|/\hbar}\]
+
+&lt;p&gt;This result shows that the coordinate space wave function decays exponentially with distance from the origin, consistent with the expected behavior for a bound state in a potential well.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">By M. Lieber Received 18 June 1974</summary></entry><entry><title type="html">JET: English-Lecture-III</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-III" rel="alternate" type="text/html" title="JET: English-Lecture-III " /><published>2025-12-12T08:30:00+05:30</published><updated>2025-12-12T08:30:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L3</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-III">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Time &amp;amp; Distance&lt;/b&gt;&lt;/h1&gt;
 
 &lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
   &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
