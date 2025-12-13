@@ -9,7 +9,7 @@ tags: JET
 These topics will be covered from the subject **General Paper on Teaching & Research Aptitude** (Code No. 00, Paper-I), and the reading materials can be accessed by clicking on the hyperlinks.
 
 
-Join Whatsapp Group for JET Preparation: [Click Here](https://chat.whatsapp.com/Ga8FGAQFO9d0NAlggvQmzn?mode=hqrc)
+Join Whatsapp Group: [Click Here](https://chat.whatsapp.com/Ga8FGAQFO9d0NAlggvQmzn?mode=hqrc)
 
 **Unit V. Mathematical Reasoning & Aptitude**
    - Types of reasoning
