@@ -1,4 +1,159 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-13T21:52:59+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: English-PRACTICE SET-I</title><link href="http://localhost:4000/SKMU/JET-English-PRACTICE-SET-I" rel="alternate" type="text/html" title="JET: English-PRACTICE SET-I" /><published>2025-12-13T11:00:00+05:30</published><updated>2025-12-13T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-SET-I</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-PRACTICE-SET-I">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;PRACTICE SET-I&lt;/b&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-14T09:45:51+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Contour Integration</title><link href="http://localhost:4000/SKMU/Contour-Integral/" rel="alternate" type="text/html" title="Contour Integration" /><published>2025-12-14T08:00:00+05:30</published><updated>2025-12-14T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/Contour-Integration</id><content type="html" xml:base="http://localhost:4000/SKMU/Contour-Integral/">&lt;p&gt;The basic idea of contour integration is to extend the concept of integration from the real line to the complex plane. Instead of integrating a function along a real interval, we integrate it along a path (or contour) in the complex plane.
+This allows us to use the properties of analytic functions and the residues of poles to evaluate integrals that would be difficult or impossible to compute using standard real analysis techniques.&lt;/p&gt;
+&lt;h1 id=&quot;cauchys-integral-theorem&quot;&gt;Cauchy’s Integral Theorem&lt;/h1&gt;
+
+&lt;p&gt;Cauchy’s Integral Theorem states that if a function is analytic (holomorphic) within and on a closed contour, then the integral of the function around that contour is zero:&lt;/p&gt;
+
+\[\oint_C f(z) \, dz = 0\]
+
+&lt;p&gt;where $ C $ is a closed contour in the complex plane.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Analytic functions&lt;/strong&gt; are those that are complex differentiable at every point in their domain. Examples include polynomials, exponential functions, and trigonometric functions.&lt;/p&gt;
+
+&lt;h1 id=&quot;cauchys-integral-formula&quot;&gt;Cauchy’s Integral Formula&lt;/h1&gt;
+
+&lt;p&gt;Cauchy’s Integral Formula provides a way to evaluate integrals of analytic functions around closed contours. It states that if $ f(z) $ is analytic inside and on a simple closed contour $ C $, and $ a $ is a point inside $ C $, then:&lt;/p&gt;
+
+\[f(a) = \frac{1}{2\pi i} \oint_C \frac{f(z)}{z - a} \, dz\]
+
+&lt;p&gt;This formula is particularly useful for evaluating integrals and finding values of analytic functions at specific points.&lt;/p&gt;
+
+&lt;h1 id=&quot;residue-theorem&quot;&gt;Residue Theorem&lt;/h1&gt;
+
+&lt;p&gt;The Residue Theorem is a powerful tool for evaluating complex integrals. It states that if $ f(z) $ is analytic in a region except for isolated singularities (poles), then the integral of $ f(z) $ around a closed contour $ C $ that encloses these singularities is given by:&lt;/p&gt;
+
+\[\oint_C f(z) \, dz = 2\pi i \sum \text{Res}(f, a_k)\]
+
+&lt;p&gt;where the sum is over all singularities $ a_k $ inside the contour $ C $, and $ \text{Res}(f, a_k) $ is the residue of $ f $ at the singularity $ a_k $.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;integrals-in-quantum-mechanics&quot;&gt;Integrals in Quantum Mechanics&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Integral of a Lorentzian Function:&lt;/strong&gt;&lt;/p&gt;
+
+\[\int_{-\infty}^{\infty} \frac{1}{(p^2 + \alpha^2)} \, dp = \frac{\pi}{\alpha}\]
+
+&lt;p&gt;&lt;strong&gt;Integral of a Power Function in Momentum Space:&lt;/strong&gt;&lt;/p&gt;
+
+\[\int_{-\infty}^{\infty} \frac{p^n}{(p^2 + \beta^2)} \, dp = 0 \quad \text{for odd } n\]
+
+&lt;p&gt;&lt;strong&gt;Integral of a Gaussian Function in Momentum Space:&lt;/strong&gt;&lt;/p&gt;
+
+\[\int_{-\infty}^{\infty} e^{-\beta p^2} \, dp = \sqrt{\frac{\pi}{\beta}}\]
+
+&lt;p&gt;&lt;strong&gt;Integral of an Exponential Function in Momentum Space:&lt;/strong&gt;&lt;/p&gt;
+
+\[\int_{-\infty}^{\infty} e^{ipx/\hbar} \, dp = 2\pi \hbar \delta(x)\]
+
+&lt;p&gt;&lt;strong&gt;Integral of a Rational Function with Exponential in Momentum Space:&lt;/strong&gt;&lt;/p&gt;
+
+\[\int_{-\infty}^{\infty} \frac{e^{ipx/\hbar}}{(p^2 + \alpha^2)} \, dp = \frac{\pi}{\alpha} e^{-\alpha |x|/\hbar}\]
+
+&lt;p&gt;&lt;strong&gt;Integral of Cosine Function over a Rational Function:&lt;/strong&gt;&lt;/p&gt;
+
+\[\int_{-\infty}^{\infty} \frac{\cos(ax)}{x^2 + b^2} \, dx = \frac{\pi}{b} e^{-b|a|}\]
+
+&lt;p&gt;&lt;strong&gt;Integral of Sine Function over a Rational Function:&lt;/strong&gt;&lt;/p&gt;
+
+\[\int_{-\infty}^{\infty} \frac{\sin(ax)}{x^2 + b^2} \, dx = \pi \frac{\text{sgn}(a)}{b} e^{-b|a|}\]
+
+&lt;p&gt;where $\text{sgn}(a)$ is the sign function and equals 1 for $ a &amp;gt; 0 $, -1 for $ a &amp;lt; 0 $, and 0 for $ a = 0 $.&lt;/p&gt;
+
+&lt;h1 id=&quot;some-special-integrals&quot;&gt;Some special integrals&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Integral of Sine Function over a Rational Function:&lt;/strong&gt;&lt;/p&gt;
+
+\[\int_{-\infty}^{\infty} \frac{\sin(ax)}{x} \, dx = \pi \text{sgn}(a)\]
+
+&lt;p&gt;where $ \text{sgn}(a) $ is the sign function and equals 1 for $ a &amp;gt; 0 $, -1 for $ a &amp;lt; 0 $, and 0 for $ a = 0 $.&lt;/p&gt;
+
+\[\int_{0}^{\infty} \frac{\sin(x)}{x} \, dx = \frac{\pi}{2}\]
+
+&lt;p&gt;&lt;strong&gt;Integral of a Logarithmic Function:&lt;/strong&gt;&lt;/p&gt;
+
+\[\int_{0}^{\infty} \frac{\ln(x)}{x^2 + 1} \, dx = 0\]
+
+&lt;p&gt;&lt;strong&gt;Integral of a Power Function:&lt;/strong&gt;&lt;/p&gt;
+
+\[\int_{0}^{\infty} \frac{x^{m-1}}{x^2 + 1} \, dx = \frac{\pi}{2} \csc\left(\frac{m\pi}{2}\right) \quad (0 &amp;lt; m &amp;lt; 2)\]
+
+&lt;p&gt;&lt;strong&gt;Integral of a Hyperbolic Function:&lt;/strong&gt;&lt;/p&gt;
+
+\[\int_{-\infty}^{\infty} \frac{1}{\cosh(x)} \, dx = \pi\]
+
+&lt;p&gt;&lt;strong&gt;Integral of a Complex Exponential Function:&lt;/strong&gt;&lt;/p&gt;
+
+\[\int_{-\infty}^{\infty} e^{ix^2} \, dx = \sqrt{\frac{\pi}{2}} (1 + i)\]
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;application-examples-to-real-integrals&quot;&gt;Application Examples to Real Integrals&lt;/h1&gt;
+
+&lt;p&gt;Contour integration can be used to evaluate real integrals by extending them into the complex plane. For example, consider the integral:&lt;/p&gt;
+
+\[I = \int_{-\infty}^{\infty} \frac{e^{ix}}{x^2 + 1} \, dx\]
+
+&lt;p&gt;To evaluate this integral using contour integration, we can consider the complex function:&lt;/p&gt;
+
+\[f(z) = \frac{e^{iz}}{z^2 + 1}\]
+
+&lt;p&gt;We can close the contour in the upper half-plane and apply the Residue Theorem to find the value of the integral.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Case 2: $ x &amp;lt; 0 $&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For $ x &amp;lt; 0 $, we close the contour in the lower half-plane. The only pole inside this contour is at $ p = -i\alpha $. Using the residue theorem, we calculate the residue at this pole:&lt;/p&gt;
+
+\[\text{Res}\left(\frac{e^{ipx/\hbar}}{p^2 + \alpha^2}, p = -i\alpha\right) = \lim_{p \to -i\alpha} (p + i\alpha) \frac{e^{ipx/\hbar}}{(p - i\alpha)(p + i\alpha)} = \frac{e^{i(-i\alpha)x/\hbar}}{-2i\alpha} = \frac{e^{\alpha x/\hbar}}{-2i\alpha}\]
+
+&lt;p&gt;Applying the residue theorem, we have:&lt;/p&gt;
+
+\[\int_{-\infty}^{\infty} \frac{e^{ipx/\hbar}}{(p^2 + \alpha^2)} dp = 2\pi i \cdot \text{Res} = 2\pi i \cdot \frac{e^{\alpha x/\hbar}}{-2i\alpha} = -\frac{\pi e^{\alpha x/\hbar}}{\alpha}\]
+
+&lt;p&gt;Thus, for $ x &amp;lt; 0 $:&lt;/p&gt;
+
+\[\Psi(x) = \frac{A}{\sqrt{2\pi \hbar}} \cdot \left(-\frac{\pi e^{\alpha x/\hbar}}{\alpha}\right) = -\frac{A \sqrt{\pi}}{\alpha \sqrt{2\hbar}} e^{\alpha x/\hbar}\]
+
+&lt;p&gt;Combining both cases, we can write the coordinate space wave function as:&lt;/p&gt;
+
+\[\Psi(x) = \frac{A \sqrt{\pi}}{\alpha \sqrt{2\hbar}} e^{-\alpha |x|/\hbar}\]
+
+&lt;p&gt;To evaluate this integral, we can use contour integration techniques from complex analysis. The integrand has poles at $ z = i $ and $ z = -i $. Depending on the sign of $ x $, we will close the contour in the upper or lower half-plane.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Case 1: $ x &amp;gt; 0 $&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For $ x &amp;gt; 0 $, we close the contour in the upper half-plane. The only pole inside this contour is at $ z = i $. Using the residue theorem, we calculate the residue at this pole:&lt;/p&gt;
+
+\[\text{Res}\left(\frac{e^{izx}}{z^2 + 1}, z = i\right) = \lim_{z \to i} (z - i) \frac{e^{izx}}{(z - i)(z + i)} = \frac{e^{ix}}{2i}\]
+
+&lt;p&gt;Applying the residue theorem, we have:&lt;/p&gt;
+
+\[\int_{-\infty}^{\infty} \frac{e^{izx}}{z^2 + 1} dz = 2\pi i \cdot \text{Res} = 2\pi i \cdot \frac{e^{ix}}{2i} = \pi e^{ix}\]
+
+&lt;p&gt;Thus, for $ x &amp;gt; 0 $:&lt;/p&gt;
+
+\[I = \frac{1}{\sqrt{2\pi}} \cdot \pi e^{ix} = \sqrt{\frac{\pi}{2}} e^{ix}\]
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Case 2: $ x &amp;lt; 0 $&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For $ x &amp;lt; 0 $, we close the contour in the lower half-plane. The only pole inside this contour is at $ z = -i $. Calculating the residue at this pole:&lt;/p&gt;
+
+\[\text{Res}\left(\frac{e^{izx}}{z^2 + 1}, z = -i\right) = \lim_{z \to -i} (z + i) \frac{e^{izx}}{(z - i)(z + i)} = \frac{e^{-ix}}{-2i}\]
+
+&lt;p&gt;Applying the residue theorem, we have:&lt;/p&gt;
+
+\[\int_{-\infty}^{\infty} \frac{e^{izx}}{z^2 + 1} dz = 2\pi i \cdot \text{Res} = 2\pi i \cdot \frac{e^{-ix}}{-2i} = -\pi e^{-ix}\]
+
+&lt;p&gt;Thus, for $ x &amp;lt; 0 $:
+\(I = \frac{1}{\sqrt{2\pi}} \cdot \left(-\pi e^{-ix}\right) = -\sqrt{\frac{\pi}{2}} e^{-ix}\)&lt;/p&gt;
+
+&lt;p&gt;Combining both cases, we can write the value of the integral as:&lt;/p&gt;
+
+\[I = \sqrt{\frac{\pi}{2}} e^{i|x|}\]</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">The basic idea of contour integration is to extend the concept of integration from the real line to the complex plane. Instead of integrating a function along a real interval, we integrate it along a path (or contour) in the complex plane. This allows us to use the properties of analytic functions and the residues of poles to evaluate integrals that would be difficult or impossible to compute using standard real analysis techniques. Cauchy’s Integral Theorem</summary></entry><entry><title type="html">JET: English-PRACTICE SET-I</title><link href="http://localhost:4000/SKMU/JET-English-PRACTICE-SET-I" rel="alternate" type="text/html" title="JET: English-PRACTICE SET-I" /><published>2025-12-13T11:00:00+05:30</published><updated>2025-12-13T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-SET-I</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-PRACTICE-SET-I">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;PRACTICE SET-I&lt;/b&gt;&lt;/h1&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -83,18 +238,15 @@
  (c) 50 minutes past 3&lt;br /&gt;
  (d) 55 minutes past 3&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;10.If January 1st, 2007 is Monday, what was the day on 1st January 1995? 
+  &lt;li&gt;
+    &lt;p&gt;If January 1st, 2007 is Monday, what was the day on 1st January 1995? 
 [June–2008]&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(a) Sunday  
-(b) Monday  
-(c) Friday  
-(d) Saturday
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ol&gt;
+    &lt;p&gt;(a) Sunday&lt;br /&gt;
+(b) Monday&lt;br /&gt;
+(c) Friday&lt;br /&gt;
+(d) Saturday&lt;/p&gt;
+  &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;There are five books A, B, C, D and E.&lt;br /&gt;
 Book C lies above D, book E is below A, and B is below E. Which book is at the bottom?&lt;br /&gt;
@@ -2364,66 +2516,4 @@ Every integer has a unique prime factor representation.&lt;/p&gt;
   &lt;li&gt;The gcd or lcm of two numbers&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Factorization is not mere arithmetic; it reveals the internal geometry of numbers.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Number System</summary></entry><entry><title type="html">JET - Paper-I</title><link href="http://localhost:4000/SKMU/lecture/2025/11/28/JET-English.html" rel="alternate" type="text/html" title="JET - Paper-I" /><published>2025-11-28T10:30:00+05:30</published><updated>2025-11-28T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/11/28/JET-English</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/11/28/JET-English.html">&lt;p&gt;These topics will be covered from the subject &lt;strong&gt;General Paper on Teaching &amp;amp; Research Aptitude&lt;/strong&gt; (Code No. 00, Paper-I), and the reading materials can be accessed by clicking on the hyperlinks.&lt;/p&gt;
-
-&lt;p&gt;Join Whatsapp Group: &lt;a href=&quot;https://chat.whatsapp.com/Ga8FGAQFO9d0NAlggvQmzn?mode=hqrc&quot;&gt;Click Here&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;practice-sets&quot;&gt;Practice Sets:&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/SKMU/JET-English-PRACTICE-SET-I&quot;&gt;Practice Set-I&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Unit V. Mathematical Reasoning &amp;amp; Aptitude&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Types of reasoning&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;/SKMU/english/2025/11/28/JET-Paper-1-L1.html&quot;&gt;Number Basics&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;/SKMU/english/2025/12/06/JET-Paper-1-L2.html&quot;&gt;Number series, letter series, codes and relationships&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Mathematical aptitude:
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;/SKMU/JET-English-Lecture-III&quot;&gt;time &amp;amp; distance&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;/SKMU/2025/12/13/JET-Paper-1-L4.html&quot;&gt;ratio&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;proportion&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;percentage&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;fractions&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Profit &amp;amp; loss, interest and discounting, averages&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Unit VII. Data Interpretation&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Sources, acquisition and classification of data&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Quantitative and qualitative data&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Graphical representation: bar-chart, histogram, pie-chart, table-chart, line-chart&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Mapping of data&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Data interpretation&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Data and governance&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="JET" /><summary type="html">These topics will be covered from the subject General Paper on Teaching &amp;amp; Research Aptitude (Code No. 00, Paper-I), and the reading materials can be accessed by clicking on the hyperlinks.</summary></entry></feed>
+&lt;p&gt;Factorization is not mere arithmetic; it reveals the internal geometry of numbers.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Number System</summary></entry></feed>
