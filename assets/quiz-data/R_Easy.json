@@ -46,7 +46,7 @@
     {
       "title": "If the digits of a two-digit number are in the ratio 2:3 and the sum of digits is 10, what is the tens digit?",
       "options": ["2", "3", "4", "5"],
-      "correct": 3
+      "correct": 2
     },
     {
       "title": "If a:b = 7:9, then a/b is equal to:",

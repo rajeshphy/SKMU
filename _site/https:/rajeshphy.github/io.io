@@ -1,32 +1,268 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-14T10:04:55+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Contour Integration</title><link href="http://localhost:4000/SKMU/Contour-Integral/" rel="alternate" type="text/html" title="Contour Integration" /><published>2025-12-14T08:00:00+05:30</published><updated>2025-12-14T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/Contour-Integration</id><content type="html" xml:base="http://localhost:4000/SKMU/Contour-Integral/">&lt;p&gt;The basic idea of contour integration is to extend the concept of integration from the real line to the complex plane. Instead of integrating a function along a real interval, we integrate it along a path (or contour) in the complex plane.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-14T15:42:37+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Contour Integration</title><link href="http://localhost:4000/SKMU/Contour-Integral/" rel="alternate" type="text/html" title="Contour Integration" /><published>2025-12-14T08:00:00+05:30</published><updated>2025-12-14T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/Contour-Integration</id><content type="html" xml:base="http://localhost:4000/SKMU/Contour-Integral/">&lt;p&gt;The basic idea of contour integration is to extend the concept of integration from the real line to the complex plane. Instead of integrating a function along a real interval, we integrate it along a path (or contour) in the complex plane.
 This allows us to use the properties of analytic functions and the residues of poles to evaluate integrals that would be difficult or impossible to compute using standard real analysis techniques.&lt;/p&gt;
+
+&lt;h1 id=&quot;cauchy-riemann-conditions&quot;&gt;Cauchy-Riemann Conditions&lt;/h1&gt;
+
+&lt;p&gt;Having introduced complex functions of a complex variable, we now discuss how to differentiate them. The derivative of a complex function $ f(z) $, similar to that of a real function, is defined as&lt;/p&gt;
+
+\[\lim_{\delta z \to 0} \frac{f(z+\delta z)-f(z)}{(z+\delta z)-z}
+= \lim_{\delta z \to 0} \frac{\delta f}{\delta z}
+= \frac{df}{dz}
+= f&apos;(z),\]
+
+&lt;p&gt;provided that this limit is &lt;strong&gt;independent of the direction&lt;/strong&gt; from which $ \delta z $ approaches zero.&lt;/p&gt;
+
+&lt;p&gt;For real-valued functions, the derivative exists at a point if the right-hand and left-hand limits are equal. In the complex plane, however, the variable $ z $ can approach a point from infinitely many directions. Hence, requiring the limit to be the same in all directions is a much stronger condition.&lt;/p&gt;
+
+&lt;p&gt;Let the complex variable be written as&lt;/p&gt;
+
+\[z = x + iy,\]
+
+&lt;p&gt;where $ x $ and $ y $ are real variables. Small changes in $ x $ and $ y $ produce a change in $ z $ given by&lt;/p&gt;
+
+\[\delta z = \delta x + i\,\delta y .\]
+
+&lt;p&gt;If&lt;/p&gt;
+
+\[f(z) = u(x,y) + i\,v(x,y),\]
+
+&lt;p&gt;then the corresponding change in the function is&lt;/p&gt;
+
+\[\delta f = \delta u + i\,\delta v .\]
+
+&lt;p&gt;Hence,&lt;/p&gt;
+
+\[\frac{\delta f}{\delta z}
+= \frac{\delta u + i\,\delta v}{\delta x + i\,\delta y}.\]
+
+&lt;p&gt;To understand the restriction imposed by the derivative, we evaluate the limit along two different paths (as shown in Fig. 6.4).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;First approach:&lt;/strong&gt;&lt;br /&gt;
+Let $ \delta y = 0 $ and allow $ \delta x \to 0 $. Then&lt;/p&gt;
+
+\[\lim_{\delta z \to 0} \frac{\delta f}{\delta z}
+= \lim_{\delta x \to 0}
+\left( \frac{\delta u}{\delta x}
++ i\,\frac{\delta v}{\delta x} \right)
+= \frac{\partial u}{\partial x}
++ i\,\frac{\partial v}{\partial x},\]
+
+&lt;p&gt;assuming the partial derivatives exist.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Second approach:&lt;/strong&gt;&lt;br /&gt;
+Let $ \delta x = 0 $ and allow $ \delta y \to 0 $. This gives&lt;/p&gt;
+
+\[\lim_{\delta z \to 0} \frac{\delta f}{\delta z}
+= \lim_{\delta y \to 0}
+\left( -i\,\frac{\delta u}{\delta y}
++ \frac{\delta v}{\delta y} \right)
+= -i\,\frac{\partial u}{\partial y}
++ \frac{\partial v}{\partial y}.\]
+
+&lt;p&gt;For the derivative $ df/dz $ to exist, both limits must be equal. By equating the real and imaginary parts, we obtain&lt;/p&gt;
+
+\[\color{Brown}{
+\boxed{
+\frac{\partial u}{\partial x}
+= \frac{\partial v}{\partial y},
+\qquad
+\frac{\partial u}{\partial y}
+= -\,\frac{\partial v}{\partial x}
+}}\]
+
+&lt;p&gt;These equations are known as the &lt;strong&gt;Cauchy–Riemann conditions&lt;/strong&gt;. They play a fundamental role in complex analysis.&lt;/p&gt;
+
+&lt;p&gt;The Cauchy–Riemann conditions are &lt;strong&gt;necessary&lt;/strong&gt; for the derivative of $ f(z) $ to exist. Moreover, if these conditions are satisfied and the partial derivatives of $ u(x,y) $ and $ v(x,y) $ are continuous, then the derivative $ df/dz $ &lt;strong&gt;does exist&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This can be seen by expressing the change in $ f $ as&lt;/p&gt;
+
+\[\delta f
+= \left( \frac{\partial u}{\partial x}
++ i\,\frac{\partial v}{\partial x} \right)\delta x
++ \left( \frac{\partial u}{\partial y}
++ i\,\frac{\partial v}{\partial y} \right)\delta y .\]
+
+&lt;p&gt;&lt;strong&gt;Analytic functions&lt;/strong&gt; are those that are complex differentiable at every point in their domain. Examples include polynomials, exponential functions, and trigonometric functions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example of an analytic function&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Consider the function&lt;/p&gt;
+
+\[f(z) = z^{2}.\]
+
+&lt;p&gt;Writing $ z = x + iy $, we obtain&lt;/p&gt;
+
+\[f(z) = (x + iy)^{2} = (x^{2} - y^{2}) + i(2xy).\]
+
+&lt;p&gt;Hence, the real and imaginary parts are&lt;/p&gt;
+
+\[u(x,y) = x^{2} - y^{2}, \qquad v(x,y) = 2xy.\]
+
+&lt;p&gt;Using the Cauchy–Riemann conditions,&lt;/p&gt;
+
+\[\frac{\partial u}{\partial x} = 2x = \frac{\partial v}{\partial y},
+\qquad
+\frac{\partial u}{\partial y} = -2y = -\,\frac{\partial v}{\partial x}.\]
+
+&lt;p&gt;Thus, the Cauchy–Riemann conditions are satisfied everywhere in the complex plane. Since all the partial derivatives are continuous, we conclude that $ f(z) = z^{2} $ is an &lt;strong&gt;analytic function&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example of a non-analytic function&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now consider the function&lt;/p&gt;
+
+\[f(z) = z^{*},\]
+
+&lt;p&gt;where $ z^{*} $ denotes the complex conjugate of $ z $. Writing $ z = x + iy $, we have&lt;/p&gt;
+
+\[f(z) = x - iy,\]
+
+&lt;p&gt;so that&lt;/p&gt;
+
+\[u(x,y) = x, \qquad v(x,y) = -y.\]
+
+&lt;p&gt;Applying the Cauchy–Riemann conditions,&lt;/p&gt;
+
+\[\frac{\partial u}{\partial x} = 1,
+\qquad
+\frac{\partial v}{\partial y} = -1.\]
+
+&lt;p&gt;Since these quantities are not equal, the Cauchy–Riemann conditions are &lt;strong&gt;not satisfied&lt;/strong&gt;. Therefore, $ f(z) = z^{*} $ is &lt;strong&gt;not analytic&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is worth noting that $ f(z) = z^{*} $ is continuous everywhere in the complex plane, yet it is nowhere differentiable as a complex function. This highlights an important difference between real and complex analysis. In real-variable calculus, the derivative is mainly a local property, describing the behavior of a function near a point. In contrast, the existence of a derivative for a complex function has much stronger consequences.&lt;/p&gt;
+
+&lt;p&gt;For an analytic function, the real and imaginary parts each satisfy Laplace’s equation, and the function possesses derivatives of all orders. Thus, in complex analysis, the derivative not only determines the local behavior of a function but also strongly influences its global behavior.&lt;/p&gt;
+
 &lt;h1 id=&quot;cauchys-integral-theorem&quot;&gt;Cauchy’s Integral Theorem&lt;/h1&gt;
 
 &lt;p&gt;Cauchy’s Integral Theorem states that if a function is analytic (holomorphic) within and on a closed contour, then the integral of the function around that contour is zero:&lt;/p&gt;
 
-\[\oint_C f(z) \, dz = 0\]
+\[\color{Red}{ \boxed{\oint_C f(z) \, dz = 0 }}\]
 
 &lt;p&gt;where $ C $ is a closed contour in the complex plane.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Analytic functions&lt;/strong&gt; are those that are complex differentiable at every point in their domain. Examples include polynomials, exponential functions, and trigonometric functions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contour Integrals&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The integral of a complex function over a contour in the complex plane is defined in close analogy with the Riemann integral of a real function along the real axis. Consider a contour joining two points $z_0$ and $z_0’$. Divide the contour into $n$ small segments by selecting intermediate points&lt;/p&gt;
+
+\[z_0, z_1, z_2, \ldots, z_n=z_0&apos;.\]
+
+&lt;p&gt;On each segment choose an arbitrary point $\zeta_j$ between $z_{j-1}$ and $z_j$. We then form the sum&lt;/p&gt;
+
+\[S_n=\sum_{j=1}^{n} f(\zeta_j)\,(z_j-z_{j-1}).\]
+
+&lt;p&gt;If, in the limit $n\to\infty$, the maximum segment length $|z_j-z_{j-1}|\to 0$ and the limit of $S_n$ exists independently of how the points $z_j$ and $\zeta_j$ are chosen, this limit defines the contour integral&lt;/p&gt;
+
+\[\int_{z_0}^{z_0&apos;} f(z)\,dz .\]
+
+&lt;p&gt;A particularly important case occurs when the contour is closed, that is, when the initial and final points coincide. For a function that possesses an antiderivative (&lt;strong&gt;is analytic in the region enclosed by the contour&lt;/strong&gt;), the contour integral over any closed path vanishes. The reason is that the integral depends only on the endpoints of the path; when these coincide, the net contribution must be zero. This property underlies many results of complex analysis and is a special case of Cauchy’s integral theorem.&lt;/p&gt;
+
+&lt;p&gt;As an illustration, consider integrating $z^n$ around a rectangle with corners $z_1, z_2, z_3, z_4$, traversed in sequence and returning to $z_1$. For $n\neq -1$,&lt;/p&gt;
+
+\[\int z^n\,dz
+=\frac{z^{n+1}}{n+1}\Biggr|_{z_1}^{z_2}
++\frac{z^{n+1}}{n+1}\Biggr|_{z_2}^{z_3}
++\frac{z^{n+1}}{n+1}\Biggr|_{z_3}^{z_4}
++\frac{z^{n+1}}{n+1}\Biggr|_{z_4}^{z_1}.\]
+
+&lt;p&gt;Each corner point appears once as an upper limit and once as a lower limit, so all contributions cancel. Hence,&lt;/p&gt;
+
+\[\oint z^n\,dz=0 \qquad (n\neq -1).\]
 
 &lt;h1 id=&quot;cauchys-integral-formula&quot;&gt;Cauchy’s Integral Formula&lt;/h1&gt;
 
-&lt;p&gt;Cauchy’s Integral Formula provides a way to evaluate integrals of analytic functions around closed contours. It states that if $ f(z) $ is analytic inside and on a simple closed contour $ C $, and $ a $ is a point inside $ C $, then:&lt;/p&gt;
+&lt;p&gt;As in the preceding section, consider a function $f(z)$ that is analytic on and within a closed contour $C$. We wish to prove the fundamental result&lt;/p&gt;
 
-\[f(a) = \frac{1}{2\pi i} \oint_C \frac{f(z)}{z - a} \, dz\]
+\[\boxed{\frac{1}{2\pi i}\oint_C \frac{f(z)}{z-z_0}\,dz=f(z_0),}\]
 
-&lt;p&gt;This formula is particularly useful for evaluating integrals and finding values of analytic functions at specific points.&lt;/p&gt;
+&lt;p&gt;where $z_0$ is any point lying in the interior of the region bounded by $C$. This is the second of the two basic theorems introduced in Section 6.3. Since $z$ lies on the contour $C$ while $z_0$ is strictly inside it, we always have $z-z_0\neq 0$, so the integral is well defined. Although $f(z)$ itself is analytic, the integrand $f(z)/(z-z_0)$ is not analytic at $z=z_0$ unless $f(z_0)=0$.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/Research-IMG/Contour-1.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Deforming the contour as illustrated in figure above, the original contour $C$ is replaced by a new contour consisting of an outer contour and a small circle $C_2$ enclosing the point $z_0$. Since the integrand is analytic everywhere between these two contours, we have&lt;/p&gt;
+
+\[\oint_C \frac{f(z)}{z-z_0}\,dz-\oint_{C_2} \frac{f(z)}{z-z_0}\,dz=0 .\]
+
+&lt;p&gt;Parameterizing the small circle by $z=z_0+r e^{i\theta}$, with $r$ small and traversed counterclockwise, gives&lt;/p&gt;
+
+\[\oint_{C_2} \frac{f(z)}{z-z_0}\,dz
+=\oint_{C_2} \frac{f(z_0+r e^{i\theta})}{r e^{i\theta}}\, i r e^{i\theta}\,d\theta .\]
+
+&lt;p&gt;Taking the limit $r\to 0$ and using the continuity of $f(z)$ at $z=z_0$, we obtain&lt;/p&gt;
+
+\[\oint_{C_2} \frac{f(z)}{z-z_0}\,dz
+=i f(z_0)\int_{0}^{2\pi} d\theta
+=2\pi i\, f(z_0),\]
+
+&lt;p&gt;which establishes the Cauchy integral formula.&lt;/p&gt;
+
+&lt;p&gt;This result is remarkable: the value of an analytic function at any interior point $z_0$ is completely determined by its values on the boundary contour $C$. The situation is closely analogous to Gauss’s law in two dimensions, where an interior charge is determined by a surface integral over the boundary, or to the determination of a function via Green’s functions in boundary-value problems such as Kirchhoff diffraction theory. If, however, the point $z_0$ lies outside the contour $C$, then the integrand is analytic everywhere on and within $C$, and Cauchy’s integral theorem implies that the integral vanishes. Thus,&lt;/p&gt;
+
+\[\frac{1}{2\pi i}\oint_C \frac{f(z)}{z-z_0}\,dz=
+\begin{cases}
+f(z_0), &amp;amp; z_0 \text{ interior to } C,\\
+0, &amp;amp; z_0 \text{ exterior to } C .
+\end{cases}\]
 
 &lt;h1 id=&quot;residue-theorem&quot;&gt;Residue Theorem&lt;/h1&gt;
 
-&lt;p&gt;The Residue Theorem is a powerful tool for evaluating complex integrals. It states that if $ f(z) $ is analytic in a region except for isolated singularities (poles), then the integral of $ f(z) $ around a closed contour $ C $ that encloses these singularities is given by:&lt;/p&gt;
+&lt;p&gt;If the Laurent expansion of a function&lt;/p&gt;
+
+\[f(z)=\sum_{n=-\infty}^{\infty} a_n (z-z_0)^n\]
+
+&lt;p&gt;is integrated term by term around a closed contour that encircles one isolated singular point $z_0$ once in the counterclockwise sense, we obtain&lt;/p&gt;
+
+\[a_n \oint (z-z_0)^n \, dz
+= a_n \frac{(z-z_0)^{n+1}}{n+1}\biggr|_{z_1}^{z_1}
+=0, \qquad n\neq -1 . \tag{1}\]
+
+&lt;p&gt;However, if $n=-1$,&lt;/p&gt;
+
+\[a_{-1} \oint (z-z_0)^{-1} \, dz
+= a_{-1} \oint \frac{i r e^{i\theta}\, d\theta}{r e^{i\theta}}
+= 2\pi i\, a_{-1}. \tag{2}\]
+
+&lt;p&gt;Thus,&lt;/p&gt;
+
+\[\frac{1}{2\pi i}\oint f(z)\, dz = a_{-1}. \tag{3}\]
+
+&lt;p&gt;The constant $a_{-1}$, the coefficient of $(z-z_0)^{-1}$ in the Laurent expansion, is called the &lt;strong&gt;residue&lt;/strong&gt; of $f(z)$ at $z=z_0$.&lt;/p&gt;
+
+&lt;p&gt;A set of isolated singularities can be handled by deforming the contour as shown in figure below. Cauchy’s integral theorem leads to&lt;/p&gt;
+
+\[\oint_C f(z)\, dz
++\oint_{C_0} f(z)\, dz
++\oint_{C_1} f(z)\, dz
++\oint_{C_2} f(z)\, dz
++\cdots = 0 . \tag{4}\]
+
+&lt;p&gt;The circular integral around any given singular point is given by Eq. (3),&lt;/p&gt;
+
+\[\oint_{C_i} f(z)\, dz = -2\pi i\, a_{-1,z_i}, \tag{5}\]
+
+&lt;p&gt;assuming a Laurent expansion about the singular point $z=z_i$. The negative sign arises from the clockwise sense of integration, as shown in figure below.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/Research-IMG/Contour-2.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:40%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Combining Eqs. (4) and (5), we obtain&lt;/p&gt;
+
+\[\boxed{
+\oint_C f(z)\, dz
+= 2\pi i \left(a_{-1,z_0}+a_{-1,z_1}+a_{-1,z_2}+\cdots\right)
+= 2\pi i \times (\text{sum of enclosed residues})
+}\]
+
+&lt;p&gt;This result is known as the &lt;strong&gt;residue theorem&lt;/strong&gt;. The problem of evaluating one or more contour integrals is thereby reduced to the algebraic problem of computing the residues at the enclosed singular points.&lt;/p&gt;
+
+&lt;p&gt;It states that if $ f(z) $ is analytic in a region except for isolated singularities (poles), then the integral of $ f(z) $ around a closed contour $ C $ that encloses these singularities is given by:&lt;/p&gt;
 
 \[\oint_C f(z) \, dz = 2\pi i \sum \text{Res}(f, a_k)\]
 
 &lt;p&gt;where the sum is over all singularities $ a_k $ inside the contour $ C $, and $ \text{Res}(f, a_k) $ is the residue of $ f $ at the singularity $ a_k $.&lt;/p&gt;
 
-&lt;hr /&gt;
 &lt;h1 id=&quot;integrals-in-quantum-mechanics&quot;&gt;Integrals in Quantum Mechanics&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Integral of a Lorentzian Function:&lt;/strong&gt;&lt;/p&gt;
@@ -85,75 +321,67 @@ This allows us to use the properties of analytic functions and the residues of p
 
 \[\int_{-\infty}^{\infty} e^{ix^2} \, dx = \sqrt{\frac{\pi}{2}} (1 + i)\]
 
-&lt;hr /&gt;
-&lt;h1 id=&quot;application-examples-to-real-integrals&quot;&gt;Application Examples to Real Integrals&lt;/h1&gt;
+&lt;h1 id=&quot;application-evaluation-of-a-real-integral-using-contour-integration&quot;&gt;Application: Evaluation of a Real Integral Using Contour Integration&lt;/h1&gt;
 
-&lt;p&gt;Contour integration can be used to evaluate real integrals by extending them into the complex plane. For example, consider the integral:&lt;/p&gt;
+&lt;p&gt;Contour integration can be used to evaluate certain real integrals by extending them into the complex plane. Consider the integral&lt;/p&gt;
 
-\[I = \int_{-\infty}^{\infty} \frac{e^{ix}}{x^2 + 1} \, dx\]
+\[I=\int_{-\infty}^{\infty}\frac{e^{ix}}{x^2+1}\,dx .\]
 
-&lt;p&gt;To evaluate this integral using contour integration, we can consider the complex function:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1: Define the Complex Function&lt;/strong&gt;&lt;/p&gt;
 
-\[f(z) = \frac{e^{iz}}{z^2 + 1}\]
+&lt;p&gt;We associate the given real integral with the complex function&lt;/p&gt;
 
-&lt;p&gt;We can close the contour in the upper half-plane and apply the Residue Theorem to find the value of the integral.&lt;/p&gt;
+\[f(z)=\frac{e^{iz}}{z^2+1},\]
 
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Case 2: $ x &amp;lt; 0 $&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;which has simple poles at&lt;/p&gt;
 
-&lt;p&gt;For $ x &amp;lt; 0 $, we close the contour in the lower half-plane. The only pole inside this contour is at $ p = -i\alpha $. Using the residue theorem, we calculate the residue at this pole:&lt;/p&gt;
+\[z=\pm i .\]
 
-\[\text{Res}\left(\frac{e^{ipx/\hbar}}{p^2 + \alpha^2}, p = -i\alpha\right) = \lim_{p \to -i\alpha} (p + i\alpha) \frac{e^{ipx/\hbar}}{(p - i\alpha)(p + i\alpha)} = \frac{e^{i(-i\alpha)x/\hbar}}{-2i\alpha} = \frac{e^{\alpha x/\hbar}}{-2i\alpha}\]
+&lt;p&gt;&lt;strong&gt;Step 2: Choice of Contour&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Applying the residue theorem, we have:&lt;/p&gt;
+&lt;p&gt;Since&lt;/p&gt;
 
-\[\int_{-\infty}^{\infty} \frac{e^{ipx/\hbar}}{(p^2 + \alpha^2)} dp = 2\pi i \cdot \text{Res} = 2\pi i \cdot \frac{e^{\alpha x/\hbar}}{-2i\alpha} = -\frac{\pi e^{\alpha x/\hbar}}{\alpha}\]
+\[e^{iz}=e^{i(x+iy)}=e^{ix-y},\]
 
-&lt;p&gt;Thus, for $ x &amp;lt; 0 $:&lt;/p&gt;
+&lt;p&gt;the exponential term decays exponentially in the &lt;strong&gt;upper half-plane&lt;/strong&gt; ($y&amp;gt;0$).&lt;br /&gt;
+Hence, we close the contour with a semicircle of radius $R$ in the upper half-plane.&lt;/p&gt;
 
-\[\Psi(x) = \frac{A}{\sqrt{2\pi \hbar}} \cdot \left(-\frac{\pi e^{\alpha x/\hbar}}{\alpha}\right) = -\frac{A \sqrt{\pi}}{\alpha \sqrt{2\hbar}} e^{\alpha x/\hbar}\]
+&lt;p&gt;By Jordan’s lemma, the contribution from the semicircular arc vanishes as $R\to\infty$.&lt;/p&gt;
 
-&lt;p&gt;Combining both cases, we can write the coordinate space wave function as:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 3: Singularities Inside the Contour&lt;/strong&gt;&lt;/p&gt;
 
-\[\Psi(x) = \frac{A \sqrt{\pi}}{\alpha \sqrt{2\hbar}} e^{-\alpha |x|/\hbar}\]
+&lt;p&gt;Only one singularity lies inside the upper half-plane:&lt;/p&gt;
 
-&lt;p&gt;To evaluate this integral, we can use contour integration techniques from complex analysis. The integrand has poles at $ z = i $ and $ z = -i $. Depending on the sign of $ x $, we will close the contour in the upper or lower half-plane.&lt;/p&gt;
+\[z=i .\]
 
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Case 1: $ x &amp;gt; 0 $&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Step 4: Compute the Residue at $z=i$&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;For $ x &amp;gt; 0 $, we close the contour in the upper half-plane. The only pole inside this contour is at $ z = i $. Using the residue theorem, we calculate the residue at this pole:&lt;/p&gt;
+&lt;p&gt;The residue of $f(z)$ at $z=i$ is&lt;/p&gt;
 
-\[\text{Res}\left(\frac{e^{izx}}{z^2 + 1}, z = i\right) = \lim_{z \to i} (z - i) \frac{e^{izx}}{(z - i)(z + i)} = \frac{e^{ix}}{2i}\]
+\[\operatorname{Res}(f,z=i)
+=\lim_{z\to i}(z-i)\frac{e^{iz}}{(z-i)(z+i)}
+=\frac{e^{ii}}{2i}
+=\frac{e^{-1}}{2i}.\]
 
-&lt;p&gt;Applying the residue theorem, we have:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 5: Apply the Residue Theorem&lt;/strong&gt;&lt;/p&gt;
 
-\[\int_{-\infty}^{\infty} \frac{e^{izx}}{z^2 + 1} dz = 2\pi i \cdot \text{Res} = 2\pi i \cdot \frac{e^{ix}}{2i} = \pi e^{ix}\]
+&lt;p&gt;By the residue theorem,&lt;/p&gt;
 
-&lt;p&gt;Thus, for $ x &amp;gt; 0 $:&lt;/p&gt;
+\[\oint f(z)\,dz
+=2\pi i\,\operatorname{Res}(f,z=i)
+=2\pi i\cdot\frac{e^{-1}}{2i}
+=\pi e^{-1}.\]
 
-\[I = \frac{1}{\sqrt{2\pi}} \cdot \pi e^{ix} = \sqrt{\frac{\pi}{2}} e^{ix}\]
+&lt;p&gt;Since the contribution from the semicircular arc vanishes, the contour integral reduces to the original real integral. Therefore,&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Case 2: $ x &amp;lt; 0 $&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
+\[\int_{-\infty}^{\infty}\frac{e^{ix}}{x^2+1}\,dx=\pi e^{-1}.\]
 
-&lt;p&gt;For $ x &amp;lt; 0 $, we close the contour in the lower half-plane. The only pole inside this contour is at $ z = -i $. Calculating the residue at this pole:&lt;/p&gt;
+&lt;h2 id=&quot;final-result&quot;&gt;Final Result&lt;/h2&gt;
 
-\[\text{Res}\left(\frac{e^{izx}}{z^2 + 1}, z = -i\right) = \lim_{z \to -i} (z + i) \frac{e^{izx}}{(z - i)(z + i)} = \frac{e^{-ix}}{-2i}\]
-
-&lt;p&gt;Applying the residue theorem, we have:&lt;/p&gt;
-
-\[\int_{-\infty}^{\infty} \frac{e^{izx}}{z^2 + 1} dz = 2\pi i \cdot \text{Res} = 2\pi i \cdot \frac{e^{-ix}}{-2i} = -\pi e^{-ix}\]
-
-&lt;p&gt;Thus, for $ x &amp;lt; 0 $:
-\(I = \frac{1}{\sqrt{2\pi}} \cdot \left(-\pi e^{-ix}\right) = -\sqrt{\frac{\pi}{2}} e^{-ix}\)&lt;/p&gt;
-
-&lt;p&gt;Combining both cases, we can write the value of the integral as:&lt;/p&gt;
-
-\[I = \sqrt{\frac{\pi}{2}} e^{i|x|}\]</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">The basic idea of contour integration is to extend the concept of integration from the real line to the complex plane. Instead of integrating a function along a real interval, we integrate it along a path (or contour) in the complex plane. This allows us to use the properties of analytic functions and the residues of poles to evaluate integrals that would be difficult or impossible to compute using standard real analysis techniques. Cauchy’s Integral Theorem</summary></entry><entry><title type="html">JET: English-PRACTICE SET-I</title><link href="http://localhost:4000/SKMU/JET-English-PRACTICE-SET-I" rel="alternate" type="text/html" title="JET: English-PRACTICE SET-I" /><published>2025-12-13T11:00:00+05:30</published><updated>2025-12-13T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-SET-I</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-PRACTICE-SET-I">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;PRACTICE SET-I&lt;/b&gt;&lt;/h1&gt;
+\[\boxed{
+\displaystyle
+\int_{-\infty}^{\infty}\frac{e^{ix}}{x^2+1}\,dx=\pi e^{-1}
+}\]</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">The basic idea of contour integration is to extend the concept of integration from the real line to the complex plane. Instead of integrating a function along a real interval, we integrate it along a path (or contour) in the complex plane. This allows us to use the properties of analytic functions and the residues of poles to evaluate integrals that would be difficult or impossible to compute using standard real analysis techniques.</summary></entry><entry><title type="html">JET: English-PRACTICE SET-I</title><link href="http://localhost:4000/SKMU/JET-English-PRACTICE-SET-I" rel="alternate" type="text/html" title="JET: English-PRACTICE SET-I" /><published>2025-12-13T11:00:00+05:30</published><updated>2025-12-13T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-SET-I</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-PRACTICE-SET-I">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;PRACTICE SET-I&lt;/b&gt;&lt;/h1&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
