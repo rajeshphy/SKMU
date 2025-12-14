@@ -515,6 +515,12 @@ tr, td, th { vertical-align: middle; }
 .icon--xing { fill: #005a5f; }
 .icon--youtube { fill: #cd201f; }
 
+.whatsapp-btn { display: inline-flex; align-items: center; gap: 0.5rem; background: #25D366; color: #fff; padding: 0.6rem 0.9rem; border-radius: 6px; text-decoration: none; font-weight: 600; }
+.whatsapp-btn:hover { background: #1fb055; }
+.whatsapp-btn svg { width: 20px; height: 20px; fill: currentColor; flex-shrink: 0; }
+
+.whatsapp-btn-wrapper { display: flex; justify-content: center; margin: 1.5rem 0; }
+
 /* ========================================================================== Page intro ========================================================================== */
 .intro { margin: 1rem 0; padding-top: 2rem; padding-bottom: 2rem; }
 

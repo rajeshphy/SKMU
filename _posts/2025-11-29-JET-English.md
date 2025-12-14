@@ -9,7 +9,15 @@ tags: JET
 These topics will be covered from the subject **General Paper on Teaching & Research Aptitude** (Code No. 00, Paper-I), and the reading materials can be accessed by clicking on the hyperlinks.
 
 
-Join Whatsapp Group: [Click Here](https://chat.whatsapp.com/Ga8FGAQFO9d0NAlggvQmzn?mode=hqrc)
+<div class="whatsapp-btn-wrapper">
+  <a href="https://chat.whatsapp.com/Ga8FGAQFO9d0NAlggvQmzn?mode=hqrc"
+     target="_blank"
+     class="whatsapp-btn">
+    {% include icon-whatsapp.svg %}
+    <span>Join WhatsApp Group</span>
+  </a>
+</div>
+
 
 # Practice Sets:
 - [Practice Set-I](/SKMU/JET-English-PRACTICE-SET-I)
@@ -25,9 +33,7 @@ Join Whatsapp Group: [Click Here](https://chat.whatsapp.com/Ga8FGAQFO9d0NAlggvQm
    - Mathematical aptitude: 
       - [time & distance](/SKMU/JET-English-Lecture-III)
       
-      - [ratio](/SKMU/2025/12/13/JET-Paper-1-L4.html)
-      
-      - proportion
+      - [ratio & proportion](/SKMU/2025/12/13/JET-Paper-1-L4.html)
       
       - percentage  
       
