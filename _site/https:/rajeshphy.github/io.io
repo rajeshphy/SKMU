@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-14T15:42:37+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Contour Integration</title><link href="http://localhost:4000/SKMU/Contour-Integral/" rel="alternate" type="text/html" title="Contour Integration" /><published>2025-12-14T08:00:00+05:30</published><updated>2025-12-14T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/Contour-Integration</id><content type="html" xml:base="http://localhost:4000/SKMU/Contour-Integral/">&lt;p&gt;The basic idea of contour integration is to extend the concept of integration from the real line to the complex plane. Instead of integrating a function along a real interval, we integrate it along a path (or contour) in the complex plane.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-16T00:07:16+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Contour Integration</title><link href="http://localhost:4000/SKMU/Contour-Integral/" rel="alternate" type="text/html" title="Contour Integration" /><published>2025-12-14T08:00:00+05:30</published><updated>2025-12-14T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/Contour-Integration</id><content type="html" xml:base="http://localhost:4000/SKMU/Contour-Integral/">&lt;p&gt;The basic idea of contour integration is to extend the concept of integration from the real line to the complex plane. Instead of integrating a function along a real interval, we integrate it along a path (or contour) in the complex plane.
 This allows us to use the properties of analytic functions and the residues of poles to evaluate integrals that would be difficult or impossible to compute using standard real analysis techniques.&lt;/p&gt;
 
 &lt;h1 id=&quot;cauchy-riemann-conditions&quot;&gt;Cauchy-Riemann Conditions&lt;/h1&gt;
@@ -1058,9 +1058,128 @@ The plot of the coordinate space wave function is shown below with respect to po
 
 &lt;p&gt;This completes the solution of the Schrodinger equation in momentum space for a delta function potential well, yielding both the bound state energy and the corresponding wave functions in momentum and coordinate space.&lt;/p&gt;
 
+&lt;h1 id=&quot;scattering-problem&quot;&gt;Scattering Problem&lt;/h1&gt;
+
+&lt;p&gt;For scattering states with positive energy $ E &amp;gt; 0 $, we can analyze the scattering problem using the momentum space Schrodinger equation (4). Consider an incident plane wave with momentum $ p_0 = \sqrt{2mE} $ with scattering from the delta function potential as given in the previous section.&lt;/p&gt;
+
+\[\left(E-\frac{p^2}{2m}\right) \phi(p) = \frac{V_0}{2\pi \hbar} \int_{-\infty}^{\infty} \phi(p&apos;) dp&apos; \tag{10}\]
+
+&lt;p&gt;Let $E= \frac{p_0^2}{2m}$ and $\alpha=\frac{mV_0}{\pi \hbar}C$, where $C$ is the integral on the right side $ C = \int_{-\infty}^{\infty} \phi(p’) dp’ $. Then (10) becomes:&lt;/p&gt;
+
+\[\left(p_0^2-p^2\right) \phi(p) = \alpha\tag{11}\]
+
+&lt;p&gt;The denominator $p_0^2-p^2$ &lt;strong&gt;vanishes at $p=\pm p_0$&lt;/strong&gt;. Hence $\phi(p)$ is &lt;strong&gt;singular on the real axis&lt;/strong&gt;, and its integral&lt;/p&gt;
+
+\[C=\int_{-\infty}^{\infty}\phi(p)\,dp\]
+
+&lt;p&gt;is not an ordinary Riemann integral. Further, this case is distinct from the bound state case treated earlier as there were no singularities on the real axis do the negative energy. The most general solution for $\phi(p)$ must therefore include delta functions at the singular points to account for the incident and reflected waves in the scattering process.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why the principal value alone is not enough&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you only define&lt;/p&gt;
+
+\[(p_0^2-p^2)^{-1} \;\to\; P[(p_0^2-p^2)^{-1}],\]
+
+&lt;p&gt;you get &lt;strong&gt;one particular solution&lt;/strong&gt;, but not the &lt;em&gt;most general solution&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;In distribution theory:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Whenever a coefficient multiplying $\phi(p)$ vanishes at some points, &lt;strong&gt;delta functions supported at those points may appear in the solution&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Here, since&lt;/p&gt;
+
+\[(p_0^2-p^2)\,\delta(p\mp p_0)=0,\]
+
+&lt;p&gt;delta functions at $p=\pm p_0$ solve the homogeneous equation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Homogeneous vs particular solutions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(a) Homogeneous solutions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Consider&lt;/p&gt;
+
+\[(p_0^2-p^2)\,\phi(p)=0\]
+
+&lt;p&gt;This is satisfied by&lt;/p&gt;
+
+\[\boxed{
+\delta(p-p_0),\qquad \delta(p+p_0)
+}\]
+
+&lt;p&gt;because multiplication by $p_0^2-p^2$ annihilates them.&lt;/p&gt;
+
+&lt;p&gt;These correspond physically to &lt;strong&gt;free incoming and outgoing momentum eigenstates&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(b) Particular solution&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A particular solution of&lt;/p&gt;
+
+\[(p_0^2-p^2)\,\phi(p)=\text{constant}\]
+
+&lt;p&gt;is&lt;/p&gt;
+
+\[\phi(p)=\alpha\,P[(p_0^2-p^2)^{-1}]\]
+
+&lt;p&gt;This is the &lt;strong&gt;scattered (off-shell) contribution&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Combining homogeneous + particular solutions gives&lt;/p&gt;
+
+\[\boxed{
+\phi(p)
+=
+A\,\delta(p-p_0)
++
+B\,\delta(p+p_0)
++
+\alpha\,P[(p_0^2-p^2)^{-1}]
+}
+\tag{12}\]
+
+&lt;p&gt;where $A,B$ are constants representing the amplitudes of the incident and reflected waves, respectively. Integrating (30) over all $p$ gives&lt;/p&gt;
+
+\[\alpha\;\frac{\pi\hbar}{mV_0} = A + B
++ \alpha \int_{-\infty}^{\infty} P[(p_0^2-p^2)^{-1}]\,dp\]
+
+&lt;p&gt;But&lt;/p&gt;
+
+\[\int_{-\infty}^{\infty} P[(p_0^2-p^2)^{-1}]\,dp = 0\]
+
+&lt;p&gt;(by symmetry of the principal value).&lt;/p&gt;
+
+&lt;p&gt;Therefore:&lt;/p&gt;
+
+\[\boxed{
+\alpha=\frac{m V_0}{\pi\hbar}(A+B)
+}
+\tag{13}\]
+
+&lt;p&gt;Now the general solution must be the sum of incident plane waves and scattered waves, i.e.,&lt;/p&gt;
+
+\[\phi(p) = \delta(p - p_0) + f(p) \{2m P (p_0^2 - p^2)^{-1}-\frac{im\pi}{p_0}\left(\delta(p - p_0)+\delta(p + p_0)\right) \} \tag{14}\]
+
+&lt;p&gt;where $ f(p) $ is the scattering amplitude. Comparing (12) and (14), we can identify the coefficients $ A $ and $ B $ in terms of the scattering amplitude $ f(p) $. Comparing the principal value terms in both expressions, we have:&lt;/p&gt;
+
+\[\frac{m V_0}{\pi \hbar }(A+B)=\alpha = 2m f(p) \tag{15}\]
+
+&lt;p&gt;Next, comparing the delta function coefficients, we have:&lt;/p&gt;
+
+\[A = 1 - \frac{im\pi}{p_0} f(p) \tag{16}\]
+
+\[B = - \frac{im\pi}{p_0} f(p) \tag{17}\]
+
+&lt;p&gt;Now substituting (15) into (16) and (17), we can solve for the scattering amplitude $ f(p) $ as:&lt;/p&gt;
+
+\[f(p) = \frac{\frac{V_0}{2\pi \hbar}}{1 + i \frac{m V_0}{p_0\hbar}} \tag{18}\]
+
+&lt;p&gt;Thus, the scattering amplitude for a particle scattering off a delta function potential in momentum space is given by (18). Thus our final expression for the momentum space wave function from (14) becomes:&lt;/p&gt;
+
+\[\phi(p) = \delta(p - p_0) + \frac{\frac{V_0}{2\pi \hbar}}{1 + i \frac{m V_0}{p_0\hbar}} \left\{2m P (p_0^2 - p^2)^{-1}-\frac{im\pi}{p_0}\left(\delta(p - p_0)+\delta(p + p_0)\right) \right\}\]
+
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;contour-integration-techniques-for-evaluating-integrals&quot;&gt;Contour integration techniques for evaluating integrals&lt;/h1&gt;
+&lt;h1 id=&quot;contour-integration-techniques&quot;&gt;Contour integration techniques\&lt;/h1&gt;
 
 &lt;p&gt;Given an wave function in momentum space of the form:&lt;/p&gt;
 
@@ -1073,41 +1192,42 @@ The plot of the coordinate space wave function is shown below with respect to po
 &lt;p&gt;To evaluate this integral, we can use contour integration techniques from complex analysis. The integrand has poles at $ p = i\alpha $ and $ p = -i\alpha $. Depending on the sign of $ x $, we will close the contour in the upper or lower half-plane.&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Case 1: $ x &amp;gt; 0 $&lt;/strong&gt;
-For $ x &amp;gt; 0 $, we close the contour in the upper half-plane. The only pole inside this contour is at $ p = i\alpha $. Using the residue theorem, we calculate the residue at this pole:&lt;/li&gt;
-&lt;/ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Case 1: $ x &amp;gt; 0 $&lt;/strong&gt;
+ For $ x &amp;gt; 0 $, we close the contour in the upper half-plane. The only pole inside this contour is at $ p = i\alpha $. Using the residue theorem, we calculate the residue at this pole:&lt;/p&gt;
 
 \[\text{Res}\left(\frac{e^{ipx/\hbar}}{p^2 + \alpha^2}, p = i\alpha\right) = \lim_{p \to i\alpha} (p - i\alpha) \frac{e^{ipx/\hbar}}{(p - i\alpha)(p + i\alpha)} = \frac{e^{i(i\alpha)x/\hbar}}{2i\alpha} = \frac{e^{-\alpha x/\hbar}}{2i\alpha}\]
 
-&lt;p&gt;Applying the residue theorem, we have:&lt;/p&gt;
+    &lt;p&gt;Applying the residue theorem, we have:&lt;/p&gt;
 
 \[\int_{-\infty}^{\infty} \frac{e^{ipx/\hbar}}{(p^2 + \alpha^2)} dp = 2\pi i \cdot \text{Res} = 2\pi i \cdot \frac{e^{-\alpha x/\hbar}}{2i\alpha} = \frac{\pi e^{-\alpha x/\hbar}}{\alpha}\]
 
-&lt;p&gt;Thus, for $ x &amp;gt; 0 $:&lt;/p&gt;
+    &lt;p&gt;Thus, for $ x &amp;gt; 0 $:&lt;/p&gt;
 
 \[\Psi(x) = \frac{A}{\sqrt{2\pi \hbar}} \cdot \frac{\pi e^{-\alpha x/\hbar}}{\alpha} = \frac{A \sqrt{\pi}}{\alpha \sqrt{2\hbar}} e^{-\alpha x/\hbar}\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Case 2: $ x &amp;lt; 0 $&lt;/strong&gt;&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Case 2: $ x &amp;lt; 0 $&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;For $ x &amp;lt; 0 $, we close the contour in the lower half-plane. The only pole inside this contour is at $ p = -i\alpha $. Calculating the residue at this pole:&lt;/p&gt;
+    &lt;p&gt;For $ x &amp;lt; 0 $, we close the contour in the lower half-plane. The only pole inside this contour is at $ p = -i\alpha $. Calculating the residue at this pole:&lt;/p&gt;
 
 \[\text{Res}\left(\frac{e^{ipx/\hbar}}{p^2 + \alpha^2}, p = -i\alpha\right) = \lim_{p \to -i\alpha} (p + i\alpha) \frac{e^{ipx/\hbar}}{(p - i\alpha)(p + i\alpha)} = \frac{e^{i(-i\alpha)x/\hbar}}{-2i\alpha} = \frac{e^{\alpha x/\hbar}}{-2i\alpha}\]
 
-&lt;p&gt;Applying the residue theorem, we have:&lt;/p&gt;
+    &lt;p&gt;Applying the residue theorem, we have:&lt;/p&gt;
 
 \[\int_{-\infty}^{\infty} \frac{e^{ipx/\hbar}}{(p^2 + \alpha^2)} dp = 2\pi i \cdot \text{Res} = 2\pi i \cdot \frac{e^{\alpha x/\hbar}}{-2i\alpha} = -\frac{\pi e^{\alpha x/\hbar}}{\alpha}\]
 
-&lt;p&gt;Thus, for $ x &amp;lt; 0 $:&lt;/p&gt;
+    &lt;p&gt;Thus, for $ x &amp;lt; 0 $:&lt;/p&gt;
 
 \[\Psi(x) = \frac{A}{\sqrt{2\pi \hbar}} \cdot \left(-\frac{\pi e^{\alpha x/\hbar}}{\alpha}\right) = -\frac{A \sqrt{\pi}}{\alpha \sqrt{2\hbar}} e^{\alpha x/\hbar}\]
 
-&lt;p&gt;Combining both cases, we can write the coordinate space wave function as:&lt;/p&gt;
+    &lt;p&gt;Combining both cases, we can write the coordinate space wave function as:&lt;/p&gt;
 
 \[\Psi(x) = \frac{A \sqrt{\pi}}{\alpha \sqrt{2\hbar}} e^{-\alpha |x|/\hbar}\]
 
-&lt;p&gt;This result shows that the coordinate space wave function decays exponentially with distance from the origin, consistent with the expected behavior for a bound state in a potential well.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">By M. Lieber Received 18 June 1974</summary></entry><entry><title type="html">JET: English-Lecture-III</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-III" rel="alternate" type="text/html" title="JET: English-Lecture-III " /><published>2025-12-12T08:30:00+05:30</published><updated>2025-12-12T08:30:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L3</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-III">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Time &amp;amp; Distance&lt;/b&gt;&lt;/h1&gt;
+    &lt;p&gt;This result shows that the coordinate space wave function decays exponentially with distance from the origin, consistent with the expected behavior for a bound state in a potential well.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">By M. Lieber Received 18 June 1974</summary></entry><entry><title type="html">JET: English-Lecture-III</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-III" rel="alternate" type="text/html" title="JET: English-Lecture-III " /><published>2025-12-12T08:30:00+05:30</published><updated>2025-12-12T08:30:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L3</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-III">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Time &amp;amp; Distance&lt;/b&gt;&lt;/h1&gt;
 
 &lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
   &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
