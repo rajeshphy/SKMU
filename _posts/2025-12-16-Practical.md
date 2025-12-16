@@ -27,7 +27,7 @@ permalink: /Practical/
 - FET Characteristics
 - MOSFET Characteristics
 - UJT Characteristics
-- Transistor Amplifier
+- [Transistor Amplifier](https://be-iitkgp.vlabs.ac.in/exp/ce-amplifier/)
 - [OPAMP - Differentiator and Integrator](https://be-iitkgp.vlabs.ac.in/exp/operational-amplifier/)
 - Hartley Oscillator
 - Characteristics of SCR
