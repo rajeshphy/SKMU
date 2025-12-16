@@ -8,6 +8,9 @@ tags: Additional-Resources
 
 [PG Physics Syllabus](/SKMU/assets/Syllabus/msc-I.pdf)
 
+[PRACTICALS](/SKMU/Practical/)
+
+
 ---
 Supplementary resources for the course are provided below. These resources include textbooks, research papers, and other materials that may be of interest to students.
 

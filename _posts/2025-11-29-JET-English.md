@@ -4,6 +4,7 @@ title: "JET - Paper-I"
 date: 2025-11-28 10:30:00 +0530
 categories: lecture
 tags: JET
+permalink: /JET-English/
 ---
 
 These topics will be covered from the subject **General Paper on Teaching & Research Aptitude** (Code No. 00, Paper-I), and the reading materials can be accessed by clicking on the hyperlinks.

@@ -4,10 +4,20 @@ title: "JET - Physical Science"
 date: 2025-11-03 10:30:00 +0530
 categories: lecture
 tags: JET
+permalink: /JET-Physical-Science/
 ---
 
 These topics will be covered here, and the reading materials can be accessed by clicking on the hyperlinks.
 
+
+<div class="whatsapp-btn-wrapper">
+  <a href="https://chat.whatsapp.com/IU67roYMMwy161ERjJaZUS?mode=hqrt1"
+     target="_blank"
+     class="whatsapp-btn">
+    {% include icon-whatsapp.svg %}
+    <span>Join WhatsApp Group</span>
+  </a>
+</div>
 
 1. Vector Algebra & Calculus
 	- [Vector algebra: addition, scalar and vector products, triple products](/SKMU/physics/mathematics/2022/11/03/JET-Paper-2-L1.html) 
