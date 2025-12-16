@@ -14,11 +14,10 @@ permalink: /Practical/
 
 **Paper V**
 
-- Zener Diode Characteristics
-- Determination of resistance of a given resistor using color code.
-- Characteristics curve of a Zener diode.
-- Input and Output characteristics of a transistor in CE and CB configuration.
-- Half-Wave and Full-Wave Rectifier
+- [Zener Diode Characteristics](https://be-iitkgp.vlabs.ac.in/exp/voltage-regulator/simulation/zenercharac.html)
+- Determination of [resistance](https://be-iitkgp.vlabs.ac.in/exp/ohm-law/simulation/nonohmc.html) of a given resistor using color code.
+- Input and Output characteristics of a transistor in [CE](https://be-iitkgp.vlabs.ac.in/exp/common-emitter-characteristics/) and [CB](https://be-iitkgp.vlabs.ac.in/exp/common-base-characteristics/) configuration.
+- [Half-Wave](https://be-iitkgp.vlabs.ac.in/exp/half-wave-rectification/) and [Full-Wave Rectifier](https://be-iitkgp.vlabs.ac.in/exp/full-wave-rectification/)
 - Study of different waveforms using CRO.
 
 
@@ -29,7 +28,7 @@ permalink: /Practical/
 - MOSFET Characteristics
 - UJT Characteristics
 - Transistor Amplifier
-- OPAMP - Differentiator and Integrator
+- [OPAMP - Differentiator and Integrator](https://be-iitkgp.vlabs.ac.in/exp/operational-amplifier/)
 - Hartley Oscillator
 - Characteristics of SCR
 - Basic Logic Gates from Universal Gates

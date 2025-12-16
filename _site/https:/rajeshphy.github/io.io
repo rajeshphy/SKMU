@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-16T21:22:57+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Practicals</title><link href="http://localhost:4000/SKMU/Practical/" rel="alternate" type="text/html" title="Practicals" /><published>2025-12-16T10:30:00+05:30</published><updated>2025-12-16T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/Practical</id><content type="html" xml:base="http://localhost:4000/SKMU/Practical/">&lt;h1 id=&quot;pg-practicals&quot;&gt;PG Practicals&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-16T21:38:51+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Practicals</title><link href="http://localhost:4000/SKMU/Practical/" rel="alternate" type="text/html" title="Practicals" /><published>2025-12-16T10:30:00+05:30</published><updated>2025-12-16T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/Practical</id><content type="html" xml:base="http://localhost:4000/SKMU/Practical/">&lt;h1 id=&quot;pg-practicals&quot;&gt;PG Practicals&lt;/h1&gt;
 
 &lt;h2 id=&quot;sem-ii&quot;&gt;SEM-II&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Paper V&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Zener Diode Characteristics&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://be-iitkgp.vlabs.ac.in/exp/voltage-regulator/simulation/zenercharac.html&quot;&gt;Zener Diode Characteristics&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Determination of resistance of a given resistor using color code.&lt;/li&gt;
-  &lt;li&gt;Characteristics curve of a Zener diode.&lt;/li&gt;
-  &lt;li&gt;Input and Output characteristics of a transistor in CE and CB configuration.&lt;/li&gt;
-  &lt;li&gt;Half-Wave and Full-Wave Rectifier&lt;/li&gt;
+  &lt;li&gt;Input and Output characteristics of a transistor in &lt;a href=&quot;https://be-iitkgp.vlabs.ac.in/exp/common-emitter-characteristics/&quot;&gt;CE&lt;/a&gt; and &lt;a href=&quot;https://be-iitkgp.vlabs.ac.in/exp/common-base-characteristics/&quot;&gt;CB&lt;/a&gt; configuration.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://be-iitkgp.vlabs.ac.in/exp/half-wave-rectification/&quot;&gt;Half-Wave&lt;/a&gt; and &lt;a href=&quot;https://be-iitkgp.vlabs.ac.in/exp/full-wave-rectification/&quot;&gt;Full-Wave Rectifier&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Study of different waveforms using CRO.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -21,7 +20,7 @@
   &lt;li&gt;MOSFET Characteristics&lt;/li&gt;
   &lt;li&gt;UJT Characteristics&lt;/li&gt;
   &lt;li&gt;Transistor Amplifier&lt;/li&gt;
-  &lt;li&gt;OPAMP - Differentiator and Integrator&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://be-iitkgp.vlabs.ac.in/exp/operational-amplifier/&quot;&gt;OPAMP - Differentiator and Integrator&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Hartley Oscillator&lt;/li&gt;
   &lt;li&gt;Characteristics of SCR&lt;/li&gt;
   &lt;li&gt;Basic Logic Gates from Universal Gates&lt;/li&gt;
