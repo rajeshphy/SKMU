@@ -44,9 +44,9 @@
       "correct": 0
     },
     {
-      "title": "If 1 January 1754 was a Monday in India, what day was 1 January 1800?",
-      "options": ["Tuesday", "Thursday", "Friday", "Saturday"],
-      "correct": 2
+      "title": "If 1 January 1754 was a Tuesday in India, what day was 1 January 1800?",
+      "options": ["Wednesday", "Thursday", "Friday", "Saturday"],
+      "correct": 0
     },
     {
       "title": "Using the post-1753 calendar, 26 January 1950 (Republic Day of India) fell on which day?",
