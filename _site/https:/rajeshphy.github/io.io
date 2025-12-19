@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-19T13:10:59+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: English-Lecture-V</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-V" rel="alternate" type="text/html" title="JET: English-Lecture-V" /><published>2025-12-19T08:00:00+05:30</published><updated>2025-12-19T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L5</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-V">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Calendars&lt;/b&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-20T00:32:45+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: English-Lecture-V</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-V" rel="alternate" type="text/html" title="JET: English-Lecture-V" /><published>2025-12-19T08:00:00+05:30</published><updated>2025-12-19T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L5</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-V">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Calendars&lt;/b&gt;&lt;/h1&gt;
 
 &lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
   &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
@@ -278,7 +278,245 @@ Find the day of the week for 1 January of the next year.&lt;/p&gt;
   &lt;li&gt;Basic Logic Gates from Universal Gates&lt;/li&gt;
   &lt;li&gt;Half Adder and Full Adder&lt;/li&gt;
   &lt;li&gt;AD and DA Converter&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="Practical" /><summary type="html">PG Practicals</summary></entry><entry><title type="html">Contour Integration</title><link href="http://localhost:4000/SKMU/Contour-Integral/" rel="alternate" type="text/html" title="Contour Integration" /><published>2025-12-14T08:00:00+05:30</published><updated>2025-12-14T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/Contour-Integration</id><content type="html" xml:base="http://localhost:4000/SKMU/Contour-Integral/">&lt;p&gt;The basic idea of contour integration is to extend the concept of integration from the real line to the complex plane. Instead of integrating a function along a real interval, we integrate it along a path (or contour) in the complex plane.
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="Practical" /><summary type="html">PG Practicals</summary></entry><entry><title type="html">Road Map: SUSY</title><link href="http://localhost:4000/SKMU/Road-Map-SUSY/" rel="alternate" type="text/html" title="Road Map: SUSY" /><published>2025-12-14T08:00:00+05:30</published><updated>2025-12-14T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/RoadMap</id><content type="html" xml:base="http://localhost:4000/SKMU/Road-Map-SUSY/">&lt;h1 id=&quot;-where-you-stand-important&quot;&gt;🔷 Where You Stand (Important)&lt;/h1&gt;
+
+&lt;p&gt;You have already worked on:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;One-parameter rationally extended harmonic oscillator&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Multi-dimensional rational extensions&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This means you are already familiar with:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Shape invariance beyond textbook forms&lt;/li&gt;
+  &lt;li&gt;Exceptional orthogonal polynomials (EOPs)&lt;/li&gt;
+  &lt;li&gt;Higher-order SUSY / Darboux transformations&lt;/li&gt;
+  &lt;li&gt;Multi-dimensional factorization&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So &lt;strong&gt;do not&lt;/strong&gt; go back to:&lt;br /&gt;
+❌ basic Morse / Coulomb&lt;br /&gt;
+❌ first-order SUSY examples&lt;br /&gt;
+❌ standard shape-invariant lists&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;-high-value-research-directions-strongly-recommended&quot;&gt;🔥 HIGH-VALUE RESEARCH DIRECTIONS (Strongly Recommended)&lt;/h1&gt;
+
+&lt;h2 id=&quot;1️⃣-multi-step--higher-order-susy-in-multi-dimensions&quot;&gt;1️⃣ &lt;strong&gt;Multi-Step / Higher-Order SUSY in Multi-Dimensions&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Natural next step from your work&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;problem-ideas&quot;&gt;Problem ideas:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Construct &lt;strong&gt;two-step and k-step SUSY chains&lt;/strong&gt; for rationally extended oscillators in (D &amp;gt; 1)&lt;/li&gt;
+  &lt;li&gt;Study &lt;strong&gt;spectral degeneracy breaking&lt;/strong&gt; due to higher-order intertwining operators&lt;/li&gt;
+  &lt;li&gt;Explore &lt;strong&gt;reducible vs irreducible SUSY&lt;/strong&gt; in higher dimensions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;📌 &lt;em&gt;Why important:&lt;/em&gt;&lt;br /&gt;
+Almost no systematic classification exists for higher-order SUSY in multi-D systems.&lt;/p&gt;
+
+&lt;p&gt;📌 &lt;em&gt;Possible outcome:&lt;/em&gt;&lt;br /&gt;
+A clean classification paper.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2️⃣-non-hermitian--pt-symmetric-susy-qm&quot;&gt;2️⃣ &lt;strong&gt;Non-Hermitian / PT-Symmetric SUSY-QM&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Hot and under-explored&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;concrete-problems&quot;&gt;Concrete problems:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Construct &lt;strong&gt;PT-symmetric rational extensions&lt;/strong&gt; of:
+    &lt;ul&gt;
+      &lt;li&gt;Harmonic oscillator&lt;/li&gt;
+      &lt;li&gt;Scarf / Rosen–Morse potentials&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Analyze:
+    &lt;ul&gt;
+      &lt;li&gt;Reality of spectrum&lt;/li&gt;
+      &lt;li&gt;SUSY breaking/restoration&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Study &lt;strong&gt;biorthogonal EOPs&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;📌 &lt;em&gt;Why publishable:&lt;/em&gt;&lt;br /&gt;
+PT-SUSY is still poorly understood mathematically.&lt;/p&gt;
+
+&lt;p&gt;📌 &lt;em&gt;Keywords to use:&lt;/em&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PT symmetry&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pseudo-Hermiticity&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;non-Hermitian SUSY&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3️⃣-position-dependent-mass-pdm-susy-qm&quot;&gt;3️⃣ &lt;strong&gt;Position-Dependent Mass (PDM) SUSY-QM&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Very strong direction&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;research-problems&quot;&gt;Research problems:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Construct SUSY partner Hamiltonians with:
+[
+H = -\frac{1}{2}\frac{d}{dx}\left(\frac{1}{m(x)}\frac{d}{dx}\right) + V(x)
+]&lt;/li&gt;
+  &lt;li&gt;Find &lt;strong&gt;shape-invariant PDM systems&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Build &lt;strong&gt;rational extensions with EOPs&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;📌 &lt;em&gt;Why valuable:&lt;/em&gt;&lt;br /&gt;
+Relevant to semiconductors, quantum wells, nanostructures.&lt;/p&gt;
+
+&lt;p&gt;📌 &lt;em&gt;Almost guaranteed publication&lt;/em&gt; if done cleanly.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;4️⃣-matrix-susy-qm-coupled-channels&quot;&gt;4️⃣ &lt;strong&gt;Matrix SUSY-QM (Coupled Channels)&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Advanced but powerful&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;problems&quot;&gt;Problems:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Construct &lt;strong&gt;2×2 or 3×3 SUSY partner Hamiltonians&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Study:
+    &lt;ul&gt;
+      &lt;li&gt;Spin-orbit coupling&lt;/li&gt;
+      &lt;li&gt;Coupled oscillators&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Develop &lt;strong&gt;matrix shape invariance&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;📌 &lt;em&gt;Why rare:&lt;/em&gt;&lt;br /&gt;
+Very few researchers work on &lt;strong&gt;matrix SUSY systematically&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;📌 &lt;em&gt;Ideal if you like algebra.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;5️⃣-conditional-and-broken-shape-invariance&quot;&gt;5️⃣ &lt;strong&gt;Conditional and Broken Shape Invariance&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Mathematically deep&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;possible-projects&quot;&gt;Possible projects:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Systems where shape invariance holds &lt;strong&gt;only for specific parameter values&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Explore &lt;strong&gt;spontaneously broken SUSY&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Study zero-mode disappearance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;📌 &lt;em&gt;Connection:&lt;/em&gt;&lt;br /&gt;
+Links SUSY-QM to phase transitions.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;-modern--emerging-directions-high-impact&quot;&gt;🚀 MODERN / EMERGING DIRECTIONS (High Impact)&lt;/h1&gt;
+
+&lt;h2 id=&quot;6️⃣-susy-qm-on-curved-spaces&quot;&gt;6️⃣ &lt;strong&gt;SUSY-QM on Curved Spaces&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Examples:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SUSY on:
+    &lt;ul&gt;
+      &lt;li&gt;Sphere (S²)&lt;/li&gt;
+      &lt;li&gt;Hyperbolic space&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Rational extensions in curved backgrounds&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;📌 &lt;em&gt;Why interesting:&lt;/em&gt;&lt;br /&gt;
+Links SUSY-QM with gravity and geometry.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;7️⃣-exceptional-orthogonal-polynomials-classification-problems&quot;&gt;7️⃣ &lt;strong&gt;Exceptional Orthogonal Polynomials: Classification Problems&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Instead of building potentials:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Classify &lt;strong&gt;new EOP families&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Study completeness and orthogonality rigorously&lt;/li&gt;
+  &lt;li&gt;Multi-index EOP systems&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;📌 &lt;em&gt;Highly mathematical, very publishable&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;8️⃣-supersymmetry--integrability&quot;&gt;8️⃣ &lt;strong&gt;Supersymmetry + Integrability&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Connection between:
+    &lt;ul&gt;
+      &lt;li&gt;SUSY-QM&lt;/li&gt;
+      &lt;li&gt;Painlevé equations&lt;/li&gt;
+      &lt;li&gt;Lax pairs&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Deformed oscillator algebras&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;📌 &lt;em&gt;Strong journals like JMP, JPA accept these&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;-safe-publishable-project-ideas-if-you-want-fast-output&quot;&gt;📌 SAFE, PUBLISHABLE PROJECT IDEAS (If You Want Fast Output)&lt;/h1&gt;
+
+&lt;p&gt;Here are &lt;strong&gt;three concrete paper-ready problem statements&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;h3 id=&quot;-project-a&quot;&gt;🟢 Project A&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Higher-order supersymmetric constructions of rationally extended multi-dimensional harmonic oscillators”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;-project-b&quot;&gt;🟢 Project B&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“PT-symmetric rational extensions and SUSY breaking in non-Hermitian quantum mechanics”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;-project-c&quot;&gt;🟢 Project C&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Shape-invariant position-dependent mass Hamiltonians via supersymmetric quantum mechanics”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;-how-to-decide-what-to-work-on&quot;&gt;🎯 How to Decide What to Work On&lt;/h1&gt;
+
+&lt;p&gt;Ask yourself:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Algebra lover?&lt;/strong&gt; → Matrix SUSY, higher-order SUSY&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Physics applications?&lt;/strong&gt; → PDM SUSY, PT-SUSY&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pure math elegance?&lt;/strong&gt; → EOP classification&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fast publication?&lt;/strong&gt; → PDM or PT-SUSY&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;-next-step-important&quot;&gt;🧭 Next Step (Important)&lt;/h1&gt;
+
+&lt;p&gt;If you want, I can:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Help you &lt;strong&gt;choose one direction&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Propose a &lt;strong&gt;precise research problem&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Draft a &lt;strong&gt;paper outline&lt;/strong&gt; (Introduction → Results → Appendix)&lt;/li&gt;
+  &lt;li&gt;Suggest &lt;strong&gt;journals&lt;/strong&gt; suited to your topic&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">🔷 Where You Stand (Important)</summary></entry><entry><title type="html">Contour Integration</title><link href="http://localhost:4000/SKMU/Contour-Integral/" rel="alternate" type="text/html" title="Contour Integration" /><published>2025-12-14T08:00:00+05:30</published><updated>2025-12-14T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/Contour-Integration</id><content type="html" xml:base="http://localhost:4000/SKMU/Contour-Integral/">&lt;p&gt;The basic idea of contour integration is to extend the concept of integration from the real line to the complex plane. Instead of integrating a function along a real interval, we integrate it along a path (or contour) in the complex plane.
 This allows us to use the properties of analytic functions and the residues of poles to evaluate integrals that would be difficult or impossible to compute using standard real analysis techniques.&lt;/p&gt;
 
 &lt;h1 id=&quot;cauchy-riemann-conditions&quot;&gt;Cauchy-Riemann Conditions&lt;/h1&gt;
@@ -1854,205 +2092,4 @@ The Δ resistances are given by:&lt;/p&gt;
 
 \[P = \sqrt{3} V_L I_L\cos\phi = 3 V_P I_P \cos\phi.\]
 
-&lt;p&gt;These transformations allow equivalent modeling of transformer windings and other AC systems.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">Star (also called Wye or Y) and Delta (Δ) connections are fundamental network configurations used extensively in electrical engineering, circuit design, and power system analysis. These connections help simplify complex three-phase networks, making them easier to analyze for voltage, current, impedance, and power calculations. The star connection consists of three circuit elements whose one end is connected to a common junction known as the star point or neutral point, while the other ends form the three independent phase terminals. This configuration resembles the shape of the letter ‘Y’. It is widely used in power transmission systems, distribution networks, and balanced load connections due to its ability to provide two voltage levels—phase and line voltages.</summary></entry><entry><title type="html">PG-II-Practical</title><link href="http://localhost:4000/SKMU/PG-II-Practical/" rel="alternate" type="text/html" title="PG-II-Practical" /><published>2025-12-10T10:30:00+05:30</published><updated>2025-12-10T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/PG-II</id><content type="html" xml:base="http://localhost:4000/SKMU/PG-II-Practical/"></content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html"></summary></entry><entry><title type="html">JET: English-Lecture-II</title><link href="http://localhost:4000/SKMU/english/2025/12/06/JET-Paper-1-L2.html" rel="alternate" type="text/html" title="JET: English-Lecture-II " /><published>2025-12-06T10:30:00+05:30</published><updated>2025-12-06T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/english/2025/12/06/JET-Paper-1-L2</id><content type="html" xml:base="http://localhost:4000/SKMU/english/2025/12/06/JET-Paper-1-L2.html">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Number &amp;amp; Letter Series&lt;/b&gt;&lt;/h1&gt;
-
-&lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
-  &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
-              padding:1.2rem 1.5rem;max-width:560px;width:100%;font-family:&apos;Inter&apos;,sans-serif;
-              border:1px solid #d9e6b2;&quot;&gt;
-
-    &lt;h2 style=&quot;text-align:center;color:#3b4c00;margin-bottom:0.8rem;
-               font-size:1.4rem;font-weight:700;&quot;&gt;QUIZ&lt;/h2&gt;
-               
-    &lt;div id=&quot;quiz-level-selector&quot; style=&quot;text-align:center;margin-bottom:1rem;display:flex;justify-content:center;gap:0.4rem;flex-wrap:wrap;&quot;&gt;
-      &lt;button class=&quot;level-btn&quot; data-file=&quot;NLS_Easy.json&quot;&gt;Easy&lt;/button&gt;
-      &lt;button class=&quot;level-btn&quot; data-file=&quot;NLS_Medium.json&quot;&gt;Medium&lt;/button&gt;
-      &lt;button class=&quot;level-btn&quot; data-file=&quot;NLS_Hard.json&quot;&gt;Hard&lt;/button&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;quiz-section&quot; style=&quot;display:none;&quot;&gt;
-      &lt;div class=&quot;quiz-wrapper&quot;&gt;
-  &lt;div id=&quot;quiz-container&quot; data-quiz=&quot;&quot;&gt;
-    &lt;h2 id=&quot;quiz-title&quot; class=&quot;quiz-title&quot;&gt;&lt;/h2&gt;
-
-    &lt;div id=&quot;question-container&quot; class=&quot;question-container&quot;&gt;
-      &lt;div id=&quot;question&quot; class=&quot;question-text&quot;&gt;&lt;/div&gt;
-      &lt;div id=&quot;answer-buttons&quot; class=&quot;options-grid&quot;&gt;
-        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
-        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
-        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
-        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;button id=&quot;next-btn&quot; class=&quot;btn next-btn&quot;&gt;Next&lt;/button&gt;
-    &lt;div id=&quot;result&quot; class=&quot;result&quot;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;!-- ✅ Stylesheet --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/SKMU/assets/css/quiz.css&quot; /&gt;
-
-&lt;!-- ✅ Quiz Script --&gt;
-&lt;script src=&quot;/SKMU/assets/js/quiz.js&quot;&gt;&lt;/script&gt;
-
-
-&lt;!-- ✅ Pass baseurl to JS (for blogs inside subfolders like /SKMU/) --&gt;
-&lt;script&gt;
-  window.quizBaseUrl = &quot;/SKMU&quot;;
-&lt;/script&gt;
-    &lt;/div&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Number series questions involve identifying the hidden pattern governing the progression of numbers. Common patterns include:&lt;/p&gt;
-
-&lt;h3 id=&quot;1-difference-based-patterns&quot;&gt;&lt;strong&gt;1. Difference-Based Patterns&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Consecutive differences:&lt;br /&gt;
-Example:&lt;br /&gt;
-$-1, 5, 15, 29, ?$&lt;br /&gt;
-Differences → $6, 10, 14, …$&lt;br /&gt;
-Pattern: +4 each step.&lt;br /&gt;
-Next difference = $18$ → Next term = $29 + 18 = 47$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;2-multiplicative-patterns&quot;&gt;&lt;strong&gt;2. Multiplicative Patterns&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Numbers progress by multiplication or a mix of × and ± operations:&lt;br /&gt;
-Example:&lt;br /&gt;
-$2, 6, 18, 54, …$&lt;br /&gt;
-Multiply ×3 each time.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-square-cube--polynomial-patterns&quot;&gt;&lt;strong&gt;3. Square, Cube &amp;amp; Polynomial Patterns&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Some series follow:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;$n^2$ or $n^3$&lt;/li&gt;
-  &lt;li&gt;Alternating squares&lt;/li&gt;
-  &lt;li&gt;Quadratic patterns&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Example:&lt;br /&gt;
-$1, 4, 9, 16, 25…$ → perfect squares.&lt;/p&gt;
-
-&lt;h3 id=&quot;4-alternating-patterns&quot;&gt;&lt;strong&gt;4. Alternating Patterns&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Two or more sequences interwoven:
-Example:&lt;br /&gt;
-$5, 7, 12, 14, 19, 21…$&lt;/p&gt;
-
-&lt;p&gt;Odd terms: +7 each time&lt;br /&gt;
-Even terms: +7 each time&lt;/p&gt;
-
-&lt;h3 id=&quot;5-mix-of-operations&quot;&gt;&lt;strong&gt;5. Mix of Operations&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Example:&lt;br /&gt;
-$3, 7, 15, 31…$&lt;br /&gt;
-Pattern: ×2 + 1&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;letter-series-core-concepts&quot;&gt;Letter Series: Core Concepts&lt;/h1&gt;
-
-&lt;p&gt;Letter series questions follow letter-position logic based on the English alphabet:&lt;/p&gt;
-
-&lt;p&gt;A = 1, B = 2, C = 3 … Z = 26&lt;/p&gt;
-
-&lt;h3 id=&quot;1-alphabetic-position-shifts&quot;&gt;&lt;strong&gt;1. Alphabetic Position Shifts&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Example:&lt;br /&gt;
-ABD, DGK, HMS, MTB, SBL, ?&lt;/p&gt;
-
-&lt;p&gt;Break each group:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;First letters: A → D → H → M → S → ?&lt;br /&gt;
-Positions: 1,4,8,13,19 → increments +3,+4,+5,+6 → next +7 → 26 = Z&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Second letters: B → G → M → T → B → ?&lt;br /&gt;
-Positions: 2,7,13,20,2 → increments +5,+6,+7,+8 → next +9 → 2+9=11=K&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Third letters: D → K → S → B → L → ?&lt;br /&gt;
-Positions: 4,11,19,2,12 → increments +7,+8,+9,+10 → next +11&lt;br /&gt;
-12+11=23=W&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So answer = &lt;strong&gt;ZKW&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This pattern—a fixed incremental jump for each position—is common.&lt;/p&gt;
-
-&lt;h2 id=&quot;coding-decoding-letter-series&quot;&gt;Coding-Decoding Letter Series&lt;/h2&gt;
-
-&lt;p&gt;Coding questions modify letters using a rule. The rule may involve:&lt;/p&gt;
-
-&lt;h3 id=&quot;1-forward-or-backward-shifts&quot;&gt;&lt;strong&gt;1. Forward or Backward Shifts&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Example:&lt;br /&gt;
-A → C (shift +2)&lt;/p&gt;
-
-&lt;h3 id=&quot;2-mirroring-against-alphabet&quot;&gt;&lt;strong&gt;2. Mirroring Against Alphabet&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Example:&lt;br /&gt;
-A ↔ Z, B ↔ Y, C ↔ X&lt;/p&gt;
-
-&lt;h3 id=&quot;3-alternating-shifts&quot;&gt;&lt;strong&gt;3. Alternating Shifts&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Example:&lt;br /&gt;
-+2, −1, +3, −2,…&lt;/p&gt;
-
-&lt;h3 id=&quot;4-pattern-seen-in-example-from-image&quot;&gt;&lt;strong&gt;4. Pattern Seen in Example from Image&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;“If VARANASI is coded as WCUESGZQ”&lt;/p&gt;
-
-&lt;p&gt;Steps typically used:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Each letter shifted differently&lt;/li&gt;
-  &lt;li&gt;Pattern repeats&lt;/li&gt;
-  &lt;li&gt;Could be:
-    &lt;ul&gt;
-      &lt;li&gt;+2, −4, +6, −8, …&lt;/li&gt;
-      &lt;li&gt;Or positions reversed&lt;/li&gt;
-      &lt;li&gt;Or vowel-consonant-based coding&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To decode “KOLKATA”, apply same rule letter-by-letter.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;how-to-approach-these-questions-quickly&quot;&gt;How to Approach These Questions Quickly&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-write-alphabet-positions&quot;&gt;&lt;strong&gt;1. Write Alphabet Positions&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Always convert letters:&lt;br /&gt;
-K = 11, O = 15, L = 12, A = 1, etc.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-check-differences&quot;&gt;&lt;strong&gt;2. Check Differences&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;For number series → write &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;−&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;×&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/&lt;/code&gt; differences.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-look-for-consistency&quot;&gt;&lt;strong&gt;3. Look for Consistency&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Patterns rarely change mid-series.&lt;/p&gt;
-
-&lt;h3 id=&quot;4-check-for-alternation&quot;&gt;&lt;strong&gt;4. Check for Alternation&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;If numbers behave strangely → check odd &amp;amp; even positions separately.&lt;/p&gt;
-
-&lt;h3 id=&quot;5-for-coding&quot;&gt;&lt;strong&gt;5. For Coding&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Map original → coded letters and compute exact shifts.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;solved-examples&quot;&gt;Solved Examples&lt;/h2&gt;
-
-&lt;h3 id=&quot;a-number-series&quot;&gt;&lt;strong&gt;(A) Number Series&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;$-1, 5, 15, 29, ?$&lt;br /&gt;
-Differences: $+6, +10, +14, …$&lt;br /&gt;
-Increase = +4&lt;br /&gt;
-Next diff = 18&lt;br /&gt;
-&lt;strong&gt;Answer → 29 + 18 = 47&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;b-letter-series&quot;&gt;&lt;strong&gt;(B) Letter Series&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;ABD, DGK, HMS, MTB, SBL, ?&lt;br /&gt;
-&lt;strong&gt;Answer → ZKW&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;c-coding-decoding&quot;&gt;&lt;strong&gt;(C) Coding-Decoding&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;If VARANASI → WCUESGZQ&lt;br /&gt;
-Apply same shifts to KOLKATA.&lt;br /&gt;
-(Final answer depends on detailed rule → taught above.)&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Number &amp;amp; Letter Series</summary></entry></feed>
+&lt;p&gt;These transformations allow equivalent modeling of transformer windings and other AC systems.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">Star (also called Wye or Y) and Delta (Δ) connections are fundamental network configurations used extensively in electrical engineering, circuit design, and power system analysis. These connections help simplify complex three-phase networks, making them easier to analyze for voltage, current, impedance, and power calculations. The star connection consists of three circuit elements whose one end is connected to a common junction known as the star point or neutral point, while the other ends form the three independent phase terminals. This configuration resembles the shape of the letter ‘Y’. It is widely used in power transmission systems, distribution networks, and balanced load connections due to its ability to provide two voltage levels—phase and line voltages.</summary></entry><entry><title type="html">PG-II-Practical</title><link href="http://localhost:4000/SKMU/PG-II-Practical/" rel="alternate" type="text/html" title="PG-II-Practical" /><published>2025-12-10T10:30:00+05:30</published><updated>2025-12-10T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/PG-II</id><content type="html" xml:base="http://localhost:4000/SKMU/PG-II-Practical/"></content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html"></summary></entry></feed>
