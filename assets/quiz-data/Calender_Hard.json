@@ -1,0 +1,57 @@
+{
+  "title": "Calendar – Tough Level",
+  "description": "Answer all questions. Each carries 1 mark.",
+  "quizSettings": { "isQuiz": true },
+  "questions": [
+    {
+      "title": "What day of the week was 15 August 1947?",
+      "options": ["Thursday", "Friday", "Saturday", "Sunday"],
+      "correct": 1
+    },
+    {
+      "title": "How many odd days are there in 400 years according to the Gregorian calendar?",
+      "options": ["0", "1", "2", "3"],
+      "correct": 0
+    },
+    {
+      "title": "What day of the week was 1 January 1901?",
+      "options": ["Monday", "Wednesday", "Tuesday", "Thursday"],
+      "correct": 2
+    },
+    {
+      "title": "If 1 January 2000 was a Saturday, what day of the week was 1 January 2001?",
+      "options": ["Sunday", "Tuesday", "Saturday", "Monday"],
+      "correct": 3
+    },
+    {
+      "title": "How many leap years are there between 1601 and 2000 (both inclusive)?",
+      "options": ["96", "97", "98", "99"],
+      "correct": 1
+    },
+    {
+      "title": "1 January 1800 in India (after Gregorian adoption) fell on which day?",
+      "options": ["Friday", "Wednesday", "Thursday", "Saturday"],
+      "correct": 2
+    },
+    {
+      "title": "If 1 January 1900 was Monday, what day of the week was 1 January 2000?",
+      "options": ["Saturday", "Friday", "Monday", "Sunday"],
+      "correct": 0
+    },
+    {
+      "title": "How many leap years were there in India between 1801 and 1900 (both inclusive)?",
+      "options": ["24", "25", "26", "27"],
+      "correct": 1
+    },
+    {
+      "title": "If 1 January 1754 was a Monday in India, what day was 1 January 1800?",
+      "options": ["Tuesday", "Thursday", "Friday", "Saturday"],
+      "correct": 2
+    },
+    {
+      "title": "Using the post-1753 calendar, 26 January 1950 (Republic Day of India) fell on which day?",
+      "options": ["Thursday", "Friday", "Saturday", "Wednesday"],
+      "correct": 0
+    }
+  ]
+}

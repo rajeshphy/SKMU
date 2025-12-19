@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-19T10:05:19+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: English-Lecture-V</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-V" rel="alternate" type="text/html" title="JET: English-Lecture-V" /><published>2025-12-19T08:00:00+05:30</published><updated>2025-12-19T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L5</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-V">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Calendars&lt;/b&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-19T12:27:28+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: English-Lecture-V</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-V" rel="alternate" type="text/html" title="JET: English-Lecture-V" /><published>2025-12-19T08:00:00+05:30</published><updated>2025-12-19T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L5</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-V">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Calendars&lt;/b&gt;&lt;/h1&gt;
 
 &lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
   &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
@@ -10,8 +10,8 @@
                
     &lt;div id=&quot;quiz-level-selector&quot; style=&quot;text-align:center;margin-bottom:1rem;display:flex;justify-content:center;gap:0.4rem;flex-wrap:wrap;&quot;&gt;
       &lt;button class=&quot;level-btn&quot; data-file=&quot;Calender_Easy.json&quot;&gt;Easy&lt;/button&gt;
-      &lt;!-- &lt;button class=&quot;level-btn&quot; data-file=&quot;R_Medium.json&quot;&gt;Medium&lt;/button&gt;
-      &lt;button class=&quot;level-btn&quot; data-file=&quot;R_Hard.json&quot;&gt;Hard&lt;/button&gt; --&gt;
+      &lt;!-- &lt;button class=&quot;level-btn&quot; data-file=&quot;Calender_Medium.json&quot;&gt;Medium&lt;/button&gt; --&gt;
+      &lt;button class=&quot;level-btn&quot; data-file=&quot;Calender_Hard.json&quot;&gt;Hard&lt;/button&gt;
     &lt;/div&gt;
 
     &lt;div id=&quot;quiz-section&quot; style=&quot;display:none;&quot;&gt;
@@ -73,6 +73,39 @@ This means that one complete revolution of the Earth around the Sun does not tak
   &lt;li&gt;$1\ \text{ordinary year} = 365\ \text{days} = 52\ \text{weeks} + 1\ \text{day}$&lt;/li&gt;
   &lt;li&gt;$1\ \text{leap year} = 366\ \text{days} = 52\ \text{weeks} + 2\ \text{days}$&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Gregorian correction&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The length of the solar year is approximately $365.2422$ days, which is not exactly $365$ days.&lt;br /&gt;
+If every year were taken as $365$ days, the calendar would lose about $0.2422$ day each year, causing the seasons to slowly shift.&lt;/p&gt;
+
+&lt;p&gt;To correct this, an extra day was added every fourth year, giving an average year length of&lt;/p&gt;
+
+\[365 + \frac{1}{4} = 365.25 \text{ days}.\]
+
+&lt;p&gt;This system was used in the Julian calendar. However, $365.25$ days is still slightly longer than the actual solar year. The small error of about $0.0078$ day per year accumulates and becomes significant over centuries.&lt;/p&gt;
+
+&lt;p&gt;To remove this accumulated error, the &lt;strong&gt;Gregorian calendar&lt;/strong&gt; introduced a further correction:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Every year divisible by $4$ is a leap year.&lt;/li&gt;
+  &lt;li&gt;Every year divisible by $100$ is &lt;strong&gt;not&lt;/strong&gt; a leap year.&lt;/li&gt;
+  &lt;li&gt;Every year divisible by $400$ &lt;strong&gt;is&lt;/strong&gt; a leap year.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thus, century years such as $100$, $200$, and $300$ are not leap years, while $400$ is a leap year.&lt;/p&gt;
+
+&lt;p&gt;Because of this rule, in a cycle of $400$ years:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Leap years = $97$&lt;/li&gt;
+  &lt;li&gt;Ordinary years = $303$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The average length of a Gregorian year becomes&lt;/p&gt;
+
+\[365 + \frac{97}{400} = 365.2425 \text{ days},\]
+
+&lt;p&gt;which is very close to the actual solar year.&lt;br /&gt;
+This correction keeps the calendar aligned with the seasons and ensures that the pattern of days of the week repeats every $400$ years.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;A.D and B.C&lt;/strong&gt;&lt;/p&gt;
 
