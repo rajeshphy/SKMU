@@ -41,7 +41,7 @@
     {
       "title": "How many leap years were there in India between 1801 and 1900 (both inclusive)?",
       "options": ["24", "25", "26", "27"],
-      "correct": 1
+      "correct": 0
     },
     {
       "title": "If 1 January 1754 was a Monday in India, what day was 1 January 1800?",
