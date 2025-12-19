@@ -1,0 +1,107 @@
+{
+  "title": "Calendar – Easy Level",
+  "description": "Answer all questions. Each carries 1 mark.",
+  "quizSettings": { "isQuiz": true },
+  "questions": [
+    {
+      "title": "How many days are there in an ordinary year?",
+      "options": ["364", "365", "366", "367"],
+      "correct": 1
+    },
+    {
+      "title": "How many days are there in a leap year?",
+      "options": ["365", "366", "364", "360"],
+      "correct": 1
+    },
+    {
+      "title": "How many weeks are there in an ordinary year?",
+      "options": ["50 weeks", "51 weeks", "52 weeks", "53 weeks"],
+      "correct": 2
+    },
+    {
+      "title": "An ordinary year has how many odd days?",
+      "options": ["0", "1", "2", "3"],
+      "correct": 1
+    },
+    {
+      "title": "A leap year has how many odd days?",
+      "options": ["0", "1", "2", "3"],
+      "correct": 2
+    },
+    {
+      "title": "Which of the following years is a leap year?",
+      "options": ["2019", "2021", "2020", "2018"],
+      "correct": 2
+    },
+    {
+      "title": "How many days are there in the month of February in a leap year?",
+      "options": ["28", "29", "30", "31"],
+      "correct": 1
+    },
+    {
+      "title": "Which month has 30 days?",
+      "options": ["January", "March", "April", "May"],
+      "correct": 2
+    },
+    {
+      "title": "How many days are there in the month of August?",
+      "options": ["30", "31", "28", "29"],
+      "correct": 1
+    },
+    {
+      "title": "What is the total number of days in a week?",
+      "options": ["5", "6", "7", "8"],
+      "correct": 2
+    },
+    {
+      "title": "If today is Monday, what day will it be after 7 days?",
+      "options": ["Sunday", "Tuesday", "Monday", "Friday"],
+      "correct": 2
+    },
+    {
+      "title": "If today is Sunday, what day will it be after 1 day?",
+      "options": ["Saturday", "Monday", "Friday", "Tuesday"],
+      "correct": 1
+    },
+    {
+      "title": "Which day comes after Friday?",
+      "options": ["Thursday", "Saturday", "Sunday", "Monday"],
+      "correct": 1
+    },
+    {
+      "title": "Which day comes before Monday?",
+      "options": ["Tuesday", "Sunday", "Saturday", "Friday"],
+      "correct": 1
+    },
+    {
+      "title": "How many months are there in a year?",
+      "options": ["10", "11", "12", "13"],
+      "correct": 2
+    },
+    {
+      "title": "Which of the following months has the least number of days in an ordinary year?",
+      "options": ["January", "February", "April", "June"],
+      "correct": 1
+    },
+    {
+      "title": "How many days are there in the first quarter of an ordinary year (Jan–Mar)?",
+      "options": ["89", "90", "91", "92"],
+      "correct": 1
+    },
+    {
+      "title": "Which year comes immediately after 1 B.C.?",
+      "options": ["0 A.D.", "2 B.C.", "1 A.D.", "2 A.D."],
+      "correct": 2
+    },
+    {
+      "title": "How many odd days are there in 14 days?",
+      "options": ["0", "1", "2", "7"],
+      "correct": 0
+    },
+    {
+      "title": "If a date falls on Tuesday, what day will it be after 14 days?",
+      "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "correct": 1
+    }
+  ]
+}

@@ -35,6 +35,10 @@ These topics will be covered from the subject **General Paper on Teaching & Rese
       - [time & distance](/SKMU/JET-English-Lecture-III)
       
       - [ratio & proportion](/SKMU/2025/12/13/JET-Paper-1-L4.html)
+
+      - [Calendars](/SKMU/JET-English-Lecture-V)
+
+      - [Clocks](/SKMU/JET-English-Lecture-VI)
       
       - percentage  
       
