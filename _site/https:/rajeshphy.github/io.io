@@ -1,4 +1,336 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-20T00:32:45+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">JET: English-Lecture-V</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-V" rel="alternate" type="text/html" title="JET: English-Lecture-V" /><published>2025-12-19T08:00:00+05:30</published><updated>2025-12-19T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L5</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-V">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Calendars&lt;/b&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-22T13:03:21+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Scattering: Partial Wave Analysis</title><link href="http://localhost:4000/SKMU/Scattering-Partial-Wave/" rel="alternate" type="text/html" title="Scattering: Partial Wave Analysis" /><published>2025-12-22T10:47:26+05:30</published><updated>2025-12-22T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/Partial-Wave</id><content type="html" xml:base="http://localhost:4000/SKMU/Scattering-Partial-Wave/">&lt;p&gt;Partial wave analysis is a fundamental method in quantum scattering theory used to analyze the interaction of a particle with a localized potential by exploiting the rotational symmetry of the problem. When a quantum particle of definite momentum is incident on a scattering center, its wavefunction far from the interaction region can be expressed as a superposition of an incoming plane wave and an outgoing spherical wave.&lt;/p&gt;
+
+\[\psi(\mathbf{x}) = e^{i\mathbf{k}\cdot\mathbf{x}} + f(\mathbf{k}, \mathbf{k&apos;} )\frac{e^{ikr}}{r},\]
+
+&lt;p&gt;where $ f(\mathbf{k}, \mathbf{k’} ) $ is the scattering amplitude, $ \mathbf{k} $ is the incident wavevector, and $ \mathbf{k’} $ is the scattered wavevector. Although the plane wave description is convenient, it obscures the angular momentum structure inherent in central-force scattering. Partial wave analysis resolves this difficulty by decomposing the incident plane wave into spherical waves of definite angular momentum, known as partial waves.&lt;/p&gt;
+
+&lt;p&gt;The key physical idea behind partial wave analysis is that for a spherically symmetric potential, angular momentum is conserved. The example of such potentials includes nuclear, atomic, and molecular scattering processes are functions of the radial distance $ r $ alone:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nuclear Potential (Square Well)&lt;/strong&gt;&lt;/p&gt;
+
+\[V_N(r)=
+\begin{cases}
+- V_0, &amp;amp; r &amp;lt; R, \\
+0, &amp;amp; r \ge R .
+\end{cases}\]
+
+&lt;p&gt;&lt;strong&gt;Coulomb Potential&lt;/strong&gt;&lt;/p&gt;
+
+\[V_C(r)=\frac{Z_1 Z_2 e^2}{4\pi \epsilon_0\, r}\]
+
+&lt;p&gt;&lt;strong&gt;Resonance (Gaussian) Potential&lt;/strong&gt;&lt;/p&gt;
+
+\[V_R(r)=-V_0 \exp\!\left[-\frac{(r-R)^2}{a^2}\right]\]
+
+&lt;p&gt;As a result, each angular momentum channel labeled by the quantum number $ l $ evolves independently under the action of the scattering potential. The scattering process modifies only the phase of each partial wave, leaving its amplitude unchanged at large distances. These modifications are encoded in quantities called phase shifts $ \delta_l $, which contain complete information about the scattering dynamics for elastic scattering.&lt;/p&gt;
+
+&lt;p&gt;At sufficiently large distances from the scattering center, where the potential vanishes, the radial part of the wavefunction behaves like a free spherical wave. The effect of the interaction manifests itself solely as a shift in the phase of the outgoing wave relative to the incoming one. Thus, partial wave analysis provides a powerful framework for understanding scattering phenomena in terms of physically transparent quantities such as phase shifts, angular momentum contributions, and interference between different angular momentum channels.&lt;/p&gt;
+
+&lt;p&gt;This method is especially important in &lt;strong&gt;low-energy scattering&lt;/strong&gt;, where only a finite number of partial waves contribute significantly to the scattering amplitude. In the extreme low-energy limit, the scattering is dominated by the $ s $-wave ($ l = 0 $) contribution, leading to isotropic scattering. At higher energies, additional partial waves become relevant, producing angular dependence in the scattering cross-section.&lt;/p&gt;
+
+&lt;h2 id=&quot;mathematical-formulation&quot;&gt;Mathematical Formulation&lt;/h2&gt;
+
+&lt;p&gt;Consider a particle incident on a localized, spherically symmetric potential. Far from the scattering center, the incident wave can be represented as a plane wave&lt;/p&gt;
+
+\[\phi(\mathbf{x}) = e^{i\mathbf{k}\cdot\mathbf{x}}.\]
+
+&lt;p&gt;Using the expansion of a plane wave in terms of spherical harmonics, we write&lt;/p&gt;
+
+\[e^{i\mathbf{k}\cdot\mathbf{x}} = \sum_{l=0}^{\infty}\sum_{m=-l}^{l} C_{lm}\, j_l(kr)\, Y_{lm}(\theta,\phi),\]
+
+&lt;p&gt;where $ j_l(kr) $ are spherical Bessel functions and $ Y_{lm}(\theta,\phi) $ are spherical harmonics. Since the incident plane wave is azimuthally symmetric about the direction of $ \mathbf{k} $, only the $ m=0 $ terms contribute. The expansion reduces to&lt;/p&gt;
+
+\[e^{i\mathbf{k}\cdot\mathbf{x}} = \sum_{l=0}^{\infty} C_l\, j_l(kr)\, P_l(\cos\theta),\]
+
+&lt;p&gt;where $ P_l(\cos\theta) $ are Legendre polynomials and&lt;/p&gt;
+
+\[C_l = (2l+1)i^l.\]
+
+&lt;p&gt;For large $ r $, the asymptotic form of the spherical Bessel function is&lt;/p&gt;
+
+\[j_l(kr) \approx \frac{\sin(kr - l\pi/2)}{kr}
+= \frac{1}{2ikr}\left[e^{i(kr-l\pi/2)} - e^{-i(kr-l\pi/2)}\right].\]
+
+&lt;p&gt;Substituting this into the plane wave expansion gives&lt;/p&gt;
+
+\[e^{i\mathbf{k}\cdot\mathbf{x}}
+= \frac{1}{2ik}\sum_{l=0}^{\infty} C_l
+\left[
+\frac{e^{i(kr-l\pi/2)}}{r}
+-
+\frac{e^{-i(kr-l\pi/2)}}{r}
+\right] P_l(\cos\theta).\]
+
+&lt;p&gt;The full scattering wavefunction far from the potential is written as&lt;/p&gt;
+
+\[\psi(\mathbf{x}) = e^{i\mathbf{k}\cdot\mathbf{x}} + f(\theta)\frac{e^{ikr}}{r},\]
+
+&lt;p&gt;where $ f(\theta) $ is the scattering amplitude. The effect of the potential is to shift the phase of each outgoing partial wave by an amount $ \delta_l $, without changing its magnitude. Incorporating this phase shift, the wavefunction becomes&lt;/p&gt;
+
+\[\psi(\mathbf{x}) =
+\frac{1}{2ik}\sum_{l=0}^{\infty} C_l
+\left[
+\frac{e^{i(kr-l\pi/2)+2i\delta_l}}{r}
+-
+\frac{e^{-i(kr-l\pi/2)}}{r}
+\right] P_l(\cos\theta).\]
+
+&lt;p&gt;Rewriting the outgoing term,&lt;/p&gt;
+
+\[e^{i(kr-l\pi/2)+2i\delta_l}
+= e^{ikr}(-i)^l e^{i2\delta_l},\]
+
+&lt;p&gt;the wavefunction becomes&lt;/p&gt;
+
+\[\psi(\mathbf{x}) =
+\frac{1}{2ik}\sum_{l=0}^{\infty} C_l
+\left[
+\frac{e^{ikr}}{r}(-i)^l e^{i2\delta_l}
+-
+\frac{e^{-i(kr-l\pi/2)}}{r}
+\right] P_l(\cos\theta).\]
+
+&lt;p&gt;Comparing the coefficient of $ e^{ikr}/r $ with the definition of the scattering amplitude, we identify&lt;/p&gt;
+
+\[f(\theta) =
+\frac{1}{2ik}\sum_{l=0}^{\infty} C_l (-i)^l
+\left(e^{i2\delta_l}-1\right) P_l(\cos\theta).\]
+
+&lt;p&gt;Using the identity&lt;/p&gt;
+
+\[\frac{e^{i2\delta_l}-1}{2i} = e^{i\delta_l}\sin\delta_l,\]
+
+&lt;p&gt;and substituting $ C_l=(2l+1)i^l $, we obtain&lt;/p&gt;
+
+\[f(\theta) =
+\frac{1}{k}\sum_{l=0}^{\infty} (2l+1)\,
+e^{i\delta_l}\sin\delta_l\, P_l(\cos\theta).\]
+
+&lt;p&gt;The differential scattering cross-section is therefore&lt;/p&gt;
+
+\[\frac{d\sigma}{d\Omega}
+=
+\left|
+\frac{1}{k}
+\sum_{l=0}^{\infty}
+(2l+1)\,
+e^{i\delta_l}\sin\delta_l\,
+P_l(\cos\theta)
+\right|^2.\]
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;deductions&quot;&gt;Deductions&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Each partial wave labeled by angular momentum quantum number $ l $ scatters independently and contributes additively to the total scattering amplitude.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The entire effect of the scattering potential in elastic scattering is contained in the phase shifts $ \delta_l $, making them the fundamental physical observables.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At very low energies, higher angular momentum states are suppressed, and the scattering is dominated by the $ s $-wave ($ l=0 $) contribution.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Resonant scattering occurs when a phase shift rapidly varies through $ \pi/2 $, producing sharp enhancements in the scattering cross-section.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The total cross-section can be expressed solely in terms of phase shifts, demonstrating the completeness and predictive power of the partial wave formalism.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="Scattering," /><category term="Quantum" /><category term="Mechanics," /><category term="Partial" /><category term="Wave" /><category term="Analysis," /><category term="Phase" /><category term="Shifts," /><category term="Rutherford" /><category term="Scattering," /><category term="Born" /><category term="Approximation" /><summary type="html">Partial wave analysis is a fundamental method in quantum scattering theory used to analyze the interaction of a particle with a localized potential by exploiting the rotational symmetry of the problem. When a quantum particle of definite momentum is incident on a scattering center, its wavefunction far from the interaction region can be expressed as a superposition of an incoming plane wave and an outgoing spherical wave.</summary></entry><entry><title type="html">JET: English-Lecture-VI</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-VI" rel="alternate" type="text/html" title="JET: English-Lecture-VI" /><published>2025-12-20T08:00:00+05:30</published><updated>2025-12-20T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L6</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-VI">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Clock&lt;/b&gt;&lt;/h1&gt;
+
+&lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
+  &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
+              padding:1.2rem 1.5rem;max-width:560px;width:100%;font-family:&apos;Inter&apos;,sans-serif;
+              border:1px solid #d9e6b2;&quot;&gt;
+
+    &lt;h2 style=&quot;text-align:center;color:#3b4c00;margin-bottom:0.8rem;
+               font-size:1.4rem;font-weight:700;&quot;&gt;QUIZ&lt;/h2&gt;
+               
+    &lt;div id=&quot;quiz-level-selector&quot; style=&quot;text-align:center;margin-bottom:1rem;display:flex;justify-content:center;gap:0.4rem;flex-wrap:wrap;&quot;&gt;
+      &lt;button class=&quot;level-btn&quot; data-file=&quot;R_Easy.json&quot;&gt;Easy&lt;/button&gt;
+      &lt;button class=&quot;level-btn&quot; data-file=&quot;R_Medium.json&quot;&gt;Medium&lt;/button&gt;
+      &lt;button class=&quot;level-btn&quot; data-file=&quot;R_Hard.json&quot;&gt;Hard&lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;div id=&quot;quiz-section&quot; style=&quot;display:none;&quot;&gt;
+      &lt;div class=&quot;quiz-wrapper&quot;&gt;
+  &lt;div id=&quot;quiz-container&quot; data-quiz=&quot;&quot;&gt;
+    &lt;h2 id=&quot;quiz-title&quot; class=&quot;quiz-title&quot;&gt;&lt;/h2&gt;
+
+    &lt;div id=&quot;question-container&quot; class=&quot;question-container&quot;&gt;
+      &lt;div id=&quot;question&quot; class=&quot;question-text&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;answer-buttons&quot; class=&quot;options-grid&quot;&gt;
+        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
+        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
+        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
+        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;button id=&quot;next-btn&quot; class=&quot;btn next-btn&quot;&gt;Next&lt;/button&gt;
+    &lt;div id=&quot;result&quot; class=&quot;result&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- ✅ Stylesheet --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/SKMU/assets/css/quiz.css&quot; /&gt;
+
+&lt;!-- ✅ Quiz Script --&gt;
+&lt;script src=&quot;/SKMU/assets/js/quiz.js&quot;&gt;&lt;/script&gt;
+
+
+&lt;!-- ✅ Pass baseurl to JS (for blogs inside subfolders like /SKMU/) --&gt;
+&lt;script&gt;
+  window.quizBaseUrl = &quot;/SKMU&quot;;
+&lt;/script&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;clock&quot;&gt;Clock&lt;/h2&gt;
+
+&lt;p&gt;A clock is a device used to measure and indicate time. An ordinary analog clock has &lt;strong&gt;two hands&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Hour hand (H.H.)&lt;/strong&gt; — the shorter hand, which shows the hour&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Minute hand (M.H.)&lt;/strong&gt; — the longer hand, which shows the minutes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The clock face is divided into:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;12 equal hour divisions&lt;/strong&gt;, numbered from 1 to 12&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;60 equal minute divisions&lt;/strong&gt; around the dial&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Since the clock has 60 minute divisions and only 12 hour numbers, each hour number is separated by:&lt;/p&gt;
+
+\[\frac{60}{12} = 5 \text{ minute divisions}\]
+
+&lt;p&gt;&lt;strong&gt;Angular Movement&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A complete rotation around the clock dial corresponds to a full circle:&lt;/p&gt;
+
+\[1 \text{ complete circle} = 360^\circ\]
+
+&lt;p&gt;Hence:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;One minute division corresponds to&lt;/p&gt;
+
+\[\frac{360^\circ}{60} = 6^\circ\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Five minute divisions (distance between two consecutive hour numbers) correspond to&lt;/p&gt;
+
+\[6^\circ \times 5 = 30^\circ\]
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Therefore:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The &lt;strong&gt;hour hand moves $30^\circ$ in one hour&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In one minute:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hour hand moves&lt;/p&gt;
+
+\[\frac{30^\circ}{60} = \frac{1}{2}^\circ\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Minute hand moves&lt;/p&gt;
+
+\[6^\circ\]
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thus, in one minute, the &lt;strong&gt;minute hand gains over the hour hand&lt;/strong&gt;:&lt;/p&gt;
+
+\[6^\circ - \frac{1}{2}^\circ = 5\frac{1}{2}^\circ\]
+
+&lt;p&gt;This relative gain is the key idea used in solving all clock problems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Relative Motion of Hands&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Since the minute hand gains $5\frac{1}{2}^\circ$ per minute over the hour hand, in one hour (60 minutes) it gains:&lt;/p&gt;
+
+\[5\frac{1}{2}^\circ \times 60 = 330^\circ\]
+
+&lt;p&gt;As a full circle is $360^\circ$, the remaining angle is:&lt;/p&gt;
+
+\[360^\circ - 330^\circ = 30^\circ\]
+
+&lt;p&gt;This shows that the relative position of the two hands repeats after the minute hand gains $360^\circ$ over the hour hand.&lt;/p&gt;
+
+&lt;p&gt;Hence:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Any particular relative position of the two hands occurs &lt;strong&gt;11 times in 12 hours&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Special Positions of Clock Hands&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Certain positions of the hands are of special importance:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Coincidence&lt;/strong&gt;: both hands overlap and are in the same direction&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Opposite direction&lt;/strong&gt;: hands are $180^\circ$ apart, corresponding to 30 minute divisions&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Right angle&lt;/strong&gt;: hands are $90^\circ$ apart, corresponding to 15 minute divisions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From the relative motion analysis, the following standard results are obtained:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;In every hour, the hands &lt;strong&gt;coincide once&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;In 12 hours, the hands coincide &lt;strong&gt;11 times&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;In a day (24 hours), the hands coincide &lt;strong&gt;22 times&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;In 12 hours, the hands are in opposite directions &lt;strong&gt;11 times&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;In 12 hours, the hands are at right angles &lt;strong&gt;22 times&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;In one hour, the hands are at right angles &lt;strong&gt;2 times&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;In one hour, the hands are in opposite directions &lt;strong&gt;once&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;In a day, the hands are at right angles &lt;strong&gt;44 times&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Time Between Coincidences&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Since the hands coincide 11 times in 12 hours, the time between two successive coincidences is:&lt;/p&gt;
+
+\[\frac{12 \times 60}{11} = 65\frac{5}{11}\ \text{minutes}\]
+
+&lt;p&gt;This value is taken as the &lt;strong&gt;standard interval&lt;/strong&gt; between coincidences for a correct clock.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If the hands coincide in &lt;strong&gt;less than&lt;/strong&gt; $65\frac{5}{11}$ minutes, the clock is said to be &lt;strong&gt;fast&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;If the hands coincide in &lt;strong&gt;more than&lt;/strong&gt; $65\frac{5}{11}$ minutes, the clock is said to be &lt;strong&gt;slow&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Fast and Slow Clock&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A clock is said to be:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Fast&lt;/strong&gt;, if it shows a time ahead of the correct time&lt;br /&gt;
+Example: Showing &lt;strong&gt;6:10&lt;/strong&gt; when the correct time is &lt;strong&gt;6:00&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Slow&lt;/strong&gt;, if it shows a time behind the correct time&lt;br /&gt;
+Example: Showing &lt;strong&gt;5:50&lt;/strong&gt; when the correct time is &lt;strong&gt;6:00&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If the hands of a clock coincide at an interval of $x$ minutes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;When $x &amp;lt; 65\frac{5}{11}$, the clock is &lt;strong&gt;fast&lt;/strong&gt; and the time gained per hour is:&lt;/p&gt;
+
+\[\frac{65\frac{5}{11} - x}{x}\ \text{minutes}\]
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;When $x &amp;gt; 65\frac{5}{11}$, the clock is &lt;strong&gt;slow&lt;/strong&gt; and the time lost per hour is:&lt;/p&gt;
+
+\[\frac{x - 65\frac{5}{11}}{x}\ \text{minutes}\]
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These relations are frequently used in numerical problems involving gain or loss of time in clocks.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Clock</summary></entry><entry><title type="html">JET: English-Lecture-V</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-V" rel="alternate" type="text/html" title="JET: English-Lecture-V" /><published>2025-12-19T08:00:00+05:30</published><updated>2025-12-19T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L5</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-V">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Calendars&lt;/b&gt;&lt;/h1&gt;
 
 &lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
   &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
@@ -1928,168 +2260,4 @@ Speed = $300/20 = 15\text{ m/s}$&lt;/p&gt;
 &lt;p&gt;Downstream time for 36 km if $u = 12, v = 3$:&lt;br /&gt;
 Speed = $15\text{ km/h}$&lt;/p&gt;
 
-\[T = \frac{36}{15} = 2.4\text{ hours}\]</content><author><name>Rajesh Kumar</name></author><summary type="html">Time &amp;amp; Distance</summary></entry><entry><title type="html">Star &amp;amp; Delta Connection</title><link href="http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta.html" rel="alternate" type="text/html" title="Star &amp; Delta Connection" /><published>2025-12-10T10:30:00+05:30</published><updated>2025-12-10T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta</id><content type="html" xml:base="http://localhost:4000/SKMU/lecture/2025/12/10/Star-Delta.html">&lt;p&gt;Star (also called Wye or Y) and Delta (Δ) connections are fundamental network configurations used extensively in electrical engineering, circuit design, and power system analysis. These connections help simplify complex three-phase networks, making them easier to analyze for voltage, current, impedance, and power calculations. The star connection consists of three circuit elements whose one end is connected to a common junction known as the star point or neutral point, while the other ends form the three independent phase terminals. This configuration resembles the shape of the letter ‘Y’. It is widely used in power transmission systems, distribution networks, and balanced load connections due to its ability to provide two voltage levels—phase and line voltages.&lt;/p&gt;
-
-&lt;p&gt;In contrast, the delta connection forms a closed loop that resembles a triangle. Here, each of the three elements connects end-to-end such that the junction of any two elements forms a phase terminal. Delta connections do not have a neutral point, and all three wires carry the phase currents. This setup is commonly found in motor windings, transformers for high-power applications, and circuits requiring higher starting torque or robustness under unbalanced loads. One of the main advantages of delta configuration is that the line voltage and phase voltage remain equal, simplifying certain types of power analysis.&lt;/p&gt;
-
-&lt;p&gt;The importance of star and delta connections extends beyond resistive networks; they are equally applicable to capacitors and inductors. The transformation between star and delta (and vice versa) helps reduce complex circuit networks into simpler equivalent circuits. For resistors, the star-to-delta (Y–Δ) and delta-to-star (Δ–Y) transformations allow conversion of networks that cannot be simplified using series or parallel rules alone. These transformations are vital tools in network analysis, especially when dealing with bridge circuits or irregular mesh topologies.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/img/Electronics/Star-Delta-Conversion.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:100%; height:auto;&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Similarly, capacitors and inductors also follow analogous transformation rules, although the formulas differ due to the impedance behavior of reactive components. In a star-connected capacitor network, equivalent capacitance behaves differently compared to a delta-connected network—mainly reversing the mathematical pattern seen in resistors. For inductors, since the inductive reactance is proportional to frequency, star–delta transformations are especially useful in AC circuit analysis, resonant circuits, impedance matching, and filter design.&lt;/p&gt;
-
-&lt;p&gt;In three-phase systems, star and delta connections significantly influence the resulting voltages, currents, and power distribution. For example, in star connections, the line voltage is √3 times the phase voltage, allowing systems to operate at lower insulation requirements since individual elements experience lower voltage. Meanwhile, delta connections provide higher line currents for the same element rating due to the √3 factor difference between line and phase currents. These relationships influence the design of power transmission systems, motor starting methods, and transformer windings. Star connections are generally preferred for long-distance transmission due to lower power loss, while delta connections are more suitable for short-distance, high-power applications.&lt;/p&gt;
-
-&lt;h1 id=&quot;three-phase-electrical-terms&quot;&gt;Three-Phase Electrical Terms&lt;/h1&gt;
-
-&lt;p&gt;In three-phase electrical engineering, several key terms describe how voltages and currents behave depending on whether the system is connected in a &lt;strong&gt;Star (Y)&lt;/strong&gt; or &lt;strong&gt;Delta (Δ)&lt;/strong&gt; configuration. The proper understanding of &lt;em&gt;line voltage&lt;/em&gt;, &lt;em&gt;phase voltage&lt;/em&gt;, &lt;em&gt;line current&lt;/em&gt;, &lt;em&gt;phase current&lt;/em&gt;, &lt;em&gt;neutral point&lt;/em&gt;, and &lt;em&gt;phase sequence&lt;/em&gt; is essential for analyzing power systems, transformers, motors, and three-phase loads. These terms determine the magnitude of electrical quantities delivered to devices, the insulation required, the current distribution, and the total power transfer capability of the system. Because three-phase systems consist of three sinusoidal voltages displaced by 120° from one another, the way these voltages are connected affects the resulting relationship between line and phase quantities.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/img/Electronics/LV-Star-Connection.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:auto;&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Line Voltage ( $ V_L $ )&lt;/strong&gt; refers to the voltage measured between any two of the three line conductors in a three-phase system (e.g., between R–Y, Y–B, or B–R). This is the voltage typically available for industrial loads or for interconnection between electrical equipment.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/img/Electronics/PV-Star-Connection.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:80%; height:auto;&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Phase Voltage ( $ V_P $ )&lt;/strong&gt;, however, is the voltage appearing across a single phase element of the load or transformer winding. In a star-connected system, the phase voltage is lower because each phase is connected from the line to the neutral point. This relationship creates the well-known equation $ V_L = \sqrt{3}\, V_P $ as shown in figure below.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/img/Electronics/PV-Phase.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;In delta systems, the phase voltage is directly across each closed-loop branch, which also happens to be the voltage between any two lines, making $ V_L = V_P $.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Line Current ( $ I_L $ )&lt;/strong&gt; is the current flowing through each of the line conductors.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Phase Current ( $ I_P $ )&lt;/strong&gt; is the current flowing through each individual load element (resistor, inductor, capacitor, or transformer winding). In star connections, since each line conductor is directly connected to one of the phase windings, line and phase currents are identical: $ I_L = I_P $. In a delta connection, each line conductor supplies the current for two branches of the delta loop, resulting in the relationship $ I_L = \sqrt{3}\, I_P $. Thus, delta systems carry higher line currents but operate at the same voltage in each branch.&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;neutral point&lt;/strong&gt; exists only in star connections, where the three phase ends meet. It provides a return path for unbalanced loads and allows both single-phase and three-phase voltages to be supplied simultaneously. Delta connections lack a neutral, meaning loads must be balanced to avoid circulating currents. Another important term is the &lt;strong&gt;phase sequence&lt;/strong&gt;, which refers to the order in which voltages reach their maximum value (e.g., R-Y-B or R-B-Y). Phase sequence determines the direction of rotation of three-phase motors and ensures proper synchronisation between generators and power grids.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Three-phase power&lt;/strong&gt; also depends on these quantities. The total power delivered is given by:&lt;/p&gt;
-
-\[P = \sqrt{3}\, V_L I_L \cos\phi = 3 V_P I_P \cos\phi,\]
-
-&lt;p&gt;showing the equivalence of star and delta formulas when correct relations are applied. These relationships form the foundation of power system engineering and allow safe, reliable, and predictable operation of three-phase equipment.&lt;/p&gt;
-
-&lt;h3 id=&quot;derivation-of-line-and-phase-voltage-relation-in-star-y-connection&quot;&gt;&lt;strong&gt;Derivation of Line and Phase Voltage Relation in Star (Y) Connection&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;In a star system, phase voltage is between a line conductor and neutral:&lt;/p&gt;
-
-\[V_{RN} = V_P,\quad V_{YN} = V_P,\quad V_{BN} = V_P.\]
-
-&lt;p&gt;Line voltage is measured between two lines, e.g., between R and Y:&lt;/p&gt;
-
-\[V_{RY} = V_{RN} - V_{YN}.\]
-
-&lt;p&gt;Represent phase voltages as 120°-displaced phasors:&lt;/p&gt;
-
-\[V_{RN} = V_P \angle 0^\circ,\quad
-V_{YN} = V_P \angle -120^\circ.\]
-
-&lt;p&gt;Thus,&lt;/p&gt;
-
-\[V_{RY} = V_P\angle 0^\circ - V_P\angle -120^\circ.\]
-
-&lt;p&gt;Compute magnitude:&lt;/p&gt;
-
-\[|V_{RY}| = \sqrt{V_P^2 + V_P^2 - 2V_P^2\cos(120^\circ)}
-= \sqrt{3V_P^2} = \sqrt{3}V_P.\]
-
-&lt;p&gt;Hence,&lt;/p&gt;
-
-\[V_L = \sqrt{3}\, V_P.\]
-
-&lt;h3 id=&quot;derivation-of-line-and-phase-current-relation-in-delta-δ-connection&quot;&gt;&lt;strong&gt;Derivation of Line and Phase Current Relation in Delta (Δ) Connection&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;In delta, phase voltage = line voltage:&lt;/p&gt;
-
-\[V_{P} = V_L.\]
-
-&lt;p&gt;But each line current is the vector sum of currents of two delta branches:&lt;/p&gt;
-
-\[I_L = |I_{12} - I_{31}|.\]
-
-&lt;p&gt;Using phasor separation of 120°:&lt;/p&gt;
-
-\[I_L = \sqrt{3} I_P.\]
-
-&lt;p&gt;Thus delta carries larger line current.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;stardelta-yδ-transformation-for-resistors&quot;&gt;&lt;strong&gt;Star–Delta (Y–Δ) Transformation for Resistors&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;Consider a star network with resistances $ R_1, R_2, R_3 $ connected to a central neutral point. The equivalent delta network contains resistances $ R_{12}, R_{23}, R_{31} $.&lt;br /&gt;
-The Δ resistances are given by:&lt;/p&gt;
-
-\[R_{12} = \frac{R_1 R_2 + R_2 R_3 + R_3 R_1}{R_3},\]
-
-\[R_{23} = \frac{R_1 R_2 + R_2 R_3 + R_3 R_1}{R_1},\]
-
-\[R_{31} = \frac{R_1 R_2 + R_2 R_3 + R_3 R_1}{R_2}.\]
-
-&lt;p&gt;Conversely, the Y resistances from Δ network:&lt;/p&gt;
-
-\[R_1 = \frac{R_{12} R_{31}}{R_{12} + R_{23} + R_{31}},\]
-
-\[R_2 = \frac{R_{12} R_{23}}{R_{12} + R_{23} + R_{31}},\]
-
-\[R_3 = \frac{R_{23} R_{31}}{R_{12} + R_{23} + R_{31}}.\]
-
-&lt;h3 id=&quot;stardelta-transformation-for-capacitors&quot;&gt;&lt;strong&gt;Star–Delta Transformation for Capacitors&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;For capacitors, since their equivalent impedance behaves inversely to capacitance:&lt;/p&gt;
-
-\[C_{12} = \frac{C_1 C_2}{C_1 + C_2 + C_3},\]
-
-\[C_{23} = \frac{C_2 C_3}{C_1 + C_2 + C_3},\]
-
-\[C_{31} = \frac{C_3 C_1}{C_1 + C_2 + C_3}.\]
-
-&lt;p&gt;The reverse Δ–Y transformation:&lt;/p&gt;
-
-\[C_1 = \frac{C_{12} + C_{31} - C_{23}}{2},\]
-
-\[C_2 = \frac{C_{12} + C_{23} - C_{31}}{2},\]
-
-\[C_3 = \frac{C_{23} + C_{31} - C_{12}}{2}.\]
-
-&lt;h3 id=&quot;stardelta-transformation-for-inductors&quot;&gt;&lt;strong&gt;Star–Delta Transformation for Inductors&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;Inductors follow the same pattern as resistors because inductive reactance $ X_L = \omega L $ is proportional to $ L $:&lt;/p&gt;
-
-\[L_{12} = \frac{L_1 L_2 + L_2 L_3 + L_3 L_1}{L_3},\]
-
-\[L_{23} = \frac{L_1 L_2 + L_2 L_3 + L_3 L_1}{L_1},\]
-
-\[L_{31} = \frac{L_1 L_2 + L_2 L_3 + L_3 L_1}{L_2}.\]
-
-&lt;p&gt;Reverse transformation:&lt;/p&gt;
-
-\[L_1 = \frac{L_{12} L_{31}}{L_{12} + L_{23} + L_{31}}, \quad \text{etc.}\]
-
-&lt;h3 id=&quot;transformer-star-and-delta-relationships&quot;&gt;&lt;strong&gt;Transformer Star and Delta Relationships&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;For three-phase transformers:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Star (Y):&lt;/strong&gt;
-\(V_L = \sqrt{3} V_P, \quad I_L = I_P\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Delta (Δ):&lt;/strong&gt;
-\(V_L = V_P, \quad I_L = \sqrt{3} I_P\)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Three-phase power:&lt;/p&gt;
-
-\[P = \sqrt{3} V_L I_L\cos\phi = 3 V_P I_P \cos\phi.\]
-
-&lt;p&gt;These transformations allow equivalent modeling of transformer windings and other AC systems.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">Star (also called Wye or Y) and Delta (Δ) connections are fundamental network configurations used extensively in electrical engineering, circuit design, and power system analysis. These connections help simplify complex three-phase networks, making them easier to analyze for voltage, current, impedance, and power calculations. The star connection consists of three circuit elements whose one end is connected to a common junction known as the star point or neutral point, while the other ends form the three independent phase terminals. This configuration resembles the shape of the letter ‘Y’. It is widely used in power transmission systems, distribution networks, and balanced load connections due to its ability to provide two voltage levels—phase and line voltages.</summary></entry><entry><title type="html">PG-II-Practical</title><link href="http://localhost:4000/SKMU/PG-II-Practical/" rel="alternate" type="text/html" title="PG-II-Practical" /><published>2025-12-10T10:30:00+05:30</published><updated>2025-12-10T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/PG-II</id><content type="html" xml:base="http://localhost:4000/SKMU/PG-II-Practical/"></content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html"></summary></entry></feed>
+\[T = \frac{36}{15} = 2.4\text{ hours}\]</content><author><name>Rajesh Kumar</name></author><summary type="html">Time &amp;amp; Distance</summary></entry></feed>
