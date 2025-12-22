@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-22T14:51:41+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Scattering: Partial Wave Analysis</title><link href="http://localhost:4000/SKMU/Scattering-Partial-Wave/" rel="alternate" type="text/html" title="Scattering: Partial Wave Analysis" /><published>2025-12-22T10:47:26+05:30</published><updated>2025-12-22T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/Partial-Wave</id><content type="html" xml:base="http://localhost:4000/SKMU/Scattering-Partial-Wave/">&lt;p&gt;Partial wave analysis is a fundamental method in quantum scattering theory used to analyze the interaction of a particle with a localized potential by exploiting the rotational symmetry of the problem. When a quantum particle of definite momentum is incident on a scattering center, its wavefunction far from the interaction region can be expressed as a superposition of an incoming plane wave and an outgoing spherical wave.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-22T15:26:14+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Scattering: Partial Wave Analysis</title><link href="http://localhost:4000/SKMU/Scattering-Partial-Wave/" rel="alternate" type="text/html" title="Scattering: Partial Wave Analysis" /><published>2025-12-22T10:47:26+05:30</published><updated>2025-12-22T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/Partial-Wave</id><content type="html" xml:base="http://localhost:4000/SKMU/Scattering-Partial-Wave/">&lt;p&gt;Partial wave analysis is a fundamental method in quantum scattering theory used to analyze the interaction of a particle with a localized potential by exploiting the rotational symmetry of the problem. When a quantum particle of definite momentum is incident on a scattering center, its wavefunction far from the interaction region can be expressed as a superposition of an incoming plane wave and an outgoing spherical wave.&lt;/p&gt;
 
 \[\psi(\mathbf{x}) = e^{i\mathbf{k}\cdot\mathbf{x}} + f(\mathbf{k}, \mathbf{k&apos;} )\frac{e^{ikr}}{r},\]
 
@@ -138,7 +138,196 @@ P_l(\cos\theta)
   &lt;li&gt;
     &lt;p&gt;The total cross-section can be expressed solely in terms of phase shifts, demonstrating the completeness and predictive power of the partial wave formalism.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="Scattering," /><category term="Quantum" /><category term="Mechanics," /><category term="Partial" /><category term="Wave" /><category term="Analysis," /><category term="Phase" /><category term="Shifts," /><category term="Rutherford" /><category term="Scattering," /><category term="Born" /><category term="Approximation" /><summary type="html">Partial wave analysis is a fundamental method in quantum scattering theory used to analyze the interaction of a particle with a localized potential by exploiting the rotational symmetry of the problem. When a quantum particle of definite momentum is incident on a scattering center, its wavefunction far from the interaction region can be expressed as a superposition of an incoming plane wave and an outgoing spherical wave.</summary></entry><entry><title type="html">Chokes and Transformers</title><link href="http://localhost:4000/SKMU/Chokes-Transformers/" rel="alternate" type="text/html" title="Chokes and Transformers" /><published>2025-12-22T10:30:00+05:30</published><updated>2025-12-22T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/Transformer</id><content type="html" xml:base="http://localhost:4000/SKMU/Chokes-Transformers/">&lt;p&gt;Chokes and transformers are fundamental electromagnetic components widely used in electrical and electronic systems, particularly in power supplies, communication circuits, and signal-conditioning networks. Both devices operate on the principles of electromagnetic induction and magnetic flux linkage, yet they serve distinct functional roles within circuits. A &lt;strong&gt;choke&lt;/strong&gt; is essentially an inductor designed primarily to impede alternating current (AC) while allowing direct current (DC) to pass with minimal resistance. In contrast, a &lt;strong&gt;transformer&lt;/strong&gt; is a static electrical device that transfers electrical energy between two or more circuits through mutual induction, usually with the purpose of changing voltage or current levels, or providing electrical isolation.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="Scattering," /><category term="Quantum" /><category term="Mechanics," /><category term="Partial" /><category term="Wave" /><category term="Analysis," /><category term="Phase" /><category term="Shifts," /><category term="Rutherford" /><category term="Scattering," /><category term="Born" /><category term="Approximation" /><summary type="html">Partial wave analysis is a fundamental method in quantum scattering theory used to analyze the interaction of a particle with a localized potential by exploiting the rotational symmetry of the problem. When a quantum particle of definite momentum is incident on a scattering center, its wavefunction far from the interaction region can be expressed as a superposition of an incoming plane wave and an outgoing spherical wave.</summary></entry><entry><title type="html">RF and AF Oscillators</title><link href="http://localhost:4000/SKMU/RF-AF-Oscillators/" rel="alternate" type="text/html" title="RF and AF Oscillators" /><published>2025-12-22T10:30:00+05:30</published><updated>2025-12-22T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/RF-AF</id><content type="html" xml:base="http://localhost:4000/SKMU/RF-AF-Oscillators/">&lt;p&gt;Oscillators are fundamental electronic circuits capable of generating periodic waveforms without the need for an external input signal. They operate by converting direct current (DC) power into alternating current (AC) signals through the use of active devices such as transistors, operational amplifiers, or vacuum tubes, in conjunction with passive components like resistors, capacitors, and inductors. Depending on the frequency range of the generated signal, oscillators are broadly classified into Audio Frequency (AF) oscillators and Radio Frequency (RF) oscillators. AF oscillators typically generate signals in the range of approximately 20 Hz to 20 kHz, which corresponds to the human audible spectrum. These oscillators are widely used in audio signal generators, public address systems, audio testing equipment, and musical instruments. RF oscillators, on the other hand, operate at much higher frequencies, typically from hundreds of kilohertz to several gigahertz, and form the backbone of radio communication systems, including transmitters, receivers, radar, television broadcasting, and wireless communication technologies.&lt;/p&gt;
+
+&lt;p&gt;The essential physical principle underlying all oscillators is positive feedback combined with frequency-selective networks. For sustained oscillations to occur, the feedback signal must reinforce the original signal in both magnitude and phase. This requirement is quantitatively described by the Barkhausen criterion, which states that the magnitude of the loop gain must be unity and the net phase shift around the loop must be an integral multiple of $2\pi$.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/RF-AF-1.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Block diagram of a feedback oscillator&lt;/p&gt;
+
+&lt;p&gt;AF oscillators generally employ RC (resistor-capacitor) networks for frequency selection because inductors are bulky and inefficient at low frequencies. Typical AF oscillators include the RC phase-shift oscillator, Wien bridge oscillator, and Twin-T oscillator. RF oscillators, by contrast, rely primarily on LC (inductor-capacitor) resonant circuits or distributed circuit elements, as these are well-suited for high-frequency operation. Common RF oscillators include the Hartley oscillator, Colpitts oscillator, Clapp oscillator, and crystal-controlled oscillators.&lt;/p&gt;
+
+&lt;p&gt;The mathematical foundation of both AF and RF oscillators is based on feedback theory. Consider a linear amplifier with open-loop gain $A(\omega)$ and a feedback network with transfer function $\beta(\omega)$. The total loop gain is given by&lt;/p&gt;
+
+\[L(\omega) = A(\omega)\beta(\omega).\]
+
+&lt;p&gt;For sustained oscillations, the Barkhausen criterion requires&lt;/p&gt;
+
+\[|L(\omega_0)| = 1 \quad \text{and} \quad \arg[L(\omega_0)] = 2\pi n,\]
+
+&lt;p&gt;where $\omega_0$ is the angular frequency of oscillation and $n$ is an integer.&lt;/p&gt;
+
+&lt;h3 id=&quot;rc-phase-shift-oscillator-af-oscillator&quot;&gt;RC Phase-Shift Oscillator (AF Oscillator)&lt;/h3&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/RF-AF-3.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; RC phase-shift network used in AF oscillators.&lt;/p&gt;
+
+&lt;p&gt;An RC phase-shift oscillator typically consists of an inverting amplifier (providing a phase shift of $\pi$) and a feedback network composed of three identical RC sections, each contributing a phase shift. The total phase shift from the RC network must be $\pi$, so that the overall phase shift around the loop is $2\pi$.&lt;/p&gt;
+
+&lt;p&gt;For a single RC section, the phase shift is&lt;/p&gt;
+
+\[\phi = \tan^{-1}(\omega RC).\]
+
+&lt;p&gt;For three identical sections,&lt;/p&gt;
+
+\[3\phi = \pi \quad \Rightarrow \quad \phi = \frac{\pi}{3}.\]
+
+&lt;p&gt;Thus,&lt;/p&gt;
+
+\[\tan\left(\frac{\pi}{3}\right) = \omega RC \quad \Rightarrow \quad \omega = \frac{1}{\sqrt{3}RC}.\]
+
+&lt;p&gt;Hence, the frequency of oscillation is&lt;/p&gt;
+
+\[f = \frac{1}{2\pi\sqrt{3}RC}.\]
+
+&lt;p&gt;The magnitude condition yields the required gain of the amplifier. For three RC sections, the attenuation of the feedback network is $1/29$, so the amplifier gain must satisfy&lt;/p&gt;
+
+\[A \geq 29.\]
+
+&lt;h3 id=&quot;lc-oscillator-rf-oscillator&quot;&gt;LC Oscillator (RF Oscillator)&lt;/h3&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/RF-AF-2.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:40%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Figure 3:&lt;/strong&gt; LC tank circuit used in RF oscillators.&lt;/p&gt;
+
+&lt;p&gt;Consider an LC tank circuit consisting of an inductor $L$ and a capacitor $C$. The impedance of the inductor is $j\omega L$, and that of the capacitor is $-j/(\omega C)$. At resonance, the net reactance is zero:&lt;/p&gt;
+
+\[\omega L = \frac{1}{\omega C}.\]
+
+&lt;p&gt;Solving for $\omega$,&lt;/p&gt;
+
+\[\omega_0 = \frac{1}{\sqrt{LC}}.\]
+
+&lt;p&gt;Therefore, the frequency of oscillation is&lt;/p&gt;
+
+\[f_0 = \frac{1}{2\pi\sqrt{LC}}.\]
+
+&lt;p&gt;In practical RF oscillators such as the Colpitts oscillator, the feedback network is realized using a capacitive voltage divider. Let the capacitors be $C_1$ and $C_2$. The effective capacitance of the tank circuit is&lt;/p&gt;
+
+\[C_{\text{eq}} = \frac{C_1 C_2}{C_1 + C_2}.\]
+
+&lt;p&gt;Thus, the oscillation frequency becomes&lt;/p&gt;
+
+\[f_0 = \frac{1}{2\pi\sqrt{L C_{\text{eq}}}}.\]
+
+&lt;p&gt;The gain condition is satisfied by ensuring that the amplifier compensates for losses in the LC circuit. Any deviation from resonance results in a phase mismatch, suppressing oscillations at unwanted frequencies. This frequency-selective behavior is central to RF oscillator stability.&lt;/p&gt;
+
+&lt;h2 id=&quot;deductions&quot;&gt;Deductions&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;AF oscillators primarily use RC networks, while RF oscillators rely on LC or crystal-based resonant circuits due to frequency-dependent component behavior.&lt;/li&gt;
+  &lt;li&gt;The Barkhausen criterion provides a universal condition for oscillation, independent of the specific circuit topology.&lt;/li&gt;
+  &lt;li&gt;Frequency stability in RF oscillators is more critical than in AF oscillators, leading to the widespread use of crystal oscillators.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">Oscillators are fundamental electronic circuits capable of generating periodic waveforms without the need for an external input signal. They operate by converting direct current (DC) power into alternating current (AC) signals through the use of active devices such as transistors, operational amplifiers, or vacuum tubes, in conjunction with passive components like resistors, capacitors, and inductors. Depending on the frequency range of the generated signal, oscillators are broadly classified into Audio Frequency (AF) oscillators and Radio Frequency (RF) oscillators. AF oscillators typically generate signals in the range of approximately 20 Hz to 20 kHz, which corresponds to the human audible spectrum. These oscillators are widely used in audio signal generators, public address systems, audio testing equipment, and musical instruments. RF oscillators, on the other hand, operate at much higher frequencies, typically from hundreds of kilohertz to several gigahertz, and form the backbone of radio communication systems, including transmitters, receivers, radar, television broadcasting, and wireless communication technologies.</summary></entry><entry><title type="html">Capacitors</title><link href="http://localhost:4000/SKMU/Capacitors/" rel="alternate" type="text/html" title="Capacitors" /><published>2025-12-22T10:30:00+05:30</published><updated>2025-12-22T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/Capacitors</id><content type="html" xml:base="http://localhost:4000/SKMU/Capacitors/">&lt;p&gt;A capacitor is a fundamental passive electronic component used to store electrical energy in the form of an electric field. It consists essentially of two conducting surfaces (plates) separated by an insulating medium known as a dielectric. When a potential difference is applied across the plates, equal and opposite charges accumulate on them, giving rise to an electric field within the dielectric. The ability of a capacitor to store charge per unit potential difference is quantified by its capacitance, measured in farads (F). Capacitors are indispensable in both DC and AC circuits and play a crucial role in signal processing, power conditioning, filtering, timing, coupling, decoupling, and energy storage.&lt;/p&gt;
+
+&lt;p&gt;In practical electronic systems, capacitors are used to block direct current while allowing alternating current to pass, smooth out voltage fluctuations in power supplies, tune resonant circuits in radios and communication devices, and provide temporary energy storage in pulsed systems. The behavior of a capacitor depends not only on its capacitance value but also on its dielectric material, construction, voltage rating, frequency response, and temperature stability. These factors give rise to a wide variety of capacitor types, each optimized for specific applications.&lt;/p&gt;
+
+&lt;p&gt;Capacitors can broadly be classified based on their dielectric material and construction. Common types include ceramic capacitors, electrolytic capacitors, tantalum capacitors, mica capacitors, paper capacitors, and film capacitors. Each type exhibits distinct electrical characteristics such as dielectric constant, loss tangent, leakage current, equivalent series resistance (ESR), and tolerance. For example, ceramic capacitors are widely used for high-frequency applications due to their low inductance and small size, while electrolytic capacitors are preferred in power supply circuits for their large capacitance values.&lt;/p&gt;
+
+&lt;p&gt;An important practical aspect of capacitors is their identification and rating, particularly for small capacitors where printed numerical values may not be feasible. Colour coding provides a standardized method of indicating capacitance value, tolerance, and sometimes voltage rating using colored bands or dots, similar in concept to resistor colour coding. Understanding capacitor colour codes is essential for circuit assembly, maintenance, and troubleshooting, especially in laboratory and educational settings.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/Capacitor-1.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Schematic of a parallel-plate capacitor showing plates and dielectric.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/Capacitor-2.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; Different capacitor types: ceramic disc, electrolytic capacitor, mica capacitor, and variable capacitor.&lt;/p&gt;
+
+&lt;h3 id=&quot;capacitor-colour-coding&quot;&gt;Capacitor Colour Coding&lt;/h3&gt;
+
+&lt;p&gt;Small-value capacitors, particularly older ceramic and mica types, often use a colour-coding scheme to indicate their capacitance value and tolerance when direct numerical marking is impractical. The coding generally consists of coloured dots or bands, each colour corresponding to a numerical digit according to an internationally accepted code. The first two colours represent the significant figures of the capacitance value, the third colour denotes the multiplier (power of ten), and an additional colour may indicate tolerance. The capacitance obtained from colour coding is usually expressed in picofarads (pF).&lt;/p&gt;
+
+&lt;p&gt;The standard colour–number correspondence is: black (0), brown (1), red (2), orange (3), yellow (4), green (5), blue (6), violet (7), grey (8), and white (9). For example, a capacitor marked with red–violet–orange corresponds to $ 27 \times 10^{3} \,\text{pF} $, or $ 27 \,\text{nF} $. Tolerance is indicated by an extra colour, such as gold (±5%), silver (±10%), or no colour (±20%). This colour coding system enables quick identification of capacitor values in circuit assembly and maintenance, especially in laboratory and educational environments.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/Capacitor-3.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Figure 3:&lt;/strong&gt; Colour coding scheme for capacitors indicating capacitance value and tolerance.&lt;/p&gt;
+
+&lt;h2 id=&quot;full-mathematical-derivation&quot;&gt;Full Mathematical Derivation&lt;/h2&gt;
+
+&lt;p&gt;Consider a parallel-plate capacitor consisting of two conducting plates of area $ A $, separated by a distance $ d $, with a dielectric of permittivity $ \varepsilon = \varepsilon_0 \varepsilon_r $ filling the space between the plates.&lt;/p&gt;
+
+&lt;p&gt;Let a charge $ +Q $ be placed on one plate and $ -Q $ on the other. The surface charge density $ \sigma $ on each plate is given by&lt;/p&gt;
+
+\[\sigma = \frac{Q}{A}.\]
+
+&lt;p&gt;From Gauss’s law in electrostatics,&lt;/p&gt;
+
+\[\oint \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\text{enc}}}{\varepsilon},\]
+
+&lt;p&gt;the magnitude of the electric field $ E $ between the plates is&lt;/p&gt;
+
+\[E = \frac{\sigma}{\varepsilon} = \frac{Q}{\varepsilon A}.\]
+
+&lt;p&gt;The potential difference $ V $ between the plates is related to the electric field by&lt;/p&gt;
+
+\[V = \int_0^d E \, dl = Ed = \frac{Qd}{\varepsilon A}.\]
+
+&lt;p&gt;By definition, the capacitance $ C $ is the ratio of charge to potential difference:&lt;/p&gt;
+
+\[C = \frac{Q}{V}.\]
+
+&lt;p&gt;Substituting for $ V $,&lt;/p&gt;
+
+\[C = \frac{Q}{\frac{Qd}{\varepsilon A}} = \frac{\varepsilon A}{d}.\]
+
+&lt;p&gt;Thus, the capacitance of a parallel-plate capacitor is&lt;/p&gt;
+
+\[\boxed{C = \frac{\varepsilon_0 \varepsilon_r A}{d}}.\]
+
+&lt;p&gt;This expression shows that capacitance increases with plate area and dielectric constant, and decreases with plate separation.&lt;/p&gt;
+
+&lt;p&gt;The energy stored in the capacitor can be derived as follows. The work done $ dW $ in charging the capacitor by an incremental charge $ dq $ when the potential difference is $ v = q/C $ is&lt;/p&gt;
+
+\[dW = v \, dq = \frac{q}{C} dq.\]
+
+&lt;p&gt;Integrating from $ q = 0 $ to $ q = Q $,&lt;/p&gt;
+
+\[W = \int_0^Q \frac{q}{C} dq = \frac{1}{2C} Q^2.\]
+
+&lt;p&gt;Using $ Q = CV $, this can also be written as&lt;/p&gt;
+
+\[W = \frac{1}{2} CV^2.\]
+
+&lt;p&gt;The energy density $ u $ (energy per unit volume) in the electric field is&lt;/p&gt;
+
+\[u = \frac{W}{Ad} = \frac{1}{2} \varepsilon E^2,\]
+
+&lt;p&gt;demonstrating that the energy is stored in the electric field within the dielectric.&lt;/p&gt;
+
+&lt;p&gt;For AC applications, the impedance of an ideal capacitor is&lt;/p&gt;
+
+\[Z_C = \frac{1}{j\omega C},\]
+
+&lt;p&gt;where $ \omega = 2\pi f $ is the angular frequency. This frequency-dependent behavior explains why capacitors block DC ($ \omega = 0 $) and allow AC to pass.&lt;/p&gt;
+
+&lt;p&gt;Real capacitors deviate from ideal behavior due to parasitic resistance (ESR) and inductance (ESL), which become significant at high frequencies and are strongly dependent on capacitor type and construction.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">A capacitor is a fundamental passive electronic component used to store electrical energy in the form of an electric field. It consists essentially of two conducting surfaces (plates) separated by an insulating medium known as a dielectric. When a potential difference is applied across the plates, equal and opposite charges accumulate on them, giving rise to an electric field within the dielectric. The ability of a capacitor to store charge per unit potential difference is quantified by its capacitance, measured in farads (F). Capacitors are indispensable in both DC and AC circuits and play a crucial role in signal processing, power conditioning, filtering, timing, coupling, decoupling, and energy storage.</summary></entry><entry><title type="html">Breadboard Usage</title><link href="http://localhost:4000/SKMU/Breadboard-Usage/" rel="alternate" type="text/html" title="Breadboard Usage" /><published>2025-12-22T10:30:00+05:30</published><updated>2025-12-22T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/Breadboard</id><content type="html" xml:base="http://localhost:4000/SKMU/Breadboard-Usage/">&lt;p&gt;A breadboard is one of the most fundamental and widely used tools in experimental electronics and applied physics laboratories, especially at the undergraduate and postgraduate levels. It serves as a &lt;strong&gt;temporary construction platform&lt;/strong&gt; for prototyping, testing, and analyzing electronic circuits without the need for soldering. The term “breadboard” originates historically from early experimental setups where wooden boards (sometimes literally breadboards) were used to mount electronic components. Modern breadboards, however, are standardized plastic boards with internal metallic spring contacts arranged in a highly structured manner.&lt;/p&gt;
+
+&lt;p&gt;The primary purpose of a breadboard is to allow rapid circuit assembly and modification. This is particularly useful in physics experiments where circuit parameters such as resistance, capacitance, biasing voltages, or signal paths must be adjusted repeatedly to observe physical behavior. In areas like electronics for experimental physics, solid-state physics instrumentation, nuclear detectors, and analog signal processing, breadboards play a crucial role during the design and testing phases.&lt;/p&gt;
+
+&lt;p&gt;A typical breadboard consists of a rectangular plastic base perforated with a regular grid of holes. Beneath these holes lie conductive metal strips that electrically connect specific rows or columns of holes. These connections are invisible from the top but follow a well-defined pattern. The breadboard is generally divided into three regions: the &lt;strong&gt;terminal strips&lt;/strong&gt;, the &lt;strong&gt;central channel&lt;/strong&gt;, and the &lt;strong&gt;power rails&lt;/strong&gt;. The central channel separates the two terminal strips and is designed to accommodate integrated circuits (ICs), allowing each pin of the IC to be connected independently. The power rails, usually located on the sides, provide convenient distribution paths for supply voltages such as +V, −V, and ground.&lt;/p&gt;
+
+&lt;p&gt;In postgraduate physics laboratories, breadboards are extensively used in constructing amplifier circuits, oscillator circuits (AF and RF), filter networks, rectifiers, logic circuits, and interfacing sensors with measurement instruments. For example, when studying operational amplifiers, a breadboard allows students to test different configurations—such as inverting, non-inverting, integrator, or differentiator circuits—without permanently fixing components. Similarly, in experimental nuclear or condensed matter physics, breadboards are often used to assemble preamplifiers, pulse-shaping networks, or biasing circuits for detectors.&lt;/p&gt;
+
+&lt;p&gt;Another important advantage of breadboards is that they minimize damage to components. Since no soldering heat is involved, sensitive semiconductor devices like diodes, transistors, and integrated circuits can be safely tested. This makes breadboards ideal for repeated experimentation and instructional environments. Additionally, faults can be diagnosed easily by rearranging wires or replacing individual components, which enhances conceptual understanding and experimental confidence.&lt;/p&gt;
+
+&lt;p&gt;Despite their versatility, breadboards are primarily intended for &lt;strong&gt;low-frequency and low-power applications&lt;/strong&gt;. At high frequencies, parasitic capacitances and inductances associated with the internal metal strips and jumper wires can significantly affect circuit behavior. Therefore, while breadboards are invaluable for learning, prototyping, and initial testing, final high-performance or high-frequency circuits are usually transferred to printed circuit boards (PCBs).&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/Breadboard.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Typical solderless breadboard showing power rails, terminal strips, and central IC channel.&lt;/p&gt;
+
+&lt;p&gt;To illustrate the practical usage of a breadboard with a concrete physical example, consider the construction and analysis of a &lt;strong&gt;simple RC low-pass filter&lt;/strong&gt;, which is commonly built on a breadboard in experimental physics and electronics laboratories.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">A breadboard is one of the most fundamental and widely used tools in experimental electronics and applied physics laboratories, especially at the undergraduate and postgraduate levels. It serves as a temporary construction platform for prototyping, testing, and analyzing electronic circuits without the need for soldering. The term “breadboard” originates historically from early experimental setups where wooden boards (sometimes literally breadboards) were used to mount electronic components. Modern breadboards, however, are standardized plastic boards with internal metallic spring contacts arranged in a highly structured manner.</summary></entry><entry><title type="html">Chokes and Transformers</title><link href="http://localhost:4000/SKMU/Chokes-Transformers/" rel="alternate" type="text/html" title="Chokes and Transformers" /><published>2025-12-22T10:30:00+05:30</published><updated>2025-12-22T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/Transformer</id><content type="html" xml:base="http://localhost:4000/SKMU/Chokes-Transformers/">&lt;p&gt;Chokes and transformers are fundamental electromagnetic components widely used in electrical and electronic systems, particularly in power supplies, communication circuits, and signal-conditioning networks. Both devices operate on the principles of electromagnetic induction and magnetic flux linkage, yet they serve distinct functional roles within circuits. A &lt;strong&gt;choke&lt;/strong&gt; is essentially an inductor designed primarily to impede alternating current (AC) while allowing direct current (DC) to pass with minimal resistance. In contrast, a &lt;strong&gt;transformer&lt;/strong&gt; is a static electrical device that transfers electrical energy between two or more circuits through mutual induction, usually with the purpose of changing voltage or current levels, or providing electrical isolation.&lt;/p&gt;
 
 &lt;p&gt;The operation of a choke relies on its inductance, which produces a self-induced electromotive force (emf) opposing changes in current according to Lenz’s law. Because of this property, chokes are especially effective in filtering circuits, where they suppress high-frequency AC components or ripple currents while permitting steady DC components. They are extensively used in power supply filters, radio-frequency (RF) circuits, audio-frequency (AF) circuits, and electromagnetic interference (EMI) suppression. Depending on the frequency range and application, chokes may be classified as AF chokes, RF chokes, or power chokes. The magnetic core material—air, iron, ferrite, or laminated steel—plays a crucial role in determining the inductive behavior and losses of the choke.&lt;/p&gt;
 
@@ -234,94 +423,7 @@ E_2 = 4.44\, f\, N_2\, \Phi_{\max}.\]
   &lt;li&gt;The voltage transformation ratio of a transformer depends only on the ratio of turns in the secondary and primary windings.&lt;/li&gt;
   &lt;li&gt;Ideal transformers conserve power, implying that an increase in voltage is accompanied by a proportional decrease in current.&lt;/li&gt;
   &lt;li&gt;Core material and construction significantly affect losses, efficiency, and frequency response in both chokes and transformers.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">Chokes and transformers are fundamental electromagnetic components widely used in electrical and electronic systems, particularly in power supplies, communication circuits, and signal-conditioning networks. Both devices operate on the principles of electromagnetic induction and magnetic flux linkage, yet they serve distinct functional roles within circuits. A choke is essentially an inductor designed primarily to impede alternating current (AC) while allowing direct current (DC) to pass with minimal resistance. In contrast, a transformer is a static electrical device that transfers electrical energy between two or more circuits through mutual induction, usually with the purpose of changing voltage or current levels, or providing electrical isolation.</summary></entry><entry><title type="html">Capacitors</title><link href="http://localhost:4000/SKMU/Capacitors/" rel="alternate" type="text/html" title="Capacitors" /><published>2025-12-22T10:30:00+05:30</published><updated>2025-12-22T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/Capacitors</id><content type="html" xml:base="http://localhost:4000/SKMU/Capacitors/">&lt;p&gt;A capacitor is a fundamental passive electronic component used to store electrical energy in the form of an electric field. It consists essentially of two conducting surfaces (plates) separated by an insulating medium known as a dielectric. When a potential difference is applied across the plates, equal and opposite charges accumulate on them, giving rise to an electric field within the dielectric. The ability of a capacitor to store charge per unit potential difference is quantified by its capacitance, measured in farads (F). Capacitors are indispensable in both DC and AC circuits and play a crucial role in signal processing, power conditioning, filtering, timing, coupling, decoupling, and energy storage.&lt;/p&gt;
-
-&lt;p&gt;In practical electronic systems, capacitors are used to block direct current while allowing alternating current to pass, smooth out voltage fluctuations in power supplies, tune resonant circuits in radios and communication devices, and provide temporary energy storage in pulsed systems. The behavior of a capacitor depends not only on its capacitance value but also on its dielectric material, construction, voltage rating, frequency response, and temperature stability. These factors give rise to a wide variety of capacitor types, each optimized for specific applications.&lt;/p&gt;
-
-&lt;p&gt;Capacitors can broadly be classified based on their dielectric material and construction. Common types include ceramic capacitors, electrolytic capacitors, tantalum capacitors, mica capacitors, paper capacitors, and film capacitors. Each type exhibits distinct electrical characteristics such as dielectric constant, loss tangent, leakage current, equivalent series resistance (ESR), and tolerance. For example, ceramic capacitors are widely used for high-frequency applications due to their low inductance and small size, while electrolytic capacitors are preferred in power supply circuits for their large capacitance values.&lt;/p&gt;
-
-&lt;p&gt;An important practical aspect of capacitors is their identification and rating, particularly for small capacitors where printed numerical values may not be feasible. Colour coding provides a standardized method of indicating capacitance value, tolerance, and sometimes voltage rating using colored bands or dots, similar in concept to resistor colour coding. Understanding capacitor colour codes is essential for circuit assembly, maintenance, and troubleshooting, especially in laboratory and educational settings.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/img/Electronics/Capacitor-1.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Schematic of a parallel-plate capacitor showing plates and dielectric.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/img/Electronics/Capacitor-2.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; Different capacitor types: ceramic disc, electrolytic capacitor, mica capacitor, and variable capacitor.&lt;/p&gt;
-
-&lt;h3 id=&quot;capacitor-colour-coding&quot;&gt;Capacitor Colour Coding&lt;/h3&gt;
-
-&lt;p&gt;Small-value capacitors, particularly older ceramic and mica types, often use a colour-coding scheme to indicate their capacitance value and tolerance when direct numerical marking is impractical. The coding generally consists of coloured dots or bands, each colour corresponding to a numerical digit according to an internationally accepted code. The first two colours represent the significant figures of the capacitance value, the third colour denotes the multiplier (power of ten), and an additional colour may indicate tolerance. The capacitance obtained from colour coding is usually expressed in picofarads (pF).&lt;/p&gt;
-
-&lt;p&gt;The standard colour–number correspondence is: black (0), brown (1), red (2), orange (3), yellow (4), green (5), blue (6), violet (7), grey (8), and white (9). For example, a capacitor marked with red–violet–orange corresponds to $ 27 \times 10^{3} \,\text{pF} $, or $ 27 \,\text{nF} $. Tolerance is indicated by an extra colour, such as gold (±5%), silver (±10%), or no colour (±20%). This colour coding system enables quick identification of capacitor values in circuit assembly and maintenance, especially in laboratory and educational environments.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/img/Electronics/Capacitor-3.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Figure 3:&lt;/strong&gt; Colour coding scheme for capacitors indicating capacitance value and tolerance.&lt;/p&gt;
-
-&lt;h2 id=&quot;full-mathematical-derivation&quot;&gt;Full Mathematical Derivation&lt;/h2&gt;
-
-&lt;p&gt;Consider a parallel-plate capacitor consisting of two conducting plates of area $ A $, separated by a distance $ d $, with a dielectric of permittivity $ \varepsilon = \varepsilon_0 \varepsilon_r $ filling the space between the plates.&lt;/p&gt;
-
-&lt;p&gt;Let a charge $ +Q $ be placed on one plate and $ -Q $ on the other. The surface charge density $ \sigma $ on each plate is given by&lt;/p&gt;
-
-\[\sigma = \frac{Q}{A}.\]
-
-&lt;p&gt;From Gauss’s law in electrostatics,&lt;/p&gt;
-
-\[\oint \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\text{enc}}}{\varepsilon},\]
-
-&lt;p&gt;the magnitude of the electric field $ E $ between the plates is&lt;/p&gt;
-
-\[E = \frac{\sigma}{\varepsilon} = \frac{Q}{\varepsilon A}.\]
-
-&lt;p&gt;The potential difference $ V $ between the plates is related to the electric field by&lt;/p&gt;
-
-\[V = \int_0^d E \, dl = Ed = \frac{Qd}{\varepsilon A}.\]
-
-&lt;p&gt;By definition, the capacitance $ C $ is the ratio of charge to potential difference:&lt;/p&gt;
-
-\[C = \frac{Q}{V}.\]
-
-&lt;p&gt;Substituting for $ V $,&lt;/p&gt;
-
-\[C = \frac{Q}{\frac{Qd}{\varepsilon A}} = \frac{\varepsilon A}{d}.\]
-
-&lt;p&gt;Thus, the capacitance of a parallel-plate capacitor is&lt;/p&gt;
-
-\[\boxed{C = \frac{\varepsilon_0 \varepsilon_r A}{d}}.\]
-
-&lt;p&gt;This expression shows that capacitance increases with plate area and dielectric constant, and decreases with plate separation.&lt;/p&gt;
-
-&lt;p&gt;The energy stored in the capacitor can be derived as follows. The work done $ dW $ in charging the capacitor by an incremental charge $ dq $ when the potential difference is $ v = q/C $ is&lt;/p&gt;
-
-\[dW = v \, dq = \frac{q}{C} dq.\]
-
-&lt;p&gt;Integrating from $ q = 0 $ to $ q = Q $,&lt;/p&gt;
-
-\[W = \int_0^Q \frac{q}{C} dq = \frac{1}{2C} Q^2.\]
-
-&lt;p&gt;Using $ Q = CV $, this can also be written as&lt;/p&gt;
-
-\[W = \frac{1}{2} CV^2.\]
-
-&lt;p&gt;The energy density $ u $ (energy per unit volume) in the electric field is&lt;/p&gt;
-
-\[u = \frac{W}{Ad} = \frac{1}{2} \varepsilon E^2,\]
-
-&lt;p&gt;demonstrating that the energy is stored in the electric field within the dielectric.&lt;/p&gt;
-
-&lt;p&gt;For AC applications, the impedance of an ideal capacitor is&lt;/p&gt;
-
-\[Z_C = \frac{1}{j\omega C},\]
-
-&lt;p&gt;where $ \omega = 2\pi f $ is the angular frequency. This frequency-dependent behavior explains why capacitors block DC ($ \omega = 0 $) and allow AC to pass.&lt;/p&gt;
-
-&lt;p&gt;Real capacitors deviate from ideal behavior due to parasitic resistance (ESR) and inductance (ESL), which become significant at high frequencies and are strongly dependent on capacitor type and construction.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">A capacitor is a fundamental passive electronic component used to store electrical energy in the form of an electric field. It consists essentially of two conducting surfaces (plates) separated by an insulating medium known as a dielectric. When a potential difference is applied across the plates, equal and opposite charges accumulate on them, giving rise to an electric field within the dielectric. The ability of a capacitor to store charge per unit potential difference is quantified by its capacitance, measured in farads (F). Capacitors are indispensable in both DC and AC circuits and play a crucial role in signal processing, power conditioning, filtering, timing, coupling, decoupling, and energy storage.</summary></entry><entry><title type="html">JET: English-Lecture-VI</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-VI" rel="alternate" type="text/html" title="JET: English-Lecture-VI" /><published>2025-12-20T08:00:00+05:30</published><updated>2025-12-20T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L6</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-VI">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Clock&lt;/b&gt;&lt;/h1&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">Chokes and transformers are fundamental electromagnetic components widely used in electrical and electronic systems, particularly in power supplies, communication circuits, and signal-conditioning networks. Both devices operate on the principles of electromagnetic induction and magnetic flux linkage, yet they serve distinct functional roles within circuits. A choke is essentially an inductor designed primarily to impede alternating current (AC) while allowing direct current (DC) to pass with minimal resistance. In contrast, a transformer is a static electrical device that transfers electrical energy between two or more circuits through mutual induction, usually with the purpose of changing voltage or current levels, or providing electrical isolation.</summary></entry><entry><title type="html">JET: English-Lecture-VI</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-VI" rel="alternate" type="text/html" title="JET: English-Lecture-VI" /><published>2025-12-20T08:00:00+05:30</published><updated>2025-12-20T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L6</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-VI">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Clock&lt;/b&gt;&lt;/h1&gt;
 
 &lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
   &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
@@ -1414,579 +1516,4 @@ Hence, we close the contour with a semicircle of radius $R$ in the upper half-pl
 \[\boxed{
 \displaystyle
 \int_{-\infty}^{\infty}\frac{e^{ix}}{x^2+1}\,dx=\pi e^{-1}
-}\]</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">The basic idea of contour integration is to extend the concept of integration from the real line to the complex plane. Instead of integrating a function along a real interval, we integrate it along a path (or contour) in the complex plane. This allows us to use the properties of analytic functions and the residues of poles to evaluate integrals that would be difficult or impossible to compute using standard real analysis techniques.</summary></entry><entry><title type="html">JET: English-PRACTICE SET-I</title><link href="http://localhost:4000/SKMU/JET-English-PRACTICE-SET-I" rel="alternate" type="text/html" title="JET: English-PRACTICE SET-I" /><published>2025-12-13T11:00:00+05:30</published><updated>2025-12-13T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-SET-I</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-PRACTICE-SET-I">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;PRACTICE SET-I&lt;/b&gt;&lt;/h1&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;A bag contains an equal number of one rupee, 50 paise and 25 paise coins. If the total amount in the bag is Rs 35, how many coins of each type are there ?
-[December–2004]&lt;/p&gt;
-
-    &lt;p&gt;(a) 15&lt;br /&gt;
- (b) 18&lt;br /&gt;
- (c) 20 &lt;br /&gt;
- (d) 25&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;My wristwatch becomes 30 minutes slow in a day. If on a particular day it is showing the correct time at 6 o’clock in the morning, what time will it show at 10 o’clock in the evening on that very day?&lt;br /&gt;
-[June–2005]&lt;/p&gt;
-
-    &lt;p&gt;(a) 10:22 p.m.&lt;br /&gt;
- (b) 10:15 p.m.&lt;br /&gt;
- (c) 10:30 p.m.&lt;br /&gt;
- (d) None of the choices&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;At what time between 5:30 and 6:00 will the hands of a clock be at right angles?&lt;br /&gt;
-[December–2005]&lt;/p&gt;
-
-    &lt;p&gt;(a) 43 5/11 minutes past 5&lt;br /&gt;
- (b) 43 7/11 minutes past 5&lt;br /&gt;
- (c) 40 minutes past 5&lt;br /&gt;
- (d) 45 minutes past 5&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;January 1, 1995 was Sunday. What day of the week lies on January 1, 1996 ? 
-[December–2005]&lt;/p&gt;
-
-    &lt;p&gt;(a) Sunday&lt;br /&gt;
- (b) Monday&lt;br /&gt;
- (c) Saturday&lt;br /&gt;
- (d) None of these&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;At what time between 4 and 5 o’clock will the hands of a watch point in opposite directions?&lt;br /&gt;
-[June–2006]&lt;/p&gt;
-
-    &lt;p&gt;(a) 45 minutes past 4&lt;br /&gt;
- (b) 40 minutes past 4&lt;br /&gt;
- (c) 50 4/11 minutes past 4&lt;br /&gt;
- (d) 54 6/11 minutes past 4&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Monday falls on 20th March 1995. What was the day on 3rd November 1994?&lt;br /&gt;
-[June–2006]&lt;/p&gt;
-
-    &lt;p&gt;(a) Thursday&lt;br /&gt;
- (b) Sunday&lt;br /&gt;
- (c) Tuesday&lt;br /&gt;
- (d) Saturday&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;How many Mondays are there in a particular month of a particular year, if the month ends on Wednesday?&lt;/p&gt;
-
-\[[\mathbf{June\text{–}2007}]\]
-
-    &lt;p&gt;(a) 5&lt;br /&gt;
- (b) 4&lt;br /&gt;
- (c) 3&lt;br /&gt;
- (d) None of the above&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If January 2, 1979 was a Saturday, what day was January 12, 1979?&lt;br /&gt;
-[June–2007]&lt;/p&gt;
-
-    &lt;p&gt;(a) Saturday&lt;br /&gt;
- (b) Friday&lt;br /&gt;
- (c) Sunday&lt;br /&gt;
- (d) Thursday&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;At what time between 3 and 4 o’clock will the hands of a watch point in opposite directions?&lt;br /&gt;
-[December–2007]&lt;/p&gt;
-
-    &lt;p&gt;(a) 40 minutes past 3&lt;br /&gt;
- (b) 45 minutes past 3&lt;br /&gt;
- (c) 50 minutes past 3&lt;br /&gt;
- (d) 55 minutes past 3&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If January 1st, 2007 is Monday, what was the day on 1st January 1995? 
-[June–2008]&lt;/p&gt;
-
-    &lt;p&gt;(a) Sunday&lt;br /&gt;
-(b) Monday&lt;br /&gt;
-(c) Friday&lt;br /&gt;
-(d) Saturday&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;There are five books A, B, C, D and E.&lt;br /&gt;
-Book C lies above D, book E is below A, and B is below E. Which book is at the bottom?&lt;br /&gt;
-[December–2008]&lt;/p&gt;
-
-    &lt;p&gt;(a) A&lt;br /&gt;
-(b) B&lt;br /&gt;
-(c) C&lt;br /&gt;
-(d) D&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;On what dates of April does Sunday fall?&lt;/p&gt;
-
-\[[\mathbf{December\text{–}2008}]\]
-
-    &lt;p&gt;(a) 2, 9, 16, 23, 30&lt;br /&gt;
-(b) 3, 10, 17, 24&lt;br /&gt;
-(c) 4, 11, 18, 25&lt;br /&gt;
-(d) 1, 8, 15, 22, 29&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Two ladies and two men are playing bridge and are seated at North, East, South and West of a table. No lady is facing East. Persons sitting opposite each other are not of the same sex. One man is facing South.&lt;br /&gt;
-Which directions are the ladies facing?&lt;br /&gt;
-[June–2009]&lt;/p&gt;
-
-    &lt;p&gt;(a) East and West&lt;br /&gt;
-(b) North and West&lt;br /&gt;
-(c) South and East&lt;br /&gt;
-(d) None of these&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What was the day of the week on 1st January 2012?&lt;/p&gt;
-
-\[[\mathbf{June\text{–}2009}]\]
-
-    &lt;p&gt;(a) Friday&lt;br /&gt;
-(b) Tuesday&lt;br /&gt;
-(c) Sunday&lt;br /&gt;
-(d) Wednesday&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;There are 10 true–false questions in an examination. In how many ways can these questions be answered?&lt;br /&gt;
-[December–2009]&lt;/p&gt;
-
-    &lt;p&gt;(a) 20&lt;br /&gt;
-(b) 100&lt;br /&gt;
-(c) 240&lt;br /&gt;
-(d) 1024&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;January 1, 1995 was a Sunday. What day of the week lies on January 1, 1996 ?
-[December–2009]&lt;/p&gt;
-
-    &lt;p&gt;(a) Sunday&lt;br /&gt;
-(b) Monday&lt;br /&gt;
-(c) Wednesday&lt;br /&gt;
-(d) Saturday&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;On January 12, 1980, it was a Saturday. The day of the week on January 12, 1979 was&lt;br /&gt;
-[June–2010]&lt;/p&gt;
-
-    &lt;p&gt;(a) Thursday&lt;br /&gt;
-(b) Friday&lt;br /&gt;
-(c) Saturday&lt;br /&gt;
-(d) Sunday&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Mr. A, Miss B, Mr. C and Miss D are sitting around a table. They follow different trades: tailor, barber, washerman and cook.&lt;/p&gt;
-
-    &lt;p&gt;(i) Mr A sits opposite to the cook&lt;br /&gt;
-(ii) Miss B sits to the right of the barber&lt;br /&gt;
-(iii) The washerman sits to the right of the barber&lt;br /&gt;
-(iv) Miss D sits opposite to Mr. C&lt;/p&gt;
-
-    &lt;p&gt;What are the trades of A and B?&lt;br /&gt;
-[December–2010]&lt;/p&gt;
-
-    &lt;p&gt;(a) Tailor and barber&lt;br /&gt;
-(b) Barber and cook&lt;br /&gt;
-(c) Tailor and cook&lt;br /&gt;
-(d) Tailor and washerman&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the smallest number of ducks that could swim in this formation:&lt;br /&gt;
-two ducks in front of a duck, two ducks behind a duck, and a duck between two ducks?&lt;br /&gt;
-[December–2010]&lt;/p&gt;
-
-    &lt;p&gt;(a) 5&lt;br /&gt;
-(b) 7&lt;br /&gt;
-(c) 4&lt;br /&gt;
-(d) 3&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;How many 8’s are there which are divisible by 5 but not immediately followed by another 8?&lt;/p&gt;
-
-\[\begin{array}{l}
-5\;8\;3\;7\;5\;8\;6\;3\;8\;5\;4\;5\;8\;4\;7\;6 \\
-5\;5\;8\;3\;5\;8\;7\;5\;8\;2\;8\;5
-\end{array}\]
-
-    &lt;p&gt;[June–2011]&lt;/p&gt;
-
-    &lt;p&gt;(a) 4&lt;br /&gt;
-(b) 5&lt;br /&gt;
-(c) 7&lt;br /&gt;
-(d) 3&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If Ram knows that &lt;strong&gt;y&lt;/strong&gt; is an integer greater than 2 and less than 7, and Hari knows that &lt;strong&gt;y&lt;/strong&gt; is an integer greater than 5 and less than 10, then they may correctly conclude that&lt;br /&gt;
-[June–2012]&lt;/p&gt;
-
-    &lt;p&gt;(a) &lt;strong&gt;y&lt;/strong&gt; can be exactly determined&lt;br /&gt;
-(b) &lt;strong&gt;y&lt;/strong&gt; may be either of two values&lt;br /&gt;
-(c) &lt;strong&gt;y&lt;/strong&gt; may be any of three values&lt;br /&gt;
-(d) There is no value of &lt;strong&gt;y&lt;/strong&gt; satisfying these conditions&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Let &lt;em&gt;a&lt;/em&gt; mean minus (−), &lt;em&gt;b&lt;/em&gt; mean multiplied by (×), &lt;em&gt;C&lt;/em&gt; mean divided by (÷) and &lt;em&gt;D&lt;/em&gt; mean plus (+).&lt;br /&gt;
-Find the value of&lt;br /&gt;
-\((90 \; D \; 9 \; a \; 29) \; C \; 10 \; b \; 2\)&lt;br /&gt;
-[December–2012]&lt;/p&gt;
-
-    &lt;p&gt;(a) 8&lt;br /&gt;
-(b) 10&lt;br /&gt;
-(c) 12&lt;br /&gt;
-(d) 14&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;A, B, C, D, E and F are sitting around a round table. A is between E and F. E is opposite to D and C is not in either of the neighbouring seats of E. The person opposite to B is&lt;/p&gt;
-
-\[[\mathbf{September\text{–}2013}]\]
-
-    &lt;p&gt;(a) C&lt;br /&gt;
-(b) D&lt;br /&gt;
-(c) A&lt;br /&gt;
-(d) F&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Starting from point &lt;strong&gt;A&lt;/strong&gt;, Ajit walks 1 metre towards west. He then turns to his right and walks 14 metres, then turns to his left and walks 10 metres. He again turns to his left and walks 14 metres and reaches point &lt;strong&gt;E&lt;/strong&gt;. The shortest distance between &lt;strong&gt;A&lt;/strong&gt; and &lt;strong&gt;E&lt;/strong&gt; is:&lt;br /&gt;
-[September–2013]&lt;/p&gt;
-
-    &lt;p&gt;(a) 38&lt;br /&gt;
-(b) 42&lt;br /&gt;
-(c) 52&lt;br /&gt;
-(d) 24&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;A person writes all the numbers from 0 to 99. The number of times digit &lt;strong&gt;3&lt;/strong&gt; will be written is:&lt;br /&gt;
-[September–2013]&lt;/p&gt;
-
-    &lt;p&gt;(a) 18&lt;br /&gt;
-(b) 19&lt;br /&gt;
-(c) 20&lt;br /&gt;
-(d) 21&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;In this series:&lt;br /&gt;
-6, 4, 1, 2, 2, 7, 4, 2, 1, 5, 3, 8, 6, 2, 2, 7, 1, 4, 1, 3, 5, 8, 6&lt;br /&gt;
-How many pairs of successive numbers have a difference of 2 each?&lt;br /&gt;
-[December–2013]&lt;/p&gt;
-
-    &lt;p&gt;(a) 4&lt;br /&gt;
-(b) 5&lt;br /&gt;
-(c) 7&lt;br /&gt;
-(d) 8&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;One writes all numbers from 50 to 99 without the digits 2 and 7. How many numbers have been written?&lt;/p&gt;
-
-\[[ \mathbf{June\text{-}2014} ]\]
-
-    &lt;p&gt;(a) 32&lt;br /&gt;
-(b) 36&lt;br /&gt;
-(c) 40&lt;br /&gt;
-(d) 38&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;A man started walking from his house towards south. After walking 6 km, he turned to his left and walked 5 km. Then he turned left again and walked 3 km. He then turned to his left and continued his walk for 9 km. How far is he away from his house?&lt;br /&gt;
-[June–2014]&lt;/p&gt;
-
-    &lt;p&gt;(a) 3 km&lt;br /&gt;
-(b) 4 km&lt;br /&gt;
-(c) 5 km&lt;br /&gt;
-(d) 6 km&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;One day Prakash left home and walked 10 km towards south, turned right and walked 5 km, turned right and walked 10 km, and turned left and walked 10 km. How many kilometres will he have to walk to reach his home straight?&lt;/p&gt;
-
-\[[ \mathbf{June\text{-}2015} ]\]
-
-    &lt;p&gt;(a) 10&lt;br /&gt;
-(b) 20&lt;br /&gt;
-(c) 15&lt;br /&gt;
-(d) 30&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Anil, after travelling 6 km towards east from his house, realised that he had travelled in the wrong direction. He turned and travelled 12 km towards west, turned right and travelled 8 km to reach his office. The straight distance of the office from his house is:&lt;br /&gt;
-[December–2015]&lt;/p&gt;
-
-    &lt;p&gt;(a) 20 km&lt;br /&gt;
-(b) 14 km&lt;br /&gt;
-(c) 12 km&lt;br /&gt;
-(d) 10 km&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;A person walks 10 m in front and 10 m to the right. Then, every time turning to his left, he walks 5 m, 15 m, and 15 m respectively. How far is he from his starting point?&lt;/p&gt;
-
-\[[ \mathbf{July\text{-}2016} ]\]
-
-    &lt;p&gt;(a) 20 m&lt;br /&gt;
-(b) 15 m&lt;br /&gt;
-(c) 10 m&lt;br /&gt;
-(d) 5 m&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;A postman walked 20 m straight from his office, turned right and walked 10 m. After turning left, he walked 10 m, and after turning right walked 20 m. He again turned right and walked 70 m. How far is he from his office?&lt;/p&gt;
-
-\[[ \mathbf{November\text{-}2017} ]\]
-
-    &lt;p&gt;(a) 50 m&lt;br /&gt;
-(b) 40 m&lt;br /&gt;
-(c) 60 m&lt;br /&gt;
-(d) 20 m&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Six friends &lt;strong&gt;A, B, C, D, E&lt;/strong&gt; and &lt;strong&gt;F&lt;/strong&gt; are sitting in a closed circle facing the centre. &lt;strong&gt;E&lt;/strong&gt; is to the left of &lt;strong&gt;D&lt;/strong&gt;. &lt;strong&gt;C&lt;/strong&gt; is between &lt;strong&gt;A&lt;/strong&gt; and &lt;strong&gt;B&lt;/strong&gt;. &lt;strong&gt;F&lt;/strong&gt; is between &lt;strong&gt;E&lt;/strong&gt; and &lt;strong&gt;A&lt;/strong&gt;. Who is to the right of &lt;strong&gt;C&lt;/strong&gt;?&lt;/p&gt;
-
-\[\mathbf{[20th~June~2019\text{-}1st~Shift]}\]
-
-    &lt;p&gt;(a) A&lt;br /&gt;
-(b) B&lt;br /&gt;
-(c) D&lt;br /&gt;
-(d) E&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The sixth number in a sequence is 32 and each number after the first number in the sequence is 4 less than the number immediately preceding it. What is the third number in the sequence?&lt;br /&gt;
-[21st June 2019 – IInd Shift]&lt;/p&gt;
-
-    &lt;p&gt;(a) 36&lt;br /&gt;
-(b) 40&lt;br /&gt;
-(c) 44&lt;br /&gt;
-(d) 48&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;In a school, there are five teachers. &lt;strong&gt;A&lt;/strong&gt; and &lt;strong&gt;B&lt;/strong&gt; both teach Hindi and English. &lt;strong&gt;C&lt;/strong&gt; and &lt;strong&gt;B&lt;/strong&gt; both teach English and Geography. &lt;strong&gt;D&lt;/strong&gt; and &lt;strong&gt;A&lt;/strong&gt; both teach Punjabi and Hindi. &lt;strong&gt;E&lt;/strong&gt; and &lt;strong&gt;B&lt;/strong&gt; both teach History and French.&lt;br /&gt;
-Who among the teachers is teaching the maximum number of subjects?&lt;br /&gt;
-[21st June 2019 – IInd Shift]&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Among five friends, Vineet is taller than Monika but not as tall as Ram. Jacob is taller than Dalip but shorter than Monika. Who is the tallest in the group?&lt;br /&gt;
-[24th June 2019 – IInd Shift]&lt;/p&gt;
-
-    &lt;p&gt;(a) Ram&lt;br /&gt;
-(b) Monika&lt;br /&gt;
-(c) Vineet&lt;br /&gt;
-(d) Jacob&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">PRACTICE SET-I</summary></entry><entry><title type="html">JET: English-Lecture-IV</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-IV" rel="alternate" type="text/html" title="JET: English-Lecture-IV" /><published>2025-12-13T08:00:00+05:30</published><updated>2025-12-13T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L4</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-IV">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Ratio&lt;/b&gt;&lt;/h1&gt;
-
-&lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
-  &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
-              padding:1.2rem 1.5rem;max-width:560px;width:100%;font-family:&apos;Inter&apos;,sans-serif;
-              border:1px solid #d9e6b2;&quot;&gt;
-
-    &lt;h2 style=&quot;text-align:center;color:#3b4c00;margin-bottom:0.8rem;
-               font-size:1.4rem;font-weight:700;&quot;&gt;QUIZ&lt;/h2&gt;
-               
-    &lt;div id=&quot;quiz-level-selector&quot; style=&quot;text-align:center;margin-bottom:1rem;display:flex;justify-content:center;gap:0.4rem;flex-wrap:wrap;&quot;&gt;
-      &lt;button class=&quot;level-btn&quot; data-file=&quot;R_Easy.json&quot;&gt;Easy&lt;/button&gt;
-      &lt;button class=&quot;level-btn&quot; data-file=&quot;R_Medium.json&quot;&gt;Medium&lt;/button&gt;
-      &lt;button class=&quot;level-btn&quot; data-file=&quot;R_Hard.json&quot;&gt;Hard&lt;/button&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;quiz-section&quot; style=&quot;display:none;&quot;&gt;
-      &lt;div class=&quot;quiz-wrapper&quot;&gt;
-  &lt;div id=&quot;quiz-container&quot; data-quiz=&quot;&quot;&gt;
-    &lt;h2 id=&quot;quiz-title&quot; class=&quot;quiz-title&quot;&gt;&lt;/h2&gt;
-
-    &lt;div id=&quot;question-container&quot; class=&quot;question-container&quot;&gt;
-      &lt;div id=&quot;question&quot; class=&quot;question-text&quot;&gt;&lt;/div&gt;
-      &lt;div id=&quot;answer-buttons&quot; class=&quot;options-grid&quot;&gt;
-        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
-        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
-        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
-        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;button id=&quot;next-btn&quot; class=&quot;btn next-btn&quot;&gt;Next&lt;/button&gt;
-    &lt;div id=&quot;result&quot; class=&quot;result&quot;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;!-- ✅ Stylesheet --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/SKMU/assets/css/quiz.css&quot; /&gt;
-
-&lt;!-- ✅ Quiz Script --&gt;
-&lt;script src=&quot;/SKMU/assets/js/quiz.js&quot;&gt;&lt;/script&gt;
-
-
-&lt;!-- ✅ Pass baseurl to JS (for blogs inside subfolders like /SKMU/) --&gt;
-&lt;script&gt;
-  window.quizBaseUrl = &quot;/SKMU&quot;;
-&lt;/script&gt;
-    &lt;/div&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Ratio is a comparison of two or more quantities of the same kind, expressed in the form&lt;br /&gt;
-\(a:b \quad \text{or} \quad \frac{a}{b}\)&lt;/p&gt;
-
-&lt;p&gt;It forms the foundation for problems involving &lt;strong&gt;numbers, mixtures, populations, committees, and value comparisons&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;1-basic-properties-of-ratio&quot;&gt;&lt;strong&gt;1. Basic Properties of Ratio&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;If $a:b = c:d$, then&lt;br /&gt;
-\(ad = bc \quad \text{(cross multiplication)}\)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Ratios remain unchanged if both terms are multiplied or divided by the same non-zero number.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;A ratio has &lt;strong&gt;no unit&lt;/strong&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;2-ratio-in-numbers&quot;&gt;&lt;strong&gt;2. Ratio in Numbers&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;digits-of-a-number&quot;&gt;&lt;strong&gt;Digits of a Number&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;For a two-digit number with digits $x$ (tens) and $y$ (units):&lt;/p&gt;
-
-\[\text{Number} = 10x + y\]
-
-&lt;p&gt;This idea is frequently used in ratio-based number problems.&lt;/p&gt;
-
-&lt;h2 id=&quot;3-ratio-as-fractions&quot;&gt;&lt;strong&gt;3. Ratio as Fractions&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;A ratio can be converted into a fraction and vice versa.&lt;/p&gt;
-
-&lt;p&gt;Example:
-\(a:b = \frac{a}{b}\)&lt;/p&gt;
-
-&lt;p&gt;Many exam questions convert verbal statements into fractions and then equate ratios.&lt;/p&gt;
-
-&lt;h2 id=&quot;4-ratio-in-populations--committees&quot;&gt;&lt;strong&gt;4. Ratio in Populations / Committees&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;When total members are unknown, assume the total to be $x$.&lt;/p&gt;
-
-&lt;p&gt;Fractions of groups are then expressed as parts of $x$, which makes calculations systematic.&lt;/p&gt;
-
-&lt;h2 id=&quot;5-ratio-in-mixtures&quot;&gt;&lt;strong&gt;5. Ratio in Mixtures&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;If ingredients are mixed in given ratios, the final proportion depends on:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Quantity taken from each mixture&lt;/li&gt;
-  &lt;li&gt;Relative proportions of components&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Equality of components often leads to &lt;strong&gt;equating algebraic expressions&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;6-ratio-and-value-proportionality&quot;&gt;&lt;strong&gt;6. Ratio and Value Proportionality&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Sometimes value is &lt;strong&gt;not proportional to weight&lt;/strong&gt;, but to:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Square of weight&lt;/li&gt;
-  &lt;li&gt;Cube of weight&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is common in questions involving &lt;strong&gt;precious stones, wires, or metals&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;exercise-problems-based-on-net-pattern&quot;&gt;&lt;strong&gt;Exercise Problems (Based on NET Pattern)&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;q1-net-dec-2016&quot;&gt;&lt;strong&gt;Q1. (NET DEC-2016)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;The sum of digits of a two-digit number is 9.&lt;br /&gt;
-The fraction formed by taking 9 less than the number as numerator and 9 more than the number as denominator is $ \frac{3}{4} $.&lt;br /&gt;
-Find the number.&lt;/p&gt;
-
-&lt;p&gt;(a) 36&lt;br /&gt;
-(b) 63&lt;br /&gt;
-(c) 45&lt;br /&gt;
-(d) 54&lt;/p&gt;
-
-&lt;h3 id=&quot;q2-net-dec-2016&quot;&gt;&lt;strong&gt;Q2. (NET DEC-2016)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Nine-elevenths of the members of a parliamentary committee are men.&lt;br /&gt;
-Of the men, two-thirds are from the Rajya Sabha.&lt;br /&gt;
-Further, $ \frac{7}{11} $ of the total committee members are from the Rajya Sabha.&lt;br /&gt;
-What fraction of the total members are women from the Lok Sabha?&lt;/p&gt;
-
-&lt;p&gt;(a) $ \frac{1}{11} $&lt;br /&gt;
-(b) $ \frac{6}{11} $&lt;br /&gt;
-(c) $ \frac{2}{11} $&lt;br /&gt;
-(d) $ \frac{3}{11} $&lt;/p&gt;
-
-&lt;h3 id=&quot;q3-net-june-2018&quot;&gt;&lt;strong&gt;Q3. (NET JUNE-2018)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Two solutions $X$ and $Y$ contain ingredients $A, B, C$ in the ratios&lt;br /&gt;
-\(a:b:c \quad \text{and} \quad c:b:a\)
-respectively.&lt;br /&gt;
-They are mixed so that the resultant mixture contains equal proportions of $A, B,$ and $C$.&lt;br /&gt;
-Find the correct relation.&lt;/p&gt;
-
-&lt;p&gt;(a) $ b = \frac{c-a}{2} $&lt;br /&gt;
-(b) $ c = \frac{a+b}{2} $&lt;br /&gt;
-(c) $ c = \frac{a-b}{2} $&lt;br /&gt;
-(d) $ b = \frac{a+c}{2} $&lt;/p&gt;
-
-&lt;h3 id=&quot;q4-net-june-2019&quot;&gt;&lt;strong&gt;Q4. (NET JUNE-2019)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;A precious stone breaks into four pieces having weights in the ratio $1:2:3:4$.&lt;br /&gt;
-The value of the stone is proportional to the square of its weight.&lt;br /&gt;
-Find the percentage loss in value due to breaking.&lt;/p&gt;
-
-&lt;p&gt;(a) 0&lt;br /&gt;
-(b) 30&lt;br /&gt;
-(c) 70&lt;br /&gt;
-(d) 90&lt;/p&gt;
-
-&lt;h2 id=&quot;solutions-concise-and-concept-oriented&quot;&gt;&lt;strong&gt;Solutions (Concise and Concept-Oriented)&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;solution-1&quot;&gt;&lt;strong&gt;Solution 1&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Let the number be $10x + y$.&lt;br /&gt;
-Given:
-\(x + y = 9\)
-\(\frac{10x + y - 9}{10x + y + 9} = \frac{3}{4}\)
-Solving gives $y = 6,\; x = 3$.&lt;br /&gt;
-Number = &lt;strong&gt;63&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;✅ &lt;strong&gt;Answer: (b)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;solution-2&quot;&gt;&lt;strong&gt;Solution 2&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Let total committee members = $x$.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Men = $ \frac{9x}{11} $&lt;/li&gt;
-  &lt;li&gt;Men from Rajya Sabha = $ \frac{2}{3} \times \frac{9x}{11} = \frac{6x}{11} $&lt;/li&gt;
-  &lt;li&gt;Total Rajya Sabha members = $ \frac{7x}{11} $&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Women from Rajya Sabha:
-\(\frac{7x}{11} - \frac{6x}{11} = \frac{x}{11}\)&lt;/p&gt;
-
-&lt;p&gt;Lok Sabha members = $ x - \frac{7x}{11} = \frac{4x}{11} $&lt;/p&gt;
-
-&lt;p&gt;Women from Lok Sabha:
-\(\frac{4x}{11} - \frac{3x}{11} = \frac{x}{11}\)&lt;/p&gt;
-
-&lt;p&gt;Fraction = $ \frac{1}{11} $&lt;/p&gt;
-
-&lt;p&gt;✅ &lt;strong&gt;Answer: (a)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;solution-3&quot;&gt;&lt;strong&gt;Solution 3&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Let equal quantities of $X$ and $Y$ be mixed.&lt;/p&gt;
-
-&lt;p&gt;Equality of components implies:
-\(a + c = 2b
-\Rightarrow b = \frac{a+c}{2}\)&lt;/p&gt;
-
-&lt;p&gt;✅ &lt;strong&gt;Answer: (d)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;solution-4&quot;&gt;&lt;strong&gt;Solution 4&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Weights = $k, 2k, 3k, 4k$&lt;/p&gt;
-
-&lt;p&gt;Original value:
-\(\propto (10k)^2 = 100k^2\)&lt;/p&gt;
-
-&lt;p&gt;Value after breaking:
-\(\propto (1^2 + 2^2 + 3^2 + 4^2)k^2 = 30k^2\)&lt;/p&gt;
-
-&lt;p&gt;Loss:
-\(\frac{100 - 30}{100} \times 100 = 70\%\)&lt;/p&gt;
-
-&lt;p&gt;✅ &lt;strong&gt;Answer: (c)&lt;/strong&gt;&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Ratio</summary></entry></feed>
+}\]</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">The basic idea of contour integration is to extend the concept of integration from the real line to the complex plane. Instead of integrating a function along a real interval, we integrate it along a path (or contour) in the complex plane. This allows us to use the properties of analytic functions and the residues of poles to evaluate integrals that would be difficult or impossible to compute using standard real analysis techniques.</summary></entry></feed>
