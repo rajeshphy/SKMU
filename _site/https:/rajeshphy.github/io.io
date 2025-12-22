@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-22T14:34:38+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Scattering: Partial Wave Analysis</title><link href="http://localhost:4000/SKMU/Scattering-Partial-Wave/" rel="alternate" type="text/html" title="Scattering: Partial Wave Analysis" /><published>2025-12-22T10:47:26+05:30</published><updated>2025-12-22T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/Partial-Wave</id><content type="html" xml:base="http://localhost:4000/SKMU/Scattering-Partial-Wave/">&lt;p&gt;Partial wave analysis is a fundamental method in quantum scattering theory used to analyze the interaction of a particle with a localized potential by exploiting the rotational symmetry of the problem. When a quantum particle of definite momentum is incident on a scattering center, its wavefunction far from the interaction region can be expressed as a superposition of an incoming plane wave and an outgoing spherical wave.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-22T14:51:41+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Scattering: Partial Wave Analysis</title><link href="http://localhost:4000/SKMU/Scattering-Partial-Wave/" rel="alternate" type="text/html" title="Scattering: Partial Wave Analysis" /><published>2025-12-22T10:47:26+05:30</published><updated>2025-12-22T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/Partial-Wave</id><content type="html" xml:base="http://localhost:4000/SKMU/Scattering-Partial-Wave/">&lt;p&gt;Partial wave analysis is a fundamental method in quantum scattering theory used to analyze the interaction of a particle with a localized potential by exploiting the rotational symmetry of the problem. When a quantum particle of definite momentum is incident on a scattering center, its wavefunction far from the interaction region can be expressed as a superposition of an incoming plane wave and an outgoing spherical wave.&lt;/p&gt;
 
 \[\psi(\mathbf{x}) = e^{i\mathbf{k}\cdot\mathbf{x}} + f(\mathbf{k}, \mathbf{k&apos;} )\frac{e^{ikr}}{r},\]
 
@@ -138,7 +138,103 @@ P_l(\cos\theta)
   &lt;li&gt;
     &lt;p&gt;The total cross-section can be expressed solely in terms of phase shifts, demonstrating the completeness and predictive power of the partial wave formalism.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="Scattering," /><category term="Quantum" /><category term="Mechanics," /><category term="Partial" /><category term="Wave" /><category term="Analysis," /><category term="Phase" /><category term="Shifts," /><category term="Rutherford" /><category term="Scattering," /><category term="Born" /><category term="Approximation" /><summary type="html">Partial wave analysis is a fundamental method in quantum scattering theory used to analyze the interaction of a particle with a localized potential by exploiting the rotational symmetry of the problem. When a quantum particle of definite momentum is incident on a scattering center, its wavefunction far from the interaction region can be expressed as a superposition of an incoming plane wave and an outgoing spherical wave.</summary></entry><entry><title type="html">Capacitors</title><link href="http://localhost:4000/SKMU/Capacitors/" rel="alternate" type="text/html" title="Capacitors" /><published>2025-12-22T10:30:00+05:30</published><updated>2025-12-22T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/Capacitors</id><content type="html" xml:base="http://localhost:4000/SKMU/Capacitors/">&lt;p&gt;A capacitor is a fundamental passive electronic component used to store electrical energy in the form of an electric field. It consists essentially of two conducting surfaces (plates) separated by an insulating medium known as a dielectric. When a potential difference is applied across the plates, equal and opposite charges accumulate on them, giving rise to an electric field within the dielectric. The ability of a capacitor to store charge per unit potential difference is quantified by its capacitance, measured in farads (F). Capacitors are indispensable in both DC and AC circuits and play a crucial role in signal processing, power conditioning, filtering, timing, coupling, decoupling, and energy storage.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="Scattering," /><category term="Quantum" /><category term="Mechanics," /><category term="Partial" /><category term="Wave" /><category term="Analysis," /><category term="Phase" /><category term="Shifts," /><category term="Rutherford" /><category term="Scattering," /><category term="Born" /><category term="Approximation" /><summary type="html">Partial wave analysis is a fundamental method in quantum scattering theory used to analyze the interaction of a particle with a localized potential by exploiting the rotational symmetry of the problem. When a quantum particle of definite momentum is incident on a scattering center, its wavefunction far from the interaction region can be expressed as a superposition of an incoming plane wave and an outgoing spherical wave.</summary></entry><entry><title type="html">Chokes and Transformers</title><link href="http://localhost:4000/SKMU/Chokes-Transformers/" rel="alternate" type="text/html" title="Chokes and Transformers" /><published>2025-12-22T10:30:00+05:30</published><updated>2025-12-22T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/Transformer</id><content type="html" xml:base="http://localhost:4000/SKMU/Chokes-Transformers/">&lt;p&gt;Chokes and transformers are fundamental electromagnetic components widely used in electrical and electronic systems, particularly in power supplies, communication circuits, and signal-conditioning networks. Both devices operate on the principles of electromagnetic induction and magnetic flux linkage, yet they serve distinct functional roles within circuits. A &lt;strong&gt;choke&lt;/strong&gt; is essentially an inductor designed primarily to impede alternating current (AC) while allowing direct current (DC) to pass with minimal resistance. In contrast, a &lt;strong&gt;transformer&lt;/strong&gt; is a static electrical device that transfers electrical energy between two or more circuits through mutual induction, usually with the purpose of changing voltage or current levels, or providing electrical isolation.&lt;/p&gt;
+
+&lt;p&gt;The operation of a choke relies on its inductance, which produces a self-induced electromotive force (emf) opposing changes in current according to Lenz’s law. Because of this property, chokes are especially effective in filtering circuits, where they suppress high-frequency AC components or ripple currents while permitting steady DC components. They are extensively used in power supply filters, radio-frequency (RF) circuits, audio-frequency (AF) circuits, and electromagnetic interference (EMI) suppression. Depending on the frequency range and application, chokes may be classified as AF chokes, RF chokes, or power chokes. The magnetic core material—air, iron, ferrite, or laminated steel—plays a crucial role in determining the inductive behavior and losses of the choke.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/Chokes-1.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Schematic representation of an inductive choke connected in an AC circuit.&lt;/p&gt;
+
+&lt;p&gt;Transformers, on the other hand, consist of two or more windings—typically referred to as the primary and secondary—wound on a common magnetic core. When an alternating voltage is applied to the primary winding, it produces a time-varying magnetic flux in the core, which links the secondary winding and induces an emf in it. The ratio of voltages across the windings depends on the turns ratio, making transformers indispensable for voltage step-up, step-down, impedance matching, and isolation purposes. They are the backbone of electrical power transmission and distribution systems, enabling efficient long-distance power transfer by reducing current and hence minimizing resistive losses.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/Transformer-1.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; Schematic representation of a transformer showing primary and secondary windings on a common magnetic core.&lt;/p&gt;
+
+&lt;h2 id=&quot;full-mathematical-derivation&quot;&gt;Full Mathematical Derivation&lt;/h2&gt;
+
+&lt;p&gt;Consider first a choke, modeled as an ideal inductor of inductance $ L $. According to Faraday’s law of electromagnetic induction, the induced emf $ e $ in a coil is given by&lt;/p&gt;
+
+\[e = - \frac{d\Phi}{dt},\]
+
+&lt;p&gt;where $ \Phi $ is the magnetic flux linked with the coil. For a coil of $ N $ turns carrying current $ i $, the flux linkage is&lt;/p&gt;
+
+\[\lambda = N\Phi = Li.\]
+
+&lt;p&gt;Differentiating with respect to time,&lt;/p&gt;
+
+\[e = -\frac{d\lambda}{dt} = -L \frac{di}{dt}.\]
+
+&lt;p&gt;In an AC circuit with applied voltage $ v(t) = V_0 \sin \omega t $, the governing equation becomes&lt;/p&gt;
+
+\[V_0 \sin \omega t = L \frac{di}{dt}.\]
+
+&lt;p&gt;Integrating,&lt;/p&gt;
+
+\[i(t) = -\frac{V_0}{\omega L} \cos \omega t.\]
+
+&lt;p&gt;Thus, the current lags the voltage by $ \pi/2 $, and the magnitude of the inductive reactance is&lt;/p&gt;
+
+\[X_L = \omega L.\]
+
+&lt;p&gt;This shows mathematically how a choke opposes AC more strongly at higher frequencies, justifying its use in filtering and noise suppression.&lt;/p&gt;
+
+&lt;p&gt;Now consider a transformer with a primary winding of $ N_1 $ turns and a secondary winding of $ N_2 $ turns wound on a common magnetic core. Let an alternating voltage $ V_1 $ be applied to the primary. The magnetic flux in the core is assumed to be sinusoidal:&lt;/p&gt;
+
+\[\Phi = \Phi_0 \sin \omega t.\]
+
+&lt;p&gt;The induced emf in the primary winding is&lt;/p&gt;
+
+\[E_1 = -N_1 \frac{d\Phi}{dt} = -N_1 \omega \Phi_0 \cos \omega t.\]
+
+&lt;p&gt;For a sinusoidally varying magnetic flux&lt;/p&gt;
+
+\[\Phi(t)=\Phi_{\max}\sin\omega t,\]
+
+&lt;p&gt;Faraday’s law gives the peak induced emf&lt;/p&gt;
+
+\[e_{\max}=N\omega\Phi_{\max}=2\pi f N\Phi_{\max}.\]
+
+&lt;p&gt;Since the rms value of a sinusoidal emf is (e_{\max}/\sqrt{2}), we obtain&lt;/p&gt;
+
+\[E_{\mathrm{rms}}=\frac{2\pi}{\sqrt{2}}\,fN\Phi_{\max}\approx 4.44\,fN\Phi_{\max}.\]
+
+&lt;p&gt;Hence, for the primary and secondary windings respectively,&lt;/p&gt;
+
+\[E_1 = 4.44\, f\, N_1\, \Phi_{\max}, \qquad
+E_2 = 4.44\, f\, N_2\, \Phi_{\max}.\]
+
+&lt;p&gt;Taking the ratio,&lt;/p&gt;
+
+\[\frac{E_2}{E_1} = \frac{N_2}{N_1}.\]
+
+&lt;p&gt;For an ideal transformer, the applied voltage equals the induced emf, so&lt;/p&gt;
+
+\[\frac{V_2}{V_1} = \frac{N_2}{N_1}.\]
+
+&lt;p&gt;Assuming no losses, power conservation gives&lt;/p&gt;
+
+\[V_1 I_1 = V_2 I_2,\]
+
+&lt;p&gt;leading to the current ratio&lt;/p&gt;
+
+\[\frac{I_2}{I_1} = \frac{N_1}{N_2}.\]
+
+&lt;p&gt;This complete derivation establishes the fundamental operating equations of transformers and highlights the dependence of voltage and current transformation on the turns ratio.&lt;/p&gt;
+
+&lt;h2 id=&quot;deductions&quot;&gt;Deductions&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A choke offers frequency-dependent opposition to current, making it highly effective for filtering AC ripple while allowing DC to pass.&lt;/li&gt;
+  &lt;li&gt;The inductive reactance of a choke increases linearly with frequency, which explains its widespread use in RF and noise-suppression circuits.&lt;/li&gt;
+  &lt;li&gt;A transformer operates solely on alternating or time-varying currents; it cannot function with pure DC due to the absence of changing magnetic flux.&lt;/li&gt;
+  &lt;li&gt;The voltage transformation ratio of a transformer depends only on the ratio of turns in the secondary and primary windings.&lt;/li&gt;
+  &lt;li&gt;Ideal transformers conserve power, implying that an increase in voltage is accompanied by a proportional decrease in current.&lt;/li&gt;
+  &lt;li&gt;Core material and construction significantly affect losses, efficiency, and frequency response in both chokes and transformers.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">Chokes and transformers are fundamental electromagnetic components widely used in electrical and electronic systems, particularly in power supplies, communication circuits, and signal-conditioning networks. Both devices operate on the principles of electromagnetic induction and magnetic flux linkage, yet they serve distinct functional roles within circuits. A choke is essentially an inductor designed primarily to impede alternating current (AC) while allowing direct current (DC) to pass with minimal resistance. In contrast, a transformer is a static electrical device that transfers electrical energy between two or more circuits through mutual induction, usually with the purpose of changing voltage or current levels, or providing electrical isolation.</summary></entry><entry><title type="html">Capacitors</title><link href="http://localhost:4000/SKMU/Capacitors/" rel="alternate" type="text/html" title="Capacitors" /><published>2025-12-22T10:30:00+05:30</published><updated>2025-12-22T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/Capacitors</id><content type="html" xml:base="http://localhost:4000/SKMU/Capacitors/">&lt;p&gt;A capacitor is a fundamental passive electronic component used to store electrical energy in the form of an electric field. It consists essentially of two conducting surfaces (plates) separated by an insulating medium known as a dielectric. When a potential difference is applied across the plates, equal and opposite charges accumulate on them, giving rise to an electric field within the dielectric. The ability of a capacitor to store charge per unit potential difference is quantified by its capacitance, measured in farads (F). Capacitors are indispensable in both DC and AC circuits and play a crucial role in signal processing, power conditioning, filtering, timing, coupling, decoupling, and energy storage.&lt;/p&gt;
 
 &lt;p&gt;In practical electronic systems, capacitors are used to block direct current while allowing alternating current to pass, smooth out voltage fluctuations in power supplies, tune resonant circuits in radios and communication devices, and provide temporary energy storage in pulsed systems. The behavior of a capacitor depends not only on its capacitance value but also on its dielectric material, construction, voltage rating, frequency response, and temperature stability. These factors give rise to a wide variety of capacitor types, each optimized for specific applications.&lt;/p&gt;
 
@@ -1893,275 +1989,4 @@ Number = &lt;strong&gt;63&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Loss:
 \(\frac{100 - 30}{100} \times 100 = 70\%\)&lt;/p&gt;
 
-&lt;p&gt;✅ &lt;strong&gt;Answer: (c)&lt;/strong&gt;&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Ratio</summary></entry><entry><title type="html">Quantum Mechanics in Momentum Space by M Lieber</title><link href="http://localhost:4000/SKMU/M-Lieber-1975/" rel="alternate" type="text/html" title="Quantum Mechanics in Momentum Space by M Lieber" /><published>2025-12-12T12:00:00+05:30</published><updated>2025-12-12T12:00:00+05:30</updated><id>http://localhost:4000/SKMU/Lieber</id><content type="html" xml:base="http://localhost:4000/SKMU/M-Lieber-1975/">&lt;p&gt;By M. Lieber
-Received 18 June 1974&lt;/p&gt;
-
-&lt;p&gt;Schrodinger equation in momentum space is obtained by Fourier transforming the coordinate space equation. Lets consider the time-independent Schrodinger equation in one dimension in position space:&lt;/p&gt;
-
-\[\frac{p^2}{2m} \Psi(x) + V(x) \Psi(x) = E \Psi(x) \tag{1}\]
-
-&lt;p&gt;or equivalently,&lt;/p&gt;
-
-\[\left(E-\frac{p^2}{2m}\right) \Psi(x)=  V(x) \Psi(x) \tag{2}\]
-
-&lt;p&gt;To transform this into momentum space, we take the Fourier transform of both sides. The Fourier transform of the wave function is given by:&lt;/p&gt;
-
-\[\Phi(p) = \frac{1}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} \Psi(x) e^{-ipx/\hbar} dx\]
-
-&lt;p&gt;Applying the Fourier transform to (2), we have:&lt;/p&gt;
-
-\[\begin{aligned} \frac{1}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} \left(E-\frac{p^2}{2m}\right) \Psi(x) e^{-ipx/\hbar} dx &amp;amp;= \frac{1}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} V(x) \Psi(x) e^{-ipx/\hbar} dx\\
-\left(E-\frac{p^2}{2m}\right) \phi(p) &amp;amp;= \frac{1}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} \tilde{V}(p-p&apos;) \phi(p&apos;) dp&apos;
-\end{aligned}\tag{3}\]
-
-&lt;p&gt;where $ \tilde{V}(p-p’) $ is the Fourier transform of the potential $ V(x) $:&lt;/p&gt;
-
-\[\tilde{V}(p) = \frac{1}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} V(x) e^{-ipx/\hbar} dx\]
-
-&lt;p&gt;Thus, the Schrodinger equation in momentum space becomes:&lt;/p&gt;
-
-\[\color{brown}{\boxed{ \left(E-\frac{p^2}{2m}\right) \phi(p) = \frac{1}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} \tilde{V}(p-p&apos;) \phi(p&apos;) dp&apos; }} \tag{4}\]
-
-&lt;h1 id=&quot;consider-potential-vx--v_0-deltax&quot;&gt;Consider potential $V(x) = V_0 \delta(x)$&lt;/h1&gt;
-
-&lt;p&gt;For the delta function potential, the Fourier transform is:&lt;/p&gt;
-
-\[\tilde{V}(p) = \frac{V_0}{\sqrt{2\pi \hbar}}\]
-
-&lt;p&gt;Substituting this into (4), we get:&lt;/p&gt;
-
-\[\left(E-\frac{p^2}{2m}\right) \phi(p) = \frac{V_0}{2\pi \hbar} \int_{-\infty}^{\infty} \phi(p&apos;) dp&apos; \tag{5}\]
-
-&lt;p&gt;Let $ C = \int_{-\infty}^{\infty} \phi(p’) dp’ $. Then (5) becomes:&lt;/p&gt;
-
-\[\left(E-\frac{p^2}{2m}\right) \phi(p) = \frac{V_0}{2\pi \hbar} C \tag{6}\]
-
-&lt;p&gt;Rearranging (6), we have:&lt;/p&gt;
-
-\[\phi(p) = \frac{V_0 C}{2\pi \hbar \left(E-\frac{p^2}{2m}\right)} \tag{7}\]
-
-&lt;p&gt;To find $ C $, we integrate both sides of (7) over all $ p $:&lt;/p&gt;
-
-\[C = \int_{-\infty}^{\infty} \phi(p) dp = \frac{V_0 C}{2\pi \hbar} \int_{-\infty}^{\infty} \frac{dp}{E-\frac{p^2}{2m}} \tag{8}\]
-
-&lt;p&gt;The integral on the right side can be evaluated using contour integration techniques. The result is:&lt;/p&gt;
-
-\[\int_{-\infty}^{\infty} \frac{dp}{E-\frac{p^2}{2m}} = -\pi \sqrt{\frac{2m}{-E}} \quad \text{for } E &amp;lt; 0\]
-
-&lt;p&gt;Substituting this back into (8), we get:&lt;/p&gt;
-
-\[C = \frac{V_0 C}{2\pi \hbar} \left(-\pi \sqrt{\frac{2m}{-E}}\right)\]
-
-&lt;p&gt;This leads to the condition for non-trivial solutions (i.e., $ C \neq 0 $):&lt;/p&gt;
-
-\[1 = -\frac{V_0}{2\hbar} \sqrt{\frac{2m}{-E}}\]
-
-&lt;p&gt;Solving for $ E $, we find the bound state energy:&lt;/p&gt;
-
-\[E = -\frac{m V_0^2}{2 \hbar^2} \tag{9}\]
-
-&lt;p&gt;Thus, the bound state energy for a particle in a delta function potential well is given by (9). The corresponding momentum space wave function can be obtained from (7) using the value of $ E $ found above.&lt;/p&gt;
-
-\[\color{brown}{\boxed{ E = -\frac{m V_0^2}{2 \hbar^2} }}\]
-
-&lt;p&gt;Putting eqn (9) back into (7) gives the momentum space wave function for the bound state.&lt;/p&gt;
-
-\[\phi(p) = -\frac{mV_0 C}{\pi \hbar \left(\frac{m^2 V_0^2}{ \hbar^2}+p^2\right)}\]
-
-&lt;p&gt;Upon normalization, we can determine the constant $ C $ which comes out to be:&lt;/p&gt;
-
-\[C = -\frac{m V_0 \sqrt{\frac{2 \pi\hbar}{m V_0}}}{\hbar }\]
-
-&lt;p&gt;Therefore, the normalized momentum space wave function is:&lt;/p&gt;
-
-\[\phi(p) = \sqrt{\frac{2}{\pi}} \left(\frac{m V_0}{\hbar}\right)^{3/2}\frac{1}{\left[\left(\frac{m V_0}{ \hbar}\right)^2+p^2\right]}\]
-
-&lt;p&gt;The plot of the momentum space wave function is shown below with respect to momentum p.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/Research-IMG/M-Lieber-1975-1.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The coordinate space wave function can be obtained by inverse Fourier transforming the momentum space wave function. Here contour integration can be used to evaluate the integral as the case for positve and negative x can be treated separately. The final result for the coordinate space wave function is:&lt;/p&gt;
-
-\[\Psi(x) = \sqrt{\frac{m V_0}{\hbar^2}} e^{-\frac{m V_0}{\hbar^2}|x|}\]
-
-&lt;p&gt;Note $V_0$ is a positive quantity here representing the depth of the potential well.
-The plot of the coordinate space wave function is shown below with respect to position x.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/SKMU/assets/Research-IMG/M-Lieber-1975-2.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This completes the solution of the Schrodinger equation in momentum space for a delta function potential well, yielding both the bound state energy and the corresponding wave functions in momentum and coordinate space.&lt;/p&gt;
-
-&lt;h1 id=&quot;scattering-problem&quot;&gt;Scattering Problem&lt;/h1&gt;
-
-&lt;p&gt;For scattering states with positive energy $ E &amp;gt; 0 $, we can analyze the scattering problem using the momentum space Schrodinger equation (4). Consider an incident plane wave with momentum $ p_0 = \sqrt{2mE} $ with scattering from the delta function potential as given in the previous section.&lt;/p&gt;
-
-\[\left(E-\frac{p^2}{2m}\right) \phi(p) = \frac{V_0}{2\pi \hbar} \int_{-\infty}^{\infty} \phi(p&apos;) dp&apos; \tag{10}\]
-
-&lt;p&gt;Let $E= \frac{p_0^2}{2m}$ and $\alpha=\frac{mV_0}{\pi \hbar}C$, where $C$ is the integral on the right side $ C = \int_{-\infty}^{\infty} \phi(p’) dp’ $. Then (10) becomes:&lt;/p&gt;
-
-\[\left(p_0^2-p^2\right) \phi(p) = \alpha\tag{11}\]
-
-&lt;p&gt;The denominator $p_0^2-p^2$ &lt;strong&gt;vanishes at $p=\pm p_0$&lt;/strong&gt;. Hence $\phi(p)$ is &lt;strong&gt;singular on the real axis&lt;/strong&gt;, and its integral&lt;/p&gt;
-
-\[C=\int_{-\infty}^{\infty}\phi(p)\,dp\]
-
-&lt;p&gt;is not an ordinary Riemann integral. Further, this case is distinct from the bound state case treated earlier as there were no singularities on the real axis do the negative energy. The most general solution for $\phi(p)$ must therefore include delta functions at the singular points to account for the incident and reflected waves in the scattering process.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Why the principal value alone is not enough&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;If you only define&lt;/p&gt;
-
-\[(p_0^2-p^2)^{-1} \;\to\; P[(p_0^2-p^2)^{-1}],\]
-
-&lt;p&gt;you get &lt;strong&gt;one particular solution&lt;/strong&gt;, but not the &lt;em&gt;most general solution&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;In distribution theory:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Whenever a coefficient multiplying $\phi(p)$ vanishes at some points, &lt;strong&gt;delta functions supported at those points may appear in the solution&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Here, since&lt;/p&gt;
-
-\[(p_0^2-p^2)\,\delta(p\mp p_0)=0,\]
-
-&lt;p&gt;delta functions at $p=\pm p_0$ solve the homogeneous equation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Homogeneous vs particular solutions&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;(a) Homogeneous solutions&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Consider&lt;/p&gt;
-
-\[(p_0^2-p^2)\,\phi(p)=0\]
-
-&lt;p&gt;This is satisfied by&lt;/p&gt;
-
-\[\boxed{
-\delta(p-p_0),\qquad \delta(p+p_0)
-}\]
-
-&lt;p&gt;because multiplication by $p_0^2-p^2$ annihilates them.&lt;/p&gt;
-
-&lt;p&gt;These correspond physically to &lt;strong&gt;free incoming and outgoing momentum eigenstates&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;(b) Particular solution&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A particular solution of&lt;/p&gt;
-
-\[(p_0^2-p^2)\,\phi(p)=\text{constant}\]
-
-&lt;p&gt;is&lt;/p&gt;
-
-\[\phi(p)=\alpha\,P[(p_0^2-p^2)^{-1}]\]
-
-&lt;p&gt;This is the &lt;strong&gt;scattered (off-shell) contribution&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Combining homogeneous + particular solutions gives&lt;/p&gt;
-
-\[\boxed{
-\phi(p)
-=
-A\,\delta(p-p_0)
-+
-B\,\delta(p+p_0)
-+
-\alpha\,P[(p_0^2-p^2)^{-1}]
-}
-\tag{12}\]
-
-&lt;p&gt;where $A,B$ are constants representing the amplitudes of the incident and reflected waves, respectively. Integrating (30) over all $p$ gives&lt;/p&gt;
-
-\[\alpha\;\frac{\pi\hbar}{mV_0} = A + B
-+ \alpha \int_{-\infty}^{\infty} P[(p_0^2-p^2)^{-1}]\,dp\]
-
-&lt;p&gt;But&lt;/p&gt;
-
-\[\int_{-\infty}^{\infty} P[(p_0^2-p^2)^{-1}]\,dp = 0\]
-
-&lt;p&gt;(by symmetry of the principal value).&lt;/p&gt;
-
-&lt;p&gt;Therefore:&lt;/p&gt;
-
-\[\boxed{
-\alpha=\frac{m V_0}{\pi\hbar}(A+B)
-}
-\tag{13}\]
-
-&lt;p&gt;Now the general solution must be the sum of incident plane waves and scattered waves, i.e.,&lt;/p&gt;
-
-\[\phi(p) = \delta(p - p_0) + f(p) \{2m P (p_0^2 - p^2)^{-1}-\frac{im\pi}{p_0}\left(\delta(p - p_0)+\delta(p + p_0)\right) \} \tag{14}\]
-
-&lt;p&gt;where $ f(p) $ is the scattering amplitude. Comparing (12) and (14), we can identify the coefficients $ A $ and $ B $ in terms of the scattering amplitude $ f(p) $. Comparing the principal value terms in both expressions, we have:&lt;/p&gt;
-
-\[\frac{m V_0}{\pi \hbar }(A+B)=\alpha = 2m f(p) \tag{15}\]
-
-&lt;p&gt;Next, comparing the delta function coefficients, we have:&lt;/p&gt;
-
-\[A = 1 - \frac{im\pi}{p_0} f(p) \tag{16}\]
-
-\[B = - \frac{im\pi}{p_0} f(p) \tag{17}\]
-
-&lt;p&gt;Now substituting (15) into (16) and (17), we can solve for the scattering amplitude $ f(p) $ as:&lt;/p&gt;
-
-\[f(p) = \frac{\frac{V_0}{2\pi \hbar}}{1 + i \frac{m V_0}{p_0\hbar}} \tag{18}\]
-
-&lt;p&gt;Thus, the scattering amplitude for a particle scattering off a delta function potential in momentum space is given by (18). Thus our final expression for the momentum space wave function from (14) becomes:&lt;/p&gt;
-
-\[\phi(p) = \delta(p - p_0) + \frac{\frac{V_0}{2\pi \hbar}}{1 + i \frac{m V_0}{p_0\hbar}} \left\{2m P (p_0^2 - p^2)^{-1}-\frac{im\pi}{p_0}\left(\delta(p - p_0)+\delta(p + p_0)\right) \right\}\]
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;contour-integration-techniques&quot;&gt;Contour integration techniques\&lt;/h1&gt;
-
-&lt;p&gt;Given an wave function in momentum space of the form:&lt;/p&gt;
-
-\[\phi(p) = \frac{A}{(p^2 + \alpha^2)}\]
-
-&lt;p&gt;To find the corresponding coordinate space wave function, we perform the inverse Fourier transform:&lt;/p&gt;
-
-\[\Psi(x) = \frac{1}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} \phi(p) e^{ipx/\hbar} dp = \frac{A}{\sqrt{2\pi \hbar}} \int_{-\infty}^{\infty} \frac{e^{ipx/\hbar}}{(p^2 + \alpha^2)} dp\]
-
-&lt;p&gt;To evaluate this integral, we can use contour integration techniques from complex analysis. The integrand has poles at $ p = i\alpha $ and $ p = -i\alpha $. Depending on the sign of $ x $, we will close the contour in the upper or lower half-plane.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Case 1: $ x &amp;gt; 0 $&lt;/strong&gt;
- For $ x &amp;gt; 0 $, we close the contour in the upper half-plane. The only pole inside this contour is at $ p = i\alpha $. Using the residue theorem, we calculate the residue at this pole:&lt;/p&gt;
-
-\[\text{Res}\left(\frac{e^{ipx/\hbar}}{p^2 + \alpha^2}, p = i\alpha\right) = \lim_{p \to i\alpha} (p - i\alpha) \frac{e^{ipx/\hbar}}{(p - i\alpha)(p + i\alpha)} = \frac{e^{i(i\alpha)x/\hbar}}{2i\alpha} = \frac{e^{-\alpha x/\hbar}}{2i\alpha}\]
-
-    &lt;p&gt;Applying the residue theorem, we have:&lt;/p&gt;
-
-\[\int_{-\infty}^{\infty} \frac{e^{ipx/\hbar}}{(p^2 + \alpha^2)} dp = 2\pi i \cdot \text{Res} = 2\pi i \cdot \frac{e^{-\alpha x/\hbar}}{2i\alpha} = \frac{\pi e^{-\alpha x/\hbar}}{\alpha}\]
-
-    &lt;p&gt;Thus, for $ x &amp;gt; 0 $:&lt;/p&gt;
-
-\[\Psi(x) = \frac{A}{\sqrt{2\pi \hbar}} \cdot \frac{\pi e^{-\alpha x/\hbar}}{\alpha} = \frac{A \sqrt{\pi}}{\alpha \sqrt{2\hbar}} e^{-\alpha x/\hbar}\]
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Case 2: $ x &amp;lt; 0 $&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;p&gt;For $ x &amp;lt; 0 $, we close the contour in the lower half-plane. The only pole inside this contour is at $ p = -i\alpha $. Calculating the residue at this pole:&lt;/p&gt;
-
-\[\text{Res}\left(\frac{e^{ipx/\hbar}}{p^2 + \alpha^2}, p = -i\alpha\right) = \lim_{p \to -i\alpha} (p + i\alpha) \frac{e^{ipx/\hbar}}{(p - i\alpha)(p + i\alpha)} = \frac{e^{i(-i\alpha)x/\hbar}}{-2i\alpha} = \frac{e^{\alpha x/\hbar}}{-2i\alpha}\]
-
-    &lt;p&gt;Applying the residue theorem, we have:&lt;/p&gt;
-
-\[\int_{-\infty}^{\infty} \frac{e^{ipx/\hbar}}{(p^2 + \alpha^2)} dp = 2\pi i \cdot \text{Res} = 2\pi i \cdot \frac{e^{\alpha x/\hbar}}{-2i\alpha} = -\frac{\pi e^{\alpha x/\hbar}}{\alpha}\]
-
-    &lt;p&gt;Thus, for $ x &amp;lt; 0 $:&lt;/p&gt;
-
-\[\Psi(x) = \frac{A}{\sqrt{2\pi \hbar}} \cdot \left(-\frac{\pi e^{\alpha x/\hbar}}{\alpha}\right) = -\frac{A \sqrt{\pi}}{\alpha \sqrt{2\hbar}} e^{\alpha x/\hbar}\]
-
-    &lt;p&gt;Combining both cases, we can write the coordinate space wave function as:&lt;/p&gt;
-
-\[\Psi(x) = \frac{A \sqrt{\pi}}{\alpha \sqrt{2\hbar}} e^{-\alpha |x|/\hbar}\]
-
-    &lt;p&gt;This result shows that the coordinate space wave function decays exponentially with distance from the origin, consistent with the expected behavior for a bound state in a potential well.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">By M. Lieber Received 18 June 1974</summary></entry></feed>
+&lt;p&gt;✅ &lt;strong&gt;Answer: (c)&lt;/strong&gt;&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Ratio</summary></entry></feed>
