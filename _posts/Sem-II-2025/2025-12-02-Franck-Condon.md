@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Franck Condon Principle"
-date: 2025-12-02 10:00:00 +0530
+date: 2025-12-22 11:00:00 +0530
 categories: lecture
 tags: MSc 
 permalink: /franck-condon-principle/
@@ -28,7 +28,7 @@ In addition to its role in spectroscopy, the principle has wide implications in 
 
 
 
-## Full Mathematical Derivation
+## Mathematical Derivation
 
 Consider a diatomic molecule under the Born–Oppenheimer approximation, where the total molecular wavefunction is separable into electronic and nuclear parts:
 
@@ -86,47 +86,9 @@ $$
 I_{v'v''} \propto q_{v'v''}.
 $$
 
-To evaluate these overlaps, we model the nuclear motion using harmonic oscillator wavefunctions displaced by a shift in equilibrium separation $ \Delta R = R_e' - R_e'' $. For harmonic oscillator states:
+For applications see this [link](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)/13%3A_Molecular_Spectroscopy/13.07%3A_The_Franck-Condon_Principle)
 
-$$
-\chi_v(R) = N_v\, H_v\left(\alpha (R-R_e)\right)\, \exp\left[-\frac{1}{2}\alpha^2 (R - R_e)^2\right],
-$$
-
-where:
-
-- $ H_v $ = Hermite polynomial,
-- $ \alpha = \sqrt{\frac{\mu \omega}{\hbar}} $.
-
-The overlap integral becomes:
-
-$$
-\langle \chi_{v'}(R - \Delta R) | \chi_{v''}(R) \rangle
-= 
-\int_{-\infty}^{\infty}
-\chi_{v'}(R - \Delta R)\, \chi_{v''}(R)\, dR.
-$$
-
-This can be evaluated analytically using generating functions, giving:
-
-$$
-q_{v'v''} = e^{-S} \frac{S^{|v'-v''|}}{\min(v',v'')!} \left( L_{\min(v',v'')}^{|v'-v''|}(S) \right)^2,
-$$
-
-where $ L_n^k $ are associated Laguerre polynomials and
-
-$$
-S = \frac{1}{2}\alpha^2 (\Delta R)^2.
-$$
-
-The parameter $ S $ measures the shift between equilibrium positions. A large $ \Delta R $ produces large $ S $, creating a vibrational progression with maxima near:
-
-$$
-v'_{\text{max}} \approx S.
-$$
-
-This mathematical framework explains the intensities in vibronic transitions and confirms the Franck–Condon principle quantitatively.
-
-## Corollaries / Deductions / Conclusions
+## Deductions
 
 1. The intensity of a vibronic transition depends primarily on vibrational overlap, not only on electronic selection rules.
 
