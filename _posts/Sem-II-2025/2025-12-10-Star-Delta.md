@@ -4,6 +4,7 @@ title: "Star & Delta Connection"
 date: 2025-12-10 10:30:00 +0530
 categories: lecture
 tags: MSc 
+permalink: /Star-Delta/
 ---
 
 

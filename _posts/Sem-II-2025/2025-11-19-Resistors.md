@@ -4,6 +4,7 @@ title: "Resistors"
 date: 2025-11-19 10:30:00 +0530
 categories: lecture
 tags: MSc 
+permalink: /Resistors/
 ---
 
 # Resistors: Types, Characteristics, and Colour Coding

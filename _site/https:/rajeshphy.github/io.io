@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-22T13:06:09+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Scattering: Partial Wave Analysis</title><link href="http://localhost:4000/SKMU/Scattering-Partial-Wave/" rel="alternate" type="text/html" title="Scattering: Partial Wave Analysis" /><published>2025-12-22T10:47:26+05:30</published><updated>2025-12-22T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/Partial-Wave</id><content type="html" xml:base="http://localhost:4000/SKMU/Scattering-Partial-Wave/">&lt;p&gt;Partial wave analysis is a fundamental method in quantum scattering theory used to analyze the interaction of a particle with a localized potential by exploiting the rotational symmetry of the problem. When a quantum particle of definite momentum is incident on a scattering center, its wavefunction far from the interaction region can be expressed as a superposition of an incoming plane wave and an outgoing spherical wave.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-22T14:34:38+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Scattering: Partial Wave Analysis</title><link href="http://localhost:4000/SKMU/Scattering-Partial-Wave/" rel="alternate" type="text/html" title="Scattering: Partial Wave Analysis" /><published>2025-12-22T10:47:26+05:30</published><updated>2025-12-22T10:47:26+05:30</updated><id>http://localhost:4000/SKMU/Partial-Wave</id><content type="html" xml:base="http://localhost:4000/SKMU/Scattering-Partial-Wave/">&lt;p&gt;Partial wave analysis is a fundamental method in quantum scattering theory used to analyze the interaction of a particle with a localized potential by exploiting the rotational symmetry of the problem. When a quantum particle of definite momentum is incident on a scattering center, its wavefunction far from the interaction region can be expressed as a superposition of an incoming plane wave and an outgoing spherical wave.&lt;/p&gt;
 
 \[\psi(\mathbf{x}) = e^{i\mathbf{k}\cdot\mathbf{x}} + f(\mathbf{k}, \mathbf{k&apos;} )\frac{e^{ikr}}{r},\]
 
@@ -138,7 +138,94 @@ P_l(\cos\theta)
   &lt;li&gt;
     &lt;p&gt;The total cross-section can be expressed solely in terms of phase shifts, demonstrating the completeness and predictive power of the partial wave formalism.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="Scattering," /><category term="Quantum" /><category term="Mechanics," /><category term="Partial" /><category term="Wave" /><category term="Analysis," /><category term="Phase" /><category term="Shifts," /><category term="Rutherford" /><category term="Scattering," /><category term="Born" /><category term="Approximation" /><summary type="html">Partial wave analysis is a fundamental method in quantum scattering theory used to analyze the interaction of a particle with a localized potential by exploiting the rotational symmetry of the problem. When a quantum particle of definite momentum is incident on a scattering center, its wavefunction far from the interaction region can be expressed as a superposition of an incoming plane wave and an outgoing spherical wave.</summary></entry><entry><title type="html">JET: English-Lecture-VI</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-VI" rel="alternate" type="text/html" title="JET: English-Lecture-VI" /><published>2025-12-20T08:00:00+05:30</published><updated>2025-12-20T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L6</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-VI">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Clock&lt;/b&gt;&lt;/h1&gt;
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="Scattering," /><category term="Quantum" /><category term="Mechanics," /><category term="Partial" /><category term="Wave" /><category term="Analysis," /><category term="Phase" /><category term="Shifts," /><category term="Rutherford" /><category term="Scattering," /><category term="Born" /><category term="Approximation" /><summary type="html">Partial wave analysis is a fundamental method in quantum scattering theory used to analyze the interaction of a particle with a localized potential by exploiting the rotational symmetry of the problem. When a quantum particle of definite momentum is incident on a scattering center, its wavefunction far from the interaction region can be expressed as a superposition of an incoming plane wave and an outgoing spherical wave.</summary></entry><entry><title type="html">Capacitors</title><link href="http://localhost:4000/SKMU/Capacitors/" rel="alternate" type="text/html" title="Capacitors" /><published>2025-12-22T10:30:00+05:30</published><updated>2025-12-22T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/Capacitors</id><content type="html" xml:base="http://localhost:4000/SKMU/Capacitors/">&lt;p&gt;A capacitor is a fundamental passive electronic component used to store electrical energy in the form of an electric field. It consists essentially of two conducting surfaces (plates) separated by an insulating medium known as a dielectric. When a potential difference is applied across the plates, equal and opposite charges accumulate on them, giving rise to an electric field within the dielectric. The ability of a capacitor to store charge per unit potential difference is quantified by its capacitance, measured in farads (F). Capacitors are indispensable in both DC and AC circuits and play a crucial role in signal processing, power conditioning, filtering, timing, coupling, decoupling, and energy storage.&lt;/p&gt;
+
+&lt;p&gt;In practical electronic systems, capacitors are used to block direct current while allowing alternating current to pass, smooth out voltage fluctuations in power supplies, tune resonant circuits in radios and communication devices, and provide temporary energy storage in pulsed systems. The behavior of a capacitor depends not only on its capacitance value but also on its dielectric material, construction, voltage rating, frequency response, and temperature stability. These factors give rise to a wide variety of capacitor types, each optimized for specific applications.&lt;/p&gt;
+
+&lt;p&gt;Capacitors can broadly be classified based on their dielectric material and construction. Common types include ceramic capacitors, electrolytic capacitors, tantalum capacitors, mica capacitors, paper capacitors, and film capacitors. Each type exhibits distinct electrical characteristics such as dielectric constant, loss tangent, leakage current, equivalent series resistance (ESR), and tolerance. For example, ceramic capacitors are widely used for high-frequency applications due to their low inductance and small size, while electrolytic capacitors are preferred in power supply circuits for their large capacitance values.&lt;/p&gt;
+
+&lt;p&gt;An important practical aspect of capacitors is their identification and rating, particularly for small capacitors where printed numerical values may not be feasible. Colour coding provides a standardized method of indicating capacitance value, tolerance, and sometimes voltage rating using colored bands or dots, similar in concept to resistor colour coding. Understanding capacitor colour codes is essential for circuit assembly, maintenance, and troubleshooting, especially in laboratory and educational settings.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/Capacitor-1.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Schematic of a parallel-plate capacitor showing plates and dielectric.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/Capacitor-2.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; Different capacitor types: ceramic disc, electrolytic capacitor, mica capacitor, and variable capacitor.&lt;/p&gt;
+
+&lt;h3 id=&quot;capacitor-colour-coding&quot;&gt;Capacitor Colour Coding&lt;/h3&gt;
+
+&lt;p&gt;Small-value capacitors, particularly older ceramic and mica types, often use a colour-coding scheme to indicate their capacitance value and tolerance when direct numerical marking is impractical. The coding generally consists of coloured dots or bands, each colour corresponding to a numerical digit according to an internationally accepted code. The first two colours represent the significant figures of the capacitance value, the third colour denotes the multiplier (power of ten), and an additional colour may indicate tolerance. The capacitance obtained from colour coding is usually expressed in picofarads (pF).&lt;/p&gt;
+
+&lt;p&gt;The standard colour–number correspondence is: black (0), brown (1), red (2), orange (3), yellow (4), green (5), blue (6), violet (7), grey (8), and white (9). For example, a capacitor marked with red–violet–orange corresponds to $ 27 \times 10^{3} \,\text{pF} $, or $ 27 \,\text{nF} $. Tolerance is indicated by an extra colour, such as gold (±5%), silver (±10%), or no colour (±20%). This colour coding system enables quick identification of capacitor values in circuit assembly and maintenance, especially in laboratory and educational environments.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/SKMU/assets/img/Electronics/Capacitor-3.png&quot; alt=&quot;Interaction Process&quot; class=&quot;my-custom-class&quot; style=&quot;max-width:60%; height:auto;&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Figure 3:&lt;/strong&gt; Colour coding scheme for capacitors indicating capacitance value and tolerance.&lt;/p&gt;
+
+&lt;h2 id=&quot;full-mathematical-derivation&quot;&gt;Full Mathematical Derivation&lt;/h2&gt;
+
+&lt;p&gt;Consider a parallel-plate capacitor consisting of two conducting plates of area $ A $, separated by a distance $ d $, with a dielectric of permittivity $ \varepsilon = \varepsilon_0 \varepsilon_r $ filling the space between the plates.&lt;/p&gt;
+
+&lt;p&gt;Let a charge $ +Q $ be placed on one plate and $ -Q $ on the other. The surface charge density $ \sigma $ on each plate is given by&lt;/p&gt;
+
+\[\sigma = \frac{Q}{A}.\]
+
+&lt;p&gt;From Gauss’s law in electrostatics,&lt;/p&gt;
+
+\[\oint \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\text{enc}}}{\varepsilon},\]
+
+&lt;p&gt;the magnitude of the electric field $ E $ between the plates is&lt;/p&gt;
+
+\[E = \frac{\sigma}{\varepsilon} = \frac{Q}{\varepsilon A}.\]
+
+&lt;p&gt;The potential difference $ V $ between the plates is related to the electric field by&lt;/p&gt;
+
+\[V = \int_0^d E \, dl = Ed = \frac{Qd}{\varepsilon A}.\]
+
+&lt;p&gt;By definition, the capacitance $ C $ is the ratio of charge to potential difference:&lt;/p&gt;
+
+\[C = \frac{Q}{V}.\]
+
+&lt;p&gt;Substituting for $ V $,&lt;/p&gt;
+
+\[C = \frac{Q}{\frac{Qd}{\varepsilon A}} = \frac{\varepsilon A}{d}.\]
+
+&lt;p&gt;Thus, the capacitance of a parallel-plate capacitor is&lt;/p&gt;
+
+\[\boxed{C = \frac{\varepsilon_0 \varepsilon_r A}{d}}.\]
+
+&lt;p&gt;This expression shows that capacitance increases with plate area and dielectric constant, and decreases with plate separation.&lt;/p&gt;
+
+&lt;p&gt;The energy stored in the capacitor can be derived as follows. The work done $ dW $ in charging the capacitor by an incremental charge $ dq $ when the potential difference is $ v = q/C $ is&lt;/p&gt;
+
+\[dW = v \, dq = \frac{q}{C} dq.\]
+
+&lt;p&gt;Integrating from $ q = 0 $ to $ q = Q $,&lt;/p&gt;
+
+\[W = \int_0^Q \frac{q}{C} dq = \frac{1}{2C} Q^2.\]
+
+&lt;p&gt;Using $ Q = CV $, this can also be written as&lt;/p&gt;
+
+\[W = \frac{1}{2} CV^2.\]
+
+&lt;p&gt;The energy density $ u $ (energy per unit volume) in the electric field is&lt;/p&gt;
+
+\[u = \frac{W}{Ad} = \frac{1}{2} \varepsilon E^2,\]
+
+&lt;p&gt;demonstrating that the energy is stored in the electric field within the dielectric.&lt;/p&gt;
+
+&lt;p&gt;For AC applications, the impedance of an ideal capacitor is&lt;/p&gt;
+
+\[Z_C = \frac{1}{j\omega C},\]
+
+&lt;p&gt;where $ \omega = 2\pi f $ is the angular frequency. This frequency-dependent behavior explains why capacitors block DC ($ \omega = 0 $) and allow AC to pass.&lt;/p&gt;
+
+&lt;p&gt;Real capacitors deviate from ideal behavior due to parasitic resistance (ESR) and inductance (ESL), which become significant at high frequencies and are strongly dependent on capacitor type and construction.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="MSc" /><summary type="html">A capacitor is a fundamental passive electronic component used to store electrical energy in the form of an electric field. It consists essentially of two conducting surfaces (plates) separated by an insulating medium known as a dielectric. When a potential difference is applied across the plates, equal and opposite charges accumulate on them, giving rise to an electric field within the dielectric. The ability of a capacitor to store charge per unit potential difference is quantified by its capacitance, measured in farads (F). Capacitors are indispensable in both DC and AC circuits and play a crucial role in signal processing, power conditioning, filtering, timing, coupling, decoupling, and energy storage.</summary></entry><entry><title type="html">JET: English-Lecture-VI</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-VI" rel="alternate" type="text/html" title="JET: English-Lecture-VI" /><published>2025-12-20T08:00:00+05:30</published><updated>2025-12-20T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L6</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-VI">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Clock&lt;/b&gt;&lt;/h1&gt;
 
 &lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
   &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
@@ -2077,187 +2164,4 @@ B\,\delta(p+p_0)
 
     &lt;p&gt;This result shows that the coordinate space wave function decays exponentially with distance from the origin, consistent with the expected behavior for a bound state in a potential well.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">By M. Lieber Received 18 June 1974</summary></entry><entry><title type="html">JET: English-Lecture-III</title><link href="http://localhost:4000/SKMU/JET-English-Lecture-III" rel="alternate" type="text/html" title="JET: English-Lecture-III " /><published>2025-12-12T08:30:00+05:30</published><updated>2025-12-12T08:30:00+05:30</updated><id>http://localhost:4000/SKMU/JET-Paper-1-L3</id><content type="html" xml:base="http://localhost:4000/SKMU/JET-English-Lecture-III">&lt;h1 align=&quot;center&quot; style=&quot;color:blue;&quot;&gt;&lt;b&gt;Time &amp;amp; Distance&lt;/b&gt;&lt;/h1&gt;
-
-&lt;div class=&quot;quiz-wrapper&quot; style=&quot;display:flex;justify-content:center;margin-top:1.5rem;&quot;&gt;
-  &lt;div id=&quot;quiz-container-wrapper&quot; style=&quot;background:#f7fbe8;border-radius:0.8rem;box-shadow:0 3px 8px rgba(0,0,0,0.08);
-              padding:1.2rem 1.5rem;max-width:560px;width:100%;font-family:&apos;Inter&apos;,sans-serif;
-              border:1px solid #d9e6b2;&quot;&gt;
-
-    &lt;h2 style=&quot;text-align:center;color:#3b4c00;margin-bottom:0.8rem;
-               font-size:1.4rem;font-weight:700;&quot;&gt;QUIZ&lt;/h2&gt;
-               
-    &lt;div id=&quot;quiz-level-selector&quot; style=&quot;text-align:center;margin-bottom:1rem;display:flex;justify-content:center;gap:0.4rem;flex-wrap:wrap;&quot;&gt;
-      &lt;button class=&quot;level-btn&quot; data-file=&quot;TD_Easy.json&quot;&gt;Easy&lt;/button&gt;
-      &lt;button class=&quot;level-btn&quot; data-file=&quot;TD_Medium.json&quot;&gt;Medium&lt;/button&gt;
-      &lt;button class=&quot;level-btn&quot; data-file=&quot;TD_Hard.json&quot;&gt;Hard&lt;/button&gt;
-    &lt;/div&gt;
-
-    &lt;div id=&quot;quiz-section&quot; style=&quot;display:none;&quot;&gt;
-      &lt;div class=&quot;quiz-wrapper&quot;&gt;
-  &lt;div id=&quot;quiz-container&quot; data-quiz=&quot;&quot;&gt;
-    &lt;h2 id=&quot;quiz-title&quot; class=&quot;quiz-title&quot;&gt;&lt;/h2&gt;
-
-    &lt;div id=&quot;question-container&quot; class=&quot;question-container&quot;&gt;
-      &lt;div id=&quot;question&quot; class=&quot;question-text&quot;&gt;&lt;/div&gt;
-      &lt;div id=&quot;answer-buttons&quot; class=&quot;options-grid&quot;&gt;
-        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
-        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
-        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
-        &lt;button class=&quot;option btn&quot;&gt;&lt;/button&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;button id=&quot;next-btn&quot; class=&quot;btn next-btn&quot;&gt;Next&lt;/button&gt;
-    &lt;div id=&quot;result&quot; class=&quot;result&quot;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;!-- ✅ Stylesheet --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;/SKMU/assets/css/quiz.css&quot; /&gt;
-
-&lt;!-- ✅ Quiz Script --&gt;
-&lt;script src=&quot;/SKMU/assets/js/quiz.js&quot;&gt;&lt;/script&gt;
-
-
-&lt;!-- ✅ Pass baseurl to JS (for blogs inside subfolders like /SKMU/) --&gt;
-&lt;script&gt;
-  window.quizBaseUrl = &quot;/SKMU&quot;;
-&lt;/script&gt;
-    &lt;/div&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Time &amp;amp; Distance is one of the most fundamental chapters in aptitude tests. All questions revolve around three core quantities:&lt;br /&gt;
-&lt;strong&gt;Distance (D), Speed (S), and Time (T)&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;These three are connected by the golden formula:&lt;/p&gt;
-
-\[\textbf{Speed} = \frac{Distance}{Time}, \quad 
-\textbf{Time} = \frac{Distance}{Speed}, \quad
-\textbf{Distance} = Speed \times Time\]
-
-&lt;h2 id=&quot;1-basic-formula-applications&quot;&gt;&lt;strong&gt;1. Basic Formula Applications&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;a-constant-speed-problems&quot;&gt;&lt;strong&gt;(A) Constant Speed Problems&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;When speed remains the same, distance is directly proportional to time.&lt;/p&gt;
-
-&lt;p&gt;Example:&lt;br /&gt;
-A bike moves at $40\text{ km/h}$. Distance covered in 3 hours:&lt;br /&gt;
-\(40 \times 3 = 120\text{ km}\)&lt;/p&gt;
-
-&lt;h3 id=&quot;b-unit-conversion-essentials&quot;&gt;&lt;strong&gt;(B) Unit Conversion Essentials&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;$1\text{ km/h} = \frac{5}{18} \text{ m/s}$&lt;/li&gt;
-  &lt;li&gt;$1\text{ m/s} = \frac{18}{5} \text{ km/h}$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These conversions are frequently required in exams.&lt;/p&gt;
-
-&lt;h2 id=&quot;2-average-speed&quot;&gt;&lt;strong&gt;2. Average Speed&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Average speed is &lt;strong&gt;not&lt;/strong&gt; the simple average of speeds unless equal time is spent.&lt;/p&gt;
-
-&lt;h3 id=&quot;formula&quot;&gt;&lt;strong&gt;Formula&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;\(\textbf{Average Speed} = \frac{\text{Total Distance}}{\text{Total Time}}\)&lt;/p&gt;
-
-&lt;h3 id=&quot;special-case-same-distance&quot;&gt;&lt;strong&gt;Special Case: Same Distance&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;If a vehicle travels the same distance at speeds $a$ and $b$:&lt;/p&gt;
-
-\[\textbf{Average Speed} = \frac{2ab}{a + b}\]
-
-&lt;h3 id=&quot;example&quot;&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;A car travels 60 km at 30 km/h and returns 60 km at 60 km/h:&lt;/p&gt;
-
-\[\text{Avg speed} = \frac{2 \times 30 \times 60}{30 + 60} = 40 \text{ km/h}\]
-
-&lt;h2 id=&quot;3-relative-speed&quot;&gt;&lt;strong&gt;3. Relative Speed&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Relative speed comes into play when two objects move &lt;strong&gt;towards&lt;/strong&gt;, &lt;strong&gt;away&lt;/strong&gt;, or &lt;strong&gt;in the same direction&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;a-opposite-directions&quot;&gt;&lt;strong&gt;(A) Opposite Directions&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;\(\text{Relative Speed} = S_1 + S_2\)&lt;/p&gt;
-
-&lt;h3 id=&quot;b-same-direction&quot;&gt;&lt;strong&gt;(B) Same Direction&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;\(\text{Relative Speed} = |S_1 - S_2|\)&lt;/p&gt;
-
-&lt;h3 id=&quot;example-1&quot;&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Two trains of 40 km/h and 60 km/h moving in opposite directions:&lt;br /&gt;
-Relative speed = 100 km/h&lt;/p&gt;
-
-&lt;h2 id=&quot;4-trains-and-platforms&quot;&gt;&lt;strong&gt;4. Trains and Platforms&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Trains have length, so distance covered = &lt;em&gt;sum of lengths involved&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;formula-1&quot;&gt;&lt;strong&gt;Formula&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;\(\text{Time} = \frac{\text{Length of Train}}{\text{Speed}}\)&lt;/p&gt;
-
-&lt;h3 id=&quot;common-cases&quot;&gt;&lt;strong&gt;Common Cases&lt;/strong&gt;&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Train passing a pole&lt;/strong&gt;&lt;br /&gt;
-Distance = length of train&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Train passing a platform of length L&lt;/strong&gt;&lt;br /&gt;
-Distance = train length + platform length&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Two trains crossing each other&lt;/strong&gt;&lt;br /&gt;
-Distance = sum of lengths&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;5-boats-and-streams&quot;&gt;&lt;strong&gt;5. Boats and Streams&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Flowing water affects speed.&lt;/p&gt;
-
-&lt;h3 id=&quot;definitions&quot;&gt;&lt;strong&gt;Definitions&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Still water speed&lt;/strong&gt; = $u$&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Stream speed&lt;/strong&gt; = $v$&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;\(\textbf{Downstream speed} = u + v\)
-\(\textbf{Upstream speed} = u - v\)&lt;/p&gt;
-
-&lt;h3 id=&quot;example-2&quot;&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Boat speed = 10 km/h; stream = 2 km/h&lt;br /&gt;
-Downstream → 12 km/h&lt;br /&gt;
-Upstream → 8 km/h&lt;/p&gt;
-
-&lt;h2 id=&quot;6-races--circular-tracks&quot;&gt;&lt;strong&gt;6. Races &amp;amp; Circular Tracks&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;a-races&quot;&gt;&lt;strong&gt;(A) Races&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;If A beats B by distance d:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;A covers full distance&lt;/li&gt;
-  &lt;li&gt;B covers (Distance – d)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;b-circular-track-meeting-point&quot;&gt;&lt;strong&gt;(B) Circular Track (Meeting Point)&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;When two people start from the same point:&lt;/p&gt;
-
-\[\text{Time to meet} = \frac{\text{Track Length}}{\text{Relative Speed}}\]
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;solved-examples&quot;&gt;&lt;strong&gt;Solved Examples&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;a-basic&quot;&gt;&lt;strong&gt;(A) Basic&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;A car travels 150 km at 50 km/h. Time taken:
-\(T = \frac{150}{50} = 3\text{ hours}\)&lt;/p&gt;
-
-&lt;h3 id=&quot;b-relative-speed&quot;&gt;&lt;strong&gt;(B) Relative Speed&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Two men run at 6 m/s and 8 m/s in the same direction on a track.&lt;br /&gt;
-Relative speed = $8 - 6 = 2\text{ m/s}$&lt;/p&gt;
-
-&lt;h3 id=&quot;c-train-problem&quot;&gt;&lt;strong&gt;(C) Train Problem&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;A 300 m long train crosses a pole in 20 seconds.&lt;br /&gt;
-Speed = $300/20 = 15\text{ m/s}$&lt;/p&gt;
-
-&lt;p&gt;Convert to km/h:&lt;br /&gt;
-\(15 \times \frac{18}{5} = 54\text{ km/h}\)&lt;/p&gt;
-
-&lt;h3 id=&quot;d-boat-problem&quot;&gt;&lt;strong&gt;(D) Boat Problem&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Downstream time for 36 km if $u = 12, v = 3$:&lt;br /&gt;
-Speed = $15\text{ km/h}$&lt;/p&gt;
-
-\[T = \frac{36}{15} = 2.4\text{ hours}\]</content><author><name>Rajesh Kumar</name></author><summary type="html">Time &amp;amp; Distance</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">By M. Lieber Received 18 June 1974</summary></entry></feed>
