@@ -1,4 +1,354 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-12-22T21:34:25+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Franck Condon Principle</title><link href="http://localhost:4000/SKMU/franck-condon-principle/" rel="alternate" type="text/html" title="Franck Condon Principle" /><published>2025-12-22T11:00:00+05:30</published><updated>2025-12-22T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/Franck-Condon</id><content type="html" xml:base="http://localhost:4000/SKMU/franck-condon-principle/">&lt;p&gt;The Franck–Condon principle is one of the most fundamental concepts in molecular spectroscopy, explaining why vibrational structures appear in electronic spectra of molecules and why certain transitions are more intense than others. When a molecule undergoes an electronic transition—whether by absorption or emission of radiation—the change in the electronic state occurs on a timescale much faster than nuclear motion. Electrons are extremely light compared to nuclei; therefore, their transitions happen almost instantaneously relative to the vibrational and rotational movement of the nuclei. As a consequence of this difference in timescales, the nuclei can be considered “frozen” during the electronic transition. This approximation is the core of the Franck–Condon principle and leads to a vertical transition between potential energy curves on a Born–Oppenheimer energy diagram.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/SKMU/https:/rajeshphy.github/io" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/SKMU/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2026-01-09T09:26:17+05:30</updated><id>http://localhost:4000/SKMU/https:/rajeshphy.github/io</id><title type="html">Rajesh Kumar</title><subtitle>Lecture Notes</subtitle><author><name>Rajesh Kumar</name></author><entry><title type="html">Quantum Information: Weigner Non-Gaussianity Measure</title><link href="http://localhost:4000/SKMU/Quantum-Information-Weigner/" rel="alternate" type="text/html" title="Quantum Information: Weigner Non-Gaussianity Measure" /><published>2026-01-08T08:00:00+05:30</published><updated>2026-01-08T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/Quantum-Information-Weigner</id><content type="html" xml:base="http://localhost:4000/SKMU/Quantum-Information-Weigner/">&lt;p&gt;A celebrated &lt;strong&gt;phase-space description of nonclassicality&lt;/strong&gt; in single-mode quantum oscillators is based on the presence of &lt;strong&gt;negative regions of the Wigner function&lt;/strong&gt;.&lt;br /&gt;
+Since the Wigner function is a normalized but not positive-definite quasi-probability distribution, its negativity has no classical counterpart.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Wigner function&lt;/strong&gt; $W(x,p)$ associated with a quantum state $ \rho $ is defined as&lt;/p&gt;
+
+\[W(x,p)
+=
+\frac{1}{\pi\hbar}
+\int_{-\infty}^{+\infty}
+\langle x+y|\rho|x-y\rangle
+\,e^{-\,\frac{2ipy}{\hbar}}
+\,dy .\]
+
+&lt;p&gt;It satisfies the normalization condition&lt;/p&gt;
+
+\[\iint dx\,dp\, W(x,p) = 1 ,\]
+
+&lt;p&gt;but in general
+\(W(x,p) \ngeq 0 .\)&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Wigner negativity&lt;/strong&gt; of a quantum state $ \rho $ is defined as the total phase-space volume of the negative part of the Wigner function. It is quantified by&lt;/p&gt;
+
+\[\nu[\rho]
+=
+\left(
+\iint dx\,dp\, |W(x,p)|
+\right)
+- 1 .\]
+
+&lt;p&gt;This quantity vanishes if and only if the Wigner function is everywhere nonnegative.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If $W(x,p)\ge0$ for all $(x,p)$, the state admits a classical phase-space description and
+\(\nu[\rho]=0 .\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If $W(x,p)&amp;lt;0$ in some region of phase space, genuine quantum interference effects appear and
+\(\nu[\rho]&amp;gt;0 .\)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thus, Wigner negativity is a &lt;strong&gt;direct witness of nonclassicality&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;example-single-photon-fock-state-1rangle&quot;&gt;Example: Single-photon Fock state $|1\rangle$&lt;/h2&gt;
+
+&lt;p&gt;For the single-photon Fock state,
+\(\rho = |1\rangle\langle 1| ,\)
+the Wigner function is&lt;/p&gt;
+
+\[W_1(x,p)
+=
+\frac{2}{\pi}
+\left(2x^2+2p^2-1\right)
+e^{-2(x^2+p^2)} .\]
+
+&lt;p&gt;This function takes &lt;strong&gt;negative values&lt;/strong&gt; in the region&lt;/p&gt;
+
+\[x^2+p^2 &amp;lt; \frac12 .\]
+
+&lt;p&gt;As a result, the Wigner negativity is strictly positive,&lt;/p&gt;
+
+\[\nu[|1\rangle] &amp;gt; 0 ,\]
+
+&lt;p&gt;signaling the intrinsic nonclassical character of the single-photon state.&lt;/p&gt;
+
+&lt;h2 id=&quot;relation-to-non-gaussianity&quot;&gt;Relation to non-Gaussianity&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;All &lt;strong&gt;Gaussian states&lt;/strong&gt; have nonnegative Wigner functions and therefore zero Wigner negativity.&lt;/li&gt;
+  &lt;li&gt;A nonzero value of $ \nu[\rho] $ always implies &lt;strong&gt;non-Gaussianity&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;However, the converse is not guaranteed: some non-Gaussian states may still have a positive Wigner function.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hence, Wigner negativity is a &lt;strong&gt;stronger but more restrictive&lt;/strong&gt; indicator than entropy-based measures of non-Gaussianity.&lt;/p&gt;
+
+&lt;h2 id=&quot;interpretation&quot;&gt;Interpretation&lt;/h2&gt;
+
+&lt;p&gt;Wigner negativity captures phase-space quantum interference effects that cannot be reproduced by any classical probability distribution.&lt;br /&gt;
+It plays a central role in understanding the resources required for &lt;strong&gt;quantum information processing&lt;/strong&gt; and &lt;strong&gt;quantum computational advantage&lt;/strong&gt; in continuous-variable systems.&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">A celebrated phase-space description of nonclassicality in single-mode quantum oscillators is based on the presence of negative regions of the Wigner function. Since the Wigner function is a normalized but not positive-definite quasi-probability distribution, its negativity has no classical counterpart.</summary></entry><entry><title type="html">Quantum Information: Non-Gaussianity Measure</title><link href="http://localhost:4000/SKMU/Quantum-Information/" rel="alternate" type="text/html" title="Quantum Information: Non-Gaussianity Measure" /><published>2026-01-08T08:00:00+05:30</published><updated>2026-01-08T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/Quantum-Information-nonG</id><content type="html" xml:base="http://localhost:4000/SKMU/Quantum-Information/">&lt;h2 id=&quot;1-definition&quot;&gt;1. Definition&lt;/h2&gt;
+
+&lt;p&gt;The &lt;strong&gt;non-Gaussianity (nonG)&lt;/strong&gt; of a continuous-variable (CV) quantum state $ \rho $ is defined as the &lt;strong&gt;quantum relative entropy distance&lt;/strong&gt; between $ \rho $ and a reference Gaussian state $ \rho_G $ that has &lt;strong&gt;the same first moments and the same covariance matrix&lt;/strong&gt; as $ \rho $:&lt;/p&gt;
+
+\[\delta[\rho] = S(\rho \| \rho_G) = S(\rho_G) - S(\rho)\]
+
+&lt;p&gt;where:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;$ S(\rho) = -\mathrm{Tr}(\rho \log \rho) $ is the von Neumann entropy,&lt;/li&gt;
+  &lt;li&gt;$ \rho_G $ is uniquely fixed by matching first moments and covariance matrix of $ \rho $.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For a single-mode Gaussian state,&lt;/p&gt;
+
+\[S(\rho_G) = h\!\left(\sqrt{\det \sigma[\rho]}\right)\]
+
+&lt;p&gt;with&lt;/p&gt;
+
+\[h(t) = \left(t+\tfrac12\right)\ln\!\left(t+\tfrac12\right) + \left(t-\tfrac12\right)\ln\!\left(t-\tfrac12\right).\]
+
+&lt;p&gt;Hence,&lt;/p&gt;
+
+\[\boxed{\;\delta[\rho] = h\!\left(\sqrt{\det \sigma[\rho]}\right) - S(\rho)\;}\]
+
+&lt;p&gt;The &lt;strong&gt;covariance matrix&lt;/strong&gt; of a continuous-variable quantum state $ \rho $ is defined in terms of the quadrature operators collected in the vector&lt;/p&gt;
+
+\[\hat R = (\hat x,\hat p)^T .\]
+
+&lt;p&gt;Its elements are&lt;/p&gt;
+
+\[\sigma_{ij}
+=
+\frac12\langle \hat R_i \hat R_j + \hat R_j \hat R_i \rangle
+-
+\langle \hat R_i \rangle \langle \hat R_j \rangle ,\]
+
+&lt;p&gt;where expectation values are taken with respect to $ \rho $:&lt;/p&gt;
+
+\[\langle \hat O \rangle = \mathrm{Tr}(\rho\,\hat O).\]
+
+&lt;p&gt;For a single-mode state, this gives&lt;/p&gt;
+
+\[\sigma =
+\begin{pmatrix}
+\langle x^2\rangle-\langle x\rangle^2
+&amp;amp;
+\frac12\langle xp+px\rangle-\langle x\rangle\langle p\rangle
+\\[6pt]
+\frac12\langle xp+px\rangle-\langle x\rangle\langle p\rangle
+&amp;amp;
+\langle p^2\rangle-\langle p\rangle^2
+\end{pmatrix}.\]
+
+&lt;p&gt;If the first moments vanish, $ \langle x\rangle=\langle p\rangle=0 $, this simplifies to&lt;/p&gt;
+
+\[\sigma =
+\begin{pmatrix}
+\langle x^2\rangle &amp;amp; \frac12\langle xp+px\rangle \\
+\frac12\langle xp+px\rangle &amp;amp; \langle p^2\rangle
+\end{pmatrix}.\]
+
+&lt;p&gt;The covariance matrix completely characterizes any &lt;strong&gt;Gaussian state&lt;/strong&gt; and fixes the reference Gaussian state $ \rho_G $ used in non-Gaussianity measures.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;example-non-gaussian-state-defined-by&quot;&gt;Example: Non-Gaussian state defined by&lt;/h3&gt;
+&lt;p&gt;The non-Gaussian pure state is defined by the wavefunction&lt;/p&gt;
+
+\[\phi_0(x;\lambda)=\frac{e^{-x^2/2}}{\pi^{1/4}}\left[1-\frac{\lambda}{\sqrt{2}}\operatorname{Erf}(x)\right]\]
+
+&lt;p&gt;The corresponding &lt;strong&gt;density operator&lt;/strong&gt; of the system is&lt;/p&gt;
+
+\[\rho = |\phi_0\rangle\langle \phi_0| ,\]
+
+&lt;p&gt;which fully characterizes the quantum state.&lt;/p&gt;
+
+&lt;p&gt;Since $|\phi_0\rangle$ is a &lt;strong&gt;pure state&lt;/strong&gt;, its von Neumann entropy vanishes:&lt;/p&gt;
+
+\[S(\rho)=0 .\]
+
+&lt;p&gt;The &lt;strong&gt;reference Gaussian state&lt;/strong&gt; $ \rho_G $ is defined as the unique Gaussian state having the &lt;strong&gt;same first moments and the same covariance matrix&lt;/strong&gt; as $ \rho $.&lt;br /&gt;
+It represents the closest Gaussian approximation to $ \rho $ used to quantify non-Gaussianity.&lt;/p&gt;
+
+&lt;p&gt;Using parity properties of $e^{-x^2}$ and $\operatorname{Erf}(x)$:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mean position:
+\(\langle x\rangle = \int x|\phi_0(x;\lambda)|^2 dx = 0\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mean momentum:
+\(\langle p\rangle = 0\)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thus, the first-moment vector is
+\(E[\rho]=(0,0)^T\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why the reference Gaussian state shares the same first moments:&lt;/strong&gt;&lt;br /&gt;
+In the relative-entropy definition of non-Gaussianity, the reference Gaussian state $ \rho_G $ is chosen to match the &lt;strong&gt;first moments&lt;/strong&gt; of $ \rho $ so that non-Gaussianity is not contaminated by trivial phase-space displacements. Since first moments can always be changed by a unitary displacement without altering the Gaussian or non-Gaussian nature of a state, fixing them ensures that $ \delta[\rho] $ quantifies only genuine shape deviations from Gaussianity.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If the first moments were nonzero:&lt;/strong&gt;&lt;br /&gt;
+For $E[\rho]\neq 0$, the reference Gaussian state $ \rho_G $ would have the &lt;em&gt;same nonzero first-moment vector&lt;/em&gt;. Equivalently, one could apply a displacement operator to shift both $ \rho $ and $ \rho_G $ to zero mean without changing $ \delta[\rho] $, because quantum relative entropy is invariant under unitary displacements.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Define quadratures (with $\hbar=1$):
+\(\hat x = x, \qquad \hat p=-i\frac{d}{dx}\)&lt;/p&gt;
+
+&lt;p&gt;The second moments are&lt;/p&gt;
+
+\[\langle x^2\rangle
+= \frac12 + \frac{\lambda^2}{2\pi}\]
+
+\[\langle p^2\rangle
+= \frac12 + \frac{\lambda^2}{2\pi}\]
+
+&lt;p&gt;Cross term:
+\(\langle xp+px\rangle = 0\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why the reference Gaussian state shares the same covariance matrix:&lt;/strong&gt;&lt;br /&gt;
+The covariance matrix fixes all second-order moments. For a given set of first and second moments, there exists a &lt;em&gt;unique&lt;/em&gt; Gaussian state. Choosing $ \rho_G $ with the same covariance matrix makes it the closest Gaussian state in the sense of relative entropy.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The covariance matrix is therefore&lt;/p&gt;
+
+\[\sigma[\rho] =
+\begin{pmatrix}
+\langle x^2\rangle &amp;amp; 0 \\
+0 &amp;amp; \langle p^2\rangle
+\end{pmatrix}
+=
+\begin{pmatrix}
+\frac12+\frac{\lambda^2}{2\pi} &amp;amp; 0 \\
+0 &amp;amp; \frac12+\frac{\lambda^2}{2\pi}
+\end{pmatrix}\]
+
+\[\det \sigma
+=
+\left(\frac12+\frac{\lambda^2}{2\pi}\right)^2\]
+
+\[\sqrt{\det\sigma}
+=
+\frac12+\frac{\lambda^2}{2\pi}\]
+
+&lt;p&gt;The reference Gaussian state $ \rho_G $ has the same first moments and the same covariance matrix as $ \rho $.
+Its entropy is&lt;/p&gt;
+
+\[S(\rho_G)
+=
+h\!\left(\frac12+\frac{\lambda^2}{2\pi}\right)\]
+
+&lt;p&gt;with
+\(h(t)=\left(t+\frac12\right)\ln\!\left(t+\frac12\right)
++\left(t-\frac12\right)\ln\!\left(t-\frac12\right)\)&lt;/p&gt;
+
+&lt;p&gt;Since $S(\rho)=0$,&lt;/p&gt;
+
+\[\boxed{
+\delta[\rho]
+=
+h\!\left(\frac12+\frac{\lambda^2}{2\pi}\right)
+}\]
+
+&lt;p&gt;The function $h(t)$ is the &lt;strong&gt;von Neumann entropy of a single-mode Gaussian state&lt;/strong&gt; written in terms of its symplectic eigenvalue $t$.&lt;/p&gt;
+
+&lt;p&gt;It is defined as
+\(h(t)=\left(t+\frac12\right)\ln\!\left(t+\frac12\right)
++\left(t-\frac12\right)\ln\!\left(t-\frac12\right)\)&lt;/p&gt;
+
+&lt;p&gt;In this example,
+\(t=\sqrt{\det\sigma}
+=
+\frac12+\frac{\lambda^2}{2\pi}\)&lt;/p&gt;
+
+&lt;p&gt;Hence, the explicit value of $h(t)$ is
+\(h\!\left(\frac12+\frac{\lambda^2}{2\pi}\right)
+=
+\left(1+\frac{\lambda^2}{2\pi}\right)\ln\!\left(1+\frac{\lambda^2}{2\pi}\right)
++
+\frac{\lambda^2}{2\pi}\ln\!\left(\frac{\lambda^2}{2\pi}\right)\)&lt;/p&gt;
+
+&lt;p&gt;For $\lambda=0$,
+\(h\!\left(\frac12\right)=0\)&lt;/p&gt;
+
+&lt;p&gt;For $\lambda\neq0$, $h(t)&amp;gt;0$ and increases monotonically with $\lambda^2$.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;interpretation&quot;&gt;Interpretation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For $ \lambda=0 $:&lt;br /&gt;
+$\delta[\rho]=0$ → Gaussian vacuum state.&lt;/li&gt;
+  &lt;li&gt;For $ \lambda\neq0 $:&lt;br /&gt;
+$\delta[\rho]&amp;gt;0$ → genuine non-Gaussianity induced by the error-function deformation.&lt;/li&gt;
+  &lt;li&gt;The non-Gaussianity increases monotonically with $ \lambda^2 $.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This explicitly shows how the &lt;strong&gt;relative-entropy non-Gaussianity&lt;/strong&gt; is computed step-by-step for the state shown in the image.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-origin--history&quot;&gt;2. Origin / History&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Introduced in &lt;strong&gt;quantum information theory&lt;/strong&gt; as an application of &lt;strong&gt;quantum relative entropy&lt;/strong&gt; (Umegaki, 1962).&lt;/li&gt;
+  &lt;li&gt;First systematically applied to quantify non-Gaussianity by&lt;br /&gt;
+&lt;strong&gt;Genoni, Paris, and Banaszek (2007–2008)&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Motivated by the central role of &lt;strong&gt;Gaussian states as free states&lt;/strong&gt; in CV quantum optics and quantum information.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3-why-important--comparative-analysis&quot;&gt;3. Why Important &amp;amp; Comparative Analysis&lt;/h2&gt;
+
+&lt;h3 id=&quot;importance&quot;&gt;Importance&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Vanishes &lt;strong&gt;iff&lt;/strong&gt; the state is Gaussian.&lt;/li&gt;
+  &lt;li&gt;Operationally meaningful: measures &lt;strong&gt;statistical distinguishability&lt;/strong&gt; from the closest Gaussian state.&lt;/li&gt;
+  &lt;li&gt;Directly linked to &lt;strong&gt;resource theories of non-Gaussianity&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Relevant for tasks like:
+    &lt;ul&gt;
+      &lt;li&gt;entanglement distillation,&lt;/li&gt;
+      &lt;li&gt;quantum error correction,&lt;/li&gt;
+      &lt;li&gt;universal CV quantum computation.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;comparison-with-other-measures&quot;&gt;Comparison with Other Measures&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Measure&lt;/th&gt;
+      &lt;th&gt;Basis&lt;/th&gt;
+      &lt;th&gt;Advantages&lt;/th&gt;
+      &lt;th&gt;Limitations&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Relative-entropy nonG (this)&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Information-theoretic&lt;/td&gt;
+      &lt;td&gt;Unique Gaussian reference, monotone, additive&lt;/td&gt;
+      &lt;td&gt;Requires entropy evaluation&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Wigner negativity&lt;/td&gt;
+      &lt;td&gt;Phase-space&lt;/td&gt;
+      &lt;td&gt;Easy visualization&lt;/td&gt;
+      &lt;td&gt;Zero for many non-Gaussian states&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Hilbert–Schmidt distance&lt;/td&gt;
+      &lt;td&gt;Geometric&lt;/td&gt;
+      &lt;td&gt;Simple form&lt;/td&gt;
+      &lt;td&gt;Not monotone under CPTP maps&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kurtosis / higher moments&lt;/td&gt;
+      &lt;td&gt;Statistical&lt;/td&gt;
+      &lt;td&gt;Easy experimentally&lt;/td&gt;
+      &lt;td&gt;Not invariant, not operational&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Key distinction:&lt;/strong&gt; this measure is &lt;strong&gt;operational, monotonic, and reference-free&lt;/strong&gt; (Gaussian reference fixed uniquely).&lt;/p&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">1. Definition</summary></entry><entry><title type="html">Franck Condon Principle</title><link href="http://localhost:4000/SKMU/franck-condon-principle/" rel="alternate" type="text/html" title="Franck Condon Principle" /><published>2025-12-22T11:00:00+05:30</published><updated>2025-12-22T11:00:00+05:30</updated><id>http://localhost:4000/SKMU/Franck-Condon</id><content type="html" xml:base="http://localhost:4000/SKMU/franck-condon-principle/">&lt;p&gt;The Franck–Condon principle is one of the most fundamental concepts in molecular spectroscopy, explaining why vibrational structures appear in electronic spectra of molecules and why certain transitions are more intense than others. When a molecule undergoes an electronic transition—whether by absorption or emission of radiation—the change in the electronic state occurs on a timescale much faster than nuclear motion. Electrons are extremely light compared to nuclei; therefore, their transitions happen almost instantaneously relative to the vibrational and rotational movement of the nuclei. As a consequence of this difference in timescales, the nuclei can be considered “frozen” during the electronic transition. This approximation is the core of the Franck–Condon principle and leads to a vertical transition between potential energy curves on a Born–Oppenheimer energy diagram.&lt;/p&gt;
 
 &lt;p&gt;Because nuclei cannot adjust their positions during the electronic excitation, the most probable transition occurs between vibrational states whose wavefunctions have the greatest spatial overlap at the fixed internuclear distance of the initial vibrational state. This overlap determines the intensity of each vibrational band and gives rise to characteristic progressions in electronic spectra. The greater the overlap between the vibrational wavefunctions of the initial and final electronic states, the stronger the observed spectral line. These overlaps are quantified mathematically as Franck–Condon factors, which play a central role in determining selection rules and intensity distributions.&lt;/p&gt;
 
@@ -943,270 +1293,4 @@ Find the day of the week for 1 January of the next year.&lt;/p&gt;
       &lt;td&gt;Saturday&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Calendars</summary></entry><entry><title type="html">Practicals</title><link href="http://localhost:4000/SKMU/Practical/" rel="alternate" type="text/html" title="Practicals" /><published>2025-12-16T10:30:00+05:30</published><updated>2025-12-16T10:30:00+05:30</updated><id>http://localhost:4000/SKMU/Practical</id><content type="html" xml:base="http://localhost:4000/SKMU/Practical/">&lt;h1 id=&quot;pg-practicals&quot;&gt;PG Practicals&lt;/h1&gt;
-
-&lt;h2 id=&quot;sem-ii&quot;&gt;SEM-II&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Paper V&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://be-iitkgp.vlabs.ac.in/exp/voltage-regulator/simulation/zenercharac.html&quot;&gt;Zener Diode Characteristics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Determination of &lt;a href=&quot;https://be-iitkgp.vlabs.ac.in/exp/ohm-law/simulation/nonohmc.html&quot;&gt;resistance&lt;/a&gt; of a given resistor using color code.&lt;/li&gt;
-  &lt;li&gt;Input and Output characteristics of a transistor in &lt;a href=&quot;https://be-iitkgp.vlabs.ac.in/exp/common-emitter-characteristics/&quot;&gt;CE&lt;/a&gt; and &lt;a href=&quot;https://be-iitkgp.vlabs.ac.in/exp/common-base-characteristics/&quot;&gt;CB&lt;/a&gt; configuration.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://be-iitkgp.vlabs.ac.in/exp/half-wave-rectification/&quot;&gt;Half-Wave&lt;/a&gt; and &lt;a href=&quot;https://be-iitkgp.vlabs.ac.in/exp/full-wave-rectification/&quot;&gt;Full-Wave Rectifier&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Study of different waveforms using CRO.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Paper VIII&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Zener Diode Characteristics &amp;amp; Stablization&lt;/li&gt;
-  &lt;li&gt;FET Characteristics&lt;/li&gt;
-  &lt;li&gt;MOSFET Characteristics&lt;/li&gt;
-  &lt;li&gt;UJT Characteristics&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://be-iitkgp.vlabs.ac.in/exp/ce-amplifier/&quot;&gt;Transistor Amplifier&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://be-iitkgp.vlabs.ac.in/exp/operational-amplifier/&quot;&gt;OPAMP - Differentiator and Integrator&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Hartley Oscillator&lt;/li&gt;
-  &lt;li&gt;Characteristics of SCR&lt;/li&gt;
-  &lt;li&gt;Basic Logic Gates from Universal Gates&lt;/li&gt;
-  &lt;li&gt;Half Adder and Full Adder&lt;/li&gt;
-  &lt;li&gt;AD and DA Converter&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="Practical" /><summary type="html">PG Practicals</summary></entry><entry><title type="html">Road Map: SUSY</title><link href="http://localhost:4000/SKMU/Road-Map-SUSY/" rel="alternate" type="text/html" title="Road Map: SUSY" /><published>2025-12-14T08:00:00+05:30</published><updated>2025-12-14T08:00:00+05:30</updated><id>http://localhost:4000/SKMU/RoadMap</id><content type="html" xml:base="http://localhost:4000/SKMU/Road-Map-SUSY/">&lt;h1 id=&quot;-where-you-stand-important&quot;&gt;🔷 Where You Stand (Important)&lt;/h1&gt;
-
-&lt;p&gt;You have already worked on:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;One-parameter rationally extended harmonic oscillator&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Multi-dimensional rational extensions&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;This means you are already familiar with:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Shape invariance beyond textbook forms&lt;/li&gt;
-  &lt;li&gt;Exceptional orthogonal polynomials (EOPs)&lt;/li&gt;
-  &lt;li&gt;Higher-order SUSY / Darboux transformations&lt;/li&gt;
-  &lt;li&gt;Multi-dimensional factorization&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So &lt;strong&gt;do not&lt;/strong&gt; go back to:&lt;br /&gt;
-❌ basic Morse / Coulomb&lt;br /&gt;
-❌ first-order SUSY examples&lt;br /&gt;
-❌ standard shape-invariant lists&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;-high-value-research-directions-strongly-recommended&quot;&gt;🔥 HIGH-VALUE RESEARCH DIRECTIONS (Strongly Recommended)&lt;/h1&gt;
-
-&lt;h2 id=&quot;1️⃣-multi-step--higher-order-susy-in-multi-dimensions&quot;&gt;1️⃣ &lt;strong&gt;Multi-Step / Higher-Order SUSY in Multi-Dimensions&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Natural next step from your work&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;problem-ideas&quot;&gt;Problem ideas:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Construct &lt;strong&gt;two-step and k-step SUSY chains&lt;/strong&gt; for rationally extended oscillators in (D &amp;gt; 1)&lt;/li&gt;
-  &lt;li&gt;Study &lt;strong&gt;spectral degeneracy breaking&lt;/strong&gt; due to higher-order intertwining operators&lt;/li&gt;
-  &lt;li&gt;Explore &lt;strong&gt;reducible vs irreducible SUSY&lt;/strong&gt; in higher dimensions&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;📌 &lt;em&gt;Why important:&lt;/em&gt;&lt;br /&gt;
-Almost no systematic classification exists for higher-order SUSY in multi-D systems.&lt;/p&gt;
-
-&lt;p&gt;📌 &lt;em&gt;Possible outcome:&lt;/em&gt;&lt;br /&gt;
-A clean classification paper.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;2️⃣-non-hermitian--pt-symmetric-susy-qm&quot;&gt;2️⃣ &lt;strong&gt;Non-Hermitian / PT-Symmetric SUSY-QM&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Hot and under-explored&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;concrete-problems&quot;&gt;Concrete problems:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Construct &lt;strong&gt;PT-symmetric rational extensions&lt;/strong&gt; of:
-    &lt;ul&gt;
-      &lt;li&gt;Harmonic oscillator&lt;/li&gt;
-      &lt;li&gt;Scarf / Rosen–Morse potentials&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Analyze:
-    &lt;ul&gt;
-      &lt;li&gt;Reality of spectrum&lt;/li&gt;
-      &lt;li&gt;SUSY breaking/restoration&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Study &lt;strong&gt;biorthogonal EOPs&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;📌 &lt;em&gt;Why publishable:&lt;/em&gt;&lt;br /&gt;
-PT-SUSY is still poorly understood mathematically.&lt;/p&gt;
-
-&lt;p&gt;📌 &lt;em&gt;Keywords to use:&lt;/em&gt;&lt;br /&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PT symmetry&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pseudo-Hermiticity&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;non-Hermitian SUSY&lt;/code&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;3️⃣-position-dependent-mass-pdm-susy-qm&quot;&gt;3️⃣ &lt;strong&gt;Position-Dependent Mass (PDM) SUSY-QM&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Very strong direction&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;research-problems&quot;&gt;Research problems:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Construct SUSY partner Hamiltonians with:
-[
-H = -\frac{1}{2}\frac{d}{dx}\left(\frac{1}{m(x)}\frac{d}{dx}\right) + V(x)
-]&lt;/li&gt;
-  &lt;li&gt;Find &lt;strong&gt;shape-invariant PDM systems&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Build &lt;strong&gt;rational extensions with EOPs&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;📌 &lt;em&gt;Why valuable:&lt;/em&gt;&lt;br /&gt;
-Relevant to semiconductors, quantum wells, nanostructures.&lt;/p&gt;
-
-&lt;p&gt;📌 &lt;em&gt;Almost guaranteed publication&lt;/em&gt; if done cleanly.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;4️⃣-matrix-susy-qm-coupled-channels&quot;&gt;4️⃣ &lt;strong&gt;Matrix SUSY-QM (Coupled Channels)&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Advanced but powerful&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;problems&quot;&gt;Problems:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Construct &lt;strong&gt;2×2 or 3×3 SUSY partner Hamiltonians&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Study:
-    &lt;ul&gt;
-      &lt;li&gt;Spin-orbit coupling&lt;/li&gt;
-      &lt;li&gt;Coupled oscillators&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Develop &lt;strong&gt;matrix shape invariance&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;📌 &lt;em&gt;Why rare:&lt;/em&gt;&lt;br /&gt;
-Very few researchers work on &lt;strong&gt;matrix SUSY systematically&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;📌 &lt;em&gt;Ideal if you like algebra.&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;5️⃣-conditional-and-broken-shape-invariance&quot;&gt;5️⃣ &lt;strong&gt;Conditional and Broken Shape Invariance&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Mathematically deep&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;possible-projects&quot;&gt;Possible projects:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Systems where shape invariance holds &lt;strong&gt;only for specific parameter values&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Explore &lt;strong&gt;spontaneously broken SUSY&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Study zero-mode disappearance&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;📌 &lt;em&gt;Connection:&lt;/em&gt;&lt;br /&gt;
-Links SUSY-QM to phase transitions.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;-modern--emerging-directions-high-impact&quot;&gt;🚀 MODERN / EMERGING DIRECTIONS (High Impact)&lt;/h1&gt;
-
-&lt;h2 id=&quot;6️⃣-susy-qm-on-curved-spaces&quot;&gt;6️⃣ &lt;strong&gt;SUSY-QM on Curved Spaces&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Examples:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;SUSY on:
-    &lt;ul&gt;
-      &lt;li&gt;Sphere (S²)&lt;/li&gt;
-      &lt;li&gt;Hyperbolic space&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Rational extensions in curved backgrounds&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;📌 &lt;em&gt;Why interesting:&lt;/em&gt;&lt;br /&gt;
-Links SUSY-QM with gravity and geometry.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;7️⃣-exceptional-orthogonal-polynomials-classification-problems&quot;&gt;7️⃣ &lt;strong&gt;Exceptional Orthogonal Polynomials: Classification Problems&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Instead of building potentials:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Classify &lt;strong&gt;new EOP families&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Study completeness and orthogonality rigorously&lt;/li&gt;
-  &lt;li&gt;Multi-index EOP systems&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;📌 &lt;em&gt;Highly mathematical, very publishable&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;8️⃣-supersymmetry--integrability&quot;&gt;8️⃣ &lt;strong&gt;Supersymmetry + Integrability&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Connection between:
-    &lt;ul&gt;
-      &lt;li&gt;SUSY-QM&lt;/li&gt;
-      &lt;li&gt;Painlevé equations&lt;/li&gt;
-      &lt;li&gt;Lax pairs&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Deformed oscillator algebras&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;📌 &lt;em&gt;Strong journals like JMP, JPA accept these&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;-safe-publishable-project-ideas-if-you-want-fast-output&quot;&gt;📌 SAFE, PUBLISHABLE PROJECT IDEAS (If You Want Fast Output)&lt;/h1&gt;
-
-&lt;p&gt;Here are &lt;strong&gt;three concrete paper-ready problem statements&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;h3 id=&quot;-project-a&quot;&gt;🟢 Project A&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“Higher-order supersymmetric constructions of rationally extended multi-dimensional harmonic oscillators”&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;-project-b&quot;&gt;🟢 Project B&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“PT-symmetric rational extensions and SUSY breaking in non-Hermitian quantum mechanics”&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;-project-c&quot;&gt;🟢 Project C&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“Shape-invariant position-dependent mass Hamiltonians via supersymmetric quantum mechanics”&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;-how-to-decide-what-to-work-on&quot;&gt;🎯 How to Decide What to Work On&lt;/h1&gt;
-
-&lt;p&gt;Ask yourself:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Algebra lover?&lt;/strong&gt; → Matrix SUSY, higher-order SUSY&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Physics applications?&lt;/strong&gt; → PDM SUSY, PT-SUSY&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Pure math elegance?&lt;/strong&gt; → EOP classification&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Fast publication?&lt;/strong&gt; → PDM or PT-SUSY&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;-next-step-important&quot;&gt;🧭 Next Step (Important)&lt;/h1&gt;
-
-&lt;p&gt;If you want, I can:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Help you &lt;strong&gt;choose one direction&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Propose a &lt;strong&gt;precise research problem&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Draft a &lt;strong&gt;paper outline&lt;/strong&gt; (Introduction → Results → Appendix)&lt;/li&gt;
-  &lt;li&gt;Suggest &lt;strong&gt;journals&lt;/strong&gt; suited to your topic&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Rajesh Kumar</name></author><category term="Research" /><summary type="html">🔷 Where You Stand (Important)</summary></entry></feed>
+&lt;/table&gt;</content><author><name>Rajesh Kumar</name></author><summary type="html">Calendars</summary></entry></feed>
