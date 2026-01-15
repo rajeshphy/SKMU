@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Quantum Information: Non-Gaussianity Measure"
+title: "Quantum Information: NonG Measure"
 date: 2026-01-08 08:00:00 +0530
 categories: lecture
 tags: Research 
 permalink: /Quantum-Information/
 ---
 
-## 1. Definition
 
 The **non-Gaussianity (nonG)** of a continuous-variable (CV) quantum state $ \rho $ is defined as the **quantum relative entropy distance** between $ \rho $ and a reference Gaussian state $ \rho_G $ that has **the same first moments and the same covariance matrix** as $ \rho $:
 
