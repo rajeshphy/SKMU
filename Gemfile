@@ -9,5 +9,6 @@ gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 gem "jekyll-remote-theme", "~> 0.4.3"
 
+
 gem "logger"
 gem "csv"
