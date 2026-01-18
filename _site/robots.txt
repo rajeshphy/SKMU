@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/SKMU/sitemap.xml
+Sitemap: /SKMU/sitemap.xml
