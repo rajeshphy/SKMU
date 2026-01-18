@@ -28,7 +28,7 @@ disqus:
 # Build settings
 # -----------------
 markdown: kramdown
-theme: jekyll-theme-basically-basic   # MUST be enabled (theme gem)
+# theme: jekyll-theme-basically-basic   # MUST be enabled (theme gem)
 
 include:
   - assets
