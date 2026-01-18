@@ -17,9 +17,9 @@
 
   
     
-    <!-- Begin Jekyll SEO tag v2.6.1 -->
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Windows: Basics of Command Prompt | Rajesh Kumar</title>
-<meta name="generator" content="Jekyll v3.9.0" />
+<meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Windows: Basics of Command Prompt" />
 <meta name="author" content="Rajesh Kumar" />
 <meta property="og:locale" content="en_US" />
@@ -30,8 +30,10 @@
 <meta property="og:site_name" content="Rajesh Kumar" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2025-03-18T07:47:26+05:30" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Windows: Basics of Command Prompt" />
 <script type="application/ld+json">
-{"dateModified":"2025-03-18T07:47:26+05:30","datePublished":"2025-03-18T07:47:26+05:30","author":{"@type":"Person","name":"Rajesh Kumar"},"url":"http://localhost:4000/SKMU/lecture/2025/03/18/cmd-basics.html","description":"The Command Prompt (cmd.exe) is a command-line interpreter in Windows that allows users to execute commands, run scripts, and perform administrative tasks.","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/SKMU/lecture/2025/03/18/cmd-basics.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/SKMU/assets/icons/logo.png"},"name":"Rajesh Kumar"},"headline":"Windows: Basics of Command Prompt","@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Rajesh Kumar"},"dateModified":"2025-03-18T07:47:26+05:30","datePublished":"2025-03-18T07:47:26+05:30","description":"The Command Prompt (cmd.exe) is a command-line interpreter in Windows that allows users to execute commands, run scripts, and perform administrative tasks.","headline":"Windows: Basics of Command Prompt","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/SKMU/lecture/2025/03/18/cmd-basics.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/SKMU/assets/icons/logo.png"},"name":"Rajesh Kumar"},"url":"http://localhost:4000/SKMU/lecture/2025/03/18/cmd-basics.html"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -117,7 +119,7 @@ window.MathJax = {
 
   
     
-    <link rel="alternate" type="application/atom+xml" title="Rajesh Kumar" href="https://rajeshphy.github.io/">
+    <link rel="alternate" type="application/atom+xml" title="Rajesh Kumar" href="/SKMU/feed.xml">
   
   <meta name="google-site-verification" content="ONNy_6CkGORdDQ9whxpp_EIkMC_mXOohCfdkEK1zAM8" />
 </head>
@@ -208,7 +210,7 @@ window.MathJax = {
 
   <li>
     
-      <a href="https://rajeshphy.github.io/" title="Atom Feed">
+      <a href="/SKMU/feed.xml" title="Atom Feed">
         <span class="icon icon--rss"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194 11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0 13.806c0-1.21.983-2.195 2.194-2.195zM10.606 16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"/></svg></span>
         <span class="label">Subscribe</span>
       </a>
@@ -559,17 +561,17 @@ window.MathJax = {
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pip</span> <span class="n">install</span> <span class="n">matplotlib</span>
 </code></pre></div></div>
 <p><strong>Run the Code:</strong></p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="n">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
 
-<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
-<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 
-<span class="n">plt</span><span class="p">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'red'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s">'--'</span><span class="p">)</span>
-<span class="n">plt</span><span class="p">.</span><span class="n">title</span><span class="p">(</span><span class="s">"🌊 Beautiful Sine Wave"</span><span class="p">)</span>
-<span class="n">plt</span><span class="p">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">"X-axis"</span><span class="p">)</span>
-<span class="n">plt</span><span class="p">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">"Y-axis"</span><span class="p">)</span>
-<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+<span class="n">plt</span><span class="p">.</span><span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="sh">'</span><span class="s">red</span><span class="sh">'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="sh">'</span><span class="s">--</span><span class="sh">'</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="nf">title</span><span class="p">(</span><span class="sh">"</span><span class="s">🌊 Beautiful Sine Wave</span><span class="sh">"</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="nf">xlabel</span><span class="p">(</span><span class="sh">"</span><span class="s">X-axis</span><span class="sh">"</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="nf">ylabel</span><span class="p">(</span><span class="sh">"</span><span class="s">Y-axis</span><span class="sh">"</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="nf">show</span><span class="p">()</span>
 </code></pre></div></div>
 <p>✨ <strong>Output:</strong> A beautiful red sine wave!</p>
 
@@ -582,8 +584,8 @@ window.MathJax = {
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pip</span> <span class="n">install</span> <span class="n">pyjokes</span>
 </code></pre></div></div>
 <p><strong>Run the Code:</strong></p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pyjokes</span>
-<span class="k">print</span><span class="p">(</span><span class="n">pyjokes</span><span class="p">.</span><span class="n">get_joke</span><span class="p">())</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">pyjokes</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">pyjokes</span><span class="p">.</span><span class="nf">get_joke</span><span class="p">())</span>
 </code></pre></div></div>
 <p>🤣 <strong>Output:</strong> A random programming joke!</p>
 
@@ -596,8 +598,8 @@ window.MathJax = {
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pip</span> <span class="n">install</span> <span class="n">art</span>
 </code></pre></div></div>
 <p><strong>Run the Code:</strong></p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">art</span> <span class="kn">import</span> <span class="n">text2art</span>
-<span class="k">print</span><span class="p">(</span><span class="n">text2art</span><span class="p">(</span><span class="s">"Python"</span><span class="p">))</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">art</span> <span class="kn">import</span> <span class="n">text2art</span>
+<span class="nf">print</span><span class="p">(</span><span class="nf">text2art</span><span class="p">(</span><span class="sh">"</span><span class="s">Python</span><span class="sh">"</span><span class="p">))</span>
 </code></pre></div></div>
 <p>🖌️ <strong>Output:</strong> “Python” in cool ASCII font!</p>
 
@@ -610,10 +612,10 @@ window.MathJax = {
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pip</span> <span class="n">install</span> <span class="n">pyttsx3</span>
 </code></pre></div></div>
 <p><strong>Run the Code:</strong></p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pyttsx3</span>
-<span class="n">engine</span> <span class="o">=</span> <span class="n">pyttsx3</span><span class="p">.</span><span class="n">init</span><span class="p">()</span>
-<span class="n">engine</span><span class="p">.</span><span class="n">say</span><span class="p">(</span><span class="s">"Welcome to Python programming! Have fun coding."</span><span class="p">)</span>
-<span class="n">engine</span><span class="p">.</span><span class="n">runAndWait</span><span class="p">()</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">pyttsx3</span>
+<span class="n">engine</span> <span class="o">=</span> <span class="n">pyttsx3</span><span class="p">.</span><span class="nf">init</span><span class="p">()</span>
+<span class="n">engine</span><span class="p">.</span><span class="nf">say</span><span class="p">(</span><span class="sh">"</span><span class="s">Welcome to Python programming! Have fun coding.</span><span class="sh">"</span><span class="p">)</span>
+<span class="n">engine</span><span class="p">.</span><span class="nf">runAndWait</span><span class="p">()</span>
 </code></pre></div></div>
 <p>🔊 <strong>Output:</strong> Python speaks the message aloud!</p>
 
@@ -623,19 +625,19 @@ window.MathJax = {
 <p>Play against Python!</p>
 
 <p><strong>Run the Code:</strong></p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">random</span>
-<span class="n">choices</span> <span class="o">=</span> <span class="p">[</span><span class="s">"rock"</span><span class="p">,</span> <span class="s">"paper"</span><span class="p">,</span> <span class="s">"scissors"</span><span class="p">]</span>
-<span class="n">user_choice</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Choose rock, paper, or scissors: "</span><span class="p">)</span>
-<span class="n">comp_choice</span> <span class="o">=</span> <span class="n">random</span><span class="p">.</span><span class="n">choice</span><span class="p">(</span><span class="n">choices</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s">f"Computer chose: </span><span class="si">{</span><span class="n">comp_choice</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">random</span>
+<span class="n">choices</span> <span class="o">=</span> <span class="p">[</span><span class="sh">"</span><span class="s">rock</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">paper</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">scissors</span><span class="sh">"</span><span class="p">]</span>
+<span class="n">user_choice</span> <span class="o">=</span> <span class="nf">input</span><span class="p">(</span><span class="sh">"</span><span class="s">Choose rock, paper, or scissors: </span><span class="sh">"</span><span class="p">)</span>
+<span class="n">comp_choice</span> <span class="o">=</span> <span class="n">random</span><span class="p">.</span><span class="nf">choice</span><span class="p">(</span><span class="n">choices</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Computer chose: </span><span class="si">{</span><span class="n">comp_choice</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
 <span class="k">if</span> <span class="n">user_choice</span> <span class="o">==</span> <span class="n">comp_choice</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">"It's a tie! 🤝"</span><span class="p">)</span>
-<span class="k">elif</span> <span class="p">(</span><span class="n">user_choice</span> <span class="o">==</span> <span class="s">"rock"</span> <span class="ow">and</span> <span class="n">comp_choice</span> <span class="o">==</span> <span class="s">"scissors"</span><span class="p">)</span> <span class="ow">or</span> \
-     <span class="p">(</span><span class="n">user_choice</span> <span class="o">==</span> <span class="s">"paper"</span> <span class="ow">and</span> <span class="n">comp_choice</span> <span class="o">==</span> <span class="s">"rock"</span><span class="p">)</span> <span class="ow">or</span> \
-     <span class="p">(</span><span class="n">user_choice</span> <span class="o">==</span> <span class="s">"scissors"</span> <span class="ow">and</span> <span class="n">comp_choice</span> <span class="o">==</span> <span class="s">"paper"</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">"You win! 🎉"</span><span class="p">)</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">It</span><span class="sh">'</span><span class="s">s a tie! 🤝</span><span class="sh">"</span><span class="p">)</span>
+<span class="nf">elif </span><span class="p">(</span><span class="n">user_choice</span> <span class="o">==</span> <span class="sh">"</span><span class="s">rock</span><span class="sh">"</span> <span class="ow">and</span> <span class="n">comp_choice</span> <span class="o">==</span> <span class="sh">"</span><span class="s">scissors</span><span class="sh">"</span><span class="p">)</span> <span class="ow">or</span> \
+     <span class="p">(</span><span class="n">user_choice</span> <span class="o">==</span> <span class="sh">"</span><span class="s">paper</span><span class="sh">"</span> <span class="ow">and</span> <span class="n">comp_choice</span> <span class="o">==</span> <span class="sh">"</span><span class="s">rock</span><span class="sh">"</span><span class="p">)</span> <span class="ow">or</span> \
+     <span class="p">(</span><span class="n">user_choice</span> <span class="o">==</span> <span class="sh">"</span><span class="s">scissors</span><span class="sh">"</span> <span class="ow">and</span> <span class="n">comp_choice</span> <span class="o">==</span> <span class="sh">"</span><span class="s">paper</span><span class="sh">"</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">You win! 🎉</span><span class="sh">"</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">"You lose! 😢"</span><span class="p">)</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">You lose! 😢</span><span class="sh">"</span><span class="p">)</span>
 </code></pre></div></div>
 <p>🎲 <strong>Output:</strong> A fun interactive game!</p>
 

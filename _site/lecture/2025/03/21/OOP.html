@@ -17,9 +17,9 @@
 
   
     
-    <!-- Begin Jekyll SEO tag v2.6.1 -->
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Python: Object-Oriented Programming | Rajesh Kumar</title>
-<meta name="generator" content="Jekyll v3.9.0" />
+<meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Python: Object-Oriented Programming" />
 <meta name="author" content="Rajesh Kumar" />
 <meta property="og:locale" content="en_US" />
@@ -30,8 +30,10 @@
 <meta property="og:site_name" content="Rajesh Kumar" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2025-03-21T07:47:26+05:30" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Python: Object-Oriented Programming" />
 <script type="application/ld+json">
-{"dateModified":"2025-03-21T07:47:26+05:30","datePublished":"2025-03-21T07:47:26+05:30","author":{"@type":"Person","name":"Rajesh Kumar"},"url":"http://localhost:4000/SKMU/lecture/2025/03/21/OOP.html","description":"Object-Oriented Programming (OOP) is a programming style that organizes code into objects, which store data and perform actions. This method makes programs more structured, reusable, and secure. The four main concepts of OOP are:","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/SKMU/lecture/2025/03/21/OOP.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/SKMU/assets/icons/logo.png"},"name":"Rajesh Kumar"},"headline":"Python: Object-Oriented Programming","@context":"https://schema.org"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Rajesh Kumar"},"dateModified":"2025-03-21T07:47:26+05:30","datePublished":"2025-03-21T07:47:26+05:30","description":"Object-Oriented Programming (OOP) is a programming style that organizes code into objects, which store data and perform actions. This method makes programs more structured, reusable, and secure. The four main concepts of OOP are:","headline":"Python: Object-Oriented Programming","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/SKMU/lecture/2025/03/21/OOP.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/SKMU/assets/icons/logo.png"},"name":"Rajesh Kumar"},"url":"http://localhost:4000/SKMU/lecture/2025/03/21/OOP.html"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -117,7 +119,7 @@ window.MathJax = {
 
   
     
-    <link rel="alternate" type="application/atom+xml" title="Rajesh Kumar" href="https://rajeshphy.github.io/">
+    <link rel="alternate" type="application/atom+xml" title="Rajesh Kumar" href="/SKMU/feed.xml">
   
   <meta name="google-site-verification" content="ONNy_6CkGORdDQ9whxpp_EIkMC_mXOohCfdkEK1zAM8" />
 </head>
@@ -208,7 +210,7 @@ window.MathJax = {
 
   <li>
     
-      <a href="https://rajeshphy.github.io/" title="Atom Feed">
+      <a href="/SKMU/feed.xml" title="Atom Feed">
         <span class="icon icon--rss"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194 11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0 13.806c0-1.21.983-2.195 2.194-2.195zM10.606 16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"/></svg></span>
         <span class="label">Subscribe</span>
       </a>
@@ -423,8 +425,8 @@ window.MathJax = {
 <p>A <code class="language-plaintext highlighter-rouge">def</code> is used to define a <strong>function</strong> inside a class. Functions inside a class are called <strong>methods</strong> because they describe actions an object can perform.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Car</span><span class="p">:</span>
-    <span class="k">def</span> <span class="nf">start</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">print</span><span class="p">(</span><span class="s">"Car is starting..."</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">start</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Car is starting...</span><span class="sh">"</span><span class="p">)</span>
 </code></pre></div></div>
 <p>Here, <code class="language-plaintext highlighter-rouge">start(self)</code> is a <strong>method</strong> inside the <code class="language-plaintext highlighter-rouge">Car</code> class. When we call this method, it prints <code class="language-plaintext highlighter-rouge">"Car is starting..."</code>.</p>
 
@@ -432,14 +434,14 @@ window.MathJax = {
 <p>The keyword <code class="language-plaintext highlighter-rouge">self</code> is used in <strong>every method of a class</strong> to refer to the <strong>current object</strong>. It allows us to access and modify object properties.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Car</span><span class="p">:</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">brand</span><span class="p">):</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">brand</span> <span class="o">=</span> <span class="n">brand</span>  <span class="c1"># `self.brand` stores the brand name
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">brand</span><span class="p">):</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">brand</span> <span class="o">=</span> <span class="n">brand</span>  <span class="c1"># `self.brand` stores the brand name
 </span>
-    <span class="k">def</span> <span class="nf">display_brand</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">print</span><span class="p">(</span><span class="s">f"Car brand: </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">brand</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">display_brand</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Car brand: </span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">brand</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
 
-<span class="n">my_car</span> <span class="o">=</span> <span class="n">Car</span><span class="p">(</span><span class="s">"Toyota"</span><span class="p">)</span>
-<span class="n">my_car</span><span class="p">.</span><span class="n">display_brand</span><span class="p">()</span>  <span class="c1"># Outputs: Car brand: Toyota
+<span class="n">my_car</span> <span class="o">=</span> <span class="nc">Car</span><span class="p">(</span><span class="sh">"</span><span class="s">Toyota</span><span class="sh">"</span><span class="p">)</span>
+<span class="n">my_car</span><span class="p">.</span><span class="nf">display_brand</span><span class="p">()</span>  <span class="c1"># Outputs: Car brand: Toyota
 </span></code></pre></div></div>
 <h3 id="key-takeaways-about-self"><strong>Key Takeaways about <code class="language-plaintext highlighter-rouge">self</code>:</strong></h3>
 <ul>
@@ -455,18 +457,18 @@ window.MathJax = {
 <h2 id="1-encapsulation-keeping-data-safe">1. Encapsulation: Keeping Data Safe</h2>
 <p>Encapsulation is the practice of <strong>hiding internal details</strong> of a class and allowing controlled access to its data. This is done using <strong>private variables</strong> (prefixed with <code class="language-plaintext highlighter-rouge">__</code>).</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
 
 <span class="k">class</span> <span class="nc">DataStorage</span><span class="p">:</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">__data</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>  <span class="c1"># Private variable
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">__data</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>  <span class="c1"># Private variable
 </span>
-    <span class="k">def</span> <span class="nf">get_mean</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="n">np</span><span class="p">.</span><span class="n">mean</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">__data</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">get_mean</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">np</span><span class="p">.</span><span class="nf">mean</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">__data</span><span class="p">)</span>
 
 <span class="c1"># Creating an object
-</span><span class="n">data_obj</span> <span class="o">=</span> <span class="n">DataStorage</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">])</span>
-<span class="k">print</span><span class="p">(</span><span class="s">"Mean:"</span><span class="p">,</span> <span class="n">data_obj</span><span class="p">.</span><span class="n">get_mean</span><span class="p">())</span>
+</span><span class="n">data_obj</span> <span class="o">=</span> <span class="nc">DataStorage</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">])</span>
+<span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Mean:</span><span class="sh">"</span><span class="p">,</span> <span class="n">data_obj</span><span class="p">.</span><span class="nf">get_mean</span><span class="p">())</span>
 </code></pre></div></div>
 <h3 id="detailed-explanation-of-code"><strong>Detailed Explanation of Code:</strong></h3>
 <ul>
@@ -490,23 +492,23 @@ window.MathJax = {
 <h2 id="2-abstraction-hiding-details">2. Abstraction: Hiding Details</h2>
 <p>Abstraction means <strong>hiding complex implementation details</strong> and showing only the necessary parts.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
 
 <span class="k">class</span> <span class="nc">Plotter</span><span class="p">:</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">y</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">y</span>
 
-    <span class="k">def</span> <span class="nf">create_plot</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="n">plt</span><span class="p">.</span><span class="n">plot</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">y</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s">'o'</span><span class="p">)</span>
-        <span class="n">plt</span><span class="p">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">"X-axis"</span><span class="p">)</span>
-        <span class="n">plt</span><span class="p">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">"Y-axis"</span><span class="p">)</span>
-        <span class="n">plt</span><span class="p">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Simple Line Plot"</span><span class="p">)</span>
-        <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+    <span class="k">def</span> <span class="nf">create_plot</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="n">plt</span><span class="p">.</span><span class="nf">plot</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">self</span><span class="p">.</span><span class="n">y</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="sh">'</span><span class="s">o</span><span class="sh">'</span><span class="p">)</span>
+        <span class="n">plt</span><span class="p">.</span><span class="nf">xlabel</span><span class="p">(</span><span class="sh">"</span><span class="s">X-axis</span><span class="sh">"</span><span class="p">)</span>
+        <span class="n">plt</span><span class="p">.</span><span class="nf">ylabel</span><span class="p">(</span><span class="sh">"</span><span class="s">Y-axis</span><span class="sh">"</span><span class="p">)</span>
+        <span class="n">plt</span><span class="p">.</span><span class="nf">title</span><span class="p">(</span><span class="sh">"</span><span class="s">Simple Line Plot</span><span class="sh">"</span><span class="p">)</span>
+        <span class="n">plt</span><span class="p">.</span><span class="nf">show</span><span class="p">()</span>
 
 <span class="c1"># Creating object and plotting
-</span><span class="n">graph</span> <span class="o">=</span> <span class="n">Plotter</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="mi">30</span><span class="p">])</span>
-<span class="n">graph</span><span class="p">.</span><span class="n">create_plot</span><span class="p">()</span>
+</span><span class="n">graph</span> <span class="o">=</span> <span class="nc">Plotter</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="mi">30</span><span class="p">])</span>
+<span class="n">graph</span><span class="p">.</span><span class="nf">create_plot</span><span class="p">()</span>
 </code></pre></div></div>
 <h3 id="key-takeaways-1"><strong>Key Takeaways:</strong></h3>
 <ul>
@@ -519,21 +521,21 @@ window.MathJax = {
 <h2 id="3-inheritance-reusing-code">3. Inheritance: Reusing Code</h2>
 <p>Inheritance allows a new class to <strong>reuse the properties and methods</strong> of an existing class.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
 
 <span class="k">class</span> <span class="nc">MathOperations</span><span class="p">:</span>
-    <span class="k">def</span> <span class="nf">mean</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
-        <span class="k">return</span> <span class="n">np</span><span class="p">.</span><span class="n">mean</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">mean</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">np</span><span class="p">.</span><span class="nf">mean</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
 
 <span class="k">class</span> <span class="nc">ExtendedMathOperations</span><span class="p">(</span><span class="n">MathOperations</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">std_dev</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
-        <span class="k">return</span> <span class="n">np</span><span class="p">.</span><span class="n">std</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">std_dev</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">np</span><span class="p">.</span><span class="nf">std</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
 
 <span class="c1"># Creating object
-</span><span class="n">math_obj</span> <span class="o">=</span> <span class="n">ExtendedMathOperations</span><span class="p">()</span>
+</span><span class="n">math_obj</span> <span class="o">=</span> <span class="nc">ExtendedMathOperations</span><span class="p">()</span>
 <span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">]</span>
-<span class="k">print</span><span class="p">(</span><span class="s">"Mean:"</span><span class="p">,</span> <span class="n">math_obj</span><span class="p">.</span><span class="n">mean</span><span class="p">(</span><span class="n">data</span><span class="p">))</span>
-<span class="k">print</span><span class="p">(</span><span class="s">"Standard Deviation:"</span><span class="p">,</span> <span class="n">math_obj</span><span class="p">.</span><span class="n">std_dev</span><span class="p">(</span><span class="n">data</span><span class="p">))</span>
+<span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Mean:</span><span class="sh">"</span><span class="p">,</span> <span class="n">math_obj</span><span class="p">.</span><span class="nf">mean</span><span class="p">(</span><span class="n">data</span><span class="p">))</span>
+<span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Standard Deviation:</span><span class="sh">"</span><span class="p">,</span> <span class="n">math_obj</span><span class="p">.</span><span class="nf">std_dev</span><span class="p">(</span><span class="n">data</span><span class="p">))</span>
 </code></pre></div></div>
 <h3 id="key-takeaways-2"><strong>Key Takeaways:</strong></h3>
 <ul>
@@ -546,27 +548,27 @@ window.MathJax = {
 <h2 id="4-polymorphism-same-method-different-behavior">4. Polymorphism: Same Method, Different Behavior</h2>
 <p>Polymorphism allows <strong>the same method name to have different implementations</strong>.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
 
 <span class="k">class</span> <span class="nc">Plotter</span><span class="p">:</span>
-    <span class="k">def</span> <span class="nf">plot</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
-        <span class="n">plt</span><span class="p">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
-        <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+    <span class="k">def</span> <span class="nf">plot</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+        <span class="n">plt</span><span class="p">.</span><span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+        <span class="n">plt</span><span class="p">.</span><span class="nf">show</span><span class="p">()</span>
 
 <span class="k">class</span> <span class="nc">ScatterPlotter</span><span class="p">(</span><span class="n">Plotter</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">plot</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
-        <span class="n">plt</span><span class="p">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'r'</span><span class="p">)</span>
-        <span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+    <span class="k">def</span> <span class="nf">plot</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+        <span class="n">plt</span><span class="p">.</span><span class="nf">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="sh">'</span><span class="s">r</span><span class="sh">'</span><span class="p">)</span>
+        <span class="n">plt</span><span class="p">.</span><span class="nf">show</span><span class="p">()</span>
 
 <span class="c1"># Creating objects
-</span><span class="n">line_plot</span> <span class="o">=</span> <span class="n">Plotter</span><span class="p">()</span>
-<span class="n">scatter_plot</span> <span class="o">=</span> <span class="n">ScatterPlotter</span><span class="p">()</span>
-<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">])</span>
-<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">([</span><span class="mi">10</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="mi">30</span><span class="p">])</span>
+</span><span class="n">line_plot</span> <span class="o">=</span> <span class="nc">Plotter</span><span class="p">()</span>
+<span class="n">scatter_plot</span> <span class="o">=</span> <span class="nc">ScatterPlotter</span><span class="p">()</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">])</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">([</span><span class="mi">10</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="mi">30</span><span class="p">])</span>
 
-<span class="n">line_plot</span><span class="p">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>  <span class="c1"># Line plot
-</span><span class="n">scatter_plot</span><span class="p">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>  <span class="c1"># Scatter plot
+<span class="n">line_plot</span><span class="p">.</span><span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>  <span class="c1"># Line plot
+</span><span class="n">scatter_plot</span><span class="p">.</span><span class="nf">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>  <span class="c1"># Scatter plot
 </span></code></pre></div></div>
 <h3 id="key-takeaways-3"><strong>Key Takeaways:</strong></h3>
 <ul>
@@ -579,59 +581,59 @@ window.MathJax = {
 <h1 id="example-showing-oop-concept">Example Showing OOP Concept</h1>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">BankAccount</span><span class="p">:</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">holder</span><span class="p">):</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">account_holder</span> <span class="o">=</span> <span class="n">holder</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">_balance</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># 👉 This is ENCAPSULATION: balance is hidden (with underscore)
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">holder</span><span class="p">):</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">account_holder</span> <span class="o">=</span> <span class="n">holder</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">_balance</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># 👉 This is ENCAPSULATION: balance is hidden (with underscore)
 </span>
-    <span class="k">def</span> <span class="nf">deposit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">amount</span><span class="p">):</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">_balance</span> <span class="o">+=</span> <span class="n">amount</span>
+    <span class="k">def</span> <span class="nf">deposit</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">amount</span><span class="p">):</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">_balance</span> <span class="o">+=</span> <span class="n">amount</span>
 
-    <span class="k">def</span> <span class="nf">withdraw</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">amount</span><span class="p">):</span>
-        <span class="k">if</span> <span class="n">amount</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="p">.</span><span class="n">_balance</span><span class="p">:</span>
-            <span class="bp">self</span><span class="p">.</span><span class="n">_balance</span> <span class="o">-=</span> <span class="n">amount</span>
+    <span class="k">def</span> <span class="nf">withdraw</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">amount</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">amount</span> <span class="o">&lt;=</span> <span class="n">self</span><span class="p">.</span><span class="n">_balance</span><span class="p">:</span>
+            <span class="n">self</span><span class="p">.</span><span class="n">_balance</span> <span class="o">-=</span> <span class="n">amount</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="k">print</span><span class="p">(</span><span class="s">"Insufficient funds"</span><span class="p">)</span>
+            <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Insufficient funds</span><span class="sh">"</span><span class="p">)</span>
 
-    <span class="k">def</span> <span class="nf">check_balance</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">_balance</span>
+    <span class="k">def</span> <span class="nf">check_balance</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">self</span><span class="p">.</span><span class="n">_balance</span>
 
-    <span class="k">def</span> <span class="nf">apply_interest</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">print</span><span class="p">(</span><span class="s">"No interest applied for generic account."</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">apply_interest</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">No interest applied for generic account.</span><span class="sh">"</span><span class="p">)</span>
 
 
 <span class="c1"># 👉 This is INHERITANCE: SavingsAccount inherits from BankAccount
 </span><span class="k">class</span> <span class="nc">SavingsAccount</span><span class="p">(</span><span class="n">BankAccount</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">apply_interest</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">_balance</span> <span class="o">+=</span> <span class="bp">self</span><span class="p">.</span><span class="n">_balance</span> <span class="o">*</span> <span class="mf">0.05</span>
-        <span class="k">print</span><span class="p">(</span><span class="s">"Savings interest applied."</span><span class="p">)</span>  <span class="c1"># 👉 POLYMORPHISM: same method, different behavior
+    <span class="k">def</span> <span class="nf">apply_interest</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">_balance</span> <span class="o">+=</span> <span class="n">self</span><span class="p">.</span><span class="n">_balance</span> <span class="o">*</span> <span class="mf">0.05</span>
+        <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Savings interest applied.</span><span class="sh">"</span><span class="p">)</span>  <span class="c1"># 👉 POLYMORPHISM: same method, different behavior
 </span>
 
 <span class="c1"># 👉 This is INHERITANCE: CurrentAccount also inherits from BankAccount
 </span><span class="k">class</span> <span class="nc">CurrentAccount</span><span class="p">(</span><span class="n">BankAccount</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">apply_interest</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="bp">self</span><span class="p">.</span><span class="n">_balance</span> <span class="o">+=</span> <span class="bp">self</span><span class="p">.</span><span class="n">_balance</span> <span class="o">*</span> <span class="mf">0.02</span>
-        <span class="k">print</span><span class="p">(</span><span class="s">"Current account interest applied."</span><span class="p">)</span>  <span class="c1"># 👉 POLYMORPHISM
+    <span class="k">def</span> <span class="nf">apply_interest</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">_balance</span> <span class="o">+=</span> <span class="n">self</span><span class="p">.</span><span class="n">_balance</span> <span class="o">*</span> <span class="mf">0.02</span>
+        <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Current account interest applied.</span><span class="sh">"</span><span class="p">)</span>  <span class="c1"># 👉 POLYMORPHISM
 </span>
 
 <span class="c1"># Create accounts (INSTANCES)
-</span><span class="n">acc1</span> <span class="o">=</span> <span class="n">SavingsAccount</span><span class="p">(</span><span class="s">"Ram"</span><span class="p">)</span>
-<span class="n">acc2</span> <span class="o">=</span> <span class="n">CurrentAccount</span><span class="p">(</span><span class="s">"Sita"</span><span class="p">)</span>
-<span class="n">acc3</span> <span class="o">=</span> <span class="n">BankAccount</span><span class="p">(</span><span class="s">"GeneralUser"</span><span class="p">)</span>
+</span><span class="n">acc1</span> <span class="o">=</span> <span class="nc">SavingsAccount</span><span class="p">(</span><span class="sh">"</span><span class="s">Ram</span><span class="sh">"</span><span class="p">)</span>
+<span class="n">acc2</span> <span class="o">=</span> <span class="nc">CurrentAccount</span><span class="p">(</span><span class="sh">"</span><span class="s">Sita</span><span class="sh">"</span><span class="p">)</span>
+<span class="n">acc3</span> <span class="o">=</span> <span class="nc">BankAccount</span><span class="p">(</span><span class="sh">"</span><span class="s">GeneralUser</span><span class="sh">"</span><span class="p">)</span>
 
 <span class="c1"># Deposit money
-</span><span class="n">acc1</span><span class="p">.</span><span class="n">deposit</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
-<span class="n">acc2</span><span class="p">.</span><span class="n">deposit</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
-<span class="n">acc3</span><span class="p">.</span><span class="n">deposit</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
+</span><span class="n">acc1</span><span class="p">.</span><span class="nf">deposit</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
+<span class="n">acc2</span><span class="p">.</span><span class="nf">deposit</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
+<span class="n">acc3</span><span class="p">.</span><span class="nf">deposit</span><span class="p">(</span><span class="mi">1000</span><span class="p">)</span>
 
 <span class="c1"># Apply interest (polymorphic behavior)
-</span><span class="n">acc1</span><span class="p">.</span><span class="n">apply_interest</span><span class="p">()</span>  <span class="c1"># 5% interest
-</span><span class="n">acc2</span><span class="p">.</span><span class="n">apply_interest</span><span class="p">()</span>  <span class="c1"># 2% interest
-</span><span class="n">acc3</span><span class="p">.</span><span class="n">apply_interest</span><span class="p">()</span>  <span class="c1"># General message
+</span><span class="n">acc1</span><span class="p">.</span><span class="nf">apply_interest</span><span class="p">()</span>  <span class="c1"># 5% interest
+</span><span class="n">acc2</span><span class="p">.</span><span class="nf">apply_interest</span><span class="p">()</span>  <span class="c1"># 2% interest
+</span><span class="n">acc3</span><span class="p">.</span><span class="nf">apply_interest</span><span class="p">()</span>  <span class="c1"># General message
 </span>
 <span class="c1"># Check balances
-</span><span class="k">print</span><span class="p">(</span><span class="n">acc1</span><span class="p">.</span><span class="n">account_holder</span><span class="p">,</span><span class="s">" Balance: ₹"</span><span class="p">,</span><span class="n">acc1</span><span class="p">.</span><span class="n">check_balance</span><span class="p">())</span>
-<span class="k">print</span><span class="p">(</span><span class="n">acc2</span><span class="p">.</span><span class="n">account_holder</span><span class="p">,</span><span class="s">" Balance: ₹"</span><span class="p">,</span><span class="n">acc2</span><span class="p">.</span><span class="n">check_balance</span><span class="p">())</span>
-<span class="k">print</span><span class="p">(</span><span class="n">acc3</span><span class="p">.</span><span class="n">account_holder</span><span class="p">,</span><span class="s">" Balance: ₹"</span><span class="p">,</span><span class="n">acc3</span><span class="p">.</span><span class="n">check_balance</span><span class="p">())</span>
+</span><span class="nf">print</span><span class="p">(</span><span class="n">acc1</span><span class="p">.</span><span class="n">account_holder</span><span class="p">,</span><span class="sh">"</span><span class="s"> Balance: ₹</span><span class="sh">"</span><span class="p">,</span><span class="n">acc1</span><span class="p">.</span><span class="nf">check_balance</span><span class="p">())</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">acc2</span><span class="p">.</span><span class="n">account_holder</span><span class="p">,</span><span class="sh">"</span><span class="s"> Balance: ₹</span><span class="sh">"</span><span class="p">,</span><span class="n">acc2</span><span class="p">.</span><span class="nf">check_balance</span><span class="p">())</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">acc3</span><span class="p">.</span><span class="n">account_holder</span><span class="p">,</span><span class="sh">"</span><span class="s"> Balance: ₹</span><span class="sh">"</span><span class="p">,</span><span class="n">acc3</span><span class="p">.</span><span class="nf">check_balance</span><span class="p">())</span>
 </code></pre></div></div>
 
   </div>
