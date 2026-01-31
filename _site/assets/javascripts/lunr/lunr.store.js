@@ -399,7 +399,7 @@ var store = [{
         "tags": ["JET"],
         "url": "http://localhost:4000/SKMU/JET-NET/"
       },{
-        "title": "UG & PG Lectures Page",
+        "title": "UG & PG Page",
         "excerpt":"  M.Sc   Sem-II  Practicals  B.Sc   Sem-I  Practicals JET, NET &amp; GATE       Physical Science        PAPER I: Hindi, Bangla, etc.  ","categories": ["lecture"],
         "tags": ["Lecture"],
         "url": "http://localhost:4000/SKMU/Lectures/"
