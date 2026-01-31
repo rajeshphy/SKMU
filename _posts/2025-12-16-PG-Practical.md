@@ -1,14 +1,12 @@
 ---
 layout: post
-title: "Practicals"
+title: "PG Practicals"
 date: 2025-12-16 10:30:00 +0530
 categories: lecture
 tags: Practical 
-permalink: /Practical/
+permalink: /PG-Practicals/
 ---
 
-
-# PG Practicals
 
 ## SEM-II
 
