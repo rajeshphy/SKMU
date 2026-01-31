@@ -400,7 +400,7 @@ var store = [{
         "url": "http://localhost:4000/SKMU/JET-NET/"
       },{
         "title": "UG & PG Page",
-        "excerpt":"  M.Sc   Sem-II  Practicals  B.Sc   Sem-I  Practicals JET, NET &amp; GATE       Physical Science        PAPER I: Hindi, Bangla, etc.  ","categories": ["lecture"],
+        "excerpt":"  M.Sc   Sem-II  Practicals  B.Sc   Sem-I  Practicals JET, NET &amp; GATE       Physical Science          PAPER I: Hin, Eng, etc.  ","categories": ["lecture"],
         "tags": ["Lecture"],
         "url": "http://localhost:4000/SKMU/Lectures/"
       },{
@@ -530,7 +530,7 @@ var store = [{
         "url": "http://localhost:4000/SKMU/PG-Practicals/"
       },{
         "title": "UG Practicals",
-        "excerpt":"SEM-II Paper V   Zener Diode Characteristics  Determination of resistance of a given resistor using color code.  Input and Output characteristics of a transistor in CE and CB configuration.  Half-Wave and Full-Wave Rectifier  Study of different waveforms using CRO.Paper VIII   Zener Diode Characteristics &amp; Stablization  FET Characteristics  MOSFET Characteristics  UJT Characteristics  Transistor Amplifier  OPAMP - Differentiator and Integrator  Hartley Oscillator  Characteristics of SCR  Basic Logic Gates from Universal Gates  Half Adder and Full Adder  AD and DA Converter","categories": ["lecture"],
+        "excerpt":"","categories": ["lecture"],
         "tags": ["Practical"],
         "url": "http://localhost:4000/SKMU/UG-Practicals/"
       },{
