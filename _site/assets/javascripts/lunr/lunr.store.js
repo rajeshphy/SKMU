@@ -395,7 +395,7 @@ var store = [{
         "url": "http://localhost:4000/SKMU/lecture/2025/08/01/Python-Practical.html"
       },{
         "title": "UG & PG Page",
-        "excerpt":"  M.Sc   Sem-II  Practicals  B.Sc   Sem-I  Practicals JET, NET &amp; GATE       Physical Science          PAPER I: Hin, Eng, etc.  ","categories": ["lecture"],
+        "excerpt":"http://localhost:4000/SKMU/Lectures/   M.Sc   Sem-II  Practicals  B.Sc   Sem-I  Practicals JET, NET &amp; GATE       Physical Science          PAPER I: Hin, Eng, etc.  ","categories": ["lecture"],
         "tags": ["Lecture"],
         "url": "http://localhost:4000/SKMU/Lectures/"
       },{

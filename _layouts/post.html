@@ -30,7 +30,7 @@ layout: default
   </a>
 
   <!-- WhatsApp -->
-  <a href="https://api.whatsapp.com/send?text={{ page.title | uri_escape }}%20{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+  <a href="https://api.whatsapp.com/send?text={{ site.url }}{{ site.baseurl }}{{ page.url }}"
      target="_blank"
      class="share-btn whatsapp"
      title="Share on WhatsApp">
@@ -43,14 +43,6 @@ layout: default
      class="share-btn telegram"
      title="Share on Telegram">
      <i class="fab fa-telegram"></i>
-  </a>
-
-  <!-- Instagram (no direct share support) -->
-  <a href="https://www.instagram.com/"
-     target="_blank"
-     class="share-btn instagram"
-     title="Share via Instagram">
-     <i class="fab fa-instagram"></i>
   </a>
 
   <!-- Facebook -->
