@@ -2950,6 +2950,21 @@ body:hover .visually-hidden button {
   text-decoration: none;
   border-radius: 6px;
   font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.btn-link:hover {
+  background: linear-gradient(135deg, #bd3131, #f6f20b);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+  text-decoration-color: #121312;
+}
+
+/* Optional: click (active) effect */
+.btn-link:active {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .title {
