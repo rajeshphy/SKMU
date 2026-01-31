@@ -241,156 +241,7 @@ window.MathJax = {
 </header>
 
         <div class="initial-content">
-          <style>
-/* 🌸 Floral Border Decorations */
-.floral-border {
-  position: relative;
-  padding: 2rem;
-  background-color: #fffafc;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-  overflow: visible;
-  transition: background 0.3s;
-}
-
-.floral-border::before,
-.floral-border::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 80px;
-  background-image: url('https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f33c.svg');
-  background-repeat: repeat-y;
-  background-size: 32px 32px;
-  opacity: 0.5;
-}
-
-.floral-border::before { left: -20px; }
-.floral-border::after { right: -20px; transform: scaleX(-1); }
-
-/* 🌿 Post Layout */
-.post-entry {
-  max-width: 900px;
-  margin: auto;
-  padding: 2rem 3rem;
-  background: #ffffffb0;
-  border-radius: 12px;
-  backdrop-filter: blur(5px);
-  position: relative;
-}
-
-.post-title {
-  font-family: 'Merriweather', serif;
-  text-align: center;
-  color: #2c2c2c;
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
-}
-
-.post-meta {
-  text-align: center;
-  font-size: 0.9rem;
-  color: #777;
-  margin-bottom: 2rem;
-}
-
-/* 🧮 Scrollable Content (Hidden Scrollbar) */
-.post-content {
-  overflow-x: auto;
-  overflow-y: visible;
-  width: 100%;
-  padding-bottom: 0.5rem;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none; /* Firefox */
-}
-.post-content::-webkit-scrollbar {
-  display: none; /* Chrome, Safari */
-}
-
-/* 🌼 KaTeX and Code Adjustments */
-.katex-display,
-.post-content pre,
-.post-content code {
-  overflow-x: auto;
-  display: block;
-  max-width: 100%;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  text-align: left;
-}
-
-/* 📱 Responsive */
-@media (max-width: 768px) {
-  .floral-border::before, .floral-border::after { display: none; }
-  .post-entry { padding: 1.2rem; margin: 1rem; }
-  .post-title { font-size: 1.6rem; }
-  .post-content { font-size: 1rem; }
-}
-
-
-
-
-.share-buttons {
-  text-align: center;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  padding-top: 0.5rem;
-  border-top: 1px solid #ddd;
-}
-
-.share-buttons span {
-  display: block;
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 0.8rem;
-}
-
-/* Compact Circular Icons */
-.share-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 0.3rem;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  font-size: 1.2rem;
-  text-decoration: none;
-  color: white;
-  transition: all 0.25s ease;
-}
-
-/* Platform Colors */
-.share-btn.whatsapp { background: #25D366; }
-.share-btn.telegram { background: #0088CC; }
-.share-btn.linkedin { background: #0077B5; }
-.share-btn.facebook { background: #1877F2; }
-.share-btn.twitter { background: #000000; } /* X */
-.share-btn.instagram { background: linear-gradient(45deg,#F58529,#DD2A7B,#8134AF,#515BD4); }
-.share-btn.email { background: #D44638; }
-.share-btn.reddit { background: #FF4500; }
-
-/* Hover Effect */
-.share-btn:hover {
-  transform: scale(1.1);
-  opacity: 0.9;
-}
-
-/* Mobile Friendly */
-@media (max-width: 600px) {
-  .share-btn {
-    width: 36px;
-    height: 36px;
-    font-size: 1.1rem;
-    margin: 0 0.25rem;
-  }
-}
-</style>
-
-
-
-<article class="post-entry">
+          <article class="post-entry">
   <h1 class="post-title">Introduction to ADB (Android Debug Bridge)</h1>
 
   <div class="post-meta">
@@ -583,38 +434,50 @@ ABC1234567	device
   <span>📢 Share this post:</span>
 
   <!-- Email -->
-  <a href="mailto:?subject=Introduction%20to%20ADB%20(Android%20Debug%20Bridge)&body=http://localhost:4000/SKMU/android%20development/terminal%20tools/2020/01/01/ADB-Shell.html" 
-     target="_blank" class="share-btn email" title="Share via Email">
+  <a href="mailto:?subject=Introduction%20to%20ADB%20(Android%20Debug%20Bridge)&body=http://localhost:4000/SKMU/android%20development/terminal%20tools/2020/01/01/ADB-Shell.html"
+     target="_blank"
+     class="share-btn email"
+     title="Share via Email">
      <i class="fas fa-envelope"></i>
   </a>
+
   <!-- WhatsApp -->
-  <a href="https://api.whatsapp.com/send?text=Introduction%20to%20ADB%20(Android%20Debug%20Bridge)%20http://localhost:4000/SKMU/android%20development/terminal%20tools/2020/01/01/ADB-Shell.html" 
-     target="_blank" class="share-btn whatsapp" title="Share on WhatsApp">
+  <a href="https://api.whatsapp.com/send?text=Introduction%20to%20ADB%20(Android%20Debug%20Bridge)%20http://localhost:4000/SKMU/android%20development/terminal%20tools/2020/01/01/ADB-Shell.html"
+     target="_blank"
+     class="share-btn whatsapp"
+     title="Share on WhatsApp">
      <i class="fab fa-whatsapp"></i>
   </a>
 
   <!-- Telegram -->
-  <a href="https://t.me/share/url?url=http://localhost:4000/SKMU/android%20development/terminal%20tools/2020/01/01/ADB-Shell.html&text=Introduction%20to%20ADB%20(Android%20Debug%20Bridge)" 
-     target="_blank" class="share-btn telegram" title="Share on Telegram">
+  <a href="https://t.me/share/url?url=http://localhost:4000/SKMU/android%20development/terminal%20tools/2020/01/01/ADB-Shell.html&text=Introduction%20to%20ADB%20(Android%20Debug%20Bridge)"
+     target="_blank"
+     class="share-btn telegram"
+     title="Share on Telegram">
      <i class="fab fa-telegram"></i>
   </a>
 
-
-  <!-- Instagram (no direct share, use profile link suggestion) -->
-  <a href="https://www.instagram.com/" 
-     target="_blank" class="share-btn instagram" title="Share via Instagram">
+  <!-- Instagram (no direct share support) -->
+  <a href="https://www.instagram.com/"
+     target="_blank"
+     class="share-btn instagram"
+     title="Share via Instagram">
      <i class="fab fa-instagram"></i>
   </a>
 
   <!-- Facebook -->
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/SKMU/android%20development/terminal%20tools/2020/01/01/ADB-Shell.html" 
-     target="_blank" class="share-btn facebook" title="Share on Facebook">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/SKMU/android%20development/terminal%20tools/2020/01/01/ADB-Shell.html"
+     target="_blank"
+     class="share-btn facebook"
+     title="Share on Facebook">
      <i class="fab fa-facebook"></i>
   </a>
 
   <!-- X (Twitter) -->
-  <a href="https://twitter.com/intent/tweet?url=http://localhost:4000/SKMU/android%20development/terminal%20tools/2020/01/01/ADB-Shell.html&text=Introduction%20to%20ADB%20(Android%20Debug%20Bridge)" 
-     target="_blank" class="share-btn twitter" title="Share on X (Twitter)">
+  <a href="https://twitter.com/intent/tweet?url=http://localhost:4000/SKMU/android%20development/terminal%20tools/2020/01/01/ADB-Shell.html&text=Introduction%20to%20ADB%20(Android%20Debug%20Bridge)"
+     target="_blank"
+     class="share-btn twitter"
+     title="Share on X (Twitter)">
      <i class="fab fa-x-twitter"></i>
   </a>
 
