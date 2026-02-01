@@ -13,11 +13,12 @@ The structure of a formal salutation must be presented with clarity and precisio
 
 Thus, a formal salutation must follow a definite linguistic syntax so that it becomes effective, dignified, and memorable.
 
-- [Structure of Formal Salutation](#structure-of-formal-salutation)  
-- [General Syntax of Time-Based Speeches / Lectures](#general-syntax-of-timebased-speeches--lectures)  
-- [Speeches of 5, 15, 30 and 60 Minutes](#speeches-of-5-15-30-and-60-minutes)  
-- [Type of Occasion](#type-of-occasion)  
-- [Occasion-Specific Salutation](#occasionspecific-salutation)
+
+- [Structure of Formal Salutation](#structure-of-formal-salutation)
+- [General Syntax of Time-Based Speeches / Lectures](#general-syntax-of-time-based-speeches--lectures)
+- [Speeches of 5, 15, 30 and 60 Minutes](#speeches-of-5-15-30-and-60-minutes)
+- [Occasion-Specific Salutation](#occasion-specific-salutation)
+
 
 
 ## Structure of Formal Salutation
@@ -121,7 +122,7 @@ This table clearly demonstrates that a formal salutation is not a uniform proces
 
 ## Occasion-Specific Salutation
 
-### Formal Salutation in a Retirement Ceremony
+**Formal Salutation in a Retirement Ceremony**
 
 In the context of a retirement ceremony, the structure of formal salutation becomes more emotional. A third layer is added, which may be termed **Occasion-Specific Marking**.  
 > “Today’s programme has been organised to honour teachers whose long years of service form an important chapter in the history of our institution.”
@@ -134,7 +135,7 @@ Often, the salutation is centred around the presiding authority or Chief Guest. 
 
 This style is particularly appropriate when the highest university or administrative authorities are present on the dais.
 
-### Formal Salutation on Republic Day
+**Formal Salutation on Republic Day**
 
 On national occasions such as Republic Day, the salutation integrates a sense of national consciousness.  
 > “On the sacred occasion of India’s Republic Day, we have gathered here to pay homage to our Constitution and democratic values.”
