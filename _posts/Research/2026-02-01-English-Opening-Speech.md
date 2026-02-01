@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Structure of Formal Salutation"
-date: 2026-02-01 07:00:00 +0530
+date: 2026-02-01 07:30:00 +0530
 categories: lecture
 tags: Speech
 permalink: /Opening-Speech-English/
