@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "औपचारिक अभिवादन"
-date: 2026-01-31 08:00:00 +0530
+date: 2026-02-01 07:00:00 +0530
 categories: lecture
 tags: Speech
 permalink: /Opening-Speech/
