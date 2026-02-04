@@ -2970,53 +2970,6 @@ body:hover .visually-hidden button {
   white-space: nowrap; /* Prevent wrapping */
 }
 
-/* 📱 Mobile-first responsive styling */
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  .post-entry {
-    max-width: 100%;
-    margin: 0;
-    padding: 0.5rem 0.75rem; /* reduced side padding */
-    border-radius: 0;
-    backdrop-filter: none;
-  }
-  .post-title {
-    font-size: 2rem; /* avoid oversized heading */
-    text-align: center;
-  }
-  .post-content {
-    font-size: clamp(1rem, 1.2vw + 0.85rem, 1.15rem);
-    line-height: 1.5;
-    max-width: 100%; /* prevent thin text column */
-    padding: 0; /* no inner padding */
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-  }
-  .post-meta {
-    text-align: center;
-    font-size: 0.85rem;
-    margin-bottom: 1rem;
-  }
-  .content {
-    padding: 0.5rem; /* minimal global padding */
-  }
-  .header,
-  .footer {
-    padding: 0.5rem;
-    text-align: center;
-  }
-  .mermaid,
-  .equation-container {
-    width: 100%;
-    padding: 0; /* full-width diagrams/equations */
-  }
-  .equation {
-    font-size: 0.9rem;
-  }
-}
 .center-box-1 {
   text-align: center;
   margin: 30px auto;
