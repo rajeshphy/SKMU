@@ -2994,8 +2994,8 @@ body:hover .visually-hidden button {
   display: inline-block;
   padding: 12px 24px;
   margin: 10px;
-  background: #1b5d5a;
-  color: white;
+  background: #127b04;
+  color: white !important;
   text-decoration: none;
   border-radius: 6px;
   font-weight: 600;
