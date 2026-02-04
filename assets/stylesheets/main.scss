@@ -29,39 +29,66 @@
     white-space: nowrap; /* Prevent wrapping */
 }
 
-// Responsive styling
-@media only screen and (max-width: 600px) {
-    .mermaid {
-        width: 100%;
-        padding: 0 10px;
-    }
 
-    body {
-        font-size: 16px;
-        line-height: 1.5;
-    }
+/* 📱 Responsive styling */
+@media (max-width: 768px) {
 
-    .content {
-        padding: 15px;
-    }
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
 
-    .header,
-    .footer {
-        padding: 10px 15px;
-        text-align: center;
-    }
-
-    // Additional adjustments for equations on mobile
-    .equation-container {
-        padding: 0 10px; /* Add padding to prevent clipping */
-    }
-
-    .equation {
-        font-size: 14px; /* Optionally adjust font size for mobile */
-    }
+  .post-entry {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 3rem;
+  background: #ffffffb0;
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+  position: relative;
 }
 
+  .post-title {
+    font-size: 2rem;
+    text-align: center;
+  }
 
+  .post-content {
+    font-size: 1.2rem;
+  }
+
+  .post-meta {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 2rem;
+}
+
+  .content {
+    padding: 10px;
+  }
+
+  .header,
+  .footer {
+    padding: 10px 15px;
+    text-align: center;
+  }
+
+  .mermaid {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  /* Equation adjustments */
+  .equation-container {
+    padding: 0 10px;
+  }
+
+  .equation {
+    font-size: 14px;
+  }
+
+}
 
 .center-box-1 {
     text-align: center;
@@ -132,58 +159,6 @@
     border-radius: 2px;
 }
 
-/* 🌸 Floral Border Decorations */
-.floral-border {
-  position: relative;
-  padding: 2rem;
-  background-color: #fffafc;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-  overflow: visible;
-  transition: background 0.3s;
-}
-
-.floral-border::before,
-.floral-border::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 80px;
-  background-image: url('https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f33c.svg');
-  background-repeat: repeat-y;
-  background-size: 32px 32px;
-  opacity: 0.5;
-}
-
-.floral-border::before { left: -20px; }
-.floral-border::after { right: -20px; transform: scaleX(-1); }
-
-/* 🌿 Post Layout */
-.post-entry {
-  max-width: 900px;
-  margin: auto;
-  padding: 2rem 3rem;
-  background: #ffffffb0;
-  border-radius: 12px;
-  backdrop-filter: blur(5px);
-  position: relative;
-}
-
-.post-title {
-  font-family: 'Merriweather', serif;
-  text-align: center;
-  color: #2c2c2c;
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
-}
-
-.post-meta {
-  text-align: center;
-  font-size: 0.9rem;
-  color: #777;
-  margin-bottom: 2rem;
-}
 
 /* 🧮 Scrollable Content (Hidden Scrollbar) */
 .post-content {
@@ -208,14 +183,6 @@
   white-space: pre-wrap;
   word-wrap: break-word;
   text-align: left;
-}
-
-/* 📱 Responsive */
-@media (max-width: 768px) {
-  .floral-border::before, .floral-border::after { display: none; }
-  .post-entry { padding: 1.2rem; margin: 1rem; }
-  .post-title { font-size: 1.6rem; }
-  .post-content { font-size: 1rem; }
 }
 
 
