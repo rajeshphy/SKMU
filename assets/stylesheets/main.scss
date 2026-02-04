@@ -41,21 +41,33 @@
   .post-entry {
   max-width: 900px;
   margin: auto;
-  padding: 2rem 3rem;
+  padding: 0.5rem 1rem;
   background: #ffffffb0;
   border-radius: 12px;
   backdrop-filter: blur(5px);
   position: relative;
+
 }
 
   .post-title {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
   }
 
   .post-content {
-    font-size: 1.2rem;
-  }
+
+  /* Base text size */
+  font-size: clamp(1.05rem, 1vw + 0.9rem, 1.25rem);
+
+  /* Readability improvements */
+  line-height: 1.5;
+  max-width: 70ch;
+
+  /* Better text rendering */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+}
 
   .post-meta {
   text-align: center;
