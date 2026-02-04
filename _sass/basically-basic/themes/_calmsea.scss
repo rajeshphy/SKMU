@@ -1,0 +1,13 @@
+$background-color: #e8f1f5;
+$text-color: #214d64;
+$link-color: #3a8fb7;
+$muted-color: #6b8ba4;
+
+body {
+  background: $background-color;
+  color: $text-color;
+}
+
+a { color: $link-color; }
+
+p { color: $muted-color; }

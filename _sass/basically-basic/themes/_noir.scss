@@ -1,0 +1,16 @@
+$background-color: #0d0d0d;
+$text-color: #e0e0e0;
+$link-color: #66d9ef;
+$code-bg: #1d1f21;
+
+body {
+  background: $background-color;
+  color: $text-color;
+}
+
+a { color: $link-color; }
+
+pre, code {
+  background: $code-bg;
+  color: $text-color;
+}

@@ -1,0 +1,17 @@
+$background-color: #fafafa;
+$text-color: #333333;
+$link-color: #1a4f8b;
+$heading-font: "Source Serif Pro", serif;
+
+body {
+  font-family: $heading-font;
+  background: $background-color;
+  color: $text-color;
+}
+
+h1,h2,h3,h4 {
+  font-family: $heading-font;
+  letter-spacing: 0.5px;
+}
+
+a { color: $link-color; }

@@ -30,7 +30,7 @@
 }
 
 
-/* 📱 Responsive styling */
+/* 📱 Mobile-first responsive styling */
 @media (max-width: 768px) {
 
   body {
@@ -39,68 +39,59 @@
   }
 
   .post-entry {
-  max-width: 900px;
-  margin: auto;
-  padding: 0.5rem 1rem;
-  background: #ffffffb0;
-  border-radius: 12px;
-  backdrop-filter: blur(5px);
-  position: relative;
-
-}
+    max-width: 100%;
+    margin: 0;
+    padding: 0.5rem 0.75rem;   /* reduced side padding */
+    border-radius: 0;
+    backdrop-filter: none;
+  }
 
   .post-title {
-    font-size: 3rem;
+    font-size: 2rem;          /* avoid oversized heading */
     text-align: center;
   }
 
   .post-content {
-
-  /* Base text size */
-  font-size: clamp(1.05rem, 1vw + 0.9rem, 1.25rem);
-
-  /* Readability improvements */
-  line-height: 1.5;
-  max-width: 70ch;
-
-  /* Better text rendering */
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-
-}
+    font-size: clamp(1rem, 1.2vw + 0.85rem, 1.15rem);
+    line-height: 1.5;
+    max-width: 100%;          /* prevent thin text column */
+    padding: 0;               /* no inner padding */
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
 
   .post-meta {
-  text-align: center;
-  font-size: 0.9rem;
-  color: #777;
-  margin-bottom: 2rem;
-}
+    text-align: center;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+  }
 
   .content {
-    padding: 10px;
+    padding: 0.5rem;          /* minimal global padding */
   }
 
   .header,
   .footer {
-    padding: 10px 15px;
+    padding: 0.5rem;
     text-align: center;
   }
 
-  .mermaid {
-    width: 100%;
-    padding: 0 10px;
-  }
-
-  /* Equation adjustments */
+  .mermaid,
   .equation-container {
-    padding: 0 10px;
+    width: 100%;
+    padding: 0;               /* full-width diagrams/equations */
   }
 
   .equation {
-    font-size: 14px;
+    font-size: 0.9rem;
   }
 
 }
+
+
+
+
+
 
 .center-box-1 {
     text-align: center;

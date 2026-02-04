@@ -1,0 +1,14 @@
+$background-color: #ffffff;
+$text-color: #1a1a1a;
+$link-color: #ff4d6d;
+$accent-color: #ff8c42;
+
+body {
+  background: $background-color;
+  color: $text-color;
+}
+
+a {
+  color: $link-color;
+  &:hover { color: $accent-color; }
+}
