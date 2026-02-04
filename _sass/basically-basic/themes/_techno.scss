@@ -1,31 +1,45 @@
-/* 📖 Kindle-style reading experience */
+/* 📖 Ultra-premium Kindle-style reading experience
+   Smartphone-first · soft tone · focused learning */
 
-$paper-bg: #fbf7f0;
-$text-color: #2e2e2e;
-$muted-color: #6b6b6b;
+$paper-bg: #f4efe6;       /* warm Kindle paper */
+$text-color: #262626;     /* ink-like */
+$muted-color: #8a8a8a;
+
+/* =========================
+   Base (all devices)
+   ========================= */
 
 body {
   background: $paper-bg;
   color: $text-color;
   font-family: "Source Serif 4", "Georgia", serif;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.65;
+  letter-spacing: 0.1px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* Main reading container */
 .post-entry {
-  max-width: 42rem;          /* Kindle-like column width */
-  margin: 2rem auto;
-  padding: 1.5rem 1.25rem;
-  background: transparent;
+  max-width: 42rem;              /* Kindle-like line length */
+  margin: 2.5rem auto;
+  padding: 2rem 1.75rem;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 14px;
 }
 
-/* Title */
+/* Title — bold + cursive, dominant */
 .post-title {
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-family: "Playfair Display", "EB Garamond", serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: clamp(2.6rem, 3.8vw, 3.3rem);
+  line-height: 1.15;
   text-align: center;
-  margin-bottom: 1rem;
+  margin: 2rem 0 1.8rem;
+  letter-spacing: 0.4px;
+  color: #1f1f1f;
 }
 
 /* Meta info */
@@ -38,46 +52,87 @@ body {
 
 /* Body text */
 .post-content {
-  font-size: 1.05rem;
-  line-height: 1.75;
+  font-size: 1.08rem;
+  line-height: 1.7;
   max-width: 100%;
-  text-align: left;
   hyphens: auto;
-  -webkit-font-smoothing: antialiased;
 }
 
-/* Paragraph spacing like e-readers */
 .post-content p {
-  margin: 0 0 1.2em 0;
+  margin: 0 0 1.15em 0;
 }
 
 /* Headings inside content */
-.post-content h2,
-.post-content h3 {
+.post-content h1 {
+  font-size: 2rem;
+}
+
+.post-content h2 {
+  font-size: 1.6rem;
   margin-top: 2.2em;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.6em;
   font-weight: 600;
 }
 
-/* Links (subtle, book-like) */
+.post-content h3 {
+  font-size: 1.3rem;
+  margin-top: 1.9em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+/* Links — subtle, book-like */
 .post-content a {
   color: $text-color;
   text-decoration: underline;
   text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
-/* Mobile Kindle tuning */
+/* =========================
+   Smartphone Kindle tuning
+   ========================= */
+
 @media (max-width: 768px) {
+
   body {
-    font-size: 16px;
+    font-size: 17px;        /* larger text */
+    line-height: 1.6;      /* tighter spacing */
   }
 
   .post-entry {
+    max-width: 100%;
     margin: 0;
-    padding: 1rem 0.75rem;
+    padding: 1rem 0.85rem; /* avoid thin column */
+    background: transparent;
+    border-radius: 0;
   }
 
   .post-title {
+    font-size: clamp(2.1rem, 6.5vw, 2.5rem);
+    line-height: 1.2;
+    margin: 1.5rem 0 1.3rem;
+  }
+
+  .post-meta {
+    font-size: 0.8rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .post-content {
+    font-size: 1.1rem;     /* clearly readable */
+    line-height: 1.65;
+  }
+
+  .post-content p {
+    margin-bottom: 1.1em;
+  }
+
+  .post-content h2 {
     font-size: 1.5rem;
+  }
+
+  .post-content h3 {
+    font-size: 1.25rem;
   }
 }
