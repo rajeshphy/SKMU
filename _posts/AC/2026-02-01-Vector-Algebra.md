@@ -144,3 +144,19 @@ $$
 3. Vector products naturally represent rotational and area-related effects.  
 4. Component and geometric definitions are mathematically equivalent.  
 5. Vector algebra forms the foundation for tensors and advanced physical theories.  
+
+
+##  Questions
+1. Define a vector and give two examples of physical quantities that can be represented as vectors.
+
+2. What is the difference between a scalar and a vector? Provide an example of each.
+
+3. Explain the significance of the dot product in physics. How is it calculated?
+
+4. Describe the cross product of two vectors. What physical quantity does it often represent?
+
+5. How do you determine the magnitude of a vector given its components in three-dimensional space?
+
+6. What is the geometric interpretation of the angle between two vectors? How is it related to the dot product?
+
+7. If two vectors are perpendicular, what is the value of their dot product? Explain why.
