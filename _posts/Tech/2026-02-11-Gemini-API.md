@@ -296,3 +296,129 @@ After all lines have been processed, the script prints a final message.
 This is useful when the program runs unattended, such as in scheduled
 tasks or remote machines.
 
+---
+
+## Error Handling
+
+To print the error message from the response, you can modify the script as follows:
+
+```bash
+error_message=$(echo "$result" | jq -r '.error.message // empty')
+if [ -n "$error_message" ]; then
+    echo "Error: $error_message"
+fi
+```
+This addition captures any error message returned by the API and prints it
+to the console, helping with debugging and understanding failures.  
+
+
+## Gemini AI Pricing and Cost Management
+
+Understanding pricing is essential before running large scale automation. AI models are powerful, but they operate on expensive infrastructure, and therefore usage is measured and billed carefully. If you know how tokens translate into money, you can design prompts intelligently, estimate budgets, and prevent unpleasant surprises. What follows is a simplified conceptual overview intended to help beginners think like engineers rather than casual users.
+
+Prices evolve over time as providers update hardware, introduce optimizations, or launch new generations of models. Always verify numbers on the official dashboard before committing to production. Still, approximate figures are extremely useful for planning.
+
+**Simplified Pricing Snapshot**
+
+| **Model** | **Input Tokens** | **Output Tokens** | **Free Tier?** |
+| --- | --- | --- | --- |
+| Gemini 1.5 Flash | \$0.00025 / 1K | \$0.00050 / 1K | Yes |
+| Gemini 1.5 Pro | \$0.00300 / 1K | \$0.01500 / 1K | Yes (limited) |
+
+**1K = 1,000 tokens.**
+
+A token is not exactly a word. In English text, one token is often about three quarters of a word, though this varies. The important lesson is that both what you send **and** what you receive are counted.
+
+Free usage is typically available in environments such as AI experimentation studios or productivity integrations, but these come with daily or monthly ceilings. Once automation begins, API billing usually applies. In Indian rupees, the approximate cost per 10,000 tokens for Gemini 1.5 Flash (fast and efficient) is:
+
+Input (text or image): about $0.0007 USD per 10K tokens (≈ ₹0.06–₹0.07 INR)  
+Output (text or image): about $0.003 USD per 10K tokens (≈ ₹0.25–₹0.26 INR)
+
+
+**How Charging Actually Happens**
+
+Every request contains two cost components.
+
+First is the **input**. This includes your prompt, instructions, context, examples, and sometimes previous conversation. Longer prompts mean higher input cost.
+
+Second is the **output**. If you ask for long essays, explanations, or detailed reports, the model will generate more tokens and the bill increases.
+
+Therefore, prompt design is financial design.
+
+**Real-World Example of Token Consumption**
+
+Imagine writing a short email of about 100 words and asking the model to rewrite it professionally.
+
+Possible usage might be:
+
+- input → 120 tokens  
+- output → 180 tokens  
+- total → 300 tokens  
+
+At professional tier rates, that may translate into only a few cents. For individual requests this feels trivial, which is why AI adoption grows so quickly. However, when multiplied by thousands or millions of operations, cost awareness becomes crucial.
+
+
+**Why Small Inefficiencies Become Big**
+
+Suppose your prompt accidentally includes unnecessary history or repeated instructions. Maybe you send 500 tokens when only 150 were needed. If you run the job ten thousand times, the waste becomes enormous. Efficient engineers therefore minimize verbosity while preserving clarity.
+
+Optimization at scale is rarely dramatic; it is incremental. Yet incremental improvements accumulate.
+
+
+
+**Is Gemini Free?**
+
+For many casual users, yes. Web interfaces and office integrations often provide limited complimentary access. These platforms are ideal for experimenting with prompts, exploring behavior, and validating ideas.
+
+Developers, researchers, and institutions who require automation, reliability, or large throughput typically move to paid API usage. Payment unlocks control, monitoring, and predictable availability.
+
+
+**The Difference Between Free and API Access**
+
+Free environments are designed for humans. They emphasize convenience and interface.
+
+APIs are designed for systems. They emphasize repeatability, measurement, and integration.
+
+If you want nightly batch generation, automatic document processing, or embedding into software products, API usage is the path forward.
+
+**Practical Budget Thinking**
+
+When planning a project, it helps to estimate.
+
+Ask yourself:
+
+- How many requests per day?  
+- How long is each prompt?  
+- How long is each expected answer?  
+
+Multiply and you obtain daily tokens. From tokens, cost becomes visible. This allows you to make strategic decisions before deployment.
+
+
+**Smart Techniques to Reduce Spending**
+
+Clear instructions reduce unnecessary elaboration. If the model understands exactly what is required, it will produce tighter responses.
+
+Output limits are powerful. Requesting a paragraph instead of a page can divide costs by five or ten.
+
+Reusing context can also help. Rather than repeating background every time, maintain continuity when possible.
+
+Testing ideas in free environments before automating them prevents expensive trial and error.
+
+
+
+**Layered Model Strategy**
+
+Many professional systems combine tiers. A cheaper model may prepare, filter, or classify material. Only difficult cases are escalated to premium reasoning engines. This architecture can cut spending dramatically while preserving quality.
+
+
+
+**Monitoring and Alerts**
+
+As soon as real money is involved, visibility becomes mandatory. Dashboards, alerts, and daily reviews ensure anomalies are detected early. Unexpected spikes usually indicate bugs or loops rather than genuine demand.
+
+
+**The Mindset Shift**
+
+Beginners think in prompts. Experts think in pipelines.
+
+Once you adopt the pipeline perspective, pricing becomes another design variable, similar to speed or accuracy. You continuously balance them.
