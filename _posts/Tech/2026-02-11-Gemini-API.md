@@ -85,7 +85,7 @@ easier.
 
 ## Our Example Program
 
-We will now analyze the following script in detail.
+We will now analyze the following script in detail. This script reads names from a file, sends them to the Gemini API, and writes the generated paragraphs to an output file. It also includes retry logic to handle transient failures. For simplicity, we will use Bash and curl, but the concepts apply universally.
 
 ```bash
 #!/bin/bash
