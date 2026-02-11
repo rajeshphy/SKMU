@@ -331,8 +331,8 @@ A token is not exactly a word. In English text, one token is often about three q
 
 Free usage is typically available in environments such as AI experimentation studios or productivity integrations, but these come with daily or monthly ceilings. Once automation begins, API billing usually applies. In Indian rupees, the approximate cost per 10,000 tokens for Gemini 1.5 Flash (fast and efficient) is:
 
-Input (text or image): about $0.0007 USD per 10K tokens (≈ ₹0.06–₹0.07 INR)  
-Output (text or image): about $0.003 USD per 10K tokens (≈ ₹0.25–₹0.26 INR)
+Input (text or image): about $0.0007 USD per 10K tokens (~ Rs. 0.06–0.07)  
+Output (text or image): about $0.003 USD per 10K tokens (~ Rs. 0.25–0.26)
 
 
 **How Charging Actually Happens**
