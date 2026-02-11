@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Understanding the Gemini API and How to Use It"
+title: "Gemini API and How to Use It"
 date: 2026-02-11 12:00:00 +0530
 categories: technology
 tags: AI API Gemini
