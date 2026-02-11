@@ -72,9 +72,13 @@ and deployment.
 
 ## The Big Picture of a Request
 
-Every AI API call follows the same lifecycle: 1. prepare input 2.
-authenticate 3. send request 4. receive JSON 5. extract useful text 6.
-handle failure if necessary
+Every AI API call follows the same lifecycle:   
+1. prepare input  
+2. authenticate  
+3. send request  
+4. receive JSON  
+5. extract useful text  
+6. handle failure if necessary
 
 Once you understand this cycle, every language and framework becomes
 easier.
