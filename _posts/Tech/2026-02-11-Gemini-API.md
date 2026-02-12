@@ -41,8 +41,11 @@ in JSON.
 ## What Is an API Key?
 
 An API key is a secret token that identifies who is making the request
-and determines: - whether access is allowed - which models are
-available - how billing is tracked - what quotas apply
+and determines: 
+- whether access is allowed  
+- which models are available  
+- how billing is tracked  
+- what quotas apply
 
 Without the key, the server cannot authenticate you. With an invalid
 key, the request is rejected. With a valid key, usage is recorded
