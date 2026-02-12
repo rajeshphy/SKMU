@@ -4,6 +4,8 @@ description: Lecture Notes
 baseurl: "/SKMU"
 url: "rajeshphy.github.io"   # REQUIRED in Jekyll 4 (set domain if deploying)
 
+default_image: /assets/images/physics.jpeg
+
 author:
   name: Rajesh Kumar
   twitter:
