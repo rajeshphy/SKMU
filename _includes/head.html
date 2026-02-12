@@ -4,15 +4,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-  <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
-  <meta property="og:type" content="article">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:site_name" content="{{ site.title }}">
-  {% if page.image %}
-    <meta property="og:image" content="{{ page.image | absolute_url }}">
-  {% endif %}
-
   
 
   {% if site.plugins contains 'jekyll-seo-tag' or site.gems contains 'jekyll-seo-tag' %}
