@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Gemini API and How to Use It"
+description: "How to access Google AI via terminal"
 date: 2026-02-11 12:00:00 +0530
 categories: technology
 tags: AI API Gemini
