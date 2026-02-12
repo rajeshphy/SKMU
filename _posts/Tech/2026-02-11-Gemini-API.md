@@ -141,8 +141,8 @@ environments this line guarantees consistent behavior across systems.
 These are configuration variables. They allow us to change the behavior
 of the program without touching the internal logic.
 
--   **INPUT** → the file from which data will be read\
--   **OUTPUT** → the file where generated content will be written\
+-   **INPUT** → the file from which data will be read
+-   **OUTPUT** → the file where generated content will be written
 -   **MODEL** → the AI model responsible for generating the response
 
 Keeping these values at the top of the script is a best practice. It
@@ -150,8 +150,9 @@ makes maintenance easy and reduces the chance of accidental errors when
 adapting the program for new tasks.
 
 
-## `> "$OUTPUT"`
-
+``` bash
+> "$OUTPUT"
+```
 This command clears the output file before the program begins.
 
 If this step is skipped, new runs would append results to old ones,
@@ -170,8 +171,8 @@ the input for a separate API request.
 
 Let us unpack it:
 
--   `IFS=` prevents trimming of leading or trailing spaces.\
--   `read -r` avoids interpretation of backslashes.\
+-   `IFS=` prevents trimming of leading or trailing spaces.
+-   `read -r` avoids interpretation of backslashes.
 -   `|| [ -n "$name" ]` ensures the final line is processed even if the
     file does not end with a newline.
 
@@ -209,9 +210,9 @@ performs an HTTP request and captures the response.
 Important pieces:
 
 -   `-H "Content-Type: application/json"` → tells the server we are
-    sending JSON.\
--   The **URL** → specifies the model and method.\
--   `?key=` → passes authentication credentials.\
+    sending JSON.
+-   The **URL** → specifies the model and method.
+-   `?key=` → passes authentication credentials.
 -   `-d` → contains the body of the request.
 
 Without curl (or an equivalent HTTP client), no connection to the AI is
@@ -243,10 +244,11 @@ The server sends back a complex JSON object that may include metadata,
 safety information, and multiple candidates. We usually want only the
 primary generated text.
 
-`jq` helps us select it.
+'jq' helps us select it.
 
+``` json
     .candidates[0].content.parts[0].text
-
+```
 This means:
 
 take the first candidate → open its content → take the first part →
