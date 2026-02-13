@@ -1,5 +1,5 @@
 ---
-title: "CY190428668IN – Complete India Post Route from Booking to Delivery"
+title: "Complete India Post Route from Booking to Delivery"
 permalink: /cy190428668in-full-route-analysis/
 description: "Full operational breakdown of Business Parcel CY190428668IN including RMS, TMO, PH, HO, beat allocation and final delivery."
 author: Rajesh Kumar
@@ -14,7 +14,6 @@ All timestamps, facilities and delivery facts are taken from the official tracki
 Article Number: **CY190428668IN**
 
 Service: **BUSINESS PARCEL**
-
 
 
 ## Booking – Start of Legal Custody
