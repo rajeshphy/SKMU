@@ -30,6 +30,8 @@ Supplementary resources for the course are provided below. These resources inclu
 
 - [Nuclear Reactions](/SKMU/assets/pdf/Nuclear-Reactions.pdf)
 
+- [Reasoning In Physics](/SKMU/assets/pdf/Appendix/Reasoning-In-Physics.pdf)
+
 - **[Frequently Used Mathematical Formula](/SKMU/assets/pdf/Math-Formulae.pdf)**
 
 - **[Frequently Used Quantum Mechanics Formula](/SKMU/assets/pdf/QM-Formulae.pdf)**
