@@ -15,7 +15,6 @@ Article Number: **CY190428668IN**
 
 Service: **BUSINESS PARCEL**
 
-
 ## Booking – Start of Legal Custody
 
 SMS received:
