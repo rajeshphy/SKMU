@@ -13,6 +13,7 @@ Let’s take a look at Linus Torvalds’ thoughts on the hardware industry shift
 This comes from a recent on-stage conversation where Lena sits down with Durk, head of open-source efforts at Verizon, to discuss AI, hardware, and how Linux is evolving. [You can watch the full talk here.](https://www.youtube.com/watch?v=NjGHrDnPxwI)
 
 <!-- Crux of the interview -->
+> **Key takeaways:**
 > Linux remains the foundation of modern computing even as attention shifts from CPUs to AI accelerators. Proprietary GPU stacks are not new in spirit—they are simply another layer running on top of the kernel.  
 >  
 > AI tools may help with patch flow, summaries, and onboarding newcomers, but they are still experimental and sometimes create noise through low-quality reports.  
