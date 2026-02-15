@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Python Setup on macOS for Symbolic & Numerical Physics"
-description: "Complete workflow to install Python using pyenv and run SymPy-based symbolic supersymmetry algebra along with SciPy numerical integration."
+title: "Python Setup"
+description: "Complete workflow to install Python using pyenv and run SymPy-based symbolic algebra along with SciPy numerical integration."
 date: 2026-02-15 11:30:00 +0530
 categories: [Python, Code]
 tags: [macOS, Python, SymPy, SciPy, Numerical, Physics]
 permalink: /python-setup/
 ---
 
-To do symbolic supersymmetry algebra safely **and** high-quality numerical work on macOS, the most practical stack is:
+To do symbolic calculation safely **and** high-quality numerical work, the most practical stack is:
 
 - version management → pyenv  
 - symbolic math → SymPy  
@@ -76,15 +76,15 @@ Create file:
 ```python
 from sympy import symbols, expand
 
-# Grassmann-like symbolic variables
-theta1, theta2 = symbols('theta1 theta2', commutative=False)
+# define operators
+A, B = symbols('A B', commutative=False)
 
-expr = theta1*theta2 + theta2*theta1
+expr = (A + B)**2
 
-print("Expression:")
+print("Original expression:")
 print(expr)
 
-print("\nExpanded:")
+print("\nExpanded expression:")
 print(expand(expr))
 ```
 Run:
@@ -130,3 +130,31 @@ f = lambdify(x, expr, 'numpy')
 res, _ = quad(f, 0, np.pi)
 print(res)
 ```
+
+---
+
+# Running in Visual Notebook Environment (Mathematica-like Experience)
+For a more interactive experience, you can use Jupyter Notebook or JupyterLab. They allow you to run code in cells and see outputs immediately, which is great for experimentation and learning.
+
+```bash
+pip install jupyterlab notebook
+```
+Jupyter provides two interfaces for running interactive Python code:
+
+### Jupyter Notebook
+- Classic, simple interface  
+- Lightweight and minimal  
+- Cell-based execution  
+- Suitable for quick experiments and teaching  
+
+Run with: `jupyter notebook`
+
+### JupyterLab
+- Modern, advanced interface  
+- Multiple tabs (notebooks, terminals, files)  
+- Integrated file browser  
+- More suitable for research and large projects  
+
+Run with: `jupyter lab` and if error occurs, try `python -m jupyter lab` which ensures it uses the correct Python environment.
+
+Both use the same Python kernel and execute code identically. The difference is only in the user interface.

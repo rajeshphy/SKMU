@@ -228,3 +228,20 @@ h4 code, h5 code, h6 code {
   }
 }
 
+
+pre {
+  position: relative;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 4px 8px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 4px;
+}
