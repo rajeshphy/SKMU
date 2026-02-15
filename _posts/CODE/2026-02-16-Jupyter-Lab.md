@@ -12,7 +12,9 @@ JupyterLab is a modern, web-based interactive development environment for Python
 
 ## Launch JupyterLab
 
-`python -m jupyter lab`
+```python
+python -m jupyter lab
+```
 
 A browser window will open automatically.
 
