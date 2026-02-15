@@ -44,6 +44,8 @@
     max-width: 700px;
 }
 
+
+
 .center-box-2 {
     text-align: center;
     margin: 30px auto;
@@ -53,6 +55,38 @@
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
     max-width: 700px;
 }
+
+
+/* Alternate colors */
+.center-box-1 a:nth-of-type(odd),
+.center-box-2 a:nth-of-type(odd) {
+  color: #0f64b9;  /* Blue */
+}
+
+.center-box-1 a:nth-of-type(even),
+.center-box-2 a:nth-of-type(even) {
+  color: #33772e;  /* Red */
+}
+
+/* Hover effect (optional professional touch) */
+.center-box-1 a:hover,
+.center-box-2 a:hover {
+  opacity: 0.6;
+}
+
+
+/* Inline code only */
+p code,
+li code,
+h1 code, h2 code, h3 code,
+h4 code, h5 code, h6 code {
+  color: #d63384;
+  background-color: #f8f9fa;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+
 
 .btn-link {
   display: inline-block;
@@ -193,3 +227,4 @@
     margin: 0 0.25rem;
   }
 }
+
