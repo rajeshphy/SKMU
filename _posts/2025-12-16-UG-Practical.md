@@ -11,7 +11,7 @@ permalink: /UG-Practicals/
 
 | <span style="color:red; font-weight:bold;">Major (MJ – Physics)</span> | <span style="color:red; font-weight:bold;">│</span> | <span style="color:red; font-weight:bold;">Associated Core (AC – Physics)</span> |
 |-------------------------|:----:|------------------------------------|
-| **List of Practical** | │ | **List of Practical** |
+| **List of Practical** | │ | **List of Practical** [Lab Manual PDF](https://www.mcconline.org.in/download/lab_manual/36.pdf) |
 | 1. To determine the value of g using simple Pendulum | │ | 1. Measurements of length (or diameter) using vernier caliper, screw gauge and travelling microscope. |
 | 2. To determine the value of g using Bar Pendulum. | │ | 2. To study errors: Truncation and round off errors, Absolute and relative errors. |
 | 3. To determine the value of g using Kater’s Pendulum. | │ | 3. To determine the elastic Constants of a wire by Searle’s method. |
