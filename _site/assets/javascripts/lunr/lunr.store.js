@@ -400,7 +400,7 @@ var store = [{
         "url": "http://localhost:4000/SKMU/All-Code/"
       },{
         "title": "UG & PG Page",
-        "excerpt":"  M.Sc   Sem-II  Practicals  B.Sc   Sem-I  Practicals JET, NET &amp; GATE       Physical Science          PAPER I: Hin, Eng, etc.  ","categories": ["lecture"],
+        "excerpt":"  M.Sc   Sem-I  Sem-II  Practicals  B.Sc   Sem-I  Practicals JET, NET &amp; GATE       Physical Science          PAPER I: Hin, Eng, etc.  ","categories": ["lecture"],
         "tags": ["Lecture"],
         "url": "http://localhost:4000/SKMU/Lectures/"
       },{
@@ -408,6 +408,11 @@ var store = [{
         "excerpt":"      Physical Science        PAPER I: Hindi, Bangla, etc.  ","categories": ["lecture"],
         "tags": ["JET"],
         "url": "http://localhost:4000/SKMU/JET-NET/"
+      },{
+        "title": "MSC Sem-I",
+        "excerpt":"      \t\t    Join WhatsApp Group  These topics will be covered here, and the reading materials can be accessed by clicking on the hyperlinks. Paper: PHY-C-11 (Nuclear and Particle Physics) ","categories": ["lecture"],
+        "tags": ["MSc"],
+        "url": "http://localhost:4000/SKMU/PG-I/"
       },{
         "title": "MSC Sem-II",
         "excerpt":"These topics will be covered here, and the reading materials can be accessed by clicking on the hyperlinks. 1. Passive Devices &amp; Instrumentation (Paper PHY-S-05T – Unit 1)       Resistors: types, characteristics, and colour coding         Capacitors: types, characteristics, and colour coding         Star and delta connections of resistors and capacitors         Chokes and transformers         Multimeter (Analog and Digital): working principles and applications         Cathode Ray Oscilloscope (CRO): waveforms and Lissajous figures         AF and RF oscillators         Usage of breadboard   (Lectures: 10) 2. Theory of Quantum Scattering (Paper PHY-C-06 QM – Unit 2)       Collision in three dimensions         α-scattering and its theoretical interpretation         Laboratory vs. Centre-of-Mass reference frames         Quantum Scattering         Partial Wave Analysis   (Lectures: 14) 3. Molecular Spectroscopy (Paper PHY-C-07 – Unit 2)       Rotational, Vibrational &amp; Electronic spectra of diatomic molecules         Vibrational analysis of band systems         Franck–Condon principle         Infrared spectra of diatomic molecules         Raman spectra of diatomic molecules(Lectures: 10)   📚 Reference Books   Electronics Devices and Circuits — Boylestad &amp; Nashelsky  Electronic Principles — Malvino  Introduction to Quantum Mechanics — David J. Griffiths / J. J. Sakurai  Quantum Mechanics — L. I. Schiff  Molecular Spectra and Molecular Structure — G. Herzberg  Fundamentals of Molecular Spectroscopy — C. N. Banwell  Introduction to Atomic and Molecular Spectroscopy — White","categories": ["lecture"],
