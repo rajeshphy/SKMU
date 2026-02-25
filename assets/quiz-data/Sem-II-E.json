@@ -1,0 +1,107 @@
+{
+  "title": "Easy: D'Alembert's principle",
+  "description": "Answer all questions. Each carries 1 mark.",
+  "quizSettings": { "isQuiz": true },
+  "questions": [
+    {
+      "title": "D'Alembert's principle is a statement of which branch of physics?",
+      "options": ["Optics", "Classical mechanics", "Electromagnetism", "Thermodynamics"],
+      "correct": 1
+    },
+    {
+      "title": "Who is credited with formulating D'Alembert's principle?",
+      "options": ["Isaac Newton", "Albert Einstein", "Jean le Rond d'Alembert", "James Clerk Maxwell"],
+      "correct": 2
+    },
+    {
+      "title": "D'Alembert's principle generalises which static principle to dynamics?",
+      "options": ["Hooke’s law", "Principle of virtual work", "Archimedes’ principle", "Kepler's laws"],
+      "correct": 1
+    },
+    {
+      "title": "According to D'Alembert's principle, the sum of real and which other forces is zero?",
+      "options": ["Frictional forces", "Magnetic forces", "Constraint forces", "Inertial forces"],
+      "correct": 3
+    },
+    {
+      "title": "In the equation form of D'Alembert’s principle Σ(F - ma)=0, what does 'ma' represent?",
+      "options": ["Constraint force", "Inertial force", "Friction force", "Applied force"],
+      "correct": 1
+    },
+    {
+      "title": "D'Alembert's principle allows a dynamic problem to be transformed into what type of problem?",
+      "options": ["Static equilibrium problem", "Thermal equilibrium problem", "Quantum problem", "Relativistic problem"],
+      "correct": 0
+    },
+    {
+      "title": "Which of the following is the fictitious force introduced in D'Alembert's principle?",
+      "options": ["Centripetal force", "Coriolis force", "Inertial force", "Electrostatic force"],
+      "correct": 2
+    },
+    {
+      "title": "D'Alembert's principle applies when constraints depend on which quantity?",
+      "options": ["Temperature", "Pressure", "Velocity", "Magnetic field"],
+      "correct": 2
+    },
+    {
+      "title": "Which law of motion is equivalent to D'Alembert's principle when inertial forces are included?",
+      "options": ["Newton’s first law", "Newton’s second law", "Newton’s third law", "Conservation of energy"],
+      "correct": 1
+    },
+    {
+      "title": "If forces and inertial forces produce zero virtual work for any virtual displacement, the system is in what state?",
+      "options": ["Thermal equilibrium", "Dynamic equilibrium", "Static imbalance", "Quantum superposition"],
+      "correct": 1
+    },
+    {
+      "title": "D'Alembert's principle, when applied to a rigid body, makes it behave like what system?",
+      "options": ["Static system", "Fluid system", "Electromagnetic system", "Quantum system"],
+      "correct": 0
+    },
+    {
+      "title": "Which term is often used to refer to the added opposing force in D'Alembert's principle?",
+      "options": ["Constraint force", "Fictitious force", "Drag force", "Tension force"],
+      "correct": 1
+    },
+    {
+      "title": "D'Alembert’s principle does not apply for which type of displacement?",
+      "options": ["Reversible displacement", "Irreversible displacement", "Virtual displacement", "Constrained displacement"],
+      "correct": 1
+    },
+    {
+      "title": "Which of the following is a necessary condition for applying D'Alembert's principle?",
+      "options": ["System must be at rest", "System must be in vacuum", "Virtual work of forces equals zero", "Temperature must be constant"],
+      "correct": 2
+    },
+    {
+      "title": "In D'Alembert's principle, what is the role of acceleration?",
+      "options": ["It is ignored", "It is added to applied forces", "It contributes to inertial force", "It is independent"],
+      "correct": 2
+    },
+    {
+      "title": "D'Alembert's principle was later written in variational form by which mathematician?",
+      "options": ["Leonhard Euler", "Isaac Newton", "Joseph Louis Lagrange", "Pierre-Simon Laplace"],
+      "correct": 2
+    },
+    {
+      "title": "The mathematical expression of D'Alembert's principle involves virtual displacements δr. What are these?",
+      "options": ["Actual displacements", "Infinitesimal hypothetical displacements", "Rotational displacements", "Temperature gradients"],
+      "correct": 1
+    },
+    {
+      "title": "When using D'Alembert’s principle, which force is subtracted from real forces for equilibrium?",
+      "options": ["Gravitational force", "Applied force", "Inertial force", "Constraint force"],
+      "correct": 2
+    },
+    {
+      "title": "D'Alembert's principle simplifies dynamics by converting motion analysis into which other analytical method?",
+      "options": ["Wave analysis", "Static equilibrium analysis", "Quantum field analysis", "Thermal analysis"],
+      "correct": 1
+    },
+    {
+      "title": "In a system where D'Alembert's principle applies, what does zero total virtual work imply?",
+      "options": ["System gains energy", "System loses mass", "No net work by real + inertial forces", "Velocity is constant"],
+      "correct": 2
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "title": "Hard: D'Alembert's principle",
+  "description": "Answer all questions. Each carries 1 mark.",
+  "quizSettings": { "isQuiz": true },
+  "questions": [
+    {
+      "title": "For a system of $N$ particles with holonomic constraints, D'Alembert’s principle can be written as:",
+      "options": [
+        "$\\sum_i (F_i + m_i a_i) \\cdot \\delta r_i = 0$",
+        "$\\sum_i (F_i - m_i a_i) \\cdot \\delta r_i = 0$",
+        "$\\sum_i F_i \\cdot r_i = 0$",
+        "$\\sum_i m_i a_i = 0$"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "In generalized coordinates $q_j$, the generalized force $Q_j$ in D'Alembert’s formulation is given by:",
+      "options": [
+        "$Q_j = \\sum_i F_i \\cdot r_i$",
+        "$Q_j = \\sum_i F_i \\cdot \\frac{\\partial r_i}{\\partial q_j}$",
+        "$Q_j = \\sum_i m_i a_i \\cdot \\frac{\\partial r_i}{\\partial q_j}$",
+        "$Q_j = \\frac{\\partial T}{\\partial q_j}$"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "The inertial force introduced in D'Alembert’s principle is mathematically equivalent to:",
+      "options": [
+        "$-\\nabla V$",
+        "$m_i a_i$",
+        "$-m_i a_i$",
+        "$\\frac{d}{dt}\\left(\\frac{\\partial T}{\\partial q_j}\\right)$"
+      ],
+      "correct": 2
+    },
+    {
+      "title": "Using $T = \\frac{1}{2} \\sum_i m_i v_i^2$, D'Alembert’s principle leads to:",
+      "options": [
+        "$\\frac{\\partial T}{\\partial q_j} = Q_j$",
+        "$\\frac{d}{dt}\\left(\\frac{\\partial T}{\\partial q_j}\\right) = Q_j$",
+        "$\\frac{d}{dt}\\left(\\frac{\\partial T}{\\partial \\dot{q}_j}\\right) - \\frac{\\partial T}{\\partial q_j} = Q_j$",
+        "$\\frac{\\partial T}{\\partial \\dot{q}_j} = 0$"
+      ],
+      "correct": 2
+    },
+    {
+      "title": "For conservative forces derivable from potential $V$, D'Alembert’s principle yields:",
+      "options": [
+        "$\\dot{q}_j = \\frac{\\partial H}{\\partial p_j}$",
+        "$\\frac{d}{dt}\\left(\\frac{\\partial (T-V)}{\\partial \\dot{q}_j}\\right) - \\frac{\\partial (T-V)}{\\partial q_j} = 0$",
+        "$\\{q_i, p_j\\} = \\delta_{ij}$",
+        "$\\frac{dH}{dt} = 0$"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "The condition $\\sum_i (F_i - m_i a_i) \\cdot \\delta r_i = 0$ implies:",
+      "options": [
+        "$\\sum_i F_i = 0$",
+        "$F_i = m_i a_i$ for each $i$",
+        "$\\sum_i m_i a_i = 0$",
+        "$T = \\text{constant}$"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "For non-holonomic constraints linear in velocities, D'Alembert’s principle leads to:",
+      "options": [
+        "$\\frac{d}{dt}\\left(\\frac{\\partial L}{\\partial \\dot{q}_j}\\right) - \\frac{\\partial L}{\\partial q_j} = 0$",
+        "$\\frac{d}{dt}\\left(\\frac{\\partial L}{\\partial \\dot{q}_j}\\right) - \\frac{\\partial L}{\\partial q_j} = \\lambda_a \\frac{\\partial f_a}{\\partial q_j}$",
+        "$H = T + V$",
+        "$\\delta S = 0$"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "If generalized coordinates are independent, D'Alembert’s principle requires:",
+      "options": [
+        "$\\sum_j Q_j = 0$",
+        "Each coefficient of $\\delta q_j$ must vanish separately",
+        "$\\delta q_j = 0$",
+        "$\\dot{q}_j = 0$"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "In a rotating frame, the inertial force term must include:",
+      "options": [
+        "$-m \\omega^2 r$ only",
+        "$-2m \\omega \\times v$ and $-m \\omega \\times (\\omega \\times r)$",
+        "$m a$ only",
+        "$-\\nabla V$"
+      ],
+      "correct": 1
+    },
+    {
+      "title": "The compact generalized coordinate form of D'Alembert’s principle is:",
+      "options": [
+        "$\\sum_j Q_j \\delta q_j = 0$",
+        "$\\sum_j \\left[ \\frac{d}{dt}\\left(\\frac{\\partial T}{\\partial \\dot{q}_j}\\right) - \\frac{\\partial T}{\\partial q_j} - Q_j \\right] \\delta q_j = 0$",
+        "$\\delta T = 0$",
+        "$\\delta V = 0$"
+      ],
+      "correct": 1
+    }
+  ]
+}
