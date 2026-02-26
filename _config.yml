@@ -2,7 +2,7 @@ title: Rajesh Kumar
 email: kr.rajesh.phy@gmail.com
 description: Lecture Notes
 baseurl: "/SKMU"
-url: "rajeshphy.github.io"   # REQUIRED in Jekyll 4 (set domain if deploying)
+url: "https://rajeshphy.github.io"   # REQUIRED in Jekyll 4 (set domain if deploying)
 
 default_image: /assets/images/physics.jpeg
 
