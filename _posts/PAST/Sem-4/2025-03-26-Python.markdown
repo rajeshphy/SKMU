@@ -5,6 +5,7 @@ date:   2025-03-26 07:47:26 +0530
 categories: lecture
 comments: true
 tags: SEM-I
+permalink: /python-course-contents/
 ---
 
 🚀 **Hands-on Practice:** Practice coding by clicking on button below:
