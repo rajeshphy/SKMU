@@ -4,6 +4,7 @@ title:  "Basic Electronics: Semiconductors"
 date:   2024-12-05 08:47:26 +0530
 categories: lecture
 tags: SEM-III
+permalink: /Electronics-Semiconductors/
 ---
 
 In 1839, Becquerel discovered that some materials generate an electric current when exposed to light. This is known as the photoelectric effect and is the basis of operations of solar cells. Solar cells are made of semiconductors. 
