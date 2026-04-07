@@ -122,6 +122,10 @@ Developed by Maria Goeppert-Mayer and Hans Jensen (1949–1950).
 - Motion is quantized (like electrons in atoms).
 - Pauli exclusion principle applies.
 
+The shell model of the nucleus describes nucleons (protons and neutrons) as moving independently in a common average potential, occupying discrete, quantized energy levels similar to electrons in atomic shells; these levels are filled according to the Pauli exclusion principle, with each state accommodating two nucleons of opposite spin, and the inclusion of a strong spin–orbit interaction $\vec{L}\cdot\vec{S}$ splits the energy levels in such a way that it explains the observed magic numbers ($2, 8, 20, 28, 50, 82, 126$), nuclear stability, spin, parity, and magnetic moments, making the model highly successful in explaining microscopic nuclear structure, although it does not account well for collective phenomena like nuclear deformation and vibrations.
+
+> **Magic numbers** are specific numbers of protons or neutrons that correspond to complete shells within the nucleus, leading to particularly stable configurations. The shell model successfully explains these magic numbers by incorporating a strong spin–orbit coupling term in the nuclear potential, which causes energy level splitting and results in the observed stability at these specific nucleon numbers.
+
 Here are the key features of the shell model:
 
 - ## Magic Numbers
