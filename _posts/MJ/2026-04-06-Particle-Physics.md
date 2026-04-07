@@ -45,19 +45,11 @@ permalink: /particle-physics-i/
     - It is a long-range but extremely weak force.
     - Graviton has not been experimentally observed.
 
-### Range of Forces
+## Properties of Gauge Bosons
+- All field particles are bosons with integer spin and obey Bose-Einstein statistics.
 - Massless bosons produce long-range forces (photon, graviton).
 - Massive bosons produce short-range forces ($W, Z$).
-
-### Gauge Bosons – Properties
-- All field particles are bosons with integer spin and obey Bose-Einstein statistics.
 - Photon, gluon, and $W, Z$ bosons have spin 1, while graviton is predicted to have spin 2.
-
-### Important Points for Exams
-- Field particles are force carriers.
-- Exchange mechanism explains both attraction and repulsion.
-- Range depends on mass of mediating particle.
-- Photon mediates electromagnetic force, gluon mediates strong force, $W, Z$ mediate weak force, and graviton mediates gravitational force (theoretical).
 
 > **All fundamental forces in nature are mediated by exchange of gauge bosons between interacting particles.**
 
