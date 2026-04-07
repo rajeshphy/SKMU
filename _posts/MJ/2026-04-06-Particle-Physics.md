@@ -52,6 +52,12 @@ permalink: /particle-physics-i/
 
 > **All fundamental forces in nature are mediated by exchange of gauge bosons between interacting particles.**
 
+The image below shows Standard Model particles, including leptons, quarks, gauge bosons, and the Higgs boson.
+<div style="text-align: center;">
+    <img src="/SKMU/assets/images/Particle-Phy/Standard_Model.jpeg" alt="Spring schematic" class="my-custom-class" style="max-width:80%; height:auto;">
+    <p><strong>Figure 1:</strong> Standard Model of particle physics</p>
+</div>
+
 
 ---
 
@@ -101,13 +107,6 @@ permalink: /particle-physics-i/
 > **Every particle has a corresponding antiparticle, and their interaction leads to pair production and annihilation phenomena.**
 
 ---
-
-The image below shows Standard Model particles, including leptons, quarks, gauge bosons, and the Higgs boson.
-<div style="text-align: center;">
-    <img src="/SKMU/assets/images/Particle-Phy/Standard_Model.jpeg" alt="Spring schematic" class="my-custom-class" style="max-width:80%; height:auto;">
-    <p><strong>Figure 1:</strong> Standard Model of particle physics</p>
-</div>
-
 
 # Field Particles/Gauge Bosons/Exchange Particles
 
@@ -177,3 +176,4 @@ Since mesons are made of one quark and one antiquark, their antiparticles are al
 
 **Importance of Mesons in Physics:**  
 Although mesons exist only briefly, they provide crucial insights into the strong force and the internal structure of baryons. Their study has helped physicists understand quark interactions, particle decay processes, and conservation laws. Mesons also demonstrate complex quantum phenomena, making them essential for advancing knowledge in particle physics.
+
