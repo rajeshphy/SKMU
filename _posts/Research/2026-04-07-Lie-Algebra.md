@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Lie Algebra"
+title: "Lie Superalgebras in Supersymmetry"
 date: 2026-04-07 07:40:00 +0530
 categories: research
 tags: Speech
-permalink: /Lie-Algebra-SUSY/
+permalink: /Lie-Superalgebra-SUSY/
 ---
 
 ## Why Study Lie Superalgebras in Supersymmetry

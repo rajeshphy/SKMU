@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Matrix Lie Algebra and Supersymmetry"
+title: "Harmonic Oscillator and Lie Superalgebra"
 date: 2026-04-07 07:30:00 +0530
 categories: research
 tags: Speech
-permalink: /Supersymmetry-Matrix-Lie-Algebra/
+permalink: /Supersymmetry-Matrix-Lie-Superalgebra/
 ---
 
 The harmonic oscillator provides the simplest setting where operator factorization leads naturally to supersymmetric structure. The Hamiltonian is written as
