@@ -24,7 +24,7 @@ permalink: /Dissertation/
 
 >>
 # Easy Papers
-- [When symmetry breaks down](/SKMU/assets/pdf/When-Symmetry-Breaksdown)
+- [When symmetry breaks down](/SKMU/assets/pdf/When-Symmetry-Breaksdown.pdf)
 - [Symmetry and Symmetry Breaking in Physics](/SKMU/assets/pdf/Symmetry-and-Symmetry-Breaking-Physics.pdf)
 - [Symmetry and supersymmetry](/SKMU/assets/pdf/Symmetry-Supersymmetry.pdf)
 
