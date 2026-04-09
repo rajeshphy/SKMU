@@ -145,7 +145,7 @@ var store = [{
         "url": "http://localhost:4000/SKMU/katex/demo/2021/07/08/katex-demo.html"
       },{
         "title": "Dissertation Page",
-        "excerpt":"  Template Page      Symmetry Algebra in Physics    Lie Superalgebras    Lie Superalgebras in SUSY Quantum Mechanics        AI-Powered Research Paper Finder  ","categories": ["lecture"],
+        "excerpt":"  Template Page      AI-Powered Research Paper Finder    Curated Notes       Symmetry Algebra in Physics    Lie Superalgebras    Lie Superalgebras in SUSY Quantum Mechanics        Easy Papers           When symmetry breaks down      Symmetry and Symmetry Breaking in Physics      Symmetry and supersymmetry        Hard Papers       Graded Lie Algebras    Fermionic Bosonic Lie Superalgebra  ","categories": ["lecture"],
         "tags": ["Dissertation"],
         "url": "http://localhost:4000/SKMU/Dissertation/"
       },{
