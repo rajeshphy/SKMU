@@ -405,7 +405,7 @@ var store = [{
         "url": "http://localhost:4000/SKMU/All-Code/"
       },{
         "title": "UG & PG Page",
-        "excerpt":"  M.Sc   Sem-I  Sem-III  Practicals  OLD   Sem-II  B.Sc   Sem-I  Practicals  Dissertation   PG-Dissertation JET, NET &amp; GATE       Physical Science          PAPER I: Hin, Eng, etc.  ","categories": ["lecture"],
+        "excerpt":"  M.Sc   Sem-I  Sem-III  Practicals  PG-Dissertation  OLD   Sem-II  B.Sc   Sem-I  Practicals JET, NET &amp; GATE       Physical Science          PAPER I: Hin, Eng, etc.  ","categories": ["lecture"],
         "tags": ["Lecture"],
         "url": "http://localhost:4000/SKMU/Lectures/"
       },{
