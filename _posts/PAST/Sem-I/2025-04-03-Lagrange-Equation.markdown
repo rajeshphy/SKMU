@@ -4,11 +4,8 @@ title:  "Lagrange’s Equation"
 date:   2025-05-18 07:47:26 +0530
 categories: lecture
 tags: SEM-I
+permalink: /Lagrange-Equation/
 ---
-
-## D'Alembert's Principle, Lagrange's Equation and Its Simple Applications
-
-#### 1. D'Alembert's Principle
 
 D'Alembert's principle is a fundamental concept in classical mechanics that provides an alternative formulation of Newton's second law by incorporating the concept of virtual work. It states that the sum of the differences between the applied forces and the inertial forces (also called the generalized forces) acting on a system in equilibrium is zero when projected along any virtual displacement.
 
