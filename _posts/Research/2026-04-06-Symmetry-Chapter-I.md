@@ -389,5 +389,3 @@ We can now summarize the conceptual structure:
 ### Final Insight
 
 Symmetry defines what is **physically unobservable**.
-
-Transformations that leave all observables invariant correspond to redundancies in description—but these redundancies encode deep physical laws.
