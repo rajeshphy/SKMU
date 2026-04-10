@@ -7,6 +7,12 @@ tags: Algebra, Symmetry
 permalink: /Symmetry-I/
 ---
 
+Symmetry is fundamental to physics today, because it provides a common language bridging abstract mathematics with observable phenomena. In classical mechanics, symmetry provides the basis for the invariance of physical laws under rotation; and symmetry has become a central organizing principle - connecting various areas in physics - from very deep, structural constraints in quantum mechanics, through the use of quantum mechanics to define mathematically the structure of observed particles.
+
+When quantum mechanics was developed, physicists began moving the focus of symmetry from geometric invariance to defining symmetry in terms of the invariance of measured results, in particular, the probabilities of outcomes as calculated based on state vectors. Wigner's contribution to quantum symmetry provides a perspective and framework for space and linear operators, clarifying how and why Hilbert space and linear operators are integral to quantum theory. The path up to Wigner's work reflects a transition from intuitive understanding of symmetry to a clearly defined, operator-based method for creating a set of mathematical and conceptual foundations for quantum symmetry.
+
+This chapter will develop the conceptual and mathematical foundations for symmetry as it relates to quantum mechanics, showing how unitary and antiunitary transformations, discrete and continuous symmetries, and their group representation of symmetry provide the foundational language for continued study of quantum mechanics through concepts such as Lie algebras and gauge theories, which are important for understanding current and future developments in particle physics and quantum information science.
+
 ## 1.1 Intuition: What is a Symmetry?
 
 In everyday language, symmetry refers to a transformation that leaves an object looking the same. A circle, for instance, is unchanged under rotation about its center. However, in physics, symmetry is not about visual appearance—it is about **indistinguishability of physical outcomes**.

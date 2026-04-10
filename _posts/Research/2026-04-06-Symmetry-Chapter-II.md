@@ -6,6 +6,9 @@ categories: research
 tags: Algebra, Symmetry
 permalink: /Symmetry-II/
 ---
+Recent developments in physics have highlighted the importance of continuous symmetry as a means to establish a connection between geometry and algebra and thus uncovering the underlying geometric structure that determines the physical laws. The concept of continuous symmetries originated with the invention of the theory of Lie groups and their associated Lie algebras by the mathematician Sophus Lie in the nineteenth century to describe smooth transformations like translations and rotations. In the twentieth century continuous symmetries became increasingly important in how they relate to physical theories, especially with the emergence of quantum mechanics and quantum field theory, where the fundamental physical laws and fundamental particles obey the same symmetry principles.
+
+The central concept in this approach is that any global transformation can be decomposed into an infinite number of infinitesimally small transformations. As a consequence, complex continuous symmetry groups can be mapped into simpler algebraic structures which makes them easier to study computationally. In addition, these algebraic structures have physical meaning in quantum mechanics, given that another form of symmetry generators can also be represented as physical observables (momentum and angular momentum).
 
 ## 2.1 Continuous Symmetry and Infinitesimal Transformations
 

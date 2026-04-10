@@ -7,6 +7,11 @@ tags: Algebra, Symmetry
 permalink: /Symmetry-IV/
 ---
 
+The progression of theoretical physics has shown time and time again that advancements are generally made when the underlying mathematical structures utilized for describing nature have been expanded upon. Just as it become necessary to use a geometric concept of space-time to explain the change from classical to relativistic mechanics, as well as using linear Hilbert spaces to create quantum mechanics; in order to explain the concept of supersymmetry, we require an even more complex structure. This is superspace and it adds a set of anti-commuting variables to ordinary space-time coordinates which represent the fermionic degrees of freedom we have.
+
+The concept of merging the two particle types, bosons and fermions, into a single theoretical framework developed during the 1970's through an effort to enhance the fundamental symmetry principles of particle physics. While supersymmetry created a very interesting link between spin different particles, the true potential of the theory did not become clear until it was expressed as a geometric concept. Once viewed as geometry, supersymmetry transformation can be properly understood as natural motions (translational or rotational) within an enlarged geometric space rather than as abstract algebraic operations on a mathematical group.
+
+This chapter will provide the geometric perspective on how to view superspace, supermanifolds and superfields, which are the most appropriate structures to house supersymmetric theories. Additionally, these structures provide greater ease in completing calculations and uncovering hidden relationships in quantum field theory than previously known. Moreover, these structures are also now considered a common theme in the many disciplines of fundamental science to resolve some of the most difficult open questions.
 
 ## 4.1 From Spacetime to Superspace
 

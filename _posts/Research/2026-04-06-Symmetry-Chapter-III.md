@@ -7,6 +7,12 @@ tags: Algebra, Symmetry
 permalink: /Symmetry-III/
 ---
 
+As modern physics has developed, it has shown that the expansion of the concept of symmetry has led to new insights into the nature of the fundamental forces of nature. While classical theories of physics, such as Newtonian mechanics, and quantum theories of physics, such as quantum mechanics, both rely on the transformation of objects through some sort of symmetry, there is still a major limitation to our understanding of matter and energy: bosons and fermions will always be treated as completely different particles, regardless of their behaviour under different conditions. When supersymmetry is introduced into the picture, it offers a novel way to relate the two types of particles by providing a new form of symmetry that relates these apparently dissimilar particles.
+
+In the 1970s, the concept of supersymmetry was first proposed as a method of unifying the internal and spacetime symmetries in a quantum field theory. This required several new mathematical tools: graded vector spaces and Lie superalgebras have been created to allow for the development of a grade-2 vector space structure for bosons and fermions in which the algebras of associated mathematical structure of both the particles and the force particles could interact. These mathematical tools allow for the interchange of bosonic and fermionic states through the use of algebraic transformations without losing the integrity of the theory.
+
+Conceptually, this chapter constitutes a transition from pure symmetry to an expanded algebraic structure that can describe the dynamical nature of both bosons and fermions. Thus, by providing an even deeper understanding of symmetry, supersymmetry has become an essential ingredient of the current state of theoretical physics and is influencing the research in the fields of particle physics, string theory, and quantum gravity.
+
 ## 3.1 Motivation: Beyond Ordinary Symmetry
 
 ### Intuition
