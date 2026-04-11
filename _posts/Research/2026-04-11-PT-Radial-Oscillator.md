@@ -71,9 +71,9 @@ These two independent behaviors generate the two quasi-parity branches of the sp
 <h2 align="center">Quasi-Parity in PT-Symmetric Quantum Mechanics</h2>
 
 In PT-symmetric Quantum Mechanics, quasi-parity $Q=\pm1$ is introduced because the ordinary parity operator $P$ no longer commutes with the Hamiltonian after the complex coordinate shift $|r| = x - i\varepsilon$, even though combined $PT$ symmetry remains preserved.
-
-As a consequence:
-- The two independent solutions of the radial equation can no longer be classified simply as even or odd under spatial reflection.
+<br>
+<strong>As a consequence:</strong><br>
+- The two independent solutions of the radial equation can no longer be classified simply as even or odd under spatial reflection.<br>
 - Instead, they are labeled by a generalized parity-like quantum number called quasi-parity.
 
 <h2 align="center"> Role of Quasi-Parity</h2>
@@ -88,11 +88,11 @@ thereby unifying both solution families into a single spectral formula.
 
 Quasi-parity serves as the natural replacement for ordinary parity in non-Hermitian but PT-symmetric systems.
 
-Hermitian Limit
+<h3 align="center">Hermitian Limit</h3>
 
-In the Hermitian limit $\varepsilon \to 0$:
-- The Hamiltonian regains ordinary parity symmetry.
-- Quasi-parity smoothly reduces to standard spatial parity.
+In the Hermitian limit $\varepsilon \to 0$: <br> 
+- The Hamiltonian regains ordinary parity symmetry.  <br>
+- Quasi-parity smoothly reduces to standard spatial parity.<br>
 
 Thus, quasi-parity acts as the proper extension of parity within the PT-symmetric framework.
 
