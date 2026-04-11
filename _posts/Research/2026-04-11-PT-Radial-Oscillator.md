@@ -87,9 +87,9 @@ $$
 thereby unifying both solution families into a single spectral formula.
 
 Quasi-parity serves as the natural replacement for ordinary parity in non-Hermitian but PT-symmetric systems.
-
-<h3 align="center">Hermitian Limit</h3>
-
+<br>
+<strong>Hermitian Limit</strong>
+<br>
 In the Hermitian limit $\varepsilon \to 0$: <br> 
 - The Hamiltonian regains ordinary parity symmetry.  <br>
 - Quasi-parity smoothly reduces to standard spatial parity.<br>
