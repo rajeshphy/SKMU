@@ -253,3 +253,19 @@ with eigenfunctions
 
 $$
 \psi(r)=\mathcal N\;r^{\rho+1/2}e^{-r^2/2}L_N^{(\rho)}(r^2);\;\;\qquad \mathcal N=\frac{N!}{\Gamma(N+\rho+1)}$$
+
+---
+
+When the PT-regularization is removed by taking $\varepsilon \to 0$, the PT-symmetric solutions continuously reduce to those of ordinary Hermitian quantum mechanics: at $\beta=\tfrac{1}{2}$ the spectrum reproduces the standard linear harmonic oscillator states, and **quasi-parity becomes identical to ordinary spatial parity**. The two independent solution branches behave near the origin as
+
+$$
+\psi(r)\sim r^{1/2-\beta}
+$$
+
+and
+
+$$
+\psi(r)\sim r^{1/2+\beta}
+$$
+
+where the branch proportional to $r^{1/2-\beta}$ is more singular near $r=0$, while the branch proportional to $r^{1/2+\beta}$ is less singular. For $\beta\ge1$, the more singular solution **ceases to be square-integrable and must therefore be discarded as unphysical**. This shows that PT-symmetric regularization temporarily enlarges the admissible solution space by permitting both branches, but upon returning to ordinary Hermitian quantum mechanics only the normalizable physical states survive, leaving the singular non-normalizable branch excluded.
