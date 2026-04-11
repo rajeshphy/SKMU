@@ -205,13 +205,13 @@ $$
 the normalized wavefunctions are
 
 $$
-\psi(r)=\mathcal N,r^{\rho+1/2}e^{-r^2/2}L_N^{(\rho)}(r^2),
+\psi(r)=\mathcal N\;r^{\rho+1/2}e^{-r^2/2}L_N^{(\rho)}(r^2),
 $$
 
 with $\rho=-Q\beta$. Thus,
 
 $$
-\psi(r)=\mathcal N,r^{-Q\beta+1/2}e^{-r^2/2}L_N^{(-Q\beta)}(r^2).
+\psi(r)=\mathcal N\;r^{-Q\beta+1/2}e^{-r^2/2}L_N^{(-Q\beta)}(r^2).
 $$
 
 Quasi-Parity Sectors  
