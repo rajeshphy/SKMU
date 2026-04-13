@@ -46,7 +46,7 @@ Possible decay modes include, for example,
 If the compound-nucleus hypothesis holds, reactions that populate the same compound nucleus at the same excitation energy should exhibit similar relative cross-sections for corresponding decay channels. Thus, processes such as ${}^{63}\mathrm{Cu}(p,n){}^{63}\mathrm{Zn}$ and ${}^{60}\mathrm{Ni}(\alpha,n){}^{63}\mathrm{Zn}$ are expected to align when the incident energies are chosen to produce the same excitation energy in $^{64}\mathrm{Zn}^*$.
 
 <div style="text-align: center;">
-  <img src="/SKMU/assets/images/Nuclear/Compound-nuclear-cross.jpeg" alt="Cross-section comparison for different entrance channels" class="my-custom-class" style="max-width:60%; height:auto;">
+  <img src="/SKMU/assets/images/Nuclear/Compound-nuclear-cross.jpeg" alt="Cross-section comparison for different entrance channels" class="my-custom-class" style="max-width:80%; height:auto;">
   <figcaption>Figure-1: Experimental cross sections for $(p,n)$, $(p,2n)$, $(p,pn)$ reactions on $^{63}\mathrm{Cu}$ and for $(\alpha,n)$, $(\alpha,2n)$, $(\alpha,pn)$ reactions on $^{60}\mathrm{Ni}$ plotted against $E_p$ and $E_\alpha$, respectively, with the $E_p$ scale shifted by 7 MeV relative to $E_\alpha$. Source: S. N. Goshal, Phys. Rev. 80, 939 (1950).</figcaption>
 </div>
 
@@ -75,3 +75,4 @@ In the evaporation picture, increasing excitation energy raises the likelihood o
   <img src="/SKMU/assets/images/Nuclear/Compound-nuclear-energy.jpeg" alt="Energy dependence and increased neutron evaporation" class="my-custom-class" style="max-width:100%; height:auto;">
   <figcaption>Figure-3: At higher incident energies, additional neutrons are more likely to “evaporate” from the compound nucleus, redistributing reaction yield among higher-multiplicity channels.</figcaption>
 </div>
+
