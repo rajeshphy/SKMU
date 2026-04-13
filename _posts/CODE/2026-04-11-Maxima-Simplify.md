@@ -42,16 +42,16 @@ expand((x - 2)*(x + 2)*(x + 1));
 
 ## Fraction Restructuring and Partial Fractions
 
-When an expression is presented as a sum of rational terms, **combine(expr)** merges it into a single rational form. For integration and decomposition tasks, **apart(expr, x)** produces a partial fraction decomposition with respect to $x$. The functions **num(expr)** and **denom(expr)** extract the numerator and denominator of a rational expression, supporting algebraic inspection and further transformations.
+When an expression is presented as a sum of rational terms, **combine(expr)** merges it into a single rational form. For integration and decomposition tasks, **partfrac(expr, x)** produces a partial fraction decomposition with respect to $x$. The functions **num(expr)** and **denom(expr)** extract the numerator and denominator of a rational expression, supporting algebraic inspection and further transformations.
 
 - **combine(expr);** combines terms into a single rational expression.
-- **apart(expr, x);** gives partial fraction decomposition with respect to $x$.
+- **partfrac(expr, x);** gives partial fraction decomposition with respect to $x$.
 - **num(expr);** extracts the numerator.
 - **denom(expr);** extracts the denominator.
 
 ```python
 combine(1/x + 1/(x+1));
-apart((2*x+3)/(x^2+x), x);
+partfrac((2*x+3)/(x^2+x), x);
 num((x^2 - 1)/(x + 1));
 denom((x^2 - 1)/(x + 1));
 ```

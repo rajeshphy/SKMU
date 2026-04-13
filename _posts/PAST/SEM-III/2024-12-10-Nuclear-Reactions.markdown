@@ -4,6 +4,7 @@ title: "Nuclear Reactions"
 date: 2024-12-10 04:47:26 +0530
 categories: lecture
 tags: SEM-III
+permalink: /Nuclear-Reactions/
 ---
 
 Nuclear reactions can occur when a target nucleus $X$ is bombarded by a particle $a$, resulting in a daughter nucleus $Y$ and an outgoing particle $b$:  

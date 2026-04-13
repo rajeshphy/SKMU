@@ -197,7 +197,7 @@
 <lastmod>2024-12-05T08:47:26+05:30</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/SKMU/lecture/2024/12/10/Nuclear-Reactions.html</loc>
+<loc>http://localhost:4000/SKMU/Nuclear-Reactions/</loc>
 <lastmod>2024-12-10T04:47:26+05:30</lastmod>
 </url>
 <url>
@@ -647,6 +647,10 @@
 <url>
 <loc>http://localhost:4000/SKMU/maxima-tabular-output-loops/</loc>
 <lastmod>2026-04-11T23:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/SKMU/compound-nucleus-reactions/</loc>
+<lastmod>2026-04-13T12:00:00+05:30</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/SKMU/docs/about.html</loc>
