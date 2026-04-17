@@ -29,6 +29,15 @@ depends(y, x);
 diff(y, x);
 diff(y, x, 2);
 ```
+## Assumptions of constants and variables
+
+Here is a list of possible assumptions examples:
+
+```python
+assume(x > 0);
+assume(n, integer);
+assume(a, real);
+```
 
 
 ## Integration, Limits, and Discrete Operators
