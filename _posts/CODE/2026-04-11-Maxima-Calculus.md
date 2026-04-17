@@ -22,6 +22,15 @@ diff(x^3 + sin(x), x);
 diff(exp(x)*cos(x), x, 2);
 ```
 
+## Defining dependent variables and partial derivatives is also straightforward:
+
+```python
+depends(y, x);
+diff(y, x);
+diff(y, x, 2);
+```
+
+
 ## Integration, Limits, and Discrete Operators
 
 Integration via **integrate** supports both indefinite and definite forms, including improper integrals such as $\int_0^\infty f(x)\,dx$, which commonly arise in normalization and expectation-value calculations. Limits computed by **limit** are essential for testing continuity, diagnosing singular behavior, and extracting asymptotic structure. Discrete calculus and special-function manipulations frequently use finite sums and products.
