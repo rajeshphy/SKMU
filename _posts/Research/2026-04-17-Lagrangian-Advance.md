@@ -22,6 +22,9 @@ $$
 
 
 
+
+
+
 ## Action Principle and Euler–Lagrange Equations
 
 Consider a variation of the path $q_i(t)\to q_i(t)+\delta q_i(t)$ with fixed endpoints $\delta q_i(t_1)=\delta q_i(t_2)=0$. The first variation of the action is
@@ -53,6 +56,36 @@ $$
 $$
 
 These equations replace Newton’s laws in the Lagrangian framework and are valid for any coordinates and any Lagrangian that correctly encodes the dynamics.
+
+<div style="background:#ffffff; border-left:6px solid #2b6cb0; border-radius:12px; padding:16px 18px; box-shadow:0 10px 22px rgba(0,0,0,0.12); margin:16px 0;">
+  <div style="font-size:1.05rem; font-weight:700; letter-spacing:0.2px; margin-bottom:8px;">
+    Definition: Hamilton’s Principle
+  </div>
+  <div style="line-height:1.6;">
+    Hamilton’s principle states that, among all possible paths $q_i(t)$ connecting fixed endpoints $q_i(t_1)$ and $q_i(t_2)$, the actual path taken by the system makes the action
+  </div>
+
+  <div style="margin:14px 0 10px 0;">
+    
+$$
+S[q]=\int_{t_1}^{t_2} L(q_i,\dot{q}_i,t)\,dt
+$$
+
+  </div>
+
+  <div style="line-height:1.6;">
+    stationary, i.e.
+  </div>
+
+  <div style="margin-top:10px;">
+    
+$$
+\delta S=0
+$$
+
+  </div>
+</div>
+
 
 ## Structure of Lagrangians and Generalized Momentum
 
