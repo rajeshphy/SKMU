@@ -57,7 +57,7 @@ $$
 
 These equations replace Newton’s laws in the Lagrangian framework and are valid for any coordinates and any Lagrangian that correctly encodes the dynamics.
 
-<div style="background:#ffffff; border-left:6px solid #2b6cb0; border-radius:12px; padding:16px 18px; box-shadow:0 10px 22px rgba(0,0,0,0.12); margin:16px 0;">
+<div style="background:#f7fff0; border-left:6px solid #2b6cb0; border-radius:12px; padding:16px 18px; box-shadow:0 10px 22px rgba(0,0,0,0.12); margin:16px 0;">
   <div style="font-size:1.05rem; font-weight:700; letter-spacing:0.2px; margin-bottom:8px;">
     Definition: Hamilton’s Principle
   </div>
