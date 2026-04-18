@@ -38,7 +38,11 @@ assume(x > 0);
 assume(n, integer);
 assume(a, real);
 ```
-
+## Kill command
+The **kill** command is used to clear variables, functions, or assumptions from the Maxima environment. This is particularly useful for resetting the state of the session or removing specific definitions that are no longer needed.
+- Clear a variable: **kill(x);** removes the definition of variable `x`.
+- Clear a function: **kill(f);** removes the definition of function `f`.
+- Clear all variables and functions: **kill(all);** resets the entire environment.
 
 ## Integration, Limits, and Discrete Operators
 
