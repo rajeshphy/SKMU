@@ -91,6 +91,16 @@ The commands below are commonly used to achieve a “premium” scientific look;
 
   - `set grid xtics ytics mxtics mytics back lw 1;` draws major and minor grid lines behind the data.
 
+- tics formatting:
+
+  - `set xtics 5 font 'Times New Roman,20';`
+  - `set ytics 0.5 font 'Times New Roman,20';`
+  This sets the major tick intervals and fonts for each axis.
+  - `set xtics start,increment,end;`
+  This syntax allows for custom tick placement at specified intervals.
+
+
+
 - Zero axis:
 
   - `set zeroaxis lw 1.2;` draws the $x=0$ and/or $y=0$ reference axis (as supported).
@@ -135,6 +145,8 @@ plot2d(
       set tics out nomirror scale 1.3;
       set mxtics 2;
       set mytics 2;
+      set xtics font 'Times New Roman,20';
+      set ytics font 'Times New Roman,20';
       set xlabel 'Time, t' font ',18';
       set ylabel 'y(t)' font ',18';
       set key top left box opaque font ',14';
