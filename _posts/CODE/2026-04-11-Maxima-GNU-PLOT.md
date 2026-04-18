@@ -150,23 +150,3 @@ plot2d(
 );
 ```
 
-A final template suitable for rapid reuse is:
-
-```python
-plot2d(
-    expr,
-    [x, xmin, xmax],
-    [plot_format, gnuplot],
-    [xlabel, "x"],
-    [ylabel, "f(x)"],
-    [legend, "f(x)"],
-    [gnuplot_preamble,
-     "set border 31 lw 2;
-      set tics out nomirror scale 1.2;
-      set mxtics 2;
-      set mytics 2;
-      set key top left box opaque;
-      set grid;
-      set samples 1000;"]
-);
-```
