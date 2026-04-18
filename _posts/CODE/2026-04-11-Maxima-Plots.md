@@ -8,6 +8,8 @@ tags: maxima, plotting
 permalink: /maxima-scientific-plots/
 ---
 
+[GNU PREAMBLE](/SKMU/maxima-gnuplot-preamble/) provides a powerful way to customize the appearance of Maxima plots by injecting raw gnuplot commands. This allows for precise control over borders, ticks, legends, grids, and sampling density, enabling the creation of clean, publication-quality figures without relying on terminal-specific directives.
+
 Maxima’s plotting interface, primarily through **plot2d** and **plot3d**, supports publication-oriented visualization when used with explicit labels, legends, grids, and carefully chosen plot ranges. The following patterns emphasize scientifically legible annotation and reproducible plotting sessions.
 
 ## Core 2D Plotting Patterns
@@ -69,6 +71,9 @@ plot2d(
     [gnuplot_preamble, "set grid"]
 );
 ```
+
+
+
 
 ## Parametric and Discrete Data Plots
 
