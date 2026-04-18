@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Maxima gnuplot_preamble"
-description: "A practical tutorial for using gnuplot_preamble in Maxima to produce clean, publication-style plots without terminal-specific commands."
+title: "GNU plot preamble"
+description: "A practical tutorial for using gnuplot_preamble in Maxima to produce clean, publication-style plots."
 date: 2026-04-18 09:00:00 +0530
 categories: research
 tags: maxima, gnuplot
