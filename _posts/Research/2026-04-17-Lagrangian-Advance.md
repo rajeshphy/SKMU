@@ -290,3 +290,123 @@ Then
 $$
 \ddot{z}_1+\omega^2 z_1=0,\quad \ddot{z}_2-\omega^2 z_2=0
 $$
+
+# Additional Problem
+
+We consider a two-degree-of-freedom Lagrangian in coordinates $x(t),y(t)$ with velocity couplings typical of planar systems in a rotating frame. The goal is to (i) write the Euler–Lagrange equations cleanly and (ii) Obtain the solution to the equation of motion of the form $e^{\omega t}(k_1+k_2 t)$ for the homogeneous differential equation it solves.
+
+## Correct Form of the Lagrangian and Notation
+
+To preserve the intended structure (quadratic potential, Coriolis-type coupling, kinetic term, and an $xy$ coupling), we write the Lagrangian as
+
+$$
+L=-\frac{\varepsilon}{2}(x^2+y^2)+\omega\left(x\dot y-y\dot x\right)+\dot x\,\dot y-\omega^2xy.
+$$
+
+The velocities are
+
+$$
+\dot x=\frac{dx}{dt}, \qquad \dot y=\frac{dy}{dt}.
+$$
+
+## Euler–Lagrange Equations and the Coupled Dynamics
+
+For the coordinate $x$, the Euler–Lagrange equation is
+
+$$
+\frac{d}{dt}\left(\frac{\partial L}{\partial \dot x}\right)-\frac{\partial L}{\partial x}=0.
+$$
+
+Compute the derivatives:
+
+$$
+\frac{\partial L}{\partial \dot x}=-\omega y+\dot y,
+$$
+
+hence
+
+$$
+\frac{d}{dt}\left(\frac{\partial L}{\partial \dot x}\right)=-\omega\dot y+\ddot y.
+$$
+
+Next,
+
+$$
+\frac{\partial L}{\partial x}=-\varepsilon x+\omega\dot y-\omega^2y.
+$$
+
+Substituting into Euler–Lagrange gives
+
+$$
+\left(-\omega\dot y+\ddot y\right)-\left(-\varepsilon x+\omega\dot y-\omega^2y\right)=0,
+$$
+
+so
+
+$$
+\ddot y-2\omega\dot y+\omega^2y+\varepsilon x=0.
+$$
+
+Similarly, for the coordinate $y$:
+
+$$
+\ddot x+2\omega\dot x+\omega^2x+\varepsilon y=0.
+$$
+
+Thus, the Lagrangian generates a coupled linear system for $(x,y)$ with constant coefficients; the $\varepsilon$ terms couple the coordinates, while the $\pm 2\omega$ terms represent the velocity coupling.
+
+## Solving the Homogeneous ODE and Interpreting the Result
+
+Solve
+
+$$
+\ddot y-2\omega\dot y+\omega^2y=0
+$$
+
+by the trial form
+
+$$
+y=e^{rt}.
+$$
+
+Then
+
+$$
+\dot y=re^{rt}, \qquad \ddot y=r^2e^{rt}.
+$$
+
+Substitution yields
+
+$$
+r^2e^{rt}-2\omega re^{rt}+\omega^2e^{rt}=0.
+$$
+
+Since $e^{rt}\neq 0$,
+
+$$
+r^2-2\omega r+\omega^2=0,
+$$
+
+which factors as
+
+$$
+(r-\omega)^2=0.
+$$
+
+Therefore the characteristic root is repeated:
+
+$$
+r=\omega.
+$$
+
+For a double root, the two linearly independent solutions are $e^{\omega t}$ and $t e^{\omega t}$, so the general solution is
+
+$$
+y(t)=e^{\omega t}(k_1+k_2 t).
+$$
+
+The structural reason for the $t e^{\omega t}$ term is the repeated root of the characteristic polynomial: the second independent solution must be multiplied by $t$ to remain linearly independent of the first.
+
+$$
+y(t)=e^{\omega t}(k_1+k_2 t)
+$$
