@@ -601,10 +601,6 @@
 <lastmod>2026-04-06T10:00:00+05:30</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/SKMU/particle-physics-i/</loc>
-<lastmod>2026-04-06T11:00:00+05:30</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/SKMU/Supersymmetry-Matrix-Lie-Superalgebra/</loc>
 <lastmod>2026-04-07T07:30:00+05:30</lastmod>
 </url>
@@ -667,6 +663,14 @@
 <url>
 <loc>http://localhost:4000/SKMU/calogero-sinha-case/</loc>
 <lastmod>2026-04-18T09:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/SKMU/particle-physics-I/</loc>
+<lastmod>2026-04-20T11:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/SKMU/particle-physics-II/</loc>
+<lastmod>2026-04-20T13:00:00+05:30</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/SKMU/docs/about.html</loc>

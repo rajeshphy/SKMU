@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Particle Physics-I"
-date: 2026-04-06 11:00:00 +0530
+date: 2026-04-20 11:00:00 +0530
 categories: lecture
 tags: MSc 
-permalink: /particle-physics-i/
+permalink: /particle-physics-I/
 ---
 
 
