@@ -208,17 +208,132 @@ A practical method to systematically analyze particle interactions is to check c
 
 
 
-  <p><b style="color:#2b6cb0;">Gell-Mann–Nishijima relation.</b></p>
+
+
+
+
+<h1 style="color:#1f3c88; border-bottom: 3px solid #4b6cb7; padding-bottom: 6px; margin-top:30px;">
+  The Quark Model
+</h1>
+
+<p>
+Hadrons are composite systems of quarks bound together by the <b>strong interaction</b>, which is described by 
+quantum chromodynamics (QCD). Quarks are fundamental fermions that carry fractional electric charge and a 
+fractional baryon number. A defining feature of QCD is that quarks also possess a quantum property called 
+<b>color charge</b>, coming in three types (commonly labeled red, green, and blue). Observable particles must be 
+color-neutral, which leads to the formation of bound states such as mesons and baryons.
+</p>
+
+<div style="text-align:center; background:#f1f5f9; padding:12px; border-radius:6px;">
+  <b>Fundamental quark properties:</b><br>
+  Spin: $\frac{1}{2}$ &nbsp; | &nbsp; Baryon number: $B=\frac{1}{3}$ &nbsp; | &nbsp; Color: 3 states
+</div>
+
+<p>
+The expression $B=\frac{1}{3}$ represents the <b>baryon number carried by an individual quark</b>. Baryon number is an 
+additive quantum number, meaning the total baryon number of a particle is obtained by summing the contributions from 
+its constituent quarks.
+</p>
+
+<div style="background:#edf2f7; padding:12px; border-radius:6px;">
+  For a baryon (three quarks):<br>
+  $B = \frac{1}{3} + \frac{1}{3} + \frac{1}{3} = 1$
+</div>
+
+<div style="background:#edf2f7; padding:12px; border-radius:6px; margin-top:8px;">
+  For a meson (quark + antiquark):<br>
+  $B = \frac{1}{3} + \left(-\frac{1}{3}\right) = 0$
+</div>
+
+<p>
+Thus, this simple relation explains why baryons (such as protons and neutrons) have baryon number $B=1$, while mesons 
+have $B=0$. It also ensures consistency with conservation laws in particle interactions, where the total baryon number 
+remains unchanged.
+</p>
+
+<p>
+An important consequence of QCD is <b>confinement</b>: quarks cannot be isolated and are always found inside hadrons. 
+Attempts to separate quarks lead to the creation of new quark–antiquark pairs rather than free quarks. At the same 
+time, at very short distances, quarks behave almost as free particles, a phenomenon known as <b>asymptotic freedom</b>, 
+which has been experimentally verified in high-energy scattering processes.
+</p>
+
+<p><b>Light quarks:</b></p>
+<ul style="margin-left:20px;">
+  <li>$(u,d)$: form an isospin doublet with $I=\frac{1}{2},\ S=0$</li>
+  <li>$s$: is an isospin singlet with $I=0,\ S=-1$</li>
+</ul>
+
+<p>
+The light quarks dominate the structure of ordinary matter. Protons and neutrons are composed of $u$ and $d$ quarks, 
+while the inclusion of the strange quark gives rise to particles such as kaons and hyperons. The approximate symmetry 
+among $(u,d,s)$ quarks underlies the <b>SU(3) flavor symmetry</b>, which successfully organizes hadrons into multiplets.
+</p>
+
+<p><b>Heavy quarks:</b></p>
+<ul style="margin-left:20px;">
+  <li>$c$: $Q=+\frac{2}{3}$</li>
+  <li>$b$: $Q=-\frac{1}{3}$</li>
+  <li>$t$: $Q=+\frac{2}{3}$</li>
+</ul>
+
+<p>
+Heavier quarks extend the quark model beyond the original three-flavor scheme. They are typically produced in 
+high-energy collisions and decay rapidly via the weak interaction. Their inclusion leads to a six-flavor framework 
+that is fully incorporated into the Standard Model. Due to their large masses, heavy quarks play a crucial role in 
+precision tests of the theory and in exploring phenomena such as CP violation.
+</p>
+
+<p>
+Antiquarks carry the same mass and spin as their corresponding quarks but have opposite additive quantum numbers, 
+including electric charge $Q$, baryon number $B$, strangeness $S$, and isospin component $I_Z$. This symmetry between 
+particles and antiparticles is fundamental to relativistic quantum field theory.
+</p>
+
+<p><b>Key relation:</b></p>
 
   <div style="text-align:center; font-size:18px; margin:12px 0;">
     $Q = I_Z + \frac{B + S}{2}$ <br>
     $Y = B + S$, &nbsp; $Q = I_Z + \frac{Y}{2}$
   </div>
 
+<p>
+This relation, known as the <b>Gell-Mann–Nishijima formula</b>, provides a powerful consistency check for assigning 
+quantum numbers to hadrons and quarks. It connects observable charge with internal symmetries and remains a cornerstone 
+in particle classification.
+</p>
 
-  <h2 style="color:#1f3c88; border-bottom: 3px solid #4b6cb7; padding-bottom: 6px; margin-top:30px;">
-    Discrete Symmetries: P, C, T, and CPT
-  </h2>
+<p><b>Hadron construction:</b></p>
+<ul style="margin-left:20px;">
+  <li>Mesons: $q\bar q$, $B=0$</li>
+  <li>Baryons: $qqq$, $B=1$</li>
+</ul>
+
+<p>
+Color neutrality requires that mesons form as quark–antiquark pairs with matching color and anticolor, while baryons 
+combine three quarks of different colors. The spin structure of hadrons arises from combining the intrinsic spin 
+$\frac{1}{2}$ of quarks, leading to observed states such as spin-0 and spin-1 mesons, and spin-$\frac{1}{2}$ or 
+spin-$\frac{3}{2}$ baryons.
+</p>
+
+<div style="background:#edf2f7; padding:12px; border-radius:6px;">
+  Examples: $K^+ = u\bar s$ (meson with $S=+1$), &nbsp; $n = udd$ (baryon with $B=+1$)
+</div>
+
+<p>
+Beyond conventional mesons and baryons, modern experiments have revealed evidence for <b>exotic hadrons</b> such as 
+tetraquarks ($qq\bar q\bar q$) and pentaquarks ($qqqq\bar q$). These states demonstrate that the quark model, when 
+combined with QCD, allows a richer spectrum of bound systems than originally anticipated, while still respecting the 
+fundamental requirement of color confinement.
+</p>
+
+
+
+
+
+<h2 style="color:#1f3c88; border-bottom: 3px solid #4b6cb7; padding-bottom: 6px; margin-top:30px;">
+  Additional Topics: Discrete Symmetries: P, C, T, and CPT
+</h2>
 
   <p><b>Parity $P$:</b> $(x,y,z) \to (-x,-y,-z)$ — conserved in strong/EM, violated in weak.</p>
 
@@ -230,60 +345,5 @@ A practical method to systematically analyze particle interactions is to check c
     <b>CPT theorem:</b> Combined symmetry is exactly conserved in relativistic quantum field theory.
   </div>
 
-
-  <h2 style="color:#1f3c88; border-bottom: 3px solid #4b6cb7; padding-bottom: 6px; margin-top:30px;">
-    Resonance Particles
-  </h2>
-
-  <p>Extremely short-lived particles identified through invariant mass peaks.</p>
-
-  <ul style="margin-left:20px;">
-    <li>Weak: $\sim 10^{-10}\ \mathrm{s}$</li>
-    <li>EM: $10^{-16}$ to $10^{-19}\ \mathrm{s}$</li>
-    <li>Strong: $\sim 10^{-23}\ \mathrm{s}$</li>
-  </ul>
-
-  <div style="background:#fffaf0; padding:12px; border-left:4px solid #dd6b20; border-radius:6px;">
-    Strong resonances are observed indirectly via scattering peaks.
-  </div>
-
-
-  <h2 style="color:#1f3c88; border-bottom: 3px solid #4b6cb7; padding-bottom: 6px; margin-top:30px;">
-    The Quark Model
-  </h2>
-
-  <p>Hadrons are composite systems of quarks with fractional charge and baryon number.</p>
-
-  <div style="text-align:center; background:#f1f5f9; padding:10px; border-radius:6px;">
-    Spin: $\frac{1}{2}$ &nbsp; | &nbsp; $B=\frac{1}{3}$
-  </div>
-
-  <p><b>Light quarks:</b></p>
-  <ul style="margin-left:20px;">
-    <li>$(u,d)$: $I=\frac{1}{2},\ S=0$</li>
-    <li>$s$: $I=0,\ S=-1$</li>
-  </ul>
-
-  <p><b>Heavy quarks:</b></p>
-  <ul style="margin-left:20px;">
-    <li>$c$: $Q=+\frac{2}{3}$</li>
-    <li>$b$: $Q=-\frac{1}{3}$</li>
-    <li>$t$: $Q=+\frac{2}{3}$</li>
-  </ul>
-
-  <p><b>Key relation:</b></p>
-  <div style="text-align:center; font-size:18px;">
-    $Q = I_Z + \frac{B+S}{2}$
-  </div>
-
-  <p><b>Hadron construction:</b></p>
-  <ul style="margin-left:20px;">
-    <li>Mesons: $q\bar q$, $B=0$</li>
-    <li>Baryons: $qqq$, $B=1$</li>
-  </ul>
-
-  <div style="background:#edf2f7; padding:12px; border-radius:6px;">
-    Examples: $K^+ = u\bar s$, &nbsp; $n = udd$
-  </div>
 
 </div>
