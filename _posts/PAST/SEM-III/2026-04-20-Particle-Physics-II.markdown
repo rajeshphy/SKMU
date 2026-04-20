@@ -146,23 +146,43 @@ A practical method to systematically analyze particle interactions is to check c
 
   <p><b style="color:#2b6cb0;">Lepton number.</b> Assign $L=+1$ to leptons $(e^-,\mu^-,\tau^-)$ and neutrinos $(\nu_e,\nu_\mu,\nu_\tau)$, $L=-1$ to antileptons, and $L=0$ to nonleptonic particles.</p>
 
-  <ul style="margin-left:20px;">
-    <li>Electron family: $L_e$</li>
-    <li>Muon family: $L_\mu$</li>
-    <li>Tau family: $L_\tau$</li>
-  </ul>
+<ul style="margin-left:20px;">
+  <li>Electron family: $L_e$</li>
+  <li>Muon family: $L_\mu$</li>
+  <li>Tau family: $L_\tau$</li>
+</ul>
 
-  <div style="background:#edf2f7; padding:12px 16px; border-radius:6px;">
-    Examples: $\mu^- \to e^- + \bar\nu_e + \nu_\mu$, &nbsp;
-    $K^0 \to \pi^+ + e^- + \bar\nu_e$
+<div style="background:#edf2f7; padding:12px 16px; border-radius:6px;">
+  Examples: $\mu^- \to e^- + \bar\nu_e + \nu_\mu$, &nbsp;
+  $K^0 \to \pi^+ + e^- + \bar\nu_e$
+</div>
+
+<div style="background:linear-gradient(135deg,#ebf8ff,#e6fffa); padding:14px; border-left:5px solid #3182ce; border-radius:6px; margin-top:10px;">
+  <b style="color:#2b6cb0;">Important Note:</b><br>
+  In the Standard Model, lepton number is conserved <b>separately for each family</b>:
+  <div style="text-align:center; margin-top:6px;">
+    $L_e,\quad L_\mu,\quad L_\tau \;\; \text{are individually conserved}$
   </div>
+</div>
 
-  <p><b style="color:#2b6cb0;">Baryon number.</b> Assign $B=+1$ to baryons, $B=-1$ to antibaryons, and $B=0$ otherwise. Conserved in all interactions.</p>
+<p><b style="color:#2b6cb0;">Baryon number.</b> Assign $B=+1$ to baryons, $B=-1$ to antibaryons, and $B=0$ otherwise. Conserved in all interactions.</p>
 
-  <div style="background:#edf2f7; padding:12px 16px; border-radius:6px;">
-    Examples: $K^0 + p \to \Lambda^0 + \pi^+ + \pi^-$, &nbsp;
-    $n \to p + e^- + \bar\nu_e$
+<div style="background:#edf2f7; padding:12px 16px; border-radius:6px;">
+  Examples: $K^0 + p \to \Lambda^0 + \pi^+ + \pi^-$, &nbsp;
+  $n \to p + e^- + \bar\nu_e$
+</div>
+
+<div style="background:linear-gradient(135deg,#fffaf0,#fff5f5); padding:14px; border-left:5px solid #dd6b20; border-radius:6px; margin-top:10px;">
+  <b style="color:#c05621;">Important Contrast:</b><br>
+  Unlike leptons, baryons do <b>not</b> have separate family-wise conservation laws. Only the total baryon number is conserved:
+  <div style="text-align:center; margin-top:6px;">
+    $B = +1 \text{ (baryons)}, \quad B = -1 \text{ (antibaryons)}$
   </div>
+  <p style="margin-top:6px;">
+    Individual baryon types (such as neutron or proton) can transform into each other, as long as total $B$ remains unchanged.
+  </p>
+</div>
+
 
   <p><b style="color:#2b6cb0;">Strangeness.</b> Integer quantum number conserved in strong and EM interactions but violated in weak processes with $\Delta S = 0, \pm 1$.</p>
 
@@ -171,18 +191,49 @@ A practical method to systematically analyze particle interactions is to check c
     Weak: $\Lambda^0 \to \pi^+ + p$
   </div>
 
-  <p><b style="color:#2b6cb0;">Isospin.</b> Internal symmetry treated like angular momentum.</p>
+  <p><b style="color:#2b6cb0;">Isospin.</b> Isospin (isotopic spin) is an internal symmetry introduced to describe the near-identical behavior of particles under the <b>strong interaction</b>, despite differences in their electric charge. The classic example is the proton and neutron, which have almost the same mass and participate identically in strong interactions. This suggests that they can be treated as two states of a single entity, the nucleon, distinguished only by an internal quantum number.</p>
 
-  <div style="text-align:center; background:#f1f5f9; padding:10px; border-radius:6px;">
-    $2I+1$ states, &nbsp; $I_Z = I, I-1, \dots, -I$
-  </div>
+<p>
+Mathematically, isospin is treated in a way analogous to ordinary angular momentum. Each particle is assigned a total isospin quantum number $I$ and a third component $I_Z$, which plays a role similar to the $z$-component of spin. The allowed values of $I_Z$ are:
+</p>
 
-  <ul style="margin-left:20px;">
-    <li>Pions: $I=1$</li>
-    <li>Nucleons: $I=\frac{1}{2}$</li>
-    <li>Kaons: $I=\frac{1}{2}$</li>
-  </ul>
+<div style="text-align:center; background:#f1f5f9; padding:12px; border-radius:6px;">
+  $2I+1$ states, &nbsp; $I_Z = I, I-1, \dots, -I$
+</div>
 
+<p>
+This means that a particle multiplet with total isospin $I$ contains $2I+1$ members, each corresponding to a different value of $I_Z$. These members typically differ in electric charge but are otherwise very similar in their strong interaction properties.
+</p>
+
+<ul style="margin-left:20px;">
+  <li><b>Pions:</b> $(\pi^+, \pi^0, \pi^-)$ form an isospin triplet with $I=1$ and $I_Z=+1, 0, -1$</li>
+  <li><b>Nucleons:</b> $(p, n)$ form a doublet with $I=\frac{1}{2}$ and $I_Z=+\frac{1}{2}, -\frac{1}{2}$</li>
+  <li><b>Kaons:</b> $(K^+, K^0)$ form a doublet with $I=\frac{1}{2}$</li>
+</ul>
+
+<p>
+In the quark model, isospin symmetry arises naturally from the similarity between the <b>up ($u$)</b> and <b>down ($d$)</b> quarks. These quarks form an isospin doublet with $I=\frac{1}{2}$, where:
+</p>
+
+<div style="text-align:center; background:#edf2f7; padding:10px; border-radius:6px;">
+  $u: I_Z = +\frac{1}{2}, \quad d: I_Z = -\frac{1}{2}$
+</div>
+
+<p>
+Hadrons constructed from $u$ and $d$ quarks inherit their isospin properties through vector addition, similar to the addition of angular momenta. This allows prediction of possible isospin states and their multiplicities in composite systems.
+</p>
+
+<p>
+A key feature of isospin is its <b>interaction dependence</b>. The strong interaction is nearly invariant under isospin transformations, meaning that both $I$ and $I_Z$ are conserved. This leads to powerful selection rules in hadronic reactions and explains why processes differing only by charge often have similar probabilities. In contrast, the electromagnetic interaction distinguishes between charges and therefore breaks isospin symmetry, although it typically preserves $I_Z$. The weak interaction violates both $I$ and $I_Z$, allowing transitions between different isospin states.
+</p>
+
+<p>
+Isospin symmetry is approximate rather than exact. The primary sources of symmetry breaking are the difference in masses of the $u$ and $d$ quarks and electromagnetic effects. As a result, particles within the same isospin multiplet have slightly different masses. Despite this, isospin remains an extremely useful concept for organizing hadrons and understanding reaction patterns in nuclear and particle physics.
+</p>
+
+<p>
+In practical applications, isospin conservation provides selection rules that help determine whether a given reaction is allowed or suppressed under the strong interaction. It also simplifies calculations by allowing physicists to treat groups of particles collectively rather than individually.
+</p>
 
 
 
