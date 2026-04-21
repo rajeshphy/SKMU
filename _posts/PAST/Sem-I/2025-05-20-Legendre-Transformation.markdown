@@ -10,7 +10,6 @@ permalink: /legendre-transform/
 
 <div style="margin:20px 0 28px 0; padding:24px 22px; background:linear-gradient(135deg,#f8fafc 0%,#eef2ff 100%); border:1px solid #cbd5e1; border-radius:18px; box-shadow:0 8px 24px rgba(0,0,0,0.08);">
 
-<h1 style="margin:0 0 10px 0; font-size:2rem; color:#312e81; text-align:center;">Legendre Transform</h1>
 
 <p style="margin:0; font-size:1.03rem; line-height:1.85; color:#334155; text-align:justify;">
 The <b style="color:#4f46e5;">Legendre transformation</b> is a mathematical method for rewriting a function in terms of a <b>conjugate variable</b>, usually a derivative, when that new variable is more natural for describing a physical system. In physics, it provides a systematic way to replace one set of variables by another set that contains the same information but is better suited to the problem. This is especially important in <b style="color:#0f766e;">classical mechanics</b>, where velocity is replaced by momentum, and in <b style="color:#b45309;">thermodynamics</b>, where entropy and volume are replaced by temperature and pressure.
