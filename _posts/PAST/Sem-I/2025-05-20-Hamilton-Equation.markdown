@@ -1,28 +1,107 @@
 ---
 layout: post
-title:  "Hamilton Equation of Motion"
-date:   2025-05-20 09:10:26 +0530
+title:  "Hamilton's Equations of Motion"
+date:   2026-04-21 09:10:26 +0530
 categories: lecture
 tags: SEM-I
+permalink: /hamilton-equation-of-motion/
+---
+
+<div style="margin:18px 0; padding:18px 20px; border-left:6px solid #7c3aed; background:linear-gradient(135deg,#f5f3ff 0%,#ede9fe 100%); border-radius:12px; box-shadow:0 4px 14px rgba(0,0,0,0.08);">
+
+<p style="font-size:1.02rem; line-height:1.75; color:#2d3748; text-align:justify;">
+The <b style="color:#6b21a8;">principle of least action</b> states that, out of all imaginable paths by which a system can move from one configuration to another, the actual path followed by nature is the one for which the <b>action</b> has an extremum value. In modern language, this is stated more accurately as the <b style="color:#b45309;">principle of stationary action</b>, because the action need not always be strictly minimum; it may be minimum, maximum, or simply stationary against small variations of the path.
+</p>
+
+<div style="margin:14px 0; padding:14px 16px; background:#ffffff; border:1px solid #ddd6fe; border-radius:10px;">
+<p style="margin:0; font-size:1.05rem; color:#1f2937; text-align:center;">
+\[
+S = \int_{t_1}^{t_2} L(q,\dot q,t)\,dt
+\]
+</p>
+<p style="margin:10px 0 0 0; font-size:0.98rem; color:#4b5563; text-align:center;">
+where <b>\(S\)</b> is the action and <b>\(L\)</b> is the Lagrangian of the system.
+</p>
+</div>
+
+<p style="font-size:1.02rem; line-height:1.75; color:#2d3748; text-align:justify;">
+Thus, the physical motion of a particle or system is obtained by requiring that a small variation in the action vanishes:
+</p>
+
+<div style="margin:14px 0; padding:14px 16px; background:#fff7ed; border:1px solid #fdba74; border-radius:10px;">
+<p style="margin:0; font-size:1.05rem; color:#7c2d12; text-align:center;">
+\[
+\delta S = \delta \int_{t_1}^{t_2} L(q,\dot q,t)\,dt = 0
+\]
+</p>
+
+<p style="font-size:1.02rem; line-height:1.75; color:#2d3748; text-align:justify;">
+This variational condition leads directly to the <b style="color:#0f766e;">Euler--Lagrange equations</b>, which govern the dynamics of the system.
+</p>
+</div>
+
+<p style="font-size:1.02rem; line-height:1.75; color:#1f2937; text-align:justify;">
+Although the two expressions are often used interchangeably in elementary mechanics, there is a subtle distinction between them. The term <b style="color:#7c2d12;">principle of least action</b> is the older and more popular name, suggesting that nature chooses the path for which the action is the <i>minimum</i>. However, this is not always strictly true.
+</p>
+
+</div>
+---
+
+**Solved Examples**:
+
+- **Example 1**:  
+  **Problem**: Derive the equation of motion for a free particle using the principle of least action.  
+  **Solution**:  
+  The Lagrangian is $L = \frac{1}{2} m \dot{x}^2$.  
+  Action:  
+  $$
+  S[x(t)] = \int_{t_1}^{t_2} \frac{1}{2} m \dot{x}^2 \, dt
+  $$
+  Applying the Euler-Lagrange equation:  
+  $$
+  \frac{d}{dt}(m \dot{x}) = 0 \Rightarrow \ddot{x} = 0
+  $$
+  This corresponds to uniform motion.
+
+- **Example 2**:  
+  **Problem**: Use the principle of least action to derive the motion of a harmonic oscillator.  
+  **Solution**:  
+  The Lagrangian is $L = \frac{1}{2} m \dot{x}^2 - \frac{1}{2} k x^2$.  
+  Euler-Lagrange equation:  
+  $$
+  \frac{d}{dt}(m \dot{x}) + k x = 0 \Rightarrow m \ddot{x} + k x = 0
+  $$
+  This is the equation for simple harmonic motion.
+
+---
+
+**Practice Questions**:
+- **Short Answer**:
+  1. Define the principle of least action.
+  2. What is meant by stationary action?
+
+- **Numerical**:
+  1. Find the equation of motion for a particle in a linear potential $V(x) = Fx$ using least action.
+  2. Compute the action for a particle moving at constant speed $v$ from $x=0$ to $x=L$ in time $T$.
+
+- **MCQs**:
+  1. Which of the following is minimized in the principle of least action?
+     - a) Kinetic energy  
+     - b) Potential energy  
+     - c) Action  
+     - d) Hamiltonian  
+     **Answer**: c)
+
+  2. The Euler-Lagrange equation is obtained from:
+     - a) Newton's laws  
+     - b) Hamilton’s equations  
+     - c) Principle of least action  
+     - d) Gauss’s law  
+     **Answer**: c)
+
 ---
 
 # Hamilton's Equations of Motion
-
-<span style="color:darkred">**Learning Objectives**</span>:
-- Understand the formulation of Hamiltonian mechanics from Lagrangian mechanics.
-- Learn how to derive Hamilton's equations of motion.
-- Apply Hamiltonian formalism to simple mechanical systems.
-
----
-
-**Key Concepts / Definitions**:
-- **Hamiltonian ($H$)**: A function usually representing the total energy of a system, obtained via Legendre transformation of the Lagrangian.
-- **Generalized Coordinates ($q_i$)**: Variables that describe the configuration of a system.
-- **Generalized Momenta ($p_i$)**: Conjugate momenta defined as $p_i = \frac{\partial L}{\partial \dot{q}_i}$.
-
----
-
-**Theory and Explanation**:
 
 Hamiltonian mechanics is an alternative formulation of classical mechanics that uses generalized coordinates $q_i$ and conjugate momenta $p_i$ instead of just coordinates and velocities.
 
@@ -134,14 +213,6 @@ $$
 
 ---
 
-**Important Points / Summary**:
-- Hamiltonian mechanics provides a symmetrical, phase-space-based approach to classical mechanics.
-- The Hamiltonian often corresponds to the total energy.
-- Hamilton's equations are first-order and are useful in analytical and quantum mechanics.
-- Canonical transformations preserve the form of Hamilton’s equations.
-
----
-
 **Practice Questions**:
 - **Short Answer**:
   1. Define the Hamiltonian and explain how it is related to the Lagrangian.
@@ -165,5 +236,3 @@ $$
      - c) $H = p q$  
      - d) $H = m p$  
      **Answer**: a)
-
----
