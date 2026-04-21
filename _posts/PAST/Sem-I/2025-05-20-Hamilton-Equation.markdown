@@ -7,6 +7,8 @@ tags: SEM-I
 permalink: /hamilton-equation-of-motion/
 ---
 
+This lecture contains principle of least action, Hamilton's equations of motion, and solved examples.
+
 <div style="margin:18px 0; padding:18px 20px; border-left:6px solid #7c3aed; background:linear-gradient(135deg,#f5f3ff 0%,#ede9fe 100%); border-radius:12px; box-shadow:0 4px 14px rgba(0,0,0,0.08);">
 
 <p style="font-size:1.02rem; line-height:1.75; color:#2d3748; text-align:justify;">
