@@ -8,6 +8,8 @@ tags: mechanics, thermodynamics
 permalink: /legendre-transform/
 ---
 
+As we have seen in the previous lectures, the Lagrangian and Hamiltonian formulations of mechanics are related by a mathematical operation called the Legendre transformation. This transformation is not just a technical tool; it is a fundamental concept that appears in various areas of physics, including thermodynamics and classical mechanics. In this lecture, we will explore the Legendre transformation in depth, understand its motivation, and see how it is applied in different physical contexts.
+
 <div style="margin:20px 0 28px 0; padding:24px 22px; background:linear-gradient(135deg,#f8fafc 0%,#eef2ff 100%); border:1px solid #cbd5e1; border-radius:18px; box-shadow:0 8px 24px rgba(0,0,0,0.08);">
 
 
