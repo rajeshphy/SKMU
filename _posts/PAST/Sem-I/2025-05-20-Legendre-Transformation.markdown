@@ -42,6 +42,42 @@ $$
 <p style="margin-bottom:0; font-size:1.02rem; line-height:1.8; color:#3f3f46; text-align:justify;">
 where $x$ is eliminated in favor of $y$ through the relation $y=df/dx$. Thus, the transformation does not lose information; rather, it <b style="color:#9a3412;">repackages the same content</b> in a different and often more useful form.
 </p>
+<br>
+<strong style="color:black;">Hint:</strong> Do integration by parts to show that the Legendre transform is equivalent to a change of variables in the integral representation of $f$.
+
+$$
+df=y\,dx
+$$
+
+Apply integration by parts to $\int y\,dx$:
+
+$$
+\int y\,dx=xy-\int x\,dy.
+$$
+
+So,
+
+$$
+xy-\int x\,dy=f(x)+C.
+$$
+
+Rearranging,
+
+$$
+\int x\,dy+C=xy-f(x).
+$$
+
+We write
+
+$$
+g(y)=xy-f(x).
+$$
+
+
+
+
+
+
 
 </div>
 
