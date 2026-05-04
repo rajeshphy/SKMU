@@ -270,7 +270,7 @@ Thus different choices of the second function give different physical flows:
 
 This is the main power of the Poisson bracket: it converts symmetry, motion, and conservation into one common mathematical language.
 
-## Examples from physics
+## Examples
 
 ### Free particle
 
@@ -989,54 +989,6 @@ These relations show that angular momentum generates rotations of both position 
 | $\{L_i,L_j\}=\epsilon_{ijk}L_k$ | angular momentum algebra |
 | $\{Q_i,P_j\}=\delta_{ij}$ | canonical transformation test |
 
-## Final summary
-
-The Poisson bracket is the natural language of Hamiltonian mechanics. It combines equations of motion, canonical transformations, symmetries, and conservation laws into one compact structure.
-
-The most important results are:
-
-$$
-\boxed{
-\{f,g\}
-=
-\sum_i
-\left(
-\frac{\partial f}{\partial q_i}
-\frac{\partial g}{\partial p_i}
--
-\frac{\partial f}{\partial p_i}
-\frac{\partial g}{\partial q_i}
-\right)
-}
-$$
-
-$$
-\boxed{
-\frac{df}{dt}=\{f,H\}+\frac{\partial f}{\partial t}
-}
-$$
-
-$$
-\boxed{
-\{f,H\}=0
-\quad\Longrightarrow\quad
-f=\text{constant}
-}
-$$
-
-for no explicit time dependence.
-
-The Poisson theorem says:
-
-$$
-\boxed{
-f,g=\text{constants of motion}
-\quad\Longrightarrow\quad
-\{f,g\}=\text{constant of motion}.
-}
-$$
-
-Thus conserved quantities are not isolated objects. They form an algebra under the Poisson bracket. This makes the Poisson bracket one of the deepest structures in classical mechanics.
 
 ## Practice questions
 
