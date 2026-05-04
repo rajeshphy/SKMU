@@ -979,15 +979,15 @@ These relations show that angular momentum generates rotations of both position 
 
 | Poisson bracket relation | Physical meaning |
 |---|---|
-| $\{q_i,p_j\}=\delta_{ij}$ | canonical coordinate-momentum structure |
-| $\dot f=\{f,H\}+\frac{\partial f}{\partial t}$ | Hamiltonian generates time evolution |
-| $\{f,H\}=0$ | $f$ is conserved if it has no explicit time dependence |
-| $\delta f=\varepsilon\{f,G\}$ | $G$ generates infinitesimal canonical transformation |
-| $\{p,H\}=0$ | momentum conservation |
-| $\{L_i,H\}=0$ | angular momentum conservation |
-| $\{H,H\}=0$ | energy conservation when $H$ is time independent |
-| $\{L_i,L_j\}=\epsilon_{ijk}L_k$ | angular momentum algebra |
-| $\{Q_i,P_j\}=\delta_{ij}$ | canonical transformation test |
+| $\\{q_i,p_j\\}=\delta_{ij}$ | canonical coordinate-momentum structure |
+| $\dot f=\\{f,H\\}+\frac{\partial f}{\partial t}$ | Hamiltonian generates time evolution |
+| $\\{f,H\\}=0$ | $f$ is conserved if it has no explicit time dependence |
+| $\delta f=\varepsilon\\{f,G\\}$ | $G$ generates infinitesimal canonical transformation |
+| $\\{p,H\\}=0$ | momentum conservation |
+| $\\{L_i,H\\}=0$ | angular momentum conservation |
+| $\\{H,H\\}=0$ | energy conservation when $H$ is time independent |
+| $\\{L_i,L_j\\}=\epsilon_{ijk}L_k$ | angular momentum algebra |
+| $\\{Q_i,P_j\\}=\delta_{ij}$ | canonical transformation test |
 
 
 ## Practice questions
