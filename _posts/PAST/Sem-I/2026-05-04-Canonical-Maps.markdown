@@ -3,7 +3,7 @@ layout: post
 title: "Canonical Maps"
 description: "Extension of Hamilton–Jacobi theory to canonical transformations, generating functions, and infinitesimal generators."
 date: 2026-05-04 09:10:00 +0530
-categories: research
+categories: Msc
 tags: classical mechanics, canonical transformations, generating functions, infinitesimal generators, hamilton-jacobi
 permalink: /canonical-maps/
 ---
