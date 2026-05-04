@@ -167,7 +167,7 @@ f'
 f+\varepsilon L_Gf+\frac{\varepsilon^2}{2!}L_G^2f+\frac{\varepsilon^3}{3!}L_G^3f+\cdots.
 $$
 
-Since $L_Gf=\{f,G\}$, this becomes
+Since $L_Gf=\\{f,G\\}$, this becomes
 
 $$
 f'
