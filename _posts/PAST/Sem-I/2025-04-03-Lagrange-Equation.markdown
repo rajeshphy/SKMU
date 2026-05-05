@@ -60,6 +60,305 @@ Using these transformations, D’Alembert’s principle can be rewritten in term
 </div>
 <br>
 
+
+We now derive Lagrange’s equation directly from D’Alembert’s principle. For a system of $N$ particles, D’Alembert’s principle is
+
+$$
+\sum_{i=1}^{N}\left(\mathbf{F}_i^{(a)}-m_i\ddot{\mathbf{r}}_i\right)\cdot \delta \mathbf{r}_i=0
+$$
+
+where $\mathbf{F}_i^{(a)}$ represents the applied force on the $i$-th particle and $\delta \mathbf{r}_i$ is the virtual displacement compatible with the constraints.
+
+Let the position vector of the $i$-th particle be expressed in terms of generalized coordinates as
+
+$$
+\mathbf{r}_i=\mathbf{r}_i(q_1,q_2,\dots,q_n,t)
+$$
+
+The virtual displacement is therefore
+
+$$
+\delta \mathbf{r}_i=\sum_{j=1}^{n}\frac{\partial \mathbf{r}_i}{\partial q_j}\delta q_j
+$$
+
+Substituting this into D’Alembert’s principle gives
+
+$$
+\sum_{i=1}^{N}\left(\mathbf{F}_i^{(a)}-m_i\ddot{\mathbf{r}}_i\right)\cdot
+\sum_{j=1}^{n}\frac{\partial \mathbf{r}_i}{\partial q_j}\delta q_j=0
+$$
+
+Interchanging the order of summation,
+
+$$
+\sum_{j=1}^{n}
+\left[
+\sum_{i=1}^{N}\mathbf{F}_i^{(a)}\cdot \frac{\partial \mathbf{r}_i}{\partial q_j}
+-
+\sum_{i=1}^{N}m_i\ddot{\mathbf{r}}_i\cdot \frac{\partial \mathbf{r}_i}{\partial q_j}
+\right]\delta q_j=0
+$$
+
+Define the generalized force $Q_j$ by
+
+$$
+Q_j=\sum_{i=1}^{N}\mathbf{F}_i^{(a)}\cdot \frac{\partial \mathbf{r}_i}{\partial q_j}
+$$
+
+Thus,
+
+$$
+\sum_{j=1}^{n}
+\left[
+Q_j-
+\sum_{i=1}^{N}m_i\ddot{\mathbf{r}}_i\cdot \frac{\partial \mathbf{r}_i}{\partial q_j}
+\right]\delta q_j=0
+$$
+
+The main task is now to rewrite the inertial term
+
+$$
+\sum_{i=1}^{N}m_i\ddot{\mathbf{r}}_i\cdot \frac{\partial \mathbf{r}_i}{\partial q_j}
+$$
+
+in terms of kinetic energy.
+
+The velocity of the $i$-th particle is
+
+$$
+\dot{\mathbf{r}}_i
+=
+\sum_{j=1}^{n}\frac{\partial \mathbf{r}_i}{\partial q_j}\dot{q}_j
++
+\frac{\partial \mathbf{r}_i}{\partial t}
+$$
+
+From this expression,
+
+$$
+\frac{\partial \dot{\mathbf{r}}_i}{\partial \dot{q}_j}
+=
+\frac{\partial \mathbf{r}_i}{\partial q_j}
+$$
+
+Now consider
+
+$$
+\frac{d}{dt}\left(m_i\dot{\mathbf{r}}_i\cdot \frac{\partial \mathbf{r}_i}{\partial q_j}\right)
+$$
+
+Using the product rule,
+
+$$
+\frac{d}{dt}\left(m_i\dot{\mathbf{r}}_i\cdot \frac{\partial \mathbf{r}_i}{\partial q_j}\right)
+=
+m_i\ddot{\mathbf{r}}_i\cdot \frac{\partial \mathbf{r}_i}{\partial q_j}
++
+m_i\dot{\mathbf{r}}_i\cdot \frac{d}{dt}\left(\frac{\partial \mathbf{r}_i}{\partial q_j}\right)
+$$
+
+Therefore,
+
+$$
+m_i\ddot{\mathbf{r}}_i\cdot \frac{\partial \mathbf{r}_i}{\partial q_j}
+=
+\frac{d}{dt}\left(m_i\dot{\mathbf{r}}_i\cdot \frac{\partial \mathbf{r}_i}{\partial q_j}\right)
+-
+m_i\dot{\mathbf{r}}_i\cdot \frac{d}{dt}\left(\frac{\partial \mathbf{r}_i}{\partial q_j}\right)
+$$
+
+Using
+
+$$
+\frac{\partial \dot{\mathbf{r}}_i}{\partial \dot{q}_j}
+=
+\frac{\partial \mathbf{r}_i}{\partial q_j}
+$$
+
+we write
+
+$$
+m_i\dot{\mathbf{r}}_i\cdot \frac{\partial \mathbf{r}_i}{\partial q_j}
+=
+m_i\dot{\mathbf{r}}_i\cdot \frac{\partial \dot{\mathbf{r}}_i}{\partial \dot{q}_j}
+$$
+
+The kinetic energy of the system is
+
+$$
+T=\frac{1}{2}\sum_{i=1}^{N}m_i\dot{\mathbf{r}}_i^2
+$$
+
+Hence,
+
+$$
+\frac{\partial T}{\partial \dot{q}_j}
+=
+\sum_{i=1}^{N}m_i\dot{\mathbf{r}}_i\cdot
+\frac{\partial \dot{\mathbf{r}}_i}{\partial \dot{q}_j}
+$$
+
+Therefore,
+
+$$
+\sum_{i=1}^{N}m_i\dot{\mathbf{r}}_i\cdot \frac{\partial \mathbf{r}_i}{\partial q_j}
+=
+\frac{\partial T}{\partial \dot{q}_j}
+$$
+
+Now consider the second term,
+
+$$
+\sum_{i=1}^{N}m_i\dot{\mathbf{r}}_i\cdot \frac{d}{dt}\left(\frac{\partial \mathbf{r}_i}{\partial q_j}\right)
+$$
+
+Since
+
+$$
+\frac{d}{dt}\left(\frac{\partial \mathbf{r}_i}{\partial q_j}\right)
+=
+\frac{\partial \dot{\mathbf{r}}_i}{\partial q_j}
+$$
+
+we get
+
+$$
+\sum_{i=1}^{N}m_i\dot{\mathbf{r}}_i\cdot \frac{d}{dt}\left(\frac{\partial \mathbf{r}_i}{\partial q_j}\right)
+=
+\sum_{i=1}^{N}m_i\dot{\mathbf{r}}_i\cdot \frac{\partial \dot{\mathbf{r}}_i}{\partial q_j}
+$$
+
+But from the definition of kinetic energy,
+
+$$
+\frac{\partial T}{\partial q_j}
+=
+\sum_{i=1}^{N}m_i\dot{\mathbf{r}}_i\cdot
+\frac{\partial \dot{\mathbf{r}}_i}{\partial q_j}
+$$
+
+Thus,
+
+$$
+\sum_{i=1}^{N}m_i\dot{\mathbf{r}}_i\cdot \frac{d}{dt}\left(\frac{\partial \mathbf{r}_i}{\partial q_j}\right)
+=
+\frac{\partial T}{\partial q_j}
+$$
+
+Combining these results,
+
+$$
+\sum_{i=1}^{N}m_i\ddot{\mathbf{r}}_i\cdot \frac{\partial \mathbf{r}_i}{\partial q_j}
+=
+\frac{d}{dt}\left(\frac{\partial T}{\partial \dot{q}_j}\right)
+-
+\frac{\partial T}{\partial q_j}
+$$
+
+Substitute this into D’Alembert’s principle:
+
+$$
+\sum_{j=1}^{n}
+\left[
+Q_j-
+\frac{d}{dt}\left(\frac{\partial T}{\partial \dot{q}_j}\right)
++
+\frac{\partial T}{\partial q_j}
+\right]\delta q_j=0
+$$
+
+Since the generalized virtual displacements $\delta q_j$ are independent and arbitrary, each coefficient must vanish:
+
+$$
+Q_j-
+\frac{d}{dt}\left(\frac{\partial T}{\partial \dot{q}_j}\right)
++
+\frac{\partial T}{\partial q_j}=0
+$$
+
+Therefore,
+
+$$
+\frac{d}{dt}\left(\frac{\partial T}{\partial \dot{q}_j}\right)
+-
+\frac{\partial T}{\partial q_j}
+=
+Q_j
+$$
+
+This is the general form of Lagrange’s equation in terms of kinetic energy and generalized force.
+
+If the applied forces are conservative, then there exists a potential energy $V(q_1,q_2,\dots,q_n,t)$ such that
+
+$$
+Q_j=-\frac{\partial V}{\partial q_j}
+$$
+
+Hence,
+
+$$
+\frac{d}{dt}\left(\frac{\partial T}{\partial \dot{q}_j}\right)
+-
+\frac{\partial T}{\partial q_j}
+=
+-\frac{\partial V}{\partial q_j}
+$$
+
+Rearranging,
+
+$$
+\frac{d}{dt}\left(\frac{\partial T}{\partial \dot{q}_j}\right)
+-
+\frac{\partial T}{\partial q_j}
++
+\frac{\partial V}{\partial q_j}=0
+$$
+
+Define the Lagrangian as
+
+$$
+L=T-V
+$$
+
+If $V$ does not depend on generalized velocities, then
+
+$$
+\frac{\partial L}{\partial \dot{q}_j}
+=
+\frac{\partial T}{\partial \dot{q}_j}
+$$
+
+and
+
+$$
+\frac{\partial L}{\partial q_j}
+=
+\frac{\partial T}{\partial q_j}
+-
+\frac{\partial V}{\partial q_j}
+$$
+
+Therefore,
+
+$$
+\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}_j}\right)
+-
+\frac{\partial L}{\partial q_j}=0
+$$
+
+Hence, the final form of Lagrange’s equation is
+
+$$
+\boxed{
+\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}_j}\right)
+-
+\frac{\partial L}{\partial q_j}=0
+}
+\qquad j=1,2,\dots,n
+$$
+
+This equation replaces Newton’s vector equation by a coordinate-independent scalar equation. Its main advantage is that constraint forces need not be calculated explicitly, provided the constraints are already built into the generalized coordinates.
+
 #### 3. Simple Applications of Lagrange’s Equations
 
 ##### 3.1 Simple Pendulum
