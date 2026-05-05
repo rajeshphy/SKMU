@@ -10,6 +10,7 @@ tags: Additional-Resources
 
 [PRACTICALS](/SKMU/Practical/)
 
+[Free Science Journals](/SKMU/free-science-journals/)
 
 ---
 Supplementary resources for the course are provided below. These resources include textbooks, research papers, and other materials that may be of interest to students.
