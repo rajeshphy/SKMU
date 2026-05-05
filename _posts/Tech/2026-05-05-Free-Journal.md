@@ -12,10 +12,6 @@ A good undergraduate science reader should be clear, conceptually rich, reliable
 
 <div style="max-width:900px; margin:28px auto; padding:28px; border-radius:22px; background:linear-gradient(135deg,#f8fafc,#eef2ff); box-shadow:0 18px 45px rgba(15,23,42,0.12); border:1px solid #e2e8f0; font-family:Arial, sans-serif;">
 
-  <h2 style="margin-top:0; text-align:center; color:#1e293b; font-size:28px; letter-spacing:-0.5px;">
-    Journals & Science Magazines
-  </h2>
-
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:18px;">
 
   <div style="height:100%; padding:18px 20px; border-radius:18px; background:#ffffff; border:1px solid #cffafe; box-shadow:0 8px 22px rgba(8,145,178,0.08);">
