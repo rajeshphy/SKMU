@@ -14,32 +14,6 @@ A good undergraduate science reader should be clear, conceptually rich, reliable
 
 <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:18px;">
 
-  <div style="height:100%; padding:18px 20px; border-radius:18px; background:#ffffff; border:1px solid #cffafe; box-shadow:0 8px 22px rgba(8,145,178,0.08);">
-    <a href="https://science.nasa.gov/earth/earth-observatory/" target="_blank" style="display:inline-block; margin-bottom:8px; font-size:22px; font-weight:800; line-height:1.25; color:#0891b2; text-decoration:none;">
-      NASA Earth Observatory
-    </a>
-    <p style="margin:0; font-size:14px; color:#475569; line-height:1.6;">
-      Highly visual and accessible science reading based on satellite images, Earth systems, climate, weather, oceans, landforms, and environmental change.
-    </p>
-  </div>
-
-  <div style="height:100%; padding:18px 20px; border-radius:18px; background:#ffffff; border:1px solid #ede9fe; box-shadow:0 8px 22px rgba(109,40,217,0.08);">
-    <a href="https://www.quantamagazine.org/" target="_blank" style="display:inline-block; margin-bottom:8px; font-size:22px; font-weight:800; line-height:1.25; color:#6d28d9; text-decoration:none;">
-      Quanta Magazine
-    </a>
-    <p style="margin:0; font-size:14px; color:#475569; line-height:1.6;">
-      Broad, beautifully written science articles on mathematics, physics, computer science, biology, complexity, and fundamental ideas.
-    </p>
-  </div>
-
-  <div style="height:100%; padding:18px 20px; border-radius:18px; background:#ffffff; border:1px solid #e2e8f0; box-shadow:0 8px 22px rgba(51,65,85,0.08);">
-    <a href="https://knowablemagazine.org/" target="_blank" style="display:inline-block; margin-bottom:8px; font-size:22px; font-weight:800; line-height:1.25; color:#334155; text-decoration:none;">
-      Knowable Magazine
-    </a>
-    <p style="margin:0; font-size:14px; color:#475569; line-height:1.6;">
-      General science articles based on review-level scholarship, covering biology, health, environment, society, technology, and physical sciences.
-    </p>
-  </div>
 
   <div style="height:100%; padding:18px 20px; border-radius:18px; background:#ffffff; border:1px solid #fef3c7; box-shadow:0 8px 22px rgba(180,83,9,0.08);">
     <a href="https://www.scienceinschool.org/" target="_blank" style="display:inline-block; margin-bottom:8px; font-size:22px; font-weight:800; line-height:1.25; color:#b45309; text-decoration:none;">
@@ -59,6 +33,17 @@ A good undergraduate science reader should be clear, conceptually rich, reliable
     </p>
   </div>
 
+
+<div style="height:100%; padding:18px 20px; border-radius:18px; background:#ffffff; border:1px solid #ede9fe; box-shadow:0 8px 22px rgba(109,40,217,0.08);">
+    <a href="https://www.quantamagazine.org/" target="_blank" style="display:inline-block; margin-bottom:8px; font-size:22px; font-weight:800; line-height:1.25; color:#6d28d9; text-decoration:none;">
+      Quanta Magazine
+    </a>
+    <p style="margin:0; font-size:14px; color:#475569; line-height:1.6;">
+      Broad, beautifully written science articles on mathematics, physics, computer science, biology, complexity, and fundamental ideas.
+    </p>
+  </div>
+
+
   <div style="height:100%; padding:18px 20px; border-radius:18px; background:#ffffff; border:1px solid #dbeafe; box-shadow:0 8px 22px rgba(30,64,175,0.08);">
     <a href="https://www.ias.ac.in/Journals/Resonance_Journal_of_Science_Education/" target="_blank" style="display:inline-block; margin-bottom:8px; font-size:22px; font-weight:800; line-height:1.25; color:#1d4ed8; text-decoration:none;">
       Resonance – Journal of Science Education
@@ -68,14 +53,6 @@ A good undergraduate science reader should be clear, conceptually rich, reliable
     </p>
   </div>
 
-  <div style="height:100%; padding:18px 20px; border-radius:18px; background:#ffffff; border:1px solid #dcfce7; box-shadow:0 8px 22px rgba(22,101,52,0.08);">
-    <a href="https://currentscience.info/" target="_blank" style="display:inline-block; margin-bottom:8px; font-size:22px; font-weight:800; line-height:1.25; color:#15803d; text-decoration:none;">
-      Current Science
-    </a>
-    <p style="margin:0; font-size:14px; color:#475569; line-height:1.6;">
-      Broad scientific journal covering research news, reviews, commentary, correspondence, Indian science, and developments across many scientific disciplines.
-    </p>
-  </div>
 
   <div style="height:100%; padding:18px 20px; border-radius:18px; background:#ffffff; border:1px solid #fae8ff; box-shadow:0 8px 22px rgba(126,34,206,0.08);">
     <a href="https://physics.aps.org/" target="_blank" style="display:inline-block; margin-bottom:8px; font-size:22px; font-weight:800; line-height:1.25; color:#7e22ce; text-decoration:none;">
@@ -119,6 +96,24 @@ A good undergraduate science reader should be clear, conceptually rich, reliable
     </a>
     <p style="margin:0; font-size:14px; color:#475569; line-height:1.6;">
       More advanced and abstract mathematical reading, including essays, reviews, historical discussions, professional commentary, and research culture.
+    </p>
+  </div>
+
+    <div style="height:100%; padding:18px 20px; border-radius:18px; background:#ffffff; border:1px solid #dcfce7; box-shadow:0 8px 22px rgba(22,101,52,0.08);">
+    <a href="https://currentscience.info/" target="_blank" style="display:inline-block; margin-bottom:8px; font-size:22px; font-weight:800; line-height:1.25; color:#15803d; text-decoration:none;">
+      Current Science
+    </a>
+    <p style="margin:0; font-size:14px; color:#475569; line-height:1.6;">
+      Broad scientific journal covering research news, reviews, commentary, correspondence, Indian science, and developments across many scientific disciplines.
+    </p>
+  </div>
+
+  <div style="height:100%; padding:18px 20px; border-radius:18px; background:#ffffff; border:1px solid #cffafe; box-shadow:0 8px 22px rgba(8,145,178,0.08);">
+    <a href="https://science.nasa.gov/earth/earth-observatory/" target="_blank" style="display:inline-block; margin-bottom:8px; font-size:22px; font-weight:800; line-height:1.25; color:#0891b2; text-decoration:none;">
+      NASA Earth Observatory
+    </a>
+    <p style="margin:0; font-size:14px; color:#475569; line-height:1.6;">
+      Highly visual and accessible science reading based on satellite images, Earth systems, climate, weather, oceans, landforms, and environmental change.
     </p>
   </div>
 
