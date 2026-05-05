@@ -117,6 +117,15 @@ A good undergraduate science reader should be clear, conceptually rich, reliable
     </p>
   </div>
 
+  <div style="height:100%; padding:18px 20px; border-radius:18px; background:#ffffff; border:1px solid #e0f2fe; box-shadow:0 8px 22px rgba(2,132,199,0.08);">
+  <a href="https://www.nature.com/nature/articles" target="_blank" style="display:inline-block; margin-bottom:8px; font-size:22px; font-weight:800; line-height:1.25; color:#0369a1; text-decoration:none;">
+    Nature
+  </a>
+  <p style="margin:0; font-size:14px; color:#475569; line-height:1.6;">
+    One of the world’s most influential broad science journals, useful for following current trends, research highlights, news, reviews, and major developments across physics, biology, chemistry, climate science, medicine, technology, and interdisciplinary science.
+  </p>
+</div>
+
 </div>
 
 </div>
