@@ -259,7 +259,7 @@ $$
 If the new Hamiltonian is chosen to vanish,
 
 $$
-K=K(p,Q)=0
+K=K(Q,p)=0
 $$
 
 then the condition
