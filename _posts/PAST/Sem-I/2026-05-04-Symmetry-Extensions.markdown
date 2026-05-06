@@ -968,91 +968,11 @@ $$
 
 Thus the small-angle pendulum becomes uniform phase motion in action-angle variables.
 
-## Unified interpretation
 
-The three examples show the same structure.
-
-For the harmonic oscillator,
-
-$$
-K(J)=\omega J,
-\qquad
-\dot J=0,
-\qquad
-\dot\theta=\omega.
-$$
-
-For a general one-dimensional potential well,
-
-$$
-K(J)=E(J),
-\qquad
-\dot J=0,
-\qquad
-\dot\theta=\frac{dE}{dJ}=\frac{2\pi}{T}.
-$$
-
-For the small-angle pendulum,
-
-$$
-K(J)=\omega J,
-\qquad
-\omega=\sqrt{\frac{g}{l}},
-\qquad
-\dot J=0,
-\qquad
-\dot\theta=\omega.
-$$
-
-Therefore the common result is
-
-$$
-\boxed{
-\dot J=0,
-\qquad
-\dot\theta=\omega.
-}
-$$
-
-The meaning is clear:
-
-- $J$ is constant because the system remains on the same closed phase-space orbit,
-- $\theta$ increases uniformly because it measures the running phase of the periodic motion,
-- the original motion may look complicated, but in action-angle variables it becomes simple.
-
-Thus action-angle variables are a special canonical coordinate system in which bounded periodic motion takes its simplest possible form.
-
-## Final connection between symmetry and action-angle variables
-
-The discussion of symmetry and the discussion of action-angle variables are connected by the same canonical idea. A generator produces a canonical flow in phase space. If the generator leaves the Hamiltonian invariant, it becomes conserved. In action-angle variables, the action $J$ is conserved because the transformed Hamiltonian does not depend on its conjugate angle $\theta$.
-
-This is another example of the general rule:
-
-$$
-\text{absence of a coordinate from the Hamiltonian}
-\quad\Longrightarrow\quad
-\text{conservation of its conjugate momentum}.
-$$
-
-Since
-
-$$
-K=K(J)
-$$
-
-and there is no $\theta$ dependence,
-
-$$
-\dot J=-\frac{\partial K}{\partial \theta}=0.
-$$
-
-Therefore the conservation of $J$ follows from the cyclic nature of the angle variable.
-
-In this way, action-angle variables also express a symmetry principle: uniform advance in angle corresponds to conservation of the action.
 
 ## Practice questions
 
-1. Starting from
+Q1. Starting from
 
 $$
 F_2(q_i,P_i,t)=\sum_i q_iP_i+\varepsilon G(q_i,P_i,t),
@@ -1060,17 +980,17 @@ $$
 
 derive the infinitesimal canonical transformation formulas.
 
-2. Prove that for any phase-space function $f(q_i,p_i,t)$,
+Q2. Prove that for any phase-space function $f(q_i,p_i,t)$,
 
 $$
 \delta f=\varepsilon\{f,G\}.
 $$
 
-3. Show explicitly that choosing $G=H$ and $\varepsilon=dt$ reproduces Hamilton's equations.
+Q3. Show explicitly that choosing $G=H$ and $\varepsilon=dt$ reproduces Hamilton's equations.
 
-4. Explain why the Hamiltonian is called the generator of time translation.
+Q4. Explain why the Hamiltonian is called the generator of time translation.
 
-5. If $G$ has no explicit time dependence and satisfies
+Q5. If $G$ has no explicit time dependence and satisfies
 
 $$
 \{G,H\}=0,
@@ -1078,38 +998,38 @@ $$
 
 show that $G$ is conserved.
 
-6. Show that momentum generates spatial translation.
+Q6. Show that momentum generates spatial translation.
 
-7. Show that $L_z=xp_y-yp_x$ generates rotation about the $z$-axis.
+Q7. Show that $L_z=xp_y-yp_x$ generates rotation about the $z$-axis.
 
-8. Explain why translational symmetry gives conservation of momentum.
+Q8. Explain why translational symmetry gives conservation of momentum.
 
-9. Explain why rotational symmetry gives conservation of angular momentum.
+Q9. Explain why rotational symmetry gives conservation of angular momentum.
 
-10. For the harmonic oscillator, show that
+Q10. For the harmonic oscillator, show that
 
 $$
 J=\frac{E}{\omega}.
 $$
 
-11. For a general one-dimensional potential well, prove that
+Q11. For a general one-dimensional potential well, prove that
 
 $$
 \frac{dJ}{dE}=\frac{T}{2\pi}.
 $$
 
-12. Hence prove that
+Q12. Hence prove that
 
 $$
 \dot\theta=\frac{dE}{dJ}=\frac{2\pi}{T}.
 $$
 
-13. For the small-angle pendulum, show that
+Q13. For the small-angle pendulum, show that
 
 $$
 J=E\sqrt{\frac{l}{g}}.
 $$
 
-14. Explain why action-angle variables convert bounded periodic motion into uniform phase motion.
+Q14. Explain why action-angle variables convert bounded periodic motion into uniform phase motion.
 
-15. Explain the statement: conserved quantities are generators of continuous canonical symmetries.
+Q15. Explain the statement: conserved quantities are generators of continuous canonical symmetries.
