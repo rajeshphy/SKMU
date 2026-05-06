@@ -259,7 +259,7 @@ $$
 If the new Hamiltonian is chosen to vanish,
 
 $$
-K=0
+K=K(p,Q)=0
 $$
 
 then the condition
@@ -285,7 +285,7 @@ $$
 and because $K=0$, Hamilton’s equations in the new variables give
 
 $$
-\dot P_i=0, \qquad \dot Q_i=0
+\dot p_i=0, \qquad \dot Q_i=0
 $$
 
 Hence both $\alpha_i$ and $\beta_i$ are constants.
