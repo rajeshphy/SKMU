@@ -75,6 +75,79 @@ $$
 The non-commutativity of $J_x$, $J_y$, and $J_z$ is the algebraic shadow of the non-commutativity of rotations in three-dimensional space.
 </div>
 
+
+
+<div style="background:#f0fdfa; border:1px solid #0f766e; padding:1rem 1.2rem; border-radius:12px; margin:1.2rem 0;">
+When you do a tiny $x$-rotation and a tiny $y$-rotation, then try to undo them, the system does not return exactly to the starting orientation. The leftover effect is very small, of order $d\alpha d\beta$. This leftover cannot be a rotation about $x$ or $y$, because the first-order $x$ and $y$ effects have already been undone. The only possible remaining infinitesimal rotation is about the third perpendicular axis, $z$.
+
+So instead of writing abruptly,
+
+$$
+K=U_z(d\alpha d\beta),
+$$
+
+write it like this:
+
+The product
+
+$$
+K=U_y^{-1}U_x^{-1}U_yU_x
+$$
+
+means:<br>
+
+1. rotate slightly about $x$,<br>
+2. rotate slightly about $y$,<br>
+3. undo the $x$-rotation,<br>
+4. undo the $y$-rotation.<br>
+
+If rotations commuted, this closed operation would give the identity:
+
+$$
+K=1.
+$$
+
+But 3D rotations do not commute, so a small residual rotation remains. Since the residual effect is produced by mixing an $x$-rotation and a $y$-rotation, the right-hand rule says the leftover rotation is about the $z$-axis. Therefore the closed operation has the form
+
+$$
+K=1-\frac{i}{\hbar}J_z\,d\gamma.
+$$
+
+The angle of this residual rotation is second order, because it appears only from the combined effect of the two small rotations:
+
+$$
+d\gamma \sim d\alpha d\beta.
+$$
+
+With the chosen convention,
+
+$$
+d\gamma=d\alpha d\beta.
+$$
+
+Hence
+
+$$
+K=U_z(d\alpha d\beta)=1-\frac{i}{\hbar}J_z\,d\alpha d\beta.
+$$
+
+So the intuitive meaning is:
+
+A tiny $x$-rotation followed around a tiny $y$-rotation loop leaves behind a tiny $z$-rotation.
+
+That is why the algebra becomes
+
+$$
+[J_x,J_y]\propto J_z.
+$$
+
+The commutator of the generators remembers the small leftover rotation produced by the non-commutativity of the rotation group.
+
+</div>
+
+
+
+
 ## Eigenvalues, $J^2$ and $J_z$, and Ladder Structure
 
 Because $J_x$, $J_y$, and $J_z$ do not commute, they cannot be simultaneously sharp. The operator
