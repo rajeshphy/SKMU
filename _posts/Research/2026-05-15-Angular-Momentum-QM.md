@@ -258,8 +258,8 @@ $$
 
 Two complete bases are used:
 
-- **Uncoupled basis**: $|l,m_l\rangle|s,m_s\rangle$, diagonalizing $L^2,L_z,S^2,S_z$.
-- **Coupled basis**: $|l,s;j,m\rangle$, diagonalizing $L^2,S^2,J^2,J_z$.
+- **Uncoupled basis**: $\|l,m_l\rangle\|s,m_s\rangle$, diagonalizing $L^2,L_z,S^2,S_z$.
+- **Coupled basis**: $\|l,s;j,m\rangle$, diagonalizing $L^2,S^2,J^2,J_z$.
 
 The allowed total $j$ values are
 
