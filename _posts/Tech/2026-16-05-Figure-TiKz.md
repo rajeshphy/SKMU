@@ -213,29 +213,98 @@ Request <strong>compilable TikZ code</strong>, not “an image.”
   </div>
 </div>
 
-<div style="background:#ecfdf5; border:1px solid #bbf7d0; padding:16px 16px; border-radius:14px; box-shadow:0 6px 18px rgba(22,101,52,0.06); margin:16px 0;">
-  <div style="font-weight:900; color:#166534; margin-bottom:10px;">Example 6: Rutherford Scattering Geometry</div>
+<div style="background:#ecfdf5; border:1px solid #bbf7d0; padding:18px; border-radius:14px; box-shadow:0 6px 18px rgba(22,101,52,0.06); margin:16px 0;">
+  <div style="font-weight:900; color:#166534; margin-bottom:10px;">
+    Example 6: Rutherford Scattering Geometry
+  </div>
+
   <div style="line-height:1.65; color:#166534;">
-    Act as an expert physics illustrator and LaTeX TikZ/PGF diagram designer.<br>
-    Generate a clean TikZ diagram for a nuclear physics scattering problem.<br><br>
+    <strong>Role:</strong><br>
+    Act as an expert nuclear physics illustrator and LaTeX TikZ/PGF diagram designer. Generate a clean, publication-quality black-and-white TikZ diagram for Rutherford scattering.<br><br>
 
     <strong>Problem:</strong><br>
-    An alpha particle approaches a heavy nucleus with impact parameter b and is scattered through an angle theta. Show the incident path, scattered path, impact parameter, and scattering angle.<br><br>
+    An alpha particle approaches a heavy nucleus with impact parameter <em>b</em> and is scattered through an angle <em>theta</em>. Show the incoming asymptotic direction, smooth Coulomb-deflected trajectory, impact parameter <em>b</em>, forward reference direction, scattering angle <em>theta</em>, and outgoing scattered direction clearly.<br><br>
+
+    <strong>Image assets:</strong>
+    <ol style="margin:8px 0 0 18px; padding:0; line-height:1.6;">
+      <li>Use nucleus.png for the heavy nucleus.</li>
+      <li>Use alpha.png for the alpha particle.</li>
+      <li>Assume both image files are placed in the same folder as the .tex file.</li>
+      <li>Include \usepackage{graphicx}.</li>
+    </ol><br>
+
+    <strong>Main correction required:</strong><br>
+    The trajectory must look like a natural repulsive Coulomb-scattering orbit. It must not look like a wave, an S-shaped bend, or a straight line suddenly joined to a curve. The alpha particle should be smoothly repelled by the nucleus, not drawn as if it first dips toward the nucleus and then turns away.<br><br>
+
+    <strong>Strict trajectory rules:</strong>
+    <ol style="margin:8px 0 0 18px; padding:0; line-height:1.6;">
+      <li>Draw the complete alpha-particle path as one single smooth continuous Bézier curve.</li>
+      <li>The incoming branch should approach horizontally from the far left at height <em>b</em>.</li>
+      <li>The bending should begin gradually before the closest-approach region.</li>
+      <li>The particle must bend away from the nucleus due to repulsive Coulomb interaction.</li>
+      <li>The curve should pass above or beside the nucleus without crossing the nucleus icon.</li>
+      <li>The closest-approach region should be smooth, convex, and free from kinks.</li>
+      <li>The outgoing branch should smoothly approach an upward-right asymptotic direction.</li>
+      <li>The outgoing arrowhead must be tangent to the final curved segment.</li>
+      <li>Do not add a separate straight outgoing arrow unless it is exactly tangent and visually seamless.</li>
+      <li>Do not allow any sharp corner, cusp, visible join, or unnatural downward dip near the nucleus.</li>
+    </ol><br>
 
     <strong>Diagram requirements:</strong>
     <ol style="margin:8px 0 0 18px; padding:0; line-height:1.6;">
-      <li>Place a heavy nucleus at the origin.</li>
-      <li>Draw the incoming alpha particle trajectory from the left.</li>
-      <li>Show the impact parameter b as the perpendicular distance from the initial line to the nucleus.</li>
-      <li>Draw the outgoing scattered trajectory.</li>
-      <li>Mark the scattering angle theta between the initial direction and final direction.</li>
-      <li>Label the alpha particle and nucleus.</li>
-      <li>Use dashed construction lines where necessary.</li>
-      <li>Use clean arrows for direction of motion.</li>
-      <li>Use black-and-white textbook style.</li>
-      <li>Output complete standalone LaTeX TikZ code.</li>
-      <li>Output only the code.</li>
-    </ol>
+      <li>Use the standalone document class.</li>
+      <li>Place the heavy nucleus at the origin using \includegraphics{nucleus.png}.</li>
+      <li>Label the nucleus as <strong>heavy nucleus</strong> below the icon with enough spacing.</li>
+      <li>Place an alpha.png icon near the incoming branch and label it as <em>alpha particle</em>.</li>
+      <li>Place a rotated alpha.png icon along the outgoing branch.</li>
+      <li>Label the outgoing direction as <strong>scattered path</strong> near the final arrowhead.</li>
+      <li>Show the impact parameter <em>b</em> as a vertical double-arrow from the nucleus level to the incoming asymptote.</li>
+      <li>Place the label <em>b</em> beside the double-arrow, away from the nucleus label.</li>
+      <li>Draw a dashed horizontal forward reference line on the right side only.</li>
+      <li>The forward reference line must start from a point on the outgoing asymptotic region, not from the nucleus.</li>
+      <li>Mark <em>theta</em> between the forward reference line and the outgoing tangent direction.</li>
+      <li>Place the angle arc on the right side, away from the nucleus and away from the closest-approach region.</li>
+      <li>Use clean black lines, proper Stealth arrowheads, and minimal dashed construction lines.</li>
+      <li>Use a spacious academic textbook style.</li>
+    </ol><br>
+
+    <strong>Suggested Bézier construction:</strong>
+    <pre style="background:#f0fdf4; border:1px solid #bbf7d0; padding:10px; border-radius:10px; overflow:auto; color:#166534; line-height:1.45; margin-top:8px;">\draw[curvepath]
+(-5.5,1.4)
+.. controls (-4.0,1.4) and (-2.5,1.42) .. (-1.45,1.35)
+.. controls (-0.65,1.25) and (-0.15,1.05) .. (0.25,1.12)
+.. controls (1.25,1.32) and (2.8,2.25) .. (4.8,3.25);</pre>
+
+    <strong>Preferred visual layout:</strong>
+    <ol style="margin:8px 0 0 18px; padding:0; line-height:1.6;">
+      <li>Nucleus at <em>(0,0)</em>.</li>
+      <li>Incoming asymptote at height <em>b</em> above the nucleus.</li>
+      <li>Incoming branch approaches horizontally from the far left.</li>
+      <li>Deflection begins gradually before the closest-approach region.</li>
+      <li>The curve passes above or beside the nucleus without touching it.</li>
+      <li>The outgoing direction goes upward to the right as the natural tangent of the same curve.</li>
+      <li>The scattering angle is drawn clearly on the right side between the forward reference line and the outgoing tangent direction.</li>
+    </ol><br>
+
+    <strong>Label-placement rules:</strong>
+    <ol style="margin:8px 0 0 18px; padding:0; line-height:1.6;">
+      <li>Do not place labels inside the nucleus.</li>
+      <li>Do not place labels on top of the trajectory, alpha icons, construction lines, or angle arc.</li>
+      <li>Do not place <em>theta</em> too close to the nucleus.</li>
+      <li>Use white-filled label backgrounds through a labelstyle.</li>
+    </ol><br>
+
+    <strong>Technical requirements:</strong>
+    <ol style="margin:8px 0 0 18px; padding:0; line-height:1.6;">
+      <li>Use \documentclass[tikz,border=6pt]{standalone}.</li>
+      <li>Use \usetikzlibrary{arrows.meta, angles, quotes, calc}.</li>
+      <li>Define styles for trajectory, reference, measure, curvepath, and labelstyle.</li>
+      <li>Do not use below=0.48cm of O unless the positioning library is loaded.</li>
+      <li>Prefer coordinate-based placement, such as \node[labelstyle] at ($(O)+(0,-0.75)$) {heavy nucleus};.</li>
+    </ol><br>
+
+    <strong>Output:</strong><br>
+    Output complete compilable standalone LaTeX TikZ code only. Do not explain the code.
   </div>
 </div>
 
